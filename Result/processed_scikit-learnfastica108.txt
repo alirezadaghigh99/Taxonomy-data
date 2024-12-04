@@ -1,0 +1,739 @@
+output file:
+processed_scikit-learnfastica108.json
+function:
+fastica
+Error Cases:
+
+Pass or Failed: 0
+
+Related Failed Test Cases:
+{'../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_non_square_fastica[True] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-False-False] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-False-arbitrary-variance] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-True-arbitrary-variance] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-True-False]', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_errors FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-False-unit-variance] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-False-False] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-True-False] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-False-unit-variance]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-True-arbitrary-variance]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple[float64-42-False]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-True-arbitrary-variance]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-False-arbitrary-variance]', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-True-unit-variance] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple[float64-42-True] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-True-False]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple[float64-42-True]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_non_square_fastica[False]', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_non_square_fastica[False] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-True-unit-variance] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-True-arbitrary-variance] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-True-unit-variance]', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple[float64-42-False] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-False-False]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_errors', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-False-False]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_non_square_fastica[True]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-True-unit-variance]', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-True-False] FAILED'}
+
+All Test Cases On Generated code:
+============================= test session starts ==============================
+platform linux -- Python 3.9.0, pytest-8.3.3, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/scikit-learn/scikit-learn/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /local/data0/moved_data/publishablew/scikit-learn/scikit-learn
+configfile: setup.cfg
+plugins: cov-6.0.0
+collecting ... collected 44 items
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_gs I: Seeding RNGs with 1280937885
+PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_attributes_dtypes[float32] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_attributes_dtypes[float64] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_return_dtypes[float32] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_return_dtypes[float64] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple[float32-42-True] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple[float32-42-False] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple[float64-42-True] FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple[float64-42-False] FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_nowhiten PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_convergence_fail PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_non_square_fastica[True] FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_non_square_fastica[False] FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fit_transform[float32-42] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fit_transform[float64-42] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float32-42-arbitrary-variance-5-expected_mixing_shape0] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float32-42-arbitrary-variance-10-expected_mixing_shape1] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float32-42-unit-variance-5-expected_mixing_shape2] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float32-42-unit-variance-10-expected_mixing_shape3] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float32-42-False-5-expected_mixing_shape4] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float32-42-False-10-expected_mixing_shape5] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float64-42-arbitrary-variance-5-expected_mixing_shape0] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float64-42-arbitrary-variance-10-expected_mixing_shape1] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float64-42-unit-variance-5-expected_mixing_shape2] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float64-42-unit-variance-10-expected_mixing_shape3] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float64-42-False-5-expected_mixing_shape4] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float64-42-False-10-expected_mixing_shape5] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_errors FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_whiten_unit_variance PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-True-arbitrary-variance] FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-True-unit-variance] FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-True-False] FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-False-arbitrary-variance] FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-False-unit-variance] FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-False-False] FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-True-arbitrary-variance] FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-True-unit-variance] FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-True-False] FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-False-arbitrary-variance] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-False-unit-variance] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-False-False] FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple_different_solvers[42-True] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple_different_solvers[42-False] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_eigh_low_rank_warning[42] PASSED
+
+=================================== FAILURES ===================================
+_____________________ test_fastica_simple[float64-42-True] _____________________
+
+add_noise = True, global_random_seed = 42
+global_dtype = <class 'numpy.float64'>
+
+    @pytest.mark.parametrize("add_noise", [True, False])
+    def test_fastica_simple(add_noise, global_random_seed, global_dtype):
+        if (
+            global_random_seed == 20
+            and global_dtype == np.float32
+            and not add_noise
+            and os.getenv("DISTRIB") == "ubuntu"
+        ):
+            pytest.xfail(
+                "FastICA instability with Ubuntu Atlas build with float32 "
+                "global_dtype. For more details, see "
+                "https://github.com/scikit-learn/scikit-learn/issues/24131#issuecomment-1208091119"  # noqa
+            )
+    
+        # Test the FastICA algorithm on very simple data.
+        rng = np.random.RandomState(global_random_seed)
+        n_samples = 1000
+        # Generate two sources:
+        s1 = (2 * np.sin(np.linspace(0, 100, n_samples)) > 0) - 1
+        s2 = stats.t.rvs(1, size=n_samples, random_state=global_random_seed)
+        s = np.c_[s1, s2].T
+        center_and_norm(s)
+        s = s.astype(global_dtype)
+        s1, s2 = s
+    
+        # Mixing angle
+        phi = 0.6
+        mixing = np.array([[np.cos(phi), np.sin(phi)], [np.sin(phi), -np.cos(phi)]])
+        mixing = mixing.astype(global_dtype)
+        m = np.dot(mixing, s)
+    
+        if add_noise:
+            m += 0.1 * rng.randn(2, 1000)
+    
+        center_and_norm(m)
+    
+        # function as fun arg
+        def g_test(x):
+            return x**3, (3 * x**2).mean(axis=-1)
+    
+        algos = ["parallel", "deflation"]
+        nls = ["logcosh", "exp", "cube", g_test]
+        whitening = ["arbitrary-variance", "unit-variance", False]
+        for algo, nl, whiten in itertools.product(algos, nls, whitening):
+            if whiten:
+                k_, mixing_, s_ = fastica(
+                    m.T, fun=nl, whiten=whiten, algorithm=algo, random_state=rng
+                )
+                with pytest.raises(ValueError):
+>                   fastica(m.T, fun=np.tanh, whiten=whiten, algorithm=algo)
+E                   Failed: DID NOT RAISE <class 'ValueError'>
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py:121: Failed
+____________________ test_fastica_simple[float64-42-False] _____________________
+
+add_noise = False, global_random_seed = 42
+global_dtype = <class 'numpy.float64'>
+
+    @pytest.mark.parametrize("add_noise", [True, False])
+    def test_fastica_simple(add_noise, global_random_seed, global_dtype):
+        if (
+            global_random_seed == 20
+            and global_dtype == np.float32
+            and not add_noise
+            and os.getenv("DISTRIB") == "ubuntu"
+        ):
+            pytest.xfail(
+                "FastICA instability with Ubuntu Atlas build with float32 "
+                "global_dtype. For more details, see "
+                "https://github.com/scikit-learn/scikit-learn/issues/24131#issuecomment-1208091119"  # noqa
+            )
+    
+        # Test the FastICA algorithm on very simple data.
+        rng = np.random.RandomState(global_random_seed)
+        n_samples = 1000
+        # Generate two sources:
+        s1 = (2 * np.sin(np.linspace(0, 100, n_samples)) > 0) - 1
+        s2 = stats.t.rvs(1, size=n_samples, random_state=global_random_seed)
+        s = np.c_[s1, s2].T
+        center_and_norm(s)
+        s = s.astype(global_dtype)
+        s1, s2 = s
+    
+        # Mixing angle
+        phi = 0.6
+        mixing = np.array([[np.cos(phi), np.sin(phi)], [np.sin(phi), -np.cos(phi)]])
+        mixing = mixing.astype(global_dtype)
+        m = np.dot(mixing, s)
+    
+        if add_noise:
+            m += 0.1 * rng.randn(2, 1000)
+    
+        center_and_norm(m)
+    
+        # function as fun arg
+        def g_test(x):
+            return x**3, (3 * x**2).mean(axis=-1)
+    
+        algos = ["parallel", "deflation"]
+        nls = ["logcosh", "exp", "cube", g_test]
+        whitening = ["arbitrary-variance", "unit-variance", False]
+        for algo, nl, whiten in itertools.product(algos, nls, whitening):
+            if whiten:
+                k_, mixing_, s_ = fastica(
+                    m.T, fun=nl, whiten=whiten, algorithm=algo, random_state=rng
+                )
+                with pytest.raises(ValueError):
+>                   fastica(m.T, fun=np.tanh, whiten=whiten, algorithm=algo)
+E                   Failed: DID NOT RAISE <class 'ValueError'>
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py:121: Failed
+________________________ test_non_square_fastica[True] _________________________
+
+add_noise = True
+
+    @pytest.mark.parametrize("add_noise", [True, False])
+    def test_non_square_fastica(add_noise):
+        # Test the FastICA algorithm on very simple data.
+        rng = np.random.RandomState(0)
+    
+        n_samples = 1000
+        # Generate two sources:
+        t = np.linspace(0, 100, n_samples)
+        s1 = np.sin(t)
+        s2 = np.ceil(np.sin(np.pi * t))
+        s = np.c_[s1, s2].T
+        center_and_norm(s)
+        s1, s2 = s
+    
+        # Mixing matrix
+        mixing = rng.randn(6, 2)
+        m = np.dot(mixing, s)
+    
+        if add_noise:
+            m += 0.1 * rng.randn(6, n_samples)
+    
+        center_and_norm(m)
+    
+>       k_, mixing_, s_ = fastica(
+            m.T, n_components=2, whiten="unit-variance", random_state=rng
+        )
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py:244: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:216: in wrapper
+    return func(*args, **kwargs)
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/_fastica.py:116: in fastica
+    return fastica(X, n_components)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+X = array([[-0.17730298, -0.91034658,  0.49486058,  0.15670471, -0.91730373,
+        -0.98203982],
+       [ 0.36598119,  1...,
+        -1.08273881],
+       [-0.38098599,  0.58863834, -1.11380021, -0.92497723,  0.97199087,
+         0.97730603]])
+n_components = 2, algorithm = 'parallel', whiten = 'unit-variance'
+fun = 'logcosh', fun_args = {}, max_iter = 200, tol = 0.0001
+w_init = array([[-0.72501581, -0.21383355],
+       [ 1.03583735, -0.15281675]])
+whiten_solver = 'svd', random_state = RandomState(MT19937) at 0x73C75B0AC840
+return_X_mean = False, compute_sources = True, return_n_iter = False
+
+    def fastica(X, n_components=None, algorithm='parallel', whiten='unit-variance', fun='logcosh', fun_args=None, max_iter=200, tol=0.0001, w_init=None, whiten_solver='svd', random_state=None, return_X_mean=False, compute_sources=True, return_n_iter=False):
+        if not isinstance(X, (np.ndarray, list)):
+            raise TypeError('X should be array-like.')
+        X = np.array(X)
+        n_samples, n_features = X.shape
+        if n_components is None:
+            n_components = n_features
+        if fun_args is None:
+            fun_args = {}
+        if fun == 'logcosh':
+            g = _logcosh
+        elif fun == 'exp':
+            g = _exp
+        elif fun == 'cube':
+            g = _cube
+        elif callable(fun):
+            g = fun
+        else:
+            raise ValueError('Invalid function for approximation to neg-entropy.')
+        random_state = check_random_state(random_state)
+        X_mean = X.mean(axis=0)
+        X -= X_mean
+        if whiten:
+            X_white, K = _whiten(X, whiten, whiten_solver)
+        else:
+            X_white = X
+            K = None
+        W = np.zeros((n_components, n_components), dtype=X.dtype)
+        if w_init is None:
+            w_init = random_state.normal(size=(n_components, n_components))
+        W = w_init.copy()
+        for i in range(max_iter):
+            if algorithm == 'parallel':
+>               gwtx, g_wtx = g(np.dot(W, X_white.T), **fun_args)
+E               ValueError: shapes (2,2) and (6,1000) not aligned: 2 (dim 1) != 6 (dim 0)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/temp.py:76: ValueError
+________________________ test_non_square_fastica[False] ________________________
+
+add_noise = False
+
+    @pytest.mark.parametrize("add_noise", [True, False])
+    def test_non_square_fastica(add_noise):
+        # Test the FastICA algorithm on very simple data.
+        rng = np.random.RandomState(0)
+    
+        n_samples = 1000
+        # Generate two sources:
+        t = np.linspace(0, 100, n_samples)
+        s1 = np.sin(t)
+        s2 = np.ceil(np.sin(np.pi * t))
+        s = np.c_[s1, s2].T
+        center_and_norm(s)
+        s1, s2 = s
+    
+        # Mixing matrix
+        mixing = rng.randn(6, 2)
+        m = np.dot(mixing, s)
+    
+        if add_noise:
+            m += 0.1 * rng.randn(6, n_samples)
+    
+        center_and_norm(m)
+    
+>       k_, mixing_, s_ = fastica(
+            m.T, n_components=2, whiten="unit-variance", random_state=rng
+        )
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py:244: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:216: in wrapper
+    return func(*args, **kwargs)
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/_fastica.py:116: in fastica
+    return fastica(X, n_components)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+X = array([[-0.22267876, -0.91644941,  0.46257822,  0.15580421, -0.96984176,
+        -0.99511531],
+       [ 0.35711866,  0...,
+        -1.07719641],
+       [-0.47725596,  0.62925823, -1.09918914, -0.86504474,  1.14496057,
+         0.92435813]])
+n_components = 2, algorithm = 'parallel', whiten = 'unit-variance'
+fun = 'logcosh', fun_args = {}, max_iter = 200, tol = 0.0001
+w_init = array([[ 0.17069083,  1.28797584],
+       [-0.91112874,  0.1228445 ]])
+whiten_solver = 'svd', random_state = RandomState(MT19937) at 0x73C75B0AC840
+return_X_mean = False, compute_sources = True, return_n_iter = False
+
+    def fastica(X, n_components=None, algorithm='parallel', whiten='unit-variance', fun='logcosh', fun_args=None, max_iter=200, tol=0.0001, w_init=None, whiten_solver='svd', random_state=None, return_X_mean=False, compute_sources=True, return_n_iter=False):
+        if not isinstance(X, (np.ndarray, list)):
+            raise TypeError('X should be array-like.')
+        X = np.array(X)
+        n_samples, n_features = X.shape
+        if n_components is None:
+            n_components = n_features
+        if fun_args is None:
+            fun_args = {}
+        if fun == 'logcosh':
+            g = _logcosh
+        elif fun == 'exp':
+            g = _exp
+        elif fun == 'cube':
+            g = _cube
+        elif callable(fun):
+            g = fun
+        else:
+            raise ValueError('Invalid function for approximation to neg-entropy.')
+        random_state = check_random_state(random_state)
+        X_mean = X.mean(axis=0)
+        X -= X_mean
+        if whiten:
+            X_white, K = _whiten(X, whiten, whiten_solver)
+        else:
+            X_white = X
+            K = None
+        W = np.zeros((n_components, n_components), dtype=X.dtype)
+        if w_init is None:
+            w_init = random_state.normal(size=(n_components, n_components))
+        W = w_init.copy()
+        for i in range(max_iter):
+            if algorithm == 'parallel':
+>               gwtx, g_wtx = g(np.dot(W, X_white.T), **fun_args)
+E               ValueError: shapes (2,2) and (6,1000) not aligned: 2 (dim 1) != 6 (dim 0)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/temp.py:76: ValueError
+_____________________________ test_fastica_errors ______________________________
+
+    def test_fastica_errors():
+        n_features = 3
+        n_samples = 10
+        rng = np.random.RandomState(0)
+        X = rng.random_sample((n_samples, n_features))
+        w_init = rng.randn(n_features + 1, n_features + 1)
+        with pytest.raises(ValueError, match=r"alpha must be in \[1,2\]"):
+>           fastica(X, fun_args={"alpha": 0})
+E           Failed: DID NOT RAISE <class 'ValueError'>
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py:368: Failed
+___________ test_fastica_output_shape[True-True-arbitrary-variance] ____________
+
+whiten = 'arbitrary-variance', return_X_mean = True, return_n_iter = True
+
+    @pytest.mark.parametrize("whiten", ["arbitrary-variance", "unit-variance", False])
+    @pytest.mark.parametrize("return_X_mean", [True, False])
+    @pytest.mark.parametrize("return_n_iter", [True, False])
+    def test_fastica_output_shape(whiten, return_X_mean, return_n_iter):
+        n_features = 3
+        n_samples = 10
+        rng = np.random.RandomState(0)
+        X = rng.random_sample((n_samples, n_features))
+    
+        expected_len = 3 + return_X_mean + return_n_iter
+    
+        out = fastica(
+            X, whiten=whiten, return_n_iter=return_n_iter, return_X_mean=return_X_mean
+        )
+    
+>       assert len(out) == expected_len
+E       AssertionError
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py:404: AssertionError
+______________ test_fastica_output_shape[True-True-unit-variance] ______________
+
+whiten = 'unit-variance', return_X_mean = True, return_n_iter = True
+
+    @pytest.mark.parametrize("whiten", ["arbitrary-variance", "unit-variance", False])
+    @pytest.mark.parametrize("return_X_mean", [True, False])
+    @pytest.mark.parametrize("return_n_iter", [True, False])
+    def test_fastica_output_shape(whiten, return_X_mean, return_n_iter):
+        n_features = 3
+        n_samples = 10
+        rng = np.random.RandomState(0)
+        X = rng.random_sample((n_samples, n_features))
+    
+        expected_len = 3 + return_X_mean + return_n_iter
+    
+        out = fastica(
+            X, whiten=whiten, return_n_iter=return_n_iter, return_X_mean=return_X_mean
+        )
+    
+>       assert len(out) == expected_len
+E       AssertionError
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py:404: AssertionError
+__________________ test_fastica_output_shape[True-True-False] __________________
+
+whiten = False, return_X_mean = True, return_n_iter = True
+
+    @pytest.mark.parametrize("whiten", ["arbitrary-variance", "unit-variance", False])
+    @pytest.mark.parametrize("return_X_mean", [True, False])
+    @pytest.mark.parametrize("return_n_iter", [True, False])
+    def test_fastica_output_shape(whiten, return_X_mean, return_n_iter):
+        n_features = 3
+        n_samples = 10
+        rng = np.random.RandomState(0)
+        X = rng.random_sample((n_samples, n_features))
+    
+        expected_len = 3 + return_X_mean + return_n_iter
+    
+        out = fastica(
+            X, whiten=whiten, return_n_iter=return_n_iter, return_X_mean=return_X_mean
+        )
+    
+>       assert len(out) == expected_len
+E       AssertionError
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py:404: AssertionError
+___________ test_fastica_output_shape[True-False-arbitrary-variance] ___________
+
+whiten = 'arbitrary-variance', return_X_mean = False, return_n_iter = True
+
+    @pytest.mark.parametrize("whiten", ["arbitrary-variance", "unit-variance", False])
+    @pytest.mark.parametrize("return_X_mean", [True, False])
+    @pytest.mark.parametrize("return_n_iter", [True, False])
+    def test_fastica_output_shape(whiten, return_X_mean, return_n_iter):
+        n_features = 3
+        n_samples = 10
+        rng = np.random.RandomState(0)
+        X = rng.random_sample((n_samples, n_features))
+    
+        expected_len = 3 + return_X_mean + return_n_iter
+    
+        out = fastica(
+            X, whiten=whiten, return_n_iter=return_n_iter, return_X_mean=return_X_mean
+        )
+    
+>       assert len(out) == expected_len
+E       AssertionError
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py:404: AssertionError
+_____________ test_fastica_output_shape[True-False-unit-variance] ______________
+
+whiten = 'unit-variance', return_X_mean = False, return_n_iter = True
+
+    @pytest.mark.parametrize("whiten", ["arbitrary-variance", "unit-variance", False])
+    @pytest.mark.parametrize("return_X_mean", [True, False])
+    @pytest.mark.parametrize("return_n_iter", [True, False])
+    def test_fastica_output_shape(whiten, return_X_mean, return_n_iter):
+        n_features = 3
+        n_samples = 10
+        rng = np.random.RandomState(0)
+        X = rng.random_sample((n_samples, n_features))
+    
+        expected_len = 3 + return_X_mean + return_n_iter
+    
+        out = fastica(
+            X, whiten=whiten, return_n_iter=return_n_iter, return_X_mean=return_X_mean
+        )
+    
+>       assert len(out) == expected_len
+E       AssertionError
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py:404: AssertionError
+_________________ test_fastica_output_shape[True-False-False] __________________
+
+whiten = False, return_X_mean = False, return_n_iter = True
+
+    @pytest.mark.parametrize("whiten", ["arbitrary-variance", "unit-variance", False])
+    @pytest.mark.parametrize("return_X_mean", [True, False])
+    @pytest.mark.parametrize("return_n_iter", [True, False])
+    def test_fastica_output_shape(whiten, return_X_mean, return_n_iter):
+        n_features = 3
+        n_samples = 10
+        rng = np.random.RandomState(0)
+        X = rng.random_sample((n_samples, n_features))
+    
+        expected_len = 3 + return_X_mean + return_n_iter
+    
+        out = fastica(
+            X, whiten=whiten, return_n_iter=return_n_iter, return_X_mean=return_X_mean
+        )
+    
+>       assert len(out) == expected_len
+E       AssertionError
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py:404: AssertionError
+___________ test_fastica_output_shape[False-True-arbitrary-variance] ___________
+
+whiten = 'arbitrary-variance', return_X_mean = True, return_n_iter = False
+
+    @pytest.mark.parametrize("whiten", ["arbitrary-variance", "unit-variance", False])
+    @pytest.mark.parametrize("return_X_mean", [True, False])
+    @pytest.mark.parametrize("return_n_iter", [True, False])
+    def test_fastica_output_shape(whiten, return_X_mean, return_n_iter):
+        n_features = 3
+        n_samples = 10
+        rng = np.random.RandomState(0)
+        X = rng.random_sample((n_samples, n_features))
+    
+        expected_len = 3 + return_X_mean + return_n_iter
+    
+        out = fastica(
+            X, whiten=whiten, return_n_iter=return_n_iter, return_X_mean=return_X_mean
+        )
+    
+>       assert len(out) == expected_len
+E       AssertionError
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py:404: AssertionError
+_____________ test_fastica_output_shape[False-True-unit-variance] ______________
+
+whiten = 'unit-variance', return_X_mean = True, return_n_iter = False
+
+    @pytest.mark.parametrize("whiten", ["arbitrary-variance", "unit-variance", False])
+    @pytest.mark.parametrize("return_X_mean", [True, False])
+    @pytest.mark.parametrize("return_n_iter", [True, False])
+    def test_fastica_output_shape(whiten, return_X_mean, return_n_iter):
+        n_features = 3
+        n_samples = 10
+        rng = np.random.RandomState(0)
+        X = rng.random_sample((n_samples, n_features))
+    
+        expected_len = 3 + return_X_mean + return_n_iter
+    
+        out = fastica(
+            X, whiten=whiten, return_n_iter=return_n_iter, return_X_mean=return_X_mean
+        )
+    
+>       assert len(out) == expected_len
+E       AssertionError
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py:404: AssertionError
+_________________ test_fastica_output_shape[False-True-False] __________________
+
+whiten = False, return_X_mean = True, return_n_iter = False
+
+    @pytest.mark.parametrize("whiten", ["arbitrary-variance", "unit-variance", False])
+    @pytest.mark.parametrize("return_X_mean", [True, False])
+    @pytest.mark.parametrize("return_n_iter", [True, False])
+    def test_fastica_output_shape(whiten, return_X_mean, return_n_iter):
+        n_features = 3
+        n_samples = 10
+        rng = np.random.RandomState(0)
+        X = rng.random_sample((n_samples, n_features))
+    
+        expected_len = 3 + return_X_mean + return_n_iter
+    
+        out = fastica(
+            X, whiten=whiten, return_n_iter=return_n_iter, return_X_mean=return_X_mean
+        )
+    
+>       assert len(out) == expected_len
+E       AssertionError
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py:404: AssertionError
+_________________ test_fastica_output_shape[False-False-False] _________________
+
+whiten = False, return_X_mean = False, return_n_iter = False
+
+    @pytest.mark.parametrize("whiten", ["arbitrary-variance", "unit-variance", False])
+    @pytest.mark.parametrize("return_X_mean", [True, False])
+    @pytest.mark.parametrize("return_n_iter", [True, False])
+    def test_fastica_output_shape(whiten, return_X_mean, return_n_iter):
+        n_features = 3
+        n_samples = 10
+        rng = np.random.RandomState(0)
+        X = rng.random_sample((n_samples, n_features))
+    
+        expected_len = 3 + return_X_mean + return_n_iter
+    
+        out = fastica(
+            X, whiten=whiten, return_n_iter=return_n_iter, return_X_mean=return_X_mean
+        )
+    
+        assert len(out) == expected_len
+        if not whiten:
+>           assert out[0] is None
+E           AssertionError
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py:406: AssertionError
+=========================== short test summary info ============================
+FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple[float64-42-True]
+FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple[float64-42-False]
+FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_non_square_fastica[True]
+FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_non_square_fastica[False]
+FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_errors
+FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-True-arbitrary-variance]
+FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-True-unit-variance]
+FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-True-False]
+FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-False-arbitrary-variance]
+FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-False-unit-variance]
+FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-False-False]
+FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-True-arbitrary-variance]
+FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-True-unit-variance]
+FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-True-False]
+FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-False-False]
+============ 15 failed, 18 passed, 11 skipped, 11 warnings in 0.68s ============
+
+
+Final Test Result:
+============================= test session starts ==============================
+platform linux -- Python 3.9.0, pytest-8.3.3, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/scikit-learn/scikit-learn/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /local/data0/moved_data/publishablew/scikit-learn/scikit-learn
+configfile: setup.cfg
+plugins: cov-6.0.0
+collecting ... collected 44 items
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_gs I: Seeding RNGs with 2090162657
+PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_attributes_dtypes[float32] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_attributes_dtypes[float64] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_return_dtypes[float32] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_return_dtypes[float64] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple[float32-42-True] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple[float32-42-False] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple[float64-42-True] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple[float64-42-False] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_nowhiten PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_convergence_fail PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_non_square_fastica[True] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_non_square_fastica[False] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fit_transform[float32-42] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fit_transform[float64-42] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float32-42-arbitrary-variance-5-expected_mixing_shape0] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float32-42-arbitrary-variance-10-expected_mixing_shape1] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float32-42-unit-variance-5-expected_mixing_shape2] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float32-42-unit-variance-10-expected_mixing_shape3] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float32-42-False-5-expected_mixing_shape4] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float32-42-False-10-expected_mixing_shape5] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float64-42-arbitrary-variance-5-expected_mixing_shape0] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float64-42-arbitrary-variance-10-expected_mixing_shape1] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float64-42-unit-variance-5-expected_mixing_shape2] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float64-42-unit-variance-10-expected_mixing_shape3] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float64-42-False-5-expected_mixing_shape4] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float64-42-False-10-expected_mixing_shape5] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_errors PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_whiten_unit_variance PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-True-arbitrary-variance] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-True-unit-variance] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-True-False] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-False-arbitrary-variance] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-False-unit-variance] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-False-False] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-True-arbitrary-variance] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-True-unit-variance] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-True-False] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-False-arbitrary-variance] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-False-unit-variance] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-False-False] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple_different_solvers[42-True] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple_different_solvers[42-False] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_eigh_low_rank_warning[42] PASSED
+
+======================== 33 passed, 11 skipped in 0.50s ========================
+
+
+Initial Result:
+============================= test session starts ==============================
+platform linux -- Python 3.9.0, pytest-8.3.3, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/scikit-learn/scikit-learn/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /local/data0/moved_data/publishablew/scikit-learn/scikit-learn
+configfile: setup.cfg
+plugins: cov-6.0.0
+collecting ... collected 44 items
+
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_gs I: Seeding RNGs with 1672191221
+PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_attributes_dtypes[float32] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_attributes_dtypes[float64] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_return_dtypes[float32] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_return_dtypes[float64] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple[float32-42-True] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple[float32-42-False] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple[float64-42-True] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple[float64-42-False] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_nowhiten PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_convergence_fail PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_non_square_fastica[True] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_non_square_fastica[False] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fit_transform[float32-42] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fit_transform[float64-42] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float32-42-arbitrary-variance-5-expected_mixing_shape0] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float32-42-arbitrary-variance-10-expected_mixing_shape1] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float32-42-unit-variance-5-expected_mixing_shape2] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float32-42-unit-variance-10-expected_mixing_shape3] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float32-42-False-5-expected_mixing_shape4] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float32-42-False-10-expected_mixing_shape5] SKIPPED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float64-42-arbitrary-variance-5-expected_mixing_shape0] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float64-42-arbitrary-variance-10-expected_mixing_shape1] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float64-42-unit-variance-5-expected_mixing_shape2] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float64-42-unit-variance-10-expected_mixing_shape3] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float64-42-False-5-expected_mixing_shape4] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_inverse_transform[float64-42-False-10-expected_mixing_shape5] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_errors PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_whiten_unit_variance PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-True-arbitrary-variance] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-True-unit-variance] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-True-False] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-False-arbitrary-variance] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-False-unit-variance] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[True-False-False] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-True-arbitrary-variance] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-True-unit-variance] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-True-False] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-False-arbitrary-variance] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-False-unit-variance] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_output_shape[False-False-False] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple_different_solvers[42-True] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_simple_different_solvers[42-False] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_fastica.py::test_fastica_eigh_low_rank_warning[42] PASSED
+
+======================== 33 passed, 11 skipped in 0.49s ========================

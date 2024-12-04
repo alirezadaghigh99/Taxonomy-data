@@ -1,0 +1,195 @@
+output file:
+processed_kornia_torch_svd_cast116.json
+function:
+_torch_svd_cast
+Error Cases:
+
+Pass or Failed: 1
+
+Related Failed Test Cases:
+set()
+
+All Test Cases On Generated code:
+Setting up torch compile...
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.3.3, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/kornia/kornia/venv/bin/python
+cachedir: .pytest_cache
+
+cpu info:
+	- Model name: AMD Ryzen 7 PRO 5845 8-Core Processor
+	- Architecture: x86_64
+	- CPU(s): 16
+	- Thread(s) per core: 2
+	- CPU max MHz: 4661.7178
+	- CPU min MHz: 2200.0000
+gpu info: {'GPU 0': 'NVIDIA GeForce RTX 3060'}
+main deps:
+    - kornia-0.7.4
+    - torch-2.5.1+cu124
+        - commit: a8d6afb511a69687bbb2b7e88a3cf67917e1697e
+        - cuda: 12.4
+        - nvidia-driver: 555.42.02
+x deps:
+    - accelerate-1.1.1
+dev deps:
+    - kornia_rs-0.1.7
+    - onnx-1.17.0
+gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
+available optimizers: {'', 'tvm', 'inductor', 'onnxrt', 'openxla', 'cudagraphs', 'jit', None}
+model weights cached: ['checkpoints']
+
+rootdir: /local/data0/moved_data/publishablew/kornia/kornia
+configfile: pyproject.toml
+plugins: timeout-2.3.1
+collecting ... collected 24 items
+
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list0-out_device0-out_dtype0-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list1-out_device1-out_dtype1-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list2-out_device2-out_dtype2-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list3-out_device3-out_dtype3-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list4-out_device4-out_dtype4-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list5-out_device5-out_dtype5-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list6-out_device6-out_dtype6-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list7-out_device7-out_dtype7-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list8-None-None-True] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list9-None-None-True] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list10-None-None-True] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_smoke[cpu-float32-input_shape0] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_smoke[cpu-float32-input_shape1] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_smoke[cpu-float32-input_shape2] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_values[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_jit[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_not_invertible[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestHistcCast::test_smoke[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSvdCast::test_smoke[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveCast::test_smoke[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_smoke[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_all_bad[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseWithMask::test_smoke[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseWithMask::test_all_bad[cpu-float32] PASSED
+
+============================== 24 passed in 0.22s ==============================
+
+
+Final Test Result:
+Setting up torch compile...
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.3.3, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/kornia/kornia/venv/bin/python
+cachedir: .pytest_cache
+
+cpu info:
+	- Model name: AMD Ryzen 7 PRO 5845 8-Core Processor
+	- Architecture: x86_64
+	- CPU(s): 16
+	- Thread(s) per core: 2
+	- CPU max MHz: 4661.7178
+	- CPU min MHz: 2200.0000
+gpu info: {'GPU 0': 'NVIDIA GeForce RTX 3060'}
+main deps:
+    - kornia-0.7.4
+    - torch-2.5.1+cu124
+        - commit: a8d6afb511a69687bbb2b7e88a3cf67917e1697e
+        - cuda: 12.4
+        - nvidia-driver: 555.42.02
+x deps:
+    - accelerate-1.1.1
+dev deps:
+    - kornia_rs-0.1.7
+    - onnx-1.17.0
+gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
+available optimizers: {'', 'openxla', 'tvm', 'jit', 'inductor', 'cudagraphs', 'onnxrt', None}
+model weights cached: ['checkpoints']
+
+rootdir: /local/data0/moved_data/publishablew/kornia/kornia
+configfile: pyproject.toml
+plugins: timeout-2.3.1
+collecting ... collected 24 items
+
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list0-out_device0-out_dtype0-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list1-out_device1-out_dtype1-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list2-out_device2-out_dtype2-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list3-out_device3-out_dtype3-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list4-out_device4-out_dtype4-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list5-out_device5-out_dtype5-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list6-out_device6-out_dtype6-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list7-out_device7-out_dtype7-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list8-None-None-True] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list9-None-None-True] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list10-None-None-True] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_smoke[cpu-float32-input_shape0] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_smoke[cpu-float32-input_shape1] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_smoke[cpu-float32-input_shape2] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_values[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_jit[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_not_invertible[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestHistcCast::test_smoke[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSvdCast::test_smoke[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveCast::test_smoke[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_smoke[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_all_bad[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseWithMask::test_smoke[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseWithMask::test_all_bad[cpu-float32] PASSED
+
+============================== 24 passed in 0.21s ==============================
+
+
+Initial Result:
+Setting up torch compile...
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.3.3, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/kornia/kornia/venv/bin/python
+cachedir: .pytest_cache
+
+cpu info:
+	- Model name: AMD Ryzen 7 PRO 5845 8-Core Processor
+	- Architecture: x86_64
+	- CPU(s): 16
+	- Thread(s) per core: 2
+	- CPU max MHz: 4661.7178
+	- CPU min MHz: 2200.0000
+gpu info: {'GPU 0': 'NVIDIA GeForce RTX 3060'}
+main deps:
+    - kornia-0.7.4
+    - torch-2.5.1+cu124
+        - commit: a8d6afb511a69687bbb2b7e88a3cf67917e1697e
+        - cuda: 12.4
+        - nvidia-driver: 555.42.02
+x deps:
+    - accelerate-1.1.1
+dev deps:
+    - kornia_rs-0.1.7
+    - onnx-1.17.0
+gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
+available optimizers: {'', 'cudagraphs', 'onnxrt', 'openxla', 'inductor', 'tvm', None, 'jit'}
+model weights cached: ['checkpoints']
+
+rootdir: /local/data0/moved_data/publishablew/kornia/kornia
+configfile: pyproject.toml
+plugins: timeout-2.3.1
+collecting ... collected 24 items
+
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list0-out_device0-out_dtype0-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list1-out_device1-out_dtype1-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list2-out_device2-out_dtype2-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list3-out_device3-out_dtype3-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list4-out_device4-out_dtype4-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list5-out_device5-out_dtype5-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list6-out_device6-out_dtype6-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list7-out_device7-out_dtype7-False] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list8-None-None-True] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list9-None-None-True] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list10-None-None-True] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_smoke[cpu-float32-input_shape0] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_smoke[cpu-float32-input_shape1] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_smoke[cpu-float32-input_shape2] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_values[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_jit[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_not_invertible[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestHistcCast::test_smoke[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSvdCast::test_smoke[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveCast::test_smoke[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_smoke[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_all_bad[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseWithMask::test_smoke[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseWithMask::test_all_bad[cpu-float32] PASSED
+
+============================== 24 passed in 0.22s ==============================

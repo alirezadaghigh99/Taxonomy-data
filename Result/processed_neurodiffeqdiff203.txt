@@ -1,0 +1,236 @@
+output file:
+processed_neurodiffeqdiff203.json
+function:
+diff
+Error Cases:
+
+Pass or Failed: 0
+
+Related Failed Test Cases:
+{'../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_diff FAILED', '../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_higher_order_derivatives FAILED', 'FAILED ../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_diff', 'FAILED ../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_legacy_signature', '../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_legacy_signature FAILED', 'FAILED ../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_higher_order_derivatives'}
+
+All Test Cases On Generated code:
+============================= test session starts ==============================
+platform linux -- Python 3.11.10, pytest-8.3.4, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/neurodiffeq/neurodiffeq/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /local/data0/moved_data/publishablew/neurodiffeq/neurodiffeq
+collecting ... collected 5 items
+
+../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_safe_diff PASSED
+../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_unsafe_diff PASSED
+../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_diff FAILED
+../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_higher_order_derivatives FAILED
+../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_legacy_signature FAILED
+
+=================================== FAILURES ===================================
+__________________________________ test_diff ___________________________________
+
+    def test_diff():
+        # with default shape_check
+        with pytest.raises(ValueError):
+            u, t = get_data(flatten_u=True, flatten_t=True)
+>           check_output(t, diff(u, t))
+
+../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py:51: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/neurodiffeq/neurodiffeq/neurodiffeq/_version_utils.py:35: in wrapper
+    return f(*args, **kwargs)
+../publishablew/neurodiffeq/neurodiffeq/neurodiffeq/neurodiffeq.py:59: in diff
+    return diff(u, t, order, shape_check)
+../publishablew/neurodiffeq/neurodiffeq/neurodiffeq/temp.py:26: in diff
+    derivative, = torch.autograd.grad(derivative, t, grad_outputs=grad_outputs, create_graph=True)
+../publishablew/neurodiffeq/neurodiffeq/venv/lib/python3.11/site-packages/torch/autograd/__init__.py:445: in grad
+    return handle_torch_function(
+../publishablew/neurodiffeq/neurodiffeq/venv/lib/python3.11/site-packages/torch/overrides.py:1717: in handle_torch_function
+    result = mode.__torch_function__(public_api, types, args, kwargs)
+../publishablew/neurodiffeq/neurodiffeq/venv/lib/python3.11/site-packages/torch/utils/_device.py:106: in __torch_function__
+    return func(*args, **kwargs)
+../publishablew/neurodiffeq/neurodiffeq/venv/lib/python3.11/site-packages/torch/autograd/__init__.py:496: in grad
+    result = _engine_run_backward(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+t_outputs = (tensor([0.8679, 0.0647, 0.4056, 0.5668, 0.4981, 0.8027, 0.1249, 0.5182, 0.9663,
+        0.8251], device='cuda:0', grad_fn=<ViewBackward0>),)
+args = ((tensor([1., 1., 1., 1., 1., 1., 1., 1., 1., 1.], device='cuda:0'),), True, True, (tensor([0.9316, 0.2544, 0.6369, 0.7529, 0.7058, 0.8959, 0.3534, 0.7199, 0.9830,
+        0.9083], device='cuda:0', requires_grad=True),), False)
+kwargs = {'accumulate_grad': False}, attach_logging_hooks = False
+
+    def _engine_run_backward(
+        t_outputs: Sequence[Union[torch.Tensor, GradientEdge]],
+        *args: Any,
+        **kwargs: Any,
+    ) -> Tuple[torch.Tensor, ...]:
+        attach_logging_hooks = log.getEffectiveLevel() <= logging.DEBUG
+        if attach_logging_hooks:
+            unregister_hooks = _register_logging_hooks_on_whole_graph(t_outputs)
+        try:
+>           return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+                t_outputs, *args, **kwargs
+            )  # Calls into the C++ engine to run the backward pass
+E           RuntimeError: One of the differentiated Tensors appears to not have been used in the graph. Set allow_unused=True if this is the desired behavior.
+
+../publishablew/neurodiffeq/neurodiffeq/venv/lib/python3.11/site-packages/torch/autograd/graph.py:825: RuntimeError
+________________________ test_higher_order_derivatives _________________________
+
+    def test_higher_order_derivatives():
+        u, t = get_data(flatten_u=False, flatten_t=False, f=lambda x: x ** 2)
+>       assert torch.isclose(diff(u, t), t * 2).all()
+
+../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/neurodiffeq/neurodiffeq/neurodiffeq/_version_utils.py:35: in wrapper
+    return f(*args, **kwargs)
+../publishablew/neurodiffeq/neurodiffeq/neurodiffeq/neurodiffeq.py:59: in diff
+    return diff(u, t, order, shape_check)
+../publishablew/neurodiffeq/neurodiffeq/neurodiffeq/temp.py:26: in diff
+    derivative, = torch.autograd.grad(derivative, t, grad_outputs=grad_outputs, create_graph=True)
+../publishablew/neurodiffeq/neurodiffeq/venv/lib/python3.11/site-packages/torch/autograd/__init__.py:445: in grad
+    return handle_torch_function(
+../publishablew/neurodiffeq/neurodiffeq/venv/lib/python3.11/site-packages/torch/overrides.py:1717: in handle_torch_function
+    result = mode.__torch_function__(public_api, types, args, kwargs)
+../publishablew/neurodiffeq/neurodiffeq/venv/lib/python3.11/site-packages/torch/utils/_device.py:106: in __torch_function__
+    return func(*args, **kwargs)
+../publishablew/neurodiffeq/neurodiffeq/venv/lib/python3.11/site-packages/torch/autograd/__init__.py:496: in grad
+    result = _engine_run_backward(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+t_outputs = (tensor([[0.0630],
+        [0.4415],
+        [0.3643],
+        [0.3150],
+        [0.8261],
+        [0.8046],
+        [0.0145],
+        [0.1577],
+        [0.0628],
+        [0.2974]], device='cuda:0', grad_fn=<ViewBackward0>),)
+args = ((tensor([[1.],
+        [1.],
+        [1.],
+        [1.],
+        [1.],
+        [1.],
+        [1.],
+        [1.],
+    ...        [0.1202],
+        [0.3971],
+        [0.2505],
+        [0.5453]], device='cuda:0', requires_grad=True),), False)
+kwargs = {'accumulate_grad': False}, attach_logging_hooks = False
+
+    def _engine_run_backward(
+        t_outputs: Sequence[Union[torch.Tensor, GradientEdge]],
+        *args: Any,
+        **kwargs: Any,
+    ) -> Tuple[torch.Tensor, ...]:
+        attach_logging_hooks = log.getEffectiveLevel() <= logging.DEBUG
+        if attach_logging_hooks:
+            unregister_hooks = _register_logging_hooks_on_whole_graph(t_outputs)
+        try:
+>           return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+                t_outputs, *args, **kwargs
+            )  # Calls into the C++ engine to run the backward pass
+E           RuntimeError: One of the differentiated Tensors appears to not have been used in the graph. Set allow_unused=True if this is the desired behavior.
+
+../publishablew/neurodiffeq/neurodiffeq/venv/lib/python3.11/site-packages/torch/autograd/graph.py:825: RuntimeError
+____________________________ test_legacy_signature _____________________________
+
+    def test_legacy_signature():
+        u, t = get_data(flatten_u=False, flatten_t=False)
+        with pytest.warns(FutureWarning):
+>           diff(x=u, t=t)
+
+../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py:102: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/neurodiffeq/neurodiffeq/neurodiffeq/_version_utils.py:35: in wrapper
+    return f(*args, **kwargs)
+../publishablew/neurodiffeq/neurodiffeq/neurodiffeq/neurodiffeq.py:59: in diff
+    return diff(u, t, order, shape_check)
+../publishablew/neurodiffeq/neurodiffeq/neurodiffeq/temp.py:26: in diff
+    derivative, = torch.autograd.grad(derivative, t, grad_outputs=grad_outputs, create_graph=True)
+../publishablew/neurodiffeq/neurodiffeq/venv/lib/python3.11/site-packages/torch/autograd/__init__.py:445: in grad
+    return handle_torch_function(
+../publishablew/neurodiffeq/neurodiffeq/venv/lib/python3.11/site-packages/torch/overrides.py:1717: in handle_torch_function
+    result = mode.__torch_function__(public_api, types, args, kwargs)
+../publishablew/neurodiffeq/neurodiffeq/venv/lib/python3.11/site-packages/torch/utils/_device.py:106: in __torch_function__
+    return func(*args, **kwargs)
+../publishablew/neurodiffeq/neurodiffeq/venv/lib/python3.11/site-packages/torch/autograd/__init__.py:496: in grad
+    result = _engine_run_backward(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+t_outputs = (tensor([[0.6276],
+        [0.7115],
+        [0.1943],
+        [0.0016],
+        [0.7982],
+        [0.1891],
+        [0.2768],
+        [0.7487],
+        [0.3749],
+        [0.2824]], device='cuda:0', grad_fn=<ViewBackward0>),)
+args = ((tensor([[1.],
+        [1.],
+        [1.],
+        [1.],
+        [1.],
+        [1.],
+        [1.],
+        [1.],
+    ...        [0.5261],
+        [0.8653],
+        [0.6123],
+        [0.5314]], device='cuda:0', requires_grad=True),), False)
+kwargs = {'accumulate_grad': False}, attach_logging_hooks = False
+
+    def _engine_run_backward(
+        t_outputs: Sequence[Union[torch.Tensor, GradientEdge]],
+        *args: Any,
+        **kwargs: Any,
+    ) -> Tuple[torch.Tensor, ...]:
+        attach_logging_hooks = log.getEffectiveLevel() <= logging.DEBUG
+        if attach_logging_hooks:
+            unregister_hooks = _register_logging_hooks_on_whole_graph(t_outputs)
+        try:
+>           return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+                t_outputs, *args, **kwargs
+            )  # Calls into the C++ engine to run the backward pass
+E           RuntimeError: One of the differentiated Tensors appears to not have been used in the graph. Set allow_unused=True if this is the desired behavior.
+
+../publishablew/neurodiffeq/neurodiffeq/venv/lib/python3.11/site-packages/torch/autograd/graph.py:825: RuntimeError
+=========================== short test summary info ============================
+FAILED ../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_diff
+FAILED ../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_higher_order_derivatives
+FAILED ../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_legacy_signature
+========================= 3 failed, 2 passed in 2.50s ==========================
+
+
+Final Test Result:
+============================= test session starts ==============================
+platform linux -- Python 3.11.10, pytest-8.3.4, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/neurodiffeq/neurodiffeq/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /local/data0/moved_data/publishablew/neurodiffeq/neurodiffeq
+collecting ... collected 5 items
+
+../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_safe_diff PASSED
+../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_unsafe_diff PASSED
+../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_diff PASSED
+../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_higher_order_derivatives PASSED
+../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_legacy_signature PASSED
+
+============================== 5 passed in 2.06s ===============================
+
+
+Initial Result:
+============================= test session starts ==============================
+platform linux -- Python 3.11.10, pytest-8.3.4, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/neurodiffeq/neurodiffeq/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /local/data0/moved_data/publishablew/neurodiffeq/neurodiffeq
+collecting ... collected 5 items
+
+../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_safe_diff PASSED
+../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_unsafe_diff PASSED
+../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_diff PASSED
+../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_higher_order_derivatives PASSED
+../publishablew/neurodiffeq/neurodiffeq/tests/test_neurodiffeq.py::test_legacy_signature PASSED
+
+============================== 5 passed in 2.18s ===============================

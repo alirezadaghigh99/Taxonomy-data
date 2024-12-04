@@ -1,0 +1,208 @@
+output file:
+processed_visiondeform_conv2d56.json
+function:
+deform_conv2d
+Error Cases:
+
+Pass or Failed: 0
+
+Related Failed Test Cases:
+{'../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-False-cpu] FAILED', '../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-True-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-False-cuda]', 'FAILED ../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-True-cuda]', '../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-True-cuda] FAILED', '../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-True-cuda] FAILED', '../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-False-cpu] FAILED', '../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-False-cuda] FAILED', '../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-True-cpu] FAILED', '../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-False-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-True-cpu]', 'FAILED ../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-True-cuda]', 'FAILED ../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-True-cpu]', 'FAILED ../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-False-cpu]', 'FAILED ../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-False-cuda]', 'FAILED ../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-False-cpu]'}
+
+All Test Cases On Generated code:
+============================= test session starts ==============================
+platform linux -- Python 3.11.10, pytest-8.3.4, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/vision/vision/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /local/data0/moved_data/publishablew/vision/vision
+configfile: pytest.ini
+plugins: mock-3.14.0
+collecting ... collected 8 items
+
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-True-cpu] FAILED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-True-cuda] FAILED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-False-cpu] FAILED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-False-cuda] FAILED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-True-cpu] FAILED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-True-cuda] FAILED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-False-cpu] FAILED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-False-cuda] FAILED
+
+=================================== FAILURES ===================================
+___________________ TestDeformConv.test_backward[0-True-cpu] ___________________
+../publishablew/vision/vision/test/test_ops.py:1120: in test_backward
+    gradcheck(func, (x, offset, mask, weight, bias), nondet_tol=1e-5, fast_mode=True)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/autograd/gradcheck.py:2052: in gradcheck
+    return _gradcheck_helper(**args)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/autograd/gradcheck.py:2074: in _gradcheck_helper
+    func_out = func(*tupled_inputs)
+../publishablew/vision/vision/test/test_ops.py:1116: in func
+    return ops.deform_conv2d(
+../publishablew/vision/vision/torchvision/ops/deform_conv.py:13: in deform_conv2d
+    return deform_conv2d(input, offset, weight, bias, stride, padding, dilation, mask)
+../publishablew/vision/vision/torchvision/ops/temp.py:50: in deform_conv2d
+    sampled_input = F.grid_sample(input_padded, grid, mode='bilinear', padding_mode='zeros', align_corners=True)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/functional.py:4910: in grid_sample
+    return torch.grid_sampler(input, grid, mode_enum, padding_mode_enum, align_corners)
+E   RuntimeError: grid_sampler(): expected grid to have size 3 in last dimension, but got grid with sizes [0, 2, 3, 6, 2]
+__________________ TestDeformConv.test_backward[0-True-cuda] ___________________
+../publishablew/vision/vision/test/test_ops.py:1120: in test_backward
+    gradcheck(func, (x, offset, mask, weight, bias), nondet_tol=1e-5, fast_mode=True)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/autograd/gradcheck.py:2052: in gradcheck
+    return _gradcheck_helper(**args)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/autograd/gradcheck.py:2074: in _gradcheck_helper
+    func_out = func(*tupled_inputs)
+../publishablew/vision/vision/test/test_ops.py:1116: in func
+    return ops.deform_conv2d(
+../publishablew/vision/vision/torchvision/ops/deform_conv.py:13: in deform_conv2d
+    return deform_conv2d(input, offset, weight, bias, stride, padding, dilation, mask)
+../publishablew/vision/vision/torchvision/ops/temp.py:50: in deform_conv2d
+    sampled_input = F.grid_sample(input_padded, grid, mode='bilinear', padding_mode='zeros', align_corners=True)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/functional.py:4910: in grid_sample
+    return torch.grid_sampler(input, grid, mode_enum, padding_mode_enum, align_corners)
+E   RuntimeError: grid_sampler(): expected grid to have size 3 in last dimension, but got grid with sizes [0, 2, 3, 6, 2]
+__________________ TestDeformConv.test_backward[0-False-cpu] ___________________
+../publishablew/vision/vision/test/test_ops.py:1120: in test_backward
+    gradcheck(func, (x, offset, mask, weight, bias), nondet_tol=1e-5, fast_mode=True)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/autograd/gradcheck.py:2052: in gradcheck
+    return _gradcheck_helper(**args)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/autograd/gradcheck.py:2074: in _gradcheck_helper
+    func_out = func(*tupled_inputs)
+../publishablew/vision/vision/test/test_ops.py:1116: in func
+    return ops.deform_conv2d(
+../publishablew/vision/vision/torchvision/ops/deform_conv.py:13: in deform_conv2d
+    return deform_conv2d(input, offset, weight, bias, stride, padding, dilation, mask)
+../publishablew/vision/vision/torchvision/ops/temp.py:50: in deform_conv2d
+    sampled_input = F.grid_sample(input_padded, grid, mode='bilinear', padding_mode='zeros', align_corners=True)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/functional.py:4910: in grid_sample
+    return torch.grid_sampler(input, grid, mode_enum, padding_mode_enum, align_corners)
+E   RuntimeError: grid_sampler(): expected grid to have size 3 in last dimension, but got grid with sizes [0, 2, 3, 6, 2]
+__________________ TestDeformConv.test_backward[0-False-cuda] __________________
+../publishablew/vision/vision/test/test_ops.py:1120: in test_backward
+    gradcheck(func, (x, offset, mask, weight, bias), nondet_tol=1e-5, fast_mode=True)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/autograd/gradcheck.py:2052: in gradcheck
+    return _gradcheck_helper(**args)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/autograd/gradcheck.py:2074: in _gradcheck_helper
+    func_out = func(*tupled_inputs)
+../publishablew/vision/vision/test/test_ops.py:1116: in func
+    return ops.deform_conv2d(
+../publishablew/vision/vision/torchvision/ops/deform_conv.py:13: in deform_conv2d
+    return deform_conv2d(input, offset, weight, bias, stride, padding, dilation, mask)
+../publishablew/vision/vision/torchvision/ops/temp.py:50: in deform_conv2d
+    sampled_input = F.grid_sample(input_padded, grid, mode='bilinear', padding_mode='zeros', align_corners=True)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/functional.py:4910: in grid_sample
+    return torch.grid_sampler(input, grid, mode_enum, padding_mode_enum, align_corners)
+E   RuntimeError: grid_sampler(): expected grid to have size 3 in last dimension, but got grid with sizes [0, 2, 3, 6, 2]
+__________________ TestDeformConv.test_backward[33-True-cpu] ___________________
+../publishablew/vision/vision/test/test_ops.py:1120: in test_backward
+    gradcheck(func, (x, offset, mask, weight, bias), nondet_tol=1e-5, fast_mode=True)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/autograd/gradcheck.py:2052: in gradcheck
+    return _gradcheck_helper(**args)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/autograd/gradcheck.py:2074: in _gradcheck_helper
+    func_out = func(*tupled_inputs)
+../publishablew/vision/vision/test/test_ops.py:1116: in func
+    return ops.deform_conv2d(
+../publishablew/vision/vision/torchvision/ops/deform_conv.py:13: in deform_conv2d
+    return deform_conv2d(input, offset, weight, bias, stride, padding, dilation, mask)
+../publishablew/vision/vision/torchvision/ops/temp.py:43: in deform_conv2d
+    offset = offset.view(N, H_out, W_out, kernel_h, kernel_w, 2)
+E   RuntimeError: shape '[33, 2, 3, 3, 2, 2]' is invalid for input of size 7128
+__________________ TestDeformConv.test_backward[33-True-cuda] __________________
+../publishablew/vision/vision/test/test_ops.py:1120: in test_backward
+    gradcheck(func, (x, offset, mask, weight, bias), nondet_tol=1e-5, fast_mode=True)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/autograd/gradcheck.py:2052: in gradcheck
+    return _gradcheck_helper(**args)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/autograd/gradcheck.py:2074: in _gradcheck_helper
+    func_out = func(*tupled_inputs)
+../publishablew/vision/vision/test/test_ops.py:1116: in func
+    return ops.deform_conv2d(
+../publishablew/vision/vision/torchvision/ops/deform_conv.py:13: in deform_conv2d
+    return deform_conv2d(input, offset, weight, bias, stride, padding, dilation, mask)
+../publishablew/vision/vision/torchvision/ops/temp.py:43: in deform_conv2d
+    offset = offset.view(N, H_out, W_out, kernel_h, kernel_w, 2)
+E   RuntimeError: shape '[33, 2, 3, 3, 2, 2]' is invalid for input of size 7128
+__________________ TestDeformConv.test_backward[33-False-cpu] __________________
+../publishablew/vision/vision/test/test_ops.py:1120: in test_backward
+    gradcheck(func, (x, offset, mask, weight, bias), nondet_tol=1e-5, fast_mode=True)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/autograd/gradcheck.py:2052: in gradcheck
+    return _gradcheck_helper(**args)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/autograd/gradcheck.py:2074: in _gradcheck_helper
+    func_out = func(*tupled_inputs)
+../publishablew/vision/vision/test/test_ops.py:1116: in func
+    return ops.deform_conv2d(
+../publishablew/vision/vision/torchvision/ops/deform_conv.py:13: in deform_conv2d
+    return deform_conv2d(input, offset, weight, bias, stride, padding, dilation, mask)
+../publishablew/vision/vision/torchvision/ops/temp.py:43: in deform_conv2d
+    offset = offset.view(N, H_out, W_out, kernel_h, kernel_w, 2)
+E   RuntimeError: shape '[33, 2, 3, 3, 2, 2]' is invalid for input of size 7128
+_________________ TestDeformConv.test_backward[33-False-cuda] __________________
+../publishablew/vision/vision/test/test_ops.py:1120: in test_backward
+    gradcheck(func, (x, offset, mask, weight, bias), nondet_tol=1e-5, fast_mode=True)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/autograd/gradcheck.py:2052: in gradcheck
+    return _gradcheck_helper(**args)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/autograd/gradcheck.py:2074: in _gradcheck_helper
+    func_out = func(*tupled_inputs)
+../publishablew/vision/vision/test/test_ops.py:1116: in func
+    return ops.deform_conv2d(
+../publishablew/vision/vision/torchvision/ops/deform_conv.py:13: in deform_conv2d
+    return deform_conv2d(input, offset, weight, bias, stride, padding, dilation, mask)
+../publishablew/vision/vision/torchvision/ops/temp.py:43: in deform_conv2d
+    offset = offset.view(N, H_out, W_out, kernel_h, kernel_w, 2)
+E   RuntimeError: shape '[33, 2, 3, 3, 2, 2]' is invalid for input of size 7128
+=============================== warnings summary ===============================
+test/test_ops.py::TestDeformConv::test_backward[0-True-cpu]
+  /local/data0/moved_data/publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/functional.py:534: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3595.)
+    return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED ../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-True-cpu]
+FAILED ../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-True-cuda]
+FAILED ../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-False-cpu]
+FAILED ../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-False-cuda]
+FAILED ../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-True-cpu]
+FAILED ../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-True-cuda]
+FAILED ../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-False-cpu]
+FAILED ../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-False-cuda]
+========================= 8 failed, 1 warning in 1.04s =========================
+
+
+Final Test Result:
+============================= test session starts ==============================
+platform linux -- Python 3.11.10, pytest-8.3.4, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/vision/vision/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /local/data0/moved_data/publishablew/vision/vision
+configfile: pytest.ini
+plugins: mock-3.14.0
+collecting ... collected 8 items
+
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-True-cpu] PASSED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-True-cuda] PASSED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-False-cpu] PASSED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-False-cuda] PASSED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-True-cpu] PASSED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-True-cuda] PASSED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-False-cpu] PASSED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-False-cuda] PASSED
+
+============================== 8 passed in 0.57s ===============================
+
+
+Initial Result:
+============================= test session starts ==============================
+platform linux -- Python 3.11.10, pytest-8.3.4, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/vision/vision/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /local/data0/moved_data/publishablew/vision/vision
+configfile: pytest.ini
+plugins: mock-3.14.0
+collecting ... collected 8 items
+
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-True-cpu] PASSED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-True-cuda] PASSED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-False-cpu] PASSED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[0-False-cuda] PASSED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-True-cpu] PASSED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-True-cuda] PASSED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-False-cpu] PASSED
+../publishablew/vision/vision/test/test_ops.py::TestDeformConv::test_backward[33-False-cuda] PASSED
+
+============================== 8 passed in 0.83s ===============================

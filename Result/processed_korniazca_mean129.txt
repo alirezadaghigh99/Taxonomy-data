@@ -1,0 +1,820 @@
+output file:
+processed_korniazca_mean129.json
+function:
+zca_mean
+Error Cases:
+
+Pass or Failed: 0
+
+Related Failed Test Cases:
+{'FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_identity[cpu-float32-input_shape1-0.1]', '../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_whiten_func_unbiased[cpu-float32-True] FAILED', '../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_unbiased[cpu-float32-True] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_dim_args[cpu-float32-0]', 'FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_grad_zca_with_fit[cpu]', 'FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_unbiased[cpu-float32-True]', 'FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_whiten_func_unbiased[cpu-float32-True]', '../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_jit[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_identity[cpu-float32-input_shape2-0.001]', '../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_grad_zca_with_fit[cpu] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_grad_detach_zca[cpu]', '../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_identity[cpu-float32-input_shape0-1e-06] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_jit[cpu-float32]', '../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_grad_detach_zca[cpu] FAILED', '../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_identity[cpu-float32-input_shape2-0.001] FAILED', '../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_dim_args[cpu-float32-0] FAILED', '../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_whiten_func_unbiased[cpu-float32-False] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_unbiased[cpu-float32-False]', '../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_unbiased[cpu-float32-False] FAILED', '../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_dim_args[cpu-float32-1] FAILED', '../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_identity[cpu-float32-input_shape1-0.1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_dim_args[cpu-float32-1]', 'FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_whiten_func_unbiased[cpu-float32-False]', 'FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_identity[cpu-float32-input_shape0-1e-06]'}
+
+All Test Cases On Generated code:
+Setting up torch compile...
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.3.3, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/kornia/kornia/venv/bin/python
+cachedir: .pytest_cache
+
+cpu info:
+	- Model name: AMD Ryzen 7 PRO 5845 8-Core Processor
+	- Architecture: x86_64
+	- CPU(s): 16
+	- Thread(s) per core: 2
+	- CPU max MHz: 4661.7178
+	- CPU min MHz: 2200.0000
+gpu info: {'GPU 0': 'NVIDIA GeForce RTX 3060'}
+main deps:
+    - kornia-0.7.4
+    - torch-2.5.1+cu124
+        - commit: a8d6afb511a69687bbb2b7e88a3cf67917e1697e
+        - cuda: 12.4
+        - nvidia-driver: 555.42.02
+x deps:
+    - accelerate-1.1.1
+dev deps:
+    - kornia_rs-0.1.7
+    - onnx-1.17.0
+gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
+available optimizers: {'', 'onnxrt', 'inductor', 'tvm', 'openxla', 'jit', None, 'cudagraphs'}
+model weights cached: ['checkpoints']
+
+rootdir: /local/data0/moved_data/publishablew/kornia/kornia
+configfile: pyproject.toml
+plugins: timeout-2.3.1
+collecting ... collected 15 items
+
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_unbiased[cpu-float32-True] FAILED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_unbiased[cpu-float32-False] FAILED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_dim_args[cpu-float32-0] FAILED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_dim_args[cpu-float32-1] FAILED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_identity[cpu-float32-input_shape0-1e-06] FAILED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_identity[cpu-float32-input_shape1-0.1] FAILED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_identity[cpu-float32-input_shape2-0.001] FAILED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_grad_zca_individual_transforms[cpu] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_grad_zca_with_fit[cpu] FAILED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_grad_detach_zca[cpu] FAILED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_not_fitted[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_not_fitted_inv[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_jit[cpu-float32] FAILED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_whiten_func_unbiased[cpu-float32-True] FAILED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_whiten_func_unbiased[cpu-float32-False] FAILED
+
+=================================== FAILURES ===================================
+_________________ TestZCA.test_zca_unbiased[cpu-float32-True] __________________
+
+self = <test_zca.TestZCA object at 0x7a75ddf00bb0>, unbiased = True
+device = device(type='cpu'), dtype = torch.float32
+
+    @pytest.mark.parametrize("unbiased", [True, False])
+    def test_zca_unbiased(self, unbiased, device, dtype):
+        data = torch.tensor([[0, 1], [1, 0], [-1, 0], [0, -1]], device=device, dtype=dtype)
+    
+        if unbiased:
+            unbiased_val = 1.5
+        else:
+            unbiased_val = 2.0
+    
+        expected = torch.sqrt(unbiased_val * torch.abs(data)) * torch.sign(data)
+    
+>       zca = kornia.enhance.ZCAWhitening(unbiased=unbiased).fit(data)
+
+../publishablew/kornia/kornia/tests/enhance/test_zca.py:21: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = ZCAWhitening()
+x = tensor([[ 0.,  1.],
+        [ 1.,  0.],
+        [-1.,  0.],
+        [ 0., -1.]])
+
+    def fit(self, x: Tensor) -> 'ZCAWhitening':
+        """Fit ZCA whitening matrices to the data.
+    
+        Args:
+    
+            x: Input data.
+    
+        returns:
+            Returns a fitted ZCAWhiten object instance.
+        """
+>       T, mean, T_inv = zca_mean(x, self.dim, self.unbiased, self.eps, self.compute_inv)
+E       ValueError: not enough values to unpack (expected 3, got 2)
+
+../publishablew/kornia/kornia/kornia/enhance/zca.py:84: ValueError
+_________________ TestZCA.test_zca_unbiased[cpu-float32-False] _________________
+
+self = <test_zca.TestZCA object at 0x7a75ddf00b20>, unbiased = False
+device = device(type='cpu'), dtype = torch.float32
+
+    @pytest.mark.parametrize("unbiased", [True, False])
+    def test_zca_unbiased(self, unbiased, device, dtype):
+        data = torch.tensor([[0, 1], [1, 0], [-1, 0], [0, -1]], device=device, dtype=dtype)
+    
+        if unbiased:
+            unbiased_val = 1.5
+        else:
+            unbiased_val = 2.0
+    
+        expected = torch.sqrt(unbiased_val * torch.abs(data)) * torch.sign(data)
+    
+>       zca = kornia.enhance.ZCAWhitening(unbiased=unbiased).fit(data)
+
+../publishablew/kornia/kornia/tests/enhance/test_zca.py:21: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = ZCAWhitening()
+x = tensor([[ 0.,  1.],
+        [ 1.,  0.],
+        [-1.,  0.],
+        [ 0., -1.]])
+
+    def fit(self, x: Tensor) -> 'ZCAWhitening':
+        """Fit ZCA whitening matrices to the data.
+    
+        Args:
+    
+            x: Input data.
+    
+        returns:
+            Returns a fitted ZCAWhiten object instance.
+        """
+>       T, mean, T_inv = zca_mean(x, self.dim, self.unbiased, self.eps, self.compute_inv)
+E       ValueError: not enough values to unpack (expected 3, got 2)
+
+../publishablew/kornia/kornia/kornia/enhance/zca.py:84: ValueError
+_____________________ TestZCA.test_dim_args[cpu-float32-0] _____________________
+
+self = <test_zca.TestZCA object at 0x7a75ddf01030>, dim = 0
+device = device(type='cpu'), dtype = torch.float32
+
+    @pytest.mark.parametrize("dim", [0, 1])
+    def test_dim_args(self, dim, device, dtype):
+        if "xla" in device.type:
+            pytest.skip("buggy with XLA devices.")
+    
+        if dtype == torch.float16:
+            pytest.skip("not work for half-precision")
+    
+        data = torch.tensor([[0, 1], [1, 0], [-1, 0], [0, -1]], device=device, dtype=dtype)
+    
+        if dim == 1:
+            expected = torch.tensor(
+                [
+                    [-0.35360718, 0.35360718],
+                    [0.35351562, -0.35351562],
+                    [-0.35353088, 0.35353088],
+                    [0.35353088, -0.35353088],
+                ],
+                device=device,
+                dtype=dtype,
+            )
+        elif dim == 0:
+            expected = torch.tensor(
+                [[0.0, 1.2247448], [1.2247448, 0.0], [-1.2247448, 0.0], [0.0, -1.2247448]], device=device, dtype=dtype
+            )
+    
+        zca = kornia.enhance.ZCAWhitening(dim=dim)
+>       actual = zca(data, True)
+
+../publishablew/kornia/kornia/tests/enhance/test_zca.py:54: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/core/module.py:274: in __call__
+    _output_image = decorated_forward(*inputs, **kwargs)
+../publishablew/kornia/kornia/kornia/core/module.py:63: in wrapper
+    tensor_outputs = func(*args, **kwargs)
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/kornia/kornia/kornia/enhance/zca.py:109: in forward
+    self.fit(x)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = ZCAWhitening()
+x = tensor([[ 0.,  1.],
+        [ 1.,  0.],
+        [-1.,  0.],
+        [ 0., -1.]])
+
+    def fit(self, x: Tensor) -> 'ZCAWhitening':
+        """Fit ZCA whitening matrices to the data.
+    
+        Args:
+    
+            x: Input data.
+    
+        returns:
+            Returns a fitted ZCAWhiten object instance.
+        """
+>       T, mean, T_inv = zca_mean(x, self.dim, self.unbiased, self.eps, self.compute_inv)
+E       ValueError: not enough values to unpack (expected 3, got 2)
+
+../publishablew/kornia/kornia/kornia/enhance/zca.py:84: ValueError
+_____________________ TestZCA.test_dim_args[cpu-float32-1] _____________________
+
+self = <test_zca.TestZCA object at 0x7a75ddf00f70>, dim = 1
+device = device(type='cpu'), dtype = torch.float32
+
+    @pytest.mark.parametrize("dim", [0, 1])
+    def test_dim_args(self, dim, device, dtype):
+        if "xla" in device.type:
+            pytest.skip("buggy with XLA devices.")
+    
+        if dtype == torch.float16:
+            pytest.skip("not work for half-precision")
+    
+        data = torch.tensor([[0, 1], [1, 0], [-1, 0], [0, -1]], device=device, dtype=dtype)
+    
+        if dim == 1:
+            expected = torch.tensor(
+                [
+                    [-0.35360718, 0.35360718],
+                    [0.35351562, -0.35351562],
+                    [-0.35353088, 0.35353088],
+                    [0.35353088, -0.35353088],
+                ],
+                device=device,
+                dtype=dtype,
+            )
+        elif dim == 0:
+            expected = torch.tensor(
+                [[0.0, 1.2247448], [1.2247448, 0.0], [-1.2247448, 0.0], [0.0, -1.2247448]], device=device, dtype=dtype
+            )
+    
+        zca = kornia.enhance.ZCAWhitening(dim=dim)
+>       actual = zca(data, True)
+
+../publishablew/kornia/kornia/tests/enhance/test_zca.py:54: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/core/module.py:274: in __call__
+    _output_image = decorated_forward(*inputs, **kwargs)
+../publishablew/kornia/kornia/kornia/core/module.py:63: in wrapper
+    tensor_outputs = func(*args, **kwargs)
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/kornia/kornia/kornia/enhance/zca.py:109: in forward
+    self.fit(x)
+../publishablew/kornia/kornia/kornia/enhance/zca.py:84: in fit
+    T, mean, T_inv = zca_mean(x, self.dim, self.unbiased, self.eps, self.compute_inv)
+../publishablew/kornia/kornia/kornia/enhance/zca.py:136: in zca_mean
+    return zca_mean(inp, dim, unbiased, eps, return_inverse)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+inp = tensor([[ 0.,  1.],
+        [ 1.,  0.],
+        [-1.,  0.],
+        [ 0., -1.]])
+dim = 1, unbiased = True, eps = 1e-06, return_inverse = False
+
+    def zca_mean(inp, dim, unbiased=True, eps=1e-05, return_inverse=False):
+        if not isinstance(inp, torch.Tensor):
+            raise TypeError('Input must be a torch.Tensor')
+        if not isinstance(dim, int) or dim < 0 or dim >= inp.ndim:
+            raise ValueError("Dimension 'dim' must be a valid dimension of the input tensor")
+        if not isinstance(unbiased, bool):
+            raise TypeError("Parameter 'unbiased' must be a boolean")
+        if not isinstance(eps, (float, int)) or eps <= 0:
+            raise ValueError("Parameter 'eps' must be a positive number")
+        if not isinstance(return_inverse, bool):
+            raise TypeError("Parameter 'return_inverse' must be a boolean")
+        mean_vector = inp.mean(dim=dim, keepdim=True)
+        centered_inp = inp - mean_vector
+        if unbiased:
+>           cov_matrix = torch.matmul(centered_inp.transpose(dim, -1), centered_inp) / (centered_inp.size(dim) - 1)
+E           RuntimeError: mat1 and mat2 shapes cannot be multiplied (4x2 and 4x2)
+
+../publishablew/kornia/kornia/kornia/enhance/temp.py:21: RuntimeError
+____________ TestZCA.test_identity[cpu-float32-input_shape0-1e-06] _____________
+
+self = <test_zca.TestZCA object at 0x7a75ddf014e0>, input_shape = (15, 2, 2, 2)
+eps = 1e-06, device = device(type='cpu'), dtype = torch.float32
+
+    @pytest.mark.parametrize("input_shape,eps", [((15, 2, 2, 2), 1e-6), ((10, 4), 0.1), ((20, 3, 2, 2), 1e-3)])
+    def test_identity(self, input_shape, eps, device, dtype):
+        """Assert that data can be recovered by the inverse transform."""
+        data = torch.randn(*input_shape, device=device, dtype=dtype)
+    
+>       zca = kornia.enhance.ZCAWhitening(compute_inv=True, eps=eps).fit(data)
+
+../publishablew/kornia/kornia/tests/enhance/test_zca.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/enhance/zca.py:84: in fit
+    T, mean, T_inv = zca_mean(x, self.dim, self.unbiased, self.eps, self.compute_inv)
+../publishablew/kornia/kornia/kornia/enhance/zca.py:136: in zca_mean
+    return zca_mean(inp, dim, unbiased, eps, return_inverse)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+inp = tensor([[[[ 1.9961,  1.3385],
+          [ 0.0038, -0.1185]],
+
+         [[-0.4189,  0.7285],
+          [-0.0614, -0.238...   [[[ 0.6779, -2.0490],
+          [-1.3092,  0.1368]],
+
+         [[-1.1942,  0.6626],
+          [ 0.8054,  1.0713]]]])
+dim = 0, unbiased = True, eps = 1e-06, return_inverse = True
+
+    def zca_mean(inp, dim, unbiased=True, eps=1e-05, return_inverse=False):
+        if not isinstance(inp, torch.Tensor):
+            raise TypeError('Input must be a torch.Tensor')
+        if not isinstance(dim, int) or dim < 0 or dim >= inp.ndim:
+            raise ValueError("Dimension 'dim' must be a valid dimension of the input tensor")
+        if not isinstance(unbiased, bool):
+            raise TypeError("Parameter 'unbiased' must be a boolean")
+        if not isinstance(eps, (float, int)) or eps <= 0:
+            raise ValueError("Parameter 'eps' must be a positive number")
+        if not isinstance(return_inverse, bool):
+            raise TypeError("Parameter 'return_inverse' must be a boolean")
+        mean_vector = inp.mean(dim=dim, keepdim=True)
+        centered_inp = inp - mean_vector
+        if unbiased:
+>           cov_matrix = torch.matmul(centered_inp.transpose(dim, -1), centered_inp) / (centered_inp.size(dim) - 1)
+E           RuntimeError: The size of tensor a (2) must match the size of tensor b (15) at non-singleton dimension 0
+
+../publishablew/kornia/kornia/kornia/enhance/temp.py:21: RuntimeError
+_____________ TestZCA.test_identity[cpu-float32-input_shape1-0.1] ______________
+
+self = <test_zca.TestZCA object at 0x7a75ddf01420>, input_shape = (10, 4)
+eps = 0.1, device = device(type='cpu'), dtype = torch.float32
+
+    @pytest.mark.parametrize("input_shape,eps", [((15, 2, 2, 2), 1e-6), ((10, 4), 0.1), ((20, 3, 2, 2), 1e-3)])
+    def test_identity(self, input_shape, eps, device, dtype):
+        """Assert that data can be recovered by the inverse transform."""
+        data = torch.randn(*input_shape, device=device, dtype=dtype)
+    
+        zca = kornia.enhance.ZCAWhitening(compute_inv=True, eps=eps).fit(data)
+    
+        data_w = zca(data)
+    
+>       data_hat = zca.inverse_transform(data_w)
+
+../publishablew/kornia/kornia/tests/enhance/test_zca.py:67: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = ZCAWhitening()
+x = tensor([[-0.0916, -1.0357,  1.4864,  0.2439],
+        [ 0.8885, -0.0993,  0.0960, -0.3988],
+        [ 0.2948,  0.0649,...0.0967,  0.6217, -0.6725],
+        [-1.6875, -0.0863,  0.6703,  1.1444],
+        [-0.6121, -0.2512, -1.0650, -1.6944]])
+
+    def inverse_transform(self, x: Tensor) -> Tensor:
+        """Apply the inverse transform to the whitened data.
+    
+        Args:
+            x: Whitened data.
+    
+        Returns:
+            Original data.
+        """
+        if not self.fitted:
+            raise RuntimeError('Needs to be fitted first before running. Please call fit or set include_fit to True.')
+        if not self.compute_inv:
+            raise RuntimeError('Did not compute inverse ZCA. Please set compute_inv to True')
+        if self.transform_inv is None:
+            raise TypeError('The transform inverse should be a Tensor. Gotcha None.')
+>       mean_inv: Tensor = -self.mean_vector.mm(self.transform_matrix)
+E       RuntimeError: self must be a matrix
+
+../publishablew/kornia/kornia/kornia/enhance/zca.py:130: RuntimeError
+____________ TestZCA.test_identity[cpu-float32-input_shape2-0.001] _____________
+
+self = <test_zca.TestZCA object at 0x7a75ddf01780>, input_shape = (20, 3, 2, 2)
+eps = 0.001, device = device(type='cpu'), dtype = torch.float32
+
+    @pytest.mark.parametrize("input_shape,eps", [((15, 2, 2, 2), 1e-6), ((10, 4), 0.1), ((20, 3, 2, 2), 1e-3)])
+    def test_identity(self, input_shape, eps, device, dtype):
+        """Assert that data can be recovered by the inverse transform."""
+        data = torch.randn(*input_shape, device=device, dtype=dtype)
+    
+>       zca = kornia.enhance.ZCAWhitening(compute_inv=True, eps=eps).fit(data)
+
+../publishablew/kornia/kornia/tests/enhance/test_zca.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/enhance/zca.py:84: in fit
+    T, mean, T_inv = zca_mean(x, self.dim, self.unbiased, self.eps, self.compute_inv)
+../publishablew/kornia/kornia/kornia/enhance/zca.py:136: in zca_mean
+    return zca_mean(inp, dim, unbiased, eps, return_inverse)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+inp = tensor([[[[-0.8348, -0.7778],
+          [-0.7170,  0.7804]],
+
+         [[-0.3634,  0.2811],
+          [-0.6811,  2.108...    [[-0.5504,  1.3848],
+          [ 0.1986, -0.9704]],
+
+         [[ 0.3403, -0.3028],
+          [-0.8042, -0.1745]]]])
+dim = 0, unbiased = True, eps = 0.001, return_inverse = True
+
+    def zca_mean(inp, dim, unbiased=True, eps=1e-05, return_inverse=False):
+        if not isinstance(inp, torch.Tensor):
+            raise TypeError('Input must be a torch.Tensor')
+        if not isinstance(dim, int) or dim < 0 or dim >= inp.ndim:
+            raise ValueError("Dimension 'dim' must be a valid dimension of the input tensor")
+        if not isinstance(unbiased, bool):
+            raise TypeError("Parameter 'unbiased' must be a boolean")
+        if not isinstance(eps, (float, int)) or eps <= 0:
+            raise ValueError("Parameter 'eps' must be a positive number")
+        if not isinstance(return_inverse, bool):
+            raise TypeError("Parameter 'return_inverse' must be a boolean")
+        mean_vector = inp.mean(dim=dim, keepdim=True)
+        centered_inp = inp - mean_vector
+        if unbiased:
+>           cov_matrix = torch.matmul(centered_inp.transpose(dim, -1), centered_inp) / (centered_inp.size(dim) - 1)
+E           RuntimeError: The size of tensor a (2) must match the size of tensor b (20) at non-singleton dimension 0
+
+../publishablew/kornia/kornia/kornia/enhance/temp.py:21: RuntimeError
+_____________________ TestZCA.test_grad_zca_with_fit[cpu] ______________________
+
+self = <test_zca.TestZCA object at 0x7a75ddf01c90>, device = device(type='cpu')
+
+    def test_grad_zca_with_fit(self, device):
+        data = torch.tensor([[2, 0], [0, 1], [-2, 0], [0, -1]], device=device, dtype=torch.float64)
+    
+        def zca_fit(x):
+            zca = kornia.enhance.ZCAWhitening(detach_transforms=False)
+            return zca(x, include_fit=True)
+    
+>       self.gradcheck(zca_fit, (data,))
+
+../publishablew/kornia/kornia/tests/enhance/test_zca.py:95: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/testing/base.py:143: in gradcheck
+    return gradcheck(func, inputs, raise_exception=raise_exception, fast_mode=fast_mode, **kwargs)
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:2052: in gradcheck
+    return _gradcheck_helper(**args)
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:2074: in _gradcheck_helper
+    func_out = func(*tupled_inputs)
+../publishablew/kornia/kornia/tests/enhance/test_zca.py:93: in zca_fit
+    return zca(x, include_fit=True)
+../publishablew/kornia/kornia/kornia/core/module.py:274: in __call__
+    _output_image = decorated_forward(*inputs, **kwargs)
+../publishablew/kornia/kornia/kornia/core/module.py:63: in wrapper
+    tensor_outputs = func(*args, **kwargs)
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/kornia/kornia/kornia/enhance/zca.py:109: in forward
+    self.fit(x)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = ZCAWhitening()
+x = tensor([[ 2.,  0.],
+        [ 0.,  1.],
+        [-2.,  0.],
+        [ 0., -1.]], dtype=torch.float64, requires_grad=True)
+
+    def fit(self, x: Tensor) -> 'ZCAWhitening':
+        """Fit ZCA whitening matrices to the data.
+    
+        Args:
+    
+            x: Input data.
+    
+        returns:
+            Returns a fitted ZCAWhiten object instance.
+        """
+>       T, mean, T_inv = zca_mean(x, self.dim, self.unbiased, self.eps, self.compute_inv)
+E       ValueError: not enough values to unpack (expected 3, got 2)
+
+../publishablew/kornia/kornia/kornia/enhance/zca.py:84: ValueError
+______________________ TestZCA.test_grad_detach_zca[cpu] _______________________
+
+self = <test_zca.TestZCA object at 0x7a75ddf01f30>, device = device(type='cpu')
+
+    def test_grad_detach_zca(self, device):
+        data = torch.tensor([[1, 0], [0, 1], [-2, 0], [0, -1]], device=device, dtype=torch.float64)
+    
+        zca = kornia.enhance.ZCAWhitening()
+    
+>       zca.fit(data)
+
+../publishablew/kornia/kornia/tests/enhance/test_zca.py:102: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = ZCAWhitening()
+x = tensor([[ 1.,  0.],
+        [ 0.,  1.],
+        [-2.,  0.],
+        [ 0., -1.]], dtype=torch.float64)
+
+    def fit(self, x: Tensor) -> 'ZCAWhitening':
+        """Fit ZCA whitening matrices to the data.
+    
+        Args:
+    
+            x: Input data.
+    
+        returns:
+            Returns a fitted ZCAWhiten object instance.
+        """
+>       T, mean, T_inv = zca_mean(x, self.dim, self.unbiased, self.eps, self.compute_inv)
+E       ValueError: not enough values to unpack (expected 3, got 2)
+
+../publishablew/kornia/kornia/kornia/enhance/zca.py:84: ValueError
+________________________ TestZCA.test_jit[cpu-float32] _________________________
+
+self = <test_zca.TestZCA object at 0x7a75ddf02530>, device = device(type='cpu')
+dtype = torch.float32
+
+    def test_jit(self, device, dtype):
+        data = torch.rand(10, 3, 1, 2, device=device, dtype=dtype)
+>       zca = kornia.enhance.ZCAWhitening().fit(data)
+
+../publishablew/kornia/kornia/tests/enhance/test_zca.py:122: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/enhance/zca.py:84: in fit
+    T, mean, T_inv = zca_mean(x, self.dim, self.unbiased, self.eps, self.compute_inv)
+../publishablew/kornia/kornia/kornia/enhance/zca.py:136: in zca_mean
+    return zca_mean(inp, dim, unbiased, eps, return_inverse)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+inp = tensor([[[[0.3610, 0.5687]],
+
+         [[0.8299, 0.8729]],
+
+         [[0.3119, 0.3539]]],
+
+
+        [[[0.3726, 0.3295]...      [[0.4152, 0.5236]]],
+
+
+        [[[0.1348, 0.6459]],
+
+         [[0.7173, 0.3127]],
+
+         [[0.3947, 0.3041]]]])
+dim = 0, unbiased = True, eps = 1e-06, return_inverse = False
+
+    def zca_mean(inp, dim, unbiased=True, eps=1e-05, return_inverse=False):
+        if not isinstance(inp, torch.Tensor):
+            raise TypeError('Input must be a torch.Tensor')
+        if not isinstance(dim, int) or dim < 0 or dim >= inp.ndim:
+            raise ValueError("Dimension 'dim' must be a valid dimension of the input tensor")
+        if not isinstance(unbiased, bool):
+            raise TypeError("Parameter 'unbiased' must be a boolean")
+        if not isinstance(eps, (float, int)) or eps <= 0:
+            raise ValueError("Parameter 'eps' must be a positive number")
+        if not isinstance(return_inverse, bool):
+            raise TypeError("Parameter 'return_inverse' must be a boolean")
+        mean_vector = inp.mean(dim=dim, keepdim=True)
+        centered_inp = inp - mean_vector
+        if unbiased:
+>           cov_matrix = torch.matmul(centered_inp.transpose(dim, -1), centered_inp) / (centered_inp.size(dim) - 1)
+E           RuntimeError: The size of tensor a (2) must match the size of tensor b (10) at non-singleton dimension 0
+
+../publishablew/kornia/kornia/kornia/enhance/temp.py:21: RuntimeError
+___________ TestZCA.test_zca_whiten_func_unbiased[cpu-float32-True] ____________
+
+self = <test_zca.TestZCA object at 0x7a75ddf02920>, unbiased = True
+device = device(type='cpu'), dtype = torch.float32
+
+    @pytest.mark.parametrize("unbiased", [True, False])
+    def test_zca_whiten_func_unbiased(self, unbiased, device, dtype):
+        data = torch.tensor([[0, 1], [1, 0], [-1, 0], [0, -1]], device=device, dtype=dtype)
+    
+        if unbiased:
+            unbiased_val = 1.5
+        else:
+            unbiased_val = 2.0
+    
+        expected = torch.sqrt(unbiased_val * torch.abs(data)) * torch.sign(data)
+    
+>       actual = kornia.enhance.zca_whiten(data, unbiased=unbiased)
+
+../publishablew/kornia/kornia/tests/enhance/test_zca.py:138: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+inp = tensor([[ 0.,  1.],
+        [ 1.,  0.],
+        [-1.,  0.],
+        [ 0., -1.]])
+dim = 0, unbiased = True, eps = 1e-06
+
+    def zca_whiten(inp: Tensor, dim: int=0, unbiased: bool=True, eps: float=1e-06) -> Tensor:
+        """Apply ZCA whitening transform.
+    
+        See :class:`~kornia.color.ZCAWhitening` for details.
+    
+        Args:
+            inp: input data tensor.
+            dim: Specifies the dimension that serves as the samples dimension.
+            unbiased: Whether to use the unbiased estimate of the covariance matrix.
+            eps: a small number used for numerical stability.
+    
+        Returns:
+            Whiten Input data.
+    
+        .. note::
+           See a working example `here <https://colab.sandbox.google.com/github/kornia/tutorials/
+           blob/master/source/zca_whitening.ipynb>`__.
+    
+        Examples:
+            >>> x = torch.tensor([[0,1],[1,0],[-1,0]], dtype = torch.float32)
+            >>> zca_whiten(x)
+            tensor([[ 0.0000,  1.1547],
+                    [ 1.0000, -0.5773],
+                    [-1.0000, -0.5773]])
+        """
+        if not isinstance(inp, Tensor):
+            raise TypeError(f'Input type is not a Tensor. Got {type(inp)}')
+        if not isinstance(eps, float):
+            raise TypeError(f'eps type is not a float. Got{type(eps)}')
+        if not isinstance(unbiased, bool):
+            raise TypeError(f'unbiased type is not bool. Got{type(unbiased)}')
+        if not isinstance(dim, int):
+            raise TypeError(f"Argument 'dim' must be of type int. Got {type(dim)}")
+>       transform, mean, _ = zca_mean(inp, dim, unbiased, eps, False)
+E       ValueError: not enough values to unpack (expected 3, got 2)
+
+../publishablew/kornia/kornia/kornia/enhance/zca.py:243: ValueError
+___________ TestZCA.test_zca_whiten_func_unbiased[cpu-float32-False] ___________
+
+self = <test_zca.TestZCA object at 0x7a75ddf02860>, unbiased = False
+device = device(type='cpu'), dtype = torch.float32
+
+    @pytest.mark.parametrize("unbiased", [True, False])
+    def test_zca_whiten_func_unbiased(self, unbiased, device, dtype):
+        data = torch.tensor([[0, 1], [1, 0], [-1, 0], [0, -1]], device=device, dtype=dtype)
+    
+        if unbiased:
+            unbiased_val = 1.5
+        else:
+            unbiased_val = 2.0
+    
+        expected = torch.sqrt(unbiased_val * torch.abs(data)) * torch.sign(data)
+    
+>       actual = kornia.enhance.zca_whiten(data, unbiased=unbiased)
+
+../publishablew/kornia/kornia/tests/enhance/test_zca.py:138: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+inp = tensor([[ 0.,  1.],
+        [ 1.,  0.],
+        [-1.,  0.],
+        [ 0., -1.]])
+dim = 0, unbiased = False, eps = 1e-06
+
+    def zca_whiten(inp: Tensor, dim: int=0, unbiased: bool=True, eps: float=1e-06) -> Tensor:
+        """Apply ZCA whitening transform.
+    
+        See :class:`~kornia.color.ZCAWhitening` for details.
+    
+        Args:
+            inp: input data tensor.
+            dim: Specifies the dimension that serves as the samples dimension.
+            unbiased: Whether to use the unbiased estimate of the covariance matrix.
+            eps: a small number used for numerical stability.
+    
+        Returns:
+            Whiten Input data.
+    
+        .. note::
+           See a working example `here <https://colab.sandbox.google.com/github/kornia/tutorials/
+           blob/master/source/zca_whitening.ipynb>`__.
+    
+        Examples:
+            >>> x = torch.tensor([[0,1],[1,0],[-1,0]], dtype = torch.float32)
+            >>> zca_whiten(x)
+            tensor([[ 0.0000,  1.1547],
+                    [ 1.0000, -0.5773],
+                    [-1.0000, -0.5773]])
+        """
+        if not isinstance(inp, Tensor):
+            raise TypeError(f'Input type is not a Tensor. Got {type(inp)}')
+        if not isinstance(eps, float):
+            raise TypeError(f'eps type is not a float. Got{type(eps)}')
+        if not isinstance(unbiased, bool):
+            raise TypeError(f'unbiased type is not bool. Got{type(unbiased)}')
+        if not isinstance(dim, int):
+            raise TypeError(f"Argument 'dim' must be of type int. Got {type(dim)}")
+>       transform, mean, _ = zca_mean(inp, dim, unbiased, eps, False)
+E       ValueError: not enough values to unpack (expected 3, got 2)
+
+../publishablew/kornia/kornia/kornia/enhance/zca.py:243: ValueError
+=========================== short test summary info ============================
+FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_unbiased[cpu-float32-True]
+FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_unbiased[cpu-float32-False]
+FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_dim_args[cpu-float32-0]
+FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_dim_args[cpu-float32-1]
+FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_identity[cpu-float32-input_shape0-1e-06]
+FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_identity[cpu-float32-input_shape1-0.1]
+FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_identity[cpu-float32-input_shape2-0.001]
+FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_grad_zca_with_fit[cpu]
+FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_grad_detach_zca[cpu]
+FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_jit[cpu-float32]
+FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_whiten_func_unbiased[cpu-float32-True]
+FAILED ../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_whiten_func_unbiased[cpu-float32-False]
+========================= 12 failed, 3 passed in 0.48s =========================
+
+
+Final Test Result:
+Setting up torch compile...
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.3.3, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/kornia/kornia/venv/bin/python
+cachedir: .pytest_cache
+
+cpu info:
+	- Model name: AMD Ryzen 7 PRO 5845 8-Core Processor
+	- Architecture: x86_64
+	- CPU(s): 16
+	- Thread(s) per core: 2
+	- CPU max MHz: 4661.7178
+	- CPU min MHz: 2200.0000
+gpu info: {'GPU 0': 'NVIDIA GeForce RTX 3060'}
+main deps:
+    - kornia-0.7.4
+    - torch-2.5.1+cu124
+        - commit: a8d6afb511a69687bbb2b7e88a3cf67917e1697e
+        - cuda: 12.4
+        - nvidia-driver: 555.42.02
+x deps:
+    - accelerate-1.1.1
+dev deps:
+    - kornia_rs-0.1.7
+    - onnx-1.17.0
+gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
+available optimizers: {'', 'inductor', 'openxla', 'tvm', 'cudagraphs', 'jit', 'onnxrt', None}
+model weights cached: ['checkpoints']
+
+rootdir: /local/data0/moved_data/publishablew/kornia/kornia
+configfile: pyproject.toml
+plugins: timeout-2.3.1
+collecting ... collected 15 items
+
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_unbiased[cpu-float32-True] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_unbiased[cpu-float32-False] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_dim_args[cpu-float32-0] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_dim_args[cpu-float32-1] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_identity[cpu-float32-input_shape0-1e-06] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_identity[cpu-float32-input_shape1-0.1] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_identity[cpu-float32-input_shape2-0.001] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_grad_zca_individual_transforms[cpu] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_grad_zca_with_fit[cpu] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_grad_detach_zca[cpu] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_not_fitted[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_not_fitted_inv[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_jit[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_whiten_func_unbiased[cpu-float32-True] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_whiten_func_unbiased[cpu-float32-False] PASSED
+
+============================== 15 passed in 0.25s ==============================
+
+
+Initial Result:
+Setting up torch compile...
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.3.3, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/kornia/kornia/venv/bin/python
+cachedir: .pytest_cache
+
+cpu info:
+	- Model name: AMD Ryzen 7 PRO 5845 8-Core Processor
+	- Architecture: x86_64
+	- CPU(s): 16
+	- Thread(s) per core: 2
+	- CPU max MHz: 4661.7178
+	- CPU min MHz: 2200.0000
+gpu info: {'GPU 0': 'NVIDIA GeForce RTX 3060'}
+main deps:
+    - kornia-0.7.4
+    - torch-2.5.1+cu124
+        - commit: a8d6afb511a69687bbb2b7e88a3cf67917e1697e
+        - cuda: 12.4
+        - nvidia-driver: 555.42.02
+x deps:
+    - accelerate-1.1.1
+dev deps:
+    - kornia_rs-0.1.7
+    - onnx-1.17.0
+gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
+available optimizers: {'', 'jit', 'cudagraphs', 'openxla', 'onnxrt', 'tvm', None, 'inductor'}
+model weights cached: ['checkpoints']
+
+rootdir: /local/data0/moved_data/publishablew/kornia/kornia
+configfile: pyproject.toml
+plugins: timeout-2.3.1
+collecting ... collected 15 items
+
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_unbiased[cpu-float32-True] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_unbiased[cpu-float32-False] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_dim_args[cpu-float32-0] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_dim_args[cpu-float32-1] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_identity[cpu-float32-input_shape0-1e-06] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_identity[cpu-float32-input_shape1-0.1] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_identity[cpu-float32-input_shape2-0.001] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_grad_zca_individual_transforms[cpu] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_grad_zca_with_fit[cpu] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_grad_detach_zca[cpu] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_not_fitted[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_not_fitted_inv[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_jit[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_whiten_func_unbiased[cpu-float32-True] PASSED
+../publishablew/kornia/kornia/tests/enhance/test_zca.py::TestZCA::test_zca_whiten_func_unbiased[cpu-float32-False] PASSED
+
+============================== 15 passed in 0.24s ==============================

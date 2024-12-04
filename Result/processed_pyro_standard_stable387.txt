@@ -1,0 +1,22 @@
+output file:
+processed_pyro_standard_stable387.json
+function:
+_standard_stable
+Error Cases:
+ImportError while loading conftest '/local/data0/moved_data/publishablew/pyro/pyro/tests/distributions/conftest.py'.
+../publishablew/pyro/pyro/tests/distributions/conftest.py:9: in <module>
+    import scipy.stats as sp
+E   ModuleNotFoundError: No module named 'scipy'
+
+Pass or Failed: 1
+
+Related Failed Test Cases:
+set()
+
+All Test Cases On Generated code:
+
+
+Final Test Result:
+
+
+Initial Result:

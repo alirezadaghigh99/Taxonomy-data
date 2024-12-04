@@ -1,0 +1,434 @@
+output file:
+processed_vision_compute_resized_output_size270.json
+function:
+_compute_resized_output_size
+Error Cases:
+
+Pass or Failed: 0
+
+Related Failed Test Cases:
+{'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-35-29] FAILED'}
+
+All Test Cases On Generated code:
+============================= test session starts ==============================
+platform linux -- Python 3.11.10, pytest-8.3.4, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/vision/vision/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /local/data0/moved_data/publishablew/vision/vision
+configfile: pytest.ini
+plugins: mock-3.14.0
+collecting ... collected 108 items
+
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-34] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-29-35] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-34-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-35-29] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-35-29] PASSED
+
+=================================== FAILURES ===================================
+___________________________ test_resize[37-36-28-34] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:380: in test_resize
+    assert result.size == (exp_w, exp_h), msg
+E   AssertionError: 28, 34 - 36 - 37
+E   assert (37, 36) == (37, 30)
+E     
+E     At index 1 diff: 36 != 30
+E     
+E     Full diff:
+E       (
+E           37,
+E     -     30,...
+E     
+E     ...Full output truncated (4 lines hidden), use '-vv' to show
+___________________________ test_resize[37-36-29-35] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:380: in test_resize
+    assert result.size == (exp_w, exp_h), msg
+E   AssertionError: 29, 35 - 36 - 37
+E   assert (37, 36) == (37, 30)
+E     
+E     At index 1 diff: 36 != 30
+E     
+E     Full diff:
+E       (
+E           37,
+E     -     30,...
+E     
+E     ...Full output truncated (4 lines hidden), use '-vv' to show
+___________________________ test_resize[37-36-34-28] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:385: in test_resize
+    assert result.size == (exp_w, exp_h), msg
+E   AssertionError: 34, 28 - 36 - 37
+E   assert (36, 37) == (30, 37)
+E     
+E     At index 0 diff: 36 != 30
+E     
+E     Full diff:
+E       (
+E     -     30,
+E     ?      ^...
+E     
+E     ...Full output truncated (4 lines hidden), use '-vv' to show
+___________________________ test_resize[37-36-35-29] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:385: in test_resize
+    assert result.size == (exp_w, exp_h), msg
+E   AssertionError: 35, 29 - 36 - 37
+E   assert (36, 37) == (30, 37)
+E     
+E     At index 0 diff: 36 != 30
+E     
+E     Full diff:
+E       (
+E     -     30,
+E     ?      ^...
+E     
+E     ...Full output truncated (4 lines hidden), use '-vv' to show
+=========================== short test summary info ============================
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-34]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-34-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-35-29]
+======================== 4 failed, 104 passed in 0.63s =========================
+
+
+Final Test Result:
+============================= test session starts ==============================
+platform linux -- Python 3.11.10, pytest-8.3.4, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/vision/vision/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /local/data0/moved_data/publishablew/vision/vision
+configfile: pytest.ini
+plugins: mock-3.14.0
+collecting ... collected 108 items
+
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-35-29] PASSED
+
+============================= 108 passed in 0.44s ==============================
+
+
+Initial Result:
+============================= test session starts ==============================
+platform linux -- Python 3.11.10, pytest-8.3.4, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/vision/vision/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /local/data0/moved_data/publishablew/vision/vision
+configfile: pytest.ini
+plugins: mock-3.14.0
+collecting ... collected 108 items
+
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-29-35] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-35-29] PASSED
+
+============================= 108 passed in 0.43s ==============================

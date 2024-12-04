@@ -1,0 +1,2178 @@
+output file:
+processed_pennylane_coefficients_no_filter171.json
+function:
+_coefficients_no_filter
+Error Cases:
+
+Pass or Failed: 0
+
+Related Failed Test Cases:
+{'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-1-expected_coeffs0-False]', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-4-expected_coeffs5-False]', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-3-expected_coeffs7-True] FAILED', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-1-expected_coeffs2-False] FAILED', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-degree3-expected_coeffs3-False] FAILED', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-1-expected_coeffs0-False] FAILED', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-degree3-expected_coeffs3-True]', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-3-expected_coeffs7-False] FAILED', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-degree2-expected_coeffs2-False]', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-3-expected_coeffs3-False]', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-degree6-expected_coeffs6-True]', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-3-expected_coeffs7-False]', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-1-expected_coeffs2-True]', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-1-expected_coeffs0-False] FAILED', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-3-expected_coeffs7-True]', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-2-expected_coeffs4-True]', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-3-expected_coeffs3-False] FAILED', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-2-expected_coeffs4-False] FAILED', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-degree6-expected_coeffs6-False] FAILED', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-degree2-expected_coeffs2-True] FAILED', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-degree3-expected_coeffs3-True] FAILED', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-degree1-expected_coeffs1-True] FAILED', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-degree2-expected_coeffs2-True]', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-2-expected_coeffs4-False]', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-2-expected_coeffs1-False]', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-degree6-expected_coeffs6-False]', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-1-expected_coeffs0-True] FAILED', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-1-expected_coeffs0-True]', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-1-expected_coeffs2-False]', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-1-expected_coeffs2-True] FAILED', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-degree2-expected_coeffs2-False] FAILED', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-1-expected_coeffs0-True]', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-2-expected_coeffs1-True] FAILED', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-4-expected_coeffs5-False] FAILED', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-degree6-expected_coeffs6-True] FAILED', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-4-expected_coeffs5-True] FAILED', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-degree3-expected_coeffs3-False]', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-3-expected_coeffs3-True]', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-degree1-expected_coeffs1-True]', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-degree1-expected_coeffs1-False] FAILED', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-3-expected_coeffs3-True] FAILED', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-2-expected_coeffs1-False] FAILED', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-1-expected_coeffs0-True] FAILED', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-1-expected_coeffs0-False]', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-degree1-expected_coeffs1-False]', '../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-2-expected_coeffs4-True] FAILED', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-2-expected_coeffs1-True]', 'FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-4-expected_coeffs5-True]'}
+
+All Test Cases On Generated code:
+============================= test session starts ==============================
+platform linux -- Python 3.11.10, pytest-8.3.4, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/pennylane/pennylane/venv/bin/python
+cachedir: .pytest_cache
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: /local/data0/moved_data/publishablew/pennylane/pennylane/tests
+configfile: pytest.ini
+plugins: flaky-3.8.1, xdist-3.6.1, split-0.10.0, rng-1.0.0, mock-3.14.0, forked-1.6.0, cov-6.0.0, benchmark-5.1.0
+collecting ... collected 24 items
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-1-expected_coeffs0-False] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-1-expected_coeffs0-True] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-2-expected_coeffs1-False] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-2-expected_coeffs1-True] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-degree2-expected_coeffs2-False] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-degree2-expected_coeffs2-True] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-3-expected_coeffs3-False] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-3-expected_coeffs3-True] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-2-expected_coeffs4-False] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-2-expected_coeffs4-True] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-4-expected_coeffs5-False] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-4-expected_coeffs5-True] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-degree6-expected_coeffs6-False] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-degree6-expected_coeffs6-True] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-3-expected_coeffs7-False] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-3-expected_coeffs7-True] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-1-expected_coeffs0-False] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-1-expected_coeffs0-True] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-degree1-expected_coeffs1-False] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-degree1-expected_coeffs1-True] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-1-expected_coeffs2-False] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-1-expected_coeffs2-True] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-degree3-expected_coeffs3-False] FAILED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-degree3-expected_coeffs3-True] FAILED
+
+=================================== FAILURES ===================================
+_ TestFourierCoefficientCircuits.test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-1-expected_coeffs0-False] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a1b391790>
+circuit = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = 1, expected_coeffs = tensor([0. , 0.5, 0.5], requires_grad=True)
+use_broadcasting = False
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (circuit_one_qubit_one_param_rx, 1, np.array([0, 0.5, 0.5])),
+            (circuit_one_qubit_one_param_rx, 2, np.array([0, 0.5, 0, 0, 0.5])),
+            (circuit_one_qubit_one_param_h_ry, (1,), np.array([0, 0.5j, -0.5j])),
+            (
+                circuit_one_qubit_one_param_h_ry,
+                3,
+                np.array([0, 0.5j, 0, 0, 0, 0, -0.5j]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                2,
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                4,
+                np.array([0.5, 0, 0.25, 0, 0, 0, 0, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                (2,),
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                3,
+                np.array([0.5, 0, 0.25, 0, 0, 0.25, 0]),
+            ),
+        ],
+    )
+    def test_coefficients_one_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:240: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in _coefficients_no_filter
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in <listcomp>
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:976: in __call__
+    return self._impl_call(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:952: in _impl_call
+    self.construct(args, kwargs)
+../publishablew/pennylane/pennylane/pennylane/logging/decorators.py:61: in wrapper_entry
+    return func(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:884: in construct
+    self._qfunc_output = self.func(*args, **kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+inpt = np.float64(0.0)
+
+    @qml.qnode(dev_1)
+    def circuit_one_qubit_one_param_rx(inpt):
+        r"""Circuit with a single-qubit, single-param, output function <Z>.
+    
+        By-hand calculation of :math:`f(x)` gives :math:`<Z> = cos^2(x/2) - sin^2(x/2) = cos(x)`.
+        Fourier coeffs are :math:`c_1 = c_-1 = 0.5`.
+        """
+>       qml.RX(inpt[0], wires=0)
+E       IndexError: invalid index to scalar variable.
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:112: IndexError
+_ TestFourierCoefficientCircuits.test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-1-expected_coeffs0-True] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d37010>
+circuit = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = 1, expected_coeffs = tensor([0. , 0.5, 0.5], requires_grad=True)
+use_broadcasting = True
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (circuit_one_qubit_one_param_rx, 1, np.array([0, 0.5, 0.5])),
+            (circuit_one_qubit_one_param_rx, 2, np.array([0, 0.5, 0, 0, 0.5])),
+            (circuit_one_qubit_one_param_h_ry, (1,), np.array([0, 0.5j, -0.5j])),
+            (
+                circuit_one_qubit_one_param_h_ry,
+                3,
+                np.array([0, 0.5j, 0, 0, 0, 0, -0.5j]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                2,
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                4,
+                np.array([0.5, 0, 0.25, 0, 0, 0, 0, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                (2,),
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                3,
+                np.array([0.5, 0, 0.25, 0, 0, 0.25, 0]),
+            ),
+        ],
+    )
+    def test_coefficients_one_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:240: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+f = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = (1,), use_broadcasting = True
+
+    def _coefficients_no_filter(f, degree, use_broadcasting=True):
+        """
+        Compute the first 2d+1 Fourier coefficients for a 2π-periodic function.
+    
+        Parameters:
+        f (callable): The 2π-periodic function to analyze.
+        degree (int or tuple): The maximum frequency. If tuple, it should be (d1, d2, ..., dn).
+        use_broadcasting (bool): Whether to use broadcasting for simultaneous function evaluations.
+    
+        Returns:
+        np.ndarray: Array of complex numbers containing the Fourier coefficients.
+        """
+        if isinstance(degree, int):
+            degrees = (degree,)
+        else:
+            degrees = degree
+        num_dims = len(degrees)
+        points_per_dim = [2 * d + 1 for d in degrees]
+        total_points = np.prod(points_per_dim)
+        grids = [np.linspace(0, 2 * np.pi, num=p, endpoint=False) for p in points_per_dim]
+        mesh = np.meshgrid(*grids, indexing='ij')
+        eval_points = np.stack(mesh, axis=-1).reshape(-1, num_dims)
+        if use_broadcasting:
+            values = f(*eval_points.T)
+        else:
+            values = np.array([f(*point) for point in eval_points])
+>       values = values.reshape(points_per_dim)
+E       ValueError: cannot reshape array of size 1 into shape (3,)
+
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:31: ValueError
+_ TestFourierCoefficientCircuits.test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-2-expected_coeffs1-False] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d37190>
+circuit = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = 2
+expected_coeffs = tensor([0. , 0.5, 0. , 0. , 0.5], requires_grad=True)
+use_broadcasting = False
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (circuit_one_qubit_one_param_rx, 1, np.array([0, 0.5, 0.5])),
+            (circuit_one_qubit_one_param_rx, 2, np.array([0, 0.5, 0, 0, 0.5])),
+            (circuit_one_qubit_one_param_h_ry, (1,), np.array([0, 0.5j, -0.5j])),
+            (
+                circuit_one_qubit_one_param_h_ry,
+                3,
+                np.array([0, 0.5j, 0, 0, 0, 0, -0.5j]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                2,
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                4,
+                np.array([0.5, 0, 0.25, 0, 0, 0, 0, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                (2,),
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                3,
+                np.array([0.5, 0, 0.25, 0, 0, 0.25, 0]),
+            ),
+        ],
+    )
+    def test_coefficients_one_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:240: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in _coefficients_no_filter
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in <listcomp>
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:976: in __call__
+    return self._impl_call(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:952: in _impl_call
+    self.construct(args, kwargs)
+../publishablew/pennylane/pennylane/pennylane/logging/decorators.py:61: in wrapper_entry
+    return func(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:884: in construct
+    self._qfunc_output = self.func(*args, **kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+inpt = np.float64(0.0)
+
+    @qml.qnode(dev_1)
+    def circuit_one_qubit_one_param_rx(inpt):
+        r"""Circuit with a single-qubit, single-param, output function <Z>.
+    
+        By-hand calculation of :math:`f(x)` gives :math:`<Z> = cos^2(x/2) - sin^2(x/2) = cos(x)`.
+        Fourier coeffs are :math:`c_1 = c_-1 = 0.5`.
+        """
+>       qml.RX(inpt[0], wires=0)
+E       IndexError: invalid index to scalar variable.
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:112: IndexError
+_ TestFourierCoefficientCircuits.test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-2-expected_coeffs1-True] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d372d0>
+circuit = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = 2
+expected_coeffs = tensor([0. , 0.5, 0. , 0. , 0.5], requires_grad=True)
+use_broadcasting = True
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (circuit_one_qubit_one_param_rx, 1, np.array([0, 0.5, 0.5])),
+            (circuit_one_qubit_one_param_rx, 2, np.array([0, 0.5, 0, 0, 0.5])),
+            (circuit_one_qubit_one_param_h_ry, (1,), np.array([0, 0.5j, -0.5j])),
+            (
+                circuit_one_qubit_one_param_h_ry,
+                3,
+                np.array([0, 0.5j, 0, 0, 0, 0, -0.5j]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                2,
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                4,
+                np.array([0.5, 0, 0.25, 0, 0, 0, 0, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                (2,),
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                3,
+                np.array([0.5, 0, 0.25, 0, 0, 0.25, 0]),
+            ),
+        ],
+    )
+    def test_coefficients_one_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:240: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+f = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = (2,), use_broadcasting = True
+
+    def _coefficients_no_filter(f, degree, use_broadcasting=True):
+        """
+        Compute the first 2d+1 Fourier coefficients for a 2π-periodic function.
+    
+        Parameters:
+        f (callable): The 2π-periodic function to analyze.
+        degree (int or tuple): The maximum frequency. If tuple, it should be (d1, d2, ..., dn).
+        use_broadcasting (bool): Whether to use broadcasting for simultaneous function evaluations.
+    
+        Returns:
+        np.ndarray: Array of complex numbers containing the Fourier coefficients.
+        """
+        if isinstance(degree, int):
+            degrees = (degree,)
+        else:
+            degrees = degree
+        num_dims = len(degrees)
+        points_per_dim = [2 * d + 1 for d in degrees]
+        total_points = np.prod(points_per_dim)
+        grids = [np.linspace(0, 2 * np.pi, num=p, endpoint=False) for p in points_per_dim]
+        mesh = np.meshgrid(*grids, indexing='ij')
+        eval_points = np.stack(mesh, axis=-1).reshape(-1, num_dims)
+        if use_broadcasting:
+            values = f(*eval_points.T)
+        else:
+            values = np.array([f(*point) for point in eval_points])
+>       values = values.reshape(points_per_dim)
+E       ValueError: cannot reshape array of size 1 into shape (5,)
+
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:31: ValueError
+_ TestFourierCoefficientCircuits.test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-degree2-expected_coeffs2-False] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d37490>
+circuit = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = (1,)
+expected_coeffs = tensor([ 0.+0.j ,  0.+0.5j, -0.-0.5j], requires_grad=True)
+use_broadcasting = False
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (circuit_one_qubit_one_param_rx, 1, np.array([0, 0.5, 0.5])),
+            (circuit_one_qubit_one_param_rx, 2, np.array([0, 0.5, 0, 0, 0.5])),
+            (circuit_one_qubit_one_param_h_ry, (1,), np.array([0, 0.5j, -0.5j])),
+            (
+                circuit_one_qubit_one_param_h_ry,
+                3,
+                np.array([0, 0.5j, 0, 0, 0, 0, -0.5j]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                2,
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                4,
+                np.array([0.5, 0, 0.25, 0, 0, 0, 0, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                (2,),
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                3,
+                np.array([0.5, 0, 0.25, 0, 0, 0.25, 0]),
+            ),
+        ],
+    )
+    def test_coefficients_one_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:240: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in _coefficients_no_filter
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in <listcomp>
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:976: in __call__
+    return self._impl_call(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:952: in _impl_call
+    self.construct(args, kwargs)
+../publishablew/pennylane/pennylane/pennylane/logging/decorators.py:61: in wrapper_entry
+    return func(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:884: in construct
+    self._qfunc_output = self.func(*args, **kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+inpt = np.float64(0.0)
+
+    @qml.qnode(dev_1)
+    def circuit_one_qubit_one_param_h_ry(inpt):
+        r"""Circuit with a single-qubit, single-param, output function <Z>.
+    
+        By-hand calculation of :math:`f(x)` gives :math:`<Z> = -sin(x)`.
+        Fourier coeffs are :math:`c_1 = 0.5i, c_-1 = -0.5i`.
+        """
+        qml.Hadamard(wires=0)
+>       qml.RY(inpt[0], wires=0)
+E       IndexError: invalid index to scalar variable.
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:127: IndexError
+_ TestFourierCoefficientCircuits.test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-degree2-expected_coeffs2-True] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d37710>
+circuit = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = (1,)
+expected_coeffs = tensor([ 0.+0.j ,  0.+0.5j, -0.-0.5j], requires_grad=True)
+use_broadcasting = True
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (circuit_one_qubit_one_param_rx, 1, np.array([0, 0.5, 0.5])),
+            (circuit_one_qubit_one_param_rx, 2, np.array([0, 0.5, 0, 0, 0.5])),
+            (circuit_one_qubit_one_param_h_ry, (1,), np.array([0, 0.5j, -0.5j])),
+            (
+                circuit_one_qubit_one_param_h_ry,
+                3,
+                np.array([0, 0.5j, 0, 0, 0, 0, -0.5j]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                2,
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                4,
+                np.array([0.5, 0, 0.25, 0, 0, 0, 0, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                (2,),
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                3,
+                np.array([0.5, 0, 0.25, 0, 0, 0.25, 0]),
+            ),
+        ],
+    )
+    def test_coefficients_one_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:240: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+f = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = (1,), use_broadcasting = True
+
+    def _coefficients_no_filter(f, degree, use_broadcasting=True):
+        """
+        Compute the first 2d+1 Fourier coefficients for a 2π-periodic function.
+    
+        Parameters:
+        f (callable): The 2π-periodic function to analyze.
+        degree (int or tuple): The maximum frequency. If tuple, it should be (d1, d2, ..., dn).
+        use_broadcasting (bool): Whether to use broadcasting for simultaneous function evaluations.
+    
+        Returns:
+        np.ndarray: Array of complex numbers containing the Fourier coefficients.
+        """
+        if isinstance(degree, int):
+            degrees = (degree,)
+        else:
+            degrees = degree
+        num_dims = len(degrees)
+        points_per_dim = [2 * d + 1 for d in degrees]
+        total_points = np.prod(points_per_dim)
+        grids = [np.linspace(0, 2 * np.pi, num=p, endpoint=False) for p in points_per_dim]
+        mesh = np.meshgrid(*grids, indexing='ij')
+        eval_points = np.stack(mesh, axis=-1).reshape(-1, num_dims)
+        if use_broadcasting:
+            values = f(*eval_points.T)
+        else:
+            values = np.array([f(*point) for point in eval_points])
+>       values = values.reshape(points_per_dim)
+E       ValueError: cannot reshape array of size 1 into shape (3,)
+
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:31: ValueError
+_ TestFourierCoefficientCircuits.test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-3-expected_coeffs3-False] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d37990>
+circuit = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = 3
+expected_coeffs = tensor([ 0.+0.j ,  0.+0.5j,  0.+0.j ,  0.+0.j ,  0.+0.j ,  0.+0.j ,
+        -0.-0.5j], requires_grad=True)
+use_broadcasting = False
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (circuit_one_qubit_one_param_rx, 1, np.array([0, 0.5, 0.5])),
+            (circuit_one_qubit_one_param_rx, 2, np.array([0, 0.5, 0, 0, 0.5])),
+            (circuit_one_qubit_one_param_h_ry, (1,), np.array([0, 0.5j, -0.5j])),
+            (
+                circuit_one_qubit_one_param_h_ry,
+                3,
+                np.array([0, 0.5j, 0, 0, 0, 0, -0.5j]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                2,
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                4,
+                np.array([0.5, 0, 0.25, 0, 0, 0, 0, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                (2,),
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                3,
+                np.array([0.5, 0, 0.25, 0, 0, 0.25, 0]),
+            ),
+        ],
+    )
+    def test_coefficients_one_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:240: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in _coefficients_no_filter
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in <listcomp>
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:976: in __call__
+    return self._impl_call(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:952: in _impl_call
+    self.construct(args, kwargs)
+../publishablew/pennylane/pennylane/pennylane/logging/decorators.py:61: in wrapper_entry
+    return func(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:884: in construct
+    self._qfunc_output = self.func(*args, **kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+inpt = np.float64(0.0)
+
+    @qml.qnode(dev_1)
+    def circuit_one_qubit_one_param_h_ry(inpt):
+        r"""Circuit with a single-qubit, single-param, output function <Z>.
+    
+        By-hand calculation of :math:`f(x)` gives :math:`<Z> = -sin(x)`.
+        Fourier coeffs are :math:`c_1 = 0.5i, c_-1 = -0.5i`.
+        """
+        qml.Hadamard(wires=0)
+>       qml.RY(inpt[0], wires=0)
+E       IndexError: invalid index to scalar variable.
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:127: IndexError
+_ TestFourierCoefficientCircuits.test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-3-expected_coeffs3-True] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d37c10>
+circuit = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = 3
+expected_coeffs = tensor([ 0.+0.j ,  0.+0.5j,  0.+0.j ,  0.+0.j ,  0.+0.j ,  0.+0.j ,
+        -0.-0.5j], requires_grad=True)
+use_broadcasting = True
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (circuit_one_qubit_one_param_rx, 1, np.array([0, 0.5, 0.5])),
+            (circuit_one_qubit_one_param_rx, 2, np.array([0, 0.5, 0, 0, 0.5])),
+            (circuit_one_qubit_one_param_h_ry, (1,), np.array([0, 0.5j, -0.5j])),
+            (
+                circuit_one_qubit_one_param_h_ry,
+                3,
+                np.array([0, 0.5j, 0, 0, 0, 0, -0.5j]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                2,
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                4,
+                np.array([0.5, 0, 0.25, 0, 0, 0, 0, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                (2,),
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                3,
+                np.array([0.5, 0, 0.25, 0, 0, 0.25, 0]),
+            ),
+        ],
+    )
+    def test_coefficients_one_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:240: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+f = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = (3,), use_broadcasting = True
+
+    def _coefficients_no_filter(f, degree, use_broadcasting=True):
+        """
+        Compute the first 2d+1 Fourier coefficients for a 2π-periodic function.
+    
+        Parameters:
+        f (callable): The 2π-periodic function to analyze.
+        degree (int or tuple): The maximum frequency. If tuple, it should be (d1, d2, ..., dn).
+        use_broadcasting (bool): Whether to use broadcasting for simultaneous function evaluations.
+    
+        Returns:
+        np.ndarray: Array of complex numbers containing the Fourier coefficients.
+        """
+        if isinstance(degree, int):
+            degrees = (degree,)
+        else:
+            degrees = degree
+        num_dims = len(degrees)
+        points_per_dim = [2 * d + 1 for d in degrees]
+        total_points = np.prod(points_per_dim)
+        grids = [np.linspace(0, 2 * np.pi, num=p, endpoint=False) for p in points_per_dim]
+        mesh = np.meshgrid(*grids, indexing='ij')
+        eval_points = np.stack(mesh, axis=-1).reshape(-1, num_dims)
+        if use_broadcasting:
+            values = f(*eval_points.T)
+        else:
+            values = np.array([f(*point) for point in eval_points])
+>       values = values.reshape(points_per_dim)
+E       ValueError: cannot reshape array of size 1 into shape (7,)
+
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:31: ValueError
+_ TestFourierCoefficientCircuits.test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-2-expected_coeffs4-False] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d37e90>
+circuit = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = 2
+expected_coeffs = tensor([0.5 , 0.  , 0.25, 0.25, 0.  ], requires_grad=True)
+use_broadcasting = False
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (circuit_one_qubit_one_param_rx, 1, np.array([0, 0.5, 0.5])),
+            (circuit_one_qubit_one_param_rx, 2, np.array([0, 0.5, 0, 0, 0.5])),
+            (circuit_one_qubit_one_param_h_ry, (1,), np.array([0, 0.5j, -0.5j])),
+            (
+                circuit_one_qubit_one_param_h_ry,
+                3,
+                np.array([0, 0.5j, 0, 0, 0, 0, -0.5j]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                2,
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                4,
+                np.array([0.5, 0, 0.25, 0, 0, 0, 0, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                (2,),
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                3,
+                np.array([0.5, 0, 0.25, 0, 0, 0.25, 0]),
+            ),
+        ],
+    )
+    def test_coefficients_one_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:240: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in _coefficients_no_filter
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in <listcomp>
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:976: in __call__
+    return self._impl_call(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:952: in _impl_call
+    self.construct(args, kwargs)
+../publishablew/pennylane/pennylane/pennylane/logging/decorators.py:61: in wrapper_entry
+    return func(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:884: in construct
+    self._qfunc_output = self.func(*args, **kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+inpt = np.float64(0.0)
+
+    @qml.qnode(dev_1)
+    def circuit_one_qubit_one_param_rx_ry(inpt):
+        r"""Circuit with a single-qubit, single-param, output function <Z>.
+    
+        By-hand calculation of :math:`f(x)` gives :math:`<Z> = 1/2 + 1/2 cos(2x)`.
+        Fourier coeffs are :math:`c_0 = 0.5, c_1 = c_-1 = 0, c_2 = c_-2 = 0.5`.
+        """
+>       qml.RX(inpt[0], wires=0)
+E       IndexError: invalid index to scalar variable.
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:141: IndexError
+_ TestFourierCoefficientCircuits.test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-2-expected_coeffs4-True] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d50110>
+circuit = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = 2
+expected_coeffs = tensor([0.5 , 0.  , 0.25, 0.25, 0.  ], requires_grad=True)
+use_broadcasting = True
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (circuit_one_qubit_one_param_rx, 1, np.array([0, 0.5, 0.5])),
+            (circuit_one_qubit_one_param_rx, 2, np.array([0, 0.5, 0, 0, 0.5])),
+            (circuit_one_qubit_one_param_h_ry, (1,), np.array([0, 0.5j, -0.5j])),
+            (
+                circuit_one_qubit_one_param_h_ry,
+                3,
+                np.array([0, 0.5j, 0, 0, 0, 0, -0.5j]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                2,
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                4,
+                np.array([0.5, 0, 0.25, 0, 0, 0, 0, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                (2,),
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                3,
+                np.array([0.5, 0, 0.25, 0, 0, 0.25, 0]),
+            ),
+        ],
+    )
+    def test_coefficients_one_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:240: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+f = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = (2,), use_broadcasting = True
+
+    def _coefficients_no_filter(f, degree, use_broadcasting=True):
+        """
+        Compute the first 2d+1 Fourier coefficients for a 2π-periodic function.
+    
+        Parameters:
+        f (callable): The 2π-periodic function to analyze.
+        degree (int or tuple): The maximum frequency. If tuple, it should be (d1, d2, ..., dn).
+        use_broadcasting (bool): Whether to use broadcasting for simultaneous function evaluations.
+    
+        Returns:
+        np.ndarray: Array of complex numbers containing the Fourier coefficients.
+        """
+        if isinstance(degree, int):
+            degrees = (degree,)
+        else:
+            degrees = degree
+        num_dims = len(degrees)
+        points_per_dim = [2 * d + 1 for d in degrees]
+        total_points = np.prod(points_per_dim)
+        grids = [np.linspace(0, 2 * np.pi, num=p, endpoint=False) for p in points_per_dim]
+        mesh = np.meshgrid(*grids, indexing='ij')
+        eval_points = np.stack(mesh, axis=-1).reshape(-1, num_dims)
+        if use_broadcasting:
+            values = f(*eval_points.T)
+        else:
+            values = np.array([f(*point) for point in eval_points])
+>       values = values.reshape(points_per_dim)
+E       ValueError: cannot reshape array of size 1 into shape (5,)
+
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:31: ValueError
+_ TestFourierCoefficientCircuits.test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-4-expected_coeffs5-False] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d50390>
+circuit = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = 4
+expected_coeffs = tensor([0.5 , 0.  , 0.25, 0.  , 0.  , 0.  , 0.  , 0.25, 0.  ], requires_grad=True)
+use_broadcasting = False
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (circuit_one_qubit_one_param_rx, 1, np.array([0, 0.5, 0.5])),
+            (circuit_one_qubit_one_param_rx, 2, np.array([0, 0.5, 0, 0, 0.5])),
+            (circuit_one_qubit_one_param_h_ry, (1,), np.array([0, 0.5j, -0.5j])),
+            (
+                circuit_one_qubit_one_param_h_ry,
+                3,
+                np.array([0, 0.5j, 0, 0, 0, 0, -0.5j]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                2,
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                4,
+                np.array([0.5, 0, 0.25, 0, 0, 0, 0, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                (2,),
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                3,
+                np.array([0.5, 0, 0.25, 0, 0, 0.25, 0]),
+            ),
+        ],
+    )
+    def test_coefficients_one_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:240: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in _coefficients_no_filter
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in <listcomp>
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:976: in __call__
+    return self._impl_call(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:952: in _impl_call
+    self.construct(args, kwargs)
+../publishablew/pennylane/pennylane/pennylane/logging/decorators.py:61: in wrapper_entry
+    return func(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:884: in construct
+    self._qfunc_output = self.func(*args, **kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+inpt = np.float64(0.0)
+
+    @qml.qnode(dev_1)
+    def circuit_one_qubit_one_param_rx_ry(inpt):
+        r"""Circuit with a single-qubit, single-param, output function <Z>.
+    
+        By-hand calculation of :math:`f(x)` gives :math:`<Z> = 1/2 + 1/2 cos(2x)`.
+        Fourier coeffs are :math:`c_0 = 0.5, c_1 = c_-1 = 0, c_2 = c_-2 = 0.5`.
+        """
+>       qml.RX(inpt[0], wires=0)
+E       IndexError: invalid index to scalar variable.
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:141: IndexError
+_ TestFourierCoefficientCircuits.test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-4-expected_coeffs5-True] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d50650>
+circuit = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = 4
+expected_coeffs = tensor([0.5 , 0.  , 0.25, 0.  , 0.  , 0.  , 0.  , 0.25, 0.  ], requires_grad=True)
+use_broadcasting = True
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (circuit_one_qubit_one_param_rx, 1, np.array([0, 0.5, 0.5])),
+            (circuit_one_qubit_one_param_rx, 2, np.array([0, 0.5, 0, 0, 0.5])),
+            (circuit_one_qubit_one_param_h_ry, (1,), np.array([0, 0.5j, -0.5j])),
+            (
+                circuit_one_qubit_one_param_h_ry,
+                3,
+                np.array([0, 0.5j, 0, 0, 0, 0, -0.5j]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                2,
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                4,
+                np.array([0.5, 0, 0.25, 0, 0, 0, 0, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                (2,),
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                3,
+                np.array([0.5, 0, 0.25, 0, 0, 0.25, 0]),
+            ),
+        ],
+    )
+    def test_coefficients_one_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:240: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+f = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = (4,), use_broadcasting = True
+
+    def _coefficients_no_filter(f, degree, use_broadcasting=True):
+        """
+        Compute the first 2d+1 Fourier coefficients for a 2π-periodic function.
+    
+        Parameters:
+        f (callable): The 2π-periodic function to analyze.
+        degree (int or tuple): The maximum frequency. If tuple, it should be (d1, d2, ..., dn).
+        use_broadcasting (bool): Whether to use broadcasting for simultaneous function evaluations.
+    
+        Returns:
+        np.ndarray: Array of complex numbers containing the Fourier coefficients.
+        """
+        if isinstance(degree, int):
+            degrees = (degree,)
+        else:
+            degrees = degree
+        num_dims = len(degrees)
+        points_per_dim = [2 * d + 1 for d in degrees]
+        total_points = np.prod(points_per_dim)
+        grids = [np.linspace(0, 2 * np.pi, num=p, endpoint=False) for p in points_per_dim]
+        mesh = np.meshgrid(*grids, indexing='ij')
+        eval_points = np.stack(mesh, axis=-1).reshape(-1, num_dims)
+        if use_broadcasting:
+            values = f(*eval_points.T)
+        else:
+            values = np.array([f(*point) for point in eval_points])
+>       values = values.reshape(points_per_dim)
+E       ValueError: cannot reshape array of size 1 into shape (9,)
+
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:31: ValueError
+_ TestFourierCoefficientCircuits.test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-degree6-expected_coeffs6-False] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d50950>
+circuit = <QNode: device='<default.qubit device (wires=2) at 0x7e1a18cd16d0>', interface='auto', diff_method='best'>
+degree = (2,)
+expected_coeffs = tensor([0.5 , 0.  , 0.25, 0.25, 0.  ], requires_grad=True)
+use_broadcasting = False
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (circuit_one_qubit_one_param_rx, 1, np.array([0, 0.5, 0.5])),
+            (circuit_one_qubit_one_param_rx, 2, np.array([0, 0.5, 0, 0, 0.5])),
+            (circuit_one_qubit_one_param_h_ry, (1,), np.array([0, 0.5j, -0.5j])),
+            (
+                circuit_one_qubit_one_param_h_ry,
+                3,
+                np.array([0, 0.5j, 0, 0, 0, 0, -0.5j]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                2,
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                4,
+                np.array([0.5, 0, 0.25, 0, 0, 0, 0, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                (2,),
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                3,
+                np.array([0.5, 0, 0.25, 0, 0, 0.25, 0]),
+            ),
+        ],
+    )
+    def test_coefficients_one_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:240: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in _coefficients_no_filter
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in <listcomp>
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:976: in __call__
+    return self._impl_call(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:952: in _impl_call
+    self.construct(args, kwargs)
+../publishablew/pennylane/pennylane/pennylane/logging/decorators.py:61: in wrapper_entry
+    return func(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:884: in construct
+    self._qfunc_output = self.func(*args, **kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+inpt = np.float64(0.0)
+
+    @qml.qnode(dev_2)
+    def circuit_two_qubits_repeated_param(inpt):
+        r"""Circuit with two qubits, repeated single-param output function :math:`<Z>`
+    
+        By-hand calculation of :math:`f(x)` gives :math:`<Z> = 1/2 + 1/2 cos(2x)`
+        Fourier coeffs are :math:`c_0 = 0.5, c_1 = c_-1 = 0, c_2 = c_-2 = 0.25`
+        (same as above circuit_one_qubit_one_param_rx_ry, just different qubits).
+        """
+>       qml.RX(inpt[0], wires=0)
+E       IndexError: invalid index to scalar variable.
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:172: IndexError
+_ TestFourierCoefficientCircuits.test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-degree6-expected_coeffs6-True] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d50c50>
+circuit = <QNode: device='<default.qubit device (wires=2) at 0x7e1a18cd16d0>', interface='auto', diff_method='best'>
+degree = (2,)
+expected_coeffs = tensor([0.5 , 0.  , 0.25, 0.25, 0.  ], requires_grad=True)
+use_broadcasting = True
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (circuit_one_qubit_one_param_rx, 1, np.array([0, 0.5, 0.5])),
+            (circuit_one_qubit_one_param_rx, 2, np.array([0, 0.5, 0, 0, 0.5])),
+            (circuit_one_qubit_one_param_h_ry, (1,), np.array([0, 0.5j, -0.5j])),
+            (
+                circuit_one_qubit_one_param_h_ry,
+                3,
+                np.array([0, 0.5j, 0, 0, 0, 0, -0.5j]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                2,
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                4,
+                np.array([0.5, 0, 0.25, 0, 0, 0, 0, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                (2,),
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                3,
+                np.array([0.5, 0, 0.25, 0, 0, 0.25, 0]),
+            ),
+        ],
+    )
+    def test_coefficients_one_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:240: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+f = <QNode: device='<default.qubit device (wires=2) at 0x7e1a18cd16d0>', interface='auto', diff_method='best'>
+degree = (2,), use_broadcasting = True
+
+    def _coefficients_no_filter(f, degree, use_broadcasting=True):
+        """
+        Compute the first 2d+1 Fourier coefficients for a 2π-periodic function.
+    
+        Parameters:
+        f (callable): The 2π-periodic function to analyze.
+        degree (int or tuple): The maximum frequency. If tuple, it should be (d1, d2, ..., dn).
+        use_broadcasting (bool): Whether to use broadcasting for simultaneous function evaluations.
+    
+        Returns:
+        np.ndarray: Array of complex numbers containing the Fourier coefficients.
+        """
+        if isinstance(degree, int):
+            degrees = (degree,)
+        else:
+            degrees = degree
+        num_dims = len(degrees)
+        points_per_dim = [2 * d + 1 for d in degrees]
+        total_points = np.prod(points_per_dim)
+        grids = [np.linspace(0, 2 * np.pi, num=p, endpoint=False) for p in points_per_dim]
+        mesh = np.meshgrid(*grids, indexing='ij')
+        eval_points = np.stack(mesh, axis=-1).reshape(-1, num_dims)
+        if use_broadcasting:
+            values = f(*eval_points.T)
+        else:
+            values = np.array([f(*point) for point in eval_points])
+>       values = values.reshape(points_per_dim)
+E       ValueError: cannot reshape array of size 1 into shape (5,)
+
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:31: ValueError
+_ TestFourierCoefficientCircuits.test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-3-expected_coeffs7-False] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d50f50>
+circuit = <QNode: device='<default.qubit device (wires=2) at 0x7e1a18cd16d0>', interface='auto', diff_method='best'>
+degree = 3
+expected_coeffs = tensor([0.5 , 0.  , 0.25, 0.  , 0.  , 0.25, 0.  ], requires_grad=True)
+use_broadcasting = False
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (circuit_one_qubit_one_param_rx, 1, np.array([0, 0.5, 0.5])),
+            (circuit_one_qubit_one_param_rx, 2, np.array([0, 0.5, 0, 0, 0.5])),
+            (circuit_one_qubit_one_param_h_ry, (1,), np.array([0, 0.5j, -0.5j])),
+            (
+                circuit_one_qubit_one_param_h_ry,
+                3,
+                np.array([0, 0.5j, 0, 0, 0, 0, -0.5j]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                2,
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                4,
+                np.array([0.5, 0, 0.25, 0, 0, 0, 0, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                (2,),
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                3,
+                np.array([0.5, 0, 0.25, 0, 0, 0.25, 0]),
+            ),
+        ],
+    )
+    def test_coefficients_one_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:240: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in _coefficients_no_filter
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in <listcomp>
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:976: in __call__
+    return self._impl_call(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:952: in _impl_call
+    self.construct(args, kwargs)
+../publishablew/pennylane/pennylane/pennylane/logging/decorators.py:61: in wrapper_entry
+    return func(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:884: in construct
+    self._qfunc_output = self.func(*args, **kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+inpt = np.float64(0.0)
+
+    @qml.qnode(dev_2)
+    def circuit_two_qubits_repeated_param(inpt):
+        r"""Circuit with two qubits, repeated single-param output function :math:`<Z>`
+    
+        By-hand calculation of :math:`f(x)` gives :math:`<Z> = 1/2 + 1/2 cos(2x)`
+        Fourier coeffs are :math:`c_0 = 0.5, c_1 = c_-1 = 0, c_2 = c_-2 = 0.25`
+        (same as above circuit_one_qubit_one_param_rx_ry, just different qubits).
+        """
+>       qml.RX(inpt[0], wires=0)
+E       IndexError: invalid index to scalar variable.
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:172: IndexError
+_ TestFourierCoefficientCircuits.test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-3-expected_coeffs7-True] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d51250>
+circuit = <QNode: device='<default.qubit device (wires=2) at 0x7e1a18cd16d0>', interface='auto', diff_method='best'>
+degree = 3
+expected_coeffs = tensor([0.5 , 0.  , 0.25, 0.  , 0.  , 0.25, 0.  ], requires_grad=True)
+use_broadcasting = True
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (circuit_one_qubit_one_param_rx, 1, np.array([0, 0.5, 0.5])),
+            (circuit_one_qubit_one_param_rx, 2, np.array([0, 0.5, 0, 0, 0.5])),
+            (circuit_one_qubit_one_param_h_ry, (1,), np.array([0, 0.5j, -0.5j])),
+            (
+                circuit_one_qubit_one_param_h_ry,
+                3,
+                np.array([0, 0.5j, 0, 0, 0, 0, -0.5j]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                2,
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_one_qubit_one_param_rx_ry,
+                4,
+                np.array([0.5, 0, 0.25, 0, 0, 0, 0, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                (2,),
+                np.array([0.5, 0, 0.25, 0.25, 0]),
+            ),
+            (
+                circuit_two_qubits_repeated_param,
+                3,
+                np.array([0.5, 0, 0.25, 0, 0, 0.25, 0]),
+            ),
+        ],
+    )
+    def test_coefficients_one_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:240: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+f = <QNode: device='<default.qubit device (wires=2) at 0x7e1a18cd16d0>', interface='auto', diff_method='best'>
+degree = (3,), use_broadcasting = True
+
+    def _coefficients_no_filter(f, degree, use_broadcasting=True):
+        """
+        Compute the first 2d+1 Fourier coefficients for a 2π-periodic function.
+    
+        Parameters:
+        f (callable): The 2π-periodic function to analyze.
+        degree (int or tuple): The maximum frequency. If tuple, it should be (d1, d2, ..., dn).
+        use_broadcasting (bool): Whether to use broadcasting for simultaneous function evaluations.
+    
+        Returns:
+        np.ndarray: Array of complex numbers containing the Fourier coefficients.
+        """
+        if isinstance(degree, int):
+            degrees = (degree,)
+        else:
+            degrees = degree
+        num_dims = len(degrees)
+        points_per_dim = [2 * d + 1 for d in degrees]
+        total_points = np.prod(points_per_dim)
+        grids = [np.linspace(0, 2 * np.pi, num=p, endpoint=False) for p in points_per_dim]
+        mesh = np.meshgrid(*grids, indexing='ij')
+        eval_points = np.stack(mesh, axis=-1).reshape(-1, num_dims)
+        if use_broadcasting:
+            values = f(*eval_points.T)
+        else:
+            values = np.array([f(*point) for point in eval_points])
+>       values = values.reshape(points_per_dim)
+E       ValueError: cannot reshape array of size 1 into shape (7,)
+
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:31: ValueError
+_ TestFourierCoefficientCircuits.test_coefficients_two_param_circuits[circuit_two_qubits_two_params-1-expected_coeffs0-False] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d52190>
+circuit = <QNode: device='<default.qubit device (wires=2) at 0x7e1a18cd16d0>', interface='auto', diff_method='best'>
+degree = 1
+expected_coeffs = tensor([[0.  , 0.  , 0.  ],
+        [0.  , 0.25, 0.25],
+        [0.  , 0.25, 0.25]], requires_grad=True)
+use_broadcasting = False
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (
+                circuit_two_qubits_two_params,
+                1,
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_two_qubits_two_params,
+                (1, 1),
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_one_qubit_two_params,
+                1,
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_one_qubit_two_params,
+                (2, 1),
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0, 0], [0, 0, 0], [0, 0.25, 0.25]]),
+            ),
+        ],
+    )
+    def test_coefficients_two_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:273: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in _coefficients_no_filter
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in <listcomp>
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:976: in __call__
+    return self._impl_call(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:952: in _impl_call
+    self.construct(args, kwargs)
+../publishablew/pennylane/pennylane/pennylane/logging/decorators.py:61: in wrapper_entry
+    return func(*args, **kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <QNode: device='<default.qubit device (wires=2) at 0x7e1a18cd16d0>', interface='auto', diff_method='best'>
+args = (np.float64(0.0), np.float64(0.0)), kwargs = {}
+
+    @debug_logger
+    def construct(self, args, kwargs):
+        """Call the quantum function with a tape context, ensuring the operations get queued."""
+        kwargs = copy.copy(kwargs)
+    
+        if self._qfunc_uses_shots_arg:
+            shots = self.device.shots
+        else:
+            shots = kwargs.pop("shots", self.device.shots)
+    
+        # Before constructing the tape, we pass the device to the
+        # debugger to ensure they are compatible if there are any
+        # breakpoints in the circuit
+        with pldb_device_manager(self.device):
+            with qml.queuing.AnnotatedQueue() as q:
+>               self._qfunc_output = self.func(*args, **kwargs)
+E               TypeError: circuit_two_qubits_two_params() takes 1 positional argument but 2 were given
+
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:884: TypeError
+_ TestFourierCoefficientCircuits.test_coefficients_two_param_circuits[circuit_two_qubits_two_params-1-expected_coeffs0-True] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d53110>
+circuit = <QNode: device='<default.qubit device (wires=2) at 0x7e1a18cd16d0>', interface='auto', diff_method='best'>
+degree = 1
+expected_coeffs = tensor([[0.  , 0.  , 0.  ],
+        [0.  , 0.25, 0.25],
+        [0.  , 0.25, 0.25]], requires_grad=True)
+use_broadcasting = True
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (
+                circuit_two_qubits_two_params,
+                1,
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_two_qubits_two_params,
+                (1, 1),
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_one_qubit_two_params,
+                1,
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_one_qubit_two_params,
+                (2, 1),
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0, 0], [0, 0, 0], [0, 0.25, 0.25]]),
+            ),
+        ],
+    )
+    def test_coefficients_two_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:273: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:28: in _coefficients_no_filter
+    values = f(*eval_points.T)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:976: in __call__
+    return self._impl_call(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:952: in _impl_call
+    self.construct(args, kwargs)
+../publishablew/pennylane/pennylane/pennylane/logging/decorators.py:61: in wrapper_entry
+    return func(*args, **kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <QNode: device='<default.qubit device (wires=2) at 0x7e1a18cd16d0>', interface='auto', diff_method='best'>
+args = (array([0.       , 0.       , 0.       , 2.0943951, 2.0943951, 2.0943951,
+       4.1887902, 4.1887902, 4.1887902]), array([0.       , 2.0943951, 4.1887902, 0.       , 2.0943951, 4.1887902,
+       0.       , 2.0943951, 4.1887902]))
+kwargs = {}
+
+    @debug_logger
+    def construct(self, args, kwargs):
+        """Call the quantum function with a tape context, ensuring the operations get queued."""
+        kwargs = copy.copy(kwargs)
+    
+        if self._qfunc_uses_shots_arg:
+            shots = self.device.shots
+        else:
+            shots = kwargs.pop("shots", self.device.shots)
+    
+        # Before constructing the tape, we pass the device to the
+        # debugger to ensure they are compatible if there are any
+        # breakpoints in the circuit
+        with pldb_device_manager(self.device):
+            with qml.queuing.AnnotatedQueue() as q:
+>               self._qfunc_output = self.func(*args, **kwargs)
+E               TypeError: circuit_two_qubits_two_params() takes 1 positional argument but 2 were given
+
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:884: TypeError
+_ TestFourierCoefficientCircuits.test_coefficients_two_param_circuits[circuit_two_qubits_two_params-degree1-expected_coeffs1-False] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d53350>
+circuit = <QNode: device='<default.qubit device (wires=2) at 0x7e1a18cd16d0>', interface='auto', diff_method='best'>
+degree = (1, 1)
+expected_coeffs = tensor([[0.  , 0.  , 0.  ],
+        [0.  , 0.25, 0.25],
+        [0.  , 0.25, 0.25]], requires_grad=True)
+use_broadcasting = False
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (
+                circuit_two_qubits_two_params,
+                1,
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_two_qubits_two_params,
+                (1, 1),
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_one_qubit_two_params,
+                1,
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_one_qubit_two_params,
+                (2, 1),
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0, 0], [0, 0, 0], [0, 0.25, 0.25]]),
+            ),
+        ],
+    )
+    def test_coefficients_two_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:273: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in _coefficients_no_filter
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in <listcomp>
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:976: in __call__
+    return self._impl_call(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:952: in _impl_call
+    self.construct(args, kwargs)
+../publishablew/pennylane/pennylane/pennylane/logging/decorators.py:61: in wrapper_entry
+    return func(*args, **kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <QNode: device='<default.qubit device (wires=2) at 0x7e1a18cd16d0>', interface='auto', diff_method='best'>
+args = (np.float64(0.0), np.float64(0.0)), kwargs = {}
+
+    @debug_logger
+    def construct(self, args, kwargs):
+        """Call the quantum function with a tape context, ensuring the operations get queued."""
+        kwargs = copy.copy(kwargs)
+    
+        if self._qfunc_uses_shots_arg:
+            shots = self.device.shots
+        else:
+            shots = kwargs.pop("shots", self.device.shots)
+    
+        # Before constructing the tape, we pass the device to the
+        # debugger to ensure they are compatible if there are any
+        # breakpoints in the circuit
+        with pldb_device_manager(self.device):
+            with qml.queuing.AnnotatedQueue() as q:
+>               self._qfunc_output = self.func(*args, **kwargs)
+E               TypeError: circuit_two_qubits_two_params() takes 1 positional argument but 2 were given
+
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:884: TypeError
+_ TestFourierCoefficientCircuits.test_coefficients_two_param_circuits[circuit_two_qubits_two_params-degree1-expected_coeffs1-True] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d535d0>
+circuit = <QNode: device='<default.qubit device (wires=2) at 0x7e1a18cd16d0>', interface='auto', diff_method='best'>
+degree = (1, 1)
+expected_coeffs = tensor([[0.  , 0.  , 0.  ],
+        [0.  , 0.25, 0.25],
+        [0.  , 0.25, 0.25]], requires_grad=True)
+use_broadcasting = True
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (
+                circuit_two_qubits_two_params,
+                1,
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_two_qubits_two_params,
+                (1, 1),
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_one_qubit_two_params,
+                1,
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_one_qubit_two_params,
+                (2, 1),
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0, 0], [0, 0, 0], [0, 0.25, 0.25]]),
+            ),
+        ],
+    )
+    def test_coefficients_two_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:273: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:28: in _coefficients_no_filter
+    values = f(*eval_points.T)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:976: in __call__
+    return self._impl_call(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:952: in _impl_call
+    self.construct(args, kwargs)
+../publishablew/pennylane/pennylane/pennylane/logging/decorators.py:61: in wrapper_entry
+    return func(*args, **kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <QNode: device='<default.qubit device (wires=2) at 0x7e1a18cd16d0>', interface='auto', diff_method='best'>
+args = (array([0.       , 0.       , 0.       , 2.0943951, 2.0943951, 2.0943951,
+       4.1887902, 4.1887902, 4.1887902]), array([0.       , 2.0943951, 4.1887902, 0.       , 2.0943951, 4.1887902,
+       0.       , 2.0943951, 4.1887902]))
+kwargs = {}
+
+    @debug_logger
+    def construct(self, args, kwargs):
+        """Call the quantum function with a tape context, ensuring the operations get queued."""
+        kwargs = copy.copy(kwargs)
+    
+        if self._qfunc_uses_shots_arg:
+            shots = self.device.shots
+        else:
+            shots = kwargs.pop("shots", self.device.shots)
+    
+        # Before constructing the tape, we pass the device to the
+        # debugger to ensure they are compatible if there are any
+        # breakpoints in the circuit
+        with pldb_device_manager(self.device):
+            with qml.queuing.AnnotatedQueue() as q:
+>               self._qfunc_output = self.func(*args, **kwargs)
+E               TypeError: circuit_two_qubits_two_params() takes 1 positional argument but 2 were given
+
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:884: TypeError
+_ TestFourierCoefficientCircuits.test_coefficients_two_param_circuits[circuit_one_qubit_two_params-1-expected_coeffs2-False] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d53850>
+circuit = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = 1
+expected_coeffs = tensor([[0.  , 0.  , 0.  ],
+        [0.  , 0.25, 0.25],
+        [0.  , 0.25, 0.25]], requires_grad=True)
+use_broadcasting = False
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (
+                circuit_two_qubits_two_params,
+                1,
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_two_qubits_two_params,
+                (1, 1),
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_one_qubit_two_params,
+                1,
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_one_qubit_two_params,
+                (2, 1),
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0, 0], [0, 0, 0], [0, 0.25, 0.25]]),
+            ),
+        ],
+    )
+    def test_coefficients_two_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:273: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in _coefficients_no_filter
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in <listcomp>
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:976: in __call__
+    return self._impl_call(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:952: in _impl_call
+    self.construct(args, kwargs)
+../publishablew/pennylane/pennylane/pennylane/logging/decorators.py:61: in wrapper_entry
+    return func(*args, **kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+args = (np.float64(0.0), np.float64(0.0)), kwargs = {}
+
+    @debug_logger
+    def construct(self, args, kwargs):
+        """Call the quantum function with a tape context, ensuring the operations get queued."""
+        kwargs = copy.copy(kwargs)
+    
+        if self._qfunc_uses_shots_arg:
+            shots = self.device.shots
+        else:
+            shots = kwargs.pop("shots", self.device.shots)
+    
+        # Before constructing the tape, we pass the device to the
+        # debugger to ensure they are compatible if there are any
+        # breakpoints in the circuit
+        with pldb_device_manager(self.device):
+            with qml.queuing.AnnotatedQueue() as q:
+>               self._qfunc_output = self.func(*args, **kwargs)
+E               TypeError: circuit_one_qubit_two_params() takes 1 positional argument but 2 were given
+
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:884: TypeError
+_ TestFourierCoefficientCircuits.test_coefficients_two_param_circuits[circuit_one_qubit_two_params-1-expected_coeffs2-True] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d53ad0>
+circuit = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = 1
+expected_coeffs = tensor([[0.  , 0.  , 0.  ],
+        [0.  , 0.25, 0.25],
+        [0.  , 0.25, 0.25]], requires_grad=True)
+use_broadcasting = True
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (
+                circuit_two_qubits_two_params,
+                1,
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_two_qubits_two_params,
+                (1, 1),
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_one_qubit_two_params,
+                1,
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_one_qubit_two_params,
+                (2, 1),
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0, 0], [0, 0, 0], [0, 0.25, 0.25]]),
+            ),
+        ],
+    )
+    def test_coefficients_two_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:273: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:28: in _coefficients_no_filter
+    values = f(*eval_points.T)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:976: in __call__
+    return self._impl_call(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:952: in _impl_call
+    self.construct(args, kwargs)
+../publishablew/pennylane/pennylane/pennylane/logging/decorators.py:61: in wrapper_entry
+    return func(*args, **kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+args = (array([0.       , 0.       , 0.       , 2.0943951, 2.0943951, 2.0943951,
+       4.1887902, 4.1887902, 4.1887902]), array([0.       , 2.0943951, 4.1887902, 0.       , 2.0943951, 4.1887902,
+       0.       , 2.0943951, 4.1887902]))
+kwargs = {}
+
+    @debug_logger
+    def construct(self, args, kwargs):
+        """Call the quantum function with a tape context, ensuring the operations get queued."""
+        kwargs = copy.copy(kwargs)
+    
+        if self._qfunc_uses_shots_arg:
+            shots = self.device.shots
+        else:
+            shots = kwargs.pop("shots", self.device.shots)
+    
+        # Before constructing the tape, we pass the device to the
+        # debugger to ensure they are compatible if there are any
+        # breakpoints in the circuit
+        with pldb_device_manager(self.device):
+            with qml.queuing.AnnotatedQueue() as q:
+>               self._qfunc_output = self.func(*args, **kwargs)
+E               TypeError: circuit_one_qubit_two_params() takes 1 positional argument but 2 were given
+
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:884: TypeError
+_ TestFourierCoefficientCircuits.test_coefficients_two_param_circuits[circuit_one_qubit_two_params-degree3-expected_coeffs3-False] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d53d90>
+circuit = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = (2, 1)
+expected_coeffs = tensor([[0.  , 0.  , 0.  ],
+        [0.  , 0.25, 0.25],
+        [0.  , 0.  , 0.  ],
+        [0.  , 0.  , 0.  ],
+        [0.  , 0.25, 0.25]], requires_grad=True)
+use_broadcasting = False
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (
+                circuit_two_qubits_two_params,
+                1,
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_two_qubits_two_params,
+                (1, 1),
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_one_qubit_two_params,
+                1,
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_one_qubit_two_params,
+                (2, 1),
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0, 0], [0, 0, 0], [0, 0.25, 0.25]]),
+            ),
+        ],
+    )
+    def test_coefficients_two_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:273: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in _coefficients_no_filter
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:30: in <listcomp>
+    values = np.array([f(*point) for point in eval_points])
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:976: in __call__
+    return self._impl_call(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:952: in _impl_call
+    self.construct(args, kwargs)
+../publishablew/pennylane/pennylane/pennylane/logging/decorators.py:61: in wrapper_entry
+    return func(*args, **kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+args = (np.float64(0.0), np.float64(0.0)), kwargs = {}
+
+    @debug_logger
+    def construct(self, args, kwargs):
+        """Call the quantum function with a tape context, ensuring the operations get queued."""
+        kwargs = copy.copy(kwargs)
+    
+        if self._qfunc_uses_shots_arg:
+            shots = self.device.shots
+        else:
+            shots = kwargs.pop("shots", self.device.shots)
+    
+        # Before constructing the tape, we pass the device to the
+        # debugger to ensure they are compatible if there are any
+        # breakpoints in the circuit
+        with pldb_device_manager(self.device):
+            with qml.queuing.AnnotatedQueue() as q:
+>               self._qfunc_output = self.func(*args, **kwargs)
+E               TypeError: circuit_one_qubit_two_params() takes 1 positional argument but 2 were given
+
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:884: TypeError
+_ TestFourierCoefficientCircuits.test_coefficients_two_param_circuits[circuit_one_qubit_two_params-degree3-expected_coeffs3-True] _
+
+self = <test_coefficients.TestFourierCoefficientCircuits object at 0x7e1a18d540d0>
+circuit = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+degree = (2, 1)
+expected_coeffs = tensor([[0.  , 0.  , 0.  ],
+        [0.  , 0.25, 0.25],
+        [0.  , 0.  , 0.  ],
+        [0.  , 0.  , 0.  ],
+        [0.  , 0.25, 0.25]], requires_grad=True)
+use_broadcasting = True
+
+    @pytest.mark.parametrize(
+        "circuit,degree,expected_coeffs",
+        [
+            (
+                circuit_two_qubits_two_params,
+                1,
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_two_qubits_two_params,
+                (1, 1),
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_one_qubit_two_params,
+                1,
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0.25, 0.25]]),
+            ),
+            (
+                circuit_one_qubit_two_params,
+                (2, 1),
+                np.array([[0, 0, 0], [0, 0.25, 0.25], [0, 0, 0], [0, 0, 0], [0, 0.25, 0.25]]),
+            ),
+        ],
+    )
+    def test_coefficients_two_param_circuits(
+        self, circuit, degree, expected_coeffs, use_broadcasting
+    ):
+        """Test that coeffs for a single instance of a single parameter match the by-hand
+        results regardless of input degree (max degree is 1)."""
+>       coeffs = coefficients(circuit, circuit.n_inputs, degree, use_broadcasting=use_broadcasting)
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py:273: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:158: in coefficients
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/coefficients.py:180: in _coefficients_no_filter
+    return _coefficients_no_filter(f, degree, use_broadcasting)
+../publishablew/pennylane/pennylane/pennylane/fourier/temp.py:28: in _coefficients_no_filter
+    values = f(*eval_points.T)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:976: in __call__
+    return self._impl_call(*args, **kwargs)
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:952: in _impl_call
+    self.construct(args, kwargs)
+../publishablew/pennylane/pennylane/pennylane/logging/decorators.py:61: in wrapper_entry
+    return func(*args, **kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <QNode: device='<default.qubit device (wires=1) at 0x7e1a18d0f9d0>', interface='auto', diff_method='best'>
+args = (array([0.        , 0.        , 0.        , 1.25663706, 1.25663706,
+       1.25663706, 2.51327412, 2.51327412, 2.51327...902,
+       0.       , 2.0943951, 4.1887902, 0.       , 2.0943951, 4.1887902,
+       0.       , 2.0943951, 4.1887902]))
+kwargs = {}
+
+    @debug_logger
+    def construct(self, args, kwargs):
+        """Call the quantum function with a tape context, ensuring the operations get queued."""
+        kwargs = copy.copy(kwargs)
+    
+        if self._qfunc_uses_shots_arg:
+            shots = self.device.shots
+        else:
+            shots = kwargs.pop("shots", self.device.shots)
+    
+        # Before constructing the tape, we pass the device to the
+        # debugger to ensure they are compatible if there are any
+        # breakpoints in the circuit
+        with pldb_device_manager(self.device):
+            with qml.queuing.AnnotatedQueue() as q:
+>               self._qfunc_output = self.func(*args, **kwargs)
+E               TypeError: circuit_one_qubit_two_params() takes 1 positional argument but 2 were given
+
+../publishablew/pennylane/pennylane/pennylane/workflow/qnode.py:884: TypeError
+=========================== short test summary info ============================
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-1-expected_coeffs0-False]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-1-expected_coeffs0-True]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-2-expected_coeffs1-False]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-2-expected_coeffs1-True]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-degree2-expected_coeffs2-False]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-degree2-expected_coeffs2-True]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-3-expected_coeffs3-False]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-3-expected_coeffs3-True]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-2-expected_coeffs4-False]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-2-expected_coeffs4-True]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-4-expected_coeffs5-False]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-4-expected_coeffs5-True]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-degree6-expected_coeffs6-False]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-degree6-expected_coeffs6-True]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-3-expected_coeffs7-False]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-3-expected_coeffs7-True]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-1-expected_coeffs0-False]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-1-expected_coeffs0-True]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-degree1-expected_coeffs1-False]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-degree1-expected_coeffs1-True]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-1-expected_coeffs2-False]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-1-expected_coeffs2-True]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-degree3-expected_coeffs3-False]
+FAILED ../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-degree3-expected_coeffs3-True]
+============================== 24 failed in 0.44s ==============================
+
+
+Final Test Result:
+============================= test session starts ==============================
+platform linux -- Python 3.11.10, pytest-8.3.4, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/pennylane/pennylane/venv/bin/python
+cachedir: .pytest_cache
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: /local/data0/moved_data/publishablew/pennylane/pennylane/tests
+configfile: pytest.ini
+plugins: flaky-3.8.1, xdist-3.6.1, split-0.10.0, rng-1.0.0, mock-3.14.0, forked-1.6.0, cov-6.0.0, benchmark-5.1.0
+collecting ... collected 24 items
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-1-expected_coeffs0-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-1-expected_coeffs0-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-2-expected_coeffs1-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-2-expected_coeffs1-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-degree2-expected_coeffs2-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-degree2-expected_coeffs2-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-3-expected_coeffs3-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-3-expected_coeffs3-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-2-expected_coeffs4-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-2-expected_coeffs4-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-4-expected_coeffs5-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-4-expected_coeffs5-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-degree6-expected_coeffs6-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-degree6-expected_coeffs6-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-3-expected_coeffs7-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-3-expected_coeffs7-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-1-expected_coeffs0-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-1-expected_coeffs0-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-degree1-expected_coeffs1-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-degree1-expected_coeffs1-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-1-expected_coeffs2-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-1-expected_coeffs2-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-degree3-expected_coeffs3-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-degree3-expected_coeffs3-True] PASSED
+
+============================== 24 passed in 0.10s ==============================
+
+
+Initial Result:
+============================= test session starts ==============================
+platform linux -- Python 3.11.10, pytest-8.3.4, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/pennylane/pennylane/venv/bin/python
+cachedir: .pytest_cache
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: /local/data0/moved_data/publishablew/pennylane/pennylane/tests
+configfile: pytest.ini
+plugins: flaky-3.8.1, xdist-3.6.1, split-0.10.0, rng-1.0.0, mock-3.14.0, forked-1.6.0, cov-6.0.0, benchmark-5.1.0
+collecting ... collected 24 items
+
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-1-expected_coeffs0-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-1-expected_coeffs0-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-2-expected_coeffs1-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx-2-expected_coeffs1-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-degree2-expected_coeffs2-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-degree2-expected_coeffs2-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-3-expected_coeffs3-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_h_ry-3-expected_coeffs3-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-2-expected_coeffs4-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-2-expected_coeffs4-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-4-expected_coeffs5-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_one_qubit_one_param_rx_ry-4-expected_coeffs5-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-degree6-expected_coeffs6-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-degree6-expected_coeffs6-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-3-expected_coeffs7-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_one_param_circuits[circuit_two_qubits_repeated_param-3-expected_coeffs7-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-1-expected_coeffs0-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-1-expected_coeffs0-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-degree1-expected_coeffs1-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_two_qubits_two_params-degree1-expected_coeffs1-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-1-expected_coeffs2-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-1-expected_coeffs2-True] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-degree3-expected_coeffs3-False] PASSED
+../publishablew/pennylane/pennylane/tests/fourier/test_coefficients.py::TestFourierCoefficientCircuits::test_coefficients_two_param_circuits[circuit_one_qubit_two_params-degree3-expected_coeffs3-True] PASSED
+
+============================== 24 passed in 0.10s ==============================

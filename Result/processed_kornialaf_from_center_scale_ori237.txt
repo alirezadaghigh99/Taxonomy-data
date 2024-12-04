@@ -1,0 +1,427 @@
+output file:
+processed_kornialaf_from_center_scale_ori237.json
+function:
+laf_from_center_scale_ori
+Error Cases:
+
+Pass or Failed: 0
+
+Related Failed Test Cases:
+{'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_shape[cpu]', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_gradcheck[cpu]', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_shape[cpu] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_laf_def[cpu]', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_laf[cpu]', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_gradcheck[cpu] FAILED', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_laf[cpu] FAILED', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_laf_def[cpu] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_cross_consistency[cpu]', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_cross_consistency[cpu] FAILED'}
+
+All Test Cases On Generated code:
+Setting up torch compile...
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.3.3, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/kornia/kornia/venv/bin/python
+cachedir: .pytest_cache
+
+cpu info:
+	- Model name: AMD Ryzen 7 PRO 5845 8-Core Processor
+	- Architecture: x86_64
+	- CPU(s): 16
+	- Thread(s) per core: 2
+	- CPU max MHz: 4661.7178
+	- CPU min MHz: 2200.0000
+gpu info: {'GPU 0': 'NVIDIA GeForce RTX 3060'}
+main deps:
+    - kornia-0.7.4
+    - torch-2.5.1+cu124
+        - commit: a8d6afb511a69687bbb2b7e88a3cf67917e1697e
+        - cuda: 12.4
+        - nvidia-driver: 555.42.02
+x deps:
+    - accelerate-1.1.1
+dev deps:
+    - kornia_rs-0.1.7
+    - onnx-1.17.0
+gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
+available optimizers: {'', 'inductor', 'onnxrt', 'cudagraphs', 'jit', 'tvm', None, 'openxla'}
+model weights cached: ['checkpoints']
+
+rootdir: /local/data0/moved_data/publishablew/kornia/kornia
+configfile: pyproject.toml
+plugins: timeout-2.3.1
+collecting ... collected 6 items
+
+../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_shape[cpu] FAILED
+../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_laf[cpu] FAILED
+../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_laf_def[cpu] FAILED
+../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_cross_consistency[cpu] FAILED
+../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_gradcheck[cpu] FAILED
+../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_jit[cpu-float32] SKIPPED
+
+=================================== FAILURES ===================================
+_______________________ TestGetCreateLAF.test_shape[cpu] _______________________
+
+self = <test_laf.TestGetCreateLAF object at 0x71ccf5afb280>
+device = device(type='cpu')
+
+    def test_shape(self, device):
+        xy = torch.ones(1, 3, 2, device=device)
+        ori = torch.ones(1, 3, 1, device=device)
+        scale = torch.ones(1, 3, 1, 1, device=device)
+>       laf = kornia.feature.laf_from_center_scale_ori(xy, scale, ori)
+
+../publishablew/kornia/kornia/tests/feature/test_laf.py:487: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/feature/laf.py:99: in laf_from_center_scale_ori
+    return laf_from_center_scale_ori(xy, scale, ori)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+xy = tensor([[[1., 1.],
+         [1., 1.],
+         [1., 1.]]])
+scale = tensor([[[[1.]],
+
+         [[1.]],
+
+         [[1.]]]])
+ori = tensor([[[1.],
+         [1.],
+         [1.]]])
+
+    def laf_from_center_scale_ori(xy, scale=None, ori=None):
+        if xy.ndimension() != 3 or xy.size(2) != 2:
+            raise ValueError('Input tensor xy must have shape (B, N, 2)')
+        device = xy.device
+        dtype = xy.dtype
+        B, N, _ = xy.shape
+        if scale is None:
+            scale = torch.ones((B, N, 1, 1), device=device, dtype=dtype)
+        elif scale.ndimension() != 4 or scale.size(2) != 1 or scale.size(3) != 1:
+            raise ValueError('Scale tensor must have shape (B, N, 1, 1)')
+        if ori is None:
+            ori = torch.zeros((B, N, 1), device=device, dtype=dtype)
+        elif ori.ndimension() != 3 or ori.size(2) != 1:
+            raise ValueError('Orientation tensor must have shape (B, N, 1)')
+        cos_ori = torch.cos(ori)
+        sin_ori = torch.sin(ori)
+        rotation_matrix = torch.cat([cos_ori, -sin_ori, sin_ori, cos_ori], dim=2).view(B, N, 2, 2)
+        scaled_rotation_matrix = rotation_matrix * scale
+>       LAF = torch.cat([scaled_rotation_matrix, xy.unsqueeze(2)], dim=3)
+E       RuntimeError: Sizes of tensors must match except in dimension 3. Expected size 2 but got size 1 for tensor number 1 in the list.
+
+../publishablew/kornia/kornia/kornia/feature/temp.py:30: RuntimeError
+________________________ TestGetCreateLAF.test_laf[cpu] ________________________
+
+self = <test_laf.TestGetCreateLAF object at 0x71ccf5afb5b0>
+device = device(type='cpu')
+
+    def test_laf(self, device):
+        xy = torch.ones(1, 1, 2, device=device)
+        ori = torch.zeros(1, 1, 1, device=device)
+        scale = 5 * torch.ones(1, 1, 1, 1, device=device)
+        expected = torch.tensor([[[[5, 0, 1], [0, 5, 1]]]], device=device).float()
+>       laf = kornia.feature.laf_from_center_scale_ori(xy, scale, ori)
+
+../publishablew/kornia/kornia/tests/feature/test_laf.py:495: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/feature/laf.py:99: in laf_from_center_scale_ori
+    return laf_from_center_scale_ori(xy, scale, ori)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+xy = tensor([[[1., 1.]]]), scale = tensor([[[[5.]]]]), ori = tensor([[[0.]]])
+
+    def laf_from_center_scale_ori(xy, scale=None, ori=None):
+        if xy.ndimension() != 3 or xy.size(2) != 2:
+            raise ValueError('Input tensor xy must have shape (B, N, 2)')
+        device = xy.device
+        dtype = xy.dtype
+        B, N, _ = xy.shape
+        if scale is None:
+            scale = torch.ones((B, N, 1, 1), device=device, dtype=dtype)
+        elif scale.ndimension() != 4 or scale.size(2) != 1 or scale.size(3) != 1:
+            raise ValueError('Scale tensor must have shape (B, N, 1, 1)')
+        if ori is None:
+            ori = torch.zeros((B, N, 1), device=device, dtype=dtype)
+        elif ori.ndimension() != 3 or ori.size(2) != 1:
+            raise ValueError('Orientation tensor must have shape (B, N, 1)')
+        cos_ori = torch.cos(ori)
+        sin_ori = torch.sin(ori)
+        rotation_matrix = torch.cat([cos_ori, -sin_ori, sin_ori, cos_ori], dim=2).view(B, N, 2, 2)
+        scaled_rotation_matrix = rotation_matrix * scale
+>       LAF = torch.cat([scaled_rotation_matrix, xy.unsqueeze(2)], dim=3)
+E       RuntimeError: Sizes of tensors must match except in dimension 3. Expected size 2 but got size 1 for tensor number 1 in the list.
+
+../publishablew/kornia/kornia/kornia/feature/temp.py:30: RuntimeError
+______________________ TestGetCreateLAF.test_laf_def[cpu] ______________________
+
+self = <test_laf.TestGetCreateLAF object at 0x71ccf5afb850>
+device = device(type='cpu')
+
+    def test_laf_def(self, device):
+        xy = torch.ones(1, 1, 2, device=device)
+        expected = torch.tensor([[[[1, 0, 1], [0, 1, 1]]]], device=device).float()
+>       laf = kornia.feature.laf_from_center_scale_ori(xy)
+
+../publishablew/kornia/kornia/tests/feature/test_laf.py:501: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/feature/laf.py:99: in laf_from_center_scale_ori
+    return laf_from_center_scale_ori(xy, scale, ori)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+xy = tensor([[[1., 1.]]]), scale = tensor([[[[1.]]]]), ori = tensor([[[0.]]])
+
+    def laf_from_center_scale_ori(xy, scale=None, ori=None):
+        if xy.ndimension() != 3 or xy.size(2) != 2:
+            raise ValueError('Input tensor xy must have shape (B, N, 2)')
+        device = xy.device
+        dtype = xy.dtype
+        B, N, _ = xy.shape
+        if scale is None:
+            scale = torch.ones((B, N, 1, 1), device=device, dtype=dtype)
+        elif scale.ndimension() != 4 or scale.size(2) != 1 or scale.size(3) != 1:
+            raise ValueError('Scale tensor must have shape (B, N, 1, 1)')
+        if ori is None:
+            ori = torch.zeros((B, N, 1), device=device, dtype=dtype)
+        elif ori.ndimension() != 3 or ori.size(2) != 1:
+            raise ValueError('Orientation tensor must have shape (B, N, 1)')
+        cos_ori = torch.cos(ori)
+        sin_ori = torch.sin(ori)
+        rotation_matrix = torch.cat([cos_ori, -sin_ori, sin_ori, cos_ori], dim=2).view(B, N, 2, 2)
+        scaled_rotation_matrix = rotation_matrix * scale
+>       LAF = torch.cat([scaled_rotation_matrix, xy.unsqueeze(2)], dim=3)
+E       RuntimeError: Sizes of tensors must match except in dimension 3. Expected size 2 but got size 1 for tensor number 1 in the list.
+
+../publishablew/kornia/kornia/kornia/feature/temp.py:30: RuntimeError
+_________________ TestGetCreateLAF.test_cross_consistency[cpu] _________________
+
+self = <test_laf.TestGetCreateLAF object at 0x71ccf5afbaf0>
+device = device(type='cpu')
+
+    def test_cross_consistency(self, device):
+        batch_size, channels = 3, 2
+        xy = torch.rand(batch_size, channels, 2, device=device)
+        ori = torch.rand(batch_size, channels, 1, device=device)
+        scale = torch.abs(torch.rand(batch_size, channels, 1, 1, device=device))
+>       laf = kornia.feature.laf_from_center_scale_ori(xy, scale, ori)
+
+../publishablew/kornia/kornia/tests/feature/test_laf.py:509: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/feature/laf.py:99: in laf_from_center_scale_ori
+    return laf_from_center_scale_ori(xy, scale, ori)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+xy = tensor([[[0.7232, 0.9231],
+         [0.9167, 0.7466]],
+
+        [[0.6031, 0.2962],
+         [0.9839, 0.3003]],
+
+        [[0.6345, 0.7023],
+         [0.2940, 0.2912]]])
+scale = tensor([[[[0.7972]],
+
+         [[0.6105]]],
+
+
+        [[[0.7519]],
+
+         [[0.0589]]],
+
+
+        [[[0.3719]],
+
+         [[0.2554]]]])
+ori = tensor([[[0.6781],
+         [0.7151]],
+
+        [[0.3182],
+         [0.8926]],
+
+        [[0.2864],
+         [0.2736]]])
+
+    def laf_from_center_scale_ori(xy, scale=None, ori=None):
+        if xy.ndimension() != 3 or xy.size(2) != 2:
+            raise ValueError('Input tensor xy must have shape (B, N, 2)')
+        device = xy.device
+        dtype = xy.dtype
+        B, N, _ = xy.shape
+        if scale is None:
+            scale = torch.ones((B, N, 1, 1), device=device, dtype=dtype)
+        elif scale.ndimension() != 4 or scale.size(2) != 1 or scale.size(3) != 1:
+            raise ValueError('Scale tensor must have shape (B, N, 1, 1)')
+        if ori is None:
+            ori = torch.zeros((B, N, 1), device=device, dtype=dtype)
+        elif ori.ndimension() != 3 or ori.size(2) != 1:
+            raise ValueError('Orientation tensor must have shape (B, N, 1)')
+        cos_ori = torch.cos(ori)
+        sin_ori = torch.sin(ori)
+        rotation_matrix = torch.cat([cos_ori, -sin_ori, sin_ori, cos_ori], dim=2).view(B, N, 2, 2)
+        scaled_rotation_matrix = rotation_matrix * scale
+>       LAF = torch.cat([scaled_rotation_matrix, xy.unsqueeze(2)], dim=3)
+E       RuntimeError: Sizes of tensors must match except in dimension 3. Expected size 2 but got size 1 for tensor number 1 in the list.
+
+../publishablew/kornia/kornia/kornia/feature/temp.py:30: RuntimeError
+_____________________ TestGetCreateLAF.test_gradcheck[cpu] _____________________
+
+self = <test_laf.TestGetCreateLAF object at 0x71ccf5afbd90>
+device = device(type='cpu')
+
+    def test_gradcheck(self, device):
+        batch_size, channels = 3, 2
+        xy = torch.rand(batch_size, channels, 2, device=device, dtype=torch.float64)
+        ori = torch.rand(batch_size, channels, 1, device=device, dtype=torch.float64)
+        scale = torch.abs(torch.rand(batch_size, channels, 1, 1, device=device, dtype=torch.float64))
+>       self.gradcheck(kornia.feature.laf_from_center_scale_ori, (xy, scale, ori))
+
+../publishablew/kornia/kornia/tests/feature/test_laf.py:522: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/testing/base.py:143: in gradcheck
+    return gradcheck(func, inputs, raise_exception=raise_exception, fast_mode=fast_mode, **kwargs)
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:2052: in gradcheck
+    return _gradcheck_helper(**args)
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:2074: in _gradcheck_helper
+    func_out = func(*tupled_inputs)
+../publishablew/kornia/kornia/kornia/feature/laf.py:99: in laf_from_center_scale_ori
+    return laf_from_center_scale_ori(xy, scale, ori)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+xy = tensor([[[0.8191, 0.1108],
+         [0.5474, 0.4482]],
+
+        [[0.2438, 0.7504],
+         [0.5962, 0.9627]],
+
+        [[0.9579, 0.2665],
+         [0.0401, 0.9080]]], dtype=torch.float64, requires_grad=True)
+scale = tensor([[[[0.0852]],
+
+         [[0.9743]]],
+
+
+        [[[0.7614]],
+
+         [[0.5006]]],
+
+
+        [[[0.3875]],
+
+         [[0.8565]]]], dtype=torch.float64, requires_grad=True)
+ori = tensor([[[0.2583],
+         [0.7285]],
+
+        [[0.0314],
+         [0.5429]],
+
+        [[0.4730],
+         [0.8009]]], dtype=torch.float64, requires_grad=True)
+
+    def laf_from_center_scale_ori(xy, scale=None, ori=None):
+        if xy.ndimension() != 3 or xy.size(2) != 2:
+            raise ValueError('Input tensor xy must have shape (B, N, 2)')
+        device = xy.device
+        dtype = xy.dtype
+        B, N, _ = xy.shape
+        if scale is None:
+            scale = torch.ones((B, N, 1, 1), device=device, dtype=dtype)
+        elif scale.ndimension() != 4 or scale.size(2) != 1 or scale.size(3) != 1:
+            raise ValueError('Scale tensor must have shape (B, N, 1, 1)')
+        if ori is None:
+            ori = torch.zeros((B, N, 1), device=device, dtype=dtype)
+        elif ori.ndimension() != 3 or ori.size(2) != 1:
+            raise ValueError('Orientation tensor must have shape (B, N, 1)')
+        cos_ori = torch.cos(ori)
+        sin_ori = torch.sin(ori)
+        rotation_matrix = torch.cat([cos_ori, -sin_ori, sin_ori, cos_ori], dim=2).view(B, N, 2, 2)
+        scaled_rotation_matrix = rotation_matrix * scale
+>       LAF = torch.cat([scaled_rotation_matrix, xy.unsqueeze(2)], dim=3)
+E       RuntimeError: Sizes of tensors must match except in dimension 3. Expected size 2 but got size 1 for tensor number 1 in the list.
+
+../publishablew/kornia/kornia/kornia/feature/temp.py:30: RuntimeError
+=========================== short test summary info ============================
+FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_shape[cpu]
+FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_laf[cpu]
+FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_laf_def[cpu]
+FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_cross_consistency[cpu]
+FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_gradcheck[cpu]
+========================= 5 failed, 1 skipped in 0.40s =========================
+
+
+Final Test Result:
+Setting up torch compile...
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.3.3, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/kornia/kornia/venv/bin/python
+cachedir: .pytest_cache
+
+cpu info:
+	- Model name: AMD Ryzen 7 PRO 5845 8-Core Processor
+	- Architecture: x86_64
+	- CPU(s): 16
+	- Thread(s) per core: 2
+	- CPU max MHz: 4661.7178
+	- CPU min MHz: 2200.0000
+gpu info: {'GPU 0': 'NVIDIA GeForce RTX 3060'}
+main deps:
+    - kornia-0.7.4
+    - torch-2.5.1+cu124
+        - commit: a8d6afb511a69687bbb2b7e88a3cf67917e1697e
+        - cuda: 12.4
+        - nvidia-driver: 555.42.02
+x deps:
+    - accelerate-1.1.1
+dev deps:
+    - kornia_rs-0.1.7
+    - onnx-1.17.0
+gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
+available optimizers: {'', 'openxla', 'onnxrt', 'cudagraphs', 'tvm', 'inductor', 'jit', None}
+model weights cached: ['checkpoints']
+
+rootdir: /local/data0/moved_data/publishablew/kornia/kornia
+configfile: pyproject.toml
+plugins: timeout-2.3.1
+collecting ... collected 6 items
+
+../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_shape[cpu] PASSED
+../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_laf[cpu] PASSED
+../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_laf_def[cpu] PASSED
+../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_cross_consistency[cpu] PASSED
+../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_gradcheck[cpu] PASSED
+../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_jit[cpu-float32] SKIPPED
+
+========================= 5 passed, 1 skipped in 0.16s =========================
+
+
+Initial Result:
+Setting up torch compile...
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.3.3, pluggy-1.5.0 -- /local/data0/moved_data/publishablew/kornia/kornia/venv/bin/python
+cachedir: .pytest_cache
+
+cpu info:
+	- Model name: AMD Ryzen 7 PRO 5845 8-Core Processor
+	- Architecture: x86_64
+	- CPU(s): 16
+	- Thread(s) per core: 2
+	- CPU max MHz: 4661.7178
+	- CPU min MHz: 2200.0000
+gpu info: {'GPU 0': 'NVIDIA GeForce RTX 3060'}
+main deps:
+    - kornia-0.7.4
+    - torch-2.5.1+cu124
+        - commit: a8d6afb511a69687bbb2b7e88a3cf67917e1697e
+        - cuda: 12.4
+        - nvidia-driver: 555.42.02
+x deps:
+    - accelerate-1.1.1
+dev deps:
+    - kornia_rs-0.1.7
+    - onnx-1.17.0
+gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
+available optimizers: {'', 'onnxrt', 'tvm', 'cudagraphs', 'jit', 'inductor', 'openxla', None}
+model weights cached: ['checkpoints']
+
+rootdir: /local/data0/moved_data/publishablew/kornia/kornia
+configfile: pyproject.toml
+plugins: timeout-2.3.1
+collecting ... collected 6 items
+
+../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_shape[cpu] PASSED
+../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_laf[cpu] PASSED
+../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_laf_def[cpu] PASSED
+../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_cross_consistency[cpu] PASSED
+../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_gradcheck[cpu] PASSED
+../publishablew/kornia/kornia/tests/feature/test_laf.py::TestGetCreateLAF::test_jit[cpu-float32] SKIPPED
+
+========================= 5 passed, 1 skipped in 0.20s =========================
