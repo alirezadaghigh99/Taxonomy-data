@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0.75] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_binary_clf_curve_zero_sample_weight[det_curve] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true4] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true15-y_score15-expected_fpr15-expected_fnr15] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true17-y_score17-expected_fpr17-expected_fnr17] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true4]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true1-y_score1-expected_fpr1-expected_fnr1]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true18-y_score18-expected_fpr18-expected_fnr18]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0.5]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true6-y_score6-expected_fpr6-expected_fnr6] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true15-y_score15-expected_fpr15-expected_fnr15]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true3-y_score3-expected_fpr3-expected_fnr3] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true3-y_score3-expected_fpr3-expected_fnr3]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true7-y_score7-expected_fpr7-expected_fnr7] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true0-y_score0-expected_fpr0-expected_fnr0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true4-y_score4-expected_fpr4-expected_fnr4]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true2-y_pred2-Only one class is present in y_true] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true13-y_score13-expected_fpr13-expected_fnr13] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true3-y_score3-expected_fpr3-expected_fnr3]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true0-y_score0-expected_fpr0-expected_fnr0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true2]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_pos_label', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true3-y_pred3-Only one class is present in y_true]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true9-y_score9-expected_fpr9-expected_fnr9]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true19-y_score19-expected_fpr19-expected_fnr19] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true5-y_score5-expected_fpr5-expected_fnr5]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true9-y_score9-expected_fpr9-expected_fnr9] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true1-y_score1-expected_fpr1-expected_fnr1]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true3-y_pred3-Only one class is present in y_true] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true5-y_score5-expected_fpr5-expected_fnr5] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true14-y_score14-expected_fpr14-expected_fnr14]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true2-y_score2-expected_fpr2-expected_fnr2] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true4-y_score4-expected_fpr4-expected_fnr4] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0.25] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[1]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true2] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true2-y_score2-expected_fpr2-expected_fnr2]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true4-y_score4-expected_fpr4-expected_fnr4] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true10-y_score10-expected_fpr10-expected_fnr10]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true6-y_score6-expected_fpr6-expected_fnr6]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true18-y_score18-expected_fpr18-expected_fnr18] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true11-y_score11-expected_fpr11-expected_fnr11] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_pos_label FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true2-y_score2-expected_fpr2-expected_fnr2]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true3]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ranking_metric_pos_label_types[classes3-det_curve]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true7-y_score7-expected_fpr7-expected_fnr7] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true0-y_score0-expected_fpr0-expected_fnr0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_binary_clf_curve_zero_sample_weight[det_curve]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true12-y_score12-expected_fpr12-expected_fnr12] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true3] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true17-y_score17-expected_fpr17-expected_fnr17]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true12-y_score12-expected_fpr12-expected_fnr12]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true0-y_score0-expected_fpr0-expected_fnr0]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true5-y_score5-expected_fpr5-expected_fnr5] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true1-y_score1-expected_fpr1-expected_fnr1] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true2-y_pred2-Only one class is present in y_true]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true19-y_score19-expected_fpr19-expected_fnr19]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true10-y_score10-expected_fpr10-expected_fnr10] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true3-y_score3-expected_fpr3-expected_fnr3] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0.5] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true4-y_score4-expected_fpr4-expected_fnr4]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true7-y_score7-expected_fpr7-expected_fnr7]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_binary_clf_curve_multiclass_error[det_curve]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true11-y_score11-expected_fpr11-expected_fnr11]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ranking_metric_pos_label_types[classes3-det_curve] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_binary_clf_curve_implicit_pos_label[det_curve]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[1] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true8-y_score8-expected_fpr8-expected_fnr8] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true4-y_pred4-pos_label is not specified]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_sanity_check FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true2-y_score2-expected_fpr2-expected_fnr2] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true6-y_score6-expected_fpr6-expected_fnr6] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true1-y_score1-expected_fpr1-expected_fnr1] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true7-y_score7-expected_fpr7-expected_fnr7]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_binary_clf_curve_implicit_pos_label[det_curve] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true16-y_score16-expected_fpr16-expected_fnr16]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0.75]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true8-y_score8-expected_fpr8-expected_fnr8]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true16-y_score16-expected_fpr16-expected_fnr16] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true6-y_score6-expected_fpr6-expected_fnr6]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0.25]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true13-y_score13-expected_fpr13-expected_fnr13]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true5-y_score5-expected_fpr5-expected_fnr5]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_binary_clf_curve_multiclass_error[det_curve] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true1]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true14-y_score14-expected_fpr14-expected_fnr14] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_sanity_check', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true4-y_pred4-pos_label is not specified] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true1] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0] FAILED'}
+{'../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true15-y_score15-expected_fpr15-expected_fnr15] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true17-y_score17-expected_fpr17-expected_fnr17]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true14-y_score14-expected_fpr14-expected_fnr14]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true1-y_pred1-inconsistent numbers of samples]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true12-y_score12-expected_fpr12-expected_fnr12]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true6-y_score6-expected_fpr6-expected_fnr6] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_binary_clf_curve_implicit_pos_label[det_curve] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true3-y_score3-expected_fpr3-expected_fnr3]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true3-y_pred3-Only one class is present in y_true] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true1-y_pred1-inconsistent numbers of samples] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true5-y_score5-expected_fpr5-expected_fnr5] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true2-y_pred2-Only one class is present in y_true] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true16-y_score16-expected_fpr16-expected_fnr16]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true13-y_score13-expected_fpr13-expected_fnr13]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true3-y_score3-expected_fpr3-expected_fnr3] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true0-y_score0-expected_fpr0-expected_fnr0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_binary_clf_curve_zero_sample_weight[det_curve]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true2-y_score2-expected_fpr2-expected_fnr2]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true4-y_score4-expected_fpr4-expected_fnr4] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true1-y_score1-expected_fpr1-expected_fnr1]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true2-y_score2-expected_fpr2-expected_fnr2]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true3-y_score3-expected_fpr3-expected_fnr3]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_binary_clf_curve_multiclass_error[det_curve] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_pos_label', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true11-y_score11-expected_fpr11-expected_fnr11]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true10-y_score10-expected_fpr10-expected_fnr10]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true9-y_score9-expected_fpr9-expected_fnr9]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true10-y_score10-expected_fpr10-expected_fnr10] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true1]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true5-y_score5-expected_fpr5-expected_fnr5]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_pos_label FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true2]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true19-y_score19-expected_fpr19-expected_fnr19]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_binary_clf_curve_zero_sample_weight[det_curve] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true4-y_score4-expected_fpr4-expected_fnr4]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_binary_clf_curve_multiclass_error[det_curve]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true7-y_score7-expected_fpr7-expected_fnr7]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true3] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true17-y_score17-expected_fpr17-expected_fnr17] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true15-y_score15-expected_fpr15-expected_fnr15]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_binary_clf_curve_implicit_pos_label[det_curve]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true6-y_score6-expected_fpr6-expected_fnr6]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true9-y_score9-expected_fpr9-expected_fnr9] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true6-y_score6-expected_fpr6-expected_fnr6] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true2-y_pred2-Only one class is present in y_true]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true11-y_score11-expected_fpr11-expected_fnr11] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true2-y_score2-expected_fpr2-expected_fnr2] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true4] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true5-y_score5-expected_fpr5-expected_fnr5] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true5-y_score5-expected_fpr5-expected_fnr5]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true8-y_score8-expected_fpr8-expected_fnr8]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true7-y_score7-expected_fpr7-expected_fnr7]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true2] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true14-y_score14-expected_fpr14-expected_fnr14] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true3-y_pred3-Only one class is present in y_true]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true0-y_pred0-inconsistent numbers of samples] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true7-y_score7-expected_fpr7-expected_fnr7] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true1] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true6-y_score6-expected_fpr6-expected_fnr6]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true0-y_score0-expected_fpr0-expected_fnr0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true12-y_score12-expected_fpr12-expected_fnr12] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true3-y_score3-expected_fpr3-expected_fnr3] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true18-y_score18-expected_fpr18-expected_fnr18]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true13-y_score13-expected_fpr13-expected_fnr13] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true0-y_pred0-inconsistent numbers of samples]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true7-y_score7-expected_fpr7-expected_fnr7] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true3]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true4]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true4-y_score4-expected_fpr4-expected_fnr4]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true1-y_score1-expected_fpr1-expected_fnr1] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true8-y_score8-expected_fpr8-expected_fnr8] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true18-y_score18-expected_fpr18-expected_fnr18] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true16-y_score16-expected_fpr16-expected_fnr16] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true4-y_score4-expected_fpr4-expected_fnr4] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true19-y_score19-expected_fpr19-expected_fnr19] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true4-y_pred4-pos_label is not specified] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true4-y_pred4-pos_label is not specified]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true2-y_score2-expected_fpr2-expected_fnr2] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 215 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[True] I: Seeding RNGs with 1001783816
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[True] I: Seeding RNGs with 1582883125
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[False] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve_end_points PASSED
@@ -117,27 +117,27 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true17-y_score17-expected_fpr17-expected_fnr17] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true18-y_score18-expected_fpr18-expected_fnr18] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true19-y_score19-expected_fpr19-expected_fnr19] FAILED
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true0-y_score0-expected_fpr0-expected_fnr0] FAILED
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true1-y_score1-expected_fpr1-expected_fnr1] FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true0-y_score0-expected_fpr0-expected_fnr0] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true1-y_score1-expected_fpr1-expected_fnr1] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true2-y_score2-expected_fpr2-expected_fnr2] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true3-y_score3-expected_fpr3-expected_fnr3] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true4-y_score4-expected_fpr4-expected_fnr4] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true5-y_score5-expected_fpr5-expected_fnr5] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true6-y_score6-expected_fpr6-expected_fnr6] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true7-y_score7-expected_fpr7-expected_fnr7] FAILED
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_sanity_check FAILED
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0] FAILED
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0.25] FAILED
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0.5] FAILED
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0.75] FAILED
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[1] FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_sanity_check PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0.25] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0.5] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0.75] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[1] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true0] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true1] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true2] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true3] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true4] FAILED
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true0-y_pred0-inconsistent numbers of samples] PASSED
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true1-y_pred1-inconsistent numbers of samples] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true0-y_pred0-inconsistent numbers of samples] FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true1-y_pred1-inconsistent numbers of samples] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true2-y_pred2-Only one class is present in y_true] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true3-y_pred3-Only one class is present in y_true] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true4-y_pred4-pos_label is not specified] FAILED
@@ -229,7 +229,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ranking_metric_pos_label_types[classes2-precision_recall_curve] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ranking_metric_pos_label_types[classes2-roc_curve] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ranking_metric_pos_label_types[classes3-average_precision_score] PASSED
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ranking_metric_pos_label_types[classes3-det_curve] FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ranking_metric_pos_label_types[classes3-det_curve] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ranking_metric_pos_label_types[classes3-precision_recall_curve] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ranking_metric_pos_label_types[classes3-roc_curve] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve_with_probablity_estimates[42] PASSED
@@ -238,7 +238,7 @@ PASSED
 =================================== FAILURES ===================================
 ______________ test_binary_clf_curve_multiclass_error[det_curve] _______________
 
-curve_func = <function det_curve at 0x7da478cf10d0>
+curve_func = <function det_curve at 0x72086d0101f0>
 
     @pytest.mark.parametrize("curve_func", CURVE_FUNCS)
     def test_binary_clf_curve_multiclass_error(curve_func):
@@ -253,7 +253,7 @@ E           Failed: DID NOT RAISE <class 'ValueError'>
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py:848: Failed
 _____________ test_binary_clf_curve_implicit_pos_label[det_curve] ______________
 
-curve_func = <function det_curve at 0x7da478cf10d0>
+curve_func = <function det_curve at 0x72086d0101f0>
 
     @pytest.mark.parametrize("curve_func", CURVE_FUNCS)
     def test_binary_clf_curve_implicit_pos_label(curve_func):
@@ -274,48 +274,22 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return func(*args, **kwargs)
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/_ranking.py:201: in det_curve
     return det_curve(y_true, y_score, pos_label, sample_weight)
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:24: in det_curve
+    pos_label = 1 if y_true.dtype.kind in 'biu' else y_true.max()
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-y_true = array(['b', 'a'], dtype='<U1'), y_score = array([1., 0.])
-pos_label = 1.0, sample_weight = array([1., 1.])
+a = array(['a', 'b'], dtype='<U1'), axis = None, out = None, keepdims = False
+initial = <no value>, where = True
 
-    def det_curve(y_true, y_score, pos_label=None, sample_weight=None):
-        """
-        Compute error rates for different probability thresholds in a binary classification task.
-    
-        Parameters:
-        - y_true: ndarray of shape (n_samples), representing the true binary labels.
-        - y_score: ndarray of shape (n_samples), representing target scores.
-        - pos_label: int, float, bool, or str, default=None, indicating the label of the positive class.
-        - sample_weight: array-like of shape (n_samples), default=None, representing sample weights.
-    
-        Returns:
-        - fpr: ndarray of shape (n_thresholds), representing the false positive rate.
-        - fnr: ndarray of shape (n_thresholds), representing the false negative rate.
-        - thresholds: ndarray of shape (n_thresholds), representing decreasing score values.
-        """
-        y_true = column_or_1d(y_true)
-        y_score = column_or_1d(y_score)
-        check_consistent_length(y_true, y_score, sample_weight)
-        if sample_weight is None:
-            sample_weight = np.ones_like(y_true, dtype=np.float64)
-        else:
-            sample_weight = np.asarray(sample_weight)
-        if pos_label is None:
-            pos_label = 1.0
-        desc_score_indices = np.argsort(y_score, kind='mergesort')[::-1]
-        y_score = y_score[desc_score_indices]
-        y_true = y_true[desc_score_indices]
-        sample_weight = sample_weight[desc_score_indices]
-        distinct_value_indices = np.where(np.diff(y_score))[0]
-        threshold_idxs = np.r_[distinct_value_indices, y_true.size - 1]
->       tps = stable_cumsum(y_true * sample_weight)[threshold_idxs]
-E       numpy._core._exceptions._UFuncNoLoopError: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U1'), dtype('float64')) -> None
+    def _amax(a, axis=None, out=None, keepdims=False,
+              initial=_NoValue, where=True):
+>       return umr_maximum(a, axis, None, out, keepdims, initial, where)
+E       numpy._core._exceptions._UFuncNoLoopError: ufunc 'maximum' did not contain a loop with signature matching types (dtype('<U1'), dtype('<U1')) -> None
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:52: UFuncTypeError
+../publishablew/scikit-learn/scikit-learn/venv/lib/python3.9/site-packages/numpy/_core/_methods.py:44: UFuncTypeError
 _____________ test_binary_clf_curve_zero_sample_weight[det_curve] ______________
 
-curve_func = <function det_curve at 0x7da478cf10d0>
+curve_func = <function det_curve at 0x72086d0101f0>
 
     @pytest.mark.parametrize("curve_func", CURVE_FUNCS)
     def test_binary_clf_curve_zero_sample_weight(curve_func):
@@ -335,7 +309,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da46e095c10>, array([0. , 0. , 0. , 0. , 0.5, 1. ]), array([0. , 0. , 0. , 0.5, 1. ]))
+args = (<function assert_allclose.<locals>.compare at 0x72086a1cd040>, array([0. , 0. , 0. , 0.5, 1. ]), array([0. , 0. , 0.5, 1. ]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -345,9 +319,9 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (6,), (5,) mismatch)
-E            ACTUAL: array([0. , 0. , 0. , 0. , 0.5, 1. ])
-E            DESIRED: array([0. , 0. , 0. , 0.5, 1. ])
+E           (shapes (5,), (4,) mismatch)
+E            ACTUAL: array([0. , 0. , 0. , 0.5, 1. ])
+E            DESIRED: array([0. , 0. , 0.5, 1. ])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
 _____ test_det_curve_toydata[y_true0-y_score0-expected_fpr0-expected_fnr0] _____
@@ -392,7 +366,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da46e095940>, array([0. , 0. , 0.5, 1. ]), array([0]))
+args = (<function assert_allclose.<locals>.compare at 0x72086a35fb80>, array([0. , 0.5, 1. ]), array([0]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -402,8 +376,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (1,) mismatch)
-E            ACTUAL: array([0. , 0. , 0.5, 1. ])
+E           (shapes (3,), (1,) mismatch)
+E            ACTUAL: array([0. , 0.5, 1. ])
 E            DESIRED: array([0])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -449,7 +423,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da478dd6af0>, array([0. , 0. , 0.5, 1. ]), array([0]))
+args = (<function assert_allclose.<locals>.compare at 0x72086d0ed8b0>, array([0. , 0.5, 1. ]), array([0]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -459,8 +433,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (1,) mismatch)
-E            ACTUAL: array([0. , 0. , 0.5, 1. ])
+E           (shapes (3,), (1,) mismatch)
+E            ACTUAL: array([0. , 0.5, 1. ])
 E            DESIRED: array([0])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -506,7 +480,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da478dd21f0>, array([0. , 0. , 0.5, 1. ]), array([0]))
+args = (<function assert_allclose.<locals>.compare at 0x72086d0ebc10>, array([0. , 0.5, 1. ]), array([0]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -516,8 +490,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (1,) mismatch)
-E            ACTUAL: array([0. , 0. , 0.5, 1. ])
+E           (shapes (3,), (1,) mismatch)
+E            ACTUAL: array([0. , 0.5, 1. ])
 E            DESIRED: array([0])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -563,7 +537,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da46e0badc0>, array([0. , 0. , 0.5, 1. ]), array([0]))
+args = (<function assert_allclose.<locals>.compare at 0x72086d123550>, array([0. , 0.5, 1. ]), array([0]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -573,8 +547,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (1,) mismatch)
-E            ACTUAL: array([0. , 0. , 0.5, 1. ])
+E           (shapes (3,), (1,) mismatch)
+E            ACTUAL: array([0. , 0.5, 1. ])
 E            DESIRED: array([0])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -620,7 +594,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da46e095a60>, array([0. , 0.5, 0.5, 1. ]), array([0.5]))
+args = (<function assert_allclose.<locals>.compare at 0x72086d0eda60>, array([0.5, 0.5, 1. ]), array([0.5]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -630,8 +604,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (1,) mismatch)
-E            ACTUAL: array([0. , 0.5, 0.5, 1. ])
+E           (shapes (3,), (1,) mismatch)
+E            ACTUAL: array([0.5, 0.5, 1. ])
 E            DESIRED: array([0.5])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -677,7 +651,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da478dd2e50>, array([0. , 0.5, 0.5, 1. ]), array([0.5]))
+args = (<function assert_allclose.<locals>.compare at 0x72086d123550>, array([0.5, 0.5, 1. ]), array([0.5]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -687,8 +661,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (1,) mismatch)
-E            ACTUAL: array([0. , 0.5, 0.5, 1. ])
+E           (shapes (3,), (1,) mismatch)
+E            ACTUAL: array([0.5, 0.5, 1. ])
 E            DESIRED: array([0.5])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -734,7 +708,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da478dd6e50>, array([0. , 0.5, 0.5, 1. ]), array([0.5]))
+args = (<function assert_allclose.<locals>.compare at 0x72086d0edca0>, array([0.5, 0.5, 1. ]), array([0.5]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -744,8 +718,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (1,) mismatch)
-E            ACTUAL: array([0. , 0.5, 0.5, 1. ])
+E           (shapes (3,), (1,) mismatch)
+E            ACTUAL: array([0.5, 0.5, 1. ])
 E            DESIRED: array([0.5])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -791,7 +765,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da46e0baf70>, array([0. , 0.5, 0.5, 1. ]), array([0.5]))
+args = (<function assert_allclose.<locals>.compare at 0x72086d123550>, array([0.5, 0.5, 1. ]), array([0.5]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -801,8 +775,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (1,) mismatch)
-E            ACTUAL: array([0. , 0.5, 0.5, 1. ])
+E           (shapes (3,), (1,) mismatch)
+E            ACTUAL: array([0.5, 0.5, 1. ])
 E            DESIRED: array([0.5])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -848,7 +822,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da478dd2f70>, array([0., 0., 0., 1.]), array([0.]))
+args = (<function assert_allclose.<locals>.compare at 0x72086a35fb80>, array([0., 0., 1.]), array([0.]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -858,8 +832,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (1,) mismatch)
-E            ACTUAL: array([0., 0., 0., 1.])
+E           (shapes (3,), (1,) mismatch)
+E            ACTUAL: array([0., 0., 1.])
 E            DESIRED: array([0.])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -905,7 +879,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da478dd6dc0>, array([0., 0., 0., 1.]), array([0]))
+args = (<function assert_allclose.<locals>.compare at 0x72086d123550>, array([0., 0., 1.]), array([0]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -915,8 +889,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (1,) mismatch)
-E            ACTUAL: array([0., 0., 0., 1.])
+E           (shapes (3,), (1,) mismatch)
+E            ACTUAL: array([0., 0., 1.])
 E            DESIRED: array([0])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -962,7 +936,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da46e0badc0>, array([0., 0., 0., 1.]), array([0]))
+args = (<function assert_allclose.<locals>.compare at 0x72086d0ebc10>, array([0., 0., 1.]), array([0]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -972,8 +946,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (1,) mismatch)
-E            ACTUAL: array([0., 0., 0., 1.])
+E           (shapes (3,), (1,) mismatch)
+E            ACTUAL: array([0., 0., 1.])
 E            DESIRED: array([0])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -1019,7 +993,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da478dd6ee0>, array([0., 0., 0., 1.]), array([0]))
+args = (<function assert_allclose.<locals>.compare at 0x72086a1ad820>, array([0., 0., 1.]), array([0]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -1029,8 +1003,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (1,) mismatch)
-E            ACTUAL: array([0., 0., 0., 1.])
+E           (shapes (3,), (1,) mismatch)
+E            ACTUAL: array([0., 0., 1.])
 E            DESIRED: array([0])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -1076,7 +1050,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da46e0bae50>, array([0. , 0.5, 1. , 1. ]), array([1. , 1. , 0.5]))
+args = (<function assert_allclose.<locals>.compare at 0x72086d0eb430>, array([0.5, 1. , 1. ]), array([1. , 1. , 0.5]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -1086,8 +1060,10 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (3,) mismatch)
-E            ACTUAL: array([0. , 0.5, 1. , 1. ])
+E           Mismatched elements: 2 / 3 (66.7%)
+E           Max absolute difference among violations: 0.5
+E           Max relative difference among violations: 1.
+E            ACTUAL: array([0.5, 1. , 1. ])
 E            DESIRED: array([1. , 1. , 0.5])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -1133,7 +1109,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da478dd2c10>, array([0. , 0.5, 1. , 1. ]), array([1. , 1. , 0.5]))
+args = (<function assert_allclose.<locals>.compare at 0x72086d0ed820>, array([0.5, 1. , 1. ]), array([1. , 1. , 0.5]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -1143,8 +1119,10 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (3,) mismatch)
-E            ACTUAL: array([0. , 0.5, 1. , 1. ])
+E           Mismatched elements: 2 / 3 (66.7%)
+E           Max absolute difference among violations: 0.5
+E           Max relative difference among violations: 1.
+E            ACTUAL: array([0.5, 1. , 1. ])
 E            DESIRED: array([1. , 1. , 0.5])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -1190,7 +1168,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da46e0bae50>, array([0. , 0.5, 1. , 1. ]), array([1. , 1. , 0.5]))
+args = (<function assert_allclose.<locals>.compare at 0x72086a35fd30>, array([0.5, 1. , 1. ]), array([1. , 1. , 0.5]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -1200,8 +1178,10 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (3,) mismatch)
-E            ACTUAL: array([0. , 0.5, 1. , 1. ])
+E           Mismatched elements: 2 / 3 (66.7%)
+E           Max absolute difference among violations: 0.5
+E           Max relative difference among violations: 1.
+E            ACTUAL: array([0.5, 1. , 1. ])
 E            DESIRED: array([1. , 1. , 0.5])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -1247,7 +1227,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da46e095c10>, array([0. , 0.5, 1. , 1. ]), array([1. , 1. , 0.5]))
+args = (<function assert_allclose.<locals>.compare at 0x72086a1ad940>, array([0.5, 1. , 1. ]), array([1. , 1. , 0.5]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -1257,8 +1237,10 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (3,) mismatch)
-E            ACTUAL: array([0. , 0.5, 1. , 1. ])
+E           Mismatched elements: 2 / 3 (66.7%)
+E           Max absolute difference among violations: 0.5
+E           Max relative difference among violations: 1.
+E            ACTUAL: array([0.5, 1. , 1. ])
 E            DESIRED: array([1. , 1. , 0.5])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -1304,7 +1286,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da478dd6940>, array([0., 0., 1., 1.]), array([1, 1, 0]))
+args = (<function assert_allclose.<locals>.compare at 0x72086d0eb160>, array([0., 1., 1.]), array([1, 1, 0]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -1314,8 +1296,10 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (3,) mismatch)
-E            ACTUAL: array([0., 0., 1., 1.])
+E           Mismatched elements: 2 / 3 (66.7%)
+E           Max absolute difference among violations: 1.
+E           Max relative difference among violations: 1.
+E            ACTUAL: array([0., 1., 1.])
 E            DESIRED: array([1, 1, 0])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -1361,7 +1345,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da478dd6c10>, array([0., 0., 1., 1.]), array([1, 1, 0]))
+args = (<function assert_allclose.<locals>.compare at 0x72086a35fd30>, array([0., 1., 1.]), array([1, 1, 0]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -1371,8 +1355,10 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (3,) mismatch)
-E            ACTUAL: array([0., 0., 1., 1.])
+E           Mismatched elements: 2 / 3 (66.7%)
+E           Max absolute difference among violations: 1.
+E           Max relative difference among violations: 1.
+E            ACTUAL: array([0., 1., 1.])
 E            DESIRED: array([1, 1, 0])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -1418,7 +1404,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da478dd2040>, array([0., 0., 1., 1.]), array([1, 1, 0]))
+args = (<function assert_allclose.<locals>.compare at 0x72086a0a9af0>, array([0., 1., 1.]), array([1, 1, 0]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -1428,8 +1414,10 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (3,) mismatch)
-E            ACTUAL: array([0., 0., 1., 1.])
+E           Mismatched elements: 2 / 3 (66.7%)
+E           Max absolute difference among violations: 1.
+E           Max relative difference among violations: 1.
+E            ACTUAL: array([0., 1., 1.])
 E            DESIRED: array([1, 1, 0])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -1475,7 +1463,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da46e0badc0>, array([0., 0., 1., 1.]), array([1, 1, 0]))
+args = (<function assert_allclose.<locals>.compare at 0x72086a35fd30>, array([0., 1., 1.]), array([1, 1, 0]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -1485,95 +1473,11 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (4,), (3,) mismatch)
-E            ACTUAL: array([0., 0., 1., 1.])
+E           Mismatched elements: 2 / 3 (66.7%)
+E           Max absolute difference among violations: 1.
+E           Max relative difference among violations: 1.
+E            ACTUAL: array([0., 1., 1.])
 E            DESIRED: array([1, 1, 0])
-
-/usr/local/lib/python3.9/contextlib.py:79: AssertionError
-__ test_det_curve_tie_handling[y_true0-y_score0-expected_fpr0-expected_fnr0] ___
-
-y_true = [1, 0], y_score = [0.5, 0.5], expected_fpr = [1], expected_fnr = [0]
-
-    @pytest.mark.parametrize(
-        "y_true,y_score,expected_fpr,expected_fnr",
-        [
-            ([1, 0], [0.5, 0.5], [1], [0]),
-            ([0, 1], [0.5, 0.5], [1], [0]),
-            ([0, 0, 1], [0.25, 0.5, 0.5], [0.5], [0]),
-            ([0, 1, 0], [0.25, 0.5, 0.5], [0.5], [0]),
-            ([0, 1, 1], [0.25, 0.5, 0.5], [0], [0]),
-            ([1, 0, 0], [0.25, 0.5, 0.5], [1], [0]),
-            ([1, 0, 1], [0.25, 0.5, 0.5], [1], [0]),
-            ([1, 1, 0], [0.25, 0.5, 0.5], [1], [0]),
-        ],
-    )
-    def test_det_curve_tie_handling(y_true, y_score, expected_fpr, expected_fnr):
-        fpr, fnr, _ = det_curve(y_true, y_score)
-    
->       assert_allclose(fpr, expected_fpr)
-
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py:1289: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_testing.py:239: in assert_allclose
-    np_assert_allclose(
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-args = (<function assert_allclose.<locals>.compare at 0x7da478dd6dc0>, array([0., 1.]), array([1]))
-kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
-
-    @wraps(func)
-    def inner(*args, **kwds):
-        with self._recreate_cm():
->           return func(*args, **kwds)
-E           AssertionError: 
-E           Not equal to tolerance rtol=1e-07, atol=0
-E           
-E           (shapes (2,), (1,) mismatch)
-E            ACTUAL: array([0., 1.])
-E            DESIRED: array([1])
-
-/usr/local/lib/python3.9/contextlib.py:79: AssertionError
-__ test_det_curve_tie_handling[y_true1-y_score1-expected_fpr1-expected_fnr1] ___
-
-y_true = [0, 1], y_score = [0.5, 0.5], expected_fpr = [1], expected_fnr = [0]
-
-    @pytest.mark.parametrize(
-        "y_true,y_score,expected_fpr,expected_fnr",
-        [
-            ([1, 0], [0.5, 0.5], [1], [0]),
-            ([0, 1], [0.5, 0.5], [1], [0]),
-            ([0, 0, 1], [0.25, 0.5, 0.5], [0.5], [0]),
-            ([0, 1, 0], [0.25, 0.5, 0.5], [0.5], [0]),
-            ([0, 1, 1], [0.25, 0.5, 0.5], [0], [0]),
-            ([1, 0, 0], [0.25, 0.5, 0.5], [1], [0]),
-            ([1, 0, 1], [0.25, 0.5, 0.5], [1], [0]),
-            ([1, 1, 0], [0.25, 0.5, 0.5], [1], [0]),
-        ],
-    )
-    def test_det_curve_tie_handling(y_true, y_score, expected_fpr, expected_fnr):
-        fpr, fnr, _ = det_curve(y_true, y_score)
-    
->       assert_allclose(fpr, expected_fpr)
-
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py:1289: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_testing.py:239: in assert_allclose
-    np_assert_allclose(
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-args = (<function assert_allclose.<locals>.compare at 0x7da478dd6a60>, array([0., 1.]), array([1]))
-kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
-
-    @wraps(func)
-    def inner(*args, **kwds):
-        with self._recreate_cm():
->           return func(*args, **kwds)
-E           AssertionError: 
-E           Not equal to tolerance rtol=1e-07, atol=0
-E           
-E           (shapes (2,), (1,) mismatch)
-E            ACTUAL: array([0., 1.])
-E            DESIRED: array([1])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
 __ test_det_curve_tie_handling[y_true2-y_score2-expected_fpr2-expected_fnr2] ___
@@ -1605,7 +1509,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da46e0baf70>, array([0. , 0.5, 1. ]), array([0.5]))
+args = (<function assert_allclose.<locals>.compare at 0x72086d0eb160>, array([0.5, 1. ]), array([0.5]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -1615,8 +1519,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (3,), (1,) mismatch)
-E            ACTUAL: array([0. , 0.5, 1. ])
+E           (shapes (2,), (1,) mismatch)
+E            ACTUAL: array([0.5, 1. ])
 E            DESIRED: array([0.5])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -1649,7 +1553,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da478dd6ee0>, array([0. , 0.5, 1. ]), array([0.5]))
+args = (<function assert_allclose.<locals>.compare at 0x72086d0edf70>, array([0.5, 1. ]), array([0.5]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -1659,8 +1563,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (3,), (1,) mismatch)
-E            ACTUAL: array([0. , 0.5, 1. ])
+E           (shapes (2,), (1,) mismatch)
+E            ACTUAL: array([0.5, 1. ])
 E            DESIRED: array([0.5])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -1693,7 +1597,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da478dd6c10>, array([0., 0., 1.]), array([0]))
+args = (<function assert_allclose.<locals>.compare at 0x72086a18d310>, array([0., 1.]), array([0]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -1703,8 +1607,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (3,), (1,) mismatch)
-E            ACTUAL: array([0., 0., 1.])
+E           (shapes (2,), (1,) mismatch)
+E            ACTUAL: array([0., 1.])
 E            DESIRED: array([0])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -1737,7 +1641,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da46e095ca0>, array([0., 1., 1.]), array([1]))
+args = (<function assert_allclose.<locals>.compare at 0x72086a0a9af0>, array([1., 1.]), array([1]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -1747,8 +1651,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (3,), (1,) mismatch)
-E            ACTUAL: array([0., 1., 1.])
+E           (shapes (2,), (1,) mismatch)
+E            ACTUAL: array([1., 1.])
 E            DESIRED: array([1])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -1781,7 +1685,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da478dd6c10>, array([0., 1., 1.]), array([1]))
+args = (<function assert_allclose.<locals>.compare at 0x72086a10c040>, array([1., 1.]), array([1]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -1791,8 +1695,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (3,), (1,) mismatch)
-E            ACTUAL: array([0., 1., 1.])
+E           (shapes (2,), (1,) mismatch)
+E            ACTUAL: array([1., 1.])
 E            DESIRED: array([1])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -1825,115 +1729,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da478dd6af0>, array([0., 1., 1.]), array([1]))
-kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
-
-    @wraps(func)
-    def inner(*args, **kwds):
-        with self._recreate_cm():
->           return func(*args, **kwds)
-E           AssertionError: 
-E           Not equal to tolerance rtol=1e-07, atol=0
-E           
-E           (shapes (3,), (1,) mismatch)
-E            ACTUAL: array([0., 1., 1.])
-E            DESIRED: array([1])
-
-/usr/local/lib/python3.9/contextlib.py:79: AssertionError
-_________________________ test_det_curve_sanity_check __________________________
-
-    def test_det_curve_sanity_check():
-        # Exactly duplicated inputs yield the same result.
->       assert_allclose(
-            det_curve([0, 0, 1], [0, 0.5, 1]),
-            det_curve([0, 0, 0, 0, 1, 1], [0, 0, 0.5, 0.5, 1, 1]),
-        )
-
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py:1295: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-actual = (array([0. , 0. , 0.5, 1. ]), array([1., 0., 0., 0.]), array([1. , 0.5, 0. ]))
-desired = (array([0. , 0. , 0.5, 1. ]), array([1., 0., 0., 0.]), array([1. , 0.5, 0. ]))
-rtol = None, atol = 0.0, equal_nan = True, err_msg = '', verbose = True
-
-    def assert_allclose(
-        actual, desired, rtol=None, atol=0.0, equal_nan=True, err_msg="", verbose=True
-    ):
-        """dtype-aware variant of numpy.testing.assert_allclose
-    
-        This variant introspects the least precise floating point dtype
-        in the input argument and automatically sets the relative tolerance
-        parameter to 1e-4 float32 and use 1e-7 otherwise (typically float64
-        in scikit-learn).
-    
-        `atol` is always left to 0. by default. It should be adjusted manually
-        to an assertion-specific value in case there are null values expected
-        in `desired`.
-    
-        The aggregate tolerance is `atol + rtol * abs(desired)`.
-    
-        Parameters
-        ----------
-        actual : array_like
-            Array obtained.
-        desired : array_like
-            Array desired.
-        rtol : float, optional, default=None
-            Relative tolerance.
-            If None, it is set based on the provided arrays' dtypes.
-        atol : float, optional, default=0.
-            Absolute tolerance.
-        equal_nan : bool, optional, default=True
-            If True, NaNs will compare equal.
-        err_msg : str, optional, default=''
-            The error message to be printed in case of failure.
-        verbose : bool, optional, default=True
-            If True, the conflicting values are appended to the error message.
-    
-        Raises
-        ------
-        AssertionError
-            If actual and desired are not equal up to specified precision.
-    
-        See Also
-        --------
-        numpy.testing.assert_allclose
-    
-        Examples
-        --------
-        >>> import numpy as np
-        >>> from sklearn.utils._testing import assert_allclose
-        >>> x = [1e-5, 1e-3, 1e-1]
-        >>> y = np.arccos(np.cos(x))
-        >>> assert_allclose(x, y, rtol=1e-5, atol=0)
-        >>> a = np.full(shape=10, fill_value=1e-5, dtype=np.float32)
-        >>> assert_allclose(a, 1e-5)
-        """
-        dtypes = []
-    
->       actual, desired = np.asanyarray(actual), np.asanyarray(desired)
-E       ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (3,) + inhomogeneous part.
-
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_testing.py:232: ValueError
-______________________ test_det_curve_constant_scores[0] _______________________
-
-y_score = 0
-
-    @pytest.mark.parametrize("y_score", [(0), (0.25), (0.5), (0.75), (1)])
-    def test_det_curve_constant_scores(y_score):
-        fpr, fnr, threshold = det_curve(
-            y_true=[0, 1, 0, 1, 0, 1], y_score=np.full(6, y_score)
-        )
-    
->       assert_allclose(fpr, [1])
-
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py:1307: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_testing.py:239: in assert_allclose
-    np_assert_allclose(
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-args = (<function assert_allclose.<locals>.compare at 0x7da478dd6af0>, array([0., 1.]), array([1]))
+args = (<function assert_allclose.<locals>.compare at 0x72086a1ad790>, array([1., 1.]), array([1]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -1944,139 +1740,7 @@ E           AssertionError:
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
 E           (shapes (2,), (1,) mismatch)
-E            ACTUAL: array([0., 1.])
-E            DESIRED: array([1])
-
-/usr/local/lib/python3.9/contextlib.py:79: AssertionError
-_____________________ test_det_curve_constant_scores[0.25] _____________________
-
-y_score = 0.25
-
-    @pytest.mark.parametrize("y_score", [(0), (0.25), (0.5), (0.75), (1)])
-    def test_det_curve_constant_scores(y_score):
-        fpr, fnr, threshold = det_curve(
-            y_true=[0, 1, 0, 1, 0, 1], y_score=np.full(6, y_score)
-        )
-    
->       assert_allclose(fpr, [1])
-
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py:1307: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_testing.py:239: in assert_allclose
-    np_assert_allclose(
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-args = (<function assert_allclose.<locals>.compare at 0x7da46e095a60>, array([0., 1.]), array([1]))
-kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
-
-    @wraps(func)
-    def inner(*args, **kwds):
-        with self._recreate_cm():
->           return func(*args, **kwds)
-E           AssertionError: 
-E           Not equal to tolerance rtol=1e-07, atol=0
-E           
-E           (shapes (2,), (1,) mismatch)
-E            ACTUAL: array([0., 1.])
-E            DESIRED: array([1])
-
-/usr/local/lib/python3.9/contextlib.py:79: AssertionError
-_____________________ test_det_curve_constant_scores[0.5] ______________________
-
-y_score = 0.5
-
-    @pytest.mark.parametrize("y_score", [(0), (0.25), (0.5), (0.75), (1)])
-    def test_det_curve_constant_scores(y_score):
-        fpr, fnr, threshold = det_curve(
-            y_true=[0, 1, 0, 1, 0, 1], y_score=np.full(6, y_score)
-        )
-    
->       assert_allclose(fpr, [1])
-
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py:1307: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_testing.py:239: in assert_allclose
-    np_assert_allclose(
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-args = (<function assert_allclose.<locals>.compare at 0x7da46db3f040>, array([0., 1.]), array([1]))
-kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
-
-    @wraps(func)
-    def inner(*args, **kwds):
-        with self._recreate_cm():
->           return func(*args, **kwds)
-E           AssertionError: 
-E           Not equal to tolerance rtol=1e-07, atol=0
-E           
-E           (shapes (2,), (1,) mismatch)
-E            ACTUAL: array([0., 1.])
-E            DESIRED: array([1])
-
-/usr/local/lib/python3.9/contextlib.py:79: AssertionError
-_____________________ test_det_curve_constant_scores[0.75] _____________________
-
-y_score = 0.75
-
-    @pytest.mark.parametrize("y_score", [(0), (0.25), (0.5), (0.75), (1)])
-    def test_det_curve_constant_scores(y_score):
-        fpr, fnr, threshold = det_curve(
-            y_true=[0, 1, 0, 1, 0, 1], y_score=np.full(6, y_score)
-        )
-    
->       assert_allclose(fpr, [1])
-
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py:1307: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_testing.py:239: in assert_allclose
-    np_assert_allclose(
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-args = (<function assert_allclose.<locals>.compare at 0x7da46e0bae50>, array([0., 1.]), array([1]))
-kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
-
-    @wraps(func)
-    def inner(*args, **kwds):
-        with self._recreate_cm():
->           return func(*args, **kwds)
-E           AssertionError: 
-E           Not equal to tolerance rtol=1e-07, atol=0
-E           
-E           (shapes (2,), (1,) mismatch)
-E            ACTUAL: array([0., 1.])
-E            DESIRED: array([1])
-
-/usr/local/lib/python3.9/contextlib.py:79: AssertionError
-______________________ test_det_curve_constant_scores[1] _______________________
-
-y_score = 1
-
-    @pytest.mark.parametrize("y_score", [(0), (0.25), (0.5), (0.75), (1)])
-    def test_det_curve_constant_scores(y_score):
-        fpr, fnr, threshold = det_curve(
-            y_true=[0, 1, 0, 1, 0, 1], y_score=np.full(6, y_score)
-        )
-    
->       assert_allclose(fpr, [1])
-
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py:1307: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_testing.py:239: in assert_allclose
-    np_assert_allclose(
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-args = (<function assert_allclose.<locals>.compare at 0x7da46db3f820>, array([0., 1.]), array([1]))
-kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
-
-    @wraps(func)
-    def inner(*args, **kwds):
-        with self._recreate_cm():
->           return func(*args, **kwds)
-E           AssertionError: 
-E           Not equal to tolerance rtol=1e-07, atol=0
-E           
-E           (shapes (2,), (1,) mismatch)
-E            ACTUAL: array([0., 1.])
+E            ACTUAL: array([1., 1.])
 E            DESIRED: array([1])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -2105,7 +1769,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da46e0bae50>, array([0., 0., 1.]), array([0]))
+args = (<function assert_allclose.<locals>.compare at 0x72086d0eb040>, array([0., 1.]), array([0]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -2115,8 +1779,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (3,), (1,) mismatch)
-E            ACTUAL: array([0., 0., 1.])
+E           (shapes (2,), (1,) mismatch)
+E            ACTUAL: array([0., 1.])
 E            DESIRED: array([0])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -2145,7 +1809,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da478dd2ee0>, array([0., 0., 1.]), array([0]))
+args = (<function assert_allclose.<locals>.compare at 0x72086a10c280>, array([0., 1.]), array([0]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -2155,8 +1819,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (3,), (1,) mismatch)
-E            ACTUAL: array([0., 0., 1.])
+E           (shapes (2,), (1,) mismatch)
+E            ACTUAL: array([0., 1.])
 E            DESIRED: array([0])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -2185,7 +1849,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da46e095af0>, array([0., 0., 1.]), array([0]))
+args = (<function assert_allclose.<locals>.compare at 0x72086cbf9310>, array([0., 1.]), array([0]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -2195,8 +1859,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (3,), (1,) mismatch)
-E            ACTUAL: array([0., 0., 1.])
+E           (shapes (2,), (1,) mismatch)
+E            ACTUAL: array([0., 1.])
 E            DESIRED: array([0])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -2225,7 +1889,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da46e0baf70>, array([0., 0., 1.]), array([0]))
+args = (<function assert_allclose.<locals>.compare at 0x72086a10ca60>, array([0., 1.]), array([0]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -2235,8 +1899,8 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (3,), (1,) mismatch)
-E            ACTUAL: array([0., 0., 1.])
+E           (shapes (2,), (1,) mismatch)
+E            ACTUAL: array([0., 1.])
 E            DESIRED: array([0])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
@@ -2265,7 +1929,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x7da46db3fd30>, array([0., 0., 1.]), array([0]))
+args = (<function assert_allclose.<locals>.compare at 0x72086d0eb0d0>, array([0., 1.]), array([0]))
 kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol=1e-07, atol=0', 'strict': False, ...}
 
     @wraps(func)
@@ -2275,11 +1939,83 @@ kwds = {'equal_nan': True, 'err_msg': '', 'header': 'Not equal to tolerance rtol
 E           AssertionError: 
 E           Not equal to tolerance rtol=1e-07, atol=0
 E           
-E           (shapes (3,), (1,) mismatch)
-E            ACTUAL: array([0., 0., 1.])
+E           (shapes (2,), (1,) mismatch)
+E            ACTUAL: array([0., 1.])
 E            DESIRED: array([0])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
+__ test_det_curve_bad_input[y_true0-y_pred0-inconsistent numbers of samples] ___
+
+y_true = [0, 1], y_pred = [0, 0.5, 1]
+err_msg = 'inconsistent numbers of samples'
+
+    @pytest.mark.parametrize(
+        "y_true, y_pred, err_msg",
+        [
+            ([0, 1], [0, 0.5, 1], "inconsistent numbers of samples"),
+            ([0, 1, 1], [0, 0.5], "inconsistent numbers of samples"),
+            ([0, 0, 0], [0, 0.5, 1], "Only one class is present in y_true"),
+            ([1, 1, 1], [0, 0.5, 1], "Only one class is present in y_true"),
+            (
+                ["cancer", "cancer", "not cancer"],
+                [0.2, 0.3, 0.8],
+                "pos_label is not specified",
+            ),
+        ],
+    )
+    def test_det_curve_bad_input(y_true, y_pred, err_msg):
+        # input variables with inconsistent numbers of samples
+        with pytest.raises(ValueError, match=err_msg):
+>           det_curve(y_true, y_pred)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py:1346: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:216: in wrapper
+    return func(*args, **kwargs)
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/_ranking.py:201: in det_curve
+    return det_curve(y_true, y_score, pos_label, sample_weight)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+y_true = array([0, 1]), y_score = array([1. , 0.5, 0. ]), pos_label = 1
+sample_weight = None
+
+    def det_curve(y_true, y_score, pos_label=None, sample_weight=None):
+        y_true = np.asarray(y_true)
+        y_score = np.asarray(y_score)
+        if pos_label is None:
+            pos_label = 1 if y_true.dtype.kind in 'biu' else y_true.max()
+        desc_score_indices = np.argsort(y_score, kind='mergesort')[::-1]
+        y_score = y_score[desc_score_indices]
+>       y_true = y_true[desc_score_indices]
+E       IndexError: index 2 is out of bounds for axis 0 with size 2
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:27: IndexError
+__ test_det_curve_bad_input[y_true1-y_pred1-inconsistent numbers of samples] ___
+
+y_true = [0, 1, 1], y_pred = [0, 0.5]
+err_msg = 'inconsistent numbers of samples'
+
+    @pytest.mark.parametrize(
+        "y_true, y_pred, err_msg",
+        [
+            ([0, 1], [0, 0.5, 1], "inconsistent numbers of samples"),
+            ([0, 1, 1], [0, 0.5], "inconsistent numbers of samples"),
+            ([0, 0, 0], [0, 0.5, 1], "Only one class is present in y_true"),
+            ([1, 1, 1], [0, 0.5, 1], "Only one class is present in y_true"),
+            (
+                ["cancer", "cancer", "not cancer"],
+                [0.2, 0.3, 0.8],
+                "pos_label is not specified",
+            ),
+        ],
+    )
+    def test_det_curve_bad_input(y_true, y_pred, err_msg):
+        # input variables with inconsistent numbers of samples
+        with pytest.raises(ValueError, match=err_msg):
+>           det_curve(y_true, y_pred)
+E           Failed: DID NOT RAISE <class 'ValueError'>
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py:1346: Failed
 _ test_det_curve_bad_input[y_true2-y_pred2-Only one class is present in y_true] _
 
 y_true = [0, 0, 0], y_pred = [0, 0.5, 1]
@@ -2362,46 +2098,19 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return func(*args, **kwargs)
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/_ranking.py:201: in det_curve
     return det_curve(y_true, y_score, pos_label, sample_weight)
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:24: in det_curve
+    pos_label = 1 if y_true.dtype.kind in 'biu' else y_true.max()
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-y_true = array(['not cancer', 'cancer', 'cancer'], dtype='<U10')
-y_score = array([0.8, 0.3, 0.2]), pos_label = 1.0
-sample_weight = array([1., 1., 1.])
+a = array(['cancer', 'cancer', 'not cancer'], dtype='<U10'), axis = None
+out = None, keepdims = False, initial = <no value>, where = True
 
-    def det_curve(y_true, y_score, pos_label=None, sample_weight=None):
-        """
-        Compute error rates for different probability thresholds in a binary classification task.
-    
-        Parameters:
-        - y_true: ndarray of shape (n_samples), representing the true binary labels.
-        - y_score: ndarray of shape (n_samples), representing target scores.
-        - pos_label: int, float, bool, or str, default=None, indicating the label of the positive class.
-        - sample_weight: array-like of shape (n_samples), default=None, representing sample weights.
-    
-        Returns:
-        - fpr: ndarray of shape (n_thresholds), representing the false positive rate.
-        - fnr: ndarray of shape (n_thresholds), representing the false negative rate.
-        - thresholds: ndarray of shape (n_thresholds), representing decreasing score values.
-        """
-        y_true = column_or_1d(y_true)
-        y_score = column_or_1d(y_score)
-        check_consistent_length(y_true, y_score, sample_weight)
-        if sample_weight is None:
-            sample_weight = np.ones_like(y_true, dtype=np.float64)
-        else:
-            sample_weight = np.asarray(sample_weight)
-        if pos_label is None:
-            pos_label = 1.0
-        desc_score_indices = np.argsort(y_score, kind='mergesort')[::-1]
-        y_score = y_score[desc_score_indices]
-        y_true = y_true[desc_score_indices]
-        sample_weight = sample_weight[desc_score_indices]
-        distinct_value_indices = np.where(np.diff(y_score))[0]
-        threshold_idxs = np.r_[distinct_value_indices, y_true.size - 1]
->       tps = stable_cumsum(y_true * sample_weight)[threshold_idxs]
-E       numpy._core._exceptions._UFuncNoLoopError: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U10'), dtype('float64')) -> None
+    def _amax(a, axis=None, out=None, keepdims=False,
+              initial=_NoValue, where=True):
+>       return umr_maximum(a, axis, None, out, keepdims, initial, where)
+E       numpy._core._exceptions._UFuncNoLoopError: ufunc 'maximum' did not contain a loop with signature matching types (dtype('<U10'), dtype('<U10')) -> None
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:52: UFuncTypeError
+../publishablew/scikit-learn/scikit-learn/venv/lib/python3.9/site-packages/numpy/_core/_methods.py:44: UFuncTypeError
 ___________________________ test_det_curve_pos_label ___________________________
 
     def test_det_curve_pos_label():
@@ -2409,132 +2118,23 @@ ___________________________ test_det_curve_pos_label ___________________________
         y_pred_pos_not_cancer = np.array([0.1, 0.4, 0.6, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.9])
         y_pred_pos_cancer = 1 - y_pred_pos_not_cancer
     
->       fpr_pos_cancer, fnr_pos_cancer, th_pos_cancer = det_curve(
+        fpr_pos_cancer, fnr_pos_cancer, th_pos_cancer = det_curve(
             y_true,
             y_pred_pos_cancer,
             pos_label="cancer",
         )
-
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py:1354: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:216: in wrapper
-    return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/_ranking.py:201: in det_curve
-    return det_curve(y_true, y_score, pos_label, sample_weight)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-y_true = array(['cancer', 'not cancer', 'not cancer', 'not cancer', 'cancer',
-       'not cancer', 'not cancer', 'cancer', 'not cancer', 'not cancer'],
-      dtype='<U10')
-y_score = array([0.9, 0.8, 0.7, 0.6, 0.6, 0.5, 0.4, 0.4, 0.3, 0.1])
-pos_label = 'cancer'
-sample_weight = array([1., 1., 1., 1., 1., 1., 1., 1., 1., 1.])
-
-    def det_curve(y_true, y_score, pos_label=None, sample_weight=None):
-        """
-        Compute error rates for different probability thresholds in a binary classification task.
+        fpr_pos_not_cancer, fnr_pos_not_cancer, th_pos_not_cancer = det_curve(
+            y_true,
+            y_pred_pos_not_cancer,
+            pos_label="not cancer",
+        )
     
-        Parameters:
-        - y_true: ndarray of shape (n_samples), representing the true binary labels.
-        - y_score: ndarray of shape (n_samples), representing target scores.
-        - pos_label: int, float, bool, or str, default=None, indicating the label of the positive class.
-        - sample_weight: array-like of shape (n_samples), default=None, representing sample weights.
-    
-        Returns:
-        - fpr: ndarray of shape (n_thresholds), representing the false positive rate.
-        - fnr: ndarray of shape (n_thresholds), representing the false negative rate.
-        - thresholds: ndarray of shape (n_thresholds), representing decreasing score values.
-        """
-        y_true = column_or_1d(y_true)
-        y_score = column_or_1d(y_score)
-        check_consistent_length(y_true, y_score, sample_weight)
-        if sample_weight is None:
-            sample_weight = np.ones_like(y_true, dtype=np.float64)
-        else:
-            sample_weight = np.asarray(sample_weight)
-        if pos_label is None:
-            pos_label = 1.0
-        desc_score_indices = np.argsort(y_score, kind='mergesort')[::-1]
-        y_score = y_score[desc_score_indices]
-        y_true = y_true[desc_score_indices]
-        sample_weight = sample_weight[desc_score_indices]
-        distinct_value_indices = np.where(np.diff(y_score))[0]
-        threshold_idxs = np.r_[distinct_value_indices, y_true.size - 1]
->       tps = stable_cumsum(y_true * sample_weight)[threshold_idxs]
-E       numpy._core._exceptions._UFuncNoLoopError: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U10'), dtype('float64')) -> None
+        # check that the first threshold will change depending which label we
+        # consider positive
+>       assert th_pos_cancer[0] == pytest.approx(0.4)
+E       AssertionError
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:52: UFuncTypeError
-___________ test_ranking_metric_pos_label_types[classes3-det_curve] ____________
-
-metric = <function det_curve at 0x7da478cf10d0>, classes = ('zero', 'one')
-
-    @pytest.mark.parametrize(
-        "metric", [average_precision_score, det_curve, precision_recall_curve, roc_curve]
-    )
-    @pytest.mark.parametrize(
-        "classes", [(False, True), (0, 1), (0.0, 1.0), ("zero", "one")]
-    )
-    def test_ranking_metric_pos_label_types(metric, classes):
-        """Check that the metric works with different types of `pos_label`.
-    
-        We can expect `pos_label` to be a bool, an integer, a float, a string.
-        No error should be raised for those types.
-        """
-        rng = np.random.RandomState(42)
-        n_samples, pos_label = 10, classes[-1]
-        y_true = rng.choice(classes, size=n_samples, replace=True)
-        y_proba = rng.rand(n_samples)
->       result = metric(y_true, y_proba, pos_label=pos_label)
-
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py:2229: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:216: in wrapper
-    return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/_ranking.py:201: in det_curve
-    return det_curve(y_true, y_score, pos_label, sample_weight)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-y_true = array(['zero', 'zero', 'zero', 'zero', 'zero', 'zero', 'one', 'zero',
-       'one', 'one'], dtype='<U4')
-y_score = array([0.96990985, 0.86617615, 0.83244264, 0.70807258, 0.60111501,
-       0.21233911, 0.18182497, 0.15599452, 0.05808361, 0.02058449])
-pos_label = 'one'
-sample_weight = array([1., 1., 1., 1., 1., 1., 1., 1., 1., 1.])
-
-    def det_curve(y_true, y_score, pos_label=None, sample_weight=None):
-        """
-        Compute error rates for different probability thresholds in a binary classification task.
-    
-        Parameters:
-        - y_true: ndarray of shape (n_samples), representing the true binary labels.
-        - y_score: ndarray of shape (n_samples), representing target scores.
-        - pos_label: int, float, bool, or str, default=None, indicating the label of the positive class.
-        - sample_weight: array-like of shape (n_samples), default=None, representing sample weights.
-    
-        Returns:
-        - fpr: ndarray of shape (n_thresholds), representing the false positive rate.
-        - fnr: ndarray of shape (n_thresholds), representing the false negative rate.
-        - thresholds: ndarray of shape (n_thresholds), representing decreasing score values.
-        """
-        y_true = column_or_1d(y_true)
-        y_score = column_or_1d(y_score)
-        check_consistent_length(y_true, y_score, sample_weight)
-        if sample_weight is None:
-            sample_weight = np.ones_like(y_true, dtype=np.float64)
-        else:
-            sample_weight = np.asarray(sample_weight)
-        if pos_label is None:
-            pos_label = 1.0
-        desc_score_indices = np.argsort(y_score, kind='mergesort')[::-1]
-        y_score = y_score[desc_score_indices]
-        y_true = y_true[desc_score_indices]
-        sample_weight = sample_weight[desc_score_indices]
-        distinct_value_indices = np.where(np.diff(y_score))[0]
-        threshold_idxs = np.r_[distinct_value_indices, y_true.size - 1]
->       tps = stable_cumsum(y_true * sample_weight)[threshold_idxs]
-E       numpy._core._exceptions._UFuncNoLoopError: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U4'), dtype('float64')) -> None
-
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:52: UFuncTypeError
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py:1367: AssertionError
 =========================== short test summary info ============================
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_binary_clf_curve_multiclass_error[det_curve]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_binary_clf_curve_implicit_pos_label[det_curve]
@@ -2559,31 +2159,24 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_rank
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true17-y_score17-expected_fpr17-expected_fnr17]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true18-y_score18-expected_fpr18-expected_fnr18]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_toydata[y_true19-y_score19-expected_fpr19-expected_fnr19]
-FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true0-y_score0-expected_fpr0-expected_fnr0]
-FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true1-y_score1-expected_fpr1-expected_fnr1]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true2-y_score2-expected_fpr2-expected_fnr2]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true3-y_score3-expected_fpr3-expected_fnr3]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true4-y_score4-expected_fpr4-expected_fnr4]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true5-y_score5-expected_fpr5-expected_fnr5]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true6-y_score6-expected_fpr6-expected_fnr6]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_tie_handling[y_true7-y_score7-expected_fpr7-expected_fnr7]
-FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_sanity_check
-FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0]
-FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0.25]
-FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0.5]
-FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[0.75]
-FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_constant_scores[1]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true0]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true1]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true2]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true3]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_perfect_scores[y_true4]
+FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true0-y_pred0-inconsistent numbers of samples]
+FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true1-y_pred1-inconsistent numbers of samples]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true2-y_pred2-Only one class is present in y_true]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true3-y_pred3-Only one class is present in y_true]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_bad_input[y_true4-y_pred4-pos_label is not specified]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_det_curve_pos_label
-FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ranking_metric_pos_label_types[classes3-det_curve]
-================== 47 failed, 168 passed, 7 warnings in 3.29s ==================
+================== 40 failed, 175 passed, 5 warnings in 3.36s ==================
 
 
 Final Test Result:
@@ -2595,7 +2188,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 215 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[True] I: Seeding RNGs with 447524424
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[True] I: Seeding RNGs with 2105193242
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[False] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve_end_points PASSED
@@ -2812,7 +2405,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve_with_probablity_estimates[42] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve_deprecation_warning PASSED
 
-======================= 215 passed, 3 warnings in 1.04s ========================
+======================= 215 passed, 3 warnings in 1.07s ========================
 
 
 Initial Result:
@@ -2824,7 +2417,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 215 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[True] I: Seeding RNGs with 1246547459
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[True] I: Seeding RNGs with 1892943232
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[False] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve_end_points PASSED
@@ -3041,4 +2634,4 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve_with_probablity_estimates[42] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve_deprecation_warning PASSED
 
-======================= 215 passed, 3 warnings in 1.04s ========================
+======================= 215 passed, 3 warnings in 1.15s ========================

@@ -2,7 +2,7 @@ import numpy as np
 
 def softmax(x: np.ndarray, temperature: float = 1.0, axis: int = None, shift: bool = True) -> np.ndarray:
     """
-    Apply the softmax function to the input array.
+    Apply the softmax function to an input array.
 
     Parameters
     ----------
@@ -24,25 +24,18 @@ def softmax(x: np.ndarray, temperature: float = 1.0, axis: int = None, shift: bo
     np.ndarray
         Softmax function applied to the input array.
     """
-    if temperature <= 0:
-        raise ValueError("Temperature must be greater than zero.")
-
-    # Adjust the input array by the temperature
-    x = x / temperature
-
     if shift:
-        # Shift the input array to avoid numerical issues
+        # Subtract the maximum value along the specified axis for numerical stability
         x_max = np.max(x, axis=axis, keepdims=True)
         x = x - x_max
 
-    # Compute the exponentials
-    exp_x = np.exp(x)
+    # Apply the exponential function with temperature scaling
+    exp_x = np.exp(x / temperature)
 
-    # Compute the sum of exponentials along the specified axis
+    # Sum of exponentials along the specified axis
     sum_exp_x = np.sum(exp_x, axis=axis, keepdims=True)
 
     # Compute the softmax values
-    softmax_values = exp_x / sum_exp_x
+    softmax_x = exp_x / sum_exp_x
 
-    return softmax_values
-
+    return softmax_x

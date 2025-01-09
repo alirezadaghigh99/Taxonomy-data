@@ -10,10 +10,12 @@ def create_meshgrid(height, width, normalized_coordinates=True, device='cpu', dt
     grid = torch.stack((xx, yy), dim=-1)
     
     if normalized_coordinates:
-        # Normalize coordinates to range [-1, 1]
+        # Normalize the coordinates to the range [-1, 1]
         grid[..., 0] = 2.0 * grid[..., 0] / (width - 1) - 1.0
         grid[..., 1] = 2.0 * grid[..., 1] / (height - 1) - 1.0
     
-    # Add batch dimension and return
-    return grid.unsqueeze(0)
+    # Add a batch dimension to the grid
+    grid = grid.unsqueeze(0)
+    
+    return grid
 

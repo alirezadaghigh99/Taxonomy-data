@@ -30,7 +30,7 @@ E   ModuleNotFoundError: No module named 'hypothesis'
 =========================== short test summary info ============================
 ERROR ../publishablew/cleanlab/cleanlab/tests/test_multilabel_classification.py
 !!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
-=============================== 1 error in 0.64s ===============================
+=============================== 1 error in 0.60s ===============================
 
 
 Final Test Result:
@@ -54,7 +54,7 @@ E   ModuleNotFoundError: No module named 'hypothesis'
 =========================== short test summary info ============================
 ERROR ../publishablew/cleanlab/cleanlab/tests/test_multilabel_classification.py
 !!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
-=============================== 1 error in 0.58s ===============================
+=============================== 1 error in 0.61s ===============================
 
 
 Initial Result:
@@ -78,4 +78,4 @@ E   ModuleNotFoundError: No module named 'hypothesis'
 =========================== short test summary info ============================
 ERROR ../publishablew/cleanlab/cleanlab/tests/test_multilabel_classification.py
 !!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
-=============================== 1 error in 0.66s ===============================
+=============================== 1 error in 0.60s ===============================

@@ -25,13 +25,13 @@ _________________ ERROR collecting tests/test_filter_count.py __________________
     cj = count.compute_confident_joint(labels=noisy_labels, pred_probs=pred_probs, multi_label=True)
 ../publishablew/cleanlab/cleanlab/cleanlab/count.py:316: in compute_confident_joint
     return compute_confident_joint(labels, pred_probs)
-../publishablew/cleanlab/cleanlab/cleanlab/temp.py:18: in compute_confident_joint
+../publishablew/cleanlab/cleanlab/cleanlab/temp.py:31: in compute_confident_joint
     labels = np.array(labels)
 E   ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (280,) + inhomogeneous part.
 =========================== short test summary info ============================
 ERROR ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py - ValueErr...
 !!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
-=============================== 1 error in 1.50s ===============================
+=============================== 1 error in 1.58s ===============================
 
 
 Final Test Result:
@@ -235,7 +235,7 @@ tests/test_filter_count.py::test_find_label_issues_match_multiprocessing
     warnings.warn(
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-====================== 135 passed, 66 warnings in 32.85s =======================
+====================== 135 passed, 66 warnings in 35.34s =======================
 
 
 Initial Result:
@@ -439,4 +439,4 @@ tests/test_filter_count.py::test_find_label_issues_match_multiprocessing
     warnings.warn(
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-====================== 135 passed, 66 warnings in 42.19s =======================
+====================== 135 passed, 66 warnings in 39.64s =======================

@@ -1,6 +1,7 @@
 import numpy as np
 from sklearn.preprocessing import label_binarize
 from sklearn.utils import check_array, check_consistent_length
+from sklearn.utils.multiclass import type_of_target
 
 def _binary_uninterpolated_average_precision(y_true, y_score, sample_weight=None):
     # Sort scores and corresponding truth values
@@ -19,11 +20,11 @@ def _binary_uninterpolated_average_precision(y_true, y_score, sample_weight=None
     tps = np.cumsum(y_true * sample_weight)[threshold_idxs]
     fps = np.cumsum((1 - y_true) * sample_weight)[threshold_idxs]
 
-    precision = tps / (tps + fps)
-    recall = tps / tps[-1]
+    precisions = tps / (tps + fps)
+    recalls = tps / tps[-1]
 
-    # Average precision calculation
-    average_precision = np.sum((recall[1:] - recall[:-1]) * precision[1:])
+    # Calculate average precision
+    average_precision = np.sum((recalls[1:] - recalls[:-1]) * precisions[1:])
     return average_precision
 
 def average_precision_score(y_true, y_score, average='macro', pos_label=1, sample_weight=None):
@@ -31,31 +32,38 @@ def average_precision_score(y_true, y_score, average='macro', pos_label=1, sampl
     y_score = check_array(y_score, ensure_2d=False)
     check_consistent_length(y_true, y_score, sample_weight)
 
-    if y_true.ndim == 1:
-        y_true = y_true.reshape(-1, 1)
-    if y_score.ndim == 1:
-        y_score = y_score.reshape(-1, 1)
-
-    n_classes = y_score.shape[1]
-
-    if n_classes == 1:
-        return _binary_uninterpolated_average_precision(y_true.ravel(), y_score.ravel(), sample_weight)
-
-    average_precision = np.zeros(n_classes)
-    for i in range(n_classes):
-        average_precision[i] = _binary_uninterpolated_average_precision(y_true[:, i], y_score[:, i], sample_weight)
-
-    if average == 'micro':
-        y_true = y_true.ravel()
-        y_score = y_score.ravel()
+    y_type = type_of_target(y_true)
+    if y_type == "binary":
         return _binary_uninterpolated_average_precision(y_true, y_score, sample_weight)
-    elif average == 'samples':
-        return np.mean([_binary_uninterpolated_average_precision(y_true[i], y_score[i], sample_weight) for i in range(y_true.shape[0])])
-    elif average == 'weighted':
-        weights = np.sum(y_true, axis=0)
-        return np.average(average_precision, weights=weights)
-    elif average == 'macro':
-        return np.mean(average_precision)
+
+    elif y_type == "multiclass" or y_type == "multilabel-indicator":
+        if y_type == "multiclass":
+            classes = np.unique(y_true)
+            y_true = label_binarize(y_true, classes=classes)
+        else:
+            classes = np.arange(y_true.shape[1])
+
+        ap_scores = []
+        for i, class_label in enumerate(classes):
+            ap = _binary_uninterpolated_average_precision(
+                y_true[:, i], y_score[:, i], sample_weight
+            )
+            ap_scores.append(ap)
+
+        if average == 'macro':
+            return np.mean(ap_scores)
+        elif average == 'weighted':
+            weights = np.sum(y_true, axis=0)
+            return np.average(ap_scores, weights=weights)
+        elif average == 'micro':
+            y_true = y_true.ravel()
+            y_score = y_score.ravel()
+            return _binary_uninterpolated_average_precision(y_true, y_score, sample_weight)
+        elif average == 'samples':
+            return np.mean([_binary_uninterpolated_average_precision(y_true[i], y_score[i], sample_weight) for i in range(y_true.shape[0])])
+        else:
+            raise ValueError("average has to be one of ['micro', 'samples', 'weighted', 'macro', None]")
+
     else:
-        return average_precision
+        raise ValueError(f"Unsupported target type: {y_type}")
 

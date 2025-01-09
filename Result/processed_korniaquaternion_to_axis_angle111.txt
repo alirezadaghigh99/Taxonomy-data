@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_gradcheck[cpu] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_y_rotation[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_y_rotation[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_small_angle_y[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke_batch[cpu-float32-1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_small_angle_x[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_unit_quaternion[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_gradcheck[cpu]', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke_batch[cpu-float32-8] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke_batch[cpu-float32-1]', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_x_rotation[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_unit_quaternion[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_small_angle_z[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_z_rotation[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_x_rotation[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke_batch[cpu-float32-8]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_small_angle_z[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke_batch[cpu-float32-3] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_small_angle_y[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke_batch[cpu-float32-3]', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_z_rotation[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_small_angle_x[cpu-float32] FAILED'}
+{'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_gradcheck[cpu]', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_gradcheck[cpu] FAILED'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'inductor', 'tvm', 'openxla', 'onnxrt', 'jit', 'cudagraphs', None}
+available optimizers: {'', 'inductor', 'cudagraphs', 'openxla', 'onnxrt', 'jit', 'tvm', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -43,426 +43,23 @@ configfile: pyproject.toml
 plugins: timeout-2.3.1
 collecting ... collected 12 items
 
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke[cpu-float32] FAILED
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke_batch[cpu-float32-1] FAILED
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke_batch[cpu-float32-3] FAILED
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke_batch[cpu-float32-8] FAILED
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_unit_quaternion[cpu-float32] FAILED
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_x_rotation[cpu-float32] FAILED
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_y_rotation[cpu-float32] FAILED
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_z_rotation[cpu-float32] FAILED
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_small_angle_x[cpu-float32] FAILED
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_small_angle_y[cpu-float32] FAILED
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_small_angle_z[cpu-float32] FAILED
+../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke_batch[cpu-float32-1] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke_batch[cpu-float32-3] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke_batch[cpu-float32-8] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_unit_quaternion[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_x_rotation[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_y_rotation[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_z_rotation[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_small_angle_x[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_small_angle_y[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_small_angle_z[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_gradcheck[cpu] FAILED
 
 =================================== FAILURES ===================================
-______________ TestQuaternionToAngleAxis.test_smoke[cpu-float32] _______________
-
-self = <tests.geometry.test_conversions.TestQuaternionToAngleAxis object at 0x7d4285544190>
-device = device(type='cpu'), dtype = torch.float32
-
-    def test_smoke(self, device, dtype):
-        quaternion = torch.zeros(4, device=device, dtype=dtype)
-        axis_angle = kornia.geometry.conversions.quaternion_to_axis_angle(quaternion)
->       assert axis_angle.shape == (3,)
-E       assert torch.Size([4]) == (3,)
-E         
-E         At index 0 diff: 4 != 3
-E         
-E         Full diff:
-E         + torch.Size([4])
-E         - (
-E         -     3,
-E         - )
-
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py:120: AssertionError
-__________ TestQuaternionToAngleAxis.test_smoke_batch[cpu-float32-1] ___________
-
-self = <tests.geometry.test_conversions.TestQuaternionToAngleAxis object at 0x7d4285544580>
-batch_size = 1, device = device(type='cpu'), dtype = torch.float32
-
-    @pytest.mark.parametrize("batch_size", (1, 3, 8))
-    def test_smoke_batch(self, batch_size, device, dtype):
-        quaternion = torch.zeros(batch_size, 4, device=device, dtype=dtype)
-        axis_angle = kornia.geometry.conversions.quaternion_to_axis_angle(quaternion)
->       assert axis_angle.shape == (batch_size, 3)
-E       AssertionError: assert torch.Size([4]) == (1, 3)
-E         
-E         At index 0 diff: 4 != 1
-E         Right contains one more item: 3
-E         
-E         Full diff:
-E         + torch.Size([4])
-E         - (...
-E         
-E         ...Full output truncated (3 lines hidden), use '-vv' to show
-
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py:126: AssertionError
-__________ TestQuaternionToAngleAxis.test_smoke_batch[cpu-float32-3] ___________
-
-self = <tests.geometry.test_conversions.TestQuaternionToAngleAxis object at 0x7d42855444c0>
-batch_size = 3, device = device(type='cpu'), dtype = torch.float32
-
-    @pytest.mark.parametrize("batch_size", (1, 3, 8))
-    def test_smoke_batch(self, batch_size, device, dtype):
-        quaternion = torch.zeros(batch_size, 4, device=device, dtype=dtype)
-        axis_angle = kornia.geometry.conversions.quaternion_to_axis_angle(quaternion)
->       assert axis_angle.shape == (batch_size, 3)
-E       assert torch.Size([3, 4]) == (3, 3)
-E         
-E         At index 1 diff: 4 != 3
-E         
-E         Full diff:
-E         + torch.Size([3, 4])
-E         - (
-E         -     3,
-E         -     3,
-E         - )
-
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py:126: AssertionError
-__________ TestQuaternionToAngleAxis.test_smoke_batch[cpu-float32-8] ___________
-
-self = <tests.geometry.test_conversions.TestQuaternionToAngleAxis object at 0x7d42855447c0>
-batch_size = 8, device = device(type='cpu'), dtype = torch.float32
-
-    @pytest.mark.parametrize("batch_size", (1, 3, 8))
-    def test_smoke_batch(self, batch_size, device, dtype):
-        quaternion = torch.zeros(batch_size, 4, device=device, dtype=dtype)
-        axis_angle = kornia.geometry.conversions.quaternion_to_axis_angle(quaternion)
->       assert axis_angle.shape == (batch_size, 3)
-E       assert torch.Size([8, 4]) == (8, 3)
-E         
-E         At index 1 diff: 4 != 3
-E         
-E         Full diff:
-E         + torch.Size([8, 4])
-E         - (
-E         -     8,
-E         -     3,
-E         - )
-
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py:126: AssertionError
-_________ TestQuaternionToAngleAxis.test_unit_quaternion[cpu-float32] __________
-
-self = <tests.geometry.test_conversions.TestQuaternionToAngleAxis object at 0x7d4285544af0>
-device = device(type='cpu'), dtype = torch.float32, atol = 0.0001, rtol = 0.0001
-
-    def test_unit_quaternion(self, device, dtype, atol, rtol):
-        quaternion = torch.tensor((1.0, 0.0, 0.0, 0.0), device=device, dtype=dtype)
-        expected = torch.tensor((0.0, 0.0, 0.0), device=device, dtype=dtype)
-        axis_angle = kornia.geometry.conversions.quaternion_to_axis_angle(quaternion)
->       self.assert_close(axis_angle, expected, atol=atol, rtol=rtol)
-
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py:132: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/testing/base.py:106: in assert_close
-    return assert_close(actual, expected, rtol=rtol, atol=atol)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-actual = tensor([0., 0., 0., 0.]), expected = tensor([0., 0., 0.])
-rtol = 0.0001, atol = 0.0001, kwargs = {}
-
-    def assert_close(
-        actual: Tensor, expected: Tensor, *, rtol: Optional[float] = None, atol: Optional[float] = None, **kwargs: Any
-    ) -> None:
-        if rtol is None and atol is None:
-            # `torch.testing.assert_close` used different default tolerances than `torch.testing.assert_allclose`.
-            # TODO: remove this special handling as soon as https://github.com/kornia/kornia/issues/1134 is resolved
-            #  Basically, this whole wrapper function can be removed and `torch.testing.assert_close` can be used
-            #  directly.
-            rtol, atol = _default_tolerances(actual, expected)
-    
->       return _assert_close(
-            actual,
-            expected,
-            rtol=rtol,
-            atol=atol,
-            # this is the default value for torch>=1.10, but not for torch==1.9
-            # TODO: remove this if kornia relies on torch>=1.10
-            check_stride=False,
-            equal_nan=False,
-            **kwargs,
-        )
-E       AssertionError: The values for attribute 'shape' do not match: torch.Size([4]) != torch.Size([3]).
-
-../publishablew/kornia/kornia/testing/base.py:37: AssertionError
-____________ TestQuaternionToAngleAxis.test_x_rotation[cpu-float32] ____________
-
-self = <tests.geometry.test_conversions.TestQuaternionToAngleAxis object at 0x7d4285544e80>
-device = device(type='cpu'), dtype = torch.float32, atol = 0.0001, rtol = 0.0001
-
-    def test_x_rotation(self, device, dtype, atol, rtol):
-        quaternion = torch.tensor((0.0, 1.0, 0.0, 0.0), device=device, dtype=dtype)
-        expected = torch.tensor((kornia.pi, 0.0, 0.0), device=device, dtype=dtype)
-        axis_angle = kornia.geometry.conversions.quaternion_to_axis_angle(quaternion)
->       self.assert_close(axis_angle, expected, atol=atol, rtol=rtol)
-
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py:138: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/testing/base.py:106: in assert_close
-    return assert_close(actual, expected, rtol=rtol, atol=atol)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-actual = tensor([1.0000, 0.0000, 0.0000, 3.1416])
-expected = tensor([3.1416, 0.0000, 0.0000]), rtol = 0.0001, atol = 0.0001
-kwargs = {}
-
-    def assert_close(
-        actual: Tensor, expected: Tensor, *, rtol: Optional[float] = None, atol: Optional[float] = None, **kwargs: Any
-    ) -> None:
-        if rtol is None and atol is None:
-            # `torch.testing.assert_close` used different default tolerances than `torch.testing.assert_allclose`.
-            # TODO: remove this special handling as soon as https://github.com/kornia/kornia/issues/1134 is resolved
-            #  Basically, this whole wrapper function can be removed and `torch.testing.assert_close` can be used
-            #  directly.
-            rtol, atol = _default_tolerances(actual, expected)
-    
->       return _assert_close(
-            actual,
-            expected,
-            rtol=rtol,
-            atol=atol,
-            # this is the default value for torch>=1.10, but not for torch==1.9
-            # TODO: remove this if kornia relies on torch>=1.10
-            check_stride=False,
-            equal_nan=False,
-            **kwargs,
-        )
-E       AssertionError: The values for attribute 'shape' do not match: torch.Size([4]) != torch.Size([3]).
-
-../publishablew/kornia/kornia/testing/base.py:37: AssertionError
-____________ TestQuaternionToAngleAxis.test_y_rotation[cpu-float32] ____________
-
-self = <tests.geometry.test_conversions.TestQuaternionToAngleAxis object at 0x7d4285545210>
-device = device(type='cpu'), dtype = torch.float32, atol = 0.0001, rtol = 0.0001
-
-    def test_y_rotation(self, device, dtype, atol, rtol):
-        quaternion = torch.tensor((0.0, 0.0, 1.0, 0.0), device=device, dtype=dtype)
-        expected = torch.tensor((0.0, kornia.pi, 0.0), device=device, dtype=dtype)
-        axis_angle = kornia.geometry.conversions.quaternion_to_axis_angle(quaternion)
->       self.assert_close(axis_angle, expected, atol=atol, rtol=rtol)
-
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py:144: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/testing/base.py:106: in assert_close
-    return assert_close(actual, expected, rtol=rtol, atol=atol)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-actual = tensor([0.0000, 1.0000, 0.0000, 3.1416])
-expected = tensor([0.0000, 3.1416, 0.0000]), rtol = 0.0001, atol = 0.0001
-kwargs = {}
-
-    def assert_close(
-        actual: Tensor, expected: Tensor, *, rtol: Optional[float] = None, atol: Optional[float] = None, **kwargs: Any
-    ) -> None:
-        if rtol is None and atol is None:
-            # `torch.testing.assert_close` used different default tolerances than `torch.testing.assert_allclose`.
-            # TODO: remove this special handling as soon as https://github.com/kornia/kornia/issues/1134 is resolved
-            #  Basically, this whole wrapper function can be removed and `torch.testing.assert_close` can be used
-            #  directly.
-            rtol, atol = _default_tolerances(actual, expected)
-    
->       return _assert_close(
-            actual,
-            expected,
-            rtol=rtol,
-            atol=atol,
-            # this is the default value for torch>=1.10, but not for torch==1.9
-            # TODO: remove this if kornia relies on torch>=1.10
-            check_stride=False,
-            equal_nan=False,
-            **kwargs,
-        )
-E       AssertionError: The values for attribute 'shape' do not match: torch.Size([4]) != torch.Size([3]).
-
-../publishablew/kornia/kornia/testing/base.py:37: AssertionError
-____________ TestQuaternionToAngleAxis.test_z_rotation[cpu-float32] ____________
-
-self = <tests.geometry.test_conversions.TestQuaternionToAngleAxis object at 0x7d42855455a0>
-device = device(type='cpu'), dtype = torch.float32, atol = 0.0001, rtol = 0.0001
-
-    def test_z_rotation(self, device, dtype, atol, rtol):
-        quaternion = torch.tensor((np.sqrt(3.0) / 2.0, 0.0, 0.0, 0.5), device=device, dtype=dtype)
-        expected = torch.tensor((0.0, 0.0, kornia.pi / 3.0), device=device, dtype=dtype)
-        axis_angle = kornia.geometry.conversions.quaternion_to_axis_angle(quaternion)
->       self.assert_close(axis_angle, expected, atol=atol, rtol=rtol)
-
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py:150: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/testing/base.py:106: in assert_close
-    return assert_close(actual, expected, rtol=rtol, atol=atol)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-actual = tensor([0.0000, 0.0000, 1.0000, 1.0472])
-expected = tensor([0.0000, 0.0000, 1.0472]), rtol = 0.0001, atol = 0.0001
-kwargs = {}
-
-    def assert_close(
-        actual: Tensor, expected: Tensor, *, rtol: Optional[float] = None, atol: Optional[float] = None, **kwargs: Any
-    ) -> None:
-        if rtol is None and atol is None:
-            # `torch.testing.assert_close` used different default tolerances than `torch.testing.assert_allclose`.
-            # TODO: remove this special handling as soon as https://github.com/kornia/kornia/issues/1134 is resolved
-            #  Basically, this whole wrapper function can be removed and `torch.testing.assert_close` can be used
-            #  directly.
-            rtol, atol = _default_tolerances(actual, expected)
-    
->       return _assert_close(
-            actual,
-            expected,
-            rtol=rtol,
-            atol=atol,
-            # this is the default value for torch>=1.10, but not for torch==1.9
-            # TODO: remove this if kornia relies on torch>=1.10
-            check_stride=False,
-            equal_nan=False,
-            **kwargs,
-        )
-E       AssertionError: The values for attribute 'shape' do not match: torch.Size([4]) != torch.Size([3]).
-
-../publishablew/kornia/kornia/testing/base.py:37: AssertionError
-__________ TestQuaternionToAngleAxis.test_small_angle_x[cpu-float32] ___________
-
-self = <tests.geometry.test_conversions.TestQuaternionToAngleAxis object at 0x7d4285545930>
-device = device(type='cpu'), dtype = torch.float32, atol = 0.0001, rtol = 0.0001
-
-    def test_small_angle_x(self, device, dtype, atol, rtol):
-        theta = 1.0e-2
-        quaternion = torch.tensor((np.cos(theta / 2.0), np.sin(theta / 2.0), 0.0, 0.0), device=device, dtype=dtype)
-        expected = torch.tensor((theta, 0.0, 0.0), device=device, dtype=dtype)
-        axis_angle = kornia.geometry.conversions.quaternion_to_axis_angle(quaternion)
->       self.assert_close(axis_angle, expected, atol=atol, rtol=rtol)
-
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py:157: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/testing/base.py:106: in assert_close
-    return assert_close(actual, expected, rtol=rtol, atol=atol)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-actual = tensor([0.9993, 0.0000, 0.0000, 0.0100])
-expected = tensor([0.0100, 0.0000, 0.0000]), rtol = 0.0001, atol = 0.0001
-kwargs = {}
-
-    def assert_close(
-        actual: Tensor, expected: Tensor, *, rtol: Optional[float] = None, atol: Optional[float] = None, **kwargs: Any
-    ) -> None:
-        if rtol is None and atol is None:
-            # `torch.testing.assert_close` used different default tolerances than `torch.testing.assert_allclose`.
-            # TODO: remove this special handling as soon as https://github.com/kornia/kornia/issues/1134 is resolved
-            #  Basically, this whole wrapper function can be removed and `torch.testing.assert_close` can be used
-            #  directly.
-            rtol, atol = _default_tolerances(actual, expected)
-    
->       return _assert_close(
-            actual,
-            expected,
-            rtol=rtol,
-            atol=atol,
-            # this is the default value for torch>=1.10, but not for torch==1.9
-            # TODO: remove this if kornia relies on torch>=1.10
-            check_stride=False,
-            equal_nan=False,
-            **kwargs,
-        )
-E       AssertionError: The values for attribute 'shape' do not match: torch.Size([4]) != torch.Size([3]).
-
-../publishablew/kornia/kornia/testing/base.py:37: AssertionError
-__________ TestQuaternionToAngleAxis.test_small_angle_y[cpu-float32] ___________
-
-self = <tests.geometry.test_conversions.TestQuaternionToAngleAxis object at 0x7d4285545cc0>
-device = device(type='cpu'), dtype = torch.float32, atol = 0.0001, rtol = 0.0001
-
-    def test_small_angle_y(self, device, dtype, atol, rtol):
-        theta = 1.0e-2
-        quaternion = torch.tensor((np.cos(theta / 2), 0.0, np.sin(theta / 2), 0.0), device=device, dtype=dtype)
-        expected = torch.tensor((0.0, theta, 0.0), device=device, dtype=dtype)
-        axis_angle = kornia.geometry.conversions.quaternion_to_axis_angle(quaternion)
->       self.assert_close(axis_angle, expected, atol=atol, rtol=rtol)
-
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py:164: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/testing/base.py:106: in assert_close
-    return assert_close(actual, expected, rtol=rtol, atol=atol)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-actual = tensor([0.0000, 0.9993, 0.0000, 0.0100])
-expected = tensor([0.0000, 0.0100, 0.0000]), rtol = 0.0001, atol = 0.0001
-kwargs = {}
-
-    def assert_close(
-        actual: Tensor, expected: Tensor, *, rtol: Optional[float] = None, atol: Optional[float] = None, **kwargs: Any
-    ) -> None:
-        if rtol is None and atol is None:
-            # `torch.testing.assert_close` used different default tolerances than `torch.testing.assert_allclose`.
-            # TODO: remove this special handling as soon as https://github.com/kornia/kornia/issues/1134 is resolved
-            #  Basically, this whole wrapper function can be removed and `torch.testing.assert_close` can be used
-            #  directly.
-            rtol, atol = _default_tolerances(actual, expected)
-    
->       return _assert_close(
-            actual,
-            expected,
-            rtol=rtol,
-            atol=atol,
-            # this is the default value for torch>=1.10, but not for torch==1.9
-            # TODO: remove this if kornia relies on torch>=1.10
-            check_stride=False,
-            equal_nan=False,
-            **kwargs,
-        )
-E       AssertionError: The values for attribute 'shape' do not match: torch.Size([4]) != torch.Size([3]).
-
-../publishablew/kornia/kornia/testing/base.py:37: AssertionError
-__________ TestQuaternionToAngleAxis.test_small_angle_z[cpu-float32] ___________
-
-self = <tests.geometry.test_conversions.TestQuaternionToAngleAxis object at 0x7d4285545ff0>
-device = device(type='cpu'), dtype = torch.float32, atol = 0.0001, rtol = 0.0001
-
-    def test_small_angle_z(self, device, dtype, atol, rtol):
-        theta = 1.0e-2
-        quaternion = torch.tensor((np.cos(theta / 2), 0.0, 0.0, np.sin(theta / 2)), device=device, dtype=dtype)
-        expected = torch.tensor((0.0, 0.0, theta), device=device, dtype=dtype)
-        axis_angle = kornia.geometry.conversions.quaternion_to_axis_angle(quaternion)
->       self.assert_close(axis_angle, expected, atol=atol, rtol=rtol)
-
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py:171: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/testing/base.py:106: in assert_close
-    return assert_close(actual, expected, rtol=rtol, atol=atol)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-actual = tensor([0.0000, 0.0000, 0.9993, 0.0100])
-expected = tensor([0.0000, 0.0000, 0.0100]), rtol = 0.0001, atol = 0.0001
-kwargs = {}
-
-    def assert_close(
-        actual: Tensor, expected: Tensor, *, rtol: Optional[float] = None, atol: Optional[float] = None, **kwargs: Any
-    ) -> None:
-        if rtol is None and atol is None:
-            # `torch.testing.assert_close` used different default tolerances than `torch.testing.assert_allclose`.
-            # TODO: remove this special handling as soon as https://github.com/kornia/kornia/issues/1134 is resolved
-            #  Basically, this whole wrapper function can be removed and `torch.testing.assert_close` can be used
-            #  directly.
-            rtol, atol = _default_tolerances(actual, expected)
-    
->       return _assert_close(
-            actual,
-            expected,
-            rtol=rtol,
-            atol=atol,
-            # this is the default value for torch>=1.10, but not for torch==1.9
-            # TODO: remove this if kornia relies on torch>=1.10
-            check_stride=False,
-            equal_nan=False,
-            **kwargs,
-        )
-E       AssertionError: The values for attribute 'shape' do not match: torch.Size([4]) != torch.Size([3]).
-
-../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ________________ TestQuaternionToAngleAxis.test_gradcheck[cpu] _________________
 
-self = <tests.geometry.test_conversions.TestQuaternionToAngleAxis object at 0x7d4285544df0>
+self = <tests.geometry.test_conversions.TestQuaternionToAngleAxis object at 0x709d94544c10>
 device = device(type='cpu')
 
     def test_gradcheck(self, device):
@@ -487,13 +84,12 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 all_analytical = [[tensor(nan, dtype=torch.float64)]]
-all_numerical = [[tensor(nan, dtype=torch.float64)]], complex_indices = None
+all_numerical = [[tensor(1.7901, dtype=torch.float64)]], complex_indices = None
 tupled_inputs = (tensor([1.0000e+00, 2.2204e-16, 2.2204e-16, 2.2204e-16], dtype=torch.float64,
        requires_grad=True),)
-outputs = (tensor([2.2204e-16, 2.2204e-16, 2.2204e-16,        nan], dtype=torch.float64,
-       grad_fn=<SqueezeBackward0>),)
-func = functools.partial(<function quaternion_to_axis_angle at 0x7d42fc9d4940>)
-all_v = [tensor([0.5903, 0.3432, 0.0540, 0.7286], dtype=torch.float64)]
+outputs = (tensor([0., 0., 0.], dtype=torch.float64, grad_fn=<MulBackward0>),)
+func = functools.partial(<function quaternion_to_axis_angle at 0x709e019d4940>)
+all_v = [tensor([0.8618, 0.5010, 0.0788], dtype=torch.float64)]
 all_u = [tensor([0.2540, 0.8291, 0.3186, 0.3829], dtype=torch.float64)]
 rtol = 0.001, atol = 1e-05, eps = 1e-06, test_imag = False
 
@@ -533,7 +129,7 @@ rtol = 0.001, atol = 1e-05, eps = 1e-06, test_imag = False
                         + jacobians_str
                     )
 E                   torch.autograd.gradcheck.GradcheckError: Jacobian mismatch for output 0 with respect to input 0,
-E                   numerical:tensor(nan, dtype=torch.float64)
+E                   numerical:tensor(1.7901, dtype=torch.float64)
 E                   analytical:tensor(nan, dtype=torch.float64)
 E                   
 E                   The above quantities relating the numerical and analytical jacobians are computed 
@@ -541,34 +137,22 @@ E                   in fast mode. See: https://github.com/pytorch/pytorch/issues
 E                   about fast mode. Below, we recompute numerical and analytical jacobians in slow mode:
 E                   
 E                   Numerical:
-E                    tensor([[-7.8394e-08, -7.8394e-08, -7.8394e-08,         nan],
-E                           [ 1.0000e+00,  0.0000e+00,  0.0000e+00,         nan],
-E                           [ 0.0000e+00,  1.0000e+00,  0.0000e+00,         nan],
-E                           [ 0.0000e+00,  0.0000e+00,  1.0000e+00,         nan]],
-E                          dtype=torch.float64)
+E                    tensor([[0.0000, 0.0000, 0.0000],
+E                           [1.9802, 0.0000, 0.0000],
+E                           [0.0000, 1.9802, 0.0000],
+E                           [0.0000, 0.0000, 1.9802]], dtype=torch.float64)
 E                   Analytical:
-E                   tensor([[nan, nan, nan, nan],
-E                           [nan, nan, nan, nan],
-E                           [nan, nan, nan, nan],
-E                           [nan, nan, nan, nan]], dtype=torch.float64)
+E                   tensor([[nan, nan, nan],
+E                           [nan, nan, nan],
+E                           [nan, nan, nan],
+E                           [nan, nan, nan]], dtype=torch.float64)
 E                   
 E                   The max per-element difference (slow mode) is: nan.
 
 ../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:1854: GradcheckError
 =========================== short test summary info ============================
-FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke_batch[cpu-float32-1]
-FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke_batch[cpu-float32-3]
-FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_smoke_batch[cpu-float32-8]
-FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_unit_quaternion[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_x_rotation[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_y_rotation[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_z_rotation[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_small_angle_x[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_small_angle_y[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_small_angle_z[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_gradcheck[cpu]
-============================== 12 failed in 0.70s ==============================
+========================= 1 failed, 11 passed in 0.37s =========================
 
 
 Final Test Result:
@@ -597,7 +181,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'inductor', 'jit', 'openxla', 'onnxrt', 'cudagraphs', 'tvm', None}
+available optimizers: {'', 'openxla', 'onnxrt', 'tvm', 'jit', 'inductor', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -647,7 +231,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'tvm', 'onnxrt', 'openxla', 'inductor', 'cudagraphs', None}
+available optimizers: {'', 'cudagraphs', 'jit', 'tvm', 'openxla', 'onnxrt', None, 'inductor'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -668,4 +252,4 @@ collecting ... collected 12 items
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_small_angle_z[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToAngleAxis::test_gradcheck[cpu] PASSED
 
-============================== 12 passed in 0.19s ==============================
+============================== 12 passed in 0.21s ==============================

@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_opencv[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_gradcheck[cpu] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_gradcheck[cpu]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_shape_minimum_dims[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_exception[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_shape_extra_dims[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_shape[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_opencv[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_shape[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_shape_minimum_dims[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_shape_extra_dims[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_exception[cpu-float32] FAILED'}
+{'../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_shape_extra_dims[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_gradcheck[cpu]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_shape_minimum_dims[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_opencv[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_exception[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_shape_extra_dims[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_exception[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_shape_minimum_dims[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_opencv[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_shape[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_shape[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_gradcheck[cpu] FAILED'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'inductor', 'openxla', 'jit', 'onnxrt', 'tvm', None}
+available optimizers: {'', 'onnxrt', 'tvm', 'openxla', 'cudagraphs', 'inductor', None, 'jit'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -54,7 +54,7 @@ collecting ... collected 7 items
 =================================== FAILURES ===================================
 __________________ TestUndistortImage.test_shape[cpu-float32] __________________
 
-self = <test_undistort.TestUndistortImage object at 0x71cf372ed360>
+self = <test_undistort.TestUndistortImage object at 0x7ed8484f9300>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_shape(self, device, dtype):
@@ -86,7 +86,7 @@ E   ModuleNotFoundError: No module named 'cv2'
 ../publishablew/kornia/kornia/kornia/geometry/calibration/temp.py:11: ModuleNotFoundError
 ___________ TestUndistortImage.test_shape_minimum_dims[cpu-float32] ____________
 
-self = <test_undistort.TestUndistortImage object at 0x71cf372ed750>
+self = <test_undistort.TestUndistortImage object at 0x7ed8484f96f0>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_shape_minimum_dims(self, device, dtype):
@@ -118,7 +118,7 @@ E   ModuleNotFoundError: No module named 'cv2'
 ../publishablew/kornia/kornia/kornia/geometry/calibration/temp.py:11: ModuleNotFoundError
 ____________ TestUndistortImage.test_shape_extra_dims[cpu-float32] _____________
 
-self = <test_undistort.TestUndistortImage object at 0x71cf372eda80>
+self = <test_undistort.TestUndistortImage object at 0x7ed8484f9a20>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_shape_extra_dims(self, device, dtype):
@@ -150,7 +150,7 @@ E   ModuleNotFoundError: No module named 'cv2'
 ../publishablew/kornia/kornia/kornia/geometry/calibration/temp.py:11: ModuleNotFoundError
 ________________ TestUndistortImage.test_exception[cpu-float32] ________________
 
-self = <test_undistort.TestUndistortImage object at 0x71cf372eddb0>
+self = <test_undistort.TestUndistortImage object at 0x7ed8484f9d50>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_exception(self, device, dtype):
@@ -182,7 +182,7 @@ E   ModuleNotFoundError: No module named 'cv2'
 ../publishablew/kornia/kornia/kornia/geometry/calibration/temp.py:11: ModuleNotFoundError
 _________________ TestUndistortImage.test_opencv[cpu-float32] __________________
 
-self = <test_undistort.TestUndistortImage object at 0x71cf372ee0e0>
+self = <test_undistort.TestUndistortImage object at 0x7ed8484fa080>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_opencv(self, device, dtype):
@@ -239,7 +239,7 @@ E   ModuleNotFoundError: No module named 'cv2'
 ../publishablew/kornia/kornia/kornia/geometry/calibration/temp.py:11: ModuleNotFoundError
 ____________________ TestUndistortImage.test_gradcheck[cpu] ____________________
 
-self = <test_undistort.TestUndistortImage object at 0x71cf372edf00>
+self = <test_undistort.TestUndistortImage object at 0x7ed8484f9ea0>
 device = device(type='cpu')
 
     def test_gradcheck(self, device):
@@ -282,7 +282,7 @@ FAILED ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.p
 FAILED ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_exception[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_opencv[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_gradcheck[cpu]
-========================= 6 failed, 1 xfailed in 0.36s =========================
+========================= 6 failed, 1 xfailed in 0.41s =========================
 
 
 Final Test Result:
@@ -311,7 +311,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', None, 'openxla', 'jit', 'cudagraphs', 'tvm', 'inductor'}
+available optimizers: {'', 'jit', 'cudagraphs', 'openxla', 'inductor', 'onnxrt', 'tvm', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -327,7 +327,7 @@ collecting ... collected 7 items
 ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_dynamo[cpu-float32-inductor] XPASS
 
-========================= 6 passed, 1 xpassed in 2.40s =========================
+========================= 6 passed, 1 xpassed in 2.44s =========================
 
 
 Initial Result:
@@ -356,7 +356,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'tvm', None, 'onnxrt', 'cudagraphs', 'inductor', 'jit'}
+available optimizers: {'', 'tvm', 'openxla', 'jit', 'cudagraphs', 'inductor', 'onnxrt', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -372,4 +372,4 @@ collecting ... collected 7 items
 ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/calibration/test_undistort.py::TestUndistortImage::test_dynamo[cpu-float32-inductor] XPASS
 
-========================= 6 passed, 1 xpassed in 2.42s =========================
+========================= 6 passed, 1 xpassed in 2.70s =========================

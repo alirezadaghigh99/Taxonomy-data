@@ -4,32 +4,7 @@ from torch import Tensor
 from torch.autograd import Function
 
 class STEFunction(Function):
-    """Straight-Through Estimation (STE) function.
-
-    STE bridges the gradients between the input tensor and output tensor as if the function
-    was an identity function. Meanwhile, advanced gradient functions are also supported. e.g.
-    the output gradients can be mapped into [-1, 1] with ``F.hardtanh`` function.
-
-    Args:
-        grad_fn: function to restrain the gradient received. If None, no mapping will performed.
-
-    Example:
-        Let the gradients of ``torch.sign`` estimated from STE.
-        >>> input = torch.randn(4, requires_grad = True)
-        >>> output = torch.sign(input)
-        >>> loss = output.mean()
-        >>> loss.backward()
-        >>> input.grad
-        tensor([0., 0., 0., 0.])
-
-        >>> with torch.no_grad():
-        ...     output = torch.sign(input)
-        >>> out_est = STEFunction.apply(input, output)
-        >>> loss = out_est.mean()
-        >>> loss.backward()
-        >>> input.grad
-        tensor([0.2500, 0.2500, 0.2500, 0.2500])
-    """
+    """Straight-Through Estimation (STE) function."""
 
     @staticmethod
     def forward(ctx: Any, input: Tensor, output: Tensor, grad_fn: Optional[Callable[..., Any]] = None) -> Tensor:
@@ -40,11 +15,17 @@ class STEFunction(Function):
 
     @staticmethod
     def backward(ctx: Any, grad_output: Tensor) -> Tuple[Tensor, Tensor, None]:
-        # Apply the gradient function if provided
-        if ctx.grad_fn is not None:
-            grad_input = ctx.grad_fn(grad_output)
+        # Retrieve the gradient function if provided
+        grad_fn = ctx.grad_fn
+
+        # If a gradient function is provided, apply it to the grad_output
+        if grad_fn is not None:
+            grad_input = grad_fn(grad_output)
         else:
+            # Otherwise, pass the gradient through as is
             grad_input = grad_output
 
-        # Return the gradient for the input, None for the output, and None for grad_fn
+        # Return the gradient for each input of the forward function
+        # grad_input for `input`, None for `output` (since it doesn't require gradient),
+        # and None for `grad_fn` (since it's not a tensor)
         return grad_input, None, None

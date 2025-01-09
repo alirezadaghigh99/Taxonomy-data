@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_compute_py_marginal_ps', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_latent_py_warning', '../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_compute_py_marginal_ps FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_latent_py', '../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_latent_py_warning FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_compute_py_method_marginal_true_labels_class_counts_none_error', '../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_latent_py FAILED', '../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_compute_py_err FAILED', '../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_compute_py_method_marginal_true_labels_class_counts_none_error FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_compute_py_err'}
+{'FAILED ../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_latent_py', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_compute_py_err', '../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_compute_py_method_marginal_true_labels_class_counts_none_error FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_compute_py_marginal_ps', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_latent_py_warning', '../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_latent_py FAILED', '../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_compute_py_err FAILED', '../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_latent_py_warning FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_compute_py_method_marginal_true_labels_class_counts_none_error', '../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_compute_py_marginal_ps FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -188,7 +188,7 @@ FAILED ../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_late
 FAILED ../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_compute_py_err
 FAILED ../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_compute_py_marginal_ps
 FAILED ../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_compute_py_method_marginal_true_labels_class_counts_none_error
-========================= 5 failed, 5 passed in 0.66s ==========================
+========================= 5 failed, 5 passed in 0.65s ==========================
 
 
 Final Test Result:
@@ -210,7 +210,7 @@ collecting ... collected 10 items
 ../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_pyx_error PASSED
 ../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_compute_py_method_marginal_true_labels_class_counts_none_error PASSED
 
-============================== 10 passed in 0.59s ==============================
+============================== 10 passed in 0.53s ==============================
 
 
 Initial Result:
@@ -232,4 +232,4 @@ collecting ... collected 10 items
 ../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_pyx_error PASSED
 ../publishablew/cleanlab/cleanlab/tests/test_latent_algebra.py::test_compute_py_method_marginal_true_labels_class_counts_none_error PASSED
 
-============================== 10 passed in 0.85s ==============================
+============================== 10 passed in 0.54s ==============================

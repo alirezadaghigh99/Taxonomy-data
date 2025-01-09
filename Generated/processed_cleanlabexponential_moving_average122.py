@@ -2,38 +2,31 @@ import numpy as np
 
 def exponential_moving_average(s, alpha=0.5, axis=0, **kwargs):
     """
-    Calculate the exponential moving average (EMA) of the given array of scores.
+    Calculate the exponential moving average (EMA) of an array of scores.
 
     Parameters:
-    s (np.ndarray): Array of scores.
-    alpha (float): The forgetting factor that determines the weight of the previous EMA score.
-    axis (int): The axis along which the scores are sorted.
-    **kwargs: Additional keyword arguments.
+    - s: np.ndarray, the input array of scores.
+    - alpha: float, the forgetting factor (0 < alpha <= 1).
+    - axis: int, the axis along which to compute the EMA.
+    - **kwargs: additional keyword arguments (not used in this function).
 
     Returns:
-    np.ndarray: The exponential moving average score.
+    - s_ema: np.ndarray, the exponential moving average of the scores.
     """
+    # Ensure the input is a numpy array
     s = np.asarray(s)
     
-    if not (0 < alpha <= 1):
-        raise ValueError("alpha must be between 0 and 1.")
-    
-    if axis < 0:
-        axis += s.ndim
-    
-    if axis >= s.ndim or axis < 0:
-        raise ValueError("axis must be within the range of input array dimensions.")
-    
-    # Move the specified axis to the first dimension
-    s = np.moveaxis(s, axis, 0)
-    
-    # Initialize the EMA array
+    # Initialize the EMA array with the same shape as s
     s_ema = np.zeros_like(s)
     
-    # Set the first value of EMA to the first value of the scores
+    # Move the specified axis to the front for easier iteration
+    s = np.moveaxis(s, axis, 0)
+    s_ema = np.moveaxis(s_ema, axis, 0)
+    
+    # Initialize the first EMA value
     s_ema[0] = s[0]
     
-    # Calculate the EMA for the rest of the values
+    # Compute the EMA for each subsequent score
     for t in range(1, s.shape[0]):
         s_ema[t] = alpha * s[t] + (1 - alpha) * s_ema[t - 1]
     

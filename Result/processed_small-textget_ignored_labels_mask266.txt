@@ -33,7 +33,7 @@ collecting ... collected 14 items
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_remove_by_index_list_sparse PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_remove_by_index_sparse PASSED
 
-============================== 14 passed in 1.52s ==============================
+============================== 14 passed in 1.62s ==============================
 
 
 Final Test Result:
@@ -60,7 +60,7 @@ collecting ... collected 14 items
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_remove_by_index_list_sparse PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_remove_by_index_sparse PASSED
 
-============================== 14 passed in 1.51s ==============================
+============================== 14 passed in 1.57s ==============================
 
 
 Initial Result:
@@ -87,4 +87,4 @@ collecting ... collected 14 items
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_remove_by_index_list_sparse PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_remove_by_index_sparse PASSED
 
-============================== 14 passed in 1.57s ==============================
+============================== 14 passed in 1.62s ==============================

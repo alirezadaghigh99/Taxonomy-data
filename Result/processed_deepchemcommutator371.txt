@@ -3,11 +3,11 @@ processed_deepchemcommutator371.json
 function:
 commutator
 Error Cases:
-2024-12-03 21:03:08.377507: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-12-26 19:20:47.540626: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
-E0000 00:00:1733277788.388883  377632 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-E0000 00:00:1733277788.392476  377632 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2024-12-03 21:03:08.405382: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+E0000 00:00:1735258847.551837  891142 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1735258847.555457  891142 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-12-26 19:20:47.567976: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
 To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
 
 Pass or Failed: 1
@@ -56,7 +56,7 @@ E       AssertionError: device(type='cuda', index=0) != device(type='cuda')
 ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py:111: AssertionError
 =========================== short test summary info ============================
 FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_change_basis_real_to_complex_device
-========================= 1 failed, 13 passed in 4.22s =========================
+========================= 1 failed, 13 passed in 4.28s =========================
 
 
 Final Test Result:
@@ -100,7 +100,7 @@ E       AssertionError: device(type='cuda', index=0) != device(type='cuda')
 ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py:111: AssertionError
 =========================== short test summary info ============================
 FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_change_basis_real_to_complex_device
-========================= 1 failed, 13 passed in 4.19s =========================
+========================= 1 failed, 13 passed in 4.27s =========================
 
 
 Initial Result:

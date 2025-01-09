@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_with_proba FAILED', '../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_multilabel_with_proba FAILED', 'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_with_proba', 'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_multilabel_with_proba', 'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_multilabel', '../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_multilabel FAILED'}
+{'../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_multilabel_with_proba FAILED', '../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_multilabel FAILED', 'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_multilabel', 'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_multilabel_with_proba'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -25,7 +25,7 @@ collecting ... collected 8 items
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_multilabel FAILED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_multilabel_with_proba FAILED
-../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_with_proba FAILED
+../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_with_proba PASSED
 
 =================================== FAILURES ===================================
 __________ ClassificationUtilsTest.test_prediction_result_multilabel ___________
@@ -53,8 +53,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 x = <4x4 sparse matrix of type '<class 'numpy.int64'>'
 	with 1 stored elements in Compressed Sparse Row format>
-y = [[0.0, 0.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0], [1.0, 1.0, 0.0, 0.0], [1.0, 0.0, 1.0, 0.0]]
-check_shape = True
+y = [[0, 0, 1, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]], check_shape = True
 
     def assert_csr_matrix_equal(x, y, check_shape=True):
 >       if check_shape and x.shape != y.shape:
@@ -86,84 +85,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 x = <4x4 sparse matrix of type '<class 'numpy.int64'>'
 	with 1 stored elements in Compressed Sparse Row format>
-y = [[0.0, 0.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0], [1.0, 1.0, 0.0, 0.0], [1.0, 0.0, 1.0, 0.0]]
-check_shape = True
+y = [[0, 0, 1, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]], check_shape = True
 
     def assert_csr_matrix_equal(x, y, check_shape=True):
 >       if check_shape and x.shape != y.shape:
 E       AttributeError: 'list' object has no attribute 'shape'
 
 ../publishablew/small-text/small-text/tests/utils/testing.py:13: AttributeError
-__________ ClassificationUtilsTest.test_prediction_result_with_proba ___________
-
-self = <4x4 sparse matrix of type '<class 'numpy.bool_'>'
-	with 3 stored elements in Compressed Sparse Row format>
-
-    def __bool__(self):  # Simple -- other ideas?
-        if self.shape == (1, 1):
-            return self.nnz != 0
-        else:
->           raise ValueError("The truth value of an array with more than one "
-                             "element is ambiguous. Use a.any() or a.all().")
-E           ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all().
-
-../publishablew/small-text/small-text/venv/lib/python3.11/site-packages/scipy/sparse/_base.py:396: ValueError
-
-During handling of the above exception, another exception occurred:
-
-self = <tests.unit.small_text.utils.test_classification.ClassificationUtilsTest testMethod=test_prediction_result_with_proba>
-
-    def test_prediction_result_with_proba(self):
-        proba = np.array([
-            [0.1, 0.2, 0.6, 0.1],
-            [0.25, 0.25, 0.25, 0.25],
-            [0.3, 0.3, 0.2, 0.2],
-            [0.3, 0.2, 0.5, 0.1],
-        ])
-        result, proba_result = prediction_result(proba, False, proba.shape[1], return_proba=True)
-        expected = np.array([2, 0, 0, 2])
-        assert_array_equal(expected, result)
->       assert_array_equal(proba, proba_result)
-
-../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py:36: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-args = (<built-in function eq>, array([[0.1 , 0.2 , 0.6 , 0.1 ],
-       [0.25, 0.25, 0.25, 0.25],
-       [0.3 , 0.3 , 0.2 , 0....1 ]]), <4x4 sparse matrix of type '<class 'numpy.float64'>'
-	with 16 stored elements in Compressed Sparse Row format>)
-kwds = {'err_msg': '', 'header': 'Arrays are not equal', 'strict': False, 'verbose': True}
-
-    @wraps(func)
-    def inner(*args, **kwds):
-        with self._recreate_cm():
->           return func(*args, **kwds)
-E           ValueError: 
-E           error during assertion:
-E           
-E           Traceback (most recent call last):
-E             File "/local/data0/moved_data/publishablew/small-text/small-text/venv/lib/python3.11/site-packages/numpy/testing/_private/utils.py", line 742, in assert_array_compare
-E               val = comparison(x, y)
-E                     ^^^^^^^^^^^^^^^^
-E             File "/local/data0/moved_data/publishablew/small-text/small-text/venv/lib/python3.11/site-packages/scipy/sparse/_base.py", line 396, in __bool__
-E               raise ValueError("The truth value of an array with more than one "
-E           ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all().
-E           
-E           
-E           Arrays are not equal
-E            x: array([[0.1 , 0.2 , 0.6 , 0.1 ],
-E                  [0.25, 0.25, 0.25, 0.25],
-E                  [0.3 , 0.3 , 0.2 , 0.2 ],
-E                  [0.3 , 0.2 , 0.5 , 0.1 ]])
-E            y: array(<4x4 sparse matrix of type '<class 'numpy.float64'>'
-E           	with 16 stored elements in Compressed Sparse Row format>, dtype=object)
-
-/usr/lib/python3.11/contextlib.py:81: ValueError
 =========================== short test summary info ============================
 FAILED ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_multilabel
 FAILED ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_multilabel_with_proba
-FAILED ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_with_proba
-========================= 3 failed, 5 passed in 1.64s ==========================
+========================= 2 failed, 6 passed in 1.58s ==========================
 
 
 Final Test Result:
@@ -184,7 +116,7 @@ collecting ... collected 8 items
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_multilabel_with_proba PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_with_proba PASSED
 
-============================== 8 passed in 1.46s ===============================
+============================== 8 passed in 1.51s ===============================
 
 
 Initial Result:
@@ -205,4 +137,4 @@ collecting ... collected 8 items
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_multilabel_with_proba PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_with_proba PASSED
 
-============================== 8 passed in 10.35s ==============================
+============================== 8 passed in 7.94s ===============================

@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[0-53] FAILED', 'FAILED ../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[3-11]', '../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[1-43] FAILED', '../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[2-24] FAILED', 'FAILED ../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[2-24]', '../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[3-11] FAILED', '../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[5-0] FAILED', 'FAILED ../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[0-53]', '../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[4-1] FAILED', 'FAILED ../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[1-43]', 'FAILED ../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[4-1]', 'FAILED ../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[5-0]'}
+{'../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[1-43] FAILED', 'FAILED ../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[5-0]', 'FAILED ../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[2-24]', 'FAILED ../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[4-1]', '../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[0-53] FAILED', '../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[3-11] FAILED', '../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[5-0] FAILED', 'FAILED ../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[0-53]', 'FAILED ../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[3-11]', 'FAILED ../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[1-43]', '../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[4-1] FAILED', '../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[2-24] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -35,9 +35,9 @@ ____ TestModelsDetectionUtils.test_resnet_fpn_backbone_frozen_layers[0-53] _____
     return builder(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/models/detection/backbone_utils.py:45: in resnet_fpn_backbone
     from .temp import resnet_fpn_backbone
-../publishablew/vision/vision/torchvision/models/detection/temp.py:17: in <module>
-    def resnet_fpn_backbone(*, backbone_name: str, weights: Optional[resnet.WeightsEnum], norm_layer: Callable[..., nn.Module]=misc_nn_ops.FrozenBatchNorm2d, trainable_layers: int=3, returned_layers: Optional[List[int]]=None, extra_blocks: Optional[resnet.ExtraFPNBlock]=None) -> BackboneWithFPN:
-E   AttributeError: module 'torchvision.models.resnet' has no attribute 'ExtraFPNBlock'
+../publishablew/vision/vision/torchvision/models/detection/temp.py:12: in <module>
+    from torchvision.models.detection.faster_rcnn import LastLevelMaxPool
+E   ImportError: cannot import name 'LastLevelMaxPool' from 'torchvision.models.detection.faster_rcnn' (/local/data0/moved_data/publishablew/vision/vision/torchvision/models/detection/faster_rcnn.py)
 ____ TestModelsDetectionUtils.test_resnet_fpn_backbone_frozen_layers[1-43] _____
 ../publishablew/vision/vision/test/test_models_detection_utils.py:43: in test_resnet_fpn_backbone_frozen_layers
     model = backbone_utils.resnet_fpn_backbone("resnet50", weights=None, trainable_layers=train_layers)
@@ -47,9 +47,9 @@ ____ TestModelsDetectionUtils.test_resnet_fpn_backbone_frozen_layers[1-43] _____
     return builder(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/models/detection/backbone_utils.py:45: in resnet_fpn_backbone
     from .temp import resnet_fpn_backbone
-../publishablew/vision/vision/torchvision/models/detection/temp.py:17: in <module>
-    def resnet_fpn_backbone(*, backbone_name: str, weights: Optional[resnet.WeightsEnum], norm_layer: Callable[..., nn.Module]=misc_nn_ops.FrozenBatchNorm2d, trainable_layers: int=3, returned_layers: Optional[List[int]]=None, extra_blocks: Optional[resnet.ExtraFPNBlock]=None) -> BackboneWithFPN:
-E   AttributeError: module 'torchvision.models.resnet' has no attribute 'ExtraFPNBlock'
+../publishablew/vision/vision/torchvision/models/detection/temp.py:12: in <module>
+    from torchvision.models.detection.faster_rcnn import LastLevelMaxPool
+E   ImportError: cannot import name 'LastLevelMaxPool' from 'torchvision.models.detection.faster_rcnn' (/local/data0/moved_data/publishablew/vision/vision/torchvision/models/detection/faster_rcnn.py)
 ____ TestModelsDetectionUtils.test_resnet_fpn_backbone_frozen_layers[2-24] _____
 ../publishablew/vision/vision/test/test_models_detection_utils.py:43: in test_resnet_fpn_backbone_frozen_layers
     model = backbone_utils.resnet_fpn_backbone("resnet50", weights=None, trainable_layers=train_layers)
@@ -59,9 +59,9 @@ ____ TestModelsDetectionUtils.test_resnet_fpn_backbone_frozen_layers[2-24] _____
     return builder(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/models/detection/backbone_utils.py:45: in resnet_fpn_backbone
     from .temp import resnet_fpn_backbone
-../publishablew/vision/vision/torchvision/models/detection/temp.py:17: in <module>
-    def resnet_fpn_backbone(*, backbone_name: str, weights: Optional[resnet.WeightsEnum], norm_layer: Callable[..., nn.Module]=misc_nn_ops.FrozenBatchNorm2d, trainable_layers: int=3, returned_layers: Optional[List[int]]=None, extra_blocks: Optional[resnet.ExtraFPNBlock]=None) -> BackboneWithFPN:
-E   AttributeError: module 'torchvision.models.resnet' has no attribute 'ExtraFPNBlock'
+../publishablew/vision/vision/torchvision/models/detection/temp.py:12: in <module>
+    from torchvision.models.detection.faster_rcnn import LastLevelMaxPool
+E   ImportError: cannot import name 'LastLevelMaxPool' from 'torchvision.models.detection.faster_rcnn' (/local/data0/moved_data/publishablew/vision/vision/torchvision/models/detection/faster_rcnn.py)
 ____ TestModelsDetectionUtils.test_resnet_fpn_backbone_frozen_layers[3-11] _____
 ../publishablew/vision/vision/test/test_models_detection_utils.py:43: in test_resnet_fpn_backbone_frozen_layers
     model = backbone_utils.resnet_fpn_backbone("resnet50", weights=None, trainable_layers=train_layers)
@@ -71,9 +71,9 @@ ____ TestModelsDetectionUtils.test_resnet_fpn_backbone_frozen_layers[3-11] _____
     return builder(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/models/detection/backbone_utils.py:45: in resnet_fpn_backbone
     from .temp import resnet_fpn_backbone
-../publishablew/vision/vision/torchvision/models/detection/temp.py:17: in <module>
-    def resnet_fpn_backbone(*, backbone_name: str, weights: Optional[resnet.WeightsEnum], norm_layer: Callable[..., nn.Module]=misc_nn_ops.FrozenBatchNorm2d, trainable_layers: int=3, returned_layers: Optional[List[int]]=None, extra_blocks: Optional[resnet.ExtraFPNBlock]=None) -> BackboneWithFPN:
-E   AttributeError: module 'torchvision.models.resnet' has no attribute 'ExtraFPNBlock'
+../publishablew/vision/vision/torchvision/models/detection/temp.py:12: in <module>
+    from torchvision.models.detection.faster_rcnn import LastLevelMaxPool
+E   ImportError: cannot import name 'LastLevelMaxPool' from 'torchvision.models.detection.faster_rcnn' (/local/data0/moved_data/publishablew/vision/vision/torchvision/models/detection/faster_rcnn.py)
 _____ TestModelsDetectionUtils.test_resnet_fpn_backbone_frozen_layers[4-1] _____
 ../publishablew/vision/vision/test/test_models_detection_utils.py:43: in test_resnet_fpn_backbone_frozen_layers
     model = backbone_utils.resnet_fpn_backbone("resnet50", weights=None, trainable_layers=train_layers)
@@ -83,9 +83,9 @@ _____ TestModelsDetectionUtils.test_resnet_fpn_backbone_frozen_layers[4-1] _____
     return builder(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/models/detection/backbone_utils.py:45: in resnet_fpn_backbone
     from .temp import resnet_fpn_backbone
-../publishablew/vision/vision/torchvision/models/detection/temp.py:17: in <module>
-    def resnet_fpn_backbone(*, backbone_name: str, weights: Optional[resnet.WeightsEnum], norm_layer: Callable[..., nn.Module]=misc_nn_ops.FrozenBatchNorm2d, trainable_layers: int=3, returned_layers: Optional[List[int]]=None, extra_blocks: Optional[resnet.ExtraFPNBlock]=None) -> BackboneWithFPN:
-E   AttributeError: module 'torchvision.models.resnet' has no attribute 'ExtraFPNBlock'
+../publishablew/vision/vision/torchvision/models/detection/temp.py:12: in <module>
+    from torchvision.models.detection.faster_rcnn import LastLevelMaxPool
+E   ImportError: cannot import name 'LastLevelMaxPool' from 'torchvision.models.detection.faster_rcnn' (/local/data0/moved_data/publishablew/vision/vision/torchvision/models/detection/faster_rcnn.py)
 _____ TestModelsDetectionUtils.test_resnet_fpn_backbone_frozen_layers[5-0] _____
 ../publishablew/vision/vision/test/test_models_detection_utils.py:43: in test_resnet_fpn_backbone_frozen_layers
     model = backbone_utils.resnet_fpn_backbone("resnet50", weights=None, trainable_layers=train_layers)
@@ -95,9 +95,9 @@ _____ TestModelsDetectionUtils.test_resnet_fpn_backbone_frozen_layers[5-0] _____
     return builder(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/models/detection/backbone_utils.py:45: in resnet_fpn_backbone
     from .temp import resnet_fpn_backbone
-../publishablew/vision/vision/torchvision/models/detection/temp.py:17: in <module>
-    def resnet_fpn_backbone(*, backbone_name: str, weights: Optional[resnet.WeightsEnum], norm_layer: Callable[..., nn.Module]=misc_nn_ops.FrozenBatchNorm2d, trainable_layers: int=3, returned_layers: Optional[List[int]]=None, extra_blocks: Optional[resnet.ExtraFPNBlock]=None) -> BackboneWithFPN:
-E   AttributeError: module 'torchvision.models.resnet' has no attribute 'ExtraFPNBlock'
+../publishablew/vision/vision/torchvision/models/detection/temp.py:12: in <module>
+    from torchvision.models.detection.faster_rcnn import LastLevelMaxPool
+E   ImportError: cannot import name 'LastLevelMaxPool' from 'torchvision.models.detection.faster_rcnn' (/local/data0/moved_data/publishablew/vision/vision/torchvision/models/detection/faster_rcnn.py)
 =============================== warnings summary ===============================
 test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[0-53]
 test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[1-43]
@@ -116,7 +116,7 @@ FAILED ../publishablew/vision/vision/test/test_models_detection_utils.py::TestMo
 FAILED ../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[3-11]
 FAILED ../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[4-1]
 FAILED ../publishablew/vision/vision/test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_backbone_frozen_layers[5-0]
-======================== 6 failed, 6 warnings in 0.21s =========================
+======================== 6 failed, 6 warnings in 0.15s =========================
 
 
 Final Test Result:
@@ -146,7 +146,7 @@ test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_b
     warnings.warn(
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-======================== 6 passed, 6 warnings in 1.35s =========================
+======================== 6 passed, 6 warnings in 1.32s =========================
 
 
 Initial Result:
@@ -176,4 +176,4 @@ test/test_models_detection_utils.py::TestModelsDetectionUtils::test_resnet_fpn_b
     warnings.warn(
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-======================== 6 passed, 6 warnings in 1.33s =========================
+======================== 6 passed, 6 warnings in 1.43s =========================

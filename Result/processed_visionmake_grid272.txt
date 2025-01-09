@@ -4,10 +4,10 @@ function:
 make_grid
 Error Cases:
 
-Pass or Failed: 1
+Pass or Failed: 0
 
 Related Failed Test Cases:
-set()
+{'../publishablew/vision/vision/test/test_utils.py::test_save_image FAILED', '../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel_file_object FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_file_object', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_normalize_in_make_grid', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel', '../publishablew/vision/vision/test/test_utils.py::test_normalize_in_make_grid FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_make_grid_not_inplace', '../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel FAILED', '../publishablew/vision/vision/test/test_utils.py::test_make_grid_not_inplace FAILED', '../publishablew/vision/vision/test/test_utils.py::test_save_image_file_object FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image - Ty...', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel_file_object'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,12 +18,12 @@ configfile: pytest.ini
 plugins: mock-3.14.0
 collecting ... collected 92 items
 
-../publishablew/vision/vision/test/test_utils.py::test_make_grid_not_inplace PASSED
-../publishablew/vision/vision/test/test_utils.py::test_normalize_in_make_grid PASSED
-../publishablew/vision/vision/test/test_utils.py::test_save_image PASSED
-../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel PASSED
-../publishablew/vision/vision/test/test_utils.py::test_save_image_file_object PASSED
-../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel_file_object PASSED
+../publishablew/vision/vision/test/test_utils.py::test_make_grid_not_inplace FAILED
+../publishablew/vision/vision/test/test_utils.py::test_normalize_in_make_grid FAILED
+../publishablew/vision/vision/test/test_utils.py::test_save_image FAILED
+../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel FAILED
+../publishablew/vision/vision/test/test_utils.py::test_save_image_file_object FAILED
+../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel_file_object FAILED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_boxes PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_boxes_with_coloured_labels PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_boxes_dtypes[True] PASSED
@@ -111,7 +111,103 @@ collecting ... collected 92 items
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image_errors[input_flow3-Input flow should have shape] PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image_errors[input_flow4-Flow should be of dtype torch.float] PASSED
 
-============================== 92 passed in 0.50s ==============================
+=================================== FAILURES ===================================
+__________________________ test_make_grid_not_inplace __________________________
+../publishablew/vision/vision/test/test_utils.py:28: in test_make_grid_not_inplace
+    utils.make_grid(t, normalize=False)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+../publishablew/vision/vision/torchvision/utils.py:16: in make_grid
+    return make_grid(tensor, nrow, padding, normalize, value_range, scale_each, pad_value)
+../publishablew/vision/vision/torchvision/temp.py:34: in make_grid
+    grid = tv_make_grid(tensor, nrow=nrow, padding=padding, normalize=normalize, range=value_range, scale_each=scale_each, pad_value=pad_value)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+E   TypeError: make_grid1() got an unexpected keyword argument 'range'
+_________________________ test_normalize_in_make_grid __________________________
+../publishablew/vision/vision/test/test_utils.py:43: in test_normalize_in_make_grid
+    grid = utils.make_grid(t, normalize=True)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+../publishablew/vision/vision/torchvision/utils.py:16: in make_grid
+    return make_grid(tensor, nrow, padding, normalize, value_range, scale_each, pad_value)
+../publishablew/vision/vision/torchvision/temp.py:34: in make_grid
+    grid = tv_make_grid(tensor, nrow=nrow, padding=padding, normalize=normalize, range=value_range, scale_each=scale_each, pad_value=pad_value)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+E   TypeError: make_grid1() got an unexpected keyword argument 'range'
+_______________________________ test_save_image ________________________________
+../publishablew/vision/vision/test/test_utils.py:60: in test_save_image
+    utils.save_image(t, f.name)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+../publishablew/vision/vision/torchvision/utils.py:113: in save_image
+    grid = make_grid(tensor, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+../publishablew/vision/vision/torchvision/utils.py:16: in make_grid
+    return make_grid(tensor, nrow, padding, normalize, value_range, scale_each, pad_value)
+../publishablew/vision/vision/torchvision/temp.py:34: in make_grid
+    grid = tv_make_grid(tensor, nrow=nrow, padding=padding, normalize=normalize, range=value_range, scale_each=scale_each, pad_value=pad_value)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+E   TypeError: make_grid1() got an unexpected keyword argument 'range'
+_________________________ test_save_image_single_pixel _________________________
+../publishablew/vision/vision/test/test_utils.py:68: in test_save_image_single_pixel
+    utils.save_image(t, f.name)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+../publishablew/vision/vision/torchvision/utils.py:113: in save_image
+    grid = make_grid(tensor, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+../publishablew/vision/vision/torchvision/utils.py:16: in make_grid
+    return make_grid(tensor, nrow, padding, normalize, value_range, scale_each, pad_value)
+../publishablew/vision/vision/torchvision/temp.py:34: in make_grid
+    grid = tv_make_grid(tensor, nrow=nrow, padding=padding, normalize=normalize, range=value_range, scale_each=scale_each, pad_value=pad_value)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+E   TypeError: make_grid1() got an unexpected keyword argument 'range'
+_________________________ test_save_image_file_object __________________________
+../publishablew/vision/vision/test/test_utils.py:76: in test_save_image_file_object
+    utils.save_image(t, f.name)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+../publishablew/vision/vision/torchvision/utils.py:113: in save_image
+    grid = make_grid(tensor, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+../publishablew/vision/vision/torchvision/utils.py:16: in make_grid
+    return make_grid(tensor, nrow, padding, normalize, value_range, scale_each, pad_value)
+../publishablew/vision/vision/torchvision/temp.py:34: in make_grid
+    grid = tv_make_grid(tensor, nrow=nrow, padding=padding, normalize=normalize, range=value_range, scale_each=scale_each, pad_value=pad_value)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+E   TypeError: make_grid1() got an unexpected keyword argument 'range'
+___________________ test_save_image_single_pixel_file_object ___________________
+../publishablew/vision/vision/test/test_utils.py:88: in test_save_image_single_pixel_file_object
+    utils.save_image(t, f.name)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+../publishablew/vision/vision/torchvision/utils.py:113: in save_image
+    grid = make_grid(tensor, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+../publishablew/vision/vision/torchvision/utils.py:16: in make_grid
+    return make_grid(tensor, nrow, padding, normalize, value_range, scale_each, pad_value)
+../publishablew/vision/vision/torchvision/temp.py:34: in make_grid
+    grid = tv_make_grid(tensor, nrow=nrow, padding=padding, normalize=normalize, range=value_range, scale_each=scale_each, pad_value=pad_value)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+E   TypeError: make_grid1() got an unexpected keyword argument 'range'
+=========================== short test summary info ============================
+FAILED ../publishablew/vision/vision/test/test_utils.py::test_make_grid_not_inplace
+FAILED ../publishablew/vision/vision/test/test_utils.py::test_normalize_in_make_grid
+FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image - Ty...
+FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel
+FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_file_object
+FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel_file_object
+========================= 6 failed, 86 passed in 0.70s =========================
 
 
 Final Test Result:
@@ -216,7 +312,7 @@ collecting ... collected 92 items
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image_errors[input_flow3-Input flow should have shape] PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image_errors[input_flow4-Flow should be of dtype torch.float] PASSED
 
-============================== 92 passed in 0.52s ==============================
+============================== 92 passed in 0.50s ==============================
 
 
 Initial Result:
@@ -321,4 +417,4 @@ collecting ... collected 92 items
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image_errors[input_flow3-Input flow should have shape] PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image_errors[input_flow4-Flow should be of dtype torch.float] PASSED
 
-============================== 92 passed in 0.77s ==============================
+============================== 92 passed in 0.75s ==============================

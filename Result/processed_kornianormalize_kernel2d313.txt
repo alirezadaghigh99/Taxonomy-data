@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-1-kernel_size1] FAILED', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_gradcheck[cpu] FAILED', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_module[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-1-5]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-1-kernel_size1]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-2-kernel_size1]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_module[cpu-float32]', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-2-5] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-2-5]', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-2-kernel_size1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_gradcheck[cpu]', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-1-5] FAILED'}
+{'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-2-5]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size1-shape1]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size2-shape0]', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-3-shape0] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-1-kernel_size1]', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-kernel_size1-shape1] FAILED', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-2-kernel_size1] FAILED', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-5-shape0] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-5-shape0]', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_gradcheck[cpu] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-5-shape1]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-3-shape0]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size2-shape1]', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-1-5] FAILED', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-5-shape0] FAILED', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size1-shape1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-kernel_size1-shape0]', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_noncontiguous[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_gradcheck[cpu]', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-3-shape1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-kernel_size1-shape1]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-5-shape0]', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-5-shape1] FAILED', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-2-5] FAILED', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_module[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-1-5]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_noncontiguous[cpu-float32]', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-5-shape1] FAILED', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-1-kernel_size1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-3-shape1]', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size2-shape1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-5-shape1]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-2-kernel_size1]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size1-shape0]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_module[cpu-float32]', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-kernel_size1-shape0] FAILED', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size2-shape0] FAILED', '../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size1-shape0] FAILED'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'inductor', 'jit', 'cudagraphs', 'tvm', 'openxla', 'onnxrt', None}
+available optimizers: {'', 'cudagraphs', 'inductor', 'jit', 'tvm', 'onnxrt', 'openxla', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -50,26 +50,26 @@ collecting ... collected 33 items
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::test_get_laplacian_kernel2d[cpu-float32-window_size2] PASSED
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::test_get_laplacian_kernel1d_exact[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::test_get_laplacian_kernel2d_exact[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-5-shape0] PASSED
-../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-5-shape1] PASSED
-../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size1-shape0] PASSED
-../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size1-shape1] PASSED
-../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size2-shape0] PASSED
-../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size2-shape1] PASSED
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-5-shape0] FAILED
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-5-shape1] FAILED
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size1-shape0] FAILED
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size1-shape1] FAILED
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size2-shape0] FAILED
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size2-shape1] FAILED
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-False-5-shape0] PASSED
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-False-5-shape1] PASSED
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-False-kernel_size1-shape0] PASSED
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-False-kernel_size1-shape1] PASSED
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-False-kernel_size2-shape0] PASSED
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-False-kernel_size2-shape1] PASSED
-../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-5-shape0] PASSED
-../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-5-shape1] PASSED
-../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-kernel_size1-shape0] PASSED
-../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-kernel_size1-shape1] PASSED
-../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-3-shape0] PASSED
-../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-3-shape1] PASSED
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-5-shape0] FAILED
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-5-shape1] FAILED
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-kernel_size1-shape0] FAILED
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-kernel_size1-shape1] FAILED
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-3-shape0] FAILED
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-3-shape1] FAILED
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_exception SKIPPED
-../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_noncontiguous[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_noncontiguous[cpu-float32] FAILED
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_gradcheck[cpu] FAILED
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_module[cpu-float32] FAILED
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-1-5] FAILED
@@ -78,9 +78,486 @@ collecting ... collected 33 items
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-2-kernel_size1] FAILED
 
 =================================== FAILURES ===================================
+_____________ TestLaplacian.test_smoke[cpu-float32-True-5-shape0] ______________
+
+self = <test_laplacian.TestLaplacian object at 0x7cc4330fe3b0>
+shape = (1, 4, 8, 15), kernel_size = 5, normalized = True
+device = device(type='cpu'), dtype = torch.float32
+
+    @pytest.mark.parametrize("shape", [(1, 4, 8, 15), (2, 3, 11, 7)])
+    @pytest.mark.parametrize("kernel_size", [5, (11, 7), (3, 3)])
+    @pytest.mark.parametrize("normalized", [True, False])
+    def test_smoke(self, shape, kernel_size, normalized, device, dtype):
+        data = torch.rand(shape, device=device, dtype=dtype)
+>       actual = laplacian(data, kernel_size, "reflect", normalized)
+
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:42: in laplacian
+    kernel = normalize_kernel2d(kernel)
+../publishablew/kornia/kornia/kornia/filters/kernels.py:40: in normalize_kernel2d
+    return normalize_kernel2d(input)
+../publishablew/kornia/kornia/kornia/filters/temp.py:20: in normalize_kernel2d
+    KORNIA_CHECK_SHAPE(input, ['*', 'H', 'W'])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+tensor = tensor([[[  1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.],
+         [  1.,   1., -24.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.]]])
+shape = ['*', 'H', 'W']
+
+    def KORNIA_CHECK_SHAPE(tensor: Tensor, shape: list):
+        assert len(tensor.shape) == len(shape), 'Input tensor does not match the required shape.'
+        for dim, s in zip(tensor.shape, shape):
+            if s != '*' and dim != s:
+>               raise ValueError(f'Expected dimension {s} but got {dim}.')
+E               ValueError: Expected dimension H but got 5.
+
+../publishablew/kornia/kornia/kornia/filters/temp.py:16: ValueError
+_____________ TestLaplacian.test_smoke[cpu-float32-True-5-shape1] ______________
+
+self = <test_laplacian.TestLaplacian object at 0x7cc4330fd8d0>
+shape = (2, 3, 11, 7), kernel_size = 5, normalized = True
+device = device(type='cpu'), dtype = torch.float32
+
+    @pytest.mark.parametrize("shape", [(1, 4, 8, 15), (2, 3, 11, 7)])
+    @pytest.mark.parametrize("kernel_size", [5, (11, 7), (3, 3)])
+    @pytest.mark.parametrize("normalized", [True, False])
+    def test_smoke(self, shape, kernel_size, normalized, device, dtype):
+        data = torch.rand(shape, device=device, dtype=dtype)
+>       actual = laplacian(data, kernel_size, "reflect", normalized)
+
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:42: in laplacian
+    kernel = normalize_kernel2d(kernel)
+../publishablew/kornia/kornia/kornia/filters/kernels.py:40: in normalize_kernel2d
+    return normalize_kernel2d(input)
+../publishablew/kornia/kornia/kornia/filters/temp.py:20: in normalize_kernel2d
+    KORNIA_CHECK_SHAPE(input, ['*', 'H', 'W'])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+tensor = tensor([[[  1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.],
+         [  1.,   1., -24.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.]]])
+shape = ['*', 'H', 'W']
+
+    def KORNIA_CHECK_SHAPE(tensor: Tensor, shape: list):
+        assert len(tensor.shape) == len(shape), 'Input tensor does not match the required shape.'
+        for dim, s in zip(tensor.shape, shape):
+            if s != '*' and dim != s:
+>               raise ValueError(f'Expected dimension {s} but got {dim}.')
+E               ValueError: Expected dimension H but got 5.
+
+../publishablew/kornia/kornia/kornia/filters/temp.py:16: ValueError
+________ TestLaplacian.test_smoke[cpu-float32-True-kernel_size1-shape0] ________
+
+self = <test_laplacian.TestLaplacian object at 0x7cc4330fd330>
+shape = (1, 4, 8, 15), kernel_size = (11, 7), normalized = True
+device = device(type='cpu'), dtype = torch.float32
+
+    @pytest.mark.parametrize("shape", [(1, 4, 8, 15), (2, 3, 11, 7)])
+    @pytest.mark.parametrize("kernel_size", [5, (11, 7), (3, 3)])
+    @pytest.mark.parametrize("normalized", [True, False])
+    def test_smoke(self, shape, kernel_size, normalized, device, dtype):
+        data = torch.rand(shape, device=device, dtype=dtype)
+>       actual = laplacian(data, kernel_size, "reflect", normalized)
+
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:42: in laplacian
+    kernel = normalize_kernel2d(kernel)
+../publishablew/kornia/kornia/kornia/filters/kernels.py:40: in normalize_kernel2d
+    return normalize_kernel2d(input)
+../publishablew/kornia/kornia/kornia/filters/temp.py:20: in normalize_kernel2d
+    KORNIA_CHECK_SHAPE(input, ['*', 'H', 'W'])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+tensor = tensor([[[  1.,   1.,   1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.,   1.,   1.],
+         [  ... 1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.,   1.,   1.]]])
+shape = ['*', 'H', 'W']
+
+    def KORNIA_CHECK_SHAPE(tensor: Tensor, shape: list):
+        assert len(tensor.shape) == len(shape), 'Input tensor does not match the required shape.'
+        for dim, s in zip(tensor.shape, shape):
+            if s != '*' and dim != s:
+>               raise ValueError(f'Expected dimension {s} but got {dim}.')
+E               ValueError: Expected dimension H but got 11.
+
+../publishablew/kornia/kornia/kornia/filters/temp.py:16: ValueError
+________ TestLaplacian.test_smoke[cpu-float32-True-kernel_size1-shape1] ________
+
+self = <test_laplacian.TestLaplacian object at 0x7cc4330fe3e0>
+shape = (2, 3, 11, 7), kernel_size = (11, 7), normalized = True
+device = device(type='cpu'), dtype = torch.float32
+
+    @pytest.mark.parametrize("shape", [(1, 4, 8, 15), (2, 3, 11, 7)])
+    @pytest.mark.parametrize("kernel_size", [5, (11, 7), (3, 3)])
+    @pytest.mark.parametrize("normalized", [True, False])
+    def test_smoke(self, shape, kernel_size, normalized, device, dtype):
+        data = torch.rand(shape, device=device, dtype=dtype)
+>       actual = laplacian(data, kernel_size, "reflect", normalized)
+
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:42: in laplacian
+    kernel = normalize_kernel2d(kernel)
+../publishablew/kornia/kornia/kornia/filters/kernels.py:40: in normalize_kernel2d
+    return normalize_kernel2d(input)
+../publishablew/kornia/kornia/kornia/filters/temp.py:20: in normalize_kernel2d
+    KORNIA_CHECK_SHAPE(input, ['*', 'H', 'W'])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+tensor = tensor([[[  1.,   1.,   1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.,   1.,   1.],
+         [  ... 1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.,   1.,   1.]]])
+shape = ['*', 'H', 'W']
+
+    def KORNIA_CHECK_SHAPE(tensor: Tensor, shape: list):
+        assert len(tensor.shape) == len(shape), 'Input tensor does not match the required shape.'
+        for dim, s in zip(tensor.shape, shape):
+            if s != '*' and dim != s:
+>               raise ValueError(f'Expected dimension {s} but got {dim}.')
+E               ValueError: Expected dimension H but got 11.
+
+../publishablew/kornia/kornia/kornia/filters/temp.py:16: ValueError
+________ TestLaplacian.test_smoke[cpu-float32-True-kernel_size2-shape0] ________
+
+self = <test_laplacian.TestLaplacian object at 0x7cc4330fe8f0>
+shape = (1, 4, 8, 15), kernel_size = (3, 3), normalized = True
+device = device(type='cpu'), dtype = torch.float32
+
+    @pytest.mark.parametrize("shape", [(1, 4, 8, 15), (2, 3, 11, 7)])
+    @pytest.mark.parametrize("kernel_size", [5, (11, 7), (3, 3)])
+    @pytest.mark.parametrize("normalized", [True, False])
+    def test_smoke(self, shape, kernel_size, normalized, device, dtype):
+        data = torch.rand(shape, device=device, dtype=dtype)
+>       actual = laplacian(data, kernel_size, "reflect", normalized)
+
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:42: in laplacian
+    kernel = normalize_kernel2d(kernel)
+../publishablew/kornia/kornia/kornia/filters/kernels.py:40: in normalize_kernel2d
+    return normalize_kernel2d(input)
+../publishablew/kornia/kornia/kornia/filters/temp.py:20: in normalize_kernel2d
+    KORNIA_CHECK_SHAPE(input, ['*', 'H', 'W'])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+tensor = tensor([[[ 1.,  1.,  1.],
+         [ 1., -8.,  1.],
+         [ 1.,  1.,  1.]]])
+shape = ['*', 'H', 'W']
+
+    def KORNIA_CHECK_SHAPE(tensor: Tensor, shape: list):
+        assert len(tensor.shape) == len(shape), 'Input tensor does not match the required shape.'
+        for dim, s in zip(tensor.shape, shape):
+            if s != '*' and dim != s:
+>               raise ValueError(f'Expected dimension {s} but got {dim}.')
+E               ValueError: Expected dimension H but got 3.
+
+../publishablew/kornia/kornia/kornia/filters/temp.py:16: ValueError
+________ TestLaplacian.test_smoke[cpu-float32-True-kernel_size2-shape1] ________
+
+self = <test_laplacian.TestLaplacian object at 0x7cc4330fe9b0>
+shape = (2, 3, 11, 7), kernel_size = (3, 3), normalized = True
+device = device(type='cpu'), dtype = torch.float32
+
+    @pytest.mark.parametrize("shape", [(1, 4, 8, 15), (2, 3, 11, 7)])
+    @pytest.mark.parametrize("kernel_size", [5, (11, 7), (3, 3)])
+    @pytest.mark.parametrize("normalized", [True, False])
+    def test_smoke(self, shape, kernel_size, normalized, device, dtype):
+        data = torch.rand(shape, device=device, dtype=dtype)
+>       actual = laplacian(data, kernel_size, "reflect", normalized)
+
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:42: in laplacian
+    kernel = normalize_kernel2d(kernel)
+../publishablew/kornia/kornia/kornia/filters/kernels.py:40: in normalize_kernel2d
+    return normalize_kernel2d(input)
+../publishablew/kornia/kornia/kornia/filters/temp.py:20: in normalize_kernel2d
+    KORNIA_CHECK_SHAPE(input, ['*', 'H', 'W'])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+tensor = tensor([[[ 1.,  1.,  1.],
+         [ 1., -8.,  1.],
+         [ 1.,  1.,  1.]]])
+shape = ['*', 'H', 'W']
+
+    def KORNIA_CHECK_SHAPE(tensor: Tensor, shape: list):
+        assert len(tensor.shape) == len(shape), 'Input tensor does not match the required shape.'
+        for dim, s in zip(tensor.shape, shape):
+            if s != '*' and dim != s:
+>               raise ValueError(f'Expected dimension {s} but got {dim}.')
+E               ValueError: Expected dimension H but got 3.
+
+../publishablew/kornia/kornia/kornia/filters/temp.py:16: ValueError
+_____________ TestLaplacian.test_cardinality[cpu-float32-5-shape0] _____________
+
+self = <test_laplacian.TestLaplacian object at 0x7cc4330ff310>
+shape = (1, 4, 8, 15), kernel_size = 5, device = device(type='cpu')
+dtype = torch.float32
+
+    @pytest.mark.parametrize("shape", [(1, 4, 8, 15), (2, 3, 11, 7)])
+    @pytest.mark.parametrize("kernel_size", [5, (11, 7), 3])
+    def test_cardinality(self, shape, kernel_size, device, dtype):
+        sample = torch.rand(shape, device=device, dtype=dtype)
+>       actual = laplacian(sample, kernel_size)
+
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py:66: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:42: in laplacian
+    kernel = normalize_kernel2d(kernel)
+../publishablew/kornia/kornia/kornia/filters/kernels.py:40: in normalize_kernel2d
+    return normalize_kernel2d(input)
+../publishablew/kornia/kornia/kornia/filters/temp.py:20: in normalize_kernel2d
+    KORNIA_CHECK_SHAPE(input, ['*', 'H', 'W'])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+tensor = tensor([[[  1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.],
+         [  1.,   1., -24.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.]]])
+shape = ['*', 'H', 'W']
+
+    def KORNIA_CHECK_SHAPE(tensor: Tensor, shape: list):
+        assert len(tensor.shape) == len(shape), 'Input tensor does not match the required shape.'
+        for dim, s in zip(tensor.shape, shape):
+            if s != '*' and dim != s:
+>               raise ValueError(f'Expected dimension {s} but got {dim}.')
+E               ValueError: Expected dimension H but got 5.
+
+../publishablew/kornia/kornia/kornia/filters/temp.py:16: ValueError
+_____________ TestLaplacian.test_cardinality[cpu-float32-5-shape1] _____________
+
+self = <test_laplacian.TestLaplacian object at 0x7cc4330ff2b0>
+shape = (2, 3, 11, 7), kernel_size = 5, device = device(type='cpu')
+dtype = torch.float32
+
+    @pytest.mark.parametrize("shape", [(1, 4, 8, 15), (2, 3, 11, 7)])
+    @pytest.mark.parametrize("kernel_size", [5, (11, 7), 3])
+    def test_cardinality(self, shape, kernel_size, device, dtype):
+        sample = torch.rand(shape, device=device, dtype=dtype)
+>       actual = laplacian(sample, kernel_size)
+
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py:66: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:42: in laplacian
+    kernel = normalize_kernel2d(kernel)
+../publishablew/kornia/kornia/kornia/filters/kernels.py:40: in normalize_kernel2d
+    return normalize_kernel2d(input)
+../publishablew/kornia/kornia/kornia/filters/temp.py:20: in normalize_kernel2d
+    KORNIA_CHECK_SHAPE(input, ['*', 'H', 'W'])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+tensor = tensor([[[  1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.],
+         [  1.,   1., -24.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.]]])
+shape = ['*', 'H', 'W']
+
+    def KORNIA_CHECK_SHAPE(tensor: Tensor, shape: list):
+        assert len(tensor.shape) == len(shape), 'Input tensor does not match the required shape.'
+        for dim, s in zip(tensor.shape, shape):
+            if s != '*' and dim != s:
+>               raise ValueError(f'Expected dimension {s} but got {dim}.')
+E               ValueError: Expected dimension H but got 5.
+
+../publishablew/kornia/kornia/kornia/filters/temp.py:16: ValueError
+_______ TestLaplacian.test_cardinality[cpu-float32-kernel_size1-shape0] ________
+
+self = <test_laplacian.TestLaplacian object at 0x7cc4330ff1c0>
+shape = (1, 4, 8, 15), kernel_size = (11, 7), device = device(type='cpu')
+dtype = torch.float32
+
+    @pytest.mark.parametrize("shape", [(1, 4, 8, 15), (2, 3, 11, 7)])
+    @pytest.mark.parametrize("kernel_size", [5, (11, 7), 3])
+    def test_cardinality(self, shape, kernel_size, device, dtype):
+        sample = torch.rand(shape, device=device, dtype=dtype)
+>       actual = laplacian(sample, kernel_size)
+
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py:66: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:42: in laplacian
+    kernel = normalize_kernel2d(kernel)
+../publishablew/kornia/kornia/kornia/filters/kernels.py:40: in normalize_kernel2d
+    return normalize_kernel2d(input)
+../publishablew/kornia/kornia/kornia/filters/temp.py:20: in normalize_kernel2d
+    KORNIA_CHECK_SHAPE(input, ['*', 'H', 'W'])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+tensor = tensor([[[  1.,   1.,   1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.,   1.,   1.],
+         [  ... 1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.,   1.,   1.]]])
+shape = ['*', 'H', 'W']
+
+    def KORNIA_CHECK_SHAPE(tensor: Tensor, shape: list):
+        assert len(tensor.shape) == len(shape), 'Input tensor does not match the required shape.'
+        for dim, s in zip(tensor.shape, shape):
+            if s != '*' and dim != s:
+>               raise ValueError(f'Expected dimension {s} but got {dim}.')
+E               ValueError: Expected dimension H but got 11.
+
+../publishablew/kornia/kornia/kornia/filters/temp.py:16: ValueError
+_______ TestLaplacian.test_cardinality[cpu-float32-kernel_size1-shape1] ________
+
+self = <test_laplacian.TestLaplacian object at 0x7cc4330ff640>
+shape = (2, 3, 11, 7), kernel_size = (11, 7), device = device(type='cpu')
+dtype = torch.float32
+
+    @pytest.mark.parametrize("shape", [(1, 4, 8, 15), (2, 3, 11, 7)])
+    @pytest.mark.parametrize("kernel_size", [5, (11, 7), 3])
+    def test_cardinality(self, shape, kernel_size, device, dtype):
+        sample = torch.rand(shape, device=device, dtype=dtype)
+>       actual = laplacian(sample, kernel_size)
+
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py:66: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:42: in laplacian
+    kernel = normalize_kernel2d(kernel)
+../publishablew/kornia/kornia/kornia/filters/kernels.py:40: in normalize_kernel2d
+    return normalize_kernel2d(input)
+../publishablew/kornia/kornia/kornia/filters/temp.py:20: in normalize_kernel2d
+    KORNIA_CHECK_SHAPE(input, ['*', 'H', 'W'])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+tensor = tensor([[[  1.,   1.,   1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.,   1.,   1.],
+         [  ... 1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.,   1.,   1.]]])
+shape = ['*', 'H', 'W']
+
+    def KORNIA_CHECK_SHAPE(tensor: Tensor, shape: list):
+        assert len(tensor.shape) == len(shape), 'Input tensor does not match the required shape.'
+        for dim, s in zip(tensor.shape, shape):
+            if s != '*' and dim != s:
+>               raise ValueError(f'Expected dimension {s} but got {dim}.')
+E               ValueError: Expected dimension H but got 11.
+
+../publishablew/kornia/kornia/kornia/filters/temp.py:16: ValueError
+_____________ TestLaplacian.test_cardinality[cpu-float32-3-shape0] _____________
+
+self = <test_laplacian.TestLaplacian object at 0x7cc4330ff700>
+shape = (1, 4, 8, 15), kernel_size = 3, device = device(type='cpu')
+dtype = torch.float32
+
+    @pytest.mark.parametrize("shape", [(1, 4, 8, 15), (2, 3, 11, 7)])
+    @pytest.mark.parametrize("kernel_size", [5, (11, 7), 3])
+    def test_cardinality(self, shape, kernel_size, device, dtype):
+        sample = torch.rand(shape, device=device, dtype=dtype)
+>       actual = laplacian(sample, kernel_size)
+
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py:66: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:42: in laplacian
+    kernel = normalize_kernel2d(kernel)
+../publishablew/kornia/kornia/kornia/filters/kernels.py:40: in normalize_kernel2d
+    return normalize_kernel2d(input)
+../publishablew/kornia/kornia/kornia/filters/temp.py:20: in normalize_kernel2d
+    KORNIA_CHECK_SHAPE(input, ['*', 'H', 'W'])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+tensor = tensor([[[ 1.,  1.,  1.],
+         [ 1., -8.,  1.],
+         [ 1.,  1.,  1.]]])
+shape = ['*', 'H', 'W']
+
+    def KORNIA_CHECK_SHAPE(tensor: Tensor, shape: list):
+        assert len(tensor.shape) == len(shape), 'Input tensor does not match the required shape.'
+        for dim, s in zip(tensor.shape, shape):
+            if s != '*' and dim != s:
+>               raise ValueError(f'Expected dimension {s} but got {dim}.')
+E               ValueError: Expected dimension H but got 3.
+
+../publishablew/kornia/kornia/kornia/filters/temp.py:16: ValueError
+_____________ TestLaplacian.test_cardinality[cpu-float32-3-shape1] _____________
+
+self = <test_laplacian.TestLaplacian object at 0x7cc4330ff7c0>
+shape = (2, 3, 11, 7), kernel_size = 3, device = device(type='cpu')
+dtype = torch.float32
+
+    @pytest.mark.parametrize("shape", [(1, 4, 8, 15), (2, 3, 11, 7)])
+    @pytest.mark.parametrize("kernel_size", [5, (11, 7), 3])
+    def test_cardinality(self, shape, kernel_size, device, dtype):
+        sample = torch.rand(shape, device=device, dtype=dtype)
+>       actual = laplacian(sample, kernel_size)
+
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py:66: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:42: in laplacian
+    kernel = normalize_kernel2d(kernel)
+../publishablew/kornia/kornia/kornia/filters/kernels.py:40: in normalize_kernel2d
+    return normalize_kernel2d(input)
+../publishablew/kornia/kornia/kornia/filters/temp.py:20: in normalize_kernel2d
+    KORNIA_CHECK_SHAPE(input, ['*', 'H', 'W'])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+tensor = tensor([[[ 1.,  1.,  1.],
+         [ 1., -8.,  1.],
+         [ 1.,  1.,  1.]]])
+shape = ['*', 'H', 'W']
+
+    def KORNIA_CHECK_SHAPE(tensor: Tensor, shape: list):
+        assert len(tensor.shape) == len(shape), 'Input tensor does not match the required shape.'
+        for dim, s in zip(tensor.shape, shape):
+            if s != '*' and dim != s:
+>               raise ValueError(f'Expected dimension {s} but got {dim}.')
+E               ValueError: Expected dimension H but got 3.
+
+../publishablew/kornia/kornia/kornia/filters/temp.py:16: ValueError
+________________ TestLaplacian.test_noncontiguous[cpu-float32] _________________
+
+self = <test_laplacian.TestLaplacian object at 0x7cc4330ffc70>
+device = device(type='cpu'), dtype = torch.float32
+
+    def test_noncontiguous(self, device, dtype):
+        batch_size = 3
+        sample = torch.rand(3, 5, 5, device=device, dtype=dtype).expand(batch_size, -1, -1, -1)
+    
+        kernel_size = 3
+>       actual = laplacian(sample, kernel_size)
+
+../publishablew/kornia/kornia/tests/filters/test_laplacian.py:77: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:42: in laplacian
+    kernel = normalize_kernel2d(kernel)
+../publishablew/kornia/kornia/kornia/filters/kernels.py:40: in normalize_kernel2d
+    return normalize_kernel2d(input)
+../publishablew/kornia/kornia/kornia/filters/temp.py:20: in normalize_kernel2d
+    KORNIA_CHECK_SHAPE(input, ['*', 'H', 'W'])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+tensor = tensor([[[ 1.,  1.,  1.],
+         [ 1., -8.,  1.],
+         [ 1.,  1.,  1.]]])
+shape = ['*', 'H', 'W']
+
+    def KORNIA_CHECK_SHAPE(tensor: Tensor, shape: list):
+        assert len(tensor.shape) == len(shape), 'Input tensor does not match the required shape.'
+        for dim, s in zip(tensor.shape, shape):
+            if s != '*' and dim != s:
+>               raise ValueError(f'Expected dimension {s} but got {dim}.')
+E               ValueError: Expected dimension H but got 3.
+
+../publishablew/kornia/kornia/kornia/filters/temp.py:16: ValueError
 ______________________ TestLaplacian.test_gradcheck[cpu] _______________________
 
-self = <test_laplacian.TestLaplacian object at 0x7dae2f8f7d90>
+self = <test_laplacian.TestLaplacian object at 0x7cc4330fff40>
 device = device(type='cpu')
 
     def test_gradcheck(self, device):
@@ -98,101 +575,32 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return gradcheck(func, inputs, raise_exception=raise_exception, fast_mode=fast_mode, **kwargs)
 ../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:2052: in gradcheck
     return _gradcheck_helper(**args)
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:2081: in _gradcheck_helper
-    _gradcheck_real_imag(
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:1491: in _gradcheck_real_imag
-    gradcheck_fn(
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:1925: in _fast_gradcheck
-    _check_analytical_numerical_equal(
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:2074: in _gradcheck_helper
+    func_out = func(*tupled_inputs)
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:42: in laplacian
+    kernel = normalize_kernel2d(kernel)
+../publishablew/kornia/kornia/kornia/filters/kernels.py:40: in normalize_kernel2d
+    return normalize_kernel2d(input)
+../publishablew/kornia/kornia/kornia/filters/temp.py:20: in normalize_kernel2d
+    KORNIA_CHECK_SHAPE(input, ['*', 'H', 'W'])
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-all_analytical = [[tensor(nan, dtype=torch.float64)]]
-all_numerical = [[tensor(nan, dtype=torch.float64)]], complex_indices = None
-tupled_inputs = (tensor([[[[0.2560, 0.5819, 0.5138, 0.7828, 0.0862, 0.7183, 0.7095],
-          [0.5451, 0.2290, 0.3319, 0.7094, 0.5784...       [0.4308, 0.0996, 0.8779, 0.1620, 0.6273, 0.2407, 0.5250]]]],
-       dtype=torch.float64, requires_grad=True), 3)
-outputs = (tensor([[[[nan, nan, nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan, nan, nan],
-          [nan, nan, na...an, nan, nan],
-          [nan, nan, nan, nan, nan, nan, nan]]]], dtype=torch.float64,
-       grad_fn=<ViewBackward0>),)
-func = <function laplacian at 0x7daeb6a26710>
-all_v = [tensor([0.1808, 0.0118, 0.0713, 0.0616, 0.1861, 0.1731, 0.1666, 0.0942, 0.1823,
-        0.0594, 0.1473, 0.0508, 0.030..., 0.1189, 0.1824, 0.0912,
-        0.1017, 0.1195, 0.0121, 0.1954, 0.1019, 0.1151, 0.1580],
-       dtype=torch.float64)]
-all_u = [tensor([0.0578, 0.1888, 0.0725, 0.0872, 0.1703, 0.0990, 0.0156, 0.2102, 0.1546,
-        0.0925, 0.0183, 0.1061, 0.036..., 0.0507, 0.0299, 0.1371,
-        0.0204, 0.1025, 0.2150, 0.2019, 0.0025, 0.1845, 0.1320],
-       dtype=torch.float64)]
-rtol = 0.001, atol = 1e-05, eps = 1e-06, test_imag = False
+tensor = tensor([[[ 1.,  1.,  1.],
+         [ 1., -8.,  1.],
+         [ 1.,  1.,  1.]]], dtype=torch.float64)
+shape = ['*', 'H', 'W']
 
-    def _check_analytical_numerical_equal(
-        all_analytical,
-        all_numerical,
-        complex_indices,
-        tupled_inputs,
-        outputs,
-        func,
-        all_v,
-        all_u,
-        rtol,
-        atol,
-        eps,
-        test_imag,
-        *,
-        is_forward_ad=False,
-    ):
-        for i, all_numerical_for_input_i in enumerate(all_numerical):
-            for j, n in enumerate(all_numerical_for_input_i):
-                # Forward AD generates the transpose of what this function expects
-                if is_forward_ad:
-                    a = all_analytical[i][j]
-                else:
-                    a = all_analytical[j][i]
-                n = n.to(device=a.device)
-                updated_atol = _adjusted_atol(atol, all_u[i], all_v[j] if all_v else None)
-                if not _allclose_with_type_promotion(a, n.to(a.device), rtol, updated_atol):
-                    jacobians_str = _run_slow_mode_and_get_error(
-                        func, tupled_inputs, outputs, i, j, rtol, atol, eps, is_forward_ad
-                    )
->                   raise GradcheckError(
-                        _get_notallclose_msg(
-                            a, n, j, i, complex_indices, test_imag, is_forward_ad
-                        )
-                        + jacobians_str
-                    )
-E                   torch.autograd.gradcheck.GradcheckError: Jacobian mismatch for output 0 with respect to input 0,
-E                   numerical:tensor(nan, dtype=torch.float64)
-E                   analytical:tensor(nan, dtype=torch.float64)
-E                   
-E                   The above quantities relating the numerical and analytical jacobians are computed 
-E                   in fast mode. See: https://github.com/pytorch/pytorch/issues/53876 for more background 
-E                   about fast mode. Below, we recompute numerical and analytical jacobians in slow mode:
-E                   
-E                   Numerical:
-E                    tensor([[nan, nan, nan,  ..., nan, nan, nan],
-E                           [nan, nan, nan,  ..., nan, nan, nan],
-E                           [nan, nan, nan,  ..., nan, nan, nan],
-E                           ...,
-E                           [nan, nan, nan,  ..., nan, nan, nan],
-E                           [nan, nan, nan,  ..., nan, nan, nan],
-E                           [nan, nan, nan,  ..., nan, nan, nan]], dtype=torch.float64)
-E                   Analytical:
-E                   tensor([[nan, nan, nan,  ..., nan, nan, nan],
-E                           [nan, nan, nan,  ..., nan, nan, nan],
-E                           [nan, nan, nan,  ..., nan, nan, nan],
-E                           ...,
-E                           [nan, nan, nan,  ..., nan, nan, nan],
-E                           [nan, nan, nan,  ..., nan, nan, nan],
-E                           [nan, nan, nan,  ..., nan, nan, nan]], dtype=torch.float64)
-E                   
-E                   The max per-element difference (slow mode) is: nan.
+    def KORNIA_CHECK_SHAPE(tensor: Tensor, shape: list):
+        assert len(tensor.shape) == len(shape), 'Input tensor does not match the required shape.'
+        for dim, s in zip(tensor.shape, shape):
+            if s != '*' and dim != s:
+>               raise ValueError(f'Expected dimension {s} but got {dim}.')
+E               ValueError: Expected dimension H but got 3.
 
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:1854: GradcheckError
+../publishablew/kornia/kornia/kornia/filters/temp.py:16: ValueError
 ____________________ TestLaplacian.test_module[cpu-float32] ____________________
 
-self = <test_laplacian.TestLaplacian object at 0x7dae2f71c0d0>
+self = <test_laplacian.TestLaplacian object at 0x7cc432f24280>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_module(self, device, dtype):
@@ -205,59 +613,32 @@ device = device(type='cpu'), dtype = torch.float32
 
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py:95: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/testing/base.py:106: in assert_close
-    return assert_close(actual, expected, rtol=rtol, atol=atol)
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:42: in laplacian
+    kernel = normalize_kernel2d(kernel)
+../publishablew/kornia/kornia/kornia/filters/kernels.py:40: in normalize_kernel2d
+    return normalize_kernel2d(input)
+../publishablew/kornia/kornia/kornia/filters/temp.py:20: in normalize_kernel2d
+    KORNIA_CHECK_SHAPE(input, ['*', 'H', 'W'])
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-actual = tensor([[[[nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan],
-       ...nan],
-          [nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan]]]])
-expected = tensor([[[[nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan],
-       ...nan],
-          [nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan]]]])
-rtol = 0.0001, atol = 1e-05, kwargs = {}
+tensor = tensor([[[ 1.,  1.,  1.],
+         [ 1., -8.,  1.],
+         [ 1.,  1.,  1.]]])
+shape = ['*', 'H', 'W']
 
-    def assert_close(
-        actual: Tensor, expected: Tensor, *, rtol: Optional[float] = None, atol: Optional[float] = None, **kwargs: Any
-    ) -> None:
-        if rtol is None and atol is None:
-            # `torch.testing.assert_close` used different default tolerances than `torch.testing.assert_allclose`.
-            # TODO: remove this special handling as soon as https://github.com/kornia/kornia/issues/1134 is resolved
-            #  Basically, this whole wrapper function can be removed and `torch.testing.assert_close` can be used
-            #  directly.
-            rtol, atol = _default_tolerances(actual, expected)
-    
->       return _assert_close(
-            actual,
-            expected,
-            rtol=rtol,
-            atol=atol,
-            # this is the default value for torch>=1.10, but not for torch==1.9
-            # TODO: remove this if kornia relies on torch>=1.10
-            check_stride=False,
-            equal_nan=False,
-            **kwargs,
-        )
-E       AssertionError: Tensor-likes are not close!
-E       
-E       Mismatched elements: 75 / 75 (100.0%)
-E       Greatest absolute difference: nan at index (0, 0, 0, 0) (up to 1e-05 allowed)
-E       Greatest relative difference: nan at index (0, 0, 0, 0) (up to 0.0001 allowed)
+    def KORNIA_CHECK_SHAPE(tensor: Tensor, shape: list):
+        assert len(tensor.shape) == len(shape), 'Input tensor does not match the required shape.'
+        for dim, s in zip(tensor.shape, shape):
+            if s != '*' and dim != s:
+>               raise ValueError(f'Expected dimension {s} but got {dim}.')
+E               ValueError: Expected dimension H but got 3.
 
-../publishablew/kornia/kornia/testing/base.py:37: AssertionError
+../publishablew/kornia/kornia/kornia/filters/temp.py:16: ValueError
 _____________ TestLaplacian.test_dynamo[cpu-float32-inductor-1-5] ______________
 
-self = <test_laplacian.TestLaplacian object at 0x7dae2f8f78b0>, batch_size = 1
+self = <test_laplacian.TestLaplacian object at 0x7cc4330ff070>, batch_size = 1
 kernel_size = 5, device = device(type='cpu'), dtype = torch.float32
-torch_optimizer = functools.partial(<function compile at 0x7daf14ddd990>, backend='inductor')
+torch_optimizer = functools.partial(<function compile at 0x7cc5085dd990>, backend='inductor')
 
     @pytest.mark.parametrize("kernel_size", [5, (5, 7)])
     @pytest.mark.parametrize("batch_size", [1, 2])
@@ -270,51 +651,40 @@ torch_optimizer = functools.partial(<function compile at 0x7daf14ddd990>, backen
 
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py:104: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/testing/base.py:106: in assert_close
-    return assert_close(actual, expected, rtol=rtol, atol=atol)
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:89: in forward
+    return laplacian(input, self.kernel_size, self.border_type, self.normalized)
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:42: in laplacian
+    kernel = normalize_kernel2d(kernel)
+../publishablew/kornia/kornia/kornia/filters/kernels.py:40: in normalize_kernel2d
+    return normalize_kernel2d(input)
+../publishablew/kornia/kornia/kornia/filters/temp.py:20: in normalize_kernel2d
+    KORNIA_CHECK_SHAPE(input, ['*', 'H', 'W'])
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-actual = tensor([[[[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...   [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]]]])
-expected = tensor([[[[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...   [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]]]])
-rtol = 0.0001, atol = 1e-05, kwargs = {}
+tensor = tensor([[[  1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.],
+         [  1.,   1., -24.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.]]])
+shape = ['*', 'H', 'W']
 
-    def assert_close(
-        actual: Tensor, expected: Tensor, *, rtol: Optional[float] = None, atol: Optional[float] = None, **kwargs: Any
-    ) -> None:
-        if rtol is None and atol is None:
-            # `torch.testing.assert_close` used different default tolerances than `torch.testing.assert_allclose`.
-            # TODO: remove this special handling as soon as https://github.com/kornia/kornia/issues/1134 is resolved
-            #  Basically, this whole wrapper function can be removed and `torch.testing.assert_close` can be used
-            #  directly.
-            rtol, atol = _default_tolerances(actual, expected)
-    
->       return _assert_close(
-            actual,
-            expected,
-            rtol=rtol,
-            atol=atol,
-            # this is the default value for torch>=1.10, but not for torch==1.9
-            # TODO: remove this if kornia relies on torch>=1.10
-            check_stride=False,
-            equal_nan=False,
-            **kwargs,
-        )
-E       AssertionError: Tensor-likes are not close!
-E       
-E       Mismatched elements: 300 / 300 (100.0%)
-E       Greatest absolute difference: nan at index (0, 0, 0, 0) (up to 1e-05 allowed)
-E       Greatest relative difference: nan at index (0, 0, 0, 0) (up to 0.0001 allowed)
+    def KORNIA_CHECK_SHAPE(tensor: Tensor, shape: list):
+        assert len(tensor.shape) == len(shape), 'Input tensor does not match the required shape.'
+        for dim, s in zip(tensor.shape, shape):
+            if s != '*' and dim != s:
+>               raise ValueError(f'Expected dimension {s} but got {dim}.')
+E               ValueError: Expected dimension H but got 5.
 
-../publishablew/kornia/kornia/testing/base.py:37: AssertionError
+../publishablew/kornia/kornia/kornia/filters/temp.py:16: ValueError
 ________ TestLaplacian.test_dynamo[cpu-float32-inductor-1-kernel_size1] ________
 
-self = <test_laplacian.TestLaplacian object at 0x7dae2f8f6ec0>, batch_size = 1
+self = <test_laplacian.TestLaplacian object at 0x7cc4330fef50>, batch_size = 1
 kernel_size = (5, 7), device = device(type='cpu'), dtype = torch.float32
-torch_optimizer = functools.partial(<function compile at 0x7daf14ddd990>, backend='inductor')
+torch_optimizer = functools.partial(<function compile at 0x7cc5085dd990>, backend='inductor')
 
     @pytest.mark.parametrize("kernel_size", [5, (5, 7)])
     @pytest.mark.parametrize("batch_size", [1, 2])
@@ -327,51 +697,40 @@ torch_optimizer = functools.partial(<function compile at 0x7daf14ddd990>, backen
 
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py:104: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/testing/base.py:106: in assert_close
-    return assert_close(actual, expected, rtol=rtol, atol=atol)
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:89: in forward
+    return laplacian(input, self.kernel_size, self.border_type, self.normalized)
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:42: in laplacian
+    kernel = normalize_kernel2d(kernel)
+../publishablew/kornia/kornia/kornia/filters/kernels.py:40: in normalize_kernel2d
+    return normalize_kernel2d(input)
+../publishablew/kornia/kornia/kornia/filters/temp.py:20: in normalize_kernel2d
+    KORNIA_CHECK_SHAPE(input, ['*', 'H', 'W'])
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-actual = tensor([[[[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...   [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]]]])
-expected = tensor([[[[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...   [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]]]])
-rtol = 0.0001, atol = 1e-05, kwargs = {}
+tensor = tensor([[[  1.,   1.,   1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.,   1.,   1.],
+         [  ... 1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.,   1.,   1.]]])
+shape = ['*', 'H', 'W']
 
-    def assert_close(
-        actual: Tensor, expected: Tensor, *, rtol: Optional[float] = None, atol: Optional[float] = None, **kwargs: Any
-    ) -> None:
-        if rtol is None and atol is None:
-            # `torch.testing.assert_close` used different default tolerances than `torch.testing.assert_allclose`.
-            # TODO: remove this special handling as soon as https://github.com/kornia/kornia/issues/1134 is resolved
-            #  Basically, this whole wrapper function can be removed and `torch.testing.assert_close` can be used
-            #  directly.
-            rtol, atol = _default_tolerances(actual, expected)
-    
->       return _assert_close(
-            actual,
-            expected,
-            rtol=rtol,
-            atol=atol,
-            # this is the default value for torch>=1.10, but not for torch==1.9
-            # TODO: remove this if kornia relies on torch>=1.10
-            check_stride=False,
-            equal_nan=False,
-            **kwargs,
-        )
-E       AssertionError: Tensor-likes are not close!
-E       
-E       Mismatched elements: 300 / 300 (100.0%)
-E       Greatest absolute difference: nan at index (0, 0, 0, 0) (up to 1e-05 allowed)
-E       Greatest relative difference: nan at index (0, 0, 0, 0) (up to 0.0001 allowed)
+    def KORNIA_CHECK_SHAPE(tensor: Tensor, shape: list):
+        assert len(tensor.shape) == len(shape), 'Input tensor does not match the required shape.'
+        for dim, s in zip(tensor.shape, shape):
+            if s != '*' and dim != s:
+>               raise ValueError(f'Expected dimension {s} but got {dim}.')
+E               ValueError: Expected dimension H but got 5.
 
-../publishablew/kornia/kornia/testing/base.py:37: AssertionError
+../publishablew/kornia/kornia/kornia/filters/temp.py:16: ValueError
 _____________ TestLaplacian.test_dynamo[cpu-float32-inductor-2-5] ______________
 
-self = <test_laplacian.TestLaplacian object at 0x7dae2f71c520>, batch_size = 2
+self = <test_laplacian.TestLaplacian object at 0x7cc432f246d0>, batch_size = 2
 kernel_size = 5, device = device(type='cpu'), dtype = torch.float32
-torch_optimizer = functools.partial(<function compile at 0x7daf14ddd990>, backend='inductor')
+torch_optimizer = functools.partial(<function compile at 0x7cc5085dd990>, backend='inductor')
 
     @pytest.mark.parametrize("kernel_size", [5, (5, 7)])
     @pytest.mark.parametrize("batch_size", [1, 2])
@@ -384,51 +743,40 @@ torch_optimizer = functools.partial(<function compile at 0x7daf14ddd990>, backen
 
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py:104: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/testing/base.py:106: in assert_close
-    return assert_close(actual, expected, rtol=rtol, atol=atol)
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:89: in forward
+    return laplacian(input, self.kernel_size, self.border_type, self.normalized)
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:42: in laplacian
+    kernel = normalize_kernel2d(kernel)
+../publishablew/kornia/kornia/kornia/filters/kernels.py:40: in normalize_kernel2d
+    return normalize_kernel2d(input)
+../publishablew/kornia/kornia/kornia/filters/temp.py:20: in normalize_kernel2d
+    KORNIA_CHECK_SHAPE(input, ['*', 'H', 'W'])
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-actual = tensor([[[[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...   [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]]]])
-expected = tensor([[[[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...   [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]]]])
-rtol = 0.0001, atol = 1e-05, kwargs = {}
+tensor = tensor([[[  1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.],
+         [  1.,   1., -24.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.]]])
+shape = ['*', 'H', 'W']
 
-    def assert_close(
-        actual: Tensor, expected: Tensor, *, rtol: Optional[float] = None, atol: Optional[float] = None, **kwargs: Any
-    ) -> None:
-        if rtol is None and atol is None:
-            # `torch.testing.assert_close` used different default tolerances than `torch.testing.assert_allclose`.
-            # TODO: remove this special handling as soon as https://github.com/kornia/kornia/issues/1134 is resolved
-            #  Basically, this whole wrapper function can be removed and `torch.testing.assert_close` can be used
-            #  directly.
-            rtol, atol = _default_tolerances(actual, expected)
-    
->       return _assert_close(
-            actual,
-            expected,
-            rtol=rtol,
-            atol=atol,
-            # this is the default value for torch>=1.10, but not for torch==1.9
-            # TODO: remove this if kornia relies on torch>=1.10
-            check_stride=False,
-            equal_nan=False,
-            **kwargs,
-        )
-E       AssertionError: Tensor-likes are not close!
-E       
-E       Mismatched elements: 600 / 600 (100.0%)
-E       Greatest absolute difference: nan at index (0, 0, 0, 0) (up to 1e-05 allowed)
-E       Greatest relative difference: nan at index (0, 0, 0, 0) (up to 0.0001 allowed)
+    def KORNIA_CHECK_SHAPE(tensor: Tensor, shape: list):
+        assert len(tensor.shape) == len(shape), 'Input tensor does not match the required shape.'
+        for dim, s in zip(tensor.shape, shape):
+            if s != '*' and dim != s:
+>               raise ValueError(f'Expected dimension {s} but got {dim}.')
+E               ValueError: Expected dimension H but got 5.
 
-../publishablew/kornia/kornia/testing/base.py:37: AssertionError
+../publishablew/kornia/kornia/kornia/filters/temp.py:16: ValueError
 ________ TestLaplacian.test_dynamo[cpu-float32-inductor-2-kernel_size1] ________
 
-self = <test_laplacian.TestLaplacian object at 0x7dae2f71c640>, batch_size = 2
+self = <test_laplacian.TestLaplacian object at 0x7cc432f247f0>, batch_size = 2
 kernel_size = (5, 7), device = device(type='cpu'), dtype = torch.float32
-torch_optimizer = functools.partial(<function compile at 0x7daf14ddd990>, backend='inductor')
+torch_optimizer = functools.partial(<function compile at 0x7cc5085dd990>, backend='inductor')
 
     @pytest.mark.parametrize("kernel_size", [5, (5, 7)])
     @pytest.mark.parametrize("batch_size", [1, 2])
@@ -441,54 +789,56 @@ torch_optimizer = functools.partial(<function compile at 0x7daf14ddd990>, backen
 
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py:104: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/testing/base.py:106: in assert_close
-    return assert_close(actual, expected, rtol=rtol, atol=atol)
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:89: in forward
+    return laplacian(input, self.kernel_size, self.border_type, self.normalized)
+../publishablew/kornia/kornia/kornia/filters/laplacian.py:42: in laplacian
+    kernel = normalize_kernel2d(kernel)
+../publishablew/kornia/kornia/kornia/filters/kernels.py:40: in normalize_kernel2d
+    return normalize_kernel2d(input)
+../publishablew/kornia/kornia/kornia/filters/temp.py:20: in normalize_kernel2d
+    KORNIA_CHECK_SHAPE(input, ['*', 'H', 'W'])
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-actual = tensor([[[[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...   [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]]]])
-expected = tensor([[[[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...   [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan],
-          [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]]]])
-rtol = 0.0001, atol = 1e-05, kwargs = {}
+tensor = tensor([[[  1.,   1.,   1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.,   1.,   1.],
+         [  ... 1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.,   1.,   1.],
+         [  1.,   1.,   1.,   1.,   1.,   1.,   1.]]])
+shape = ['*', 'H', 'W']
 
-    def assert_close(
-        actual: Tensor, expected: Tensor, *, rtol: Optional[float] = None, atol: Optional[float] = None, **kwargs: Any
-    ) -> None:
-        if rtol is None and atol is None:
-            # `torch.testing.assert_close` used different default tolerances than `torch.testing.assert_allclose`.
-            # TODO: remove this special handling as soon as https://github.com/kornia/kornia/issues/1134 is resolved
-            #  Basically, this whole wrapper function can be removed and `torch.testing.assert_close` can be used
-            #  directly.
-            rtol, atol = _default_tolerances(actual, expected)
-    
->       return _assert_close(
-            actual,
-            expected,
-            rtol=rtol,
-            atol=atol,
-            # this is the default value for torch>=1.10, but not for torch==1.9
-            # TODO: remove this if kornia relies on torch>=1.10
-            check_stride=False,
-            equal_nan=False,
-            **kwargs,
-        )
-E       AssertionError: Tensor-likes are not close!
-E       
-E       Mismatched elements: 600 / 600 (100.0%)
-E       Greatest absolute difference: nan at index (0, 0, 0, 0) (up to 1e-05 allowed)
-E       Greatest relative difference: nan at index (0, 0, 0, 0) (up to 0.0001 allowed)
+    def KORNIA_CHECK_SHAPE(tensor: Tensor, shape: list):
+        assert len(tensor.shape) == len(shape), 'Input tensor does not match the required shape.'
+        for dim, s in zip(tensor.shape, shape):
+            if s != '*' and dim != s:
+>               raise ValueError(f'Expected dimension {s} but got {dim}.')
+E               ValueError: Expected dimension H but got 5.
 
-../publishablew/kornia/kornia/testing/base.py:37: AssertionError
+../publishablew/kornia/kornia/kornia/filters/temp.py:16: ValueError
 =========================== short test summary info ============================
+FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-5-shape0]
+FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-5-shape1]
+FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size1-shape0]
+FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size1-shape1]
+FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size2-shape0]
+FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_smoke[cpu-float32-True-kernel_size2-shape1]
+FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-5-shape0]
+FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-5-shape1]
+FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-kernel_size1-shape0]
+FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-kernel_size1-shape1]
+FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-3-shape0]
+FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_cardinality[cpu-float32-3-shape1]
+FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_noncontiguous[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_gradcheck[cpu]
 FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_module[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-1-5]
 FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-1-kernel_size1]
 FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-2-5]
 FAILED ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-2-kernel_size1]
-=================== 6 failed, 26 passed, 1 skipped in 2.41s ====================
+=================== 19 failed, 13 passed, 1 skipped in 0.75s ===================
 
 
 Final Test Result:
@@ -517,7 +867,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'tvm', 'onnxrt', 'jit', 'cudagraphs', 'inductor', None}
+available optimizers: {'', 'jit', 'tvm', 'inductor', 'openxla', 'onnxrt', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -559,7 +909,7 @@ collecting ... collected 33 items
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-2-5] PASSED
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-2-kernel_size1] PASSED
 
-======================== 32 passed, 1 skipped in 2.24s =========================
+======================== 32 passed, 1 skipped in 2.30s =========================
 
 
 Initial Result:
@@ -588,7 +938,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'cudagraphs', 'onnxrt', 'tvm', 'inductor', 'openxla', None}
+available optimizers: {'', 'inductor', 'onnxrt', 'openxla', 'jit', 'cudagraphs', 'tvm', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -630,4 +980,4 @@ collecting ... collected 33 items
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-2-5] PASSED
 ../publishablew/kornia/kornia/tests/filters/test_laplacian.py::TestLaplacian::test_dynamo[cpu-float32-inductor-2-kernel_size1] PASSED
 
-======================== 32 passed, 1 skipped in 2.50s =========================
+======================== 32 passed, 1 skipped in 3.54s =========================

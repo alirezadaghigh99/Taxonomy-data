@@ -1,6 +1,7 @@
-import torch
+import numpy as np
+import cv2
 
-def find_fundamental(points1, points2, weights, method):
+def find_fundamental(points1, points2, weights, method='8POINT'):
     """
     Compute the fundamental matrix using the specified method.
 
@@ -16,59 +17,35 @@ def find_fundamental(points1, points2, weights, method):
     Raises:
         ValueError: If an invalid method is provided.
     """
-    if method not in ["7POINT", "8POINT"]:
-        raise ValueError(f"Invalid method '{method}'. Supported methods are '7POINT' and '8POINT'.")
+    if method not in ['7POINT', '8POINT']:
+        raise ValueError("Invalid method provided. Supported methods are '7POINT' and '8POINT'.")
 
     B, N, _ = points1.shape
-    if N < 8:
-        raise ValueError("At least 8 points are required to compute the fundamental matrix.")
+    fundamental_matrices = []
 
-    # Normalize the points
-    def normalize_points(points):
-        mean = points.mean(dim=1, keepdim=True)
-        std = points.std(dim=1, keepdim=True)
-        return (points - mean) / std
+    for b in range(B):
+        pts1 = points1[b]
+        pts2 = points2[b]
+        w = weights[b]
 
-    points1_normalized = normalize_points(points1)
-    points2_normalized = normalize_points(points2)
+        # Normalize points
+        pts1 = pts1 * w[:, np.newaxis]
+        pts2 = pts2 * w[:, np.newaxis]
 
-    # Construct the matrix A for the linear system
-    def construct_A(p1, p2):
-        x1, y1 = p1[:, :, 0], p1[:, :, 1]
-        x2, y2 = p2[:, :, 0], p2[:, :, 1]
-        A = torch.stack([x2 * x1, x2 * y1, x2, y2 * x1, y2 * y1, y2, x1, y1, torch.ones_like(x1)], dim=-1)
-        return A
+        if method == '7POINT' and N >= 7:
+            F, mask = cv2.findFundamentalMat(pts1, pts2, method=cv2.FM_7POINT)
+        elif method == '8POINT' and N >= 8:
+            F, mask = cv2.findFundamentalMat(pts1, pts2, method=cv2.FM_8POINT)
+        else:
+            raise ValueError(f"Insufficient points for {method} method. Required: {7 if method == '7POINT' else 8}, Given: {N}")
 
-    A = construct_A(points1_normalized, points2_normalized)
+        if F is not None:
+            # Reshape F to (3*m, 3) where m is the number of solutions
+            F = F.reshape(-1, 3, 3)
+            fundamental_matrices.append(F)
+        else:
+            raise ValueError("Fundamental matrix computation failed.")
 
-    # Apply weights
-    W = weights.unsqueeze(-1)
-    A = A * W
-
-    # Solve the linear system using SVD
-    U, S, Vt = torch.svd(A)
-    F = Vt[:, -1].view(B, 3, 3)
-
-    if method == "7POINT":
-        # For 7-point algorithm, we need to enforce the rank-2 constraint
-        U, S, Vt = torch.svd(F)
-        S[:, -1] = 0
-        F = U @ torch.diag_embed(S) @ Vt
-
-    # Denormalize the fundamental matrix
-    def denormalize_F(F, p1, p2):
-        mean1, std1 = p1.mean(dim=1, keepdim=True), p1.std(dim=1, keepdim=True)
-        mean2, std2 = p2.mean(dim=1, keepdim=True), p2.std(dim=1, keepdim=True)
-        T1 = torch.diag_embed(torch.tensor([std1[:, 0, 0], std1[:, 0, 1], torch.ones(B)]).to(F.device))
-        T1[:, 0, 2] = mean1[:, 0, 0]
-        T1[:, 1, 2] = mean1[:, 0, 1]
-        T2 = torch.diag_embed(torch.tensor([std2[:, 0, 0], std2[:, 0, 1], torch.ones(B)]).to(F.device))
-        T2[:, 0, 2] = mean2[:, 0, 0]
-        T2[:, 1, 2] = mean2[:, 0, 1]
-        F = T2.transpose(1, 2) @ F @ T1
-        return F
-
-    F = denormalize_F(F, points1, points2)
-
-    return F
+    # Stack all fundamental matrices for each batch
+    return np.array(fundamental_matrices)
 

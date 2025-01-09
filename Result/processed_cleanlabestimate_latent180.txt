@@ -5,77 +5,78 @@ estimate_latent
 Error Cases:
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 577032.36it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 557382.59it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 854889.99it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 801778.54it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1061849.11it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 908103.71it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 880.14it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 878.96it/s]
+number of examples processed for checking labels:  50%|█████     | 80/160 [00:00<00:00, 763.32it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 769.66it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 767.88it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 260it [00:00, 1299784.31it/s]          
+number of examples processed for estimating thresholds: 260it [00:00, 1326665.50it/s]          
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 260it [00:00, 8253.82it/s]             
+number of examples processed for checking labels: 260it [00:00, 7071.05it/s]             
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 26871.49it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 26777.14it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 37066.48it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 37646.62it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1575325.45it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1579032.09it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 2396745.14it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 2354696.98it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1922890.09it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1917396.11it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 2561407.02it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 2581110.15it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 679239.51it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 677183.29it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 416825.24it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 420481.60it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1137438.37it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1122221.81it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 880.08it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 879.16it/s]
+number of examples processed for checking labels:  50%|█████     | 80/160 [00:00<00:00, 738.88it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 770.35it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 260it [00:00, 1518828.75it/s]          
+number of examples processed for estimating thresholds: 260it [00:00, 1018225.06it/s]          
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 260it [00:00, 7920.10it/s]             
+number of examples processed for checking labels: 260it [00:00, 5913.91it/s]             
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1010675.66it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 937274.64it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 945195.27it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 865920.83it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 504198.83it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 507247.65it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 720052.19it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 724717.75it/s]
 
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_estimate_latent_converge', '../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_estimate_latent_converge FAILED'}
+{'../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_estimate_latent_converge FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_estimate_latent_converge'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -254,8 +255,8 @@ ________________________ test_estimate_latent_converge _________________________
         # Check results are similar, but not the same.
 >       assert np.any(inv != inv2)
 E       assert False
-E        +  where False = <function any at 0x773bb2bfc370>(array([[0.84615385, 0.06153846, 0.09230769],\n       [0.24074074, 0.7037037 , 0.05555556],\n       [0.2195122 , 0.07317073, 0.70731707]]) != array([[0.84615385, 0.06153846, 0.09230769],\n       [0.24074074, 0.7037037 , 0.05555556],\n       [0.2195122 , 0.07317073, 0.70731707]]))
-E        +    where <function any at 0x773bb2bfc370> = np.any
+E        +  where False = <function any at 0x777e5ad88af0>(array([[0.84615385, 0.06153846, 0.09230769],\n       [0.24074074, 0.7037037 , 0.05555556],\n       [0.2195122 , 0.07317073, 0.70731707]]) != array([[0.84615385, 0.06153846, 0.09230769],\n       [0.24074074, 0.7037037 , 0.05555556],\n       [0.2195122 , 0.07317073, 0.70731707]]))
+E        +    where <function any at 0x777e5ad88af0> = np.any
 
 ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py:438: AssertionError
 =============================== warnings summary ===============================
@@ -301,18 +302,18 @@ tests/test_filter_count.py::test_find_label_issues_match_multiprocessing
 
 tests/test_filter_count.py::test_estimate_py_and_noise_matrices_missing_classes
 tests/test_filter_count.py::test_estimate_py_and_noise_matrices_missing_classes
-  /local/data0/moved_data/publishablew/cleanlab/cleanlab/cleanlab/temp.py:61: RuntimeWarning: invalid value encountered in divide
+  /local/data0/moved_data/publishablew/cleanlab/cleanlab/cleanlab/temp.py:51: RuntimeWarning: invalid value encountered in divide
     noise_matrix = confident_joint / np.sum(confident_joint, axis=0, keepdims=True)
 
 tests/test_filter_count.py::test_estimate_py_and_noise_matrices_missing_classes
 tests/test_filter_count.py::test_estimate_py_and_noise_matrices_missing_classes
-  /local/data0/moved_data/publishablew/cleanlab/cleanlab/cleanlab/temp.py:62: RuntimeWarning: invalid value encountered in divide
+  /local/data0/moved_data/publishablew/cleanlab/cleanlab/cleanlab/temp.py:52: RuntimeWarning: invalid value encountered in divide
     inv_noise_matrix = confident_joint / np.sum(confident_joint, axis=1, keepdims=True)
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
 =========================== short test summary info ============================
 FAILED ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_estimate_latent_converge
-================= 1 failed, 134 passed, 70 warnings in 32.39s ==================
+================= 1 failed, 134 passed, 70 warnings in 35.31s ==================
 
 
 Final Test Result:
@@ -516,7 +517,7 @@ tests/test_filter_count.py::test_find_label_issues_match_multiprocessing
     warnings.warn(
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-====================== 135 passed, 66 warnings in 34.04s =======================
+====================== 135 passed, 66 warnings in 35.22s =======================
 
 
 Initial Result:
@@ -720,4 +721,4 @@ tests/test_filter_count.py::test_find_label_issues_match_multiprocessing
     warnings.warn(
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-====================== 135 passed, 66 warnings in 35.07s =======================
+====================== 135 passed, 66 warnings in 35.81s =======================

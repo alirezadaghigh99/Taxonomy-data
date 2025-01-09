@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', None, 'openxla', 'onnxrt', 'cudagraphs', 'tvm', 'jit', 'inductor'}
+available optimizers: {'', 'openxla', 'tvm', 'cudagraphs', 'jit', 'onnxrt', 'inductor', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -51,7 +51,7 @@ collecting ... collected 7 items
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsToHomogeneous::test_gradcheck[cpu-batch_shape3] PASSED
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsToHomogeneous::test_dynamo[cpu-float32-inductor] PASSED
 
-============================== 7 passed in 1.91s ===============================
+============================== 7 passed in 1.93s ===============================
 
 
 Final Test Result:
@@ -80,7 +80,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'cudagraphs', 'tvm', 'inductor', 'jit', 'openxla', None}
+available optimizers: {'', 'tvm', 'inductor', 'cudagraphs', 'onnxrt', 'openxla', 'jit', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -96,7 +96,7 @@ collecting ... collected 7 items
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsToHomogeneous::test_gradcheck[cpu-batch_shape3] PASSED
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsToHomogeneous::test_dynamo[cpu-float32-inductor] PASSED
 
-============================== 7 passed in 1.90s ===============================
+============================== 7 passed in 1.99s ===============================
 
 
 Initial Result:
@@ -125,7 +125,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'inductor', 'openxla', 'cudagraphs', 'tvm', 'jit', 'onnxrt', None}
+available optimizers: {'', 'onnxrt', 'inductor', 'openxla', 'cudagraphs', 'jit', 'tvm', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -141,4 +141,4 @@ collecting ... collected 7 items
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsToHomogeneous::test_gradcheck[cpu-batch_shape3] PASSED
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsToHomogeneous::test_dynamo[cpu-float32-inductor] PASSED
 
-============================== 7 passed in 1.91s ===============================
+============================== 7 passed in 2.11s ===============================

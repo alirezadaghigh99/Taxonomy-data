@@ -2,22 +2,31 @@ import torch
 import torch.nn.functional as F
 
 def rescale(input, factor, interpolation="bilinear", align_corners=None, antialias=False):
-    # Ensure factor is a tuple of two floats
-    if isinstance(factor, (int, float)):
+    # Ensure the input is a 4D tensor (batch_size, channels, height, width)
+    if input.dim() != 4:
+        raise ValueError("Input tensor must be 4-dimensional (batch_size, channels, height, width)")
+
+    # Determine the scaling factors for height and width
+    if isinstance(factor, (float, int)):
         factor = (factor, factor)
     elif isinstance(factor, tuple) and len(factor) == 2:
-        factor = tuple(float(f) for f in factor)
+        pass
     else:
-        raise ValueError("Factor must be a float or a tuple of two floats.")
-    
+        raise ValueError("Factor must be a float, int, or a tuple of two floats/ints")
+
     # Calculate the new size
-    _, _, height, width = input.shape
-    new_height = int(height * factor[0])
-    new_width = int(width * factor[1])
-    new_size = (new_height, new_width)
-    
-    # Perform the interpolation
-    rescaled_tensor = F.interpolate(input, size=new_size, mode=interpolation, align_corners=align_corners, antialias=antialias)
-    
-    return rescaled_tensor
+    _, _, original_height, original_width = input.shape
+    new_height = int(original_height * factor[0])
+    new_width = int(original_width * factor[1])
+
+    # Use torch.nn.functional.interpolate to resize the tensor
+    output = F.interpolate(
+        input,
+        size=(new_height, new_width),
+        mode=interpolation,
+        align_corners=align_corners,
+        antialias=antialias
+    )
+
+    return output
 

@@ -1,19 +1,20 @@
 import numpy as np
 
 def temp_scale_pred_probs(pred_probs, temp):
-    # Step 1: Clip the probabilities to avoid log(0)
-    clipped_probs = np.clip(pred_probs, 1e-15, 1 - 1e-15)
+    # Clip probabilities to avoid log(0)
+    epsilon = 1e-12
+    pred_probs = np.clip(pred_probs, epsilon, 1.0)
     
-    # Step 2: Normalize the probabilities
-    clipped_probs /= clipped_probs.sum(axis=1, keepdims=True)
+    # Normalize probabilities to ensure they sum to 1
+    pred_probs /= np.sum(pred_probs, axis=1, keepdims=True)
     
-    # Step 3: Apply temperature scaling
-    log_probs = np.log(clipped_probs)
+    # Apply temperature scaling
+    log_probs = np.log(pred_probs)
     scaled_log_probs = log_probs / temp
     
-    # Step 4: Re-normalize the probabilities using softmax
+    # Apply softmax to get scaled probabilities
     exp_scaled_log_probs = np.exp(scaled_log_probs)
-    scaled_probs = exp_scaled_log_probs / exp_scaled_log_probs.sum(axis=1, keepdims=True)
+    scaled_probs = exp_scaled_log_probs / np.sum(exp_scaled_log_probs, axis=1, keepdims=True)
     
     return scaled_probs
 

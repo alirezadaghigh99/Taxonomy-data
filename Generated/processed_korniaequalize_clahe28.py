@@ -1,89 +1,77 @@
 import torch
 import torch.nn.functional as F
 
-def equalize_clahe(input, clip_limit, grid_size, slow_and_differentiable):
-    # Input validation
+def equalize_clahe(input, clip_limit, grid_size, slow_and_differentiable=False):
+    # Error handling
     if not isinstance(clip_limit, float):
-        raise TypeError("clip_limit must be a float")
+        raise TypeError("clip_limit must be a float.")
     if not (isinstance(grid_size, tuple) and len(grid_size) == 2 and all(isinstance(x, int) for x in grid_size)):
-        raise TypeError("grid_size must be a tuple of two integers")
+        raise TypeError("grid_size must be a tuple of two integers.")
     if any(x <= 0 for x in grid_size):
-        raise ValueError("All elements of grid_size must be positive")
+        raise ValueError("All elements of grid_size must be positive.")
 
-    # Ensure input is a tensor
-    if not isinstance(input, torch.Tensor):
-        raise TypeError("input must be a torch.Tensor")
+    # Ensure input is a float tensor
+    input = input.float()
 
-    # Ensure input values are in the range [0, 1]
-    if input.min() < 0 or input.max() > 1:
-        raise ValueError("input values must be in the range [0, 1]")
-
-    # Get the shape of the input tensor
+    # Get the shape of the input
     original_shape = input.shape
     batch_dims = original_shape[:-3]
     C, H, W = original_shape[-3:]
 
-    # Reshape input to (N, C, H, W) where N is the product of batch dimensions
-    input = input.view(-1, C, H, W)
-    N = input.shape[0]
-
     # Calculate tile size
-    tile_h, tile_w = H // grid_size[0], W // grid_size[1]
+    tile_h = H // grid_size[0]
+    tile_w = W // grid_size[1]
 
-    # Initialize output tensor
-    output = torch.zeros_like(input)
+    # Pad the image if necessary
+    pad_h = (grid_size[0] * tile_h - H) if H % grid_size[0] != 0 else 0
+    pad_w = (grid_size[1] * tile_w - W) if W % grid_size[1] != 0 else 0
+    if pad_h > 0 or pad_w > 0:
+        input = F.pad(input, (0, pad_w, 0, pad_h), mode='reflect')
 
-    # Process each image in the batch
-    for n in range(N):
-        for c in range(C):
-            img = input[n, c]
+    # Recompute H and W after padding
+    _, H, W = input.shape[-3:]
 
-            # Create an empty array to store the CLAHE result
-            clahe_img = torch.zeros_like(img)
+    # Reshape input to process each tile
+    input = input.unfold(-2, tile_h, tile_h).unfold(-1, tile_w, tile_w)
+    input = input.contiguous().view(*batch_dims, C, grid_size[0], grid_size[1], tile_h, tile_w)
 
-            # Process each tile
-            for i in range(grid_size[0]):
-                for j in range(grid_size[1]):
-                    # Define the tile region
-                    y1, y2 = i * tile_h, (i + 1) * tile_h
-                    x1, x2 = j * tile_w, (j + 1) * tile_w
+    # Apply CLAHE to each tile
+    def apply_clahe(tile):
+        # Compute histogram
+        hist = torch.histc(tile, bins=256, min=0.0, max=1.0)
+        if clip_limit > 0:
+            # Clip histogram
+            excess = hist - clip_limit
+            excess = torch.clamp(excess, min=0)
+            hist = hist - excess
+            # Redistribute excess
+            hist += excess.sum() / 256
+        # Compute CDF
+        cdf = hist.cumsum(0)
+        cdf = cdf / cdf[-1]  # Normalize
+        # Map the tile using the CDF
+        tile_flat = tile.view(-1)
+        tile_eq = torch.interp(tile_flat, torch.linspace(0, 1, 256), cdf)
+        return tile_eq.view(tile.shape)
 
-                    # Extract the tile
-                    tile = img[y1:y2, x1:x2]
+    # Process each tile
+    if slow_and_differentiable:
+        # Use a differentiable approach
+        output = torch.stack([apply_clahe(input[..., i, j, :, :]) for i in range(grid_size[0]) for j in range(grid_size[1])], dim=-1)
+        output = output.view(*batch_dims, C, grid_size[0], grid_size[1], tile_h, tile_w)
+    else:
+        # Use a faster, non-differentiable approach
+        output = torch.zeros_like(input)
+        for i in range(grid_size[0]):
+            for j in range(grid_size[1]):
+                output[..., i, j, :, :] = apply_clahe(input[..., i, j, :, :])
 
-                    # Compute the histogram
-                    hist = torch.histc(tile, bins=256, min=0, max=1)
+    # Reshape back to original padded size
+    output = output.view(*batch_dims, C, H, W)
 
-                    # Clip the histogram if clip_limit is set
-                    if clip_limit > 0:
-                        excess = hist - clip_limit
-                        excess[excess < 0] = 0
-                        hist = hist + excess.sum() / 256
-
-                    # Compute the cumulative distribution function (CDF)
-                    cdf = hist.cumsum(0)
-                    cdf = (cdf - cdf.min()) / (cdf.max() - cdf.min())
-                    cdf = cdf * 255
-
-                    # Map the tile pixels using the CDF
-                    tile_flat = (tile * 255).long().view(-1)
-                    clahe_tile = cdf[tile_flat].view(tile.shape) / 255
-
-                    # Place the CLAHE tile back into the image
-                    clahe_img[y1:y2, x1:x2] = clahe_tile
-
-            # Interpolate between tiles
-            if slow_and_differentiable:
-                # Use bilinear interpolation for smooth transitions
-                clahe_img = F.interpolate(clahe_img.unsqueeze(0).unsqueeze(0), size=(H, W), mode='bilinear', align_corners=False).squeeze()
-            else:
-                # Use nearest neighbor interpolation for faster processing
-                clahe_img = F.interpolate(clahe_img.unsqueeze(0).unsqueeze(0), size=(H, W), mode='nearest').squeeze()
-
-            # Store the result in the output tensor
-            output[n, c] = clahe_img
-
-    # Reshape output to the original shape
-    output = output.view(*original_shape)
+    # Remove padding
+    if pad_h > 0 or pad_w > 0:
+        output = output[..., :original_shape[-2], :original_shape[-1]]
 
     return output
+

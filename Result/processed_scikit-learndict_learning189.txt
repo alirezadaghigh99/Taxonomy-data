@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float64-float64-cd] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float32-float32-cd] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float64-float64-lars] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int32-float64-lars] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int32-float64-cd]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float32-float32-cd]', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int64-float64-cd] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float64-float64-cd]', 'FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float64-float64-lars]', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int32-float64-cd] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int64-float64-lars] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int64-float64-cd]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float32-float32-lars]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int32-float64-lars]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int64-float64-lars]'}
+{'FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float32-float32-cd] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int32-float64-lars]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float64-float64-cd]', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int64-float64-lars] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int32-float64-lars] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int64-float64-lars]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int32-float64-cd]', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float64-float64-lars] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float64-float64-cd] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int32-float64-cd] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int64-float64-cd]', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int64-float64-cd] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float32-float32-lars]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float64-float64-lars]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float32-float32-cd]'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 8 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float32-float32-lars] I: Seeding RNGs with 1881022232
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float32-float32-lars] I: Seeding RNGs with 1988341264
 FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float32-float32-cd] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float64-float64-lars] FAILED
@@ -462,7 +462,7 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/tes
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int32-float64-cd]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int64-float64-lars]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int64-float64-cd]
-============================== 8 failed in 0.78s ===============================
+============================== 8 failed in 0.86s ===============================
 
 
 Final Test Result:
@@ -474,7 +474,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 8 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float32-float32-lars] I: Seeding RNGs with 377531977
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float32-float32-lars] I: Seeding RNGs with 190201219
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float32-float32-cd] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float64-float64-lars] PASSED
@@ -484,7 +484,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int64-float64-lars] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[int64-float64-cd] PASSED
 
-============================== 8 passed in 0.51s ===============================
+============================== 8 passed in 0.55s ===============================
 
 
 Initial Result:
@@ -496,7 +496,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 8 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float32-float32-lars] I: Seeding RNGs with 1993772780
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float32-float32-lars] I: Seeding RNGs with 210222197
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float32-float32-cd] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_dtype_match[float64-float64-lars] PASSED

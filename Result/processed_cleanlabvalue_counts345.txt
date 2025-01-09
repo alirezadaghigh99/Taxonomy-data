@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_fill_missing_classes[strings] FAILED', '../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_fill_missing_classes[multilabel_integers] FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_str', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_fill_missing_classes[multilabel_strings]', '../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_str FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_fill_missing_classes[integers]', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_fill_missing_classes[strings]', '../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_fill_missing_classes[multilabel_strings] FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_fill_missing_classes[multilabel_integers]', '../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_fill_missing_classes[integers] FAILED'}
+{'../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_fill_missing_classes[multilabel_strings] FAILED', '../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_fill_missing_classes[multilabel_integers] FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_fill_missing_classes[strings]', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_fill_missing_classes[integers]', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_fill_missing_classes[multilabel_strings]', '../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_str FAILED', '../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_fill_missing_classes[strings] FAILED', '../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_fill_missing_classes[integers] FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_str', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_fill_missing_classes[multilabel_integers]'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -165,8 +165,8 @@ test_case = TestCase(labels=[0, 1, 0, 2], id='integers')
         r = util.value_counts_fill_missing_classes(labels, num_classes=4, multi_label=is_multi_label)
 >       assert np.array_equal(r, [2, 1, 1, 0])
 E       assert False
-E        +  where False = <function array_equal at 0x74a13b189070>(array([[2],\n       [1],\n       [1]]), [2, 1, 1, 0])
-E        +    where <function array_equal at 0x74a13b189070> = np.array_equal
+E        +  where False = <function array_equal at 0x76695e3a2830>(array([[2],\n       [1],\n       [1]]), [2, 1, 1, 0])
+E        +    where <function array_equal at 0x76695e3a2830> = np.array_equal
 
 ../publishablew/cleanlab/cleanlab/tests/test_util.py:85: AssertionError
 _______________ test_value_counts_fill_missing_classes[strings] ________________
@@ -184,8 +184,8 @@ test_case = TestCase(labels=['a', 'b', 'a', 'c'], id='strings')
         r = util.value_counts_fill_missing_classes(labels, num_classes=4, multi_label=is_multi_label)
 >       assert np.array_equal(r, [2, 1, 1, 0])
 E       assert False
-E        +  where False = <function array_equal at 0x74a13b189070>(array([[2],\n       [1],\n       [1]]), [2, 1, 1, 0])
-E        +    where <function array_equal at 0x74a13b189070> = np.array_equal
+E        +  where False = <function array_equal at 0x76695e3a2830>(array([[0],\n       [0],\n       [0]]), [2, 1, 1, 0])
+E        +    where <function array_equal at 0x76695e3a2830> = np.array_equal
 
 ../publishablew/cleanlab/cleanlab/tests/test_util.py:85: AssertionError
 _________ test_value_counts_fill_missing_classes[multilabel_integers] __________
@@ -208,48 +208,20 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return value_counts(x, num_classes=num_classes, multi_label=multi_label)
 ../publishablew/cleanlab/cleanlab/cleanlab/internal/util.py:88: in value_counts
     return value_counts(x)
-../publishablew/cleanlab/cleanlab/cleanlab/internal/temp.py:14: in value_counts
-    counter = Counter(x)
-/usr/lib/python3.11/collections/__init__.py:599: in __init__
-    self.update(iterable, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = Counter(), iterable = [[0], [0, 1], [2]], kwds = {}
+x = array([list([0]), list([0, 1]), list([2])], dtype=object)
+num_classes = None, multi_label = False
 
-    def update(self, iterable=None, /, **kwds):
-        '''Like dict.update() but add counts instead of replacing them.
-    
-        Source can be an iterable, a dictionary, or another Counter instance.
-    
-        >>> c = Counter('which')
-        >>> c.update('witch')           # add elements from another iterable
-        >>> d = Counter('watch')
-        >>> c.update(d)                 # add elements from another counter
-        >>> c['h']                      # four 'h' in which, witch, and watch
-        4
-    
-        '''
-        # The regular dict.update() operation makes no sense here because the
-        # replace behavior results in some of the original untouched counts
-        # being mixed-in with all of the other counts for a mismash that
-        # doesn't have a straight-forward interpretation in most counting
-        # contexts.  Instead, we implement straight-addition.  Both the inputs
-        # and outputs are allowed to contain zero and negative counts.
-    
-        if iterable is not None:
-            if isinstance(iterable, _collections_abc.Mapping):
-                if self:
-                    self_get = self.get
-                    for elem, count in iterable.items():
-                        self[elem] = count + self_get(elem, 0)
-                else:
-                    # fast path when counter is empty
-                    super().update(iterable)
-            else:
->               _count_elements(self, iterable)
-E               TypeError: unhashable type: 'list'
+    def value_counts(x, num_classes=None, multi_label=False):
+        x = np.array(x, dtype=object)
+        if multi_label:
+            x = np.concatenate([np.array(item) for item in x])
+        unique, counts = np.unique(x, return_counts=True)
+>       count_dict = dict(zip(unique, counts))
+E       TypeError: unhashable type: 'list'
 
-/usr/lib/python3.11/collections/__init__.py:690: TypeError
+../publishablew/cleanlab/cleanlab/cleanlab/internal/temp.py:15: TypeError
 __________ test_value_counts_fill_missing_classes[multilabel_strings] __________
 
 test_case = TestCase(labels=[['c'], ['a', 'b'], ['a']], id='multilabel_strings')
@@ -270,48 +242,20 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return value_counts(x, num_classes=num_classes, multi_label=multi_label)
 ../publishablew/cleanlab/cleanlab/cleanlab/internal/util.py:88: in value_counts
     return value_counts(x)
-../publishablew/cleanlab/cleanlab/cleanlab/internal/temp.py:14: in value_counts
-    counter = Counter(x)
-/usr/lib/python3.11/collections/__init__.py:599: in __init__
-    self.update(iterable, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = Counter(), iterable = [['c'], ['a', 'b'], ['a']], kwds = {}
+x = array([list(['c']), list(['a', 'b']), list(['a'])], dtype=object)
+num_classes = None, multi_label = False
 
-    def update(self, iterable=None, /, **kwds):
-        '''Like dict.update() but add counts instead of replacing them.
-    
-        Source can be an iterable, a dictionary, or another Counter instance.
-    
-        >>> c = Counter('which')
-        >>> c.update('witch')           # add elements from another iterable
-        >>> d = Counter('watch')
-        >>> c.update(d)                 # add elements from another counter
-        >>> c['h']                      # four 'h' in which, witch, and watch
-        4
-    
-        '''
-        # The regular dict.update() operation makes no sense here because the
-        # replace behavior results in some of the original untouched counts
-        # being mixed-in with all of the other counts for a mismash that
-        # doesn't have a straight-forward interpretation in most counting
-        # contexts.  Instead, we implement straight-addition.  Both the inputs
-        # and outputs are allowed to contain zero and negative counts.
-    
-        if iterable is not None:
-            if isinstance(iterable, _collections_abc.Mapping):
-                if self:
-                    self_get = self.get
-                    for elem, count in iterable.items():
-                        self[elem] = count + self_get(elem, 0)
-                else:
-                    # fast path when counter is empty
-                    super().update(iterable)
-            else:
->               _count_elements(self, iterable)
-E               TypeError: unhashable type: 'list'
+    def value_counts(x, num_classes=None, multi_label=False):
+        x = np.array(x, dtype=object)
+        if multi_label:
+            x = np.concatenate([np.array(item) for item in x])
+        unique, counts = np.unique(x, return_counts=True)
+>       count_dict = dict(zip(unique, counts))
+E       TypeError: unhashable type: 'list'
 
-/usr/lib/python3.11/collections/__init__.py:690: TypeError
+../publishablew/cleanlab/cleanlab/cleanlab/internal/temp.py:15: TypeError
 =============================== warnings summary ===============================
 ../publishablew/cleanlab/cleanlab/tests/test_util.py:0
   /local/data0/moved_data/publishablew/cleanlab/cleanlab/tests/test_util.py:0: PytestCollectionWarning: cannot collect test class 'TestCase' because it has a __new__ constructor (from: tests/test_util.py)
@@ -323,7 +267,7 @@ FAILED ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_f
 FAILED ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_fill_missing_classes[strings]
 FAILED ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_fill_missing_classes[multilabel_integers]
 FAILED ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_value_counts_fill_missing_classes[multilabel_strings]
-=================== 5 failed, 16 passed, 1 warning in 0.75s ====================
+=================== 5 failed, 16 passed, 1 warning in 0.71s ====================
 
 
 Final Test Result:
@@ -463,7 +407,7 @@ PASSED
   /local/data0/moved_data/publishablew/cleanlab/cleanlab/tests/test_util.py:0: PytestCollectionWarning: cannot collect test class 'TestCase' because it has a __new__ constructor (from: tests/test_util.py)
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-======================== 21 passed, 1 warning in 0.58s =========================
+======================== 21 passed, 1 warning in 0.53s =========================
 
 
 Initial Result:
@@ -603,4 +547,4 @@ PASSED
   /local/data0/moved_data/publishablew/cleanlab/cleanlab/tests/test_util.py:0: PytestCollectionWarning: cannot collect test class 'TestCase' because it has a __new__ constructor (from: tests/test_util.py)
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-======================== 21 passed, 1 warning in 0.56s =========================
+======================== 21 passed, 1 warning in 0.54s =========================

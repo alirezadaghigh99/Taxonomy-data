@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-34]'}
+{'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-27-27] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -25,16 +25,16 @@ collecting ... collected 108 items
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-34-28] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-35-29] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-28] FAILED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-27-27] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-34] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-29-35] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-34-28] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-35-29] FAILED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-28] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-27-27] FAILED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-34] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-29-35] FAILED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-34-28] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-35-29] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-28] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-27-27] FAILED
@@ -61,16 +61,16 @@ collecting ... collected 108 items
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-34-28] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-35-29] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-28] FAILED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-27-27] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-34] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-29-35] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-34-28] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-35-29] FAILED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-28] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-27-27] FAILED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-34] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-29-35] FAILED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-34-28] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-35-29] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-28] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-27-27] FAILED
@@ -97,16 +97,16 @@ collecting ... collected 108 items
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-34-28] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-35-29] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-28] FAILED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-27-27] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-34] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-29-35] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-34-28] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-35-29] FAILED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-28] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-27-27] FAILED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-34] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-34] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-29-35] FAILED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-34-28] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-34-28] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-35-29] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-28] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-27-27] FAILED
@@ -139,8 +139,8 @@ __________________________ test_resize[None-22-28-28] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[None-22-27-27] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -153,8 +153,8 @@ __________________________ test_resize[None-22-27-27] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[None-22-28-34] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -167,8 +167,8 @@ __________________________ test_resize[None-22-28-34] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[None-22-29-35] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -181,8 +181,8 @@ __________________________ test_resize[None-22-29-35] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[None-22-34-28] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -195,8 +195,8 @@ __________________________ test_resize[None-22-34-28] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[None-22-35-29] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -209,8 +209,8 @@ __________________________ test_resize[None-22-35-29] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[None-27-28-28] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -223,8 +223,22 @@ __________________________ test_resize[None-27-28-28] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
+E   AttributeError: 'Image' object has no attribute 'resize1'
+__________________________ test_resize[None-27-27-27] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
+    return resize(img, size, interpolation, max_size, antialias)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[None-27-28-34] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -237,8 +251,8 @@ __________________________ test_resize[None-27-28-34] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[None-27-29-35] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -251,8 +265,8 @@ __________________________ test_resize[None-27-29-35] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[None-27-34-28] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -265,8 +279,8 @@ __________________________ test_resize[None-27-34-28] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[None-27-35-29] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -279,8 +293,22 @@ __________________________ test_resize[None-27-35-29] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
+E   AttributeError: 'Image' object has no attribute 'resize1'
+__________________________ test_resize[None-28-28-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
+    return resize(img, size, interpolation, max_size, antialias)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[None-28-27-27] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -293,8 +321,22 @@ __________________________ test_resize[None-28-27-27] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
+E   AttributeError: 'Image' object has no attribute 'resize1'
+__________________________ test_resize[None-28-28-34] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
+    return resize(img, size, interpolation, max_size, antialias)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[None-28-29-35] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -307,8 +349,22 @@ __________________________ test_resize[None-28-29-35] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
+E   AttributeError: 'Image' object has no attribute 'resize1'
+__________________________ test_resize[None-28-34-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
+    return resize(img, size, interpolation, max_size, antialias)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[None-28-35-29] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -321,8 +377,8 @@ __________________________ test_resize[None-28-35-29] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[None-36-28-28] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -335,8 +391,8 @@ __________________________ test_resize[None-36-28-28] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[None-36-27-27] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -349,8 +405,8 @@ __________________________ test_resize[None-36-27-27] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[None-36-28-34] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -363,8 +419,8 @@ __________________________ test_resize[None-36-28-34] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[None-36-29-35] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -377,8 +433,8 @@ __________________________ test_resize[None-36-29-35] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[None-36-34-28] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -391,8 +447,8 @@ __________________________ test_resize[None-36-34-28] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[None-36-35-29] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -405,8 +461,8 @@ __________________________ test_resize[None-36-35-29] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ________________________ test_resize[None-osize4-28-28] ________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -419,8 +475,8 @@ ________________________ test_resize[None-osize4-28-28] ________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ________________________ test_resize[None-osize4-27-27] ________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -433,8 +489,8 @@ ________________________ test_resize[None-osize4-27-27] ________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ________________________ test_resize[None-osize4-28-34] ________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -447,8 +503,8 @@ ________________________ test_resize[None-osize4-28-34] ________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ________________________ test_resize[None-osize4-29-35] ________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -461,8 +517,8 @@ ________________________ test_resize[None-osize4-29-35] ________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ________________________ test_resize[None-osize4-34-28] ________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -475,8 +531,8 @@ ________________________ test_resize[None-osize4-34-28] ________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ________________________ test_resize[None-osize4-35-29] ________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -489,8 +545,8 @@ ________________________ test_resize[None-osize4-35-29] ________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ________________________ test_resize[None-osize5-28-28] ________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -503,8 +559,8 @@ ________________________ test_resize[None-osize5-28-28] ________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ________________________ test_resize[None-osize5-27-27] ________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -517,8 +573,8 @@ ________________________ test_resize[None-osize5-27-27] ________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ________________________ test_resize[None-osize5-28-34] ________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -531,8 +587,8 @@ ________________________ test_resize[None-osize5-28-34] ________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ________________________ test_resize[None-osize5-29-35] ________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -545,8 +601,8 @@ ________________________ test_resize[None-osize5-29-35] ________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ________________________ test_resize[None-osize5-34-28] ________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -559,8 +615,8 @@ ________________________ test_resize[None-osize5-34-28] ________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ________________________ test_resize[None-osize5-35-29] ________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -573,8 +629,8 @@ ________________________ test_resize[None-osize5-35-29] ________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-22-28-28] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -587,8 +643,8 @@ ___________________________ test_resize[37-22-28-28] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-22-27-27] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -601,8 +657,8 @@ ___________________________ test_resize[37-22-27-27] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-22-28-34] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -615,8 +671,8 @@ ___________________________ test_resize[37-22-28-34] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-22-29-35] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -629,8 +685,8 @@ ___________________________ test_resize[37-22-29-35] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-22-34-28] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -643,8 +699,8 @@ ___________________________ test_resize[37-22-34-28] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-22-35-29] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -657,8 +713,8 @@ ___________________________ test_resize[37-22-35-29] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-27-28-28] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -671,8 +727,22 @@ ___________________________ test_resize[37-27-28-28] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
+E   AttributeError: 'Image' object has no attribute 'resize1'
+___________________________ test_resize[37-27-27-27] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
+    return resize(img, size, interpolation, max_size, antialias)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-27-28-34] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -685,8 +755,8 @@ ___________________________ test_resize[37-27-28-34] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-27-29-35] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -699,8 +769,8 @@ ___________________________ test_resize[37-27-29-35] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-27-34-28] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -713,8 +783,8 @@ ___________________________ test_resize[37-27-34-28] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-27-35-29] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -727,8 +797,22 @@ ___________________________ test_resize[37-27-35-29] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
+E   AttributeError: 'Image' object has no attribute 'resize1'
+___________________________ test_resize[37-28-28-28] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
+    return resize(img, size, interpolation, max_size, antialias)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-28-27-27] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -741,8 +825,22 @@ ___________________________ test_resize[37-28-27-27] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
+E   AttributeError: 'Image' object has no attribute 'resize1'
+___________________________ test_resize[37-28-28-34] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
+    return resize(img, size, interpolation, max_size, antialias)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-28-29-35] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -755,8 +853,22 @@ ___________________________ test_resize[37-28-29-35] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
+E   AttributeError: 'Image' object has no attribute 'resize1'
+___________________________ test_resize[37-28-34-28] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
+    return resize(img, size, interpolation, max_size, antialias)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-28-35-29] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -769,8 +881,8 @@ ___________________________ test_resize[37-28-35-29] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-36-28-28] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -783,8 +895,8 @@ ___________________________ test_resize[37-36-28-28] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-36-27-27] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -797,8 +909,8 @@ ___________________________ test_resize[37-36-27-27] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-36-28-34] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -811,8 +923,8 @@ ___________________________ test_resize[37-36-28-34] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-36-29-35] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -825,8 +937,8 @@ ___________________________ test_resize[37-36-29-35] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-36-34-28] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -839,8 +951,8 @@ ___________________________ test_resize[37-36-34-28] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ___________________________ test_resize[37-36-35-29] ___________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -853,8 +965,8 @@ ___________________________ test_resize[37-36-35-29] ___________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 _________________________ test_resize[37-osize4-28-28] _________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1035,8 +1147,8 @@ __________________________ test_resize[1000-22-28-28] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[1000-22-27-27] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1049,8 +1161,8 @@ __________________________ test_resize[1000-22-27-27] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[1000-22-28-34] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1063,8 +1175,8 @@ __________________________ test_resize[1000-22-28-34] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[1000-22-29-35] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1077,8 +1189,8 @@ __________________________ test_resize[1000-22-29-35] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[1000-22-34-28] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1091,8 +1203,8 @@ __________________________ test_resize[1000-22-34-28] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[1000-22-35-29] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1105,8 +1217,8 @@ __________________________ test_resize[1000-22-35-29] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[1000-27-28-28] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1119,8 +1231,22 @@ __________________________ test_resize[1000-27-28-28] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
+E   AttributeError: 'Image' object has no attribute 'resize1'
+__________________________ test_resize[1000-27-27-27] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
+    return resize(img, size, interpolation, max_size, antialias)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[1000-27-28-34] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1133,8 +1259,8 @@ __________________________ test_resize[1000-27-28-34] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[1000-27-29-35] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1147,8 +1273,8 @@ __________________________ test_resize[1000-27-29-35] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[1000-27-34-28] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1161,8 +1287,8 @@ __________________________ test_resize[1000-27-34-28] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[1000-27-35-29] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1175,8 +1301,22 @@ __________________________ test_resize[1000-27-35-29] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
+E   AttributeError: 'Image' object has no attribute 'resize1'
+__________________________ test_resize[1000-28-28-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
+    return resize(img, size, interpolation, max_size, antialias)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[1000-28-27-27] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1189,8 +1329,22 @@ __________________________ test_resize[1000-28-27-27] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
+E   AttributeError: 'Image' object has no attribute 'resize1'
+__________________________ test_resize[1000-28-28-34] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
+    return resize(img, size, interpolation, max_size, antialias)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[1000-28-29-35] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1203,8 +1357,22 @@ __________________________ test_resize[1000-28-29-35] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
+E   AttributeError: 'Image' object has no attribute 'resize1'
+__________________________ test_resize[1000-28-34-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
+    return resize(img, size, interpolation, max_size, antialias)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[1000-28-35-29] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1217,8 +1385,8 @@ __________________________ test_resize[1000-28-35-29] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[1000-36-28-28] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1231,8 +1399,8 @@ __________________________ test_resize[1000-36-28-28] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[1000-36-27-27] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1245,8 +1413,8 @@ __________________________ test_resize[1000-36-27-27] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[1000-36-28-34] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1259,8 +1427,8 @@ __________________________ test_resize[1000-36-28-34] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[1000-36-29-35] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1273,8 +1441,8 @@ __________________________ test_resize[1000-36-29-35] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[1000-36-34-28] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1287,8 +1455,8 @@ __________________________ test_resize[1000-36-34-28] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 __________________________ test_resize[1000-36-35-29] __________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1301,8 +1469,8 @@ __________________________ test_resize[1000-36-35-29] __________________________
     return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:306: in resize
     return resize(img, size, interpolation, max_size, antialias)
-../publishablew/vision/vision/torchvision/transforms/temp.py:49: in resize
-    return img.resize1(size, interpolation)
+../publishablew/vision/vision/torchvision/transforms/temp.py:36: in resize
+    return img.resize1(size, resample=interpolation)
 E   AttributeError: 'Image' object has no attribute 'resize1'
 ________________________ test_resize[1000-osize4-28-28] ________________________
 ../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
@@ -1480,12 +1648,16 @@ FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-2
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-34-28]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-35-29]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-27-27]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-34]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-29-35]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-34-28]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-35-29]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-28]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-34]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-34-28]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-35-29]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-28]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-27-27]
@@ -1512,12 +1684,16 @@ FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-34-28]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-35-29]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-27-27]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-34]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-29-35]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-34-28]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-35-29]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-28]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-34]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-34-28]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-35-29]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-28]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-27-27]
@@ -1544,12 +1720,16 @@ FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-2
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-34-28]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-35-29]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-27-27]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-34]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-29-35]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-34-28]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-35-29]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-28]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-34]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-34-28]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-35-29]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-28]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-27-27]
@@ -1569,7 +1749,7 @@ FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-o
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-29-35]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-34-28]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-35-29]
-======================== 96 failed, 12 passed in 11.10s ========================
+============================= 108 failed in 13.13s =============================
 
 
 Final Test Result:
@@ -1690,7 +1870,7 @@ collecting ... collected 108 items
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-34-28] PASSED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-35-29] PASSED
 
-============================= 108 passed in 0.50s ==============================
+============================= 108 passed in 0.43s ==============================
 
 
 Initial Result:
@@ -1811,4 +1991,4 @@ collecting ... collected 108 items
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-34-28] PASSED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-35-29] PASSED
 
-============================= 108 passed in 0.48s ==============================
+============================= 108 passed in 0.36s ==============================

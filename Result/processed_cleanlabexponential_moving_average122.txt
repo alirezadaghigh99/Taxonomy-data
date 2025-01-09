@@ -31,7 +31,7 @@ Traceback:
 E   ModuleNotFoundError: No module named 'hypothesis'
 =========================== short test summary info ============================
 ERROR ../publishablew/cleanlab/cleanlab/tests/test_multilabel_classification.py
-=============================== 1 error in 0.51s ===============================
+=============================== 1 error in 0.54s ===============================
 
 
 Final Test Result:
@@ -77,4 +77,4 @@ Traceback:
 E   ModuleNotFoundError: No module named 'hypothesis'
 =========================== short test summary info ============================
 ERROR ../publishablew/cleanlab/cleanlab/tests/test_multilabel_classification.py
-=============================== 1 error in 0.60s ===============================
+=============================== 1 error in 0.56s ===============================

@@ -1,6 +1,5 @@
-import numpy as np
 from PIL import Image
-import torch
+import numpy as np
 
 def to_pil_image(pic, mode=None):
     """
@@ -8,42 +7,35 @@ def to_pil_image(pic, mode=None):
 
     Args:
         pic (Tensor or numpy.ndarray): Image to be converted to PIL Image.
-        mode (str, optional): Mode to be used for the PIL Image.
+        mode (str, optional): Mode for the PIL Image.
 
     Returns:
-        PIL.Image: Image converted to PIL format.
+        PIL.Image.Image: Image converted to PIL Image.
     """
-    if not (isinstance(pic, torch.Tensor) or isinstance(pic, np.ndarray)):
-        raise TypeError('pic should be Tensor or ndarray. Got {}.'.format(type(pic)))
-
-    if isinstance(pic, torch.Tensor):
-        if pic.ndimension() not in {2, 3}:
-            raise ValueError('pic should be 2 or 3 dimensional. Got {} dimensions.'.format(pic.ndimension()))
-        pic = pic.cpu().numpy()
-
     if isinstance(pic, np.ndarray):
-        if pic.ndim not in {2, 3}:
-            raise ValueError('pic should be 2 or 3 dimensional. Got {} dimensions.'.format(pic.ndim))
-
-    if pic.ndim == 2:
-        # Grayscale image
-        mode = 'L' if mode is None else mode
-    elif pic.ndim == 3:
-        if pic.shape[2] == 1:
-            # Grayscale image with a single channel
-            pic = pic[:, :, 0]
-            mode = 'L' if mode is None else mode
-        elif pic.shape[2] == 3:
-            # RGB image
-            mode = 'RGB' if mode is None else mode
-        elif pic.shape[2] == 4:
-            # RGBA image
-            mode = 'RGBA' if mode is None else mode
+        # Handle numpy array
+        if pic.ndim == 2:
+            # Grayscale image
+            return Image.fromarray(pic, mode=mode or 'L')
+        elif pic.ndim == 3:
+            # Color image
+            if pic.shape[2] == 1:
+                # Single channel image
+                return Image.fromarray(pic.squeeze(2), mode=mode or 'L')
+            elif pic.shape[2] == 3:
+                # RGB image
+                return Image.fromarray(pic, mode=mode or 'RGB')
+            elif pic.shape[2] == 4:
+                # RGBA image
+                return Image.fromarray(pic, mode=mode or 'RGBA')
         else:
-            raise ValueError('pic should have 1, 3 or 4 channels. Got {} channels.'.format(pic.shape[2]))
-
-    if mode not in ['L', 'RGB', 'RGBA']:
-        raise ValueError('Unsupported mode: {}. Supported modes are L, RGB, RGBA.'.format(mode))
-
-    return Image.fromarray(pic, mode=mode)
+            raise ValueError(f"Unsupported numpy array shape: {pic.shape}")
+    
+    elif hasattr(pic, 'numpy'):
+        # Handle PyTorch tensor
+        pic = pic.numpy()
+        return to_pil_image(pic, mode=mode)
+    
+    else:
+        raise TypeError(f"Input type not supported: {type(pic)}")
 

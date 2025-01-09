@@ -4,10 +4,10 @@ function:
 safe_solve_with_mask
 Error Cases:
 
-Pass or Failed: 0
+Pass or Failed: 1
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_all_bad[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_all_bad[cpu-float32]'}
+set()
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'inductor', 'onnxrt', 'jit', 'openxla', 'tvm', None}
+available optimizers: {'', 'onnxrt', 'tvm', 'openxla', 'inductor', 'cudagraphs', 'jit', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -44,108 +44,15 @@ plugins: timeout-2.3.1
 collecting ... collected 2 items
 
 ../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_smoke[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_all_bad[cpu-float32] FAILED
+../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_all_bad[cpu-float32] PASSED
 
-=================================== FAILURES ===================================
-_________________ TestSolveWithMask.test_all_bad[cpu-float32] __________________
-
-self = <test_helpers.TestSolveWithMask object at 0x70d480cf1ba0>
-device = device(type='cpu'), dtype = torch.float32
-
-    @pytest.mark.skipif(
-        (int(torch.__version__.split(".")[0]) == 1) and (int(torch.__version__.split(".")[1]) < 10),
-        reason="<1.10.0 not supporting",
-    )
-    def test_all_bad(self, device, dtype):
-        A = torch.ones(10, 3, 3, device=device, dtype=dtype)
-        B = torch.ones(10, 3, device=device, dtype=dtype)
-    
->       X, _, mask = safe_solve_with_mask(B, A)
-
-../publishablew/kornia/kornia/tests/utils/test_helpers.py:143: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/utils/helpers.py:198: in safe_solve_with_mask
-    return safe_solve_with_mask(B, A)
-../publishablew/kornia/kornia/kornia/utils/temp.py:50: in safe_solve_with_mask
-    raise e
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-B = tensor([[1., 1., 1.],
-        [1., 1., 1.],
-        [1., 1., 1.],
-        [1., 1., 1.],
-        [1., 1., 1.],
-        [1., 1., 1.],
-        [1., 1., 1.],
-        [1., 1., 1.],
-        [1., 1., 1.],
-        [1., 1., 1.]])
-A = tensor([[[1., 1., 1.],
-         [1., 1., 1.],
-         [1., 1., 1.]],
-
-        [[1., 1., 1.],
-         [1., 1., 1.],
- ...
-         [1., 1., 1.],
-         [1., 1., 1.]],
-
-        [[1., 1., 1.],
-         [1., 1., 1.],
-         [1., 1., 1.]]])
-
-    def safe_solve_with_mask(B, A):
-        """
-        Solves the system of linear equations AX = B while handling singular matrices.
-    
-        Args:
-        - B (Tensor): The right-hand side tensor in the equation AX = B.
-        - A (Tensor): The matrix tensor that will be solved against B.
-    
-        Returns:
-        - X (Tensor): The solution tensor that satisfies AX = B, or a closest approximation if the matrix is near-singular.
-        - A_LU (Tensor): The LU decomposition of matrix A, which is useful for numerical stability.
-        - valid_mask (Tensor): A boolean tensor indicating which rows of the batch were solved successfully.
-        """
-        assert isinstance(B, torch.Tensor), 'B must be a tensor'
-        if B.dtype not in [torch.float32, torch.float64]:
-            B = B.to(torch.float32)
-        pytorch_version = torch.__version__.split('.')
-        major_version = int(pytorch_version[0])
-        minor_version = int(pytorch_version[1])
-        if major_version < 1 or (major_version == 1 and minor_version < 10):
-            warnings.warn('PyTorch version is less than 1.10. Falling back to _torch_solve_cast method. Validity mask might not be correct.')
-            return _torch_solve_cast(B, A)
-        try:
-            A_LU, pivots = torch.lu(A)
->           X = torch.lu_solve(B, A_LU, pivots)
-E           RuntimeError: linalg.lu_solve: Incompatible shapes of A and B for the equation AX = B (3x3 and 10x3)
-
-../publishablew/kornia/kornia/kornia/utils/temp.py:40: RuntimeError
 =============================== warnings summary ===============================
-tests/utils/test_helpers.py::TestSolveWithMask::test_smoke[cpu-float32]
-  /local/data0/moved_data/publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/functional.py:2135: UserWarning: torch.lu is deprecated in favor of torch.linalg.lu_factor / torch.linalg.lu_factor_ex and will be removed in a future PyTorch release.
-  LU, pivots = torch.lu(A, compute_pivots)
-  should be replaced with
-  LU, pivots = torch.linalg.lu_factor(A, compute_pivots)
-  and
-  LU, pivots, info = torch.lu(A, compute_pivots, get_infos=True)
-  should be replaced with
-  LU, pivots, info = torch.linalg.lu_factor_ex(A, compute_pivots) (Triggered internally at ../aten/src/ATen/native/BatchLinearAlgebra.cpp:1990.)
-    return torch._lu_with_info(A, pivot=pivot, check_errors=(not get_infos))
-
-tests/utils/test_helpers.py::TestSolveWithMask::test_smoke[cpu-float32]
-  /local/data0/moved_data/publishablew/kornia/kornia/kornia/utils/temp.py:40: UserWarning: torch.lu_solve is deprecated in favor of torch.linalg.lu_solveand will be removed in a future PyTorch release.
-  Note that torch.linalg.lu_solve has its arguments reversed.
-  X = torch.lu_solve(B, LU, pivots)
-  should be replaced with
-  X = torch.linalg.lu_solve(LU, pivots, B) (Triggered internally at ../aten/src/ATen/native/BatchLinearAlgebra.cpp:2147.)
-    X = torch.lu_solve(B, A_LU, pivots)
+tests/utils/test_helpers.py::TestSolveWithMask::test_all_bad[cpu-float32]
+  /local/data0/moved_data/publishablew/kornia/kornia/kornia/utils/temp.py:38: UserWarning: RuntimeError encountered: torch.linalg.lu_factor: (Batch element 0): U[2,2] is zero and using it on lu_solve would result in a division by zero. If you still want to perform the factorization, consider calling linalg.lu(A, pivot) or linalg.lu_factor_ex(A, pivot). Returning zero tensor for X.
+    warnings.warn(f'RuntimeError encountered: {e}. Returning zero tensor for X.')
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-=========================== short test summary info ============================
-FAILED ../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_all_bad[cpu-float32]
-=================== 1 failed, 1 passed, 2 warnings in 0.23s ====================
+========================= 2 passed, 1 warning in 0.16s =========================
 
 
 Final Test Result:
@@ -174,7 +81,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'openxla', 'inductor', 'onnxrt', 'cudagraphs', 'tvm', None}
+available optimizers: {'', 'jit', 'onnxrt', 'cudagraphs', 'inductor', 'tvm', 'openxla', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -214,7 +121,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'inductor', 'jit', 'cudagraphs', 'openxla', 'onnxrt', 'tvm', None}
+available optimizers: {'', 'inductor', 'jit', 'onnxrt', 'openxla', 'tvm', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -225,4 +132,4 @@ collecting ... collected 2 items
 ../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_smoke[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_all_bad[cpu-float32] PASSED
 
-============================== 2 passed in 0.18s ===============================
+============================== 2 passed in 0.17s ===============================

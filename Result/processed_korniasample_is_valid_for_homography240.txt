@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestSampleValidation::test_bad[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestSampleValidation::test_batch[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestSampleValidation::test_bad[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestSampleValidation::test_batch[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestSampleValidation::test_good[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestSampleValidation::test_good[cpu-float32] FAILED'}
+{'FAILED ../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestSampleValidation::test_bad[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestSampleValidation::test_batch[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestSampleValidation::test_bad[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestSampleValidation::test_good[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestSampleValidation::test_batch[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestSampleValidation::test_good[cpu-float32]'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'inductor', 'jit', 'cudagraphs', 'tvm', 'onnxrt', None}
+available optimizers: {'', 'onnxrt', 'inductor', 'cudagraphs', 'tvm', 'jit', None, 'openxla'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -50,7 +50,7 @@ collecting ... collected 3 items
 =================================== FAILURES ===================================
 _________________ TestSampleValidation.test_good[cpu-float32] __________________
 
-self = <tests.geometry.test_homography.TestSampleValidation object at 0x7df4b89060b0>
+self = <tests.geometry.test_homography.TestSampleValidation object at 0x7686c8afa200>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_good(self, device, dtype):
@@ -59,13 +59,13 @@ device = device(type='cpu'), dtype = torch.float32
         expected = torch.tensor([True], device=device, dtype=torch.bool)
 >       assert torch.equal(mask, expected)
 E       assert False
-E        +  where False = <built-in method equal of type object at 0x7df58d6bf1c0>(tensor([[[False, False, False],\n         [False, False, False],\n         [False, False, False]]]), tensor([True]))
-E        +    where <built-in method equal of type object at 0x7df58d6bf1c0> = torch.equal
+E        +  where False = <built-in method equal of type object at 0x76879d6bf1c0>(tensor([[True]]), tensor([True]))
+E        +    where <built-in method equal of type object at 0x76879d6bf1c0> = torch.equal
 
 ../publishablew/kornia/kornia/tests/geometry/test_homography.py:28: AssertionError
 __________________ TestSampleValidation.test_bad[cpu-float32] __________________
 
-self = <tests.geometry.test_homography.TestSampleValidation object at 0x7df4b89064a0>
+self = <tests.geometry.test_homography.TestSampleValidation object at 0x7686c8afa5f0>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_bad(self, device, dtype):
@@ -76,13 +76,13 @@ device = device(type='cpu'), dtype = torch.float32
         expected = torch.tensor([False], device=device, dtype=torch.bool)
 >       assert torch.equal(mask, expected)
 E       assert False
-E        +  where False = <built-in method equal of type object at 0x7df58d6bf1c0>(tensor([[[False, False, False],\n         [False, False, False],\n         [False, False, False]]]), tensor([False]))
-E        +    where <built-in method equal of type object at 0x7df58d6bf1c0> = torch.equal
+E        +  where False = <built-in method equal of type object at 0x76879d6bf1c0>(tensor([[False]]), tensor([False]))
+E        +    where <built-in method equal of type object at 0x76879d6bf1c0> = torch.equal
 
 ../publishablew/kornia/kornia/tests/geometry/test_homography.py:36: AssertionError
 _________________ TestSampleValidation.test_batch[cpu-float32] _________________
 
-self = <tests.geometry.test_homography.TestSampleValidation object at 0x7df4b89067d0>
+self = <tests.geometry.test_homography.TestSampleValidation object at 0x7686c8afa920>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_batch(self, device, dtype):
@@ -91,21 +91,29 @@ device = device(type='cpu'), dtype = torch.float32
         pts2 = torch.rand(batch_size, 4, 2, device=device, dtype=dtype)
         mask = sample_is_valid_for_homography(pts1, pts2)
 >       assert mask.shape == torch.Size([batch_size])
-E       assert torch.Size([5, 3, 3]) == torch.Size([5])
+E       assert torch.Size([5, 1]) == torch.Size([5])
 E         
-E         Left contains 2 more items, first extra item: 3
+E         Left contains one more item: 1
 E         
 E         Full diff:
 E         - torch.Size([5])
-E         + torch.Size([5, 3, 3])
-E         ?              ++++++
+E         + torch.Size([5, 1])
+E         ?              +++
 
 ../publishablew/kornia/kornia/tests/geometry/test_homography.py:43: AssertionError
+=============================== warnings summary ===============================
+tests/geometry/test_homography.py::TestSampleValidation::test_good[cpu-float32]
+  /local/data0/moved_data/publishablew/kornia/kornia/kornia/geometry/temp.py:24: UserWarning: Using torch.cross without specifying the dim arg is deprecated.
+  Please either pass the dim explicitly or simply use torch.linalg.cross.
+  The default value of dim will change to agree with that of linalg.cross in a future release. (Triggered internally at ../aten/src/ATen/native/Cross.cpp:62.)
+    cross1 = torch.cross(p1[:, 1] - p1[:, 0], p1[:, 2] - p1[:, 0])
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
 =========================== short test summary info ============================
 FAILED ../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestSampleValidation::test_good[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestSampleValidation::test_bad[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestSampleValidation::test_batch[cpu-float32]
-============================== 3 failed in 0.33s ===============================
+========================= 3 failed, 1 warning in 0.39s =========================
 
 
 Final Test Result:
@@ -134,7 +142,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'openxla', 'jit', 'cudagraphs', 'inductor', None, 'tvm'}
+available optimizers: {'', 'tvm', 'cudagraphs', 'onnxrt', 'openxla', 'inductor', 'jit', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -154,7 +162,7 @@ tests/geometry/test_homography.py::TestSampleValidation::test_good[cpu-float32]
     torch.cross(src_perm[..., 1:2, :], src_perm[..., 2:3, :]) @ src_perm[..., 0:1, :].permute(0, 1, 3, 2)
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-========================= 3 passed, 1 warning in 0.16s =========================
+========================= 3 passed, 1 warning in 0.18s =========================
 
 
 Initial Result:
@@ -183,7 +191,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', None, 'cudagraphs', 'inductor', 'openxla', 'tvm', 'jit'}
+available optimizers: {'', 'jit', 'cudagraphs', 'inductor', 'openxla', 'tvm', None, 'onnxrt'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -203,4 +211,4 @@ tests/geometry/test_homography.py::TestSampleValidation::test_good[cpu-float32]
     torch.cross(src_perm[..., 1:2, :], src_perm[..., 2:3, :]) @ src_perm[..., 0:1, :].permute(0, 1, 3, 2)
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-========================= 3 passed, 1 warning in 0.17s =========================
+========================= 3 passed, 1 warning in 0.15s =========================

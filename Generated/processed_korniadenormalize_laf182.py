@@ -2,31 +2,30 @@ import torch
 
 def denormalize_laf(LAF, images):
     """
-    De-normalize LAFs from scale to image scale. The convention is that center of 5-pixel image (coordinates
-    from 0 to 4) is 2, and not 2.5.
+    De-normalize LAFs from scale to image scale.
 
     Args:
-        LAF: :math:`(B, N, 2, 3)`
-        images: :math:`(B, CH, H, W)`
+        LAF: torch.Tensor of shape (B, N, 2, 3)
+        images: torch.Tensor of shape (B, CH, H, W)
 
     Returns:
-        the denormalized LAF: :math:`(B, N, 2, 3)`, scale in pixels
+        torch.Tensor: the denormalized LAF of shape (B, N, 2, 3), scale in pixels
     """
     B, N, _, _ = LAF.size()
     _, _, H, W = images.size()
     MIN_SIZE = min(H - 1, W - 1)
 
-    # Create a copy of LAF to avoid modifying the original tensor
+    # Create a scaling matrix
+    scaling_matrix = torch.tensor([
+        [MIN_SIZE, 0, W - 1],
+        [0, MIN_SIZE, W - 1]
+    ], dtype=LAF.dtype, device=LAF.device)
+
+    # Apply the scaling to each LAF
     denormalized_LAF = LAF.clone()
-
-    # Apply the transformation
-    denormalized_LAF[:, :, 0, 0] *= MIN_SIZE
-    denormalized_LAF[:, :, 0, 1] *= MIN_SIZE
-    denormalized_LAF[:, :, 1, 0] *= MIN_SIZE
-    denormalized_LAF[:, :, 1, 1] *= MIN_SIZE
-
-    denormalized_LAF[:, :, 0, 2] *= (W - 1)
-    denormalized_LAF[:, :, 1, 2] *= (H - 1)
+    for b in range(B):
+        for n in range(N):
+            denormalized_LAF[b, n, :, :] = torch.mm(LAF[b, n, :, :], scaling_matrix)
 
     return denormalized_LAF
 

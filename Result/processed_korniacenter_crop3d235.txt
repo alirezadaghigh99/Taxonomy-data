@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'cudagraphs', 'jit', 'tvm', 'openxla', 'inductor', None}
+available optimizers: {'', 'onnxrt', 'cudagraphs', 'tvm', 'openxla', 'inductor', 'jit', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -52,7 +52,7 @@ collecting ... collected 8 items
 ../publishablew/kornia/kornia/tests/geometry/transform/test_crop3d.py::TestCenterCrop3D::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/transform/test_crop3d.py::TestCenterCrop3D::test_dynamo[cpu-float32-inductor] PASSED
 
-============================== 8 passed in 0.88s ===============================
+============================== 8 passed in 0.90s ===============================
 
 
 Final Test Result:
@@ -81,7 +81,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'onnxrt', 'cudagraphs', 'tvm', 'inductor', 'jit', None}
+available optimizers: {'', 'jit', 'inductor', 'cudagraphs', 'tvm', 'openxla', 'onnxrt', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -98,7 +98,7 @@ collecting ... collected 8 items
 ../publishablew/kornia/kornia/tests/geometry/transform/test_crop3d.py::TestCenterCrop3D::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/transform/test_crop3d.py::TestCenterCrop3D::test_dynamo[cpu-float32-inductor] PASSED
 
-============================== 8 passed in 3.63s ===============================
+============================== 8 passed in 3.66s ===============================
 
 
 Initial Result:
@@ -127,7 +127,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'tvm', 'jit', 'cudagraphs', 'onnxrt', 'inductor', None}
+available optimizers: {'', 'openxla', 'onnxrt', 'tvm', 'jit', 'inductor', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -144,4 +144,4 @@ collecting ... collected 8 items
 ../publishablew/kornia/kornia/tests/geometry/transform/test_crop3d.py::TestCenterCrop3D::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/transform/test_crop3d.py::TestCenterCrop3D::test_dynamo[cpu-float32-inductor] PASSED
 
-============================== 8 passed in 3.68s ===============================
+============================== 8 passed in 3.97s ===============================

@@ -7,35 +7,41 @@ def undistort_image(image, K, dist):
     Compensates an image for lens distortion.
 
     Parameters:
-    - image (torch.Tensor): Input image with shape (*, C, H, W)
-    - K (torch.Tensor): Intrinsic camera matrix with shape (*, 3, 3)
-    - dist (torch.Tensor): Distortion coefficients with shape (*, n)
+    - image: torch.Tensor, shape (*, C, H, W)
+    - K: torch.Tensor, shape (*, 3, 3)
+    - dist: torch.Tensor, shape (*, n)
 
     Returns:
-    - torch.Tensor: Undistorted image with the same shape as the input image
+    - undistorted_image: torch.Tensor, shape (*, C, H, W)
     """
-    # Ensure the input is a 4D tensor
-    assert image.ndim == 4, "Image must be a 4D tensor with shape (*, C, H, W)"
-    assert K.ndim == 3 and K.shape[1:] == (3, 3), "K must be a 3D tensor with shape (*, 3, 3)"
-    assert dist.ndim == 2, "dist must be a 2D tensor with shape (*, n)"
-    
-    batch_size, C, H, W = image.shape
-    undistorted_images = []
+    # Ensure the input is a batch of images
+    assert image.dim() >= 3, "Image tensor must have at least 3 dimensions"
+    assert K.dim() == 3, "Intrinsic matrix K must have 3 dimensions"
+    assert dist.dim() == 2, "Distortion coefficients must have 2 dimensions"
 
+    # Get the shape of the input image
+    batch_size, channels, height, width = image.shape
+
+    # Prepare the output tensor
+    undistorted_images = torch.empty_like(image)
+
+    # Process each image in the batch
     for i in range(batch_size):
-        img_np = image[i].permute(1, 2, 0).cpu().numpy()  # Convert to HWC format and numpy array
+        # Convert the image to a NumPy array
+        img_np = image[i].permute(1, 2, 0).cpu().numpy()
+
+        # Convert the intrinsic matrix and distortion coefficients to NumPy arrays
         K_np = K[i].cpu().numpy()
         dist_np = dist[i].cpu().numpy()
 
         # Undistort the image using OpenCV
         undistorted_img_np = cv2.undistort(img_np, K_np, dist_np)
 
-        # Convert back to CHW format and torch.Tensor
-        undistorted_img = torch.from_numpy(undistorted_img_np).permute(2, 0, 1)
-        undistorted_images.append(undistorted_img)
+        # Convert the undistorted image back to a PyTorch tensor
+        undistorted_img_tensor = torch.from_numpy(undistorted_img_np).permute(2, 0, 1)
 
-    # Stack the undistorted images back into a single tensor
-    undistorted_images = torch.stack(undistorted_images)
+        # Store the result in the output tensor
+        undistorted_images[i] = undistorted_img_tensor
 
     return undistorted_images
 

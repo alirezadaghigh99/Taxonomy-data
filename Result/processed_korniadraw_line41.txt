@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_point_size[cpu-float32-p11-p21]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_color_image_channel_size[cpu-float32-img_size1-color1]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_image_size[cpu-float32-img_size0] FAILED', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_line_m_lt_0_gte_neg1[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_line_m_lte_neg1[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p1_out_of_bounds[cpu-float32-p11]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_point_size[cpu-float32-p10-p20]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_color_image_channel_size[cpu-float32-img_size0-color0] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p2_out_of_bounds[cpu-float32-p20]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p1_out_of_bounds[cpu-float32-p10] FAILED', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p1_out_of_bounds[cpu-float32-p11] FAILED', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_line_m_gt_0_lt_1[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_line_m_gt_0_lt_1[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p2_out_of_bounds[cpu-float32-p21]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_line_m_lte_neg1[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p1_out_of_bounds[cpu-float32-p12]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_image_size[cpu-float32-img_size1]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p1_out_of_bounds[cpu-float32-p12] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p1_out_of_bounds[cpu-float32-p13]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p2_out_of_bounds[cpu-float32-p23] FAILED', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_image_size[cpu-float32-img_size1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_line_m_lt_0_gte_neg1[cpu-float32]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_color_image_channel_size[cpu-float32-img_size1-color1] FAILED', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_lines_batched[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p2_out_of_bounds[cpu-float32-p20] FAILED', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_point_size[cpu-float32-p11-p21] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_lines_batched[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_image_size[cpu-float32-img_size0]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p2_out_of_bounds[cpu-float32-p21] FAILED', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_point_size[cpu-float32-p10-p20] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p2_out_of_bounds[cpu-float32-p22]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p2_out_of_bounds[cpu-float32-p23]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_line_m_gte_1[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p1_out_of_bounds[cpu-float32-p13] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_line_m_gte_1[cpu-float32]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p2_out_of_bounds[cpu-float32-p22] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p1_out_of_bounds[cpu-float32-p10]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_color_image_channel_size[cpu-float32-img_size0-color0]'}
+{'../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_color_image_channel_size[cpu-float32-img_size1-color1] FAILED', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_point_size[cpu-float32-p11-p21] FAILED', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p1_out_of_bounds[cpu-float32-p10] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p2_out_of_bounds[cpu-float32-p21]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p2_out_of_bounds[cpu-float32-p21] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_point_size[cpu-float32-p11-p21]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_color_image_channel_size[cpu-float32-img_size0-color0] FAILED', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_point_size[cpu-float32-p10-p20] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p1_out_of_bounds[cpu-float32-p11]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_color_image_channel_size[cpu-float32-img_size0-color0]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p1_out_of_bounds[cpu-float32-p10]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p1_out_of_bounds[cpu-float32-p12] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_color_image_channel_size[cpu-float32-img_size1-color1]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_lines_batched[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_line_m_lte_neg1[cpu-float32]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_line_m_lte_neg1[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_line_m_lt_0_gte_neg1[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_lines_batched[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_image_size[cpu-float32-img_size0]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_line_m_gte_1[cpu-float32]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_line_m_gt_0_lt_1[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p1_out_of_bounds[cpu-float32-p11] FAILED', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_image_size[cpu-float32-img_size0] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_line_m_lt_0_gte_neg1[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p2_out_of_bounds[cpu-float32-p20]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p1_out_of_bounds[cpu-float32-p12]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_line_m_gt_0_lt_1[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p2_out_of_bounds[cpu-float32-p23]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_line_m_gte_1[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p1_out_of_bounds[cpu-float32-p13]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_image_size[cpu-float32-img_size1]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_image_size[cpu-float32-img_size1] FAILED', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p2_out_of_bounds[cpu-float32-p22] FAILED', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p2_out_of_bounds[cpu-float32-p23] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_point_size[cpu-float32-p10-p20]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p2_out_of_bounds[cpu-float32-p20] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p2_out_of_bounds[cpu-float32-p22]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_p1_out_of_bounds[cpu-float32-p13] FAILED'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'inductor', 'openxla', 'jit', 'onnxrt', 'tvm', None}
+available optimizers: {'', 'inductor', 'onnxrt', 'cudagraphs', 'openxla', 'jit', 'tvm', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -134,7 +134,7 @@ collecting ... collected 87 items
 =================================== FAILURES ===================================
 _____________ TestDrawLine.test_draw_line_m_lte_neg1[cpu-float32] ______________
 
-self = <test_draw.TestDrawLine object at 0x7096b8702d40>, dtype = torch.float32
+self = <test_draw.TestDrawLine object at 0x759499506ad0>, dtype = torch.float32
 device = device(type='cpu')
 
     def test_draw_line_m_lte_neg1(self, dtype, device):
@@ -202,7 +202,7 @@ E       Greatest relative difference: inf at index (0, 1, 5) (up to 0.0001 allow
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ___________ TestDrawLine.test_draw_line_m_lt_0_gte_neg1[cpu-float32] ___________
 
-self = <test_draw.TestDrawLine object at 0x7096b8703070>, dtype = torch.float32
+self = <test_draw.TestDrawLine object at 0x759499506e00>, dtype = torch.float32
 device = device(type='cpu')
 
     def test_draw_line_m_lt_0_gte_neg1(self, dtype, device):
@@ -270,7 +270,7 @@ E       Greatest relative difference: inf at index (0, 1, 6) (up to 0.0001 allow
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 _____________ TestDrawLine.test_draw_line_m_gt_0_lt_1[cpu-float32] _____________
 
-self = <test_draw.TestDrawLine object at 0x7096b87033a0>, dtype = torch.float32
+self = <test_draw.TestDrawLine object at 0x759499507130>, dtype = torch.float32
 device = device(type='cpu')
 
     def test_draw_line_m_gt_0_lt_1(self, dtype, device):
@@ -338,7 +338,7 @@ E       Greatest relative difference: inf at index (0, 0, 1) (up to 0.0001 allow
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 _______________ TestDrawLine.test_draw_line_m_gte_1[cpu-float32] _______________
 
-self = <test_draw.TestDrawLine object at 0x7096b87036d0>, dtype = torch.float32
+self = <test_draw.TestDrawLine object at 0x759499507460>, dtype = torch.float32
 device = device(type='cpu')
 
     def test_draw_line_m_gte_1(self, dtype, device):
@@ -406,7 +406,7 @@ E       Greatest relative difference: inf at index (0, 5, 2) (up to 0.0001 allow
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ______________ TestDrawLine.test_draw_lines_batched[cpu-float32] _______________
 
-self = <test_draw.TestDrawLine object at 0x7096b8703a00>, dtype = torch.float32
+self = <test_draw.TestDrawLine object at 0x759499507790>, dtype = torch.float32
 device = device(type='cpu')
 
     def test_draw_lines_batched(self, dtype, device):
@@ -476,7 +476,7 @@ E       Greatest relative difference: inf at index (0, 1, 5) (up to 0.0001 allow
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 _____________ TestDrawLine.test_p1_out_of_bounds[cpu-float32-p10] ______________
 
-self = <test_draw.TestDrawLine object at 0x7096b8703df0>, p1 = tensor([-1,  0])
+self = <test_draw.TestDrawLine object at 0x759499507b80>, p1 = tensor([-1,  0])
 dtype = torch.float32, device = device(type='cpu')
 
     @pytest.mark.parametrize(
@@ -485,13 +485,19 @@ dtype = torch.float32, device = device(type='cpu')
     def test_p1_out_of_bounds(self, p1, dtype, device):
         """Tests that an exception is raised if p1 is out of bounds."""
         img = torch.zeros(1, 8, 8, dtype=dtype, device=device)
->       with pytest.raises(ValueError) as excinfo:
-E       Failed: DID NOT RAISE <class 'ValueError'>
+        with pytest.raises(ValueError) as excinfo:
+            draw_line(img, p1, torch.tensor([0, 0]), torch.tensor([255]))
+    
+>       assert "p1 is out of bounds." == str(excinfo.value)
+E       AssertionError: assert 'p1 is out of bounds.' == 'Points must ... of the image'
+E         
+E         - Points must be within the bounds of the image
+E         + p1 is out of bounds.
 
-../publishablew/kornia/kornia/tests/utils/test_draw.py:246: Failed
+../publishablew/kornia/kornia/tests/utils/test_draw.py:249: AssertionError
 _____________ TestDrawLine.test_p1_out_of_bounds[cpu-float32-p11] ______________
 
-self = <test_draw.TestDrawLine object at 0x7096b8703d30>, p1 = tensor([ 0, -1])
+self = <test_draw.TestDrawLine object at 0x759499507ac0>, p1 = tensor([ 0, -1])
 dtype = torch.float32, device = device(type='cpu')
 
     @pytest.mark.parametrize(
@@ -500,13 +506,19 @@ dtype = torch.float32, device = device(type='cpu')
     def test_p1_out_of_bounds(self, p1, dtype, device):
         """Tests that an exception is raised if p1 is out of bounds."""
         img = torch.zeros(1, 8, 8, dtype=dtype, device=device)
->       with pytest.raises(ValueError) as excinfo:
-E       Failed: DID NOT RAISE <class 'ValueError'>
+        with pytest.raises(ValueError) as excinfo:
+            draw_line(img, p1, torch.tensor([0, 0]), torch.tensor([255]))
+    
+>       assert "p1 is out of bounds." == str(excinfo.value)
+E       AssertionError: assert 'p1 is out of bounds.' == 'Points must ... of the image'
+E         
+E         - Points must be within the bounds of the image
+E         + p1 is out of bounds.
 
-../publishablew/kornia/kornia/tests/utils/test_draw.py:246: Failed
+../publishablew/kornia/kornia/tests/utils/test_draw.py:249: AssertionError
 _____________ TestDrawLine.test_p1_out_of_bounds[cpu-float32-p12] ______________
 
-self = <test_draw.TestDrawLine object at 0x7096b8738190>, p1 = tensor([8, 0])
+self = <test_draw.TestDrawLine object at 0x759499507ee0>, p1 = tensor([8, 0])
 dtype = torch.float32, device = device(type='cpu')
 
     @pytest.mark.parametrize(
@@ -515,13 +527,19 @@ dtype = torch.float32, device = device(type='cpu')
     def test_p1_out_of_bounds(self, p1, dtype, device):
         """Tests that an exception is raised if p1 is out of bounds."""
         img = torch.zeros(1, 8, 8, dtype=dtype, device=device)
->       with pytest.raises(ValueError) as excinfo:
-E       Failed: DID NOT RAISE <class 'ValueError'>
+        with pytest.raises(ValueError) as excinfo:
+            draw_line(img, p1, torch.tensor([0, 0]), torch.tensor([255]))
+    
+>       assert "p1 is out of bounds." == str(excinfo.value)
+E       AssertionError: assert 'p1 is out of bounds.' == 'Points must ... of the image'
+E         
+E         - Points must be within the bounds of the image
+E         + p1 is out of bounds.
 
-../publishablew/kornia/kornia/tests/utils/test_draw.py:246: Failed
+../publishablew/kornia/kornia/tests/utils/test_draw.py:249: AssertionError
 _____________ TestDrawLine.test_p1_out_of_bounds[cpu-float32-p13] ______________
 
-self = <test_draw.TestDrawLine object at 0x7096b8738250>, p1 = tensor([0, 8])
+self = <test_draw.TestDrawLine object at 0x759499507fa0>, p1 = tensor([0, 8])
 dtype = torch.float32, device = device(type='cpu')
 
     @pytest.mark.parametrize(
@@ -530,13 +548,19 @@ dtype = torch.float32, device = device(type='cpu')
     def test_p1_out_of_bounds(self, p1, dtype, device):
         """Tests that an exception is raised if p1 is out of bounds."""
         img = torch.zeros(1, 8, 8, dtype=dtype, device=device)
->       with pytest.raises(ValueError) as excinfo:
-E       Failed: DID NOT RAISE <class 'ValueError'>
+        with pytest.raises(ValueError) as excinfo:
+            draw_line(img, p1, torch.tensor([0, 0]), torch.tensor([255]))
+    
+>       assert "p1 is out of bounds." == str(excinfo.value)
+E       AssertionError: assert 'p1 is out of bounds.' == 'Points must ... of the image'
+E         
+E         - Points must be within the bounds of the image
+E         + p1 is out of bounds.
 
-../publishablew/kornia/kornia/tests/utils/test_draw.py:246: Failed
+../publishablew/kornia/kornia/tests/utils/test_draw.py:249: AssertionError
 _____________ TestDrawLine.test_p2_out_of_bounds[cpu-float32-p20] ______________
 
-self = <test_draw.TestDrawLine object at 0x7096b8702e60>, p2 = tensor([-1,  0])
+self = <test_draw.TestDrawLine object at 0x759499506bf0>, p2 = tensor([-1,  0])
 dtype = torch.float32, device = device(type='cpu')
 
     @pytest.mark.parametrize(
@@ -545,13 +569,19 @@ dtype = torch.float32, device = device(type='cpu')
     def test_p2_out_of_bounds(self, p2, dtype, device):
         """Tests that an exception is raised if p2 is out of bounds."""
         img = torch.zeros(1, 8, 8, dtype=dtype, device=device)
->       with pytest.raises(ValueError) as excinfo:
-E       Failed: DID NOT RAISE <class 'ValueError'>
+        with pytest.raises(ValueError) as excinfo:
+            draw_line(img, torch.tensor([0, 0]), p2, torch.tensor([255]))
+    
+>       assert "p2 is out of bounds." == str(excinfo.value)
+E       AssertionError: assert 'p2 is out of bounds.' == 'Points must ... of the image'
+E         
+E         - Points must be within the bounds of the image
+E         + p2 is out of bounds.
 
-../publishablew/kornia/kornia/tests/utils/test_draw.py:257: Failed
+../publishablew/kornia/kornia/tests/utils/test_draw.py:260: AssertionError
 _____________ TestDrawLine.test_p2_out_of_bounds[cpu-float32-p21] ______________
 
-self = <test_draw.TestDrawLine object at 0x7096b87031c0>, p2 = tensor([ 0, -1])
+self = <test_draw.TestDrawLine object at 0x759499506f50>, p2 = tensor([ 0, -1])
 dtype = torch.float32, device = device(type='cpu')
 
     @pytest.mark.parametrize(
@@ -560,13 +590,19 @@ dtype = torch.float32, device = device(type='cpu')
     def test_p2_out_of_bounds(self, p2, dtype, device):
         """Tests that an exception is raised if p2 is out of bounds."""
         img = torch.zeros(1, 8, 8, dtype=dtype, device=device)
->       with pytest.raises(ValueError) as excinfo:
-E       Failed: DID NOT RAISE <class 'ValueError'>
+        with pytest.raises(ValueError) as excinfo:
+            draw_line(img, torch.tensor([0, 0]), p2, torch.tensor([255]))
+    
+>       assert "p2 is out of bounds." == str(excinfo.value)
+E       AssertionError: assert 'p2 is out of bounds.' == 'Points must ... of the image'
+E         
+E         - Points must be within the bounds of the image
+E         + p2 is out of bounds.
 
-../publishablew/kornia/kornia/tests/utils/test_draw.py:257: Failed
+../publishablew/kornia/kornia/tests/utils/test_draw.py:260: AssertionError
 _____________ TestDrawLine.test_p2_out_of_bounds[cpu-float32-p22] ______________
 
-self = <test_draw.TestDrawLine object at 0x7096b8701390>, p2 = tensor([8, 0])
+self = <test_draw.TestDrawLine object at 0x759499505120>, p2 = tensor([8, 0])
 dtype = torch.float32, device = device(type='cpu')
 
     @pytest.mark.parametrize(
@@ -575,13 +611,19 @@ dtype = torch.float32, device = device(type='cpu')
     def test_p2_out_of_bounds(self, p2, dtype, device):
         """Tests that an exception is raised if p2 is out of bounds."""
         img = torch.zeros(1, 8, 8, dtype=dtype, device=device)
->       with pytest.raises(ValueError) as excinfo:
-E       Failed: DID NOT RAISE <class 'ValueError'>
+        with pytest.raises(ValueError) as excinfo:
+            draw_line(img, torch.tensor([0, 0]), p2, torch.tensor([255]))
+    
+>       assert "p2 is out of bounds." == str(excinfo.value)
+E       AssertionError: assert 'p2 is out of bounds.' == 'Points must ... of the image'
+E         
+E         - Points must be within the bounds of the image
+E         + p2 is out of bounds.
 
-../publishablew/kornia/kornia/tests/utils/test_draw.py:257: Failed
+../publishablew/kornia/kornia/tests/utils/test_draw.py:260: AssertionError
 _____________ TestDrawLine.test_p2_out_of_bounds[cpu-float32-p23] ______________
 
-self = <test_draw.TestDrawLine object at 0x7096b87383a0>, p2 = tensor([0, 8])
+self = <test_draw.TestDrawLine object at 0x75949953c130>, p2 = tensor([0, 8])
 dtype = torch.float32, device = device(type='cpu')
 
     @pytest.mark.parametrize(
@@ -590,13 +632,19 @@ dtype = torch.float32, device = device(type='cpu')
     def test_p2_out_of_bounds(self, p2, dtype, device):
         """Tests that an exception is raised if p2 is out of bounds."""
         img = torch.zeros(1, 8, 8, dtype=dtype, device=device)
->       with pytest.raises(ValueError) as excinfo:
-E       Failed: DID NOT RAISE <class 'ValueError'>
+        with pytest.raises(ValueError) as excinfo:
+            draw_line(img, torch.tensor([0, 0]), p2, torch.tensor([255]))
+    
+>       assert "p2 is out of bounds." == str(excinfo.value)
+E       AssertionError: assert 'p2 is out of bounds.' == 'Points must ... of the image'
+E         
+E         - Points must be within the bounds of the image
+E         + p2 is out of bounds.
 
-../publishablew/kornia/kornia/tests/utils/test_draw.py:257: Failed
+../publishablew/kornia/kornia/tests/utils/test_draw.py:260: AssertionError
 _____________ TestDrawLine.test_image_size[cpu-float32-img_size0] ______________
 
-self = <test_draw.TestDrawLine object at 0x7096b8738730>, img_size = (200, 100)
+self = <test_draw.TestDrawLine object at 0x75949953c4c0>, img_size = (200, 100)
 dtype = torch.float32, device = device(type='cpu')
 
     @pytest.mark.parametrize("img_size", [(200, 100), (32, 3, 20, 20)])
@@ -619,25 +667,13 @@ image = tensor([[0., 0., 0.,  ..., 0., 0., 0.],
 p1 = tensor([0, 0]), p2 = tensor([1, 1]), color = tensor([255])
 
     def draw_line(image, p1, p2, color):
-        """
-        Draws a single line into an image.
-    
-        Parameters:
-        - image (torch.Tensor): The input image with shape (C, H, W).
-        - p1 (torch.Tensor): The start point [x, y] of the line with shape (2,) or (B, 2).
-        - p2 (torch.Tensor): The end point [x, y] of the line with shape (2,) or (B, 2).
-        - color (torch.Tensor): The color of the line with shape (C).
-    
-        Returns:
-        - torch.Tensor: The image with the drawn line.
-        """
->       assert image.dim() == 3, 'Image must have 3 dimensions (C, H, W)'
+>       assert image.ndim == 3, 'Image must have 3 dimensions (C, H, W)'
 E       AssertionError: Image must have 3 dimensions (C, H, W)
 
-../publishablew/kornia/kornia/kornia/utils/temp.py:20: AssertionError
+../publishablew/kornia/kornia/kornia/utils/temp.py:8: AssertionError
 _____________ TestDrawLine.test_image_size[cpu-float32-img_size1] ______________
 
-self = <test_draw.TestDrawLine object at 0x7096b8738670>
+self = <test_draw.TestDrawLine object at 0x75949953c400>
 img_size = (32, 3, 20, 20), dtype = torch.float32, device = device(type='cpu')
 
     @pytest.mark.parametrize("img_size", [(200, 100), (32, 3, 20, 20)])
@@ -660,25 +696,13 @@ image = tensor([[[[0., 0., 0.,  ..., 0., 0., 0.],
 p1 = tensor([0, 0]), p2 = tensor([1, 1]), color = tensor([255])
 
     def draw_line(image, p1, p2, color):
-        """
-        Draws a single line into an image.
-    
-        Parameters:
-        - image (torch.Tensor): The input image with shape (C, H, W).
-        - p1 (torch.Tensor): The start point [x, y] of the line with shape (2,) or (B, 2).
-        - p2 (torch.Tensor): The end point [x, y] of the line with shape (2,) or (B, 2).
-        - color (torch.Tensor): The color of the line with shape (C).
-    
-        Returns:
-        - torch.Tensor: The image with the drawn line.
-        """
->       assert image.dim() == 3, 'Image must have 3 dimensions (C, H, W)'
+>       assert image.ndim == 3, 'Image must have 3 dimensions (C, H, W)'
 E       AssertionError: Image must have 3 dimensions (C, H, W)
 
-../publishablew/kornia/kornia/kornia/utils/temp.py:20: AssertionError
+../publishablew/kornia/kornia/kornia/utils/temp.py:8: AssertionError
 ___ TestDrawLine.test_color_image_channel_size[cpu-float32-img_size0-color0] ___
 
-self = <test_draw.TestDrawLine object at 0x7096b8738be0>, img_size = (1, 8, 8)
+self = <test_draw.TestDrawLine object at 0x75949953c970>, img_size = (1, 8, 8)
 color = tensor([23, 53]), dtype = torch.float32, device = device(type='cpu')
 
     @pytest.mark.parametrize("img_size,color", [((1, 8, 8), torch.tensor([23, 53])), ((3, 8, 8), torch.tensor([255]))])
@@ -701,27 +725,15 @@ image = tensor([[[0., 0., 0., 0., 0., 0., 0., 0.],
 p1 = tensor([0, 0]), p2 = tensor([1, 1]), color = tensor([23, 53])
 
     def draw_line(image, p1, p2, color):
-        """
-        Draws a single line into an image.
-    
-        Parameters:
-        - image (torch.Tensor): The input image with shape (C, H, W).
-        - p1 (torch.Tensor): The start point [x, y] of the line with shape (2,) or (B, 2).
-        - p2 (torch.Tensor): The end point [x, y] of the line with shape (2,) or (B, 2).
-        - color (torch.Tensor): The color of the line with shape (C).
-    
-        Returns:
-        - torch.Tensor: The image with the drawn line.
-        """
-        assert image.dim() == 3, 'Image must have 3 dimensions (C, H, W)'
+        assert image.ndim == 3, 'Image must have 3 dimensions (C, H, W)'
         C, H, W = image.shape
 >       assert color.shape == (C,), 'Color must have the same number of channels as the image'
 E       AssertionError: Color must have the same number of channels as the image
 
-../publishablew/kornia/kornia/kornia/utils/temp.py:22: AssertionError
+../publishablew/kornia/kornia/kornia/utils/temp.py:10: AssertionError
 ___ TestDrawLine.test_color_image_channel_size[cpu-float32-img_size1-color1] ___
 
-self = <test_draw.TestDrawLine object at 0x7096b8738b20>, img_size = (3, 8, 8)
+self = <test_draw.TestDrawLine object at 0x75949953c8b0>, img_size = (3, 8, 8)
 color = tensor([255]), dtype = torch.float32, device = device(type='cpu')
 
     @pytest.mark.parametrize("img_size,color", [((1, 8, 8), torch.tensor([23, 53])), ((3, 8, 8), torch.tensor([255]))])
@@ -744,45 +756,33 @@ image = tensor([[[0., 0., 0., 0., 0., 0., 0., 0.],
 p1 = tensor([0, 0]), p2 = tensor([1, 1]), color = tensor([255])
 
     def draw_line(image, p1, p2, color):
-        """
-        Draws a single line into an image.
-    
-        Parameters:
-        - image (torch.Tensor): The input image with shape (C, H, W).
-        - p1 (torch.Tensor): The start point [x, y] of the line with shape (2,) or (B, 2).
-        - p2 (torch.Tensor): The end point [x, y] of the line with shape (2,) or (B, 2).
-        - color (torch.Tensor): The color of the line with shape (C).
-    
-        Returns:
-        - torch.Tensor: The image with the drawn line.
-        """
-        assert image.dim() == 3, 'Image must have 3 dimensions (C, H, W)'
+        assert image.ndim == 3, 'Image must have 3 dimensions (C, H, W)'
         C, H, W = image.shape
 >       assert color.shape == (C,), 'Color must have the same number of channels as the image'
 E       AssertionError: Color must have the same number of channels as the image
 
-../publishablew/kornia/kornia/kornia/utils/temp.py:22: AssertionError
+../publishablew/kornia/kornia/kornia/utils/temp.py:10: AssertionError
 ______________ TestDrawLine.test_point_size[cpu-float32-p10-p20] _______________
 
-self = <test_draw.TestDrawLine object at 0x7096b87390f0>
-p1 = tensor([[0.2333, 0.4221],
-        [0.8735, 0.4768],
-        [0.6855, 0.1059],
-        [0.1699, 0.1059],
-        [0.849...7079, 0.0396],
-        [0.8349, 0.4345],
-        [0.4121, 0.9825],
-        [0.3620, 0.6443],
-        [0.4568, 0.7960]])
-p2 = tensor([[0.8358, 0.5371],
-        [0.5583, 0.8824],
-        [0.1392, 0.1091],
-        [0.1945, 0.7276],
-        [0.784...3303, 0.2236],
-        [0.6256, 0.9809],
-        [0.9616, 0.4503],
-        [0.2456, 0.9077],
-        [0.0788, 0.2036]])
+self = <test_draw.TestDrawLine object at 0x75949953ce80>
+p1 = tensor([[0.9588, 0.7870],
+        [0.6344, 0.0019],
+        [0.1681, 0.4101],
+        [0.7943, 0.5153],
+        [0.197...5772, 0.8867],
+        [0.1154, 0.1109],
+        [0.3026, 0.2066],
+        [0.6245, 0.0079],
+        [0.5775, 0.0861]])
+p2 = tensor([[0.4097, 0.8746],
+        [0.9821, 0.6488],
+        [0.5898, 0.6983],
+        [0.0519, 0.9759],
+        [0.267...1835, 0.4733],
+        [0.3562, 0.6531],
+        [0.9447, 0.9888],
+        [0.4692, 0.9776],
+        [0.8314, 0.0144]])
 dtype = torch.float32, device = device(type='cpu')
 
     @pytest.mark.parametrize("p1,p2", [(torch.rand([10, 2]), torch.rand([20, 2])), (torch.rand([2]), torch.rand([3]))])
@@ -802,54 +802,50 @@ image = tensor([[[0., 0., 0., 0., 0., 0., 0., 0.],
          [0., 0., 0., 0., 0., 0....., 0., 0., 0., 0., 0., 0., 0.],
          [0., 0., 0., 0., 0., 0., 0., 0.],
          [0., 0., 0., 0., 0., 0., 0., 0.]]])
-p1 = tensor([[0.2333, 0.4221],
-        [0.8735, 0.4768],
-        [0.6855, 0.1059],
-        [0.1699, 0.1059],
-        [0.849...7079, 0.0396],
-        [0.8349, 0.4345],
-        [0.4121, 0.9825],
-        [0.3620, 0.6443],
-        [0.4568, 0.7960]])
-p2 = tensor([[0.8358, 0.5371],
-        [0.5583, 0.8824],
-        [0.1392, 0.1091],
-        [0.1945, 0.7276],
-        [0.784...3303, 0.2236],
-        [0.6256, 0.9809],
-        [0.9616, 0.4503],
-        [0.2456, 0.9077],
-        [0.0788, 0.2036]])
+p1 = tensor([[0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0]], dtype=torch.int32)
+p2 = tensor([[0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+      ...0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0]], dtype=torch.int32)
 color = tensor([255])
 
     def draw_line(image, p1, p2, color):
-        """
-        Draws a single line into an image.
-    
-        Parameters:
-        - image (torch.Tensor): The input image with shape (C, H, W).
-        - p1 (torch.Tensor): The start point [x, y] of the line with shape (2,) or (B, 2).
-        - p2 (torch.Tensor): The end point [x, y] of the line with shape (2,) or (B, 2).
-        - color (torch.Tensor): The color of the line with shape (C).
-    
-        Returns:
-        - torch.Tensor: The image with the drawn line.
-        """
-        assert image.dim() == 3, 'Image must have 3 dimensions (C, H, W)'
+        assert image.ndim == 3, 'Image must have 3 dimensions (C, H, W)'
         C, H, W = image.shape
         assert color.shape == (C,), 'Color must have the same number of channels as the image'
-        if p1.dim() == 1:
+        p1 = torch.tensor(p1, dtype=torch.int32)
+        p2 = torch.tensor(p2, dtype=torch.int32)
+        if p1.ndim == 1:
             p1 = p1.unsqueeze(0)
-        if p2.dim() == 1:
+        if p2.ndim == 1:
             p2 = p2.unsqueeze(0)
 >       assert p1.shape == p2.shape, 'p1 and p2 must have the same shape'
 E       AssertionError: p1 and p2 must have the same shape
 
-../publishablew/kornia/kornia/kornia/utils/temp.py:27: AssertionError
+../publishablew/kornia/kornia/kornia/utils/temp.py:17: AssertionError
 ______________ TestDrawLine.test_point_size[cpu-float32-p11-p21] _______________
 
-self = <test_draw.TestDrawLine object at 0x7096b8739030>
-p1 = tensor([0.5025, 0.0955]), p2 = tensor([0.0441, 0.8066, 0.3533])
+self = <test_draw.TestDrawLine object at 0x75949953cdc0>
+p1 = tensor([0.9231, 0.6102]), p2 = tensor([0.5906, 0.4653, 0.7604])
 dtype = torch.float32, device = device(type='cpu')
 
     @pytest.mark.parametrize("p1,p2", [(torch.rand([10, 2]), torch.rand([20, 2])), (torch.rand([2]), torch.rand([3]))])
@@ -869,33 +865,33 @@ image = tensor([[[0., 0., 0., 0., 0., 0., 0., 0.],
          [0., 0., 0., 0., 0., 0....., 0., 0., 0., 0., 0., 0., 0.],
          [0., 0., 0., 0., 0., 0., 0., 0.],
          [0., 0., 0., 0., 0., 0., 0., 0.]]])
-p1 = tensor([[0.5025, 0.0955]]), p2 = tensor([[0.0441, 0.8066, 0.3533]])
-color = tensor([255])
+p1 = tensor([[0, 0]], dtype=torch.int32)
+p2 = tensor([[0, 0, 0]], dtype=torch.int32), color = tensor([255])
 
     def draw_line(image, p1, p2, color):
-        """
-        Draws a single line into an image.
-    
-        Parameters:
-        - image (torch.Tensor): The input image with shape (C, H, W).
-        - p1 (torch.Tensor): The start point [x, y] of the line with shape (2,) or (B, 2).
-        - p2 (torch.Tensor): The end point [x, y] of the line with shape (2,) or (B, 2).
-        - color (torch.Tensor): The color of the line with shape (C).
-    
-        Returns:
-        - torch.Tensor: The image with the drawn line.
-        """
-        assert image.dim() == 3, 'Image must have 3 dimensions (C, H, W)'
+        assert image.ndim == 3, 'Image must have 3 dimensions (C, H, W)'
         C, H, W = image.shape
         assert color.shape == (C,), 'Color must have the same number of channels as the image'
-        if p1.dim() == 1:
+        p1 = torch.tensor(p1, dtype=torch.int32)
+        p2 = torch.tensor(p2, dtype=torch.int32)
+        if p1.ndim == 1:
             p1 = p1.unsqueeze(0)
-        if p2.dim() == 1:
+        if p2.ndim == 1:
             p2 = p2.unsqueeze(0)
 >       assert p1.shape == p2.shape, 'p1 and p2 must have the same shape'
 E       AssertionError: p1 and p2 must have the same shape
 
-../publishablew/kornia/kornia/kornia/utils/temp.py:27: AssertionError
+../publishablew/kornia/kornia/kornia/utils/temp.py:17: AssertionError
+=============================== warnings summary ===============================
+tests/utils/test_draw.py: 18 warnings
+  /local/data0/moved_data/publishablew/kornia/kornia/kornia/utils/temp.py:11: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+    p1 = torch.tensor(p1, dtype=torch.int32)
+
+tests/utils/test_draw.py: 18 warnings
+  /local/data0/moved_data/publishablew/kornia/kornia/kornia/utils/temp.py:12: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+    p2 = torch.tensor(p2, dtype=torch.int32)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
 =========================== short test summary info ============================
 FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_line_m_lte_neg1[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_draw_line_m_lt_0_gte_neg1[cpu-float32]
@@ -916,7 +912,7 @@ FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::tes
 FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_color_image_channel_size[cpu-float32-img_size1-color1]
 FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_point_size[cpu-float32-p10-p20]
 FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawLine::test_point_size[cpu-float32-p11-p21]
-======================== 19 failed, 68 passed in 0.82s =========================
+================== 19 failed, 68 passed, 36 warnings in 0.90s ==================
 
 
 Final Test Result:
@@ -945,7 +941,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'onnxrt', 'jit', 'inductor', 'cudagraphs', None, 'openxla'}
+available optimizers: {'', 'onnxrt', 'openxla', 'jit', 'inductor', 'tvm', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -1041,7 +1037,7 @@ collecting ... collected 87 items
 ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestFillConvexPolygon::test_batch_color_no_batch[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestFillConvexPolygon::test_out_of_bounds_rectangle[cpu-float32] PASSED
 
-============================== 87 passed in 0.38s ==============================
+============================== 87 passed in 0.35s ==============================
 
 
 Initial Result:
@@ -1070,7 +1066,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'jit', 'onnxrt', 'openxla', 'inductor', 'cudagraphs', None}
+available optimizers: {'', 'cudagraphs', 'onnxrt', 'tvm', 'openxla', 'inductor', None, 'jit'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia

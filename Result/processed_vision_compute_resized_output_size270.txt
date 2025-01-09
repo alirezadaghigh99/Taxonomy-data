@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-35-29] FAILED'}
+{'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-34]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-29-35] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-29-35]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-35-29] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-27-27]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-34-28]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-29-35]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-29-35] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-34]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-35-29] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-27-27] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-35-29]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-34-28]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-34] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-34-28] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-27-27] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-35-29]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-34] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-34-28] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-27-27]', '../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-27-27] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,178 +18,1954 @@ configfile: pytest.ini
 plugins: mock-3.14.0
 collecting ... collected 108 items
 
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-27-27] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-34] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-29-35] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-34-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-35-29] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-27-27] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-34] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-29-35] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-34-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-35-29] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-27-27] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-34] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-29-35] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-34-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-35-29] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-27-27] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-34] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-29-35] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-34-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-35-29] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-27-27] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-34] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-29-35] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-34-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-35-29] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-27-27] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-34] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-29-35] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-34-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-35-29] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-27-27] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-34] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-29-35] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-34-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-35-29] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-27-27] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-34] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-29-35] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-34-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-35-29] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-27-27] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-34] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-29-35] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-34-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-35-29] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-27-27] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-27-27] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-34] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-29-35] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-34-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-35-29] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-27-27] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-34] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-29-35] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-34-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-35-29] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-27-27] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-34] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-29-35] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-34-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-35-29] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-27-27] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-34] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-29-35] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-34-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-35-29] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-27-27] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-34] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-29-35] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-34-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-35-29] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-27-27] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-34] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-29-35] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-34-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-35-29] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-27-27] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-34] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-29-35] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-34-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-35-29] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-27-27] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-34] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-29-35] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-34-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-35-29] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-27-27] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-34] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-29-35] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-34-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-35-29] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-27-27] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-34] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-29-35] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-34-28] FAILED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-35-29] FAILED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-27-27] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-34] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-29-35] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-34-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-35-29] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-27-27] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-34] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-29-35] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-34-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-35-29] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-27-27] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-34] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-29-35] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-34-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-35-29] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-27-27] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-34] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-29-35] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-34-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-35-29] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-27-27] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-34] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-29-35] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-34-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-35-29] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-27-27] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-34] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-29-35] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-34-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-35-29] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-27-27] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-34] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-29-35] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-34-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-35-29] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-27-27] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-34] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-29-35] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-34-28] PASSED
-../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-35-29] PASSED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-27-27] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-34] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-29-35] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-34-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-35-29] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-27-27] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-34] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-29-35] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-34-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-35-29] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-27-27] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-34] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-29-35] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-34-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-35-29] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-27-27] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-34] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-29-35] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-34-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-35-29] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-27-27] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-34] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-29-35] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-34-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-35-29] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-27-27] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-34] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-29-35] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-34-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-35-29] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-27-27] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-34] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-29-35] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-34-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-35-29] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-27-27] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-34] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-29-35] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-34-28] FAILED
+../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-35-29] FAILED
 
 =================================== FAILURES ===================================
+__________________________ test_resize[None-22-28-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-22-27-27] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-22-28-34] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-22-29-35] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-22-34-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-22-35-29] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-27-28-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-27-27-27] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-27-28-34] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-27-29-35] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-27-34-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-27-35-29] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-28-28-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-28-27-27] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-28-28-34] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-28-29-35] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-28-34-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-28-35-29] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-36-28-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-36-27-27] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-36-28-34] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-36-29-35] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-36-34-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[None-36-35-29] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[None-osize4-28-28] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[None-osize4-27-27] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[None-osize4-28-34] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[None-osize4-29-35] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[None-osize4-34-28] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[None-osize4-35-29] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[None-osize5-28-28] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[None-osize5-27-27] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[None-osize5-28-34] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[None-osize5-29-35] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[None-osize5-34-28] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[None-osize5-35-29] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-22-28-28] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-22-27-27] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-22-28-34] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-22-29-35] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-22-34-28] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-22-35-29] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-27-28-28] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-27-27-27] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-27-28-34] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-27-29-35] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-27-34-28] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-27-35-29] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-28-28-28] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-28-27-27] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-28-28-34] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-28-29-35] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-28-34-28] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-28-35-29] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-36-28-28] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+___________________________ test_resize[37-36-27-27] ___________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
 ___________________________ test_resize[37-36-28-34] ___________________________
-../publishablew/vision/vision/test/test_transforms.py:380: in test_resize
-    assert result.size == (exp_w, exp_h), msg
-E   AssertionError: 28, 34 - 36 - 37
-E   assert (37, 36) == (37, 30)
-E     
-E     At index 1 diff: 36 != 30
-E     
-E     Full diff:
-E       (
-E           37,
-E     -     30,...
-E     
-E     ...Full output truncated (4 lines hidden), use '-vv' to show
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
 ___________________________ test_resize[37-36-29-35] ___________________________
-../publishablew/vision/vision/test/test_transforms.py:380: in test_resize
-    assert result.size == (exp_w, exp_h), msg
-E   AssertionError: 29, 35 - 36 - 37
-E   assert (37, 36) == (37, 30)
-E     
-E     At index 1 diff: 36 != 30
-E     
-E     Full diff:
-E       (
-E           37,
-E     -     30,...
-E     
-E     ...Full output truncated (4 lines hidden), use '-vv' to show
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
 ___________________________ test_resize[37-36-34-28] ___________________________
-../publishablew/vision/vision/test/test_transforms.py:385: in test_resize
-    assert result.size == (exp_w, exp_h), msg
-E   AssertionError: 34, 28 - 36 - 37
-E   assert (36, 37) == (30, 37)
-E     
-E     At index 0 diff: 36 != 30
-E     
-E     Full diff:
-E       (
-E     -     30,
-E     ?      ^...
-E     
-E     ...Full output truncated (4 lines hidden), use '-vv' to show
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
 ___________________________ test_resize[37-36-35-29] ___________________________
-../publishablew/vision/vision/test/test_transforms.py:385: in test_resize
-    assert result.size == (exp_w, exp_h), msg
-E   AssertionError: 35, 29 - 36 - 37
-E   assert (36, 37) == (30, 37)
-E     
-E     At index 0 diff: 36 != 30
-E     
-E     Full diff:
-E       (
-E     -     30,
-E     ?      ^...
-E     
-E     ...Full output truncated (4 lines hidden), use '-vv' to show
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+_________________________ test_resize[37-osize4-28-28] _________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+_________________________ test_resize[37-osize4-27-27] _________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+_________________________ test_resize[37-osize4-28-34] _________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+_________________________ test_resize[37-osize4-29-35] _________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+_________________________ test_resize[37-osize4-34-28] _________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+_________________________ test_resize[37-osize4-35-29] _________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+_________________________ test_resize[37-osize5-28-28] _________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+_________________________ test_resize[37-osize5-27-27] _________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+_________________________ test_resize[37-osize5-28-34] _________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+_________________________ test_resize[37-osize5-29-35] _________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+_________________________ test_resize[37-osize5-34-28] _________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+_________________________ test_resize[37-osize5-35-29] _________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-22-28-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-22-27-27] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-22-28-34] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-22-29-35] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-22-34-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-22-35-29] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-27-28-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-27-27-27] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-27-28-34] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-27-29-35] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-27-34-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-27-35-29] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-28-28-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-28-27-27] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-28-28-34] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-28-29-35] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-28-34-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-28-35-29] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-36-28-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-36-27-27] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-36-28-34] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-36-29-35] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-36-34-28] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+__________________________ test_resize[1000-36-35-29] __________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[1000-osize4-28-28] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[1000-osize4-27-27] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[1000-osize4-28-34] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[1000-osize4-29-35] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[1000-osize4-34-28] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[1000-osize4-35-29] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[1000-osize5-28-28] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[1000-osize5-27-27] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[1000-osize5-28-34] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[1000-osize5-29-35] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[1000-osize5-34-28] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
+________________________ test_resize[1000-osize5-35-29] ________________________
+../publishablew/vision/vision/test/test_transforms.py:370: in test_resize
+    result = t(img)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:354: in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+../publishablew/vision/vision/torchvision/transforms/functional.py:373: in resize
+    output_size = _compute_resized_output_size((image_height, image_width), size, max_size)
+../publishablew/vision/vision/torchvision/transforms/functional.py:283: in _compute_resized_output_size
+    return _compute_resized_output_size(image_size, size, max_size, allow_size_none)
+../publishablew/vision/vision/torchvision/transforms/temp.py:41: in _compute_resized_output_size
+    raise ValueError('size must be an int or a list/tuple of two integers.')
+E   ValueError: size must be an int or a list/tuple of two integers.
 =========================== short test summary info ============================
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-28-34]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-34-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-22-35-29]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-28-34]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-34-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-27-35-29]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-28-34]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-34-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-28-35-29]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-28-34]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-34-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-36-35-29]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-28-34]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-34-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize4-35-29]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-28-34]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-34-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[None-osize5-35-29]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-28-34]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-34-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-22-35-29]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-28-34]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-34-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-27-35-29]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-28-34]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-34-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-28-35-29]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-27-27]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-28-34]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-29-35]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-34-28]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-36-35-29]
-======================== 4 failed, 104 passed in 0.63s =========================
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-28-34]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-34-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize4-35-29]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-28-34]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-34-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[37-osize5-35-29]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-28-34]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-34-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-22-35-29]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-28-34]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-34-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-27-35-29]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-28-34]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-34-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-28-35-29]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-28-34]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-34-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-36-35-29]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-28-34]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-34-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize4-35-29]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-27-27]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-28-34]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-29-35]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-34-28]
+FAILED ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-35-29]
+============================= 108 failed in 13.00s =============================
 
 
 Final Test Result:
@@ -310,7 +2086,7 @@ collecting ... collected 108 items
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-34-28] PASSED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-35-29] PASSED
 
-============================= 108 passed in 0.44s ==============================
+============================= 108 passed in 0.36s ==============================
 
 
 Initial Result:
@@ -431,4 +2207,4 @@ collecting ... collected 108 items
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-34-28] PASSED
 ../publishablew/vision/vision/test/test_transforms.py::test_resize[1000-osize5-35-29] PASSED
 
-============================= 108 passed in 0.43s ==============================
+============================= 108 passed in 0.40s ==============================

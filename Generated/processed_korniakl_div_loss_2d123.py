@@ -9,18 +9,15 @@ def kl_div_loss_2d(pred, target, reduction='mean'):
         pred: the input tensor with shape (B, N, H, W).
         target: the target tensor with shape (B, N, H, W).
         reduction: Specifies the reduction to apply to the output: 'none' | 'mean' | 'sum'.
-                   'none': no reduction will be applied,
-                   'mean': the sum of the output will be divided by the number of elements in the output,
-                   'sum': the output will be summed.
 
     Returns:
         The KL divergence loss.
     """
     # Ensure the input tensors are in log space
     pred_log = torch.log(pred + 1e-10)  # Add a small value to avoid log(0)
-    target_log = torch.log(target + 1e-10)  # Add a small value to avoid log(0)
+    target_log = torch.log(target + 1e-10)
 
-    # Compute the KL divergence
+    # Calculate the KL divergence
     kl_div = F.kl_div(pred_log, target, reduction='none')
 
     # Apply the specified reduction
@@ -31,5 +28,5 @@ def kl_div_loss_2d(pred, target, reduction='mean'):
     elif reduction == 'none':
         return kl_div
     else:
-        raise ValueError(f"Invalid reduction mode: {reduction}")
+        raise ValueError(f"Invalid reduction type: {reduction}")
 

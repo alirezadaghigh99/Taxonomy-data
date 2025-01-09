@@ -65,7 +65,7 @@ tests/test_multiannotator.py::test_format_multiannotator_labels
     formatted_labels = labels.replace(label_map)
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-======================== 13 passed, 2 warnings in 3.08s ========================
+======================== 13 passed, 2 warnings in 3.14s ========================
 
 
 Final Test Result:
@@ -124,7 +124,7 @@ tests/test_multiannotator.py::test_format_multiannotator_labels
     formatted_labels = labels.replace(label_map)
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-======================== 13 passed, 2 warnings in 2.92s ========================
+======================== 13 passed, 2 warnings in 2.95s ========================
 
 
 Initial Result:
@@ -183,4 +183,4 @@ tests/test_multiannotator.py::test_format_multiannotator_labels
     formatted_labels = labels.replace(label_map)
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-======================== 13 passed, 2 warnings in 3.22s ========================
+======================== 13 passed, 2 warnings in 3.16s ========================

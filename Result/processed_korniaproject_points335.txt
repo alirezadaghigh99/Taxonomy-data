@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'inductor', 'openxla', 'tvm', 'jit', 'cudagraphs', None}
+available optimizers: {'', 'jit', 'inductor', 'openxla', 'tvm', 'onnxrt', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -61,7 +61,7 @@ collecting ... collected 17 items
 ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_jit[cpu-float32] PASSED
 
-============================== 17 passed in 0.24s ==============================
+============================== 17 passed in 0.22s ==============================
 
 
 Final Test Result:
@@ -90,7 +90,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'inductor', 'cudagraphs', 'tvm', 'jit', 'onnxrt', None}
+available optimizers: {'', 'openxla', 'jit', 'onnxrt', 'tvm', 'cudagraphs', 'inductor', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -145,7 +145,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'openxla', 'jit', 'inductor', 'cudagraphs', 'onnxrt', None}
+available optimizers: {'', 'onnxrt', 'cudagraphs', 'openxla', 'jit', 'inductor', None, 'tvm'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -171,4 +171,4 @@ collecting ... collected 17 items
 ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_jit[cpu-float32] PASSED
 
-============================== 17 passed in 0.19s ==============================
+============================== 17 passed in 0.24s ==============================

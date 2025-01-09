@@ -6,84 +6,79 @@ def orthogonal_mp(X, y, n_nonzero_coefs=None, tol=None, precompute=False, copy_X
     Orthogonal Matching Pursuit (OMP) algorithm.
 
     Parameters:
-    X : array-like of shape (n_samples, n_features)
-        Input data.
-    y : ndarray of shape (n_samples,) or (n_samples, n_targets)
-        Target values.
-    n_nonzero_coefs : int, optional
-        Desired number of non-zero entries in the solution.
-    tol : float, optional
-        Maximum norm of the residual.
-    precompute : bool, optional
-        Whether to precompute Gram matrix.
-    copy_X : bool, optional
-        Whether to copy X.
-    return_path : bool, optional
-        Whether to return the coefficient path.
-    return_n_iter : bool, optional
-        Whether to return the number of iterations.
+    - X: array-like of shape (n_samples, n_features)
+    - y: ndarray of shape (n_samples,) or (n_samples, n_targets)
+    - n_nonzero_coefs: int, optional, default=None
+    - tol: float, optional, default=None
+    - precompute: bool, optional, default=False
+    - copy_X: bool, optional, default=True
+    - return_path: bool, optional, default=False
+    - return_n_iter: bool, optional, default=False
 
     Returns:
-    coef : ndarray of shape (n_features,) or (n_features, n_targets)
-        Coefficients of the OMP solution.
-    n_iters : int, optional
-        Number of active features across every target.
+    - coef: ndarray of shape (n_features,) or (n_features, n_targets)
+    - n_iters: int, optional, number of active features across every target
     """
     if copy_X:
         X = X.copy()
     if y.ndim == 1:
         y = y[:, np.newaxis]
-    
+
     n_samples, n_features = X.shape
     n_targets = y.shape[1]
-    
+
     if n_nonzero_coefs is None and tol is None:
         raise ValueError("Either n_nonzero_coefs or tol must be provided.")
-    
-    if precompute:
-        Gram = X.T @ X
-        Xy = X.T @ y
-    else:
-        Gram = None
-        Xy = None
-    
+
+    if n_nonzero_coefs is not None and tol is not None:
+        raise ValueError("Only one of n_nonzero_coefs or tol should be provided.")
+
+    if n_nonzero_coefs is None:
+        n_nonzero_coefs = n_features
+
     coef = np.zeros((n_features, n_targets))
     residuals = y.copy()
-    active_set = []
-    n_iters = 0
-    
-    for k in range(n_features):
+    indices = []
+    path = []
+
+    for k in range(n_nonzero_coefs):
         if tol is not None and norm(residuals) ** 2 <= tol:
             break
-        if n_nonzero_coefs is not None and len(active_set) >= n_nonzero_coefs:
-            break
-        
-        if precompute:
-            correlations = Xy - Gram @ coef
-        else:
-            correlations = X.T @ residuals
-        
+
+        # Compute correlations
+        correlations = X.T @ residuals
+        if n_targets == 1:
+            correlations = correlations.flatten()
+
+        # Select the feature with the maximum correlation
         new_idx = np.argmax(np.abs(correlations), axis=0)
-        active_set.append(new_idx)
-        
-        if precompute:
-            A = Gram[np.ix_(active_set, active_set)]
-            b = Xy[active_set]
-        else:
-            A = X[:, active_set]
-            b = y
-        
-        coef_active, _, _, _ = lstsq(A, b, rcond=None)
-        
-        if precompute:
-            coef[active_set] = coef_active
-        else:
-            coef[active_set] = coef_active
-        
-        residuals = y - X @ coef
-        n_iters += 1
-    
+        indices.append(new_idx)
+
+        # Update the selected features
+        X_selected = X[:, indices]
+
+        # Solve least squares problem
+        coef_selected, _, _, _ = lstsq(X_selected, y, rcond=None)
+
+        # Update residuals
+        residuals = y - X_selected @ coef_selected
+
+        # Store the path
+        if return_path:
+            coef_path = np.zeros((n_features, n_targets))
+            coef_path[indices] = coef_selected
+            path.append(coef_path)
+
+    # Final coefficients
+    coef[indices] = coef_selected
+
     if return_path:
-        return coef, active_set, n_iters if return_n_iter else coef, active_set
-    return (coef, n_iters) if return_n_iter else coef
+        path = np.array(path)
+
+    if return_n_iter:
+        return coef, len(indices)
+    elif return_path:
+        return coef, path
+    else:
+        return coef
 

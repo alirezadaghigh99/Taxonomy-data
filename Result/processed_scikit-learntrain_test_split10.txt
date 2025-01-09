@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_empty_trainset', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_pandas', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split[coo_matrix] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_default_test_size[None-7-3] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_pandas FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[coo_matrix] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[coo_matrix]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_32bit_overflow', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[csc_matrix] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_errors FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_allow_nans', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[coo_array]', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[coo_array] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_list_input', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split[coo_array]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_default_test_size[8-8-2]', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_mock_pandas FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_default_test_size[0.8-8-2]', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[csc_array] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[csr_matrix] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_default_test_size[8-8-2] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_list_input FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[csc_array]', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_empty_trainset FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_default_test_size[None-7-3]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_mock_pandas', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[csc_matrix]', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[csr_array] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_allow_nans FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_errors', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split[coo_matrix]', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_default_test_size[0.8-8-2] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[csr_matrix]', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split[coo_array] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_32bit_overflow FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[csr_array]'}
+{'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_default_test_size[0.8-8-2]', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_allow_nans FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[csc_array] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split[coo_matrix]', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_default_test_size[0.8-8-2] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[csc_array]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[coo_matrix]', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_default_test_size[None-7-3] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split[coo_array]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_32bit_overflow', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_default_test_size[None-7-3]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_default_test_size[8-8-2]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_pandas', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_32bit_overflow FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[csr_matrix]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[csr_array]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_mock_pandas', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_default_test_size[8-8-2] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[csr_array] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_errors FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_list_input FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_pandas FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[coo_array]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_list_input', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_mock_pandas FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_empty_trainset FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[coo_matrix] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_empty_trainset', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[coo_array] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_errors', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split[coo_matrix] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[csc_matrix]', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[csr_matrix] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split[coo_array] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_allow_nans', '../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_sparse[csc_matrix] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 249 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_cross_validator_with_default_params I: Seeding RNGs with 423996264
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_cross_validator_with_default_params I: Seeding RNGs with 535235497
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_2d_y PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_kfold_valueerrors PASSED
@@ -310,37 +310,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 test_size = None, train_size = None, random_state = None, shuffle = True
 
     def train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None):
-        """
-        Split arrays or matrices into random train and test subsets.
-    
-        Parameters:
-        *arrays : sequence of indexables with same length / shape[0]
-            Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes.
-        test_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the test split.
-            If int, represents the absolute number of test samples.
-            If None, the value is set to the complement of the train size.
-        train_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the train split.
-            If int, represents the absolute number of train samples.
-            If None, the value is automatically set to the complement of the test size.
-        random_state : int, RandomState instance or None, default=None
-            Controls the shuffling applied to the data before applying the split.
-        shuffle : bool, default=True
-            Whether or not to shuffle the data before splitting.
-        stratify : array-like or None, default=None
-            If not None, data is split in a stratified fashion, using this as the class labels.
-    
-        Returns:
-        splitting : list, length=2 * len(arrays)
-            List containing train-test split of inputs.
-        """
-        n_arrays = len(arrays)
-        if n_arrays == 0:
->           raise ValueError('At least one array required as input')
-E           ValueError: At least one array required as input
+        if not arrays:
+>           raise ValueError('At least one array is required as input.')
+E           ValueError: At least one array is required as input.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:51: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:22: ValueError
 
 During handling of the above exception, another exception occurred:
 
@@ -372,7 +346,7 @@ During handling of the above exception, another exception occurred:
 >           train_test_split(range(10), train_size=11, test_size=1)
 E           AssertionError: Regex pattern did not match.
 E            Regex: 'train_size=11 should be either positive and smaller than the number of samples 10 or a float in the \\(0, 1\\) range'
-E            Input: 'At least one array required as input'
+E            Input: 'At least one array is required as input.'
 
 ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py:1297: AssertionError
 ______________ test_train_test_split_default_test_size[None-7-3] _______________
@@ -398,37 +372,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 test_size = None, train_size = None, random_state = None, shuffle = True
 
     def train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None):
-        """
-        Split arrays or matrices into random train and test subsets.
-    
-        Parameters:
-        *arrays : sequence of indexables with same length / shape[0]
-            Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes.
-        test_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the test split.
-            If int, represents the absolute number of test samples.
-            If None, the value is set to the complement of the train size.
-        train_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the train split.
-            If int, represents the absolute number of train samples.
-            If None, the value is automatically set to the complement of the test size.
-        random_state : int, RandomState instance or None, default=None
-            Controls the shuffling applied to the data before applying the split.
-        shuffle : bool, default=True
-            Whether or not to shuffle the data before splitting.
-        stratify : array-like or None, default=None
-            If not None, data is split in a stratified fashion, using this as the class labels.
-    
-        Returns:
-        splitting : list, length=2 * len(arrays)
-            List containing train-test split of inputs.
-        """
-        n_arrays = len(arrays)
-        if n_arrays == 0:
->           raise ValueError('At least one array required as input')
-E           ValueError: At least one array required as input
+        if not arrays:
+>           raise ValueError('At least one array is required as input.')
+E           ValueError: At least one array is required as input.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:51: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:22: ValueError
 ________________ test_train_test_split_default_test_size[8-8-2] ________________
 
 train_size = 8, exp_train = 8, exp_test = 2
@@ -452,37 +400,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 test_size = None, train_size = None, random_state = None, shuffle = True
 
     def train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None):
-        """
-        Split arrays or matrices into random train and test subsets.
-    
-        Parameters:
-        *arrays : sequence of indexables with same length / shape[0]
-            Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes.
-        test_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the test split.
-            If int, represents the absolute number of test samples.
-            If None, the value is set to the complement of the train size.
-        train_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the train split.
-            If int, represents the absolute number of train samples.
-            If None, the value is automatically set to the complement of the test size.
-        random_state : int, RandomState instance or None, default=None
-            Controls the shuffling applied to the data before applying the split.
-        shuffle : bool, default=True
-            Whether or not to shuffle the data before splitting.
-        stratify : array-like or None, default=None
-            If not None, data is split in a stratified fashion, using this as the class labels.
-    
-        Returns:
-        splitting : list, length=2 * len(arrays)
-            List containing train-test split of inputs.
-        """
-        n_arrays = len(arrays)
-        if n_arrays == 0:
->           raise ValueError('At least one array required as input')
-E           ValueError: At least one array required as input
+        if not arrays:
+>           raise ValueError('At least one array is required as input.')
+E           ValueError: At least one array is required as input.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:51: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:22: ValueError
 _______________ test_train_test_split_default_test_size[0.8-8-2] _______________
 
 train_size = 0.8, exp_train = 8, exp_test = 2
@@ -506,37 +428,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 test_size = None, train_size = None, random_state = None, shuffle = True
 
     def train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None):
-        """
-        Split arrays or matrices into random train and test subsets.
-    
-        Parameters:
-        *arrays : sequence of indexables with same length / shape[0]
-            Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes.
-        test_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the test split.
-            If int, represents the absolute number of test samples.
-            If None, the value is set to the complement of the train size.
-        train_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the train split.
-            If int, represents the absolute number of train samples.
-            If None, the value is automatically set to the complement of the test size.
-        random_state : int, RandomState instance or None, default=None
-            Controls the shuffling applied to the data before applying the split.
-        shuffle : bool, default=True
-            Whether or not to shuffle the data before splitting.
-        stratify : array-like or None, default=None
-            If not None, data is split in a stratified fashion, using this as the class labels.
-    
-        Returns:
-        splitting : list, length=2 * len(arrays)
-            List containing train-test split of inputs.
-        """
-        n_arrays = len(arrays)
-        if n_arrays == 0:
->           raise ValueError('At least one array required as input')
-E           ValueError: At least one array required as input
+        if not arrays:
+>           raise ValueError('At least one array is required as input.')
+E           ValueError: At least one array is required as input.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:51: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:22: ValueError
 ______________________ test_train_test_split[coo_matrix] _______________________
 
 coo_container = <class 'scipy.sparse._coo.coo_matrix'>
@@ -561,37 +457,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 test_size = None, train_size = None, random_state = None, shuffle = True
 
     def train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None):
-        """
-        Split arrays or matrices into random train and test subsets.
-    
-        Parameters:
-        *arrays : sequence of indexables with same length / shape[0]
-            Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes.
-        test_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the test split.
-            If int, represents the absolute number of test samples.
-            If None, the value is set to the complement of the train size.
-        train_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the train split.
-            If int, represents the absolute number of train samples.
-            If None, the value is automatically set to the complement of the test size.
-        random_state : int, RandomState instance or None, default=None
-            Controls the shuffling applied to the data before applying the split.
-        shuffle : bool, default=True
-            Whether or not to shuffle the data before splitting.
-        stratify : array-like or None, default=None
-            If not None, data is split in a stratified fashion, using this as the class labels.
-    
-        Returns:
-        splitting : list, length=2 * len(arrays)
-            List containing train-test split of inputs.
-        """
-        n_arrays = len(arrays)
-        if n_arrays == 0:
->           raise ValueError('At least one array required as input')
-E           ValueError: At least one array required as input
+        if not arrays:
+>           raise ValueError('At least one array is required as input.')
+E           ValueError: At least one array is required as input.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:51: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:22: ValueError
 _______________________ test_train_test_split[coo_array] _______________________
 
 coo_container = <class 'scipy.sparse._coo.coo_array'>
@@ -616,37 +486,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 test_size = None, train_size = None, random_state = None, shuffle = True
 
     def train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None):
-        """
-        Split arrays or matrices into random train and test subsets.
-    
-        Parameters:
-        *arrays : sequence of indexables with same length / shape[0]
-            Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes.
-        test_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the test split.
-            If int, represents the absolute number of test samples.
-            If None, the value is set to the complement of the train size.
-        train_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the train split.
-            If int, represents the absolute number of train samples.
-            If None, the value is automatically set to the complement of the test size.
-        random_state : int, RandomState instance or None, default=None
-            Controls the shuffling applied to the data before applying the split.
-        shuffle : bool, default=True
-            Whether or not to shuffle the data before splitting.
-        stratify : array-like or None, default=None
-            If not None, data is split in a stratified fashion, using this as the class labels.
-    
-        Returns:
-        splitting : list, length=2 * len(arrays)
-            List containing train-test split of inputs.
-        """
-        n_arrays = len(arrays)
-        if n_arrays == 0:
->           raise ValueError('At least one array required as input')
-E           ValueError: At least one array required as input
+        if not arrays:
+>           raise ValueError('At least one array is required as input.')
+E           ValueError: At least one array is required as input.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:51: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:22: ValueError
 _____________________ test_train_test_split_32bit_overflow _____________________
 
     def test_train_test_split_32bit_overflow():
@@ -678,37 +522,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 test_size = None, train_size = None, random_state = None, shuffle = True
 
     def train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None):
-        """
-        Split arrays or matrices into random train and test subsets.
-    
-        Parameters:
-        *arrays : sequence of indexables with same length / shape[0]
-            Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes.
-        test_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the test split.
-            If int, represents the absolute number of test samples.
-            If None, the value is set to the complement of the train size.
-        train_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the train split.
-            If int, represents the absolute number of train samples.
-            If None, the value is automatically set to the complement of the test size.
-        random_state : int, RandomState instance or None, default=None
-            Controls the shuffling applied to the data before applying the split.
-        shuffle : bool, default=True
-            Whether or not to shuffle the data before splitting.
-        stratify : array-like or None, default=None
-            If not None, data is split in a stratified fashion, using this as the class labels.
-    
-        Returns:
-        splitting : list, length=2 * len(arrays)
-            List containing train-test split of inputs.
-        """
-        n_arrays = len(arrays)
-        if n_arrays == 0:
->           raise ValueError('At least one array required as input')
-E           ValueError: At least one array required as input
+        if not arrays:
+>           raise ValueError('At least one array is required as input.')
+E           ValueError: At least one array is required as input.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:51: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:22: ValueError
 _________________________ test_train_test_split_pandas _________________________
 
     def test_train_test_split_pandas():
@@ -736,37 +554,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 test_size = None, train_size = None, random_state = None, shuffle = True
 
     def train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None):
-        """
-        Split arrays or matrices into random train and test subsets.
-    
-        Parameters:
-        *arrays : sequence of indexables with same length / shape[0]
-            Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes.
-        test_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the test split.
-            If int, represents the absolute number of test samples.
-            If None, the value is set to the complement of the train size.
-        train_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the train split.
-            If int, represents the absolute number of train samples.
-            If None, the value is automatically set to the complement of the test size.
-        random_state : int, RandomState instance or None, default=None
-            Controls the shuffling applied to the data before applying the split.
-        shuffle : bool, default=True
-            Whether or not to shuffle the data before splitting.
-        stratify : array-like or None, default=None
-            If not None, data is split in a stratified fashion, using this as the class labels.
-    
-        Returns:
-        splitting : list, length=2 * len(arrays)
-            List containing train-test split of inputs.
-        """
-        n_arrays = len(arrays)
-        if n_arrays == 0:
->           raise ValueError('At least one array required as input')
-E           ValueError: At least one array required as input
+        if not arrays:
+>           raise ValueError('At least one array is required as input.')
+E           ValueError: At least one array is required as input.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:51: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:22: ValueError
 ___________________ test_train_test_split_sparse[coo_matrix] ___________________
 
 sparse_container = <class 'scipy.sparse._coo.coo_matrix'>
@@ -792,37 +584,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 test_size = None, train_size = None, random_state = None, shuffle = True
 
     def train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None):
-        """
-        Split arrays or matrices into random train and test subsets.
-    
-        Parameters:
-        *arrays : sequence of indexables with same length / shape[0]
-            Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes.
-        test_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the test split.
-            If int, represents the absolute number of test samples.
-            If None, the value is set to the complement of the train size.
-        train_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the train split.
-            If int, represents the absolute number of train samples.
-            If None, the value is automatically set to the complement of the test size.
-        random_state : int, RandomState instance or None, default=None
-            Controls the shuffling applied to the data before applying the split.
-        shuffle : bool, default=True
-            Whether or not to shuffle the data before splitting.
-        stratify : array-like or None, default=None
-            If not None, data is split in a stratified fashion, using this as the class labels.
-    
-        Returns:
-        splitting : list, length=2 * len(arrays)
-            List containing train-test split of inputs.
-        """
-        n_arrays = len(arrays)
-        if n_arrays == 0:
->           raise ValueError('At least one array required as input')
-E           ValueError: At least one array required as input
+        if not arrays:
+>           raise ValueError('At least one array is required as input.')
+E           ValueError: At least one array is required as input.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:51: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:22: ValueError
 ___________________ test_train_test_split_sparse[coo_array] ____________________
 
 sparse_container = <class 'scipy.sparse._coo.coo_array'>
@@ -848,37 +614,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 test_size = None, train_size = None, random_state = None, shuffle = True
 
     def train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None):
-        """
-        Split arrays or matrices into random train and test subsets.
-    
-        Parameters:
-        *arrays : sequence of indexables with same length / shape[0]
-            Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes.
-        test_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the test split.
-            If int, represents the absolute number of test samples.
-            If None, the value is set to the complement of the train size.
-        train_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the train split.
-            If int, represents the absolute number of train samples.
-            If None, the value is automatically set to the complement of the test size.
-        random_state : int, RandomState instance or None, default=None
-            Controls the shuffling applied to the data before applying the split.
-        shuffle : bool, default=True
-            Whether or not to shuffle the data before splitting.
-        stratify : array-like or None, default=None
-            If not None, data is split in a stratified fashion, using this as the class labels.
-    
-        Returns:
-        splitting : list, length=2 * len(arrays)
-            List containing train-test split of inputs.
-        """
-        n_arrays = len(arrays)
-        if n_arrays == 0:
->           raise ValueError('At least one array required as input')
-E           ValueError: At least one array required as input
+        if not arrays:
+>           raise ValueError('At least one array is required as input.')
+E           ValueError: At least one array is required as input.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:51: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:22: ValueError
 ___________________ test_train_test_split_sparse[csc_matrix] ___________________
 
 sparse_container = <class 'scipy.sparse._csc.csc_matrix'>
@@ -904,37 +644,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 test_size = None, train_size = None, random_state = None, shuffle = True
 
     def train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None):
-        """
-        Split arrays or matrices into random train and test subsets.
-    
-        Parameters:
-        *arrays : sequence of indexables with same length / shape[0]
-            Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes.
-        test_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the test split.
-            If int, represents the absolute number of test samples.
-            If None, the value is set to the complement of the train size.
-        train_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the train split.
-            If int, represents the absolute number of train samples.
-            If None, the value is automatically set to the complement of the test size.
-        random_state : int, RandomState instance or None, default=None
-            Controls the shuffling applied to the data before applying the split.
-        shuffle : bool, default=True
-            Whether or not to shuffle the data before splitting.
-        stratify : array-like or None, default=None
-            If not None, data is split in a stratified fashion, using this as the class labels.
-    
-        Returns:
-        splitting : list, length=2 * len(arrays)
-            List containing train-test split of inputs.
-        """
-        n_arrays = len(arrays)
-        if n_arrays == 0:
->           raise ValueError('At least one array required as input')
-E           ValueError: At least one array required as input
+        if not arrays:
+>           raise ValueError('At least one array is required as input.')
+E           ValueError: At least one array is required as input.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:51: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:22: ValueError
 ___________________ test_train_test_split_sparse[csc_array] ____________________
 
 sparse_container = <class 'scipy.sparse._csc.csc_array'>
@@ -960,37 +674,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 test_size = None, train_size = None, random_state = None, shuffle = True
 
     def train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None):
-        """
-        Split arrays or matrices into random train and test subsets.
-    
-        Parameters:
-        *arrays : sequence of indexables with same length / shape[0]
-            Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes.
-        test_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the test split.
-            If int, represents the absolute number of test samples.
-            If None, the value is set to the complement of the train size.
-        train_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the train split.
-            If int, represents the absolute number of train samples.
-            If None, the value is automatically set to the complement of the test size.
-        random_state : int, RandomState instance or None, default=None
-            Controls the shuffling applied to the data before applying the split.
-        shuffle : bool, default=True
-            Whether or not to shuffle the data before splitting.
-        stratify : array-like or None, default=None
-            If not None, data is split in a stratified fashion, using this as the class labels.
-    
-        Returns:
-        splitting : list, length=2 * len(arrays)
-            List containing train-test split of inputs.
-        """
-        n_arrays = len(arrays)
-        if n_arrays == 0:
->           raise ValueError('At least one array required as input')
-E           ValueError: At least one array required as input
+        if not arrays:
+>           raise ValueError('At least one array is required as input.')
+E           ValueError: At least one array is required as input.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:51: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:22: ValueError
 ___________________ test_train_test_split_sparse[csr_matrix] ___________________
 
 sparse_container = <class 'scipy.sparse._csr.csr_matrix'>
@@ -1016,37 +704,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 test_size = None, train_size = None, random_state = None, shuffle = True
 
     def train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None):
-        """
-        Split arrays or matrices into random train and test subsets.
-    
-        Parameters:
-        *arrays : sequence of indexables with same length / shape[0]
-            Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes.
-        test_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the test split.
-            If int, represents the absolute number of test samples.
-            If None, the value is set to the complement of the train size.
-        train_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the train split.
-            If int, represents the absolute number of train samples.
-            If None, the value is automatically set to the complement of the test size.
-        random_state : int, RandomState instance or None, default=None
-            Controls the shuffling applied to the data before applying the split.
-        shuffle : bool, default=True
-            Whether or not to shuffle the data before splitting.
-        stratify : array-like or None, default=None
-            If not None, data is split in a stratified fashion, using this as the class labels.
-    
-        Returns:
-        splitting : list, length=2 * len(arrays)
-            List containing train-test split of inputs.
-        """
-        n_arrays = len(arrays)
-        if n_arrays == 0:
->           raise ValueError('At least one array required as input')
-E           ValueError: At least one array required as input
+        if not arrays:
+>           raise ValueError('At least one array is required as input.')
+E           ValueError: At least one array is required as input.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:51: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:22: ValueError
 ___________________ test_train_test_split_sparse[csr_array] ____________________
 
 sparse_container = <class 'scipy.sparse._csr.csr_array'>
@@ -1072,37 +734,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 test_size = None, train_size = None, random_state = None, shuffle = True
 
     def train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None):
-        """
-        Split arrays or matrices into random train and test subsets.
-    
-        Parameters:
-        *arrays : sequence of indexables with same length / shape[0]
-            Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes.
-        test_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the test split.
-            If int, represents the absolute number of test samples.
-            If None, the value is set to the complement of the train size.
-        train_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the train split.
-            If int, represents the absolute number of train samples.
-            If None, the value is automatically set to the complement of the test size.
-        random_state : int, RandomState instance or None, default=None
-            Controls the shuffling applied to the data before applying the split.
-        shuffle : bool, default=True
-            Whether or not to shuffle the data before splitting.
-        stratify : array-like or None, default=None
-            If not None, data is split in a stratified fashion, using this as the class labels.
-    
-        Returns:
-        splitting : list, length=2 * len(arrays)
-            List containing train-test split of inputs.
-        """
-        n_arrays = len(arrays)
-        if n_arrays == 0:
->           raise ValueError('At least one array required as input')
-E           ValueError: At least one array required as input
+        if not arrays:
+>           raise ValueError('At least one array is required as input.')
+E           ValueError: At least one array is required as input.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:51: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:22: ValueError
 ______________________ test_train_test_split_mock_pandas _______________________
 
     def test_train_test_split_mock_pandas():
@@ -1121,37 +757,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 test_size = None, train_size = None, random_state = None, shuffle = True
 
     def train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None):
-        """
-        Split arrays or matrices into random train and test subsets.
-    
-        Parameters:
-        *arrays : sequence of indexables with same length / shape[0]
-            Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes.
-        test_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the test split.
-            If int, represents the absolute number of test samples.
-            If None, the value is set to the complement of the train size.
-        train_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the train split.
-            If int, represents the absolute number of train samples.
-            If None, the value is automatically set to the complement of the test size.
-        random_state : int, RandomState instance or None, default=None
-            Controls the shuffling applied to the data before applying the split.
-        shuffle : bool, default=True
-            Whether or not to shuffle the data before splitting.
-        stratify : array-like or None, default=None
-            If not None, data is split in a stratified fashion, using this as the class labels.
-    
-        Returns:
-        splitting : list, length=2 * len(arrays)
-            List containing train-test split of inputs.
-        """
-        n_arrays = len(arrays)
-        if n_arrays == 0:
->           raise ValueError('At least one array required as input')
-E           ValueError: At least one array required as input
+        if not arrays:
+>           raise ValueError('At least one array is required as input.')
+E           ValueError: At least one array is required as input.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:51: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:22: ValueError
 _______________________ test_train_test_split_list_input _______________________
 
     def test_train_test_split_list_input():
@@ -1177,37 +787,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 test_size = None, train_size = None, random_state = None, shuffle = True
 
     def train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None):
-        """
-        Split arrays or matrices into random train and test subsets.
-    
-        Parameters:
-        *arrays : sequence of indexables with same length / shape[0]
-            Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes.
-        test_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the test split.
-            If int, represents the absolute number of test samples.
-            If None, the value is set to the complement of the train size.
-        train_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the train split.
-            If int, represents the absolute number of train samples.
-            If None, the value is automatically set to the complement of the test size.
-        random_state : int, RandomState instance or None, default=None
-            Controls the shuffling applied to the data before applying the split.
-        shuffle : bool, default=True
-            Whether or not to shuffle the data before splitting.
-        stratify : array-like or None, default=None
-            If not None, data is split in a stratified fashion, using this as the class labels.
-    
-        Returns:
-        splitting : list, length=2 * len(arrays)
-            List containing train-test split of inputs.
-        """
-        n_arrays = len(arrays)
-        if n_arrays == 0:
->           raise ValueError('At least one array required as input')
-E           ValueError: At least one array required as input
+        if not arrays:
+>           raise ValueError('At least one array is required as input.')
+E           ValueError: At least one array is required as input.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:51: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:22: ValueError
 _______________________ test_train_test_split_allow_nans _______________________
 
     def test_train_test_split_allow_nans():
@@ -1228,37 +812,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 test_size = None, train_size = None, random_state = None, shuffle = True
 
     def train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None):
-        """
-        Split arrays or matrices into random train and test subsets.
-    
-        Parameters:
-        *arrays : sequence of indexables with same length / shape[0]
-            Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes.
-        test_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the test split.
-            If int, represents the absolute number of test samples.
-            If None, the value is set to the complement of the train size.
-        train_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the train split.
-            If int, represents the absolute number of train samples.
-            If None, the value is automatically set to the complement of the test size.
-        random_state : int, RandomState instance or None, default=None
-            Controls the shuffling applied to the data before applying the split.
-        shuffle : bool, default=True
-            Whether or not to shuffle the data before splitting.
-        stratify : array-like or None, default=None
-            If not None, data is split in a stratified fashion, using this as the class labels.
-    
-        Returns:
-        splitting : list, length=2 * len(arrays)
-            List containing train-test split of inputs.
-        """
-        n_arrays = len(arrays)
-        if n_arrays == 0:
->           raise ValueError('At least one array required as input')
-E           ValueError: At least one array required as input
+        if not arrays:
+>           raise ValueError('At least one array is required as input.')
+E           ValueError: At least one array is required as input.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:51: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:22: ValueError
 _____________________ test_train_test_split_empty_trainset _____________________
 
     def test_train_test_split_empty_trainset():
@@ -1283,37 +841,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 test_size = None, train_size = None, random_state = None, shuffle = True
 
     def train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None):
-        """
-        Split arrays or matrices into random train and test subsets.
-    
-        Parameters:
-        *arrays : sequence of indexables with same length / shape[0]
-            Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes.
-        test_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the test split.
-            If int, represents the absolute number of test samples.
-            If None, the value is set to the complement of the train size.
-        train_size : float, int, or None, default=None
-            If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the train split.
-            If int, represents the absolute number of train samples.
-            If None, the value is automatically set to the complement of the test size.
-        random_state : int, RandomState instance or None, default=None
-            Controls the shuffling applied to the data before applying the split.
-        shuffle : bool, default=True
-            Whether or not to shuffle the data before splitting.
-        stratify : array-like or None, default=None
-            If not None, data is split in a stratified fashion, using this as the class labels.
-    
-        Returns:
-        splitting : list, length=2 * len(arrays)
-            List containing train-test split of inputs.
-        """
-        n_arrays = len(arrays)
-        if n_arrays == 0:
->           raise ValueError('At least one array required as input')
-E           ValueError: At least one array required as input
+        if not arrays:
+>           raise ValueError('At least one array is required as input.')
+E           ValueError: At least one array is required as input.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:51: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/temp.py:22: ValueError
 
 During handling of the above exception, another exception occurred:
 
@@ -1329,7 +861,7 @@ During handling of the above exception, another exception occurred:
 >           train_test_split(X, test_size=0.99)
 E           AssertionError: Regex pattern did not match.
 E            Regex: 'With n_samples=1, test_size=0.99 and train_size=None, the resulting train set will be empty'
-E            Input: 'At least one array required as input'
+E            Input: 'At least one array is required as input.'
 
 ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py:1976: AssertionError
 =========================== short test summary info ============================
@@ -1351,7 +883,7 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/t
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_list_input
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_allow_nans
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_train_test_split_empty_trainset
-=========== 18 failed, 207 passed, 24 skipped, 84 warnings in 8.19s ============
+=========== 18 failed, 207 passed, 24 skipped, 84 warnings in 8.32s ============
 
 
 Final Test Result:
@@ -1363,7 +895,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 249 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_cross_validator_with_default_params I: Seeding RNGs with 992742936
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_cross_validator_with_default_params I: Seeding RNGs with 1338511115
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_2d_y PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_kfold_valueerrors PASSED
@@ -1614,7 +1146,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_stratified_splitter_without_y[StratifiedShuffleSplit(n_splits=10, random_state=None, test_size=None,\n            train_size=None)] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_stratified_splitter_without_y[RepeatedStratifiedKFold(n_repeats=10, n_splits=5, random_state=None)] PASSED
 
-================= 225 passed, 24 skipped, 84 warnings in 7.08s =================
+================= 225 passed, 24 skipped, 84 warnings in 7.40s =================
 
 
 Initial Result:
@@ -1626,7 +1158,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 249 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_cross_validator_with_default_params I: Seeding RNGs with 111028275
+../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_cross_validator_with_default_params I: Seeding RNGs with 1499019223
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_2d_y PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_kfold_valueerrors PASSED
@@ -1877,4 +1409,4 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_stratified_splitter_without_y[StratifiedShuffleSplit(n_splits=10, random_state=None, test_size=None,\n            train_size=None)] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/model_selection/tests/test_split.py::test_stratified_splitter_without_y[RepeatedStratifiedKFold(n_repeats=10, n_splits=5, random_state=None)] PASSED
 
-================= 225 passed, 24 skipped, 84 warnings in 7.20s =================
+================= 225 passed, 24 skipped, 84 warnings in 7.48s =================

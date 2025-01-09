@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_multilabel_zero_one_loss_subset FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_multilabel_zero_one_loss_subset', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_multilabel_accuracy_score_subset_accuracy FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_multilabel_accuracy_score_subset_accuracy'}
+{'../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_multilabel_accuracy_score_subset_accuracy FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_multilabel_accuracy_score_subset_accuracy', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_multilabel_zero_one_loss_subset FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_multilabel_zero_one_loss_subset'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 208 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 524829532
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 1997090487
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_output_dict_empty_input PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_zero_division_warning[warn] PASSED
@@ -244,16 +244,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return func(*args, **kwargs)
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/_classification.py:93: in accuracy_score
     return accuracy_score(y_true, y_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:36: in accuracy_score
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:37: in accuracy_score
     correct = sum((w for yt, yp, w in zip(y_true, y_pred, sample_weight) if yt == yp))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-.0 = <zip object at 0x763a21c3ae40>
+.0 = <zip object at 0x737bda0350c0>
 
 >   correct = sum((w for yt, yp, w in zip(y_true, y_pred, sample_weight) if yt == yp))
 E   ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:36: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:37: ValueError
 _____________________ test_multilabel_zero_one_loss_subset _____________________
 
     def test_multilabel_zero_one_loss_subset():
@@ -273,20 +273,20 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return func(*args, **kwargs)
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/_classification.py:93: in accuracy_score
     return accuracy_score(y_true, y_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:36: in accuracy_score
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:37: in accuracy_score
     correct = sum((w for yt, yp, w in zip(y_true, y_pred, sample_weight) if yt == yp))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-.0 = <zip object at 0x763a21b1b980>
+.0 = <zip object at 0x737bd51d6b80>
 
 >   correct = sum((w for yt, yp, w in zip(y_true, y_pred, sample_weight) if yt == yp))
 E   ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:36: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:37: ValueError
 =========================== short test summary info ============================
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_multilabel_accuracy_score_subset_accuracy
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_multilabel_zero_one_loss_subset
-============ 2 failed, 203 passed, 3 skipped, 19 warnings in 2.46s =============
+============ 2 failed, 203 passed, 3 skipped, 19 warnings in 2.56s =============
 
 
 Final Test Result:
@@ -298,7 +298,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 208 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 178591560
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 171403806
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_output_dict_empty_input PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_zero_division_warning[warn] PASSED
@@ -508,7 +508,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score_raises PASSED
 
-================= 205 passed, 3 skipped, 19 warnings in 2.19s ==================
+================= 205 passed, 3 skipped, 19 warnings in 2.24s ==================
 
 
 Initial Result:
@@ -520,7 +520,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 208 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 1495520972
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 922151702
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_output_dict_empty_input PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_zero_division_warning[warn] PASSED
@@ -730,4 +730,4 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score_raises PASSED
 
-================= 205 passed, 3 skipped, 19 warnings in 2.27s ==================
+================= 205 passed, 3 skipped, 19 warnings in 2.35s ==================

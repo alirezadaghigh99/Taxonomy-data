@@ -1,55 +1,58 @@
-import numpy as np
 from PIL import Image
+import numpy as np
 import torch
 
 def to_pil_image(pic, mode=None):
+    # Check if the input is a numpy array or a PyTorch tensor
     if not isinstance(pic, (np.ndarray, torch.Tensor)):
-        raise TypeError("Input pic must be a numpy array or a torch tensor.")
+        raise TypeError("Input must be a numpy array or a PyTorch tensor.")
     
+    # Convert PyTorch tensor to numpy array if necessary
     if isinstance(pic, torch.Tensor):
         pic = pic.detach().cpu().numpy()
     
+    # Check the dimensions of the input
     if pic.ndim not in {2, 3}:
-        raise ValueError("Input pic must be 2D or 3D.")
+        raise ValueError("Input image must be 2D or 3D.")
     
+    # Handle 2D images (single channel)
     if pic.ndim == 2:
         if mode is None:
-            mode = "L"
-        if mode not in {"L", "I", "I;16", "F"}:
-            raise ValueError(f"Unsupported mode {mode} for 1-channel image.")
+            mode = 'L'
+        if mode not in {'L', 'I', 'I;16', 'F'}:
+            raise ValueError(f"Mode {mode} is not supported for 1-channel images.")
         return Image.fromarray(pic, mode)
     
+    # Handle 3D images
     if pic.ndim == 3:
-        if pic.shape[2] not in {1, 2, 3, 4}:
-            raise ValueError("Input pic must have 1, 2, 3, or 4 channels.")
+        channels = pic.shape[2]
+        if channels > 4:
+            raise ValueError("Input image must have at most 4 channels.")
         
-        if pic.shape[2] == 1:
-            if mode is None:
-                mode = "L"
-            if mode not in {"L", "I", "I;16", "F"}:
-                raise ValueError(f"Unsupported mode {mode} for 1-channel image.")
-            return Image.fromarray(pic[:, :, 0], mode)
+        # Default mode based on the number of channels
+        if mode is None:
+            if channels == 1:
+                mode = 'L'
+            elif channels == 2:
+                mode = 'LA'
+            elif channels == 3:
+                mode = 'RGB'
+            elif channels == 4:
+                mode = 'RGBA'
         
-        if pic.shape[2] == 2:
-            if mode is None:
-                mode = "LA"
-            if mode != "LA":
-                raise ValueError(f"Unsupported mode {mode} for 2-channel image.")
-            return Image.fromarray(pic, mode)
+        # Validate mode based on the number of channels
+        valid_modes = {
+            1: {'L', 'I', 'I;16', 'F'},
+            2: {'LA'},
+            3: {'RGB', 'YCbCr', 'HSV'},
+            4: {'RGBA', 'CMYK', 'RGBX'}
+        }
         
-        if pic.shape[2] == 3:
-            if mode is None:
-                mode = "RGB"
-            if mode not in {"RGB", "YCbCr", "HSV"}:
-                raise ValueError(f"Unsupported mode {mode} for 3-channel image.")
-            return Image.fromarray(pic, mode)
+        if mode not in valid_modes.get(channels, set()):
+            raise ValueError(f"Mode {mode} is not supported for {channels}-channel images.")
         
-        if pic.shape[2] == 4:
-            if mode is None:
-                mode = "RGBA"
-            if mode not in {"RGBA", "CMYK", "RGBX"}:
-                raise ValueError(f"Unsupported mode {mode} for 4-channel image.")
-            return Image.fromarray(pic, mode)
+        return Image.fromarray(pic, mode)
     
-    raise ValueError("Unsupported image format.")
+    # If the function reaches this point, something unexpected happened
+    raise TypeError("Unexpected input type or dimensions.")
 

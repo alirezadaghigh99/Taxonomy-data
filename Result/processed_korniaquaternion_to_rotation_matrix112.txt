@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'openxla', 'inductor', 'jit', 'cudagraphs', 'tvm', None}
+available optimizers: {'', 'onnxrt', 'tvm', 'openxla', 'inductor', 'jit', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -56,7 +56,7 @@ collecting ... collected 12 items
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToRotationMatrix::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToRotationMatrix::test_dynamo[cpu-float32-inductor] PASSED
 
-============================== 12 passed in 2.06s ==============================
+============================== 12 passed in 2.97s ==============================
 
 
 Final Test Result:
@@ -85,7 +85,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'inductor', 'cudagraphs', 'tvm', 'jit', 'onnxrt', None}
+available optimizers: {'', 'inductor', 'onnxrt', 'cudagraphs', 'tvm', 'openxla', 'jit', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -135,7 +135,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'tvm', 'inductor', 'jit', 'cudagraphs', 'openxla', None}
+available optimizers: {'', 'onnxrt', 'inductor', 'openxla', 'tvm', 'cudagraphs', 'jit', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -156,4 +156,4 @@ collecting ... collected 12 items
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToRotationMatrix::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestQuaternionToRotationMatrix::test_dynamo[cpu-float32-inductor] PASSED
 
-============================== 12 passed in 2.03s ==============================
+============================== 12 passed in 2.23s ==============================

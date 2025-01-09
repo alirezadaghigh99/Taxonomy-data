@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYXY] FAILED'}
+{'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYXY] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -108,7 +108,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XY
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -128,7 +128,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XY
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -148,7 +148,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.CX
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -168,7 +168,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -188,7 +188,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -208,7 +208,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -228,7 +228,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -248,7 +248,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -268,7 +268,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -288,7 +288,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -308,7 +308,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -328,7 +328,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -348,7 +348,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.X
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -368,7 +368,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.X
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -388,7 +388,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.C
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -408,7 +408,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-False-size1-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -428,7 +428,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-False-size1-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -448,7 +448,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-False-size1-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -468,7 +468,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-False-size2-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -488,7 +488,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-False-size2-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -508,7 +508,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-False-size2-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -528,7 +528,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -548,7 +548,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -568,7 +568,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -588,7 +588,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-False-size4-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -608,7 +608,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-False-size4-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -628,7 +628,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-False-size4-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -648,7 +648,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-False-size5-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -668,7 +668,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-False-size5-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -688,7 +688,7 @@ _ TestResize.test_bounding_boxes_correctness[resize-False-size5-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -708,7 +708,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XY
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -728,7 +728,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XY
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -748,7 +748,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.CX
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -768,7 +768,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -788,7 +788,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -808,7 +808,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -828,7 +828,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -848,7 +848,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -868,7 +868,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -888,7 +888,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -908,7 +908,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -928,7 +928,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -948,7 +948,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.X
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -968,7 +968,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.X
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -988,7 +988,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.C
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -1008,7 +1008,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -1028,7 +1028,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -1048,7 +1048,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -1068,7 +1068,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -1088,7 +1088,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -1108,7 +1108,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -1128,7 +1128,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -1148,7 +1148,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -1168,7 +1168,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -1188,7 +1188,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -1208,7 +1208,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -1228,7 +1228,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -1248,7 +1248,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -1268,7 +1268,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -1288,7 +1288,7 @@ _ TestResize.test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxForma
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_meta.py:168: in _clamp_bounding_boxes
     return _clamp_bounding_boxes(bounding_boxes, format, canvas_size)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:42: in _clamp_bounding_boxes
-    bounding_boxes_xyxy = _convert_to_xyxy(bounding_boxes, format)
+    xyxy_boxes = _convert_to_xyxy(bounding_boxes, format)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/temp.py:27: in _convert_to_xyxy
     raise ValueError('Unsupported bounding box format')
 E   ValueError: Unsupported bounding box format
@@ -1353,7 +1353,7 @@ FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::tes
 FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYXY]
 FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYWH]
 FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.CXCYWH]
-======================== 60 failed, 12 passed in 11.88s ========================
+======================== 60 failed, 12 passed in 12.41s ========================
 
 
 Final Test Result:
@@ -1438,7 +1438,7 @@ collecting ... collected 72 items
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYWH] PASSED
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.CXCYWH] PASSED
 
-============================== 72 passed in 0.27s ==============================
+============================== 72 passed in 0.18s ==============================
 
 
 Initial Result:
@@ -1523,4 +1523,4 @@ collecting ... collected 72 items
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYWH] PASSED
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.CXCYWH] PASSED
 
-============================== 72 passed in 0.24s ==============================
+============================== 72 passed in 0.18s ==============================

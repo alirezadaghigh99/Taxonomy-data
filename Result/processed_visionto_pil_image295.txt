@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[1] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[1]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_to_tensor[4]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_to_tensor[3]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_to_tensor[1]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4]', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_to_tensor[3] FAILED', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_to_tensor[1] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[3]', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4] FAILED', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_to_tensor[4] FAILED', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[3] FAILED'}
+{'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[3]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[1]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_to_tensor[1]', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[3] FAILED', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[1] FAILED', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_to_tensor[3] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4]', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_to_tensor[4] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_to_tensor[3]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_to_tensor[4]', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4] FAILED', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_to_tensor[1] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -45,8 +45,8 @@ ________________________ TestToTensor.test_to_tensor[4] ________________________
 E   AssertionError: Tensor-likes are not close!
 E   
 E   Mismatched elements: 64 / 64 (100.0%)
-E   Greatest absolute difference: 0.8745098114013672 at index (2, 3, 3) (up to 1e-05 allowed)
-E   Greatest relative difference: inf at index (3, 0, 0) (up to 1.3e-06 allowed)
+E   Greatest absolute difference: 0.8745098114013672 at index (2, 2, 2) (up to 1e-05 allowed)
+E   Greatest relative difference: 63.5 at index (0, 2, 1) (up to 1.3e-06 allowed)
 ______________________ TestToTensor.test_pil_to_tensor[1] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:276: in test_pil_to_tensor
     torch.testing.assert_close(input_data, output)
@@ -61,8 +61,8 @@ ______________________ TestToTensor.test_pil_to_tensor[4] ______________________
 E   AssertionError: Tensor-likes are not equal!
 E   
 E   Mismatched elements: 60 / 64 (93.8%)
-E   Greatest absolute difference: 237 at index (2, 3, 0)
-E   Greatest relative difference: inf at index (0, 3, 0)
+E   Greatest absolute difference: 246 at index (0, 2, 1)
+E   Greatest relative difference: 97.5 at index (1, 0, 2)
 =========================== short test summary info ============================
 FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_to_tensor[1]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_to_tensor[3]
@@ -70,7 +70,7 @@ FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test
 FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[1]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[3]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4]
-========================= 6 failed, 5 passed in 0.69s ==========================
+========================= 6 failed, 5 passed in 0.72s ==========================
 
 
 Final Test Result:
@@ -94,7 +94,7 @@ collecting ... collected 11 items
 ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4] PASSED
 ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor_errors PASSED
 
-============================== 11 passed in 0.38s ==============================
+============================== 11 passed in 0.30s ==============================
 
 
 Initial Result:
@@ -118,4 +118,4 @@ collecting ... collected 11 items
 ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4] PASSED
 ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor_errors PASSED
 
-============================== 11 passed in 0.38s ==============================
+============================== 11 passed in 0.34s ==============================

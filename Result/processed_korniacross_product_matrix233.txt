@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'inductor', 'onnxrt', 'jit', 'tvm', 'openxla', 'cudagraphs', None}
+available optimizers: {'', 'tvm', 'cudagraphs', 'inductor', 'jit', 'openxla', None, 'onnxrt'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -92,7 +92,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'cudagraphs', 'openxla', 'inductor', 'tvm', None, 'onnxrt'}
+available optimizers: {'', 'inductor', 'cudagraphs', 'tvm', 'jit', 'openxla', 'onnxrt', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -120,7 +120,7 @@ collecting ... collected 19 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_numeric.py::TestSkewSymmetric::test_mean_std[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_numeric.py::TestSkewSymmetric::test_gradcheck[cpu] PASSED
 
-============================== 19 passed in 0.18s ==============================
+============================== 19 passed in 0.23s ==============================
 
 
 Initial Result:
@@ -149,7 +149,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'onnxrt', 'inductor', 'cudagraphs', 'jit', 'openxla', None}
+available optimizers: {'', 'onnxrt', 'tvm', 'jit', 'cudagraphs', 'inductor', 'openxla', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -177,4 +177,4 @@ collecting ... collected 19 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_numeric.py::TestSkewSymmetric::test_mean_std[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_numeric.py::TestSkewSymmetric::test_gradcheck[cpu] PASSED
 
-============================== 19 passed in 0.17s ==============================
+============================== 19 passed in 0.21s ==============================

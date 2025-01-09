@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'jit', 'tvm', 'inductor', 'onnxrt', 'cudagraphs', None}
+available optimizers: {'', 'onnxrt', 'inductor', 'tvm', 'openxla', 'cudagraphs', None, 'jit'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -82,7 +82,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'onnxrt', 'inductor', 'tvm', 'cudagraphs', 'openxla', None}
+available optimizers: {'', 'openxla', 'onnxrt', 'jit', 'inductor', 'cudagraphs', 'tvm', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -100,7 +100,7 @@ collecting ... collected 9 items
 ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp3d.py::TestGetRotationMatrix3d::test_rot90z[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp3d.py::TestGetRotationMatrix3d::test_gradcheck[cpu] PASSED
 
-============================== 9 passed in 0.20s ===============================
+============================== 9 passed in 0.14s ===============================
 
 
 Initial Result:
@@ -129,7 +129,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'inductor', 'jit', 'openxla', 'tvm', 'cudagraphs', None, 'onnxrt'}
+available optimizers: {'', 'tvm', 'onnxrt', 'jit', 'inductor', 'cudagraphs', None, 'openxla'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia

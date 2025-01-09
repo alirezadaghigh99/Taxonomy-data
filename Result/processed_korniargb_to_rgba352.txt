@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_gradcheck_th[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_gradcheck[cpu-float32]', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit_aval_th[cpu-float32-0.4] FAILED', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_exception[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit_aval_th[cpu-float32-45.0] FAILED', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit[cpu-float32-45.0] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_back_and_forth_rgb[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit[cpu-float32-45.0]', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_smoke[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit[cpu-float32-0.4] FAILED', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_gradcheck[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_smoke[cpu-float32]', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape3] FAILED', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_back_and_forth_rgb[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape3]', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit_aval_th[cpu-float32-45.0]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape0]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_gradcheck_th[cpu-float32]', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape0] FAILED', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_module_bgr[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_back_and_forth_bgr[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_exception[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit[cpu-float32-0.4]', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape2] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_module[cpu-float32]', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_module[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape2]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_module_bgr[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape1]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_back_and_forth_bgr[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit_aval_th[cpu-float32-0.4]'}
+{'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape3]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_back_and_forth_rgb[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_back_and_forth_bgr[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_exception[cpu-float32]', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_back_and_forth_bgr[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_back_and_forth_rgb[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape3] FAILED', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_smoke[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_smoke[cpu-float32]', '../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_exception[cpu-float32] FAILED'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'tvm', 'onnxrt', 'openxla', 'inductor', 'cudagraphs', None}
+available optimizers: {'', 'cudagraphs', 'tvm', 'jit', 'inductor', 'onnxrt', 'openxla', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -44,29 +44,29 @@ plugins: timeout-2.3.1
 collecting ... collected 19 items
 
 ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_smoke[cpu-float32] FAILED
-../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape0] FAILED
-../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape1] FAILED
-../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape2] FAILED
+../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape0] PASSED
+../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape1] PASSED
+../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape2] PASSED
 ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape3] FAILED
 ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_exception[cpu-float32] FAILED
 ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_back_and_forth_rgb[cpu-float32] FAILED
 ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_back_and_forth_bgr[cpu-float32] FAILED
-../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit[cpu-float32-0.4] FAILED
-../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit[cpu-float32-45.0] FAILED
-../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit_aval_th[cpu-float32-0.4] FAILED
-../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit_aval_th[cpu-float32-45.0] FAILED
-../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_gradcheck[cpu-float32] FAILED
-../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_gradcheck_th[cpu-float32] FAILED
+../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit[cpu-float32-0.4] PASSED
+../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit[cpu-float32-45.0] PASSED
+../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit_aval_th[cpu-float32-0.4] PASSED
+../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit_aval_th[cpu-float32-45.0] PASSED
+../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_gradcheck[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_gradcheck_th[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_jit[cpu-float32] SKIPPED
-../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_module[cpu-float32] FAILED
-../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_module_bgr[cpu-float32] FAILED
+../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_module[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_module_bgr[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_module_bgra2rgb[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_module_bgra2bgr[cpu-float32] PASSED
 
 =================================== FAILURES ===================================
 ____________________ TestRgbToRgba.test_smoke[cpu-float32] _____________________
 
-self = <test_rgb.TestRgbToRgba object at 0x72d92f1054e0>
+self = <test_rgb.TestRgbToRgba object at 0x786dd98f55a0>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_smoke(self, device, dtype):
@@ -80,193 +80,33 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return rgb_to_rgba(image, alpha_val)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-image = tensor([[[0.8826, 0.4759, 0.3082, 0.2493, 0.2936],
-         [0.9454, 0.6731, 0.9400, 0.7166, 0.6593],
-         [0.2724....0581, 0.8222],
-         [0.1211, 0.8328, 0.9976, 0.0628, 0.6620],
-         [0.7912, 0.5779, 0.3323, 0.2198, 0.3554]]])
+image = tensor([[[3.3823e-01, 3.4406e-01, 8.3367e-01, 3.1294e-01, 1.4870e-02],
+         [2.8254e-01, 2.6548e-01, 9.0036e-01, 9...5273e-01, 6.9199e-01, 3.4717e-01, 3.3483e-01],
+         [7.5335e-01, 6.4415e-01, 7.8479e-01, 8.9249e-02, 4.6337e-01]]])
 alpha_val = 0.0
 
-    def rgb_to_rgba(image: torch.Tensor, alpha_val: float or torch.Tensor) -> torch.Tensor:
+    def rgb_to_rgba(image: torch.Tensor, alpha_val) -> torch.Tensor:
         """
-        Convert an image from RGB to RGBA.
+        Convert an RGB image to RGBA by adding an alpha channel.
     
         Args:
-            image (torch.Tensor): RGB Image to be converted to RGBA of shape :math:`(*,3,H,W)`.
+            image (torch.Tensor): RGB Image to be converted to RGBA of shape (*, 3, H, W).
             alpha_val (float or torch.Tensor): A float number for the alpha value or a tensor
-              of shape :math:`(*,1,H,W)`.
+                                               of shape (*, 1, H, W).
     
         Returns:
-            torch.Tensor: RGBA version of the image with shape :math:`(*,4,H,W)`.
+            torch.Tensor: RGBA version of the image with shape (*, 4, H, W).
         """
->       if image.shape[-4] != 3:
-E       IndexError: tuple index out of range
-
-../publishablew/kornia/kornia/kornia/color/temp.py:21: IndexError
-______________ TestRgbToRgba.test_cardinality[cpu-float32-shape0] ______________
-
-self = <test_rgb.TestRgbToRgba object at 0x72d92f105990>
-device = device(type='cpu'), dtype = torch.float32, shape = (1, 3, 4, 4)
-
-    @pytest.mark.parametrize("shape", [(1, 3, 4, 4), (2, 3, 2, 4), (3, 3, 4, 1), (3, 2, 1)])
-    def test_cardinality(self, device, dtype, shape):
-        out_shape = list(shape)
-        out_shape[-3] += 1
-        img = torch.ones(shape, device=device, dtype=dtype)
->       assert kornia.color.rgb_to_rgba(img, 0.0).shape == tuple(out_shape)
-
-../publishablew/kornia/kornia/tests/color/test_rgb.py:114: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/color/rgb.py:51: in rgb_to_rgba
-    return rgb_to_rgba(image, alpha_val)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-image = tensor([[[[1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.]],
-
-    ...]],
-
-         [[1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.]]]])
-alpha_val = 0.0
-
-    def rgb_to_rgba(image: torch.Tensor, alpha_val: float or torch.Tensor) -> torch.Tensor:
-        """
-        Convert an image from RGB to RGBA.
-    
-        Args:
-            image (torch.Tensor): RGB Image to be converted to RGBA of shape :math:`(*,3,H,W)`.
-            alpha_val (float or torch.Tensor): A float number for the alpha value or a tensor
-              of shape :math:`(*,1,H,W)`.
-    
-        Returns:
-            torch.Tensor: RGBA version of the image with shape :math:`(*,4,H,W)`.
-        """
-        if image.shape[-4] != 3:
->           raise ValueError('Input image must have 3 channels in the last dimension')
-E           ValueError: Input image must have 3 channels in the last dimension
-
-../publishablew/kornia/kornia/kornia/color/temp.py:22: ValueError
-______________ TestRgbToRgba.test_cardinality[cpu-float32-shape1] ______________
-
-self = <test_rgb.TestRgbToRgba object at 0x72d92f1058d0>
-device = device(type='cpu'), dtype = torch.float32, shape = (2, 3, 2, 4)
-
-    @pytest.mark.parametrize("shape", [(1, 3, 4, 4), (2, 3, 2, 4), (3, 3, 4, 1), (3, 2, 1)])
-    def test_cardinality(self, device, dtype, shape):
-        out_shape = list(shape)
-        out_shape[-3] += 1
-        img = torch.ones(shape, device=device, dtype=dtype)
->       assert kornia.color.rgb_to_rgba(img, 0.0).shape == tuple(out_shape)
-
-../publishablew/kornia/kornia/tests/color/test_rgb.py:114: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/color/rgb.py:51: in rgb_to_rgba
-    return rgb_to_rgba(image, alpha_val)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-image = tensor([[[[1., 1., 1., 1.],
-          [1., 1., 1., 1.]],
-
-         [[1., 1., 1., 1.],
-          [1., 1., 1., 1.]],
-
-  ...,
-
-         [[1., 1., 1., 1.],
-          [1., 1., 1., 1.]],
-
-         [[1., 1., 1., 1.],
-          [1., 1., 1., 1.]]]])
-alpha_val = 0.0
-
-    def rgb_to_rgba(image: torch.Tensor, alpha_val: float or torch.Tensor) -> torch.Tensor:
-        """
-        Convert an image from RGB to RGBA.
-    
-        Args:
-            image (torch.Tensor): RGB Image to be converted to RGBA of shape :math:`(*,3,H,W)`.
-            alpha_val (float or torch.Tensor): A float number for the alpha value or a tensor
-              of shape :math:`(*,1,H,W)`.
-    
-        Returns:
-            torch.Tensor: RGBA version of the image with shape :math:`(*,4,H,W)`.
-        """
-        if image.shape[-4] != 3:
->           raise ValueError('Input image must have 3 channels in the last dimension')
-E           ValueError: Input image must have 3 channels in the last dimension
-
-../publishablew/kornia/kornia/kornia/color/temp.py:22: ValueError
-______________ TestRgbToRgba.test_cardinality[cpu-float32-shape2] ______________
-
-self = <test_rgb.TestRgbToRgba object at 0x72d92f105c30>
-device = device(type='cpu'), dtype = torch.float32, shape = (3, 3, 4, 1)
-
-    @pytest.mark.parametrize("shape", [(1, 3, 4, 4), (2, 3, 2, 4), (3, 3, 4, 1), (3, 2, 1)])
-    def test_cardinality(self, device, dtype, shape):
-        out_shape = list(shape)
-        out_shape[-3] += 1
-        img = torch.ones(shape, device=device, dtype=dtype)
->       assert kornia.color.rgb_to_rgba(img, 0.0).shape == tuple(out_shape)
-
-../publishablew/kornia/kornia/tests/color/test_rgb.py:114: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/color/rgb.py:51: in rgb_to_rgba
-    return rgb_to_rgba(image, alpha_val)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-image = tensor([[[[1.],
-          [1.],
-          [1.],
-          [1.]],
-
-         [[1.],
-          [1.],
-          [1.],
-    ...],
-          [1.],
-          [1.],
-          [1.]],
-
-         [[1.],
-          [1.],
-          [1.],
-          [1.]]]])
-alpha_val = 0.0
-
-    def rgb_to_rgba(image: torch.Tensor, alpha_val: float or torch.Tensor) -> torch.Tensor:
-        """
-        Convert an image from RGB to RGBA.
-    
-        Args:
-            image (torch.Tensor): RGB Image to be converted to RGBA of shape :math:`(*,3,H,W)`.
-            alpha_val (float or torch.Tensor): A float number for the alpha value or a tensor
-              of shape :math:`(*,1,H,W)`.
-    
-        Returns:
-            torch.Tensor: RGBA version of the image with shape :math:`(*,4,H,W)`.
-        """
-        if image.shape[-4] != 3:
-            raise ValueError('Input image must have 3 channels in the last dimension')
+        if image.shape[-3] != 3:
+            raise ValueError('Input image must have 3 channels in the last dimension for RGB.')
         if isinstance(alpha_val, float):
-            alpha_channel = torch.full_like(image[:, :1, :, :], alpha_val)
-        elif isinstance(alpha_val, torch.Tensor):
-            if alpha_val.shape != image[:, :1, :, :].shape:
-                raise ValueError("Alpha tensor must have the same shape as the input image's single channel")
-            alpha_channel = alpha_val
-        else:
-            raise TypeError('alpha_val must be either a float or a torch.Tensor')
->       rgba_image = torch.cat((image, alpha_channel), dim=-4)
-E       RuntimeError: Sizes of tensors must match except in dimension 0. Expected size 3 but got size 1 for tensor number 1 in the list.
+>           alpha_channel = torch.full_like(image[:, :1, :, :], alpha_val)
+E           IndexError: too many indices for tensor of dimension 3
 
-../publishablew/kornia/kornia/kornia/color/temp.py:31: RuntimeError
+../publishablew/kornia/kornia/kornia/color/temp.py:24: IndexError
 ______________ TestRgbToRgba.test_cardinality[cpu-float32-shape3] ______________
 
-self = <test_rgb.TestRgbToRgba object at 0x72d92f105cf0>
+self = <test_rgb.TestRgbToRgba object at 0x786dd98f5db0>
 device = device(type='cpu'), dtype = torch.float32, shape = (3, 2, 1)
 
     @pytest.mark.parametrize("shape", [(1, 3, 4, 4), (2, 3, 2, 4), (3, 3, 4, 1), (3, 2, 1)])
@@ -292,25 +132,28 @@ image = tensor([[[1.],
          [1.]]])
 alpha_val = 0.0
 
-    def rgb_to_rgba(image: torch.Tensor, alpha_val: float or torch.Tensor) -> torch.Tensor:
+    def rgb_to_rgba(image: torch.Tensor, alpha_val) -> torch.Tensor:
         """
-        Convert an image from RGB to RGBA.
+        Convert an RGB image to RGBA by adding an alpha channel.
     
         Args:
-            image (torch.Tensor): RGB Image to be converted to RGBA of shape :math:`(*,3,H,W)`.
+            image (torch.Tensor): RGB Image to be converted to RGBA of shape (*, 3, H, W).
             alpha_val (float or torch.Tensor): A float number for the alpha value or a tensor
-              of shape :math:`(*,1,H,W)`.
+                                               of shape (*, 1, H, W).
     
         Returns:
-            torch.Tensor: RGBA version of the image with shape :math:`(*,4,H,W)`.
+            torch.Tensor: RGBA version of the image with shape (*, 4, H, W).
         """
->       if image.shape[-4] != 3:
-E       IndexError: tuple index out of range
+        if image.shape[-3] != 3:
+            raise ValueError('Input image must have 3 channels in the last dimension for RGB.')
+        if isinstance(alpha_val, float):
+>           alpha_channel = torch.full_like(image[:, :1, :, :], alpha_val)
+E           IndexError: too many indices for tensor of dimension 3
 
-../publishablew/kornia/kornia/kornia/color/temp.py:21: IndexError
+../publishablew/kornia/kornia/kornia/color/temp.py:24: IndexError
 __________________ TestRgbToRgba.test_exception[cpu-float32] ___________________
 
-self = <test_rgb.TestRgbToRgba object at 0x72d92f105fc0>
+self = <test_rgb.TestRgbToRgba object at 0x786dd98f6080>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_exception(self, device, dtype):
@@ -326,25 +169,25 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 image = [0.0], alpha_val = 0.0
 
-    def rgb_to_rgba(image: torch.Tensor, alpha_val: float or torch.Tensor) -> torch.Tensor:
+    def rgb_to_rgba(image: torch.Tensor, alpha_val) -> torch.Tensor:
         """
-        Convert an image from RGB to RGBA.
+        Convert an RGB image to RGBA by adding an alpha channel.
     
         Args:
-            image (torch.Tensor): RGB Image to be converted to RGBA of shape :math:`(*,3,H,W)`.
+            image (torch.Tensor): RGB Image to be converted to RGBA of shape (*, 3, H, W).
             alpha_val (float or torch.Tensor): A float number for the alpha value or a tensor
-              of shape :math:`(*,1,H,W)`.
+                                               of shape (*, 1, H, W).
     
         Returns:
-            torch.Tensor: RGBA version of the image with shape :math:`(*,4,H,W)`.
+            torch.Tensor: RGBA version of the image with shape (*, 4, H, W).
         """
->       if image.shape[-4] != 3:
+>       if image.shape[-3] != 3:
 E       AttributeError: 'list' object has no attribute 'shape'
 
 ../publishablew/kornia/kornia/kornia/color/temp.py:21: AttributeError
 ______________ TestRgbToRgba.test_back_and_forth_rgb[cpu-float32] ______________
 
-self = <test_rgb.TestRgbToRgba object at 0x72d92f105360>
+self = <test_rgb.TestRgbToRgba object at 0x786dd98f5420>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_back_and_forth_rgb(self, device, dtype):
@@ -371,25 +214,28 @@ image = tensor([[[1., 1., 1., 1.],
          [1., 1., 1., 1.]]])
 alpha_val = 1.0
 
-    def rgb_to_rgba(image: torch.Tensor, alpha_val: float or torch.Tensor) -> torch.Tensor:
+    def rgb_to_rgba(image: torch.Tensor, alpha_val) -> torch.Tensor:
         """
-        Convert an image from RGB to RGBA.
+        Convert an RGB image to RGBA by adding an alpha channel.
     
         Args:
-            image (torch.Tensor): RGB Image to be converted to RGBA of shape :math:`(*,3,H,W)`.
+            image (torch.Tensor): RGB Image to be converted to RGBA of shape (*, 3, H, W).
             alpha_val (float or torch.Tensor): A float number for the alpha value or a tensor
-              of shape :math:`(*,1,H,W)`.
+                                               of shape (*, 1, H, W).
     
         Returns:
-            torch.Tensor: RGBA version of the image with shape :math:`(*,4,H,W)`.
+            torch.Tensor: RGBA version of the image with shape (*, 4, H, W).
         """
->       if image.shape[-4] != 3:
-E       IndexError: tuple index out of range
+        if image.shape[-3] != 3:
+            raise ValueError('Input image must have 3 channels in the last dimension for RGB.')
+        if isinstance(alpha_val, float):
+>           alpha_channel = torch.full_like(image[:, :1, :, :], alpha_val)
+E           IndexError: too many indices for tensor of dimension 3
 
-../publishablew/kornia/kornia/kornia/color/temp.py:21: IndexError
+../publishablew/kornia/kornia/kornia/color/temp.py:24: IndexError
 ______________ TestRgbToRgba.test_back_and_forth_bgr[cpu-float32] ______________
 
-self = <test_rgb.TestRgbToRgba object at 0x72d92f106470>
+self = <test_rgb.TestRgbToRgba object at 0x786dd98f6530>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_back_and_forth_bgr(self, device, dtype):
@@ -418,537 +264,32 @@ image = tensor([[[1., 1., 1., 1.],
          [1., 1., 1., 1.]]])
 alpha_val = 1.0
 
-    def rgb_to_rgba(image: torch.Tensor, alpha_val: float or torch.Tensor) -> torch.Tensor:
+    def rgb_to_rgba(image: torch.Tensor, alpha_val) -> torch.Tensor:
         """
-        Convert an image from RGB to RGBA.
+        Convert an RGB image to RGBA by adding an alpha channel.
     
         Args:
-            image (torch.Tensor): RGB Image to be converted to RGBA of shape :math:`(*,3,H,W)`.
+            image (torch.Tensor): RGB Image to be converted to RGBA of shape (*, 3, H, W).
             alpha_val (float or torch.Tensor): A float number for the alpha value or a tensor
-              of shape :math:`(*,1,H,W)`.
+                                               of shape (*, 1, H, W).
     
         Returns:
-            torch.Tensor: RGBA version of the image with shape :math:`(*,4,H,W)`.
+            torch.Tensor: RGBA version of the image with shape (*, 4, H, W).
         """
->       if image.shape[-4] != 3:
-E       IndexError: tuple index out of range
-
-../publishablew/kornia/kornia/kornia/color/temp.py:21: IndexError
-___________________ TestRgbToRgba.test_unit[cpu-float32-0.4] ___________________
-
-self = <test_rgb.TestRgbToRgba object at 0x72d92f106860>
-device = device(type='cpu'), dtype = torch.float32, aval = 0.4
-
-    @pytest.mark.parametrize("aval", [0.4, 45.0])
-    def test_unit(self, device, dtype, aval):
-        data = torch.tensor(
-            [
-                [
-                    [[1.0, 1.0], [1.0, 1.0]],
-                    [[2.0, 2.0], [2.0, 2.0]],
-                    [[3.0, 3.0], [3.0, 3.0]],
-                ]
-            ],
-            device=device,
-            dtype=dtype,
-        )  # Bx3x2x2
-    
-        expected = torch.tensor(
-            [
-                [
-                    [[1.0, 1.0], [1.0, 1.0]],
-                    [[2.0, 2.0], [2.0, 2.0]],
-                    [[3.0, 3.0], [3.0, 3.0]],
-                    [[aval, aval], [aval, aval]],
-                ]
-            ],
-            device=device,
-            dtype=dtype,
-        )  # Bx4x2x2
-    
->       self.assert_close(kornia.color.rgb_to_rgba(data, aval), expected)
-
-../publishablew/kornia/kornia/tests/color/test_rgb.py:190: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/color/rgb.py:51: in rgb_to_rgba
-    return rgb_to_rgba(image, alpha_val)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-image = tensor([[[[1., 1.],
-          [1., 1.]],
-
-         [[2., 2.],
-          [2., 2.]],
-
-         [[3., 3.],
-          [3., 3.]]]])
-alpha_val = 0.4
-
-    def rgb_to_rgba(image: torch.Tensor, alpha_val: float or torch.Tensor) -> torch.Tensor:
-        """
-        Convert an image from RGB to RGBA.
-    
-        Args:
-            image (torch.Tensor): RGB Image to be converted to RGBA of shape :math:`(*,3,H,W)`.
-            alpha_val (float or torch.Tensor): A float number for the alpha value or a tensor
-              of shape :math:`(*,1,H,W)`.
-    
-        Returns:
-            torch.Tensor: RGBA version of the image with shape :math:`(*,4,H,W)`.
-        """
-        if image.shape[-4] != 3:
->           raise ValueError('Input image must have 3 channels in the last dimension')
-E           ValueError: Input image must have 3 channels in the last dimension
-
-../publishablew/kornia/kornia/kornia/color/temp.py:22: ValueError
-__________________ TestRgbToRgba.test_unit[cpu-float32-45.0] ___________________
-
-self = <test_rgb.TestRgbToRgba object at 0x72d92f1067a0>
-device = device(type='cpu'), dtype = torch.float32, aval = 45.0
-
-    @pytest.mark.parametrize("aval", [0.4, 45.0])
-    def test_unit(self, device, dtype, aval):
-        data = torch.tensor(
-            [
-                [
-                    [[1.0, 1.0], [1.0, 1.0]],
-                    [[2.0, 2.0], [2.0, 2.0]],
-                    [[3.0, 3.0], [3.0, 3.0]],
-                ]
-            ],
-            device=device,
-            dtype=dtype,
-        )  # Bx3x2x2
-    
-        expected = torch.tensor(
-            [
-                [
-                    [[1.0, 1.0], [1.0, 1.0]],
-                    [[2.0, 2.0], [2.0, 2.0]],
-                    [[3.0, 3.0], [3.0, 3.0]],
-                    [[aval, aval], [aval, aval]],
-                ]
-            ],
-            device=device,
-            dtype=dtype,
-        )  # Bx4x2x2
-    
->       self.assert_close(kornia.color.rgb_to_rgba(data, aval), expected)
-
-../publishablew/kornia/kornia/tests/color/test_rgb.py:190: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/color/rgb.py:51: in rgb_to_rgba
-    return rgb_to_rgba(image, alpha_val)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-image = tensor([[[[1., 1.],
-          [1., 1.]],
-
-         [[2., 2.],
-          [2., 2.]],
-
-         [[3., 3.],
-          [3., 3.]]]])
-alpha_val = 45.0
-
-    def rgb_to_rgba(image: torch.Tensor, alpha_val: float or torch.Tensor) -> torch.Tensor:
-        """
-        Convert an image from RGB to RGBA.
-    
-        Args:
-            image (torch.Tensor): RGB Image to be converted to RGBA of shape :math:`(*,3,H,W)`.
-            alpha_val (float or torch.Tensor): A float number for the alpha value or a tensor
-              of shape :math:`(*,1,H,W)`.
-    
-        Returns:
-            torch.Tensor: RGBA version of the image with shape :math:`(*,4,H,W)`.
-        """
-        if image.shape[-4] != 3:
->           raise ValueError('Input image must have 3 channels in the last dimension')
-E           ValueError: Input image must have 3 channels in the last dimension
-
-../publishablew/kornia/kornia/kornia/color/temp.py:22: ValueError
-_______________ TestRgbToRgba.test_unit_aval_th[cpu-float32-0.4] _______________
-
-self = <test_rgb.TestRgbToRgba object at 0x72d92f106d10>
-device = device(type='cpu'), dtype = torch.float32
-aval = tensor([[[[0.4000, 0.4000],
-          [0.4000, 0.4000]]]])
-
-    @pytest.mark.parametrize("aval", [0.4, 45.0])
-    def test_unit_aval_th(self, device, dtype, aval):
-        data = torch.tensor(
-            [
-                [
-                    [[1.0, 1.0], [1.0, 1.0]],
-                    [[2.0, 2.0], [2.0, 2.0]],
-                    [[3.0, 3.0], [3.0, 3.0]],
-                ]
-            ],
-            device=device,
-            dtype=dtype,
-        )  # Bx3x2x2
-    
-        expected = torch.tensor(
-            [
-                [
-                    [[1.0, 1.0], [1.0, 1.0]],
-                    [[2.0, 2.0], [2.0, 2.0]],
-                    [[3.0, 3.0], [3.0, 3.0]],
-                    [[aval, aval], [aval, aval]],
-                ]
-            ],
-            device=device,
-            dtype=dtype,
-        )  # Bx4x2x2
-    
-        aval = torch.full_like(data[:, :1], aval)  # Bx1xHxW
->       self.assert_close(kornia.color.rgb_to_rgba(data, aval), expected)
-
-../publishablew/kornia/kornia/tests/color/test_rgb.py:220: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/color/rgb.py:51: in rgb_to_rgba
-    return rgb_to_rgba(image, alpha_val)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-image = tensor([[[[1., 1.],
-          [1., 1.]],
-
-         [[2., 2.],
-          [2., 2.]],
-
-         [[3., 3.],
-          [3., 3.]]]])
-alpha_val = tensor([[[[0.4000, 0.4000],
-          [0.4000, 0.4000]]]])
-
-    def rgb_to_rgba(image: torch.Tensor, alpha_val: float or torch.Tensor) -> torch.Tensor:
-        """
-        Convert an image from RGB to RGBA.
-    
-        Args:
-            image (torch.Tensor): RGB Image to be converted to RGBA of shape :math:`(*,3,H,W)`.
-            alpha_val (float or torch.Tensor): A float number for the alpha value or a tensor
-              of shape :math:`(*,1,H,W)`.
-    
-        Returns:
-            torch.Tensor: RGBA version of the image with shape :math:`(*,4,H,W)`.
-        """
-        if image.shape[-4] != 3:
->           raise ValueError('Input image must have 3 channels in the last dimension')
-E           ValueError: Input image must have 3 channels in the last dimension
-
-../publishablew/kornia/kornia/kornia/color/temp.py:22: ValueError
-______________ TestRgbToRgba.test_unit_aval_th[cpu-float32-45.0] _______________
-
-self = <test_rgb.TestRgbToRgba object at 0x72d92f106c50>
-device = device(type='cpu'), dtype = torch.float32
-aval = tensor([[[[45., 45.],
-          [45., 45.]]]])
-
-    @pytest.mark.parametrize("aval", [0.4, 45.0])
-    def test_unit_aval_th(self, device, dtype, aval):
-        data = torch.tensor(
-            [
-                [
-                    [[1.0, 1.0], [1.0, 1.0]],
-                    [[2.0, 2.0], [2.0, 2.0]],
-                    [[3.0, 3.0], [3.0, 3.0]],
-                ]
-            ],
-            device=device,
-            dtype=dtype,
-        )  # Bx3x2x2
-    
-        expected = torch.tensor(
-            [
-                [
-                    [[1.0, 1.0], [1.0, 1.0]],
-                    [[2.0, 2.0], [2.0, 2.0]],
-                    [[3.0, 3.0], [3.0, 3.0]],
-                    [[aval, aval], [aval, aval]],
-                ]
-            ],
-            device=device,
-            dtype=dtype,
-        )  # Bx4x2x2
-    
-        aval = torch.full_like(data[:, :1], aval)  # Bx1xHxW
->       self.assert_close(kornia.color.rgb_to_rgba(data, aval), expected)
-
-../publishablew/kornia/kornia/tests/color/test_rgb.py:220: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/color/rgb.py:51: in rgb_to_rgba
-    return rgb_to_rgba(image, alpha_val)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-image = tensor([[[[1., 1.],
-          [1., 1.]],
-
-         [[2., 2.],
-          [2., 2.]],
-
-         [[3., 3.],
-          [3., 3.]]]])
-alpha_val = tensor([[[[45., 45.],
-          [45., 45.]]]])
-
-    def rgb_to_rgba(image: torch.Tensor, alpha_val: float or torch.Tensor) -> torch.Tensor:
-        """
-        Convert an image from RGB to RGBA.
-    
-        Args:
-            image (torch.Tensor): RGB Image to be converted to RGBA of shape :math:`(*,3,H,W)`.
-            alpha_val (float or torch.Tensor): A float number for the alpha value or a tensor
-              of shape :math:`(*,1,H,W)`.
-    
-        Returns:
-            torch.Tensor: RGBA version of the image with shape :math:`(*,4,H,W)`.
-        """
-        if image.shape[-4] != 3:
->           raise ValueError('Input image must have 3 channels in the last dimension')
-E           ValueError: Input image must have 3 channels in the last dimension
-
-../publishablew/kornia/kornia/kornia/color/temp.py:22: ValueError
-__________________ TestRgbToRgba.test_gradcheck[cpu-float32] ___________________
-
-self = <test_rgb.TestRgbToRgba object at 0x72d92f107100>
-device = device(type='cpu'), dtype = torch.float32
-
-    @pytest.mark.grad()
-    def test_gradcheck(self, device, dtype):
-        B, C, H, W = 2, 3, 4, 4
-        img = torch.ones(B, C, H, W, device=device, dtype=torch.float64, requires_grad=True)
->       assert gradcheck(kornia.color.rgb_to_rgba, (img, 1.0), raise_exception=True, fast_mode=True)
-
-../publishablew/kornia/kornia/tests/color/test_rgb.py:226: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:2052: in gradcheck
-    return _gradcheck_helper(**args)
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:2074: in _gradcheck_helper
-    func_out = func(*tupled_inputs)
-../publishablew/kornia/kornia/kornia/color/rgb.py:51: in rgb_to_rgba
-    return rgb_to_rgba(image, alpha_val)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-image = tensor([[[[1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.]],
-
-    ...  [1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.]]]], dtype=torch.float64, requires_grad=True)
-alpha_val = 1.0
-
-    def rgb_to_rgba(image: torch.Tensor, alpha_val: float or torch.Tensor) -> torch.Tensor:
-        """
-        Convert an image from RGB to RGBA.
-    
-        Args:
-            image (torch.Tensor): RGB Image to be converted to RGBA of shape :math:`(*,3,H,W)`.
-            alpha_val (float or torch.Tensor): A float number for the alpha value or a tensor
-              of shape :math:`(*,1,H,W)`.
-    
-        Returns:
-            torch.Tensor: RGBA version of the image with shape :math:`(*,4,H,W)`.
-        """
-        if image.shape[-4] != 3:
->           raise ValueError('Input image must have 3 channels in the last dimension')
-E           ValueError: Input image must have 3 channels in the last dimension
-
-../publishablew/kornia/kornia/kornia/color/temp.py:22: ValueError
-_________________ TestRgbToRgba.test_gradcheck_th[cpu-float32] _________________
-
-self = <test_rgb.TestRgbToRgba object at 0x72d92f107430>
-device = device(type='cpu'), dtype = torch.float32
-
-    @pytest.mark.grad()
-    def test_gradcheck_th(self, device, dtype):
-        B, C, H, W = 2, 3, 4, 4
-        img = torch.ones(B, C, H, W, device=device, dtype=torch.float64, requires_grad=True)
-        aval = torch.ones(B, 1, H, W, device=device, dtype=torch.float64, requires_grad=True)
->       assert gradcheck(kornia.color.rgb_to_rgba, (img, aval), raise_exception=True, fast_mode=True)
-
-../publishablew/kornia/kornia/tests/color/test_rgb.py:233: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:2052: in gradcheck
-    return _gradcheck_helper(**args)
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:2074: in _gradcheck_helper
-    func_out = func(*tupled_inputs)
-../publishablew/kornia/kornia/kornia/color/rgb.py:51: in rgb_to_rgba
-    return rgb_to_rgba(image, alpha_val)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-image = tensor([[[[1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.]],
-
-    ...  [1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.]]]], dtype=torch.float64, requires_grad=True)
-alpha_val = tensor([[[[1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.]]],
-
-
-  ...  [1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.]]]], dtype=torch.float64, requires_grad=True)
-
-    def rgb_to_rgba(image: torch.Tensor, alpha_val: float or torch.Tensor) -> torch.Tensor:
-        """
-        Convert an image from RGB to RGBA.
-    
-        Args:
-            image (torch.Tensor): RGB Image to be converted to RGBA of shape :math:`(*,3,H,W)`.
-            alpha_val (float or torch.Tensor): A float number for the alpha value or a tensor
-              of shape :math:`(*,1,H,W)`.
-    
-        Returns:
-            torch.Tensor: RGBA version of the image with shape :math:`(*,4,H,W)`.
-        """
-        if image.shape[-4] != 3:
->           raise ValueError('Input image must have 3 channels in the last dimension')
-E           ValueError: Input image must have 3 channels in the last dimension
-
-../publishablew/kornia/kornia/kornia/color/temp.py:22: ValueError
-____________________ TestRgbToRgba.test_module[cpu-float32] ____________________
-
-self = <test_rgb.TestRgbToRgba object at 0x72d92f107a90>
-device = device(type='cpu'), dtype = torch.float32
-
-    def test_module(self, device, dtype):
-        B, C, H, W = 2, 3, 4, 4
-        img = torch.ones(B, C, H, W, device=device, dtype=dtype)
-        ops = kornia.color.RgbToRgba(1.0).to(device, dtype)
-        fcn = kornia.color.rgb_to_rgba
->       self.assert_close(ops(img), fcn(img, 1.0))
-
-../publishablew/kornia/kornia/tests/color/test_rgb.py:251: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/core/module.py:274: in __call__
-    _output_image = decorated_forward(*inputs, **kwargs)
-../publishablew/kornia/kornia/kornia/core/module.py:63: in wrapper
-    tensor_outputs = func(*args, **kwargs)
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
-    return forward_call(*args, **kwargs)
-../publishablew/kornia/kornia/kornia/color/rgb.py:340: in forward
-    return rgb_to_rgba(image, self.alpha_val)
-../publishablew/kornia/kornia/kornia/color/rgb.py:51: in rgb_to_rgba
-    return rgb_to_rgba(image, alpha_val)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-image = tensor([[[[1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.]],
-
-    ...]],
-
-         [[1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.]]]])
-alpha_val = 1.0
-
-    def rgb_to_rgba(image: torch.Tensor, alpha_val: float or torch.Tensor) -> torch.Tensor:
-        """
-        Convert an image from RGB to RGBA.
-    
-        Args:
-            image (torch.Tensor): RGB Image to be converted to RGBA of shape :math:`(*,3,H,W)`.
-            alpha_val (float or torch.Tensor): A float number for the alpha value or a tensor
-              of shape :math:`(*,1,H,W)`.
-    
-        Returns:
-            torch.Tensor: RGBA version of the image with shape :math:`(*,4,H,W)`.
-        """
-        if image.shape[-4] != 3:
->           raise ValueError('Input image must have 3 channels in the last dimension')
-E           ValueError: Input image must have 3 channels in the last dimension
-
-../publishablew/kornia/kornia/kornia/color/temp.py:22: ValueError
-__________________ TestRgbToRgba.test_module_bgr[cpu-float32] __________________
-
-self = <test_rgb.TestRgbToRgba object at 0x72d92f107dc0>
-device = device(type='cpu'), dtype = torch.float32
-
-    def test_module_bgr(self, device, dtype):
-        B, C, H, W = 2, 3, 4, 4
-        img = torch.ones(B, C, H, W, device=device, dtype=dtype)
-        ops = kornia.color.BgrToRgba(1.0).to(device, dtype)
-        fcn = kornia.color.bgr_to_rgba
->       self.assert_close(ops(img), fcn(img, 1.0))
-
-../publishablew/kornia/kornia/tests/color/test_rgb.py:258: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/core/module.py:274: in __call__
-    _output_image = decorated_forward(*inputs, **kwargs)
-../publishablew/kornia/kornia/kornia/core/module.py:63: in wrapper
-    tensor_outputs = func(*args, **kwargs)
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
-    return forward_call(*args, **kwargs)
-../publishablew/kornia/kornia/kornia/color/rgb.py:373: in forward
-    return rgb_to_rgba(image, self.alpha_val)
-../publishablew/kornia/kornia/kornia/color/rgb.py:51: in rgb_to_rgba
-    return rgb_to_rgba(image, alpha_val)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-image = tensor([[[[1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.]],
-
-    ...]],
-
-         [[1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.],
-          [1., 1., 1., 1.]]]])
-alpha_val = 1.0
-
-    def rgb_to_rgba(image: torch.Tensor, alpha_val: float or torch.Tensor) -> torch.Tensor:
-        """
-        Convert an image from RGB to RGBA.
-    
-        Args:
-            image (torch.Tensor): RGB Image to be converted to RGBA of shape :math:`(*,3,H,W)`.
-            alpha_val (float or torch.Tensor): A float number for the alpha value or a tensor
-              of shape :math:`(*,1,H,W)`.
-    
-        Returns:
-            torch.Tensor: RGBA version of the image with shape :math:`(*,4,H,W)`.
-        """
-        if image.shape[-4] != 3:
->           raise ValueError('Input image must have 3 channels in the last dimension')
-E           ValueError: Input image must have 3 channels in the last dimension
-
-../publishablew/kornia/kornia/kornia/color/temp.py:22: ValueError
+        if image.shape[-3] != 3:
+            raise ValueError('Input image must have 3 channels in the last dimension for RGB.')
+        if isinstance(alpha_val, float):
+>           alpha_channel = torch.full_like(image[:, :1, :, :], alpha_val)
+E           IndexError: too many indices for tensor of dimension 3
+
+../publishablew/kornia/kornia/kornia/color/temp.py:24: IndexError
 =========================== short test summary info ============================
 FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_smoke[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape0]
-FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape1]
-FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape2]
 FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_cardinality[cpu-float32-shape3]
 FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_exception[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_back_and_forth_rgb[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_back_and_forth_bgr[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit[cpu-float32-0.4]
-FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit[cpu-float32-45.0]
-FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit_aval_th[cpu-float32-0.4]
-FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_unit_aval_th[cpu-float32-45.0]
-FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_gradcheck[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_gradcheck_th[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_module[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_module_bgr[cpu-float32]
-=================== 16 failed, 2 passed, 1 skipped in 0.63s ====================
+=================== 5 failed, 13 passed, 1 skipped in 0.42s ====================
 
 
 Final Test Result:
@@ -977,7 +318,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'inductor', 'tvm', 'cudagraphs', 'openxla', 'onnxrt', None, 'jit'}
+available optimizers: {'', 'openxla', 'tvm', 'cudagraphs', 'jit', 'inductor', 'onnxrt', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -1005,7 +346,7 @@ collecting ... collected 19 items
 ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_module_bgra2rgb[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_module_bgra2bgr[cpu-float32] PASSED
 
-======================== 18 passed, 1 skipped in 0.16s =========================
+======================== 18 passed, 1 skipped in 0.18s =========================
 
 
 Initial Result:
@@ -1034,7 +375,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', None, 'onnxrt', 'cudagraphs', 'tvm', 'openxla', 'jit', 'inductor'}
+available optimizers: {'', 'onnxrt', 'tvm', None, 'openxla', 'cudagraphs', 'inductor', 'jit'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -1062,4 +403,4 @@ collecting ... collected 19 items
 ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_module_bgra2rgb[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/color/test_rgb.py::TestRgbToRgba::test_module_bgra2bgr[cpu-float32] PASSED
 
-======================== 18 passed, 1 skipped in 0.17s =========================
+======================== 18 passed, 1 skipped in 0.18s =========================

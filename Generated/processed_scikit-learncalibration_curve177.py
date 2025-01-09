@@ -1,47 +1,26 @@
 import numpy as np
-from sklearn.utils import check_array
 from sklearn.utils import column_or_1d
-from sklearn.utils import check_consistent_length
+from sklearn.utils.validation import _deprecate_positional_args
 
-def calibration_curve(y_true, y_prob, pos_label=None, n_bins=5, strategy='uniform'):
-    """
-    Compute true and predicted probabilities for a calibration curve.
-
-    Parameters
-    ----------
-    y_true : array-like of shape (n_samples,)
-        True targets.
-    y_prob : array-like of shape (n_samples,)
-        Probabilities of the positive class.
-    pos_label : int, float, bool, or str, default=None
-        The label of the positive class.
-    n_bins : int, default=5
-        Number of bins to discretize the [0, 1] interval.
-    strategy : {'uniform', 'quantile'}, default='uniform'
-        Strategy used to define the widths of the bins.
-
-    Returns
-    -------
-    prob_true : ndarray of shape (n_bins,) or smaller
-        Proportion of samples whose class is the positive class in each bin.
-    prob_pred : ndarray of shape (n_bins,) or smaller
-        Mean predicted probability in each bin.
-    """
+@_deprecate_positional_args
+def calibration_curve(y_true, y_prob, *, pos_label=None, n_bins=5, strategy='uniform'):
     y_true = column_or_1d(y_true)
     y_prob = column_or_1d(y_prob)
-    check_consistent_length(y_true, y_prob)
 
     if pos_label is None:
-        pos_label = 1.0
+        pos_label = 1
 
-    y_true = (y_true == pos_label).astype(int)
+    # Ensure y_true is binary
+    y_true = (y_true == pos_label)
+
+    if strategy not in ['uniform', 'quantile']:
+        raise ValueError("Invalid value for strategy: {}. "
+                         "Valid options are 'uniform' or 'quantile'.".format(strategy))
 
     if strategy == 'uniform':
         bins = np.linspace(0., 1., n_bins + 1)
     elif strategy == 'quantile':
         bins = np.percentile(y_prob, np.linspace(0, 100, n_bins + 1))
-    else:
-        raise ValueError("Invalid value for 'strategy'. Choose 'uniform' or 'quantile'.")
 
     binids = np.digitize(y_prob, bins) - 1
 
@@ -53,6 +32,14 @@ def calibration_curve(y_true, y_prob, pos_label=None, n_bins=5, strategy='unifor
         if np.any(mask):
             prob_true[i] = np.mean(y_true[mask])
             prob_pred[i] = np.mean(y_prob[mask])
+        else:
+            prob_true[i] = np.nan
+            prob_pred[i] = np.nan
+
+    # Remove bins with no samples
+    mask = ~np.isnan(prob_true)
+    prob_true = prob_true[mask]
+    prob_pred = prob_pred[mask]
 
     return prob_true, prob_pred
 

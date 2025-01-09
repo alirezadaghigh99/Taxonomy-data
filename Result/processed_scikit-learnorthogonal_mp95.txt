@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_estimator FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_identical_regressors', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_with_without_gram_tol', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_tol FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_no_atoms', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_estimator_n_nonzero_coefs FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_n_nonzero_coefs FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_estimator_n_nonzero_coefs', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_unreachable_accuracy', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_perfect_signal_recovery FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_path FAILED', 'FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_cv FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_cv', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_no_atoms FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_with_without_gram_tol FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_unreachable_accuracy FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_swapped_regressors', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_perfect_signal_recovery', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_path', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_estimator', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_return_path_prop_with_gram', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_with_without_gram', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_return_path_prop_with_gram FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_n_nonzero_coefs', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_swapped_regressors FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_with_without_gram FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_identical_regressors FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_tol'}
+{'FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_estimator FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_return_path_prop_with_gram', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_n_nonzero_coefs', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_with_without_gram FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_estimator_n_nonzero_coefs', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_path FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_identical_regressors FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_perfect_signal_recovery FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_cv FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_no_atoms FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_n_nonzero_coefs FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_with_without_gram_tol FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_cv', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_with_without_gram', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_unreachable_accuracy', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_return_path_prop_with_gram FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_path', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_swapped_regressors', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_tol FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_perfect_signal_recovery', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_swapped_regressors FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_unreachable_accuracy FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_estimator_n_nonzero_coefs FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_identical_regressors', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_tol', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_estimator', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_with_without_gram_tol', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_no_atoms'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 23 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes I: Seeding RNGs with 1777214494
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes I: Seeding RNGs with 826174630
 FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes_gram PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_n_nonzero_coefs FAILED
@@ -81,28 +81,18 @@ return_path = False, return_n_iter = False
         Orthogonal Matching Pursuit (OMP) algorithm.
     
         Parameters:
-        X : array-like of shape (n_samples, n_features)
-            Input data.
-        y : ndarray of shape (n_samples,) or (n_samples, n_targets)
-            Target values.
-        n_nonzero_coefs : int, optional
-            Desired number of non-zero entries in the solution.
-        tol : float, optional
-            Maximum norm of the residual.
-        precompute : bool, optional
-            Whether to precompute Gram matrix.
-        copy_X : bool, optional
-            Whether to copy X.
-        return_path : bool, optional
-            Whether to return the coefficient path.
-        return_n_iter : bool, optional
-            Whether to return the number of iterations.
+        - X: array-like of shape (n_samples, n_features)
+        - y: ndarray of shape (n_samples,) or (n_samples, n_targets)
+        - n_nonzero_coefs: int, optional, default=None
+        - tol: float, optional, default=None
+        - precompute: bool, optional, default=False
+        - copy_X: bool, optional, default=True
+        - return_path: bool, optional, default=False
+        - return_n_iter: bool, optional, default=False
     
         Returns:
-        coef : ndarray of shape (n_features,) or (n_features, n_targets)
-            Coefficients of the OMP solution.
-        n_iters : int, optional
-            Number of active features across every target.
+        - coef: ndarray of shape (n_features,) or (n_features, n_targets)
+        - n_iters: int, optional, number of active features across every target
         """
         if copy_X:
             X = X.copy()
@@ -114,7 +104,7 @@ return_path = False, return_n_iter = False
 >           raise ValueError('Either n_nonzero_coefs or tol must be provided.')
 E           ValueError: Either n_nonzero_coefs or tol must be provided.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:53: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:43: ValueError
 _____________________________ test_n_nonzero_coefs _____________________________
 
     def test_n_nonzero_coefs():
@@ -152,28 +142,18 @@ return_path = False, return_n_iter = False
         Orthogonal Matching Pursuit (OMP) algorithm.
     
         Parameters:
-        X : array-like of shape (n_samples, n_features)
-            Input data.
-        y : ndarray of shape (n_samples,) or (n_samples, n_targets)
-            Target values.
-        n_nonzero_coefs : int, optional
-            Desired number of non-zero entries in the solution.
-        tol : float, optional
-            Maximum norm of the residual.
-        precompute : bool, optional
-            Whether to precompute Gram matrix.
-        copy_X : bool, optional
-            Whether to copy X.
-        return_path : bool, optional
-            Whether to return the coefficient path.
-        return_n_iter : bool, optional
-            Whether to return the number of iterations.
+        - X: array-like of shape (n_samples, n_features)
+        - y: ndarray of shape (n_samples,) or (n_samples, n_targets)
+        - n_nonzero_coefs: int, optional, default=None
+        - tol: float, optional, default=None
+        - precompute: bool, optional, default=False
+        - copy_X: bool, optional, default=True
+        - return_path: bool, optional, default=False
+        - return_n_iter: bool, optional, default=False
     
         Returns:
-        coef : ndarray of shape (n_features,) or (n_features, n_targets)
-            Coefficients of the OMP solution.
-        n_iters : int, optional
-            Number of active features across every target.
+        - coef: ndarray of shape (n_features,) or (n_features, n_targets)
+        - n_iters: int, optional, number of active features across every target
         """
         if copy_X:
             X = X.copy()
@@ -185,7 +165,7 @@ return_path = False, return_n_iter = False
 >           raise ValueError('Either n_nonzero_coefs or tol must be provided.')
 E           ValueError: Either n_nonzero_coefs or tol must be provided.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:53: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:43: ValueError
 ___________________________________ test_tol ___________________________________
 
     def test_tol():
@@ -224,28 +204,18 @@ return_path = False, return_n_iter = False
         Orthogonal Matching Pursuit (OMP) algorithm.
     
         Parameters:
-        X : array-like of shape (n_samples, n_features)
-            Input data.
-        y : ndarray of shape (n_samples,) or (n_samples, n_targets)
-            Target values.
-        n_nonzero_coefs : int, optional
-            Desired number of non-zero entries in the solution.
-        tol : float, optional
-            Maximum norm of the residual.
-        precompute : bool, optional
-            Whether to precompute Gram matrix.
-        copy_X : bool, optional
-            Whether to copy X.
-        return_path : bool, optional
-            Whether to return the coefficient path.
-        return_n_iter : bool, optional
-            Whether to return the number of iterations.
+        - X: array-like of shape (n_samples, n_features)
+        - y: ndarray of shape (n_samples,) or (n_samples, n_targets)
+        - n_nonzero_coefs: int, optional, default=None
+        - tol: float, optional, default=None
+        - precompute: bool, optional, default=False
+        - copy_X: bool, optional, default=True
+        - return_path: bool, optional, default=False
+        - return_n_iter: bool, optional, default=False
     
         Returns:
-        coef : ndarray of shape (n_features,) or (n_features, n_targets)
-            Coefficients of the OMP solution.
-        n_iters : int, optional
-            Number of active features across every target.
+        - coef: ndarray of shape (n_features,) or (n_features, n_targets)
+        - n_iters: int, optional, number of active features across every target
         """
         if copy_X:
             X = X.copy()
@@ -257,7 +227,7 @@ return_path = False, return_n_iter = False
 >           raise ValueError('Either n_nonzero_coefs or tol must be provided.')
 E           ValueError: Either n_nonzero_coefs or tol must be provided.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:53: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:43: ValueError
 ____________________________ test_with_without_gram ____________________________
 
     def test_with_without_gram():
@@ -292,28 +262,18 @@ return_path = False, return_n_iter = False
         Orthogonal Matching Pursuit (OMP) algorithm.
     
         Parameters:
-        X : array-like of shape (n_samples, n_features)
-            Input data.
-        y : ndarray of shape (n_samples,) or (n_samples, n_targets)
-            Target values.
-        n_nonzero_coefs : int, optional
-            Desired number of non-zero entries in the solution.
-        tol : float, optional
-            Maximum norm of the residual.
-        precompute : bool, optional
-            Whether to precompute Gram matrix.
-        copy_X : bool, optional
-            Whether to copy X.
-        return_path : bool, optional
-            Whether to return the coefficient path.
-        return_n_iter : bool, optional
-            Whether to return the number of iterations.
+        - X: array-like of shape (n_samples, n_features)
+        - y: ndarray of shape (n_samples,) or (n_samples, n_targets)
+        - n_nonzero_coefs: int, optional, default=None
+        - tol: float, optional, default=None
+        - precompute: bool, optional, default=False
+        - copy_X: bool, optional, default=True
+        - return_path: bool, optional, default=False
+        - return_n_iter: bool, optional, default=False
     
         Returns:
-        coef : ndarray of shape (n_features,) or (n_features, n_targets)
-            Coefficients of the OMP solution.
-        n_iters : int, optional
-            Number of active features across every target.
+        - coef: ndarray of shape (n_features,) or (n_features, n_targets)
+        - n_iters: int, optional, number of active features across every target
         """
         if copy_X:
             X = X.copy()
@@ -325,7 +285,7 @@ return_path = False, return_n_iter = False
 >           raise ValueError('Either n_nonzero_coefs or tol must be provided.')
 E           ValueError: Either n_nonzero_coefs or tol must be provided.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:53: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:43: ValueError
 __________________________ test_with_without_gram_tol __________________________
 
     def test_with_without_gram_tol():
@@ -359,28 +319,18 @@ return_path = False, return_n_iter = False
         Orthogonal Matching Pursuit (OMP) algorithm.
     
         Parameters:
-        X : array-like of shape (n_samples, n_features)
-            Input data.
-        y : ndarray of shape (n_samples,) or (n_samples, n_targets)
-            Target values.
-        n_nonzero_coefs : int, optional
-            Desired number of non-zero entries in the solution.
-        tol : float, optional
-            Maximum norm of the residual.
-        precompute : bool, optional
-            Whether to precompute Gram matrix.
-        copy_X : bool, optional
-            Whether to copy X.
-        return_path : bool, optional
-            Whether to return the coefficient path.
-        return_n_iter : bool, optional
-            Whether to return the number of iterations.
+        - X: array-like of shape (n_samples, n_features)
+        - y: ndarray of shape (n_samples,) or (n_samples, n_targets)
+        - n_nonzero_coefs: int, optional, default=None
+        - tol: float, optional, default=None
+        - precompute: bool, optional, default=False
+        - copy_X: bool, optional, default=True
+        - return_path: bool, optional, default=False
+        - return_n_iter: bool, optional, default=False
     
         Returns:
-        coef : ndarray of shape (n_features,) or (n_features, n_targets)
-            Coefficients of the OMP solution.
-        n_iters : int, optional
-            Number of active features across every target.
+        - coef: ndarray of shape (n_features,) or (n_features, n_targets)
+        - n_iters: int, optional, number of active features across every target
         """
         if copy_X:
             X = X.copy()
@@ -392,7 +342,7 @@ return_path = False, return_n_iter = False
 >           raise ValueError('Either n_nonzero_coefs or tol must be provided.')
 E           ValueError: Either n_nonzero_coefs or tol must be provided.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:53: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:43: ValueError
 __________________________ test_unreachable_accuracy ___________________________
 
     def test_unreachable_accuracy():
@@ -426,28 +376,18 @@ return_path = False, return_n_iter = False
         Orthogonal Matching Pursuit (OMP) algorithm.
     
         Parameters:
-        X : array-like of shape (n_samples, n_features)
-            Input data.
-        y : ndarray of shape (n_samples,) or (n_samples, n_targets)
-            Target values.
-        n_nonzero_coefs : int, optional
-            Desired number of non-zero entries in the solution.
-        tol : float, optional
-            Maximum norm of the residual.
-        precompute : bool, optional
-            Whether to precompute Gram matrix.
-        copy_X : bool, optional
-            Whether to copy X.
-        return_path : bool, optional
-            Whether to return the coefficient path.
-        return_n_iter : bool, optional
-            Whether to return the number of iterations.
+        - X: array-like of shape (n_samples, n_features)
+        - y: ndarray of shape (n_samples,) or (n_samples, n_targets)
+        - n_nonzero_coefs: int, optional, default=None
+        - tol: float, optional, default=None
+        - precompute: bool, optional, default=False
+        - copy_X: bool, optional, default=True
+        - return_path: bool, optional, default=False
+        - return_n_iter: bool, optional, default=False
     
         Returns:
-        coef : ndarray of shape (n_features,) or (n_features, n_targets)
-            Coefficients of the OMP solution.
-        n_iters : int, optional
-            Number of active features across every target.
+        - coef: ndarray of shape (n_features,) or (n_features, n_targets)
+        - n_iters: int, optional, number of active features across every target
         """
         if copy_X:
             X = X.copy()
@@ -459,7 +399,7 @@ return_path = False, return_n_iter = False
 >           raise ValueError('Either n_nonzero_coefs or tol must be provided.')
 E           ValueError: Either n_nonzero_coefs or tol must be provided.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:53: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:43: ValueError
 _________________________ test_perfect_signal_recovery _________________________
 
     def test_perfect_signal_recovery():
@@ -498,28 +438,18 @@ return_path = False, return_n_iter = False
         Orthogonal Matching Pursuit (OMP) algorithm.
     
         Parameters:
-        X : array-like of shape (n_samples, n_features)
-            Input data.
-        y : ndarray of shape (n_samples,) or (n_samples, n_targets)
-            Target values.
-        n_nonzero_coefs : int, optional
-            Desired number of non-zero entries in the solution.
-        tol : float, optional
-            Maximum norm of the residual.
-        precompute : bool, optional
-            Whether to precompute Gram matrix.
-        copy_X : bool, optional
-            Whether to copy X.
-        return_path : bool, optional
-            Whether to return the coefficient path.
-        return_n_iter : bool, optional
-            Whether to return the number of iterations.
+        - X: array-like of shape (n_samples, n_features)
+        - y: ndarray of shape (n_samples,) or (n_samples, n_targets)
+        - n_nonzero_coefs: int, optional, default=None
+        - tol: float, optional, default=None
+        - precompute: bool, optional, default=False
+        - copy_X: bool, optional, default=True
+        - return_path: bool, optional, default=False
+        - return_n_iter: bool, optional, default=False
     
         Returns:
-        coef : ndarray of shape (n_features,) or (n_features, n_targets)
-            Coefficients of the OMP solution.
-        n_iters : int, optional
-            Number of active features across every target.
+        - coef: ndarray of shape (n_features,) or (n_features, n_targets)
+        - n_iters: int, optional, number of active features across every target
         """
         if copy_X:
             X = X.copy()
@@ -531,7 +461,7 @@ return_path = False, return_n_iter = False
 >           raise ValueError('Either n_nonzero_coefs or tol must be provided.')
 E           ValueError: Either n_nonzero_coefs or tol must be provided.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:53: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:43: ValueError
 ________________________________ test_estimator ________________________________
 
     def test_estimator():
@@ -574,28 +504,18 @@ return_path = False, return_n_iter = False
         Orthogonal Matching Pursuit (OMP) algorithm.
     
         Parameters:
-        X : array-like of shape (n_samples, n_features)
-            Input data.
-        y : ndarray of shape (n_samples,) or (n_samples, n_targets)
-            Target values.
-        n_nonzero_coefs : int, optional
-            Desired number of non-zero entries in the solution.
-        tol : float, optional
-            Maximum norm of the residual.
-        precompute : bool, optional
-            Whether to precompute Gram matrix.
-        copy_X : bool, optional
-            Whether to copy X.
-        return_path : bool, optional
-            Whether to return the coefficient path.
-        return_n_iter : bool, optional
-            Whether to return the number of iterations.
+        - X: array-like of shape (n_samples, n_features)
+        - y: ndarray of shape (n_samples,) or (n_samples, n_targets)
+        - n_nonzero_coefs: int, optional, default=None
+        - tol: float, optional, default=None
+        - precompute: bool, optional, default=False
+        - copy_X: bool, optional, default=True
+        - return_path: bool, optional, default=False
+        - return_n_iter: bool, optional, default=False
     
         Returns:
-        coef : ndarray of shape (n_features,) or (n_features, n_targets)
-            Coefficients of the OMP solution.
-        n_iters : int, optional
-            Number of active features across every target.
+        - coef: ndarray of shape (n_features,) or (n_features, n_targets)
+        - n_iters: int, optional, number of active features across every target
         """
         if copy_X:
             X = X.copy()
@@ -607,7 +527,7 @@ return_path = False, return_n_iter = False
 >           raise ValueError('Either n_nonzero_coefs or tol must be provided.')
 E           ValueError: Either n_nonzero_coefs or tol must be provided.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:53: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:43: ValueError
 ________________________ test_estimator_n_nonzero_coefs ________________________
 
     def test_estimator_n_nonzero_coefs():
@@ -651,28 +571,18 @@ return_path = False, return_n_iter = False
         Orthogonal Matching Pursuit (OMP) algorithm.
     
         Parameters:
-        X : array-like of shape (n_samples, n_features)
-            Input data.
-        y : ndarray of shape (n_samples,) or (n_samples, n_targets)
-            Target values.
-        n_nonzero_coefs : int, optional
-            Desired number of non-zero entries in the solution.
-        tol : float, optional
-            Maximum norm of the residual.
-        precompute : bool, optional
-            Whether to precompute Gram matrix.
-        copy_X : bool, optional
-            Whether to copy X.
-        return_path : bool, optional
-            Whether to return the coefficient path.
-        return_n_iter : bool, optional
-            Whether to return the number of iterations.
+        - X: array-like of shape (n_samples, n_features)
+        - y: ndarray of shape (n_samples,) or (n_samples, n_targets)
+        - n_nonzero_coefs: int, optional, default=None
+        - tol: float, optional, default=None
+        - precompute: bool, optional, default=False
+        - copy_X: bool, optional, default=True
+        - return_path: bool, optional, default=False
+        - return_n_iter: bool, optional, default=False
     
         Returns:
-        coef : ndarray of shape (n_features,) or (n_features, n_targets)
-            Coefficients of the OMP solution.
-        n_iters : int, optional
-            Number of active features across every target.
+        - coef: ndarray of shape (n_features,) or (n_features, n_targets)
+        - n_iters: int, optional, number of active features across every target
         """
         if copy_X:
             X = X.copy()
@@ -684,7 +594,7 @@ return_path = False, return_n_iter = False
 >           raise ValueError('Either n_nonzero_coefs or tol must be provided.')
 E           ValueError: Either n_nonzero_coefs or tol must be provided.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:53: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:43: ValueError
 __________________________ test_identical_regressors ___________________________
 
     def test_identical_regressors():
@@ -733,28 +643,18 @@ return_path = False, return_n_iter = False
         Orthogonal Matching Pursuit (OMP) algorithm.
     
         Parameters:
-        X : array-like of shape (n_samples, n_features)
-            Input data.
-        y : ndarray of shape (n_samples,) or (n_samples, n_targets)
-            Target values.
-        n_nonzero_coefs : int, optional
-            Desired number of non-zero entries in the solution.
-        tol : float, optional
-            Maximum norm of the residual.
-        precompute : bool, optional
-            Whether to precompute Gram matrix.
-        copy_X : bool, optional
-            Whether to copy X.
-        return_path : bool, optional
-            Whether to return the coefficient path.
-        return_n_iter : bool, optional
-            Whether to return the number of iterations.
+        - X: array-like of shape (n_samples, n_features)
+        - y: ndarray of shape (n_samples,) or (n_samples, n_targets)
+        - n_nonzero_coefs: int, optional, default=None
+        - tol: float, optional, default=None
+        - precompute: bool, optional, default=False
+        - copy_X: bool, optional, default=True
+        - return_path: bool, optional, default=False
+        - return_n_iter: bool, optional, default=False
     
         Returns:
-        coef : ndarray of shape (n_features,) or (n_features, n_targets)
-            Coefficients of the OMP solution.
-        n_iters : int, optional
-            Number of active features across every target.
+        - coef: ndarray of shape (n_features,) or (n_features, n_targets)
+        - n_iters: int, optional, number of active features across every target
         """
         if copy_X:
             X = X.copy()
@@ -766,7 +666,7 @@ return_path = False, return_n_iter = False
 >           raise ValueError('Either n_nonzero_coefs or tol must be provided.')
 E           ValueError: Either n_nonzero_coefs or tol must be provided.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:53: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:43: ValueError
 
 During handling of the above exception, another exception occurred:
 
@@ -832,28 +732,18 @@ return_path = False, return_n_iter = False
         Orthogonal Matching Pursuit (OMP) algorithm.
     
         Parameters:
-        X : array-like of shape (n_samples, n_features)
-            Input data.
-        y : ndarray of shape (n_samples,) or (n_samples, n_targets)
-            Target values.
-        n_nonzero_coefs : int, optional
-            Desired number of non-zero entries in the solution.
-        tol : float, optional
-            Maximum norm of the residual.
-        precompute : bool, optional
-            Whether to precompute Gram matrix.
-        copy_X : bool, optional
-            Whether to copy X.
-        return_path : bool, optional
-            Whether to return the coefficient path.
-        return_n_iter : bool, optional
-            Whether to return the number of iterations.
+        - X: array-like of shape (n_samples, n_features)
+        - y: ndarray of shape (n_samples,) or (n_samples, n_targets)
+        - n_nonzero_coefs: int, optional, default=None
+        - tol: float, optional, default=None
+        - precompute: bool, optional, default=False
+        - copy_X: bool, optional, default=True
+        - return_path: bool, optional, default=False
+        - return_n_iter: bool, optional, default=False
     
         Returns:
-        coef : ndarray of shape (n_features,) or (n_features, n_targets)
-            Coefficients of the OMP solution.
-        n_iters : int, optional
-            Number of active features across every target.
+        - coef: ndarray of shape (n_features,) or (n_features, n_targets)
+        - n_iters: int, optional, number of active features across every target
         """
         if copy_X:
             X = X.copy()
@@ -865,7 +755,7 @@ return_path = False, return_n_iter = False
 >           raise ValueError('Either n_nonzero_coefs or tol must be provided.')
 E           ValueError: Either n_nonzero_coefs or tol must be provided.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:53: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:43: ValueError
 ________________________________ test_no_atoms _________________________________
 
     def test_no_atoms():
@@ -907,28 +797,18 @@ return_path = False, return_n_iter = False
         Orthogonal Matching Pursuit (OMP) algorithm.
     
         Parameters:
-        X : array-like of shape (n_samples, n_features)
-            Input data.
-        y : ndarray of shape (n_samples,) or (n_samples, n_targets)
-            Target values.
-        n_nonzero_coefs : int, optional
-            Desired number of non-zero entries in the solution.
-        tol : float, optional
-            Maximum norm of the residual.
-        precompute : bool, optional
-            Whether to precompute Gram matrix.
-        copy_X : bool, optional
-            Whether to copy X.
-        return_path : bool, optional
-            Whether to return the coefficient path.
-        return_n_iter : bool, optional
-            Whether to return the number of iterations.
+        - X: array-like of shape (n_samples, n_features)
+        - y: ndarray of shape (n_samples,) or (n_samples, n_targets)
+        - n_nonzero_coefs: int, optional, default=None
+        - tol: float, optional, default=None
+        - precompute: bool, optional, default=False
+        - copy_X: bool, optional, default=True
+        - return_path: bool, optional, default=False
+        - return_n_iter: bool, optional, default=False
     
         Returns:
-        coef : ndarray of shape (n_features,) or (n_features, n_targets)
-            Coefficients of the OMP solution.
-        n_iters : int, optional
-            Number of active features across every target.
+        - coef: ndarray of shape (n_features,) or (n_features, n_targets)
+        - n_iters: int, optional, number of active features across every target
         """
         if copy_X:
             X = X.copy()
@@ -940,7 +820,7 @@ return_path = False, return_n_iter = False
 >           raise ValueError('Either n_nonzero_coefs or tol must be provided.')
 E           ValueError: Either n_nonzero_coefs or tol must be provided.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:53: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:43: ValueError
 ________________________________ test_omp_path _________________________________
 
     def test_omp_path():
@@ -972,28 +852,18 @@ return_path = False, return_n_iter = False
         Orthogonal Matching Pursuit (OMP) algorithm.
     
         Parameters:
-        X : array-like of shape (n_samples, n_features)
-            Input data.
-        y : ndarray of shape (n_samples,) or (n_samples, n_targets)
-            Target values.
-        n_nonzero_coefs : int, optional
-            Desired number of non-zero entries in the solution.
-        tol : float, optional
-            Maximum norm of the residual.
-        precompute : bool, optional
-            Whether to precompute Gram matrix.
-        copy_X : bool, optional
-            Whether to copy X.
-        return_path : bool, optional
-            Whether to return the coefficient path.
-        return_n_iter : bool, optional
-            Whether to return the number of iterations.
+        - X: array-like of shape (n_samples, n_features)
+        - y: ndarray of shape (n_samples,) or (n_samples, n_targets)
+        - n_nonzero_coefs: int, optional, default=None
+        - tol: float, optional, default=None
+        - precompute: bool, optional, default=False
+        - copy_X: bool, optional, default=True
+        - return_path: bool, optional, default=False
+        - return_n_iter: bool, optional, default=False
     
         Returns:
-        coef : ndarray of shape (n_features,) or (n_features, n_targets)
-            Coefficients of the OMP solution.
-        n_iters : int, optional
-            Number of active features across every target.
+        - coef: ndarray of shape (n_features,) or (n_features, n_targets)
+        - n_iters: int, optional, number of active features across every target
         """
         if copy_X:
             X = X.copy()
@@ -1005,7 +875,7 @@ return_path = False, return_n_iter = False
 >           raise ValueError('Either n_nonzero_coefs or tol must be provided.')
 E           ValueError: Either n_nonzero_coefs or tol must be provided.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:53: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:43: ValueError
 _____________________ test_omp_return_path_prop_with_gram ______________________
 
     def test_omp_return_path_prop_with_gram():
@@ -1037,28 +907,18 @@ return_path = False, return_n_iter = False
         Orthogonal Matching Pursuit (OMP) algorithm.
     
         Parameters:
-        X : array-like of shape (n_samples, n_features)
-            Input data.
-        y : ndarray of shape (n_samples,) or (n_samples, n_targets)
-            Target values.
-        n_nonzero_coefs : int, optional
-            Desired number of non-zero entries in the solution.
-        tol : float, optional
-            Maximum norm of the residual.
-        precompute : bool, optional
-            Whether to precompute Gram matrix.
-        copy_X : bool, optional
-            Whether to copy X.
-        return_path : bool, optional
-            Whether to return the coefficient path.
-        return_n_iter : bool, optional
-            Whether to return the number of iterations.
+        - X: array-like of shape (n_samples, n_features)
+        - y: ndarray of shape (n_samples,) or (n_samples, n_targets)
+        - n_nonzero_coefs: int, optional, default=None
+        - tol: float, optional, default=None
+        - precompute: bool, optional, default=False
+        - copy_X: bool, optional, default=True
+        - return_path: bool, optional, default=False
+        - return_n_iter: bool, optional, default=False
     
         Returns:
-        coef : ndarray of shape (n_features,) or (n_features, n_targets)
-            Coefficients of the OMP solution.
-        n_iters : int, optional
-            Number of active features across every target.
+        - coef: ndarray of shape (n_features,) or (n_features, n_targets)
+        - n_iters: int, optional, number of active features across every target
         """
         if copy_X:
             X = X.copy()
@@ -1070,7 +930,7 @@ return_path = False, return_n_iter = False
 >           raise ValueError('Either n_nonzero_coefs or tol must be provided.')
 E           ValueError: Either n_nonzero_coefs or tol must be provided.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:53: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:43: ValueError
 _________________________________ test_omp_cv __________________________________
 
     def test_omp_cv():
@@ -1125,28 +985,18 @@ return_path = False, return_n_iter = False
         Orthogonal Matching Pursuit (OMP) algorithm.
     
         Parameters:
-        X : array-like of shape (n_samples, n_features)
-            Input data.
-        y : ndarray of shape (n_samples,) or (n_samples, n_targets)
-            Target values.
-        n_nonzero_coefs : int, optional
-            Desired number of non-zero entries in the solution.
-        tol : float, optional
-            Maximum norm of the residual.
-        precompute : bool, optional
-            Whether to precompute Gram matrix.
-        copy_X : bool, optional
-            Whether to copy X.
-        return_path : bool, optional
-            Whether to return the coefficient path.
-        return_n_iter : bool, optional
-            Whether to return the number of iterations.
+        - X: array-like of shape (n_samples, n_features)
+        - y: ndarray of shape (n_samples,) or (n_samples, n_targets)
+        - n_nonzero_coefs: int, optional, default=None
+        - tol: float, optional, default=None
+        - precompute: bool, optional, default=False
+        - copy_X: bool, optional, default=True
+        - return_path: bool, optional, default=False
+        - return_n_iter: bool, optional, default=False
     
         Returns:
-        coef : ndarray of shape (n_features,) or (n_features, n_targets)
-            Coefficients of the OMP solution.
-        n_iters : int, optional
-            Number of active features across every target.
+        - coef: ndarray of shape (n_features,) or (n_features, n_targets)
+        - n_iters: int, optional, number of active features across every target
         """
         if copy_X:
             X = X.copy()
@@ -1158,7 +1008,7 @@ return_path = False, return_n_iter = False
 >           raise ValueError('Either n_nonzero_coefs or tol must be provided.')
 E           ValueError: Either n_nonzero_coefs or tol must be provided.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:53: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/temp.py:43: ValueError
 =========================== short test summary info ============================
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_n_nonzero_coefs
@@ -1175,7 +1025,7 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_path
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_return_path_prop_with_gram
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_cv
-========================= 15 failed, 8 passed in 0.67s =========================
+========================= 15 failed, 8 passed in 0.71s =========================
 
 
 Final Test Result:
@@ -1187,7 +1037,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 23 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes I: Seeding RNGs with 867251715
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes I: Seeding RNGs with 2044025371
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes_gram PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_n_nonzero_coefs PASSED
@@ -1224,7 +1074,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 23 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes I: Seeding RNGs with 1014013689
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes I: Seeding RNGs with 1738952780
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes_gram PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_n_nonzero_coefs PASSED
@@ -1249,4 +1099,4 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_gram_dtype_match[float64] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_gram_numerical_consistency PASSED
 
-======================== 23 passed, 6 warnings in 0.22s ========================
+======================== 23 passed, 6 warnings in 0.37s ========================

@@ -1,26 +1,30 @@
 import numpy as np
-from collections import Counter
 
 def value_counts(x, num_classes=None, multi_label=False):
+    # Convert input to a numpy array if it isn't already
+    x = np.array(x, dtype=object)
+    
+    # If multi_label is True, flatten the list of iterables
     if multi_label:
-        # Flatten the list of iterables
-        x = [item for sublist in x for item in sublist]
+        x = np.concatenate([np.array(item) for item in x])
     
-    # Count the occurrences of each unique item
-    counter = Counter(x)
+    # Get unique values and their counts
+    unique, counts = np.unique(x, return_counts=True)
     
+    # Create a dictionary of counts for easy lookup
+    count_dict = dict(zip(unique, counts))
+    
+    # Determine the number of classes
     if num_classes is None:
-        # If num_classes is not provided, use the unique items in x
-        unique_items = sorted(counter.keys())
-    else:
-        # If num_classes is provided, use the range of num_classes
-        unique_items = range(num_classes)
+        num_classes = len(unique)
     
-    # Create an array to store the counts
-    counts = np.zeros((len(unique_items), 1), dtype=int)
+    # Prepare the result array
+    result = np.zeros((num_classes, 1), dtype=int)
     
-    for i, item in enumerate(unique_items):
-        counts[i] = counter.get(item, 0)
+    # Fill the result array with counts from the count_dict
+    for i in range(num_classes):
+        if i in count_dict:
+            result[i] = count_dict[i]
     
-    return counts
+    return result
 

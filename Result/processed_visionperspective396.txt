@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-6] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-7]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-1]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-8]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-2]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-8] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-2] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-0] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-3] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-9] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-1]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-4]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-3]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-0] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-6] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-4] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-1] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-4] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-6]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-5]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-8]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-4] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-2] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-2]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-8]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-4]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-8] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-6] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-5] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-1]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-3]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-0]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-9]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-4]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-3]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-8] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-7]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-7] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-5] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-9]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-0]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-5]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-3] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-9] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-7] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-1] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-5]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-2]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-0] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-3] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-9]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-6]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-1] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-9] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-2] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-0]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-5] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-7] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-7]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-6]'}
+{'../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-7] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-8] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-5] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-4]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-7]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-2] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-5] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-6] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-4] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-3]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-6]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-9] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-5]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-1]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-2]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-7] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-3] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-6] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-2]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-4]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-9]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-4]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-1]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-6]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-1] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-0] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-3] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-2]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-3] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-0]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-5] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-9]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-1]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-8]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-7] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-5]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-5]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-6]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-0]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-6] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-4] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-8] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-2] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-7]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-3]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-2] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-4] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-0]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-8]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-9]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-8]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-7]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-9] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-1] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-3]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-0] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-9] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-8] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-0] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-1] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -61,16 +61,13 @@ _______________________ test_randomperspective_fill[L-0] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 _______________________ test_randomperspective_fill[L-1] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -82,16 +79,13 @@ _______________________ test_randomperspective_fill[L-1] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 _______________________ test_randomperspective_fill[L-2] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -103,16 +97,13 @@ _______________________ test_randomperspective_fill[L-2] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 _______________________ test_randomperspective_fill[L-3] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -124,16 +115,13 @@ _______________________ test_randomperspective_fill[L-3] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 _______________________ test_randomperspective_fill[L-4] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -145,16 +133,13 @@ _______________________ test_randomperspective_fill[L-4] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 _______________________ test_randomperspective_fill[L-5] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -166,16 +151,13 @@ _______________________ test_randomperspective_fill[L-5] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 _______________________ test_randomperspective_fill[L-6] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -187,16 +169,13 @@ _______________________ test_randomperspective_fill[L-6] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 _______________________ test_randomperspective_fill[L-7] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -208,16 +187,13 @@ _______________________ test_randomperspective_fill[L-7] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 _______________________ test_randomperspective_fill[L-8] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -229,16 +205,13 @@ _______________________ test_randomperspective_fill[L-8] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 _______________________ test_randomperspective_fill[L-9] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -250,16 +223,13 @@ _______________________ test_randomperspective_fill[L-9] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 ______________________ test_randomperspective_fill[RGB-0] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -271,16 +241,13 @@ ______________________ test_randomperspective_fill[RGB-0] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 ______________________ test_randomperspective_fill[RGB-1] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -292,16 +259,13 @@ ______________________ test_randomperspective_fill[RGB-1] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 ______________________ test_randomperspective_fill[RGB-2] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -313,16 +277,13 @@ ______________________ test_randomperspective_fill[RGB-2] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 ______________________ test_randomperspective_fill[RGB-3] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -334,16 +295,13 @@ ______________________ test_randomperspective_fill[RGB-3] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 ______________________ test_randomperspective_fill[RGB-4] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -355,16 +313,13 @@ ______________________ test_randomperspective_fill[RGB-4] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 ______________________ test_randomperspective_fill[RGB-5] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -376,16 +331,13 @@ ______________________ test_randomperspective_fill[RGB-5] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 ______________________ test_randomperspective_fill[RGB-6] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -397,16 +349,13 @@ ______________________ test_randomperspective_fill[RGB-6] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 ______________________ test_randomperspective_fill[RGB-7] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -418,16 +367,13 @@ ______________________ test_randomperspective_fill[RGB-7] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 ______________________ test_randomperspective_fill[RGB-8] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -439,16 +385,13 @@ ______________________ test_randomperspective_fill[RGB-8] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 ______________________ test_randomperspective_fill[RGB-9] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -460,16 +403,13 @@ ______________________ test_randomperspective_fill[RGB-9] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 _______________________ test_randomperspective_fill[F-0] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -481,16 +421,13 @@ _______________________ test_randomperspective_fill[F-0] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 _______________________ test_randomperspective_fill[F-1] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -502,16 +439,13 @@ _______________________ test_randomperspective_fill[F-1] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 _______________________ test_randomperspective_fill[F-2] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -523,16 +457,13 @@ _______________________ test_randomperspective_fill[F-2] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 _______________________ test_randomperspective_fill[F-3] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -544,16 +475,13 @@ _______________________ test_randomperspective_fill[F-3] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 _______________________ test_randomperspective_fill[F-4] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -565,16 +493,13 @@ _______________________ test_randomperspective_fill[F-4] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 _______________________ test_randomperspective_fill[F-5] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -586,16 +511,13 @@ _______________________ test_randomperspective_fill[F-5] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 _______________________ test_randomperspective_fill[F-6] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -607,16 +529,13 @@ _______________________ test_randomperspective_fill[F-6] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 _______________________ test_randomperspective_fill[F-7] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -628,16 +547,13 @@ _______________________ test_randomperspective_fill[F-7] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 _______________________ test_randomperspective_fill[F-8] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -649,16 +565,13 @@ _______________________ test_randomperspective_fill[F-8] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 _______________________ test_randomperspective_fill[F-9] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -670,16 +583,13 @@ _______________________ test_randomperspective_fill[F-9] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:35: in perspective
-    coeffs = _get_perspective_coeffs(startpoints, endpoints)
-../publishablew/vision/vision/torchvision/transforms/temp.py:25: in _get_perspective_coeffs
-    A = np.matrix(matrix, dtype=np.float)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/__init__.py:397: in __getattr__
-    raise AttributeError(__former_attrs__[attr], name=None)
-E   AttributeError: module 'numpy' has no attribute 'float'.
-E   `np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
-E   The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
-E       https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+../publishablew/vision/vision/torchvision/transforms/temp.py:37: in perspective
+    return image.transform(image.size, Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
+    im.__transformer(
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
+    raise ValueError(msg)
+E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
 =========================== short test summary info ============================
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-0]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-1]
@@ -711,7 +621,7 @@ FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspec
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-7]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-8]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-9]
-============================== 30 failed in 3.83s ==============================
+============================== 30 failed in 5.59s ==============================
 
 
 Final Test Result:
@@ -754,7 +664,7 @@ collecting ... collected 30 items
 ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-8] PASSED
 ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-9] PASSED
 
-============================== 30 passed in 0.42s ==============================
+============================== 30 passed in 0.35s ==============================
 
 
 Initial Result:
@@ -797,4 +707,4 @@ collecting ... collected 30 items
 ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-8] PASSED
 ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-9] PASSED
 
-============================== 30 passed in 0.42s ==============================
+============================== 30 passed in 0.38s ==============================

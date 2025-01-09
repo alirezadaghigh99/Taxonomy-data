@@ -1,41 +1,29 @@
 import numpy as np
 
 def confusion_matrix(true, pred):
-    """
-    Compute the confusion matrix to evaluate the accuracy of a classification.
-
-    Parameters
-    ----------
-    true : np.ndarray 1d
-        Contains true labels.
-        Assumes true and pred contains the same set of distinct labels.
-
-    pred : np.ndarray 1d
-        A discrete vector of predicted labels, i.e. some labels may be erroneous.
-        *Format requirements*: for dataset with K classes, labels must be in {0,1,...,K-1}.
-
-    Returns
-    -------
-    confusion_matrix : np.ndarray (2D)
-        Matrix of confusion counts with true on rows and pred on columns.
-    """
-    # Ensure inputs are numpy arrays
+    # Ensure that true and pred are numpy arrays
     true = np.asarray(true)
     pred = np.asarray(pred)
     
-    # Check if true and pred have the same length
-    if true.shape[0] != pred.shape[0]:
-        raise ValueError("true and pred must be the same length")
+    # Check if the lengths of true and pred are the same
+    if len(true) != len(pred):
+        raise ValueError("The length of true and pred must be the same.")
     
-    # Get the number of classes
-    num_classes = len(np.unique(true))
+    # Get the unique class labels
+    labels = np.unique(true)
     
     # Initialize the confusion matrix with zeros
+    num_classes = len(labels)
     conf_matrix = np.zeros((num_classes, num_classes), dtype=int)
+    
+    # Create a mapping from label to index
+    label_to_index = {label: index for index, label in enumerate(labels)}
     
     # Populate the confusion matrix
     for t, p in zip(true, pred):
-        conf_matrix[t, p] += 1
+        true_index = label_to_index[t]
+        pred_index = label_to_index[p]
+        conf_matrix[true_index, pred_index] += 1
     
     return conf_matrix
 

@@ -17,29 +17,19 @@ def so3_generators(k):
     if k < 1:
         raise ValueError("The representation index k must be a positive integer.")
 
-    # Define the dimension of the representation
-    dim = 2 * k + 1
+    # Define the basic angular momentum matrices for the fundamental representation
+    J_x = torch.zeros((2*k+1, 2*k+1), dtype=torch.float32)
+    J_y = torch.zeros((2*k+1, 2*k+1), dtype=torch.float32)
+    J_z = torch.zeros((2*k+1, 2*k+1), dtype=torch.float32)
 
-    # Initialize the generators
-    J_x = torch.zeros((dim, dim), dtype=torch.float64)
-    J_y = torch.zeros((dim, dim), dtype=torch.float64)
-    J_z = torch.zeros((dim, dim), dtype=torch.float64)
-
-    # Fill the generators
-    for m in range(-k, k):
-        idx = m + k
-        # J_x
-        if idx + 1 < dim:
-            J_x[idx, idx + 1] = 0.5 * torch.sqrt((k - m) * (k + m + 1))
-            J_x[idx + 1, idx] = 0.5 * torch.sqrt((k + m + 1) * (k - m))
-        
-        # J_y
-        if idx + 1 < dim:
-            J_y[idx, idx + 1] = -0.5j * torch.sqrt((k - m) * (k + m + 1))
-            J_y[idx + 1, idx] = 0.5j * torch.sqrt((k + m + 1) * (k - m))
-        
-        # J_z
-        J_z[idx, idx] = m
+    # Fill in the matrices
+    for m in range(-k, k+1):
+        if m < k:
+            J_x[k+m, k+m+1] = 0.5 * torch.sqrt((k-m) * (k+m+1))
+            J_x[k+m+1, k+m] = 0.5 * torch.sqrt((k-m) * (k+m+1))
+            J_y[k+m, k+m+1] = -0.5j * torch.sqrt((k-m) * (k+m+1))
+            J_y[k+m+1, k+m] = 0.5j * torch.sqrt((k-m) * (k+m+1))
+        J_z[k+m, k+m] = m
 
     # Stack the generators into a single tensor
     generators = torch.stack((J_x, J_y, J_z))

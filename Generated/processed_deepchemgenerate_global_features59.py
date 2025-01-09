@@ -1,7 +1,8 @@
-from rdkit import Chem
 import numpy as np
+from rdkit import Chem
 
-# Assuming GraphConvConstants is defined somewhere with FEATURE_GENERATORS
+# Assuming GraphConvConstants is defined somewhere in your codebase
+# and contains a dictionary or similar structure with available feature generators.
 class GraphConvConstants:
     FEATURE_GENERATORS = {
-        'example_generator': lambda mol: [1.0, 2.0, 3.0]  
+        

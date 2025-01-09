@@ -54,7 +54,7 @@ E   ImportError: cannot import name 'get_scorer1' from 'sklearn.metrics' (/local
 =========================== short test summary info ============================
 ERROR ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_score_objects.py
 ERROR ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_score_objects.py
-============================== 2 errors in 0.46s ===============================
+============================== 2 errors in 0.55s ===============================
 
 
 Final Test Result:
@@ -66,7 +66,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 18 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_score_objects.py::test_classification_binary_scores[f1-f1_score] I: Seeding RNGs with 1148057757
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_score_objects.py::test_classification_binary_scores[f1-f1_score] I: Seeding RNGs with 1529196760
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_score_objects.py::test_classification_binary_scores[f1_weighted-metric1] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_score_objects.py::test_classification_binary_scores[f1_macro-metric2] PASSED
@@ -86,7 +86,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_score_objects.py::test_classification_binary_scores[top_k_accuracy-top_k_accuracy_score] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_score_objects.py::test_classification_binary_scores[matthews_corrcoef-matthews_corrcoef] PASSED
 
-======================== 18 passed, 2 warnings in 0.39s ========================
+======================== 18 passed, 2 warnings in 0.40s ========================
 
 
 Initial Result:
@@ -98,7 +98,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 18 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_score_objects.py::test_classification_binary_scores[f1-f1_score] I: Seeding RNGs with 2111335352
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_score_objects.py::test_classification_binary_scores[f1-f1_score] I: Seeding RNGs with 1931671156
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_score_objects.py::test_classification_binary_scores[f1_weighted-metric1] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_score_objects.py::test_classification_binary_scores[f1_macro-metric2] PASSED
@@ -118,4 +118,4 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_score_objects.py::test_classification_binary_scores[top_k_accuracy-top_k_accuracy_score] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_score_objects.py::test_classification_binary_scores[matthews_corrcoef-matthews_corrcoef] PASSED
 
-======================== 18 passed, 2 warnings in 0.43s ========================
+======================== 18 passed, 2 warnings in 0.41s ========================

@@ -3,37 +3,48 @@ from sklearn.metrics.pairwise import cosine_distances, euclidean_distances
 from sklearn.preprocessing import normalize
 
 def greedy_coreset(x, indices_unlabeled, indices_labeled, n, distance_metric='euclidean', batch_size=1, normalized=False):
+    # Normalize the data if required
     if normalized:
         x = normalize(x, axis=1)
     
+    # Select the appropriate distance function
     if distance_metric == 'cosine':
         distance_func = cosine_distances
     elif distance_metric == 'euclidean':
         distance_func = euclidean_distances
     else:
-        raise ValueError("Unsupported distance metric. Use 'cosine' or 'euclidean'.")
+        raise ValueError("Unsupported distance metric. Choose 'cosine' or 'euclidean'.")
     
-    # Initialize the coreset with the labeled indices
-    coreset_indices = list(indices_labeled)
+    # Initialize the set of selected indices
+    selected_indices = []
     
-    # Compute initial distances from labeled to unlabeled points
-    distances = distance_func(x[indices_labeled], x[indices_unlabeled])
-    min_distances = np.min(distances, axis=0)
+    # Create a mask for unlabeled data
+    unlabeled_mask = np.ones(len(indices_unlabeled), dtype=bool)
     
+    # Compute initial distances from labeled to unlabeled data
+    labeled_data = x[indices_labeled]
+    unlabeled_data = x[indices_unlabeled]
+    distances = distance_func(labeled_data, unlabeled_data)
+    
+    # Main loop to select points for the coreset
     for _ in range(n):
-        # Select the batch_size points with the maximum minimum distance to the coreset
-        batch_indices = np.argpartition(min_distances, -batch_size)[-batch_size:]
-        selected_indices = indices_unlabeled[batch_indices]
+        # Find the maximum distance for each unlabeled point to the labeled set
+        min_distances = np.min(distances, axis=0)
         
-        # Add selected indices to the coreset
-        coreset_indices.extend(selected_indices)
+        # Select the point with the maximum of these minimum distances
+        max_dist_index = np.argmax(min_distances[unlabeled_mask])
+        selected_index = indices_unlabeled[unlabeled_mask][max_dist_index]
         
-        # Remove selected indices from the unlabeled set
-        indices_unlabeled = np.delete(indices_unlabeled, batch_indices)
+        # Add the selected index to the coreset
+        selected_indices.append(selected_index)
         
-        # Update the minimum distances
-        new_distances = distance_func(x[selected_indices], x[indices_unlabeled])
-        min_distances = np.minimum(min_distances, np.min(new_distances, axis=0))
+        # Update the mask to exclude the selected index
+        unlabeled_mask[indices_unlabeled == selected_index] = False
+        
+        # Update the distances with the newly selected point
+        new_point = x[selected_index].reshape(1, -1)
+        new_distances = distance_func(new_point, unlabeled_data)
+        distances = np.vstack((distances, new_distances))
     
-    return np.array(coreset_indices)
+    return np.array(selected_indices)
 

@@ -11,39 +11,34 @@ def match_fginn(
     spatial_th: float = 10.0,
     mutual: bool = False,
     dm: Optional[Tensor] = None,
-) -> Tuple[Tensor, Tensor, Tensor]:
-    # Compute the pairwise distance between descriptors
+) -> Tuple[Tensor, Tensor]:
+    # Compute pairwise descriptor distances
     if dm is None:
-        dm = torch.cdist(desc1, desc2, p=2)
-    
+        dm = torch.cdist(desc1, desc2, p=2)  # Euclidean distance
+
     # Find the nearest neighbors in desc2 for each vector in desc1
-    min_dist, nn_idx = torch.min(dm, dim=1)
-    
-    # Apply the descriptor distance threshold
-    mask = min_dist <= th
-    min_dist = min_dist[mask]
-    nn_idx = nn_idx[mask]
-    
-    # Get the corresponding lafs
-    lafs1_matched = lafs1[mask]
-    lafs2_matched = lafs2[nn_idx]
-    
-    # Compute the spatial distance between matched lafs
-    spatial_dist = torch.norm(lafs1_matched[:, :2, 2] - lafs2_matched[:, :2, 2], dim=1)
-    
-    # Apply the spatial distance threshold
-    spatial_mask = spatial_dist <= spatial_th
-    min_dist = min_dist[spatial_mask]
-    nn_idx = nn_idx[spatial_mask]
-    idx1 = torch.nonzero(mask)[spatial_mask].squeeze(1)
-    
+    min_dist, min_idx = torch.min(dm, dim=1)
+
+    # Apply descriptor distance threshold
+    valid_matches = min_dist < th
+
+    # Optionally apply spatial threshold
+    if spatial_th is not None:
+        # Compute spatial distances
+        spatial_dist = torch.cdist(lafs1[:, :2, 2], lafs2[:, :2, 2], p=2)
+        valid_matches &= spatial_dist[torch.arange(len(min_idx)), min_idx] < spatial_th
+
+    # Filter matches based on the valid matches
+    min_dist = min_dist[valid_matches]
+    min_idx = min_idx[valid_matches]
+
     if mutual:
         # Perform mutual nearest neighbor check
-        min_dist2, nn_idx2 = torch.min(dm.t(), dim=1)
-        mutual_mask = nn_idx2[nn_idx] == idx1
-        min_dist = min_dist[mutual_mask]
-        nn_idx = nn_idx[mutual_mask]
-        idx1 = idx1[mutual_mask]
-    
-    return min_dist, idx1, nn_idx
+        reverse_dm = torch.cdist(desc2, desc1, p=2)
+        reverse_min_dist, reverse_min_idx = torch.min(reverse_dm, dim=1)
+        mutual_matches = reverse_min_idx[min_idx] == torch.arange(len(min_idx), device=min_idx.device)
+        min_dist = min_dist[mutual_matches]
+        min_idx = min_idx[mutual_matches]
+
+    return min_dist, min_idx
 

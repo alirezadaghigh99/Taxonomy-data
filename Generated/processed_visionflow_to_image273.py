@@ -3,97 +3,68 @@ import numpy as np
 
 def flow_to_image(flow):
     if not isinstance(flow, torch.Tensor):
-        raise ValueError("Input must be a torch.Tensor")
+        raise ValueError("Input must be a torch.Tensor.")
     
     if flow.dtype != torch.float:
-        raise ValueError("Input tensor must be of type torch.float")
+        raise ValueError("Input tensor must be of type torch.float.")
     
-    if flow.dim() not in [3, 4] or (flow.dim() == 3 and flow.size(0) != 2) or (flow.dim() == 4 and flow.size(1) != 2):
-        raise ValueError("Input tensor must have shape (2, H, W) or (N, 2, H, W)")
+    if flow.ndim not in {3, 4}:
+        raise ValueError("Input tensor must have 3 or 4 dimensions.")
     
-    def normalize_flow(flow):
-        max_flow = torch.max(torch.abs(flow))
-        return flow / (max_flow + 1e-5)
+    if flow.ndim == 3:
+        if flow.shape[0] != 2:
+            raise ValueError("For 3D input, the shape must be (2, H, W).")
+        flow = flow.unsqueeze(0)  # Add batch dimension for consistency
     
-    def flow_to_rgb(flow):
-        H, W = flow.shape[1], flow.shape[2]
-        rgb = torch.zeros(3, H, W, dtype=torch.float)
-        
-        u = flow[0]
-        v = flow[1]
-        
-        rad = torch.sqrt(u**2 + v**2)
-        a = torch.atan2(-v, -u) / np.pi
-        
-        fk = (a + 1) / 2 * (255 - 1)
-        k0 = torch.floor(fk).long()
-        k1 = k0 + 1
-        
-        f = fk - k0
-        
-        colorwheel = make_colorwheel()
-        ncols = colorwheel.shape[0]
-        
-        for i in range(3):
-            col0 = colorwheel[k0 % ncols, i] / 255.0
-            col1 = colorwheel[k1 % ncols, i] / 255.0
-            col = (1 - f) * col0 + f * col1
-            
-            col = 1 - rad * (1 - col)
-            col[rad <= 1] = 1 - rad[rad <= 1] * (1 - col[rad <= 1])
-            col[rad > 1] *= 0.75
-            
-            rgb[i] = col
-        
-        return rgb
+    elif flow.ndim == 4:
+        if flow.shape[1] != 2:
+            raise ValueError("For 4D input, the shape must be (N, 2, H, W).")
     
-    def make_colorwheel():
-        # Create a color wheel for visualization
-        RY = 15
-        YG = 6
-        GC = 4
-        CB = 11
-        BM = 13
-        MR = 6
-        
-        ncols = RY + YG + GC + CB + BM + MR
-        colorwheel = torch.zeros((ncols, 3))
-        
-        col = 0
-        colorwheel[0:RY, 0] = 255
-        colorwheel[0:RY, 1] = torch.floor(255 * torch.arange(0, RY) / RY)
-        col += RY
-        
-        colorwheel[col:col+YG, 0] = 255 - torch.floor(255 * torch.arange(0, YG) / YG)
-        colorwheel[col:col+YG, 1] = 255
-        col += YG
-        
-        colorwheel[col:col+GC, 1] = 255
-        colorwheel[col:col+GC, 2] = torch.floor(255 * torch.arange(0, GC) / GC)
-        col += GC
-        
-        colorwheel[col:col+CB, 1] = 255 - torch.floor(255 * torch.arange(0, CB) / CB)
-        colorwheel[col:col+CB, 2] = 255
-        col += CB
-        
-        colorwheel[col:col+BM, 2] = 255
-        colorwheel[col:col+BM, 0] = torch.floor(255 * torch.arange(0, BM) / BM)
-        col += BM
-        
-        colorwheel[col:col+MR, 2] = 255 - torch.floor(255 * torch.arange(0, MR) / MR)
-        colorwheel[col:col+MR, 0] = 255
-        
-        return colorwheel
+    N, _, H, W = flow.shape
     
-    if flow.dim() == 3:
-        flow = normalize_flow(flow)
-        rgb_image = flow_to_rgb(flow)
-    else:
-        N = flow.size(0)
-        rgb_image = torch.zeros(N, 3, flow.size(2), flow.size(3), dtype=torch.float)
-        for i in range(N):
-            normalized_flow = normalize_flow(flow[i])
-            rgb_image[i] = flow_to_rgb(normalized_flow)
+    # Compute the magnitude and angle of the flow
+    u = flow[:, 0, :, :]
+    v = flow[:, 1, :, :]
+    magnitude = torch.sqrt(u ** 2 + v ** 2)
+    angle = torch.atan2(v, u)
     
-    return rgb_image
+    # Normalize the magnitude
+    max_magnitude = torch.max(magnitude, dim=(1, 2), keepdim=True)[0]
+    max_magnitude[max_magnitude == 0] = 1  # Avoid division by zero
+    magnitude = magnitude / max_magnitude
+    
+    # Convert angle to hue
+    hue = (angle + np.pi) / (2 * np.pi)  # Normalize angle to [0, 1]
+    
+    # Create HSV image
+    hsv = torch.zeros((N, 3, H, W), dtype=torch.float, device=flow.device)
+    hsv[:, 0, :, :] = hue  # Hue
+    hsv[:, 1, :, :] = 1    # Saturation
+    hsv[:, 2, :, :] = magnitude  # Value
+    
+    # Convert HSV to RGB
+    rgb = hsv_to_rgb(hsv)
+    
+    if flow.ndim == 3:
+        rgb = rgb.squeeze(0)  # Remove batch dimension if it was added
+    
+    return rgb
 
+def hsv_to_rgb(hsv):
+    # Convert HSV to RGB using PyTorch
+    h, s, v = hsv[:, 0, :, :], hsv[:, 1, :, :], hsv[:, 2, :, :]
+    c = v * s
+    x = c * (1 - torch.abs((h * 6) % 2 - 1))
+    m = v - c
+    
+    z = torch.zeros_like(h)
+    
+    # Create RGB channels
+    rgb = torch.stack([
+        torch.where((0 <= h) & (h < 1/6), c, torch.where((1/6 <= h) & (h < 2/6), x, torch.where((2/6 <= h) & (h < 3/6), z, torch.where((3/6 <= h) & (h < 4/6), z, torch.where((4/6 <= h) & (h < 5/6), x, c))))),
+        torch.where((0 <= h) & (h < 1/6), x, torch.where((1/6 <= h) & (h < 2/6), c, torch.where((2/6 <= h) & (h < 3/6), c, torch.where((3/6 <= h) & (h < 4/6), x, torch.where((4/6 <= h) & (h < 5/6), z, z))))),
+        torch.where((0 <= h) & (h < 1/6), z, torch.where((1/6 <= h) & (h < 2/6), z, torch.where((2/6 <= h) & (h < 3/6), x, torch.where((3/6 <= h) & (h < 4/6), c, torch.where((4/6 <= h) & (h < 5/6), c, x)))))
+    ], dim=1)
+    
+    rgb = rgb + m.unsqueeze(1)
+    return rgb

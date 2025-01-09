@@ -1,19 +1,13 @@
 import torch
 
 def box_convert(boxes, in_fmt, out_fmt):
-    """
-    Convert boxes from in_fmt to out_fmt.
-
-    Args:
-        boxes (Tensor[N, 4]): boxes which will be converted.
-        in_fmt (str): Input format of given boxes. Supported formats are ['xyxy', 'xywh', 'cxcywh'].
-        out_fmt (str): Output format of given boxes. Supported formats are ['xyxy', 'xywh', 'cxcywh']
-
-    Returns:
-        Tensor[N, 4]: Boxes into converted format.
-    """
     if in_fmt == out_fmt:
-        return boxes
+        return boxes.clone()
+
+    if in_fmt not in ['xyxy', 'xywh', 'cxcywh']:
+        raise ValueError(f"Unsupported in_fmt: {in_fmt}")
+    if out_fmt not in ['xyxy', 'xywh', 'cxcywh']:
+        raise ValueError(f"Unsupported out_fmt: {out_fmt}")
 
     if in_fmt == 'xyxy':
         x1, y1, x2, y2 = boxes.unbind(-1)
@@ -36,8 +30,5 @@ def box_convert(boxes, in_fmt, out_fmt):
         elif out_fmt == 'xywh':
             return torch.stack((cx - w / 2, cy - h / 2, w, h), dim=-1)
 
-    else:
-        raise ValueError(f"Unsupported format: {in_fmt}")
-
-    raise ValueError(f"Unsupported format: {out_fmt}")
+    raise ValueError(f"Conversion from {in_fmt} to {out_fmt} is not supported.")
 

@@ -4,22 +4,21 @@ from typing import Union
 
 LabelLike = Union[list, np.ndarray, pd.Series, pd.DataFrame]
 
-def labels_to_array(y: LabelLike) -> np.ndarray:
+def labels_to_array(y: Union[LabelLike, np.generic]) -> np.ndarray:
+    # Check if the input is a pandas DataFrame
     if isinstance(y, pd.DataFrame):
+        # Raise an error if the DataFrame has more than one column
         if y.shape[1] != 1:
-            raise ValueError("DataFrame must have exactly one column")
-        y = y.iloc[:, 0]  # Convert single-column DataFrame to Series
+            raise ValueError("DataFrame input must have exactly one column.")
+        # Convert the single column DataFrame to a Series
+        y = y.iloc[:, 0]
     
-    if isinstance(y, pd.Series):
-        y = y.values  # Convert Series to NumPy array
+    # Convert the input to a NumPy array
+    y_array = np.asarray(y)
     
-    if isinstance(y, list):
-        y = np.array(y)  # Convert list to NumPy array
+    # Check if the resulting array is 1D
+    if y_array.ndim != 1:
+        raise ValueError("Input cannot be converted to a 1D NumPy array.")
     
-    if isinstance(y, np.ndarray):
-        if y.ndim != 1:
-            raise ValueError("Input array must be 1-dimensional")
-        return y
-    
-    raise ValueError("Input type not supported or cannot be converted to a 1D NumPy array")
+    return y_array
 

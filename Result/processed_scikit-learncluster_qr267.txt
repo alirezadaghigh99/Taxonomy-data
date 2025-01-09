@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 12 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[kmeans-arpack-csr_matrix] I: Seeding RNGs with 1281756518
+../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[kmeans-arpack-csr_matrix] I: Seeding RNGs with 1824961275
 FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[kmeans-arpack-csr_array] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[kmeans-lobpcg-csr_matrix] FAILED
@@ -76,12 +76,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0], dtype=int32)
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ______________ test_spectral_clustering[kmeans-arpack-csr_array] _______________
 
 eigen_solver = 'arpack', assign_labels = 'kmeans'
@@ -125,12 +130,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0], dtype=int32)
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ______________ test_spectral_clustering[kmeans-lobpcg-csr_matrix] ______________
 
 eigen_solver = 'lobpcg', assign_labels = 'kmeans'
@@ -174,12 +184,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0], dtype=int32)
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ______________ test_spectral_clustering[kmeans-lobpcg-csr_array] _______________
 
 eigen_solver = 'lobpcg', assign_labels = 'kmeans'
@@ -223,12 +238,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0], dtype=int32)
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[discretize-arpack-csr_matrix] ____________
 
 eigen_solver = 'arpack', assign_labels = 'discretize'
@@ -272,12 +292,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[discretize-arpack-csr_array] _____________
 
 eigen_solver = 'arpack', assign_labels = 'discretize'
@@ -321,12 +346,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[discretize-lobpcg-csr_matrix] ____________
 
 eigen_solver = 'lobpcg', assign_labels = 'discretize'
@@ -370,12 +400,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[discretize-lobpcg-csr_array] _____________
 
 eigen_solver = 'lobpcg', assign_labels = 'discretize'
@@ -419,12 +454,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[cluster_qr-arpack-csr_matrix] ____________
 
 eigen_solver = 'arpack', assign_labels = 'cluster_qr'
@@ -468,12 +508,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 0]), labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[cluster_qr-arpack-csr_array] _____________
 
 eigen_solver = 'arpack', assign_labels = 'cluster_qr'
@@ -517,12 +561,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 0]), labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[cluster_qr-lobpcg-csr_matrix] ____________
 
 eigen_solver = 'lobpcg', assign_labels = 'cluster_qr'
@@ -566,12 +614,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 0]), labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[cluster_qr-lobpcg-csr_array] _____________
 
 eigen_solver = 'lobpcg', assign_labels = 'cluster_qr'
@@ -615,12 +667,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 0]), labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 =========================== short test summary info ============================
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[kmeans-arpack-csr_matrix]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[kmeans-arpack-csr_array]
@@ -634,7 +690,7 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spec
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[cluster_qr-arpack-csr_array]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[cluster_qr-lobpcg-csr_matrix]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[cluster_qr-lobpcg-csr_array]
-============================== 12 failed in 0.76s ==============================
+============================== 12 failed in 0.69s ==============================
 
 
 Final Test Result:
@@ -646,7 +702,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 12 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[kmeans-arpack-csr_matrix] I: Seeding RNGs with 1676246065
+../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[kmeans-arpack-csr_matrix] I: Seeding RNGs with 1680427243
 FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[kmeans-arpack-csr_array] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[kmeans-lobpcg-csr_matrix] FAILED
@@ -704,12 +760,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0], dtype=int32)
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ______________ test_spectral_clustering[kmeans-arpack-csr_array] _______________
 
 eigen_solver = 'arpack', assign_labels = 'kmeans'
@@ -753,12 +814,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0], dtype=int32)
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ______________ test_spectral_clustering[kmeans-lobpcg-csr_matrix] ______________
 
 eigen_solver = 'lobpcg', assign_labels = 'kmeans'
@@ -802,12 +868,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0], dtype=int32)
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ______________ test_spectral_clustering[kmeans-lobpcg-csr_array] _______________
 
 eigen_solver = 'lobpcg', assign_labels = 'kmeans'
@@ -851,12 +922,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0], dtype=int32)
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[discretize-arpack-csr_matrix] ____________
 
 eigen_solver = 'arpack', assign_labels = 'discretize'
@@ -900,12 +976,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[discretize-arpack-csr_array] _____________
 
 eigen_solver = 'arpack', assign_labels = 'discretize'
@@ -949,12 +1030,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[discretize-lobpcg-csr_matrix] ____________
 
 eigen_solver = 'lobpcg', assign_labels = 'discretize'
@@ -998,12 +1084,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[discretize-lobpcg-csr_array] _____________
 
 eigen_solver = 'lobpcg', assign_labels = 'discretize'
@@ -1047,12 +1138,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[cluster_qr-arpack-csr_matrix] ____________
 
 eigen_solver = 'arpack', assign_labels = 'cluster_qr'
@@ -1096,12 +1192,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[cluster_qr-arpack-csr_array] _____________
 
 eigen_solver = 'arpack', assign_labels = 'cluster_qr'
@@ -1145,12 +1246,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[cluster_qr-lobpcg-csr_matrix] ____________
 
 eigen_solver = 'lobpcg', assign_labels = 'cluster_qr'
@@ -1194,12 +1300,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[cluster_qr-lobpcg-csr_array] _____________
 
 eigen_solver = 'lobpcg', assign_labels = 'cluster_qr'
@@ -1243,12 +1354,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 =========================== short test summary info ============================
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[kmeans-arpack-csr_matrix]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[kmeans-arpack-csr_array]
@@ -1262,7 +1378,7 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spec
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[cluster_qr-arpack-csr_array]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[cluster_qr-lobpcg-csr_matrix]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[cluster_qr-lobpcg-csr_array]
-============================== 12 failed in 0.79s ==============================
+============================== 12 failed in 0.71s ==============================
 
 
 Initial Result:
@@ -1274,7 +1390,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 12 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[kmeans-arpack-csr_matrix] I: Seeding RNGs with 1253963930
+../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[kmeans-arpack-csr_matrix] I: Seeding RNGs with 510282163
 FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[kmeans-arpack-csr_array] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[kmeans-lobpcg-csr_matrix] FAILED
@@ -1332,12 +1448,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0], dtype=int32)
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ______________ test_spectral_clustering[kmeans-arpack-csr_array] _______________
 
 eigen_solver = 'arpack', assign_labels = 'kmeans'
@@ -1381,12 +1502,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0], dtype=int32)
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ______________ test_spectral_clustering[kmeans-lobpcg-csr_matrix] ______________
 
 eigen_solver = 'lobpcg', assign_labels = 'kmeans'
@@ -1430,12 +1556,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0], dtype=int32)
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ______________ test_spectral_clustering[kmeans-lobpcg-csr_array] _______________
 
 eigen_solver = 'lobpcg', assign_labels = 'kmeans'
@@ -1479,12 +1610,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0], dtype=int32)
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[discretize-arpack-csr_matrix] ____________
 
 eigen_solver = 'arpack', assign_labels = 'discretize'
@@ -1528,12 +1664,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[discretize-arpack-csr_array] _____________
 
 eigen_solver = 'arpack', assign_labels = 'discretize'
@@ -1577,12 +1718,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[discretize-lobpcg-csr_matrix] ____________
 
 eigen_solver = 'lobpcg', assign_labels = 'discretize'
@@ -1626,12 +1772,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[discretize-lobpcg-csr_array] _____________
 
 eigen_solver = 'lobpcg', assign_labels = 'discretize'
@@ -1675,12 +1826,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[cluster_qr-arpack-csr_matrix] ____________
 
 eigen_solver = 'arpack', assign_labels = 'cluster_qr'
@@ -1724,12 +1880,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[cluster_qr-arpack-csr_array] _____________
 
 eigen_solver = 'arpack', assign_labels = 'cluster_qr'
@@ -1773,12 +1934,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[cluster_qr-lobpcg-csr_matrix] ____________
 
 eigen_solver = 'lobpcg', assign_labels = 'cluster_qr'
@@ -1822,12 +1988,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 ____________ test_spectral_clustering[cluster_qr-lobpcg-csr_array] _____________
 
 eigen_solver = 'lobpcg', assign_labels = 'cluster_qr'
@@ -1871,12 +2042,17 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = array([1, 1, 1, 0, 0, 0, 0])
+labels_pred = [1, 1, 1, 0, 0, 0, ...]
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 =========================== short test summary info ============================
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[kmeans-arpack-csr_matrix]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[kmeans-arpack-csr_array]
@@ -1890,4 +2066,4 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spec
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[cluster_qr-arpack-csr_array]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[cluster_qr-lobpcg-csr_matrix]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_spectral_clustering[cluster_qr-lobpcg-csr_array]
-============================== 12 failed in 0.77s ==============================
+============================== 12 failed in 0.70s ==============================

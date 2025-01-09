@@ -1,45 +1,30 @@
 import torch
 
 def convert_image_dtype(image: torch.Tensor, dtype: torch.dtype) -> torch.Tensor:
-    """
-    Convert a tensor image to the given dtype and scale the values accordingly.
-    
-    Args:
-        image (torch.Tensor): Image to be converted.
-        dtype (torch.dtype): Desired data type of the output.
-    
-    Returns:
-        torch.Tensor: Converted image.
-    
-    Raises:
-        RuntimeError: When trying to cast torch.float32 to torch.int32 or torch.int64 as
-                      well as for trying to cast torch.float64 to torch.int64.
-    """
     if not isinstance(image, torch.Tensor):
         raise TypeError("Input image must be a torch.Tensor")
-    
-    if image.dtype == dtype:
-        return image
-    
-    if dtype in [torch.int32, torch.int64] and image.dtype in [torch.float32, torch.float64]:
-        raise RuntimeError(f"Cannot cast {image.dtype} to {dtype} due to potential overflow errors.")
-    
-    if image.dtype in [torch.uint8, torch.int8, torch.int16, torch.int32, torch.int64]:
-        if dtype in [torch.float32, torch.float64]:
-            # Convert integer to float
-            image = image.to(dtype)
-            image = image / 255.0 if image.dtype == torch.uint8 else image / image.max()
-        elif dtype in [torch.uint8, torch.int8, torch.int16, torch.int32, torch.int64]:
-            # Convert integer to another integer type
-            image = image.to(dtype)
-    elif image.dtype in [torch.float32, torch.float64]:
-        if dtype in [torch.uint8, torch.int8, torch.int16, torch.int32, torch.int64]:
-            # Convert float to integer
-            image = image * 255.0 if dtype == torch.uint8 else image * image.max()
-            image = image.to(dtype)
-        elif dtype in [torch.float32, torch.float64]:
-            # Convert float to another float type
-            image = image.to(dtype)
-    
-    return image
+
+    if dtype not in [torch.uint8, torch.int8, torch.int16, torch.int32, torch.int64, torch.float16, torch.float32, torch.float64]:
+        raise ValueError("Unsupported dtype. Supported dtypes are: torch.uint8, torch.int8, torch.int16, torch.int32, torch.int64, torch.float16, torch.float32, torch.float64")
+
+    # Handle conversion from float to int types that might cause overflow
+    if (image.dtype == torch.float32 and dtype in [torch.int32, torch.int64]) or \
+       (image.dtype == torch.float64 and dtype == torch.int64):
+        raise RuntimeError(f"Conversion from {image.dtype} to {dtype} might lead to overflow errors.")
+
+    # Define the scale factors for conversion
+    def get_scale_factor(src_dtype, dst_dtype):
+        if src_dtype.is_floating_point and not dst_dtype.is_floating_point:
+            return 255 if dst_dtype == torch.uint8 else 1
+        elif not src_dtype.is_floating_point and dst_dtype.is_floating_point:
+            return 1 / 255 if src_dtype == torch.uint8 else 1
+        return 1
+
+    scale_factor = get_scale_factor(image.dtype, dtype)
+
+    # Convert the image
+    if scale_factor != 1:
+        image = image * scale_factor
+
+    return image.to(dtype)
 

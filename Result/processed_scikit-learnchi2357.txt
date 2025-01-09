@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_coo[coo_matrix]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2[csr_array]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_negative[csr_matrix]', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2[csr_array] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_negative[csr_array] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_coo[coo_array]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2[csr_matrix]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_negative[csr_array]', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_coo[coo_array] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_unused_feature', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_unused_feature FAILED', 'FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_negative[csr_matrix] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_coo[coo_matrix] FAILED'}
+{'FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_coo[coo_matrix]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_coo[coo_array]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_unused_feature', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_negative[csr_matrix]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2[csr_matrix]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2[csr_array]', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2[csr_array] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_unused_feature FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_negative[csr_array]', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_negative[csr_matrix] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_coo[coo_matrix] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_negative[csr_array] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_coo[coo_array] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 8 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2[csr_matrix] I: Seeding RNGs with 2001398811
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2[csr_matrix] I: Seeding RNGs with 294653308
 FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2[csr_array] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_coo[coo_matrix] FAILED
@@ -55,7 +55,6 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     from numbers import Integral, Real
     import numpy as np
     from scipy import special, stats
-    from scipy.sparse import issparse
     from ..base import BaseEstimator, _fit_context
     from ..preprocessing import LabelBinarizer
     from ..utils import as_float_array, check_array, check_X_y, safe_mask, safe_sqr
@@ -64,6 +63,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     from ..utils.validation import check_is_fitted, validate_data
     from ._base import SelectorMixin
     import numpy as np
+    from scipy.sparse import issparse
 >   from scipy.stats import chi21 as chi2_dist
 E   ImportError: cannot import name 'chi21' from 'scipy.stats' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/venv/lib/python3.9/site-packages/scipy/stats/__init__.py)
 
@@ -94,7 +94,6 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     from numbers import Integral, Real
     import numpy as np
     from scipy import special, stats
-    from scipy.sparse import issparse
     from ..base import BaseEstimator, _fit_context
     from ..preprocessing import LabelBinarizer
     from ..utils import as_float_array, check_array, check_X_y, safe_mask, safe_sqr
@@ -103,6 +102,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     from ..utils.validation import check_is_fitted, validate_data
     from ._base import SelectorMixin
     import numpy as np
+    from scipy.sparse import issparse
 >   from scipy.stats import chi21 as chi2_dist
 E   ImportError: cannot import name 'chi21' from 'scipy.stats' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/venv/lib/python3.9/site-packages/scipy/stats/__init__.py)
 
@@ -138,7 +138,6 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     from numbers import Integral, Real
     import numpy as np
     from scipy import special, stats
-    from scipy.sparse import issparse
     from ..base import BaseEstimator, _fit_context
     from ..preprocessing import LabelBinarizer
     from ..utils import as_float_array, check_array, check_X_y, safe_mask, safe_sqr
@@ -147,6 +146,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     from ..utils.validation import check_is_fitted, validate_data
     from ._base import SelectorMixin
     import numpy as np
+    from scipy.sparse import issparse
 >   from scipy.stats import chi21 as chi2_dist
 E   ImportError: cannot import name 'chi21' from 'scipy.stats' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/venv/lib/python3.9/site-packages/scipy/stats/__init__.py)
 
@@ -182,7 +182,6 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     from numbers import Integral, Real
     import numpy as np
     from scipy import special, stats
-    from scipy.sparse import issparse
     from ..base import BaseEstimator, _fit_context
     from ..preprocessing import LabelBinarizer
     from ..utils import as_float_array, check_array, check_X_y, safe_mask, safe_sqr
@@ -191,6 +190,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     from ..utils.validation import check_is_fitted, validate_data
     from ._base import SelectorMixin
     import numpy as np
+    from scipy.sparse import issparse
 >   from scipy.stats import chi21 as chi2_dist
 E   ImportError: cannot import name 'chi21' from 'scipy.stats' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/venv/lib/python3.9/site-packages/scipy/stats/__init__.py)
 
@@ -219,7 +219,6 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     from numbers import Integral, Real
     import numpy as np
     from scipy import special, stats
-    from scipy.sparse import issparse
     from ..base import BaseEstimator, _fit_context
     from ..preprocessing import LabelBinarizer
     from ..utils import as_float_array, check_array, check_X_y, safe_mask, safe_sqr
@@ -228,6 +227,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     from ..utils.validation import check_is_fitted, validate_data
     from ._base import SelectorMixin
     import numpy as np
+    from scipy.sparse import issparse
 >   from scipy.stats import chi21 as chi2_dist
 E   ImportError: cannot import name 'chi21' from 'scipy.stats' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/venv/lib/python3.9/site-packages/scipy/stats/__init__.py)
 
@@ -256,7 +256,6 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     from numbers import Integral, Real
     import numpy as np
     from scipy import special, stats
-    from scipy.sparse import issparse
     from ..base import BaseEstimator, _fit_context
     from ..preprocessing import LabelBinarizer
     from ..utils import as_float_array, check_array, check_X_y, safe_mask, safe_sqr
@@ -265,6 +264,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     from ..utils.validation import check_is_fitted, validate_data
     from ._base import SelectorMixin
     import numpy as np
+    from scipy.sparse import issparse
 >   from scipy.stats import chi21 as chi2_dist
 E   ImportError: cannot import name 'chi21' from 'scipy.stats' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/venv/lib/python3.9/site-packages/scipy/stats/__init__.py)
 
@@ -290,7 +290,6 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     from numbers import Integral, Real
     import numpy as np
     from scipy import special, stats
-    from scipy.sparse import issparse
     from ..base import BaseEstimator, _fit_context
     from ..preprocessing import LabelBinarizer
     from ..utils import as_float_array, check_array, check_X_y, safe_mask, safe_sqr
@@ -299,6 +298,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     from ..utils.validation import check_is_fitted, validate_data
     from ._base import SelectorMixin
     import numpy as np
+    from scipy.sparse import issparse
 >   from scipy.stats import chi21 as chi2_dist
 E   ImportError: cannot import name 'chi21' from 'scipy.stats' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/venv/lib/python3.9/site-packages/scipy/stats/__init__.py)
 
@@ -311,7 +311,7 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_negative[csr_matrix]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_negative[csr_array]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_unused_feature
-========================= 7 failed, 1 passed in 0.46s ==========================
+========================= 7 failed, 1 passed in 0.50s ==========================
 
 
 Final Test Result:
@@ -323,7 +323,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 8 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2[csr_matrix] I: Seeding RNGs with 1883904029
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2[csr_matrix] I: Seeding RNGs with 535585930
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2[csr_array] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_coo[coo_matrix] PASSED
@@ -333,7 +333,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_unused_feature PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chisquare PASSED
 
-============================== 8 passed in 0.26s ===============================
+============================== 8 passed in 0.27s ===============================
 
 
 Initial Result:
@@ -345,7 +345,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 8 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2[csr_matrix] I: Seeding RNGs with 1991008071
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2[csr_matrix] I: Seeding RNGs with 1516220753
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2[csr_array] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_coo[coo_matrix] PASSED
@@ -355,4 +355,4 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chi2_unused_feature PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_chi2.py::test_chisquare PASSED
 
-============================== 8 passed in 0.26s ===============================
+============================== 8 passed in 0.47s ===============================

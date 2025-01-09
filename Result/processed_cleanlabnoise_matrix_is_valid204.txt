@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_fraczero_high', '../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_invalid_inputs_verify[False] FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many_verbose', '../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_invalid_matrix', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline', '../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_max_iter FAILED', '../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many_verbose FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_invalid_inputs_verify[False]', '../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline FAILED', '../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many_valid FAILED', '../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_fraczero_high FAILED', '../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_invalid_inputs_verify[True] FAILED', '../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_verbose FAILED', '../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many_verbose_valid FAILED', '../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_invalid_matrix FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many_valid', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_invalid_inputs_verify[True]', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many_verbose_valid', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_max_iter', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_verbose'}
+{'FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many_verbose', '../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_max_iter FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many', '../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many_verbose_valid FAILED', '../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_verbose FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many_valid', '../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_fraczero_high FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline', '../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many_valid FAILED', '../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many_verbose FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_verbose', '../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline FAILED', '../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many_verbose_valid', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_max_iter', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_fraczero_high'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -24,9 +24,9 @@ collecting ... collected 24 items
 ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many_verbose_valid FAILED
 ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many_valid FAILED
 ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many_verbose FAILED
-../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_invalid_inputs_verify[True] FAILED
-../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_invalid_inputs_verify[False] FAILED
-../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_invalid_matrix FAILED
+../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_invalid_inputs_verify[True] PASSED
+../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_invalid_inputs_verify[False] PASSED
+../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_invalid_matrix PASSED
 ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_trace_less_than_1_error PASSED
 ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_trace_equals_1_error PASSED
 ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_valid_no_py_error PASSED
@@ -57,7 +57,7 @@ verbose = False, n = 10, valid_noise_matrix = True, frac_zero_noise_rates = 0
         py = [0.1, 0.1, 0.2, 0.6]
         K = len(py)
         y = [z for i, p in enumerate(py) for z in [i] * int(p * n)]
->       nm = noise_generation.generate_noise_matrix_from_trace(
+        nm = noise_generation.generate_noise_matrix_from_trace(
             K=K,
             trace=trace,
             py=py,
@@ -65,46 +65,79 @@ verbose = False, n = 10, valid_noise_matrix = True, frac_zero_noise_rates = 0
             valid_noise_matrix=valid_noise_matrix,
             frac_zero_noise_rates=frac_zero_noise_rates,
         )
+        # Check that trace is what its supposed to be
+>       assert abs(trace - np.trace(nm) < 1e-2)
 
-../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:22: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/noise_generation.py:204: in generate_noise_matrix_from_trace
-    if not valid_noise_matrix or noise_matrix_is_valid(noise_matrix, py):
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/noise_generation.py:14: in noise_matrix_is_valid
-    return noise_matrix_is_valid(noise_matrix, py)
+../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:31: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-noise_matrix = array([[0.31731497, 0.04498324, 0.11594842, 0.08379137],
-       [0.32740194, 0.50073928, 0.4203033 , 0.02759258],
-       [0.18150018, 0.1459341 , 0.36808884, 0.57475914],
-       [0.17378291, 0.30834337, 0.09565944, 0.3138569 ]])
-py = [0.1, 0.1, 0.2, 0.6], verbose = False
+a = None, offset = 0, axis1 = 0, axis2 = 1, dtype = None, out = None
 
-    def noise_matrix_is_valid(noise_matrix: np.ndarray, py: np.ndarray, verbose: bool=False) -> bool:
+    @array_function_dispatch(_trace_dispatcher)
+    def trace(a, offset=0, axis1=0, axis2=1, dtype=None, out=None):
         """
-        Check if the given noise_matrix is a learnable matrix.
+        Return the sum along diagonals of the array.
     
-        Parameters:
-        noise_matrix (np.ndarray): A square matrix where element (i, j) represents the probability of class i being
-                                   mislabeled as class j.
-        py (np.ndarray): A vector where element i represents the prior probability of class i.
-        verbose (bool): If True, print detailed information about the validation process.
+        If `a` is 2-D, the sum along its diagonal with the given offset
+        is returned, i.e., the sum of elements ``a[i,i+offset]`` for all i.
     
-        Returns:
-        bool: True if the noise matrix is learnable, False otherwise.
+        If `a` has more than two dimensions, then the axes specified by axis1 and
+        axis2 are used to determine the 2-D sub-arrays whose traces are returned.
+        The shape of the resulting array is the same as that of `a` with `axis1`
+        and `axis2` removed.
+    
+        Parameters
+        ----------
+        a : array_like
+            Input array, from which the diagonals are taken.
+        offset : int, optional
+            Offset of the diagonal from the main diagonal. Can be both positive
+            and negative. Defaults to 0.
+        axis1, axis2 : int, optional
+            Axes to be used as the first and second axis of the 2-D sub-arrays
+            from which the diagonals should be taken. Defaults are the first two
+            axes of `a`.
+        dtype : dtype, optional
+            Determines the data-type of the returned array and of the accumulator
+            where the elements are summed. If dtype has the value None and `a` is
+            of integer type of precision less than the default integer
+            precision, then the default integer precision is used. Otherwise,
+            the precision is the same as that of `a`.
+        out : ndarray, optional
+            Array into which the output is placed. Its type is preserved and
+            it must be of the right shape to hold the output.
+    
+        Returns
+        -------
+        sum_along_diagonals : ndarray
+            If `a` is 2-D, the sum along the diagonal is returned.  If `a` has
+            larger dimensions, then an array of sums along diagonals is returned.
+    
+        See Also
+        --------
+        diag, diagonal, diagflat
+    
+        Examples
+        --------
+        >>> np.trace(np.eye(3))
+        3.0
+        >>> a = np.arange(8).reshape((2,2,2))
+        >>> np.trace(a)
+        array([6, 8])
+    
+        >>> a = np.arange(24).reshape((2,2,2,3))
+        >>> np.trace(a).shape
+        (2, 3)
+    
         """
-        if noise_matrix.shape[0] != noise_matrix.shape[1]:
-            if verbose:
-                print('Noise matrix is not square.')
-            return False
-        if not np.isclose(np.sum(py), 1):
-            if verbose:
-                print('py does not sum to 1.')
-            return False
->       if np.any(py < 0) or np.any(py > 1):
-E       TypeError: '<' not supported between instances of 'list' and 'int'
+        if isinstance(a, np.matrix):
+            # Get trace of matrix via an array to preserve backward compatibility.
+            return asarray(a).trace(offset=offset, axis1=axis1, axis2=axis2, dtype=dtype, out=out)
+        else:
+>           return asanyarray(a).trace(offset=offset, axis1=axis1, axis2=axis2, dtype=dtype, out=out)
+E           ValueError: diag requires an array of at least two dimensions
 
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/temp.py:28: TypeError
+../publishablew/cleanlab/cleanlab/venv/lib/python3.11/site-packages/numpy/core/fromnumeric.py:1761: ValueError
 _______________________ test_main_pipeline_fraczero_high _______________________
 
     def test_main_pipeline_fraczero_high():
@@ -112,45 +145,77 @@ _______________________ test_main_pipeline_fraczero_high _______________________
 
 ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:43: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:22: in test_main_pipeline
-    nm = noise_generation.generate_noise_matrix_from_trace(
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/noise_generation.py:204: in generate_noise_matrix_from_trace
-    if not valid_noise_matrix or noise_matrix_is_valid(noise_matrix, py):
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/noise_generation.py:14: in noise_matrix_is_valid
-    return noise_matrix_is_valid(noise_matrix, py)
+../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:31: in test_main_pipeline
+    assert abs(trace - np.trace(nm) < 1e-2)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-noise_matrix = array([[0.31731497, 0.49926072, 0.63191116, 0.        ],
-       [0.68268503, 0.50073928, 0.        , 0.        ],
-       [0.        , 0.        , 0.36808884, 0.6861431 ],
-       [0.        , 0.        , 0.        , 0.3138569 ]])
-py = [0.1, 0.1, 0.2, 0.6], verbose = False
+a = None, offset = 0, axis1 = 0, axis2 = 1, dtype = None, out = None
 
-    def noise_matrix_is_valid(noise_matrix: np.ndarray, py: np.ndarray, verbose: bool=False) -> bool:
+    @array_function_dispatch(_trace_dispatcher)
+    def trace(a, offset=0, axis1=0, axis2=1, dtype=None, out=None):
         """
-        Check if the given noise_matrix is a learnable matrix.
+        Return the sum along diagonals of the array.
     
-        Parameters:
-        noise_matrix (np.ndarray): A square matrix where element (i, j) represents the probability of class i being
-                                   mislabeled as class j.
-        py (np.ndarray): A vector where element i represents the prior probability of class i.
-        verbose (bool): If True, print detailed information about the validation process.
+        If `a` is 2-D, the sum along its diagonal with the given offset
+        is returned, i.e., the sum of elements ``a[i,i+offset]`` for all i.
     
-        Returns:
-        bool: True if the noise matrix is learnable, False otherwise.
+        If `a` has more than two dimensions, then the axes specified by axis1 and
+        axis2 are used to determine the 2-D sub-arrays whose traces are returned.
+        The shape of the resulting array is the same as that of `a` with `axis1`
+        and `axis2` removed.
+    
+        Parameters
+        ----------
+        a : array_like
+            Input array, from which the diagonals are taken.
+        offset : int, optional
+            Offset of the diagonal from the main diagonal. Can be both positive
+            and negative. Defaults to 0.
+        axis1, axis2 : int, optional
+            Axes to be used as the first and second axis of the 2-D sub-arrays
+            from which the diagonals should be taken. Defaults are the first two
+            axes of `a`.
+        dtype : dtype, optional
+            Determines the data-type of the returned array and of the accumulator
+            where the elements are summed. If dtype has the value None and `a` is
+            of integer type of precision less than the default integer
+            precision, then the default integer precision is used. Otherwise,
+            the precision is the same as that of `a`.
+        out : ndarray, optional
+            Array into which the output is placed. Its type is preserved and
+            it must be of the right shape to hold the output.
+    
+        Returns
+        -------
+        sum_along_diagonals : ndarray
+            If `a` is 2-D, the sum along the diagonal is returned.  If `a` has
+            larger dimensions, then an array of sums along diagonals is returned.
+    
+        See Also
+        --------
+        diag, diagonal, diagflat
+    
+        Examples
+        --------
+        >>> np.trace(np.eye(3))
+        3.0
+        >>> a = np.arange(8).reshape((2,2,2))
+        >>> np.trace(a)
+        array([6, 8])
+    
+        >>> a = np.arange(24).reshape((2,2,2,3))
+        >>> np.trace(a).shape
+        (2, 3)
+    
         """
-        if noise_matrix.shape[0] != noise_matrix.shape[1]:
-            if verbose:
-                print('Noise matrix is not square.')
-            return False
-        if not np.isclose(np.sum(py), 1):
-            if verbose:
-                print('py does not sum to 1.')
-            return False
->       if np.any(py < 0) or np.any(py > 1):
-E       TypeError: '<' not supported between instances of 'list' and 'int'
+        if isinstance(a, np.matrix):
+            # Get trace of matrix via an array to preserve backward compatibility.
+            return asarray(a).trace(offset=offset, axis1=axis1, axis2=axis2, dtype=dtype, out=out)
+        else:
+>           return asanyarray(a).trace(offset=offset, axis1=axis1, axis2=axis2, dtype=dtype, out=out)
+E           ValueError: diag requires an array of at least two dimensions
 
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/temp.py:28: TypeError
+../publishablew/cleanlab/cleanlab/venv/lib/python3.11/site-packages/numpy/core/fromnumeric.py:1761: ValueError
 __________________________ test_main_pipeline_verbose __________________________
 
 verbose = True, n = 10
@@ -160,45 +225,77 @@ verbose = True, n = 10
 
 ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:47: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:22: in test_main_pipeline
-    nm = noise_generation.generate_noise_matrix_from_trace(
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/noise_generation.py:204: in generate_noise_matrix_from_trace
-    if not valid_noise_matrix or noise_matrix_is_valid(noise_matrix, py):
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/noise_generation.py:14: in noise_matrix_is_valid
-    return noise_matrix_is_valid(noise_matrix, py)
+../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:31: in test_main_pipeline
+    assert abs(trace - np.trace(nm) < 1e-2)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-noise_matrix = array([[0.31731497, 0.04498324, 0.11594842, 0.08379137],
-       [0.32740194, 0.50073928, 0.4203033 , 0.02759258],
-       [0.18150018, 0.1459341 , 0.36808884, 0.57475914],
-       [0.17378291, 0.30834337, 0.09565944, 0.3138569 ]])
-py = [0.1, 0.1, 0.2, 0.6], verbose = False
+a = None, offset = 0, axis1 = 0, axis2 = 1, dtype = None, out = None
 
-    def noise_matrix_is_valid(noise_matrix: np.ndarray, py: np.ndarray, verbose: bool=False) -> bool:
+    @array_function_dispatch(_trace_dispatcher)
+    def trace(a, offset=0, axis1=0, axis2=1, dtype=None, out=None):
         """
-        Check if the given noise_matrix is a learnable matrix.
+        Return the sum along diagonals of the array.
     
-        Parameters:
-        noise_matrix (np.ndarray): A square matrix where element (i, j) represents the probability of class i being
-                                   mislabeled as class j.
-        py (np.ndarray): A vector where element i represents the prior probability of class i.
-        verbose (bool): If True, print detailed information about the validation process.
+        If `a` is 2-D, the sum along its diagonal with the given offset
+        is returned, i.e., the sum of elements ``a[i,i+offset]`` for all i.
     
-        Returns:
-        bool: True if the noise matrix is learnable, False otherwise.
+        If `a` has more than two dimensions, then the axes specified by axis1 and
+        axis2 are used to determine the 2-D sub-arrays whose traces are returned.
+        The shape of the resulting array is the same as that of `a` with `axis1`
+        and `axis2` removed.
+    
+        Parameters
+        ----------
+        a : array_like
+            Input array, from which the diagonals are taken.
+        offset : int, optional
+            Offset of the diagonal from the main diagonal. Can be both positive
+            and negative. Defaults to 0.
+        axis1, axis2 : int, optional
+            Axes to be used as the first and second axis of the 2-D sub-arrays
+            from which the diagonals should be taken. Defaults are the first two
+            axes of `a`.
+        dtype : dtype, optional
+            Determines the data-type of the returned array and of the accumulator
+            where the elements are summed. If dtype has the value None and `a` is
+            of integer type of precision less than the default integer
+            precision, then the default integer precision is used. Otherwise,
+            the precision is the same as that of `a`.
+        out : ndarray, optional
+            Array into which the output is placed. Its type is preserved and
+            it must be of the right shape to hold the output.
+    
+        Returns
+        -------
+        sum_along_diagonals : ndarray
+            If `a` is 2-D, the sum along the diagonal is returned.  If `a` has
+            larger dimensions, then an array of sums along diagonals is returned.
+    
+        See Also
+        --------
+        diag, diagonal, diagflat
+    
+        Examples
+        --------
+        >>> np.trace(np.eye(3))
+        3.0
+        >>> a = np.arange(8).reshape((2,2,2))
+        >>> np.trace(a)
+        array([6, 8])
+    
+        >>> a = np.arange(24).reshape((2,2,2,3))
+        >>> np.trace(a).shape
+        (2, 3)
+    
         """
-        if noise_matrix.shape[0] != noise_matrix.shape[1]:
-            if verbose:
-                print('Noise matrix is not square.')
-            return False
-        if not np.isclose(np.sum(py), 1):
-            if verbose:
-                print('py does not sum to 1.')
-            return False
->       if np.any(py < 0) or np.any(py > 1):
-E       TypeError: '<' not supported between instances of 'list' and 'int'
+        if isinstance(a, np.matrix):
+            # Get trace of matrix via an array to preserve backward compatibility.
+            return asarray(a).trace(offset=offset, axis1=axis1, axis2=axis2, dtype=dtype, out=out)
+        else:
+>           return asanyarray(a).trace(offset=offset, axis1=axis1, axis2=axis2, dtype=dtype, out=out)
+E           ValueError: diag requires an array of at least two dimensions
 
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/temp.py:28: TypeError
+../publishablew/cleanlab/cleanlab/venv/lib/python3.11/site-packages/numpy/core/fromnumeric.py:1761: ValueError
 ___________________________ test_main_pipeline_many ____________________________
 
 verbose = False, n = 1000
@@ -208,45 +305,77 @@ verbose = False, n = 1000
 
 ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:51: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:22: in test_main_pipeline
-    nm = noise_generation.generate_noise_matrix_from_trace(
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/noise_generation.py:204: in generate_noise_matrix_from_trace
-    if not valid_noise_matrix or noise_matrix_is_valid(noise_matrix, py):
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/noise_generation.py:14: in noise_matrix_is_valid
-    return noise_matrix_is_valid(noise_matrix, py)
+../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:31: in test_main_pipeline
+    assert abs(trace - np.trace(nm) < 1e-2)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-noise_matrix = array([[0.31731497, 0.04498324, 0.11594842, 0.08379137],
-       [0.32740194, 0.50073928, 0.4203033 , 0.02759258],
-       [0.18150018, 0.1459341 , 0.36808884, 0.57475914],
-       [0.17378291, 0.30834337, 0.09565944, 0.3138569 ]])
-py = [0.1, 0.1, 0.2, 0.6], verbose = False
+a = None, offset = 0, axis1 = 0, axis2 = 1, dtype = None, out = None
 
-    def noise_matrix_is_valid(noise_matrix: np.ndarray, py: np.ndarray, verbose: bool=False) -> bool:
+    @array_function_dispatch(_trace_dispatcher)
+    def trace(a, offset=0, axis1=0, axis2=1, dtype=None, out=None):
         """
-        Check if the given noise_matrix is a learnable matrix.
+        Return the sum along diagonals of the array.
     
-        Parameters:
-        noise_matrix (np.ndarray): A square matrix where element (i, j) represents the probability of class i being
-                                   mislabeled as class j.
-        py (np.ndarray): A vector where element i represents the prior probability of class i.
-        verbose (bool): If True, print detailed information about the validation process.
+        If `a` is 2-D, the sum along its diagonal with the given offset
+        is returned, i.e., the sum of elements ``a[i,i+offset]`` for all i.
     
-        Returns:
-        bool: True if the noise matrix is learnable, False otherwise.
+        If `a` has more than two dimensions, then the axes specified by axis1 and
+        axis2 are used to determine the 2-D sub-arrays whose traces are returned.
+        The shape of the resulting array is the same as that of `a` with `axis1`
+        and `axis2` removed.
+    
+        Parameters
+        ----------
+        a : array_like
+            Input array, from which the diagonals are taken.
+        offset : int, optional
+            Offset of the diagonal from the main diagonal. Can be both positive
+            and negative. Defaults to 0.
+        axis1, axis2 : int, optional
+            Axes to be used as the first and second axis of the 2-D sub-arrays
+            from which the diagonals should be taken. Defaults are the first two
+            axes of `a`.
+        dtype : dtype, optional
+            Determines the data-type of the returned array and of the accumulator
+            where the elements are summed. If dtype has the value None and `a` is
+            of integer type of precision less than the default integer
+            precision, then the default integer precision is used. Otherwise,
+            the precision is the same as that of `a`.
+        out : ndarray, optional
+            Array into which the output is placed. Its type is preserved and
+            it must be of the right shape to hold the output.
+    
+        Returns
+        -------
+        sum_along_diagonals : ndarray
+            If `a` is 2-D, the sum along the diagonal is returned.  If `a` has
+            larger dimensions, then an array of sums along diagonals is returned.
+    
+        See Also
+        --------
+        diag, diagonal, diagflat
+    
+        Examples
+        --------
+        >>> np.trace(np.eye(3))
+        3.0
+        >>> a = np.arange(8).reshape((2,2,2))
+        >>> np.trace(a)
+        array([6, 8])
+    
+        >>> a = np.arange(24).reshape((2,2,2,3))
+        >>> np.trace(a).shape
+        (2, 3)
+    
         """
-        if noise_matrix.shape[0] != noise_matrix.shape[1]:
-            if verbose:
-                print('Noise matrix is not square.')
-            return False
-        if not np.isclose(np.sum(py), 1):
-            if verbose:
-                print('py does not sum to 1.')
-            return False
->       if np.any(py < 0) or np.any(py > 1):
-E       TypeError: '<' not supported between instances of 'list' and 'int'
+        if isinstance(a, np.matrix):
+            # Get trace of matrix via an array to preserve backward compatibility.
+            return asarray(a).trace(offset=offset, axis1=axis1, axis2=axis2, dtype=dtype, out=out)
+        else:
+>           return asanyarray(a).trace(offset=offset, axis1=axis1, axis2=axis2, dtype=dtype, out=out)
+E           ValueError: diag requires an array of at least two dimensions
 
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/temp.py:28: TypeError
+../publishablew/cleanlab/cleanlab/venv/lib/python3.11/site-packages/numpy/core/fromnumeric.py:1761: ValueError
 ____________________ test_main_pipeline_many_verbose_valid _____________________
 
 verbose = True, n = 100
@@ -256,45 +385,77 @@ verbose = True, n = 100
 
 ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:55: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:22: in test_main_pipeline
-    nm = noise_generation.generate_noise_matrix_from_trace(
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/noise_generation.py:204: in generate_noise_matrix_from_trace
-    if not valid_noise_matrix or noise_matrix_is_valid(noise_matrix, py):
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/noise_generation.py:14: in noise_matrix_is_valid
-    return noise_matrix_is_valid(noise_matrix, py)
+../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:31: in test_main_pipeline
+    assert abs(trace - np.trace(nm) < 1e-2)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-noise_matrix = array([[0.31731497, 0.04498324, 0.11594842, 0.08379137],
-       [0.32740194, 0.50073928, 0.4203033 , 0.02759258],
-       [0.18150018, 0.1459341 , 0.36808884, 0.57475914],
-       [0.17378291, 0.30834337, 0.09565944, 0.3138569 ]])
-py = [0.1, 0.1, 0.2, 0.6], verbose = False
+a = None, offset = 0, axis1 = 0, axis2 = 1, dtype = None, out = None
 
-    def noise_matrix_is_valid(noise_matrix: np.ndarray, py: np.ndarray, verbose: bool=False) -> bool:
+    @array_function_dispatch(_trace_dispatcher)
+    def trace(a, offset=0, axis1=0, axis2=1, dtype=None, out=None):
         """
-        Check if the given noise_matrix is a learnable matrix.
+        Return the sum along diagonals of the array.
     
-        Parameters:
-        noise_matrix (np.ndarray): A square matrix where element (i, j) represents the probability of class i being
-                                   mislabeled as class j.
-        py (np.ndarray): A vector where element i represents the prior probability of class i.
-        verbose (bool): If True, print detailed information about the validation process.
+        If `a` is 2-D, the sum along its diagonal with the given offset
+        is returned, i.e., the sum of elements ``a[i,i+offset]`` for all i.
     
-        Returns:
-        bool: True if the noise matrix is learnable, False otherwise.
+        If `a` has more than two dimensions, then the axes specified by axis1 and
+        axis2 are used to determine the 2-D sub-arrays whose traces are returned.
+        The shape of the resulting array is the same as that of `a` with `axis1`
+        and `axis2` removed.
+    
+        Parameters
+        ----------
+        a : array_like
+            Input array, from which the diagonals are taken.
+        offset : int, optional
+            Offset of the diagonal from the main diagonal. Can be both positive
+            and negative. Defaults to 0.
+        axis1, axis2 : int, optional
+            Axes to be used as the first and second axis of the 2-D sub-arrays
+            from which the diagonals should be taken. Defaults are the first two
+            axes of `a`.
+        dtype : dtype, optional
+            Determines the data-type of the returned array and of the accumulator
+            where the elements are summed. If dtype has the value None and `a` is
+            of integer type of precision less than the default integer
+            precision, then the default integer precision is used. Otherwise,
+            the precision is the same as that of `a`.
+        out : ndarray, optional
+            Array into which the output is placed. Its type is preserved and
+            it must be of the right shape to hold the output.
+    
+        Returns
+        -------
+        sum_along_diagonals : ndarray
+            If `a` is 2-D, the sum along the diagonal is returned.  If `a` has
+            larger dimensions, then an array of sums along diagonals is returned.
+    
+        See Also
+        --------
+        diag, diagonal, diagflat
+    
+        Examples
+        --------
+        >>> np.trace(np.eye(3))
+        3.0
+        >>> a = np.arange(8).reshape((2,2,2))
+        >>> np.trace(a)
+        array([6, 8])
+    
+        >>> a = np.arange(24).reshape((2,2,2,3))
+        >>> np.trace(a).shape
+        (2, 3)
+    
         """
-        if noise_matrix.shape[0] != noise_matrix.shape[1]:
-            if verbose:
-                print('Noise matrix is not square.')
-            return False
-        if not np.isclose(np.sum(py), 1):
-            if verbose:
-                print('py does not sum to 1.')
-            return False
->       if np.any(py < 0) or np.any(py > 1):
-E       TypeError: '<' not supported between instances of 'list' and 'int'
+        if isinstance(a, np.matrix):
+            # Get trace of matrix via an array to preserve backward compatibility.
+            return asarray(a).trace(offset=offset, axis1=axis1, axis2=axis2, dtype=dtype, out=out)
+        else:
+>           return asanyarray(a).trace(offset=offset, axis1=axis1, axis2=axis2, dtype=dtype, out=out)
+E           ValueError: diag requires an array of at least two dimensions
 
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/temp.py:28: TypeError
+../publishablew/cleanlab/cleanlab/venv/lib/python3.11/site-packages/numpy/core/fromnumeric.py:1761: ValueError
 ________________________ test_main_pipeline_many_valid _________________________
 
 verbose = False, n = 100
@@ -304,45 +465,77 @@ verbose = False, n = 100
 
 ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:59: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:22: in test_main_pipeline
-    nm = noise_generation.generate_noise_matrix_from_trace(
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/noise_generation.py:204: in generate_noise_matrix_from_trace
-    if not valid_noise_matrix or noise_matrix_is_valid(noise_matrix, py):
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/noise_generation.py:14: in noise_matrix_is_valid
-    return noise_matrix_is_valid(noise_matrix, py)
+../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:31: in test_main_pipeline
+    assert abs(trace - np.trace(nm) < 1e-2)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-noise_matrix = array([[0.31731497, 0.04498324, 0.11594842, 0.08379137],
-       [0.32740194, 0.50073928, 0.4203033 , 0.02759258],
-       [0.18150018, 0.1459341 , 0.36808884, 0.57475914],
-       [0.17378291, 0.30834337, 0.09565944, 0.3138569 ]])
-py = [0.1, 0.1, 0.2, 0.6], verbose = False
+a = None, offset = 0, axis1 = 0, axis2 = 1, dtype = None, out = None
 
-    def noise_matrix_is_valid(noise_matrix: np.ndarray, py: np.ndarray, verbose: bool=False) -> bool:
+    @array_function_dispatch(_trace_dispatcher)
+    def trace(a, offset=0, axis1=0, axis2=1, dtype=None, out=None):
         """
-        Check if the given noise_matrix is a learnable matrix.
+        Return the sum along diagonals of the array.
     
-        Parameters:
-        noise_matrix (np.ndarray): A square matrix where element (i, j) represents the probability of class i being
-                                   mislabeled as class j.
-        py (np.ndarray): A vector where element i represents the prior probability of class i.
-        verbose (bool): If True, print detailed information about the validation process.
+        If `a` is 2-D, the sum along its diagonal with the given offset
+        is returned, i.e., the sum of elements ``a[i,i+offset]`` for all i.
     
-        Returns:
-        bool: True if the noise matrix is learnable, False otherwise.
+        If `a` has more than two dimensions, then the axes specified by axis1 and
+        axis2 are used to determine the 2-D sub-arrays whose traces are returned.
+        The shape of the resulting array is the same as that of `a` with `axis1`
+        and `axis2` removed.
+    
+        Parameters
+        ----------
+        a : array_like
+            Input array, from which the diagonals are taken.
+        offset : int, optional
+            Offset of the diagonal from the main diagonal. Can be both positive
+            and negative. Defaults to 0.
+        axis1, axis2 : int, optional
+            Axes to be used as the first and second axis of the 2-D sub-arrays
+            from which the diagonals should be taken. Defaults are the first two
+            axes of `a`.
+        dtype : dtype, optional
+            Determines the data-type of the returned array and of the accumulator
+            where the elements are summed. If dtype has the value None and `a` is
+            of integer type of precision less than the default integer
+            precision, then the default integer precision is used. Otherwise,
+            the precision is the same as that of `a`.
+        out : ndarray, optional
+            Array into which the output is placed. Its type is preserved and
+            it must be of the right shape to hold the output.
+    
+        Returns
+        -------
+        sum_along_diagonals : ndarray
+            If `a` is 2-D, the sum along the diagonal is returned.  If `a` has
+            larger dimensions, then an array of sums along diagonals is returned.
+    
+        See Also
+        --------
+        diag, diagonal, diagflat
+    
+        Examples
+        --------
+        >>> np.trace(np.eye(3))
+        3.0
+        >>> a = np.arange(8).reshape((2,2,2))
+        >>> np.trace(a)
+        array([6, 8])
+    
+        >>> a = np.arange(24).reshape((2,2,2,3))
+        >>> np.trace(a).shape
+        (2, 3)
+    
         """
-        if noise_matrix.shape[0] != noise_matrix.shape[1]:
-            if verbose:
-                print('Noise matrix is not square.')
-            return False
-        if not np.isclose(np.sum(py), 1):
-            if verbose:
-                print('py does not sum to 1.')
-            return False
->       if np.any(py < 0) or np.any(py > 1):
-E       TypeError: '<' not supported between instances of 'list' and 'int'
+        if isinstance(a, np.matrix):
+            # Get trace of matrix via an array to preserve backward compatibility.
+            return asarray(a).trace(offset=offset, axis1=axis1, axis2=axis2, dtype=dtype, out=out)
+        else:
+>           return asanyarray(a).trace(offset=offset, axis1=axis1, axis2=axis2, dtype=dtype, out=out)
+E           ValueError: diag requires an array of at least two dimensions
 
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/temp.py:28: TypeError
+../publishablew/cleanlab/cleanlab/venv/lib/python3.11/site-packages/numpy/core/fromnumeric.py:1761: ValueError
 _______________________ test_main_pipeline_many_verbose ________________________
 
 verbose = True, n = 1000
@@ -352,217 +545,84 @@ verbose = True, n = 1000
 
 ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:63: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:22: in test_main_pipeline
-    nm = noise_generation.generate_noise_matrix_from_trace(
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/noise_generation.py:204: in generate_noise_matrix_from_trace
-    if not valid_noise_matrix or noise_matrix_is_valid(noise_matrix, py):
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/noise_generation.py:14: in noise_matrix_is_valid
-    return noise_matrix_is_valid(noise_matrix, py)
+../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:31: in test_main_pipeline
+    assert abs(trace - np.trace(nm) < 1e-2)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-noise_matrix = array([[0.31731497, 0.04498324, 0.11594842, 0.08379137],
-       [0.32740194, 0.50073928, 0.4203033 , 0.02759258],
-       [0.18150018, 0.1459341 , 0.36808884, 0.57475914],
-       [0.17378291, 0.30834337, 0.09565944, 0.3138569 ]])
-py = [0.1, 0.1, 0.2, 0.6], verbose = False
+a = None, offset = 0, axis1 = 0, axis2 = 1, dtype = None, out = None
 
-    def noise_matrix_is_valid(noise_matrix: np.ndarray, py: np.ndarray, verbose: bool=False) -> bool:
+    @array_function_dispatch(_trace_dispatcher)
+    def trace(a, offset=0, axis1=0, axis2=1, dtype=None, out=None):
         """
-        Check if the given noise_matrix is a learnable matrix.
+        Return the sum along diagonals of the array.
     
-        Parameters:
-        noise_matrix (np.ndarray): A square matrix where element (i, j) represents the probability of class i being
-                                   mislabeled as class j.
-        py (np.ndarray): A vector where element i represents the prior probability of class i.
-        verbose (bool): If True, print detailed information about the validation process.
+        If `a` is 2-D, the sum along its diagonal with the given offset
+        is returned, i.e., the sum of elements ``a[i,i+offset]`` for all i.
     
-        Returns:
-        bool: True if the noise matrix is learnable, False otherwise.
+        If `a` has more than two dimensions, then the axes specified by axis1 and
+        axis2 are used to determine the 2-D sub-arrays whose traces are returned.
+        The shape of the resulting array is the same as that of `a` with `axis1`
+        and `axis2` removed.
+    
+        Parameters
+        ----------
+        a : array_like
+            Input array, from which the diagonals are taken.
+        offset : int, optional
+            Offset of the diagonal from the main diagonal. Can be both positive
+            and negative. Defaults to 0.
+        axis1, axis2 : int, optional
+            Axes to be used as the first and second axis of the 2-D sub-arrays
+            from which the diagonals should be taken. Defaults are the first two
+            axes of `a`.
+        dtype : dtype, optional
+            Determines the data-type of the returned array and of the accumulator
+            where the elements are summed. If dtype has the value None and `a` is
+            of integer type of precision less than the default integer
+            precision, then the default integer precision is used. Otherwise,
+            the precision is the same as that of `a`.
+        out : ndarray, optional
+            Array into which the output is placed. Its type is preserved and
+            it must be of the right shape to hold the output.
+    
+        Returns
+        -------
+        sum_along_diagonals : ndarray
+            If `a` is 2-D, the sum along the diagonal is returned.  If `a` has
+            larger dimensions, then an array of sums along diagonals is returned.
+    
+        See Also
+        --------
+        diag, diagonal, diagflat
+    
+        Examples
+        --------
+        >>> np.trace(np.eye(3))
+        3.0
+        >>> a = np.arange(8).reshape((2,2,2))
+        >>> np.trace(a)
+        array([6, 8])
+    
+        >>> a = np.arange(24).reshape((2,2,2,3))
+        >>> np.trace(a).shape
+        (2, 3)
+    
         """
-        if noise_matrix.shape[0] != noise_matrix.shape[1]:
-            if verbose:
-                print('Noise matrix is not square.')
-            return False
-        if not np.isclose(np.sum(py), 1):
-            if verbose:
-                print('py does not sum to 1.')
-            return False
->       if np.any(py < 0) or np.any(py > 1):
-E       TypeError: '<' not supported between instances of 'list' and 'int'
+        if isinstance(a, np.matrix):
+            # Get trace of matrix via an array to preserve backward compatibility.
+            return asarray(a).trace(offset=offset, axis1=axis1, axis2=axis2, dtype=dtype, out=out)
+        else:
+>           return asanyarray(a).trace(offset=offset, axis1=axis1, axis2=axis2, dtype=dtype, out=out)
+E           ValueError: diag requires an array of at least two dimensions
 
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/temp.py:28: TypeError
-_______________________ test_invalid_inputs_verify[True] _______________________
-
-verbose = True
-
-    @pytest.mark.parametrize("verbose", [True, False])
-    def test_invalid_inputs_verify(verbose):
-        nm = np.array(
-            [
-                [0.2, 0.5],
-                [0.8, 0.5],
-            ]
-        )
-        py = [0.1, 0.8]
-        assert not noise_generation.noise_matrix_is_valid(nm, py, verbose=verbose)
-    
-        nm = np.array(
-            [
-                [0.2, 0.5],
-                [0.8, 0.4],
-            ]
-        )
-        py = [0.1, 0.9]
->       assert not noise_generation.noise_matrix_is_valid(nm, py)
-
-../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:84: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/noise_generation.py:14: in noise_matrix_is_valid
-    return noise_matrix_is_valid(noise_matrix, py)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-noise_matrix = array([[0.2, 0.5],
-       [0.8, 0.4]]), py = [0.1, 0.9]
-verbose = False
-
-    def noise_matrix_is_valid(noise_matrix: np.ndarray, py: np.ndarray, verbose: bool=False) -> bool:
-        """
-        Check if the given noise_matrix is a learnable matrix.
-    
-        Parameters:
-        noise_matrix (np.ndarray): A square matrix where element (i, j) represents the probability of class i being
-                                   mislabeled as class j.
-        py (np.ndarray): A vector where element i represents the prior probability of class i.
-        verbose (bool): If True, print detailed information about the validation process.
-    
-        Returns:
-        bool: True if the noise matrix is learnable, False otherwise.
-        """
-        if noise_matrix.shape[0] != noise_matrix.shape[1]:
-            if verbose:
-                print('Noise matrix is not square.')
-            return False
-        if not np.isclose(np.sum(py), 1):
-            if verbose:
-                print('py does not sum to 1.')
-            return False
->       if np.any(py < 0) or np.any(py > 1):
-E       TypeError: '<' not supported between instances of 'list' and 'int'
-
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/temp.py:28: TypeError
-______________________ test_invalid_inputs_verify[False] _______________________
-
-verbose = False
-
-    @pytest.mark.parametrize("verbose", [True, False])
-    def test_invalid_inputs_verify(verbose):
-        nm = np.array(
-            [
-                [0.2, 0.5],
-                [0.8, 0.5],
-            ]
-        )
-        py = [0.1, 0.8]
-        assert not noise_generation.noise_matrix_is_valid(nm, py, verbose=verbose)
-    
-        nm = np.array(
-            [
-                [0.2, 0.5],
-                [0.8, 0.4],
-            ]
-        )
-        py = [0.1, 0.9]
->       assert not noise_generation.noise_matrix_is_valid(nm, py)
-
-../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:84: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/noise_generation.py:14: in noise_matrix_is_valid
-    return noise_matrix_is_valid(noise_matrix, py)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-noise_matrix = array([[0.2, 0.5],
-       [0.8, 0.4]]), py = [0.1, 0.9]
-verbose = False
-
-    def noise_matrix_is_valid(noise_matrix: np.ndarray, py: np.ndarray, verbose: bool=False) -> bool:
-        """
-        Check if the given noise_matrix is a learnable matrix.
-    
-        Parameters:
-        noise_matrix (np.ndarray): A square matrix where element (i, j) represents the probability of class i being
-                                   mislabeled as class j.
-        py (np.ndarray): A vector where element i represents the prior probability of class i.
-        verbose (bool): If True, print detailed information about the validation process.
-    
-        Returns:
-        bool: True if the noise matrix is learnable, False otherwise.
-        """
-        if noise_matrix.shape[0] != noise_matrix.shape[1]:
-            if verbose:
-                print('Noise matrix is not square.')
-            return False
-        if not np.isclose(np.sum(py), 1):
-            if verbose:
-                print('py does not sum to 1.')
-            return False
->       if np.any(py < 0) or np.any(py > 1):
-E       TypeError: '<' not supported between instances of 'list' and 'int'
-
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/temp.py:28: TypeError
-_____________________________ test_invalid_matrix ______________________________
-
-    def test_invalid_matrix():
-        nm = np.array(
-            [
-                [0.1, 0.9],
-                [0.9, 0.1],
-            ]
-        )
-        py = [0.1, 0.9]
->       assert not noise_generation.noise_matrix_is_valid(nm, py)
-
-../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:98: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/noise_generation.py:14: in noise_matrix_is_valid
-    return noise_matrix_is_valid(noise_matrix, py)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-noise_matrix = array([[0.1, 0.9],
-       [0.9, 0.1]]), py = [0.1, 0.9]
-verbose = False
-
-    def noise_matrix_is_valid(noise_matrix: np.ndarray, py: np.ndarray, verbose: bool=False) -> bool:
-        """
-        Check if the given noise_matrix is a learnable matrix.
-    
-        Parameters:
-        noise_matrix (np.ndarray): A square matrix where element (i, j) represents the probability of class i being
-                                   mislabeled as class j.
-        py (np.ndarray): A vector where element i represents the prior probability of class i.
-        verbose (bool): If True, print detailed information about the validation process.
-    
-        Returns:
-        bool: True if the noise matrix is learnable, False otherwise.
-        """
-        if noise_matrix.shape[0] != noise_matrix.shape[1]:
-            if verbose:
-                print('Noise matrix is not square.')
-            return False
-        if not np.isclose(np.sum(py), 1):
-            if verbose:
-                print('py does not sum to 1.')
-            return False
->       if np.any(py < 0) or np.any(py > 1):
-E       TypeError: '<' not supported between instances of 'list' and 'int'
-
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/temp.py:28: TypeError
+../publishablew/cleanlab/cleanlab/venv/lib/python3.11/site-packages/numpy/core/fromnumeric.py:1761: ValueError
 ________________________________ test_max_iter _________________________________
 
     def test_max_iter():
         trace = 2
         K = 3
         py = [1 / float(K)] * K
->       nm = noise_generation.generate_noise_matrix_from_trace(
+        nm = noise_generation.generate_noise_matrix_from_trace(
             K=K,
             trace=trace,
             valid_noise_matrix=True,
@@ -570,46 +630,78 @@ ________________________________ test_max_iter _________________________________
             py=py,
             seed=1,
         )
+>       assert abs(np.trace(nm) - trace) < 1e-6
 
-../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:240: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/noise_generation.py:204: in generate_noise_matrix_from_trace
-    if not valid_noise_matrix or noise_matrix_is_valid(noise_matrix, py):
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/noise_generation.py:14: in noise_matrix_is_valid
-    return noise_matrix_is_valid(noise_matrix, py)
+../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py:248: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-noise_matrix = array([[0.59498546, 0.12465311, 0.24388707],
-       [0.25149193, 0.82011652, 0.1712149 ],
-       [0.15352261, 0.05523037, 0.58489803]])
-py = [0.3333333333333333, 0.3333333333333333, 0.3333333333333333]
-verbose = False
+a = None, offset = 0, axis1 = 0, axis2 = 1, dtype = None, out = None
 
-    def noise_matrix_is_valid(noise_matrix: np.ndarray, py: np.ndarray, verbose: bool=False) -> bool:
+    @array_function_dispatch(_trace_dispatcher)
+    def trace(a, offset=0, axis1=0, axis2=1, dtype=None, out=None):
         """
-        Check if the given noise_matrix is a learnable matrix.
+        Return the sum along diagonals of the array.
     
-        Parameters:
-        noise_matrix (np.ndarray): A square matrix where element (i, j) represents the probability of class i being
-                                   mislabeled as class j.
-        py (np.ndarray): A vector where element i represents the prior probability of class i.
-        verbose (bool): If True, print detailed information about the validation process.
+        If `a` is 2-D, the sum along its diagonal with the given offset
+        is returned, i.e., the sum of elements ``a[i,i+offset]`` for all i.
     
-        Returns:
-        bool: True if the noise matrix is learnable, False otherwise.
+        If `a` has more than two dimensions, then the axes specified by axis1 and
+        axis2 are used to determine the 2-D sub-arrays whose traces are returned.
+        The shape of the resulting array is the same as that of `a` with `axis1`
+        and `axis2` removed.
+    
+        Parameters
+        ----------
+        a : array_like
+            Input array, from which the diagonals are taken.
+        offset : int, optional
+            Offset of the diagonal from the main diagonal. Can be both positive
+            and negative. Defaults to 0.
+        axis1, axis2 : int, optional
+            Axes to be used as the first and second axis of the 2-D sub-arrays
+            from which the diagonals should be taken. Defaults are the first two
+            axes of `a`.
+        dtype : dtype, optional
+            Determines the data-type of the returned array and of the accumulator
+            where the elements are summed. If dtype has the value None and `a` is
+            of integer type of precision less than the default integer
+            precision, then the default integer precision is used. Otherwise,
+            the precision is the same as that of `a`.
+        out : ndarray, optional
+            Array into which the output is placed. Its type is preserved and
+            it must be of the right shape to hold the output.
+    
+        Returns
+        -------
+        sum_along_diagonals : ndarray
+            If `a` is 2-D, the sum along the diagonal is returned.  If `a` has
+            larger dimensions, then an array of sums along diagonals is returned.
+    
+        See Also
+        --------
+        diag, diagonal, diagflat
+    
+        Examples
+        --------
+        >>> np.trace(np.eye(3))
+        3.0
+        >>> a = np.arange(8).reshape((2,2,2))
+        >>> np.trace(a)
+        array([6, 8])
+    
+        >>> a = np.arange(24).reshape((2,2,2,3))
+        >>> np.trace(a).shape
+        (2, 3)
+    
         """
-        if noise_matrix.shape[0] != noise_matrix.shape[1]:
-            if verbose:
-                print('Noise matrix is not square.')
-            return False
-        if not np.isclose(np.sum(py), 1):
-            if verbose:
-                print('py does not sum to 1.')
-            return False
->       if np.any(py < 0) or np.any(py > 1):
-E       TypeError: '<' not supported between instances of 'list' and 'int'
+        if isinstance(a, np.matrix):
+            # Get trace of matrix via an array to preserve backward compatibility.
+            return asarray(a).trace(offset=offset, axis1=axis1, axis2=axis2, dtype=dtype, out=out)
+        else:
+>           return asanyarray(a).trace(offset=offset, axis1=axis1, axis2=axis2, dtype=dtype, out=out)
+E           ValueError: diag requires an array of at least two dimensions
 
-../publishablew/cleanlab/cleanlab/cleanlab/benchmarking/temp.py:28: TypeError
+../publishablew/cleanlab/cleanlab/venv/lib/python3.11/site-packages/numpy/core/fromnumeric.py:1761: ValueError
 =========================== short test summary info ============================
 FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline
 FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_fraczero_high
@@ -618,11 +710,8 @@ FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_ma
 FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many_verbose_valid
 FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many_valid
 FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_main_pipeline_many_verbose
-FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_invalid_inputs_verify[True]
-FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_invalid_inputs_verify[False]
-FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_invalid_matrix
 FAILED ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_max_iter
-======================== 11 failed, 13 passed in 0.72s =========================
+======================== 8 failed, 16 passed in 11.52s =========================
 
 
 Final Test Result:
@@ -658,7 +747,7 @@ collecting ... collected 24 items
 ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_balls_params PASSED
 ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_max_iter PASSED
 
-============================== 24 passed in 0.59s ==============================
+============================== 24 passed in 0.52s ==============================
 
 
 Initial Result:
@@ -694,4 +783,4 @@ collecting ... collected 24 items
 ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_balls_params PASSED
 ../publishablew/cleanlab/cleanlab/tests/test_noise_generation.py::test_max_iter PASSED
 
-============================== 24 passed in 0.59s ==============================
+============================== 24 passed in 0.58s ==============================

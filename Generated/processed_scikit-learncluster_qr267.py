@@ -3,7 +3,7 @@ from scipy.linalg import qr
 
 def cluster_qr(vectors):
     """
-    Finds the discrete partition closest to the eigenvector embedding using QR decomposition.
+    Finds the discrete partition closest to the eigenvector embedding.
 
     Parameters:
     vectors (array-like): An array with shape (n_samples, n_clusters) representing the embedding space of the samples.
@@ -11,11 +11,14 @@ def cluster_qr(vectors):
     Returns:
     labels (array): An array of integers with shape (n_samples,) representing the cluster labels of the vectors.
     """
-    # Perform QR decomposition on the input matrix
-    Q, R = qr(vectors)
+    # Ensure the input is a numpy array
+    vectors = np.asarray(vectors)
     
-    # Find the index of the maximum absolute value in each row of Q
-    labels = np.argmax(np.abs(Q), axis=1)
+    # Perform QR decomposition on the transpose of the vectors
+    Q, R = qr(vectors.T, mode='economic')
+    
+    # The cluster labels are determined by the index of the maximum value in each row of Q
+    labels = np.argmax(Q, axis=1)
     
     return labels
 

@@ -2,21 +2,9 @@ import torch
 import warnings
 
 def safe_solve_with_mask(B, A):
-    """
-    Solves the system of linear equations AX = B while handling singular matrices.
-    
-    Args:
-    - B (Tensor): The right-hand side tensor in the equation AX = B.
-    - A (Tensor): The matrix tensor that will be solved against B.
-    
-    Returns:
-    - X (Tensor): The solution tensor that satisfies AX = B, or a closest approximation if the matrix is near-singular.
-    - A_LU (Tensor): The LU decomposition of matrix A, which is useful for numerical stability.
-    - valid_mask (Tensor): A boolean tensor indicating which rows of the batch were solved successfully.
-    """
-    
     # Check if B is a tensor
-    assert isinstance(B, torch.Tensor), "B must be a tensor"
+    if not isinstance(B, torch.Tensor):
+        raise AssertionError("B must be a PyTorch tensor.")
     
     # Ensure B is of type float32 or float64
     if B.dtype not in [torch.float32, torch.float64]:
@@ -27,63 +15,31 @@ def safe_solve_with_mask(B, A):
     major_version = int(pytorch_version[0])
     minor_version = int(pytorch_version[1])
     
-    if major_version < 1 or (major_version == 1 and minor_version < 10):
-        warnings.warn("PyTorch version is less than 1.10. Falling back to _torch_solve_cast method. Validity mask might not be correct.")
-        return _torch_solve_cast(B, A)
+    # Initialize the valid_mask as all True
+    valid_mask = torch.ones(B.size(0), dtype=torch.bool)
     
     try:
-        # Perform LU decomposition
-        A_LU, pivots = torch.lu(A)
+        if major_version > 1 or (major_version == 1 and minor_version >= 10):
+            # Use torch.linalg.lu_factor and lu_solve for PyTorch >= 1.10
+            A_LU, pivots = torch.linalg.lu_factor(A)
+            X = torch.linalg.lu_solve(A_LU, pivots, B)
+        else:
+            # Fallback for PyTorch < 1.10
+            warnings.warn("PyTorch version < 1.10 detected. Using fallback method. Validity mask may not be correct.")
+            X, _ = torch.solve(B, A)
+            A_LU = None  # LU decomposition not available in this version
+            return X, A_LU, valid_mask
         
-        # Solve the system using LU decomposition
-        X = torch.lu_solve(B, A_LU, pivots)
+        # Check for singular matrices by verifying if any diagonal element of A_LU is zero
+        if A_LU is not None:
+            singular_rows = torch.any(A_LU.diagonal(dim1=-2, dim2=-1) == 0, dim=-1)
+            valid_mask = ~singular_rows
         
-        # Check for singular matrices
-        valid_mask = torch.isfinite(X).all(dim=-1)
-        
-        return X, A_LU, valid_mask
-    
     except RuntimeError as e:
         # Handle singular matrix case
-        if 'singular' in str(e):
-            valid_mask = torch.zeros(B.shape[0], dtype=torch.bool)
-            X = torch.zeros_like(B)
-            A_LU = torch.zeros_like(A)
-            return X, A_LU, valid_mask
-        else:
-            raise e
-
-def _torch_solve_cast(B, A):
-    """
-    Fallback method for solving AX = B for PyTorch versions < 1.10.
+        warnings.warn(f"RuntimeError encountered: {e}. Returning zero tensor for X.")
+        X = torch.zeros_like(B)
+        valid_mask = torch.zeros(B.size(0), dtype=torch.bool)
+        A_LU = None
     
-    Args:
-    - B (Tensor): The right-hand side tensor in the equation AX = B.
-    - A (Tensor): The matrix tensor that will be solved against B.
-    
-    Returns:
-    - X (Tensor): The solution tensor that satisfies AX = B.
-    - A_LU (Tensor): The LU decomposition of matrix A.
-    - valid_mask (Tensor): A boolean tensor indicating which rows of the batch were solved successfully.
-    """
-    try:
-        # Perform LU decomposition
-        A_LU, pivots = torch.lu(A)
-        
-        # Solve the system using LU decomposition
-        X = torch.lu_solve(B, A_LU, pivots)
-        
-        # Check for singular matrices
-        valid_mask = torch.isfinite(X).all(dim=-1)
-        
-        return X, A_LU, valid_mask
-    
-    except RuntimeError as e:
-        # Handle singular matrix case
-        if 'singular' in str(e):
-            valid_mask = torch.zeros(B.shape[0], dtype=torch.bool)
-            X = torch.zeros_like(B)
-            A_LU = torch.zeros_like(A)
-            return X, A_LU, valid_mask
-        else:
-            raise e
+    return X, A_LU, valid_mask

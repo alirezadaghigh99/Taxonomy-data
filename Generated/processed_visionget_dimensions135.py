@@ -1,23 +1,24 @@
-import logging
 from PIL import Image
 import torch
-import torchvision.transforms.functional as F_t
-import torchvision.transforms.functional_pil as F_pil
+import logging
 
-# Configure logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+# Assuming F_t and F_pil are modules with get_dimensions functions
+# For demonstration, we'll define mock functions here
+class F_t:
+    @staticmethod
+    def get_dimensions(tensor):
+        # Assuming tensor is in the format [channels, height, width]
+        return list(tensor.size())
+
+class F_pil:
+    @staticmethod
+    def get_dimensions(img):
+        # PIL Image size returns (width, height)
+        width, height = img.size
+        # Assuming a default of 3 channels for RGB images
+        return [3, height, width]
 
 def get_dimensions(img):
-    """
-    Get the dimensions of an image.
-
-    Parameters:
-    img (PIL.Image.Image or torch.Tensor): The input image.
-
-    Returns:
-    list: A list of integers in the format [channels, height, width].
-    """
     # Check if the input is a PIL Image
     if isinstance(img, Image.Image):
         dimensions = F_pil.get_dimensions(img)
@@ -25,11 +26,11 @@ def get_dimensions(img):
     elif isinstance(img, torch.Tensor):
         dimensions = F_t.get_dimensions(img)
     else:
-        raise TypeError("Input must be a PIL Image or a torch.Tensor")
+        raise TypeError("Input must be a PIL Image or a Tensor.")
 
     # Log API usage if not in scripting or tracing mode
     if not torch.jit.is_scripting() and not torch.jit.is_tracing():
-        logger.info(f"API get_dimensions called with input type: {type(img).__name__}")
+        logging.info("get_dimensions API called.")
 
     return dimensions
 

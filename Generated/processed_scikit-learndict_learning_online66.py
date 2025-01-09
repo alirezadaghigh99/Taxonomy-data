@@ -12,31 +12,18 @@ def dict_learning_online(X, n_components=2, alpha=1, max_iter=100, return_code=T
     n_samples, n_features = X.shape
     random_state = check_random_state(random_state)
     
-    if n_components is None:
-        n_components = n_features
-
     if dict_init is None:
-        U, S, V = randomized_svd(X, n_components)
-        V = V * S[:, np.newaxis]
+        # Initialize dictionary using SVD
+        _, S, Vt = randomized_svd(X, n_components)
+        dictionary = Vt
     else:
-        V = dict_init
+        dictionary = dict_init
 
     if shuffle:
         X = shuffle(X, random_state=random_state)
 
     batches = gen_batches(n_samples, batch_size)
     n_batches = len(batches)
-
-    if method == 'lars':
-        def sparse_encode(X, dictionary):
-            _, _, coefs = lars_path(dictionary.T, X.T, alpha=alpha, method='lasso')
-            return coefs.T
-    elif method == 'cd':
-        def sparse_encode(X, dictionary):
-            lasso = Lasso(alpha=alpha, fit_intercept=False, max_iter=method_max_iter, positive=positive_code)
-            return np.array([lasso.fit(dictionary.T, x).coef_ for x in X])
-    else:
-        raise ValueError("Method must be 'lars' or 'cd'")
 
     best_cost = np.inf
     no_improvement = 0
@@ -45,36 +32,45 @@ def dict_learning_online(X, n_components=2, alpha=1, max_iter=100, return_code=T
         if verbose:
             print(f"Iteration {iteration + 1}/{max_iter}")
 
-        for batch in batches:
-            X_batch = X[batch]
-            U_batch = sparse_encode(X_batch, V)
-            if positive_dict:
-                V = np.maximum(0, V + np.dot(U_batch.T, X_batch - np.dot(U_batch, V)))
+        for batch_idx, batch_slice in enumerate(batches):
+            X_batch = X[batch_slice]
+
+            # Sparse coding step
+            if method == 'lars':
+                _, _, coefs = lars_path(dictionary.T, X_batch.T, alpha=alpha, method='lasso')
+                code = coefs.T
+            elif method == 'cd':
+                lasso = Lasso(alpha=alpha, fit_intercept=False, max_iter=method_max_iter,
+                              positive=positive_code)
+                code = np.array([lasso.fit(dictionary.T, x).coef_ for x in X_batch])
+
+            # Dictionary update step
+            for k in range(n_components):
+                if np.any(code[:, k] != 0):
+                    dictionary[k] = np.dot(code[:, k], X_batch) / np.dot(code[:, k], code[:, k])
+                    if positive_dict:
+                        dictionary[k] = np.maximum(dictionary[k], 0)
+                    dictionary[k] /= np.linalg.norm(dictionary[k])
+
+            # Calculate cost for early stopping
+            reconstruction = np.dot(code, dictionary)
+            cost = 0.5 * np.linalg.norm(X_batch - reconstruction, 'fro')**2 + alpha * np.sum(np.abs(code))
+            if cost < best_cost - tol:
+                best_cost = cost
+                no_improvement = 0
             else:
-                V += np.dot(U_batch.T, X_batch - np.dot(U_batch, V))
-            V /= np.linalg.norm(V, axis=1)[:, np.newaxis]
+                no_improvement += 1
+
+            if no_improvement >= max_no_improvement:
+                if verbose:
+                    print("Convergence reached: no improvement in cost function.")
+                break
 
         if callback is not None:
             callback(locals())
 
-        cost = 0.5 * np.linalg.norm(X - np.dot(sparse_encode(X, V), V)) ** 2 + alpha * np.sum(np.abs(sparse_encode(X, V)))
-        if verbose:
-            print(f"Cost: {cost}")
-
-        if cost < best_cost - tol:
-            best_cost = cost
-            no_improvement = 0
-        else:
-            no_improvement += 1
-
-        if max_no_improvement is not None and no_improvement >= max_no_improvement:
-            if verbose:
-                print("Early stopping due to no improvement.")
-            break
-
-    U = sparse_encode(X, V)
-
     if return_code:
-        return U, V, iteration + 1
+        return code, dictionary
     else:
-        return V, iteration + 1
+        return dictionary
+

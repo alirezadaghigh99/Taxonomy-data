@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/feature/test_matching.py::TestMatchSNN::test_matching1[cpu] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_matching.py::TestMatchSNN::test_matching1[cpu]'}
+{'FAILED ../publishablew/kornia/kornia/tests/feature/test_matching.py::TestMatchSNN::test_matching1[cpu]', '../publishablew/kornia/kornia/tests/feature/test_matching.py::TestMatchSNN::test_matching1[cpu] FAILED'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'inductor', 'onnxrt', 'openxla', 'jit', None, 'cudagraphs'}
+available optimizers: {'', 'openxla', None, 'tvm', 'jit', 'onnxrt', 'cudagraphs', 'inductor'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -54,7 +54,7 @@ collecting ... collected 7 items
 =================================== FAILURES ===================================
 _______________________ TestMatchSNN.test_matching1[cpu] _______________________
 
-self = <test_matching.TestMatchSNN object at 0x7fa012aff3a0>
+self = <test_matching.TestMatchSNN object at 0x7b63e72fb460>
 device = device(type='cpu')
 
     def test_matching1(self, device):
@@ -143,7 +143,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'openxla', 'tvm', 'onnxrt', 'jit', 'inductor', None}
+available optimizers: {'', 'tvm', 'inductor', 'cudagraphs', 'openxla', 'jit', 'onnxrt', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -159,7 +159,7 @@ collecting ... collected 7 items
 ../publishablew/kornia/kornia/tests/feature/test_matching.py::TestMatchSNN::test_matching2[cpu] PASSED
 ../publishablew/kornia/kornia/tests/feature/test_matching.py::TestMatchSNN::test_gradcheck[cpu] PASSED
 
-============================== 7 passed in 0.13s ===============================
+============================== 7 passed in 0.16s ===============================
 
 
 Initial Result:
@@ -188,7 +188,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'tvm', 'onnxrt', 'cudagraphs', None, 'jit', 'inductor'}
+available optimizers: {'', 'onnxrt', 'inductor', 'tvm', 'openxla', 'jit', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -204,4 +204,4 @@ collecting ... collected 7 items
 ../publishablew/kornia/kornia/tests/feature/test_matching.py::TestMatchSNN::test_matching2[cpu] PASSED
 ../publishablew/kornia/kornia/tests/feature/test_matching.py::TestMatchSNN::test_gradcheck[cpu] PASSED
 
-============================== 7 passed in 0.17s ===============================
+============================== 7 passed in 0.16s ===============================

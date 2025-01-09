@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 44 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_error_messages_on_wrong_input I: Seeding RNGs with 1925890081
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_error_messages_on_wrong_input I: Seeding RNGs with 1557306544
 FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_generalized_average PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_perfect_matches FAILED
@@ -509,7 +509,7 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/t
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_rand_score_edge_cases[clustering11-clustering21]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_rand_score
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_adjusted_rand_score_overflow
-=================== 11 failed, 25 passed, 8 skipped in 0.56s ===================
+=================== 11 failed, 25 passed, 8 skipped in 0.64s ===================
 
 
 Final Test Result:
@@ -521,7 +521,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 44 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_error_messages_on_wrong_input I: Seeding RNGs with 329175197
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_error_messages_on_wrong_input I: Seeding RNGs with 171279423
 FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_generalized_average PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_perfect_matches FAILED
@@ -1012,7 +1012,7 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/t
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_rand_score_edge_cases[clustering11-clustering21]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_rand_score
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_adjusted_rand_score_overflow
-=================== 11 failed, 25 passed, 8 skipped in 0.56s ===================
+=================== 11 failed, 25 passed, 8 skipped in 0.64s ===================
 
 
 Initial Result:
@@ -1024,7 +1024,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 44 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_error_messages_on_wrong_input I: Seeding RNGs with 370802706
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_error_messages_on_wrong_input I: Seeding RNGs with 974337822
 FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_generalized_average PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_perfect_matches FAILED
@@ -1378,4 +1378,4 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/t
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_rand_score_edge_cases[clustering11-clustering21]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_rand_score
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py::test_adjusted_rand_score_overflow
-=================== 11 failed, 25 passed, 8 skipped in 0.63s ===================
+=================== 11 failed, 25 passed, 8 skipped in 0.73s ===================

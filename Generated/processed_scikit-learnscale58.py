@@ -1,11 +1,9 @@
 import numpy as np
-import scipy.sparse as sp
+from scipy import sparse
 
 def scale(X, axis=0, with_mean=True, with_std=True, copy=True):
     """
     Standardize a dataset along any axis.
-
-    Center to the mean and component wise scale to unit variance.
 
     Parameters
     ----------
@@ -26,31 +24,16 @@ def scale(X, axis=0, with_mean=True, with_std=True, copy=True):
 
     copy : bool, default=True
         If False, try to avoid a copy and scale in place.
-        This is not guaranteed to always work in place; e.g. if the data is
-        a numpy array with an int dtype, a copy will be returned even with
-        copy=False.
 
     Returns
     -------
     X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
         The transformed data.
     """
-    if copy:
-        X = X.copy()
+    if sparse.issparse(X):
+        raise TypeError("Sparse matrices are not supported by this function.")
 
-    if sp.issparse(X):
-        if with_mean:
-            raise ValueError("Cannot center sparse matrices: pass `with_mean=False` instead.")
-        if with_std:
-            mean = np.zeros(X.shape[axis])
-            std = np.sqrt(X.multiply(X).mean(axis=axis) - mean ** 2)
-            std = np.asarray(std).flatten()
-            std[std == 0] = 1
-            if axis == 0:
-                X = X.multiply(sp.diags(1 / std))
-            else:
-                X = sp.diags(1 / std).dot(X)
-        return X
+    X = np.array(X, copy=copy)
 
     if with_mean:
         mean = np.mean(X, axis=axis, keepdims=True)
@@ -58,7 +41,7 @@ def scale(X, axis=0, with_mean=True, with_std=True, copy=True):
 
     if with_std:
         std = np.std(X, axis=axis, keepdims=True)
-        std[std == 0] = 1
+        std[std == 0] = 1  # Avoid division by zero
         X /= std
 
     return X

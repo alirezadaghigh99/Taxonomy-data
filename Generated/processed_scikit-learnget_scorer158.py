@@ -6,41 +6,43 @@ def get_scorer(scoring):
     Retrieve a scorer based on the input scoring method.
 
     Parameters:
-    scoring (str, callable, or None): The scoring method to retrieve. This can be:
-        - A string representing the name of a scorer (e.g., 'accuracy', 'f1').
-        - A callable that takes (estimator, X, y) and returns a score.
+    scoring (str, callable, or None): The scoring method to retrieve. It can be:
+        - A string representing the name of a scoring method available in sklearn.
+        - A callable that takes (estimator, X, y) as parameters and returns a score.
         - None, in which case the function returns None.
 
     Returns:
-    callable or None: The scorer object based on the input scoring method.
+    callable or None: A scorer object based on the input scoring method, or None if the input is None.
 
     Raises:
     ValueError: If the input scoring value is not a valid string, callable, or None.
 
     Examples:
-    >>> get_scorer('accuracy')
-    <function accuracy_scorer at 0x...>
+    >>> from sklearn.metrics import accuracy_score
+    >>> scorer = get_scorer('accuracy')
+    >>> print(scorer)
+    <function _passthrough_scorer at 0x...>
 
-    >>> def custom_scorer(estimator, X, y):
-    ...     return estimator.score(X, y)
-    >>> get_scorer(custom_scorer)
-    <function custom_scorer at 0x...>
+    >>> custom_scorer = lambda estimator, X, y: accuracy_score(y, estimator.predict(X))
+    >>> scorer = get_scorer(custom_scorer)
+    >>> print(scorer)
+    <function <lambda> at 0x...>
 
-    >>> get_scorer(None)
+    >>> scorer = get_scorer(None)
+    >>> print(scorer)
     None
 
-    >>> get_scorer('invalid_scorer')
-    ValueError: Invalid scoring method: 'invalid_scorer'
+    >>> get_scorer(123)  # Raises ValueError
     """
     if isinstance(scoring, str):
         try:
             return deepcopy(sklearn_get_scorer(scoring))
-        except ValueError:
-            raise ValueError(f"Invalid scoring method: '{scoring}'")
+        except ValueError as e:
+            raise ValueError(f"Invalid scoring string: {scoring}") from e
     elif callable(scoring):
         return scoring
     elif scoring is None:
         return None
     else:
-        raise ValueError(f"Invalid scoring method: '{scoring}'")
+        raise ValueError("Scoring must be a string, a callable, or None.")
 

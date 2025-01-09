@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/kornia/kornia/tests/losses/test_total_variation.py::TestTotalVariation::test_tv_reduction[cpu-float32-mean-expected1]', '../publishablew/kornia/kornia/tests/losses/test_total_variation.py::TestTotalVariation::test_tv_reduction[cpu-float32-mean-expected1] FAILED'}
+{'../publishablew/kornia/kornia/tests/losses/test_total_variation.py::TestTotalVariation::test_tv_reduction[cpu-float32-mean-expected1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/losses/test_total_variation.py::TestTotalVariation::test_tv_reduction[cpu-float32-mean-expected1]'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'inductor', 'onnxrt', 'jit', 'cudagraphs', None, 'tvm'}
+available optimizers: {'', 'inductor', 'tvm', 'jit', 'openxla', 'onnxrt', None, 'cudagraphs'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -65,7 +65,7 @@ collecting ... collected 18 items
 =================================== FAILURES ===================================
 _______ TestTotalVariation.test_tv_reduction[cpu-float32-mean-expected1] _______
 
-self = <test_total_variation.TestTotalVariation object at 0x7dcd186fa6b0>
+self = <test_total_variation.TestTotalVariation object at 0x7e12230ee770>
 device = device(type='cpu'), dtype = torch.float32, reduction = 'mean'
 expected = tensor(1)
 
@@ -115,7 +115,7 @@ E       Relative difference: 0.19999998807907104 (up to 0.001 allowed)
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 =========================== short test summary info ============================
 FAILED ../publishablew/kornia/kornia/tests/losses/test_total_variation.py::TestTotalVariation::test_tv_reduction[cpu-float32-mean-expected1]
-========================= 1 failed, 17 passed in 2.00s =========================
+========================= 1 failed, 17 passed in 2.06s =========================
 
 
 Final Test Result:
@@ -144,7 +144,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'tvm', 'openxla', 'jit', 'onnxrt', 'inductor', None}
+available optimizers: {'', 'jit', 'inductor', 'tvm', 'cudagraphs', 'openxla', 'onnxrt', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -171,7 +171,7 @@ collecting ... collected 18 items
 ../publishablew/kornia/kornia/tests/losses/test_total_variation.py::TestTotalVariation::test_module[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/losses/test_total_variation.py::TestTotalVariation::test_gradcheck[cpu] PASSED
 
-============================== 18 passed in 1.97s ==============================
+============================== 18 passed in 1.96s ==============================
 
 
 Initial Result:
@@ -200,7 +200,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'inductor', 'openxla', 'onnxrt', 'cudagraphs', 'jit', 'tvm', None}
+available optimizers: {'', 'tvm', 'jit', 'cudagraphs', 'inductor', 'openxla', 'onnxrt', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -227,4 +227,4 @@ collecting ... collected 18 items
 ../publishablew/kornia/kornia/tests/losses/test_total_variation.py::TestTotalVariation::test_module[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/losses/test_total_variation.py::TestTotalVariation::test_gradcheck[cpu] PASSED
 
-============================== 18 passed in 1.90s ==============================
+============================== 18 passed in 2.18s ==============================

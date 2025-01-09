@@ -4,10 +4,10 @@ function:
 cartesian
 Error Cases:
 
-Pass or Failed: 0
+Pass or Failed: 1
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian_mix_types[arrays0-output_dtype0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian_mix_types[arrays2-output_dtype2]', '../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian_mix_types[arrays1-output_dtype1] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian', '../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian_mix_types[arrays1-output_dtype1]', '../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian_mix_types[arrays0-output_dtype0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian_mix_types[arrays2-output_dtype2] FAILED'}
+set()
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 258 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_density[coo_matrix] I: Seeding RNGs with 2023132127
+../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_density[coo_matrix] I: Seeding RNGs with 1354305628
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_density[coo_array] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_density[csc_matrix] PASSED
@@ -200,10 +200,10 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_randomized_svd_lapack_driver[4-50-300-50] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_randomized_svd_lapack_driver[4-50-300-100] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_randomized_svd_lapack_driver[4-50-300-300] PASSED
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian FAILED
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian_mix_types[arrays0-output_dtype0] FAILED
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian_mix_types[arrays1-output_dtype1] FAILED
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian_mix_types[arrays2-output_dtype2] FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian_mix_types[arrays0-output_dtype0] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian_mix_types[arrays1-output_dtype1] PASSED
+../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian_mix_types[arrays2-output_dtype2] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_incremental_weighted_mean_and_variance_simple[float32] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_incremental_weighted_mean_and_variance_simple[float64] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_incremental_weighted_mean_and_variance[0-1-1-0] PASSED
@@ -278,222 +278,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_safe_sparse_dot_dense_output[False] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_approximate_mode PASSED
 
-=================================== FAILURES ===================================
-________________________________ test_cartesian ________________________________
-
-    def test_cartesian():
-        # Check if cartesian product delivers the right results
-    
-        axes = (np.array([1, 2, 3]), np.array([4, 5]), np.array([6, 7]))
-    
-        true_out = np.array(
-            [
-                [1, 4, 6],
-                [1, 4, 7],
-                [1, 5, 6],
-                [1, 5, 7],
-                [2, 4, 6],
-                [2, 4, 7],
-                [2, 5, 6],
-                [2, 5, 7],
-                [3, 4, 6],
-                [3, 4, 7],
-                [3, 5, 6],
-                [3, 5, 7],
-            ]
-        )
-    
->       out = cartesian(axes)
-
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py:641: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/extmath.py:634: in cartesian
-    return cartesian(arrays, out)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-arrays = [array([1, 2, 3]), array([4, 5]), array([6, 7])]
-out = array([[                   1,                    0, -3044996663637518193],
-       [                   1,      12716238...                 49,      127162480962784],
-       [                   3,      127162386233584,      127162386213584]])
-
-    def cartesian(arrays, out=None):
-        arrays = [np.asarray(a) for a in arrays]
-        dtype = np.result_type(*arrays)
-        n = np.prod([len(a) for a in arrays])
-        if out is None:
-            out = np.empty((n, len(arrays)), dtype=dtype)
-        m = n // len(arrays[0])
-        out[:, 0] = np.repeat(arrays[0], m)
-        if arrays[1:]:
->           cartesian1(arrays[1:], out=out[:m, 1:])
-E           NameError: name 'cartesian1' is not defined
-
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/temp.py:21: NameError
-_______________ test_cartesian_mix_types[arrays0-output_dtype0] ________________
-
-arrays = [array([1, 2, 3], dtype=int32), array([4, 5])]
-output_dtype = dtype('int64')
-
-    @pytest.mark.parametrize(
-        "arrays, output_dtype",
-        [
-            (
-                [np.array([1, 2, 3], dtype=np.int32), np.array([4, 5], dtype=np.int64)],
-                np.dtype(np.int64),
-            ),
-            (
-                [np.array([1, 2, 3], dtype=np.int32), np.array([4, 5], dtype=np.float64)],
-                np.dtype(np.float64),
-            ),
-            (
-                [np.array([1, 2, 3], dtype=np.int32), np.array(["x", "y"], dtype=object)],
-                np.dtype(object),
-            ),
-        ],
-    )
-    def test_cartesian_mix_types(arrays, output_dtype):
-        """Check that the cartesian product works with mixed types."""
->       output = cartesian(arrays)
-
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py:668: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/extmath.py:634: in cartesian
-    return cartesian(arrays, out)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-arrays = [array([1, 2, 3], dtype=int32), array([4, 5])]
-out = array([[1, 1],
-       [1, 1],
-       [2, 2],
-       [2, 2],
-       [3, 3],
-       [3, 3]])
-
-    def cartesian(arrays, out=None):
-        arrays = [np.asarray(a) for a in arrays]
-        dtype = np.result_type(*arrays)
-        n = np.prod([len(a) for a in arrays])
-        if out is None:
-            out = np.empty((n, len(arrays)), dtype=dtype)
-        m = n // len(arrays[0])
-        out[:, 0] = np.repeat(arrays[0], m)
-        if arrays[1:]:
->           cartesian1(arrays[1:], out=out[:m, 1:])
-E           NameError: name 'cartesian1' is not defined
-
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/temp.py:21: NameError
-_______________ test_cartesian_mix_types[arrays1-output_dtype1] ________________
-
-arrays = [array([1, 2, 3], dtype=int32), array([4., 5.])]
-output_dtype = dtype('float64')
-
-    @pytest.mark.parametrize(
-        "arrays, output_dtype",
-        [
-            (
-                [np.array([1, 2, 3], dtype=np.int32), np.array([4, 5], dtype=np.int64)],
-                np.dtype(np.int64),
-            ),
-            (
-                [np.array([1, 2, 3], dtype=np.int32), np.array([4, 5], dtype=np.float64)],
-                np.dtype(np.float64),
-            ),
-            (
-                [np.array([1, 2, 3], dtype=np.int32), np.array(["x", "y"], dtype=object)],
-                np.dtype(object),
-            ),
-        ],
-    )
-    def test_cartesian_mix_types(arrays, output_dtype):
-        """Check that the cartesian product works with mixed types."""
->       output = cartesian(arrays)
-
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py:668: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/extmath.py:634: in cartesian
-    return cartesian(arrays, out)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-arrays = [array([1, 2, 3], dtype=int32), array([4., 5.])]
-out = array([[ 1.        , -0.1382643 ],
-       [ 1.        ,  1.52302986],
-       [ 2.        , -0.23413696],
-       [ 2.        ,  0.76743473],
-       [ 3.        ,  0.54256004],
-       [ 3.        , -0.46572975]])
-
-    def cartesian(arrays, out=None):
-        arrays = [np.asarray(a) for a in arrays]
-        dtype = np.result_type(*arrays)
-        n = np.prod([len(a) for a in arrays])
-        if out is None:
-            out = np.empty((n, len(arrays)), dtype=dtype)
-        m = n // len(arrays[0])
-        out[:, 0] = np.repeat(arrays[0], m)
-        if arrays[1:]:
->           cartesian1(arrays[1:], out=out[:m, 1:])
-E           NameError: name 'cartesian1' is not defined
-
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/temp.py:21: NameError
-_______________ test_cartesian_mix_types[arrays2-output_dtype2] ________________
-
-arrays = [array([1, 2, 3], dtype=int32), array(['x', 'y'], dtype=object)]
-output_dtype = dtype('O')
-
-    @pytest.mark.parametrize(
-        "arrays, output_dtype",
-        [
-            (
-                [np.array([1, 2, 3], dtype=np.int32), np.array([4, 5], dtype=np.int64)],
-                np.dtype(np.int64),
-            ),
-            (
-                [np.array([1, 2, 3], dtype=np.int32), np.array([4, 5], dtype=np.float64)],
-                np.dtype(np.float64),
-            ),
-            (
-                [np.array([1, 2, 3], dtype=np.int32), np.array(["x", "y"], dtype=object)],
-                np.dtype(object),
-            ),
-        ],
-    )
-    def test_cartesian_mix_types(arrays, output_dtype):
-        """Check that the cartesian product works with mixed types."""
->       output = cartesian(arrays)
-
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py:668: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/extmath.py:634: in cartesian
-    return cartesian(arrays, out)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-arrays = [array([1, 2, 3], dtype=int32), array(['x', 'y'], dtype=object)]
-out = array([[1, None],
-       [1, None],
-       [2, None],
-       [2, None],
-       [3, None],
-       [3, None]], dtype=object)
-
-    def cartesian(arrays, out=None):
-        arrays = [np.asarray(a) for a in arrays]
-        dtype = np.result_type(*arrays)
-        n = np.prod([len(a) for a in arrays])
-        if out is None:
-            out = np.empty((n, len(arrays)), dtype=dtype)
-        m = n // len(arrays[0])
-        out[:, 0] = np.repeat(arrays[0], m)
-        if arrays[1:]:
->           cartesian1(arrays[1:], out=out[:m, 1:])
-E           NameError: name 'cartesian1' is not defined
-
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/temp.py:21: NameError
-=========================== short test summary info ============================
-FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian
-FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian_mix_types[arrays0-output_dtype0]
-FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian_mix_types[arrays1-output_dtype1]
-FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_cartesian_mix_types[arrays2-output_dtype2]
-======================== 4 failed, 254 passed in 2.85s =========================
+============================= 258 passed in 3.71s ==============================
 
 
 Final Test Result:
@@ -505,7 +290,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 258 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_density[coo_matrix] I: Seeding RNGs with 1252250517
+../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_density[coo_matrix] I: Seeding RNGs with 321999520
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_density[coo_array] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_density[csc_matrix] PASSED
@@ -765,7 +550,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_safe_sparse_dot_dense_output[False] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_approximate_mode PASSED
 
-============================= 258 passed in 2.76s ==============================
+============================= 258 passed in 2.83s ==============================
 
 
 Initial Result:
@@ -777,7 +562,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 258 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_density[coo_matrix] I: Seeding RNGs with 95824711
+../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_density[coo_matrix] I: Seeding RNGs with 1838927173
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_density[coo_array] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_density[csc_matrix] PASSED
@@ -1037,4 +822,4 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_safe_sparse_dot_dense_output[False] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/tests/test_extmath.py::test_approximate_mode PASSED
 
-============================= 258 passed in 2.75s ==============================
+============================= 258 passed in 3.67s ==============================

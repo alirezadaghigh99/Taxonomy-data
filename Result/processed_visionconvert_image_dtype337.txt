@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype6-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype4-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype5-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype4-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype3-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype0-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype5-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype1-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype5-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype6-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype2-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype6-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype2-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype6-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype3-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype6-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype3-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype4-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype6-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype0-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype5-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype0-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype6-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype3-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype2-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype5-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype2-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype6-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype0-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype1-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype1-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype4-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype5-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype6-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype2-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype6-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype0-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype1-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype5-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype6-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype1-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype5-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype3-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype2-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype3-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype1-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype3-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype6-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype6-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype1-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype0-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype4-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype3-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype3-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype1-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype1-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype6-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype1-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype0-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype2-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype0-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype4-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype6-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype5-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype2-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype3-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype6-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype3-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype2-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype1-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype3-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype4-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype5-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype6-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype0-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype4-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype3-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype4-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype5-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype2-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype0-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype4-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype0-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype1-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype1-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype4-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype4-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype2-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype1-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype2-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype4-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype6-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype0-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype3-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype3-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype0-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype6-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype3-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype0-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype0-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype0-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype1-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype5-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype2-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype4-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype4-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype5-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype5-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype3-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype4-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype5-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype1-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype2-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype2-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype4-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype2-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype1-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype5-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype2-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype0-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype0-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype0-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype1-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype4-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype3-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype0-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype0-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype2-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype1-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype5-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype0-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype3-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype1-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype6-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype6-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype1-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype5-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype1-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype1-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype6-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype5-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype2-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype3-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype3-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype5-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype6-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype2-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype2-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype2-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype5-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype5-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype4-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype4-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype6-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype4-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype1-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype3-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype2-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype4-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype6-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype5-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype2-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype2-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype5-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype3-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype1-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype2-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype6-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype6-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype0-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype4-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype5-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype1-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype5-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype0-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype3-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype0-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype4-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype3-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype6-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype4-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype1-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype2-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype5-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype1-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype3-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype0-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype5-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype4-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype0-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype0-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype4-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype2-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype3-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype4-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype3-cpu] FAILED'}
+{'../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype5-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype5-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype1-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype6-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype0-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype6-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype3-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype2-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype5-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype0-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype6-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype6-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype4-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype5-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype0-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype4-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype2-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype4-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype1-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype5-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype3-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype0-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype2-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype3-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype5-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype0-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype4-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype6-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype0-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype2-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype3-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype2-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype3-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype2-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype6-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype4-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype5-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype3-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype6-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype1-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype6-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype0-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype4-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype5-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype6-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype1-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype4-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype6-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype4-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype0-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype3-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype3-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype6-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype5-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype1-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype5-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype3-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype1-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype0-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype6-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype1-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype4-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype5-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype2-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype1-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype1-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype3-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype3-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype2-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype6-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype0-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype1-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype2-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype4-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype4-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype6-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype0-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype2-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype5-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype3-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype3-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype6-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype2-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype4-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype1-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype2-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype4-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype0-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype0-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype4-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype5-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype3-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype1-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype5-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype0-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype3-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype6-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype5-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype1-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype3-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype0-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype2-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype0-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype3-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype1-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype2-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype5-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype5-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype0-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype0-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype5-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype1-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype2-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype6-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype4-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype3-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype6-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype6-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype6-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype5-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype0-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype3-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype2-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype1-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype5-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype4-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype5-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype5-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype3-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype1-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype4-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype2-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype5-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype6-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype4-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype0-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype6-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype5-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype2-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype3-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype6-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype4-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype5-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype2-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype0-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype4-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype0-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype2-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype6-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype6-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype2-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype3-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype0-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype4-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype2-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype0-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype4-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype3-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype4-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype4-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype1-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype5-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype1-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype2-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype6-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype1-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype2-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype4-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype0-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype2-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype4-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype0-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype3-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype3-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype2-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype1-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype5-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype4-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype2-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype6-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype3-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype1-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype1-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype0-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype1-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype1-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype3-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype2-in_dtype3-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype5-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype1-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype3-in_dtype1-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype4-in_dtype1-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype0-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype6-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype5-in_dtype4-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype1-in_dtype2-cuda] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -166,7 +166,7 @@ _____________ test_convert_image_dtype[out_dtype0-in_dtype0-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype0-in_dtype1-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -180,7 +180,7 @@ ______________ test_convert_image_dtype[out_dtype0-in_dtype1-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype0-in_dtype1-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -194,7 +194,7 @@ _____________ test_convert_image_dtype[out_dtype0-in_dtype1-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype0-in_dtype2-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -208,7 +208,7 @@ ______________ test_convert_image_dtype[out_dtype0-in_dtype2-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype0-in_dtype2-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -222,7 +222,7 @@ _____________ test_convert_image_dtype[out_dtype0-in_dtype2-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype0-in_dtype3-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -236,7 +236,7 @@ ______________ test_convert_image_dtype[out_dtype0-in_dtype3-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype0-in_dtype3-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -250,7 +250,7 @@ _____________ test_convert_image_dtype[out_dtype0-in_dtype3-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype0-in_dtype4-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -264,7 +264,7 @@ ______________ test_convert_image_dtype[out_dtype0-in_dtype4-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype0-in_dtype4-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -278,7 +278,7 @@ _____________ test_convert_image_dtype[out_dtype0-in_dtype4-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype0-in_dtype5-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -292,7 +292,7 @@ ______________ test_convert_image_dtype[out_dtype0-in_dtype5-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype0-in_dtype5-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -306,7 +306,7 @@ _____________ test_convert_image_dtype[out_dtype0-in_dtype5-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype0-in_dtype6-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -320,7 +320,7 @@ ______________ test_convert_image_dtype[out_dtype0-in_dtype6-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype0-in_dtype6-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -334,7 +334,7 @@ _____________ test_convert_image_dtype[out_dtype0-in_dtype6-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype1-in_dtype0-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -348,7 +348,7 @@ ______________ test_convert_image_dtype[out_dtype1-in_dtype0-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype1-in_dtype0-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -362,7 +362,7 @@ _____________ test_convert_image_dtype[out_dtype1-in_dtype0-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype1-in_dtype1-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -376,7 +376,7 @@ ______________ test_convert_image_dtype[out_dtype1-in_dtype1-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype1-in_dtype1-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -390,7 +390,7 @@ _____________ test_convert_image_dtype[out_dtype1-in_dtype1-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype1-in_dtype2-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -404,7 +404,7 @@ ______________ test_convert_image_dtype[out_dtype1-in_dtype2-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype1-in_dtype2-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -418,7 +418,7 @@ _____________ test_convert_image_dtype[out_dtype1-in_dtype2-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype1-in_dtype3-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -432,7 +432,7 @@ ______________ test_convert_image_dtype[out_dtype1-in_dtype3-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype1-in_dtype3-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -446,7 +446,7 @@ _____________ test_convert_image_dtype[out_dtype1-in_dtype3-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype1-in_dtype4-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -460,7 +460,7 @@ ______________ test_convert_image_dtype[out_dtype1-in_dtype4-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype1-in_dtype4-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -474,7 +474,7 @@ _____________ test_convert_image_dtype[out_dtype1-in_dtype4-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype1-in_dtype5-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -488,7 +488,7 @@ ______________ test_convert_image_dtype[out_dtype1-in_dtype5-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype1-in_dtype5-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -502,7 +502,7 @@ _____________ test_convert_image_dtype[out_dtype1-in_dtype5-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype1-in_dtype6-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -516,7 +516,7 @@ ______________ test_convert_image_dtype[out_dtype1-in_dtype6-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype1-in_dtype6-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -530,7 +530,7 @@ _____________ test_convert_image_dtype[out_dtype1-in_dtype6-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype2-in_dtype0-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -544,7 +544,7 @@ ______________ test_convert_image_dtype[out_dtype2-in_dtype0-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype2-in_dtype0-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -558,7 +558,7 @@ _____________ test_convert_image_dtype[out_dtype2-in_dtype0-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype2-in_dtype1-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -572,7 +572,7 @@ ______________ test_convert_image_dtype[out_dtype2-in_dtype1-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype2-in_dtype1-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -586,7 +586,7 @@ _____________ test_convert_image_dtype[out_dtype2-in_dtype1-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype2-in_dtype2-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -600,7 +600,7 @@ ______________ test_convert_image_dtype[out_dtype2-in_dtype2-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype2-in_dtype2-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -614,7 +614,7 @@ _____________ test_convert_image_dtype[out_dtype2-in_dtype2-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype2-in_dtype3-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -628,7 +628,7 @@ ______________ test_convert_image_dtype[out_dtype2-in_dtype3-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype2-in_dtype3-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -642,7 +642,7 @@ _____________ test_convert_image_dtype[out_dtype2-in_dtype3-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype2-in_dtype4-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -656,7 +656,7 @@ ______________ test_convert_image_dtype[out_dtype2-in_dtype4-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype2-in_dtype4-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -670,7 +670,7 @@ _____________ test_convert_image_dtype[out_dtype2-in_dtype4-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype2-in_dtype5-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -684,7 +684,7 @@ ______________ test_convert_image_dtype[out_dtype2-in_dtype5-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype2-in_dtype5-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -698,7 +698,7 @@ _____________ test_convert_image_dtype[out_dtype2-in_dtype5-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype2-in_dtype6-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -712,7 +712,7 @@ ______________ test_convert_image_dtype[out_dtype2-in_dtype6-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype2-in_dtype6-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -726,7 +726,7 @@ _____________ test_convert_image_dtype[out_dtype2-in_dtype6-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype3-in_dtype0-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -740,7 +740,7 @@ ______________ test_convert_image_dtype[out_dtype3-in_dtype0-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype3-in_dtype0-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -754,7 +754,7 @@ _____________ test_convert_image_dtype[out_dtype3-in_dtype0-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype3-in_dtype1-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -768,7 +768,7 @@ ______________ test_convert_image_dtype[out_dtype3-in_dtype1-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype3-in_dtype1-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -782,7 +782,7 @@ _____________ test_convert_image_dtype[out_dtype3-in_dtype1-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype3-in_dtype2-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -796,7 +796,7 @@ ______________ test_convert_image_dtype[out_dtype3-in_dtype2-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype3-in_dtype2-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -810,7 +810,7 @@ _____________ test_convert_image_dtype[out_dtype3-in_dtype2-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype3-in_dtype3-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -824,7 +824,7 @@ ______________ test_convert_image_dtype[out_dtype3-in_dtype3-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype3-in_dtype3-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -838,7 +838,7 @@ _____________ test_convert_image_dtype[out_dtype3-in_dtype3-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype3-in_dtype4-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -852,7 +852,7 @@ ______________ test_convert_image_dtype[out_dtype3-in_dtype4-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype3-in_dtype4-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -866,7 +866,7 @@ _____________ test_convert_image_dtype[out_dtype3-in_dtype4-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype3-in_dtype5-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -880,7 +880,7 @@ ______________ test_convert_image_dtype[out_dtype3-in_dtype5-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype3-in_dtype5-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -894,7 +894,7 @@ _____________ test_convert_image_dtype[out_dtype3-in_dtype5-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype3-in_dtype6-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -908,7 +908,7 @@ ______________ test_convert_image_dtype[out_dtype3-in_dtype6-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype3-in_dtype6-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -922,7 +922,7 @@ _____________ test_convert_image_dtype[out_dtype3-in_dtype6-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype4-in_dtype0-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -936,7 +936,7 @@ ______________ test_convert_image_dtype[out_dtype4-in_dtype0-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype4-in_dtype0-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -950,7 +950,7 @@ _____________ test_convert_image_dtype[out_dtype4-in_dtype0-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype4-in_dtype1-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -964,7 +964,7 @@ ______________ test_convert_image_dtype[out_dtype4-in_dtype1-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype4-in_dtype1-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -978,7 +978,7 @@ _____________ test_convert_image_dtype[out_dtype4-in_dtype1-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype4-in_dtype2-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -992,7 +992,7 @@ ______________ test_convert_image_dtype[out_dtype4-in_dtype2-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype4-in_dtype2-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1006,7 +1006,7 @@ _____________ test_convert_image_dtype[out_dtype4-in_dtype2-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype4-in_dtype3-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1020,7 +1020,7 @@ ______________ test_convert_image_dtype[out_dtype4-in_dtype3-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype4-in_dtype3-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1034,7 +1034,7 @@ _____________ test_convert_image_dtype[out_dtype4-in_dtype3-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype4-in_dtype4-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1048,7 +1048,7 @@ ______________ test_convert_image_dtype[out_dtype4-in_dtype4-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype4-in_dtype4-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1062,7 +1062,7 @@ _____________ test_convert_image_dtype[out_dtype4-in_dtype4-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype4-in_dtype5-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1076,7 +1076,7 @@ ______________ test_convert_image_dtype[out_dtype4-in_dtype5-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype4-in_dtype5-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1090,7 +1090,7 @@ _____________ test_convert_image_dtype[out_dtype4-in_dtype5-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype4-in_dtype6-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1104,7 +1104,7 @@ ______________ test_convert_image_dtype[out_dtype4-in_dtype6-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype4-in_dtype6-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1118,7 +1118,7 @@ _____________ test_convert_image_dtype[out_dtype4-in_dtype6-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype5-in_dtype0-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1132,7 +1132,7 @@ ______________ test_convert_image_dtype[out_dtype5-in_dtype0-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype5-in_dtype0-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1146,7 +1146,7 @@ _____________ test_convert_image_dtype[out_dtype5-in_dtype0-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype5-in_dtype1-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1160,7 +1160,7 @@ ______________ test_convert_image_dtype[out_dtype5-in_dtype1-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype5-in_dtype1-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1174,7 +1174,7 @@ _____________ test_convert_image_dtype[out_dtype5-in_dtype1-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype5-in_dtype2-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1188,7 +1188,7 @@ ______________ test_convert_image_dtype[out_dtype5-in_dtype2-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype5-in_dtype2-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1202,7 +1202,7 @@ _____________ test_convert_image_dtype[out_dtype5-in_dtype2-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype5-in_dtype3-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1216,7 +1216,7 @@ ______________ test_convert_image_dtype[out_dtype5-in_dtype3-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype5-in_dtype3-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1230,7 +1230,7 @@ _____________ test_convert_image_dtype[out_dtype5-in_dtype3-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype5-in_dtype4-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1244,7 +1244,7 @@ ______________ test_convert_image_dtype[out_dtype5-in_dtype4-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype5-in_dtype4-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1258,7 +1258,7 @@ _____________ test_convert_image_dtype[out_dtype5-in_dtype4-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype5-in_dtype5-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1272,7 +1272,7 @@ ______________ test_convert_image_dtype[out_dtype5-in_dtype5-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype5-in_dtype5-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1286,7 +1286,7 @@ _____________ test_convert_image_dtype[out_dtype5-in_dtype5-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype5-in_dtype6-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1300,7 +1300,7 @@ ______________ test_convert_image_dtype[out_dtype5-in_dtype6-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype5-in_dtype6-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1314,7 +1314,7 @@ _____________ test_convert_image_dtype[out_dtype5-in_dtype6-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype6-in_dtype0-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1328,7 +1328,7 @@ ______________ test_convert_image_dtype[out_dtype6-in_dtype0-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype6-in_dtype0-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1342,7 +1342,7 @@ _____________ test_convert_image_dtype[out_dtype6-in_dtype0-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype6-in_dtype1-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1356,7 +1356,7 @@ ______________ test_convert_image_dtype[out_dtype6-in_dtype1-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype6-in_dtype1-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1370,7 +1370,7 @@ _____________ test_convert_image_dtype[out_dtype6-in_dtype1-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype6-in_dtype2-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1384,7 +1384,7 @@ ______________ test_convert_image_dtype[out_dtype6-in_dtype2-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype6-in_dtype2-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1398,7 +1398,7 @@ _____________ test_convert_image_dtype[out_dtype6-in_dtype2-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype6-in_dtype3-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1412,7 +1412,7 @@ ______________ test_convert_image_dtype[out_dtype6-in_dtype3-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype6-in_dtype3-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1426,7 +1426,7 @@ _____________ test_convert_image_dtype[out_dtype6-in_dtype3-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype6-in_dtype4-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1440,7 +1440,7 @@ ______________ test_convert_image_dtype[out_dtype6-in_dtype4-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype6-in_dtype4-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1454,7 +1454,7 @@ _____________ test_convert_image_dtype[out_dtype6-in_dtype4-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype6-in_dtype5-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1468,7 +1468,7 @@ ______________ test_convert_image_dtype[out_dtype6-in_dtype5-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype6-in_dtype5-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1482,7 +1482,7 @@ _____________ test_convert_image_dtype[out_dtype6-in_dtype5-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 ______________ test_convert_image_dtype[out_dtype6-in_dtype6-cpu] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1496,7 +1496,7 @@ ______________ test_convert_image_dtype[out_dtype6-in_dtype6-cpu] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 _____________ test_convert_image_dtype[out_dtype6-in_dtype6-cuda] ______________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:544: in test_convert_image_dtype
     scripted_fn = torch.jit.script(fn)
@@ -1510,7 +1510,7 @@ _____________ test_convert_image_dtype[out_dtype6-in_dtype6-cuda] ______________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6ee1640)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ConvertImageDtype (of Python compilation unit at: 0x6199a50)
 =========================== short test summary info ============================
 FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype0-cpu]
 FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype0-in_dtype0-cuda]
@@ -1610,7 +1610,7 @@ FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_conver
 FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype5-cuda]
 FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype6-cpu]
 FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype6-cuda]
-============================== 98 failed in 4.80s ==============================
+============================== 98 failed in 5.26s ==============================
 
 
 Final Test Result:
@@ -1721,7 +1721,7 @@ collecting ... collected 98 items
 ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype6-cpu] PASSED
 ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype6-cuda] PASSED
 
-============================== 98 passed in 0.67s ==============================
+============================== 98 passed in 0.65s ==============================
 
 
 Initial Result:
@@ -1832,4 +1832,4 @@ collecting ... collected 98 items
 ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype6-cpu] PASSED
 ../publishablew/vision/vision/test/test_transforms_tensor.py::test_convert_image_dtype[out_dtype6-in_dtype6-cuda] PASSED
 
-============================== 98 passed in 0.80s ==============================
+============================== 98 passed in 0.84s ==============================

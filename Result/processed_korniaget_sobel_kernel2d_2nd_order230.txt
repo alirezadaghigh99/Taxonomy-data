@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'jit', 'onnxrt', 'inductor', 'tvm', 'cudagraphs', None}
+available optimizers: {'', 'onnxrt', 'tvm', 'openxla', 'cudagraphs', 'jit', 'inductor', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -78,7 +78,7 @@ collecting ... collected 34 items
 ../publishablew/kornia/kornia/tests/filters/test_sobel.py::TestSpatialGradient::test_dynamo[cpu-float32-inductor-2-2-sobel] PASSED
 ../publishablew/kornia/kornia/tests/filters/test_sobel.py::TestSpatialGradient::test_dynamo[cpu-float32-inductor-2-2-diff] PASSED
 
-============================== 34 passed in 2.68s ==============================
+============================== 34 passed in 3.11s ==============================
 
 
 Final Test Result:
@@ -107,7 +107,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'cudagraphs', 'openxla', 'inductor', 'jit', 'tvm', None}
+available optimizers: {'', 'tvm', 'inductor', 'openxla', 'jit', 'onnxrt', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -150,7 +150,7 @@ collecting ... collected 34 items
 ../publishablew/kornia/kornia/tests/filters/test_sobel.py::TestSpatialGradient::test_dynamo[cpu-float32-inductor-2-2-sobel] PASSED
 ../publishablew/kornia/kornia/tests/filters/test_sobel.py::TestSpatialGradient::test_dynamo[cpu-float32-inductor-2-2-diff] PASSED
 
-============================== 34 passed in 2.71s ==============================
+============================== 34 passed in 2.67s ==============================
 
 
 Initial Result:
@@ -179,7 +179,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'cudagraphs', 'openxla', 'jit', 'onnxrt', 'inductor', None}
+available optimizers: {'', 'jit', 'tvm', 'openxla', 'cudagraphs', 'onnxrt', None, 'inductor'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -222,4 +222,4 @@ collecting ... collected 34 items
 ../publishablew/kornia/kornia/tests/filters/test_sobel.py::TestSpatialGradient::test_dynamo[cpu-float32-inductor-2-2-sobel] PASSED
 ../publishablew/kornia/kornia/tests/filters/test_sobel.py::TestSpatialGradient::test_dynamo[cpu-float32-inductor-2-2-diff] PASSED
 
-============================== 34 passed in 2.66s ==============================
+============================== 34 passed in 3.06s ==============================

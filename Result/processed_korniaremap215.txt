@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRemap::test_shift_batch_broadcast[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRemap::test_normalized_coordinates[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRemap::test_shift_batch_broadcast[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRemap::test_normalized_coordinates[cpu-float32] FAILED'}
+{'../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRemap::test_normalized_coordinates[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRemap::test_shift_batch_broadcast[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRemap::test_shift_batch_broadcast[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRemap::test_normalized_coordinates[cpu-float32]'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'inductor', 'onnxrt', 'openxla', 'tvm', 'cudagraphs', None}
+available optimizers: {'', 'tvm', 'cudagraphs', 'jit', 'openxla', 'onnxrt', 'inductor', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -55,7 +55,7 @@ collecting ... collected 8 items
 =================================== FAILURES ===================================
 ______________ TestRemap.test_shift_batch_broadcast[cpu-float32] _______________
 
-self = <test_imgwarp.TestRemap object at 0x70a46d5035e0>
+self = <test_imgwarp.TestRemap object at 0x7e927c8f3430>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_shift_batch_broadcast(self, device, dtype):
@@ -76,7 +76,7 @@ device = device(type='cpu'), dtype = torch.float32
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 ../publishablew/kornia/kornia/kornia/geometry/transform/imgwarp.py:322: in remap
     return remap(image, map_x, map_y, mode, padding_mode, align_corners, normalized_coordinates)
-../publishablew/kornia/kornia/kornia/geometry/transform/temp.py:35: in remap
+../publishablew/kornia/kornia/kornia/geometry/transform/temp.py:38: in remap
     remapped_image = F.grid_sample(image, grid, mode=mode, padding_mode=padding_mode, align_corners=align_corners)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
@@ -259,7 +259,7 @@ E       RuntimeError: grid_sampler(): expected grid and input to have same batch
 ../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/nn/functional.py:4910: RuntimeError
 ______________ TestRemap.test_normalized_coordinates[cpu-float32] ______________
 
-self = <test_imgwarp.TestRemap object at 0x70a46d503910>
+self = <test_imgwarp.TestRemap object at 0x7e927c8f3760>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_normalized_coordinates(self, device, dtype):
@@ -285,7 +285,7 @@ device = device(type='cpu'), dtype = torch.float32
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 ../publishablew/kornia/kornia/kornia/geometry/transform/imgwarp.py:322: in remap
     return remap(image, map_x, map_y, mode, padding_mode, align_corners, normalized_coordinates)
-../publishablew/kornia/kornia/kornia/geometry/transform/temp.py:35: in remap
+../publishablew/kornia/kornia/kornia/geometry/transform/temp.py:38: in remap
     remapped_image = F.grid_sample(image, grid, mode=mode, padding_mode=padding_mode, align_corners=align_corners)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
@@ -475,7 +475,7 @@ tests/geometry/transform/test_imgwarp.py::TestRemap::test_different_size[cpu-flo
 =========================== short test summary info ============================
 FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRemap::test_shift_batch_broadcast[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRemap::test_normalized_coordinates[cpu-float32]
-============== 2 failed, 5 passed, 1 skipped, 1 warning in 0.40s ===============
+============== 2 failed, 5 passed, 1 skipped, 1 warning in 0.39s ===============
 
 
 Final Test Result:
@@ -504,7 +504,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'openxla', 'tvm', None, 'onnxrt', 'inductor', 'jit'}
+available optimizers: {'', 'cudagraphs', 'openxla', 'inductor', 'jit', 'onnxrt', 'tvm', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -527,7 +527,7 @@ tests/geometry/transform/test_imgwarp.py::TestRemap::test_different_size[cpu-flo
     warnings.warn(
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-=================== 7 passed, 1 skipped, 1 warning in 0.18s ====================
+=================== 7 passed, 1 skipped, 1 warning in 0.17s ====================
 
 
 Initial Result:
@@ -556,7 +556,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'onnxrt', 'inductor', 'openxla', None, 'tvm', 'jit'}
+available optimizers: {'', 'jit', 'inductor', 'tvm', 'cudagraphs', 'openxla', 'onnxrt', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -579,4 +579,4 @@ tests/geometry/transform/test_imgwarp.py::TestRemap::test_different_size[cpu-flo
     warnings.warn(
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-=================== 7 passed, 1 skipped, 1 warning in 0.18s ====================
+=================== 7 passed, 1 skipped, 1 warning in 0.28s ====================

@@ -12,24 +12,14 @@ def depth_from_point(R, t, X):
     Returns:
        The depth value per point with shape (*, 1).
     """
-    # Ensure inputs are numpy arrays
-    R = np.asarray(R)
-    t = np.asarray(t)
-    X = np.asarray(X)
-    
-    # Check the shapes of the inputs
-    assert R.shape[-2:] == (3, 3), "Rotation matrix R must have shape (*, 3, 3)"
-    assert t.shape[-2:] == (3, 1), "Translation vector t must have shape (*, 3, 1)"
-    assert X.shape[-1] == 3, "3D points X must have shape (*, 3)"
-    
-    # Reshape X to ensure it has the correct shape for matrix multiplication
-    X = X[..., np.newaxis]  # Shape becomes (*, 3, 1)
-    
+    # Ensure X is a column vector
+    X = np.expand_dims(X, axis=-1)  # Shape becomes (*, 3, 1)
+
     # Apply the rigid transformation
     X_transformed = np.matmul(R, X) + t  # Shape (*, 3, 1)
-    
-    # Extract the z-coordinate (depth) from the transformed points
+
+    # Extract the z-component (depth)
     depth = X_transformed[..., 2, :]  # Shape (*, 1)
-    
+
     return depth
 

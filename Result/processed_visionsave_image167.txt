@@ -4,10 +4,10 @@ function:
 save_image
 Error Cases:
 
-Pass or Failed: 1
+Pass or Failed: 0
 
 Related Failed Test Cases:
-set()
+{'../publishablew/vision/vision/test/test_utils.py::test_save_image FAILED', '../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel_file_object FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_file_object', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel', '../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel FAILED', '../publishablew/vision/vision/test/test_utils.py::test_save_image_file_object FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image - Ty...', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel_file_object'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -20,10 +20,10 @@ collecting ... collected 92 items
 
 ../publishablew/vision/vision/test/test_utils.py::test_make_grid_not_inplace PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_normalize_in_make_grid PASSED
-../publishablew/vision/vision/test/test_utils.py::test_save_image PASSED
-../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel PASSED
-../publishablew/vision/vision/test/test_utils.py::test_save_image_file_object PASSED
-../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel_file_object PASSED
+../publishablew/vision/vision/test/test_utils.py::test_save_image FAILED
+../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel FAILED
+../publishablew/vision/vision/test/test_utils.py::test_save_image_file_object FAILED
+../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel_file_object FAILED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_boxes PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_boxes_with_coloured_labels PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_boxes_dtypes[True] PASSED
@@ -111,7 +111,81 @@ collecting ... collected 92 items
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image_errors[input_flow3-Input flow should have shape] PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image_errors[input_flow4-Flow should be of dtype torch.float] PASSED
 
-============================== 92 passed in 0.53s ==============================
+=================================== FAILURES ===================================
+_______________________________ test_save_image ________________________________
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:3315: in fromarray
+    mode, rawmode = _fromarray_typemap[typekey]
+E   KeyError: ((1, 1, 64, 64), '|u1')
+
+The above exception was the direct cause of the following exception:
+../publishablew/vision/vision/test/test_utils.py:60: in test_save_image
+    utils.save_image(t, f.name)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+../publishablew/vision/vision/torchvision/utils.py:96: in save_image
+    return save_image(tensor, fp, format)
+../publishablew/vision/vision/torchvision/temp.py:25: in save_image
+    image = Image.fromarray(array)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:3319: in fromarray
+    raise TypeError(msg) from e
+E   TypeError: Cannot handle this data type: (1, 1, 64, 64), |u1
+_________________________ test_save_image_single_pixel _________________________
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:3315: in fromarray
+    mode, rawmode = _fromarray_typemap[typekey]
+E   KeyError: ((1, 1, 1, 1), '|u1')
+
+The above exception was the direct cause of the following exception:
+../publishablew/vision/vision/test/test_utils.py:68: in test_save_image_single_pixel
+    utils.save_image(t, f.name)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+../publishablew/vision/vision/torchvision/utils.py:96: in save_image
+    return save_image(tensor, fp, format)
+../publishablew/vision/vision/torchvision/temp.py:25: in save_image
+    image = Image.fromarray(array)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:3319: in fromarray
+    raise TypeError(msg) from e
+E   TypeError: Cannot handle this data type: (1, 1, 1, 1), |u1
+_________________________ test_save_image_file_object __________________________
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:3315: in fromarray
+    mode, rawmode = _fromarray_typemap[typekey]
+E   KeyError: ((1, 1, 64, 64), '|u1')
+
+The above exception was the direct cause of the following exception:
+../publishablew/vision/vision/test/test_utils.py:76: in test_save_image_file_object
+    utils.save_image(t, f.name)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+../publishablew/vision/vision/torchvision/utils.py:96: in save_image
+    return save_image(tensor, fp, format)
+../publishablew/vision/vision/torchvision/temp.py:25: in save_image
+    image = Image.fromarray(array)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:3319: in fromarray
+    raise TypeError(msg) from e
+E   TypeError: Cannot handle this data type: (1, 1, 64, 64), |u1
+___________________ test_save_image_single_pixel_file_object ___________________
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:3315: in fromarray
+    mode, rawmode = _fromarray_typemap[typekey]
+E   KeyError: ((1, 1, 1, 1), '|u1')
+
+The above exception was the direct cause of the following exception:
+../publishablew/vision/vision/test/test_utils.py:88: in test_save_image_single_pixel_file_object
+    utils.save_image(t, f.name)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+../publishablew/vision/vision/torchvision/utils.py:96: in save_image
+    return save_image(tensor, fp, format)
+../publishablew/vision/vision/torchvision/temp.py:25: in save_image
+    image = Image.fromarray(array)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:3319: in fromarray
+    raise TypeError(msg) from e
+E   TypeError: Cannot handle this data type: (1, 1, 1, 1), |u1
+=========================== short test summary info ============================
+FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image - Ty...
+FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel
+FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_file_object
+FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel_file_object
+========================= 4 failed, 88 passed in 0.82s =========================
 
 
 Final Test Result:
@@ -216,7 +290,7 @@ collecting ... collected 92 items
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image_errors[input_flow3-Input flow should have shape] PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image_errors[input_flow4-Flow should be of dtype torch.float] PASSED
 
-============================== 92 passed in 0.47s ==============================
+============================== 92 passed in 0.50s ==============================
 
 
 Initial Result:
@@ -321,4 +395,4 @@ collecting ... collected 92 items
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image_errors[input_flow3-Input flow should have shape] PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image_errors[input_flow4-Flow should be of dtype torch.float] PASSED
 
-============================== 92 passed in 0.62s ==============================
+============================== 92 passed in 0.54s ==============================

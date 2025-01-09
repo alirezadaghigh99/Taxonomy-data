@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve_toydata[True] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve[True] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_average_precision_score_binary_pos_label_errors', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve_toydata[False] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve[False]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve[True]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve_toydata[True]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve_toydata[False]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_average_precision_score_binary_pos_label_errors FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_average_precision_score_multiclass_pos_label_errors', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_average_precision_constant_values', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_average_precision_score_multilabel_pos_label_errors FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_average_precision_score_multiclass_pos_label_errors FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ranking_metric_pos_label_types[classes3-average_precision_score] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_average_precision_constant_values FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ranking_metric_pos_label_types[classes3-average_precision_score]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_average_precision_score_multilabel_pos_label_errors', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve[False] FAILED'}
+{'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_average_precision_constant_values', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve[True]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_average_precision_score_binary_pos_label_errors FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_average_precision_score_multilabel_pos_label_errors', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_average_precision_constant_values FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve_toydata[True]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve[False]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_average_precision_score_binary_pos_label_errors', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ranking_metric_pos_label_types[classes3-average_precision_score]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ranking_metric_pos_label_types[classes3-average_precision_score] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_average_precision_score_multilabel_pos_label_errors FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve_toydata[False] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve[False] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve[True] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve_toydata[False]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_average_precision_score_multiclass_pos_label_errors FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve_toydata[True] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_average_precision_score_multiclass_pos_label_errors'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 215 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[True] I: Seeding RNGs with 1974343251
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[True] I: Seeding RNGs with 1819642160
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[False] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve_end_points PASSED
@@ -255,7 +255,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return fun(*args, **kwargs)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_array_almost_equal.<locals>.compare at 0x794948163c10>, np.float64(0.8595363813747797), np.float64(0.8195363813747798))
+args = (<function assert_array_almost_equal.<locals>.compare at 0x7a0c195a3d30>, np.float64(0.8595363813747797), np.float64(0.8195363813747798))
 kwds = {'err_msg': '', 'header': 'Arrays are not almost equal to 6 decimals', 'precision': 6, 'verbose': True}
 
     @wraps(func)
@@ -291,7 +291,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return fun(*args, **kwargs)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_array_almost_equal.<locals>.compare at 0x794948030160>, np.float64(0.8595363813747797), np.float64(0.8195363813747798))
+args = (<function assert_array_almost_equal.<locals>.compare at 0x7a0c19468280>, np.float64(0.8595363813747797), np.float64(0.8195363813747798))
 kwds = {'err_msg': '', 'header': 'Arrays are not almost equal to 6 decimals', 'precision': 6, 'verbose': True}
 
     @wraps(func)
@@ -436,49 +436,12 @@ ___________ test_average_precision_score_multiclass_pos_label_errors ___________
         )
         with pytest.raises(ValueError, match=err_msg):
 >           average_precision_score(y_true, y_pred, pos_label=3)
+E           Failed: DID NOT RAISE <class 'ValueError'>
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py:1212: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:216: in wrapper
-    return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/_ranking.py:86: in average_precision_score
-    return average_precision_score(y_true, y_score)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-y_true = array([[0],
-       [1],
-       [2],
-       [0],
-       [1],
-       [2]])
-y_score = array([[0.5, 0.2, 0.1],
-       [0.4, 0.5, 0.3],
-       [0.1, 0.2, 0.6],
-       [0.2, 0.3, 0.5],
-       [0.2, 0.3, 0.5],
-       [0.2, 0.3, 0.5]])
-average = 'macro', pos_label = 1, sample_weight = None
-
-    def average_precision_score(y_true, y_score, average='macro', pos_label=1, sample_weight=None):
-        y_true = check_array(y_true, ensure_2d=False)
-        y_score = check_array(y_score, ensure_2d=False)
-        check_consistent_length(y_true, y_score, sample_weight)
-        if y_true.ndim == 1:
-            y_true = y_true.reshape(-1, 1)
-        if y_score.ndim == 1:
-            y_score = y_score.reshape(-1, 1)
-        n_classes = y_score.shape[1]
-        if n_classes == 1:
-            return _binary_uninterpolated_average_precision(y_true.ravel(), y_score.ravel(), sample_weight)
-        average_precision = np.zeros(n_classes)
-        for i in range(n_classes):
->           average_precision[i] = _binary_uninterpolated_average_precision(y_true[:, i], y_score[:, i], sample_weight)
-E           IndexError: index 1 is out of bounds for axis 1 with size 1
-
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:52: IndexError
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py:1212: Failed
 ____ test_ranking_metric_pos_label_types[classes3-average_precision_score] _____
 
-metric = <function average_precision_score at 0x7949554edb80>
+metric = <function average_precision_score at 0x7a0c1c2f7ca0>
 classes = ('zero', 'one')
 
     @pytest.mark.parametrize(
@@ -505,7 +468,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return func(*args, **kwargs)
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/_ranking.py:86: in average_precision_score
     return average_precision_score(y_true, y_score)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:40: in average_precision_score
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:41: in average_precision_score
     y_true = check_array(y_true, ensure_2d=False)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
@@ -890,7 +853,7 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_rank
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_average_precision_score_multilabel_pos_label_errors
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_average_precision_score_multiclass_pos_label_errors
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ranking_metric_pos_label_types[classes3-average_precision_score]
-================== 9 failed, 206 passed, 3 warnings in 1.47s ===================
+================== 9 failed, 206 passed, 3 warnings in 1.65s ===================
 
 
 Final Test Result:
@@ -902,7 +865,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 215 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[True] I: Seeding RNGs with 1419591038
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[True] I: Seeding RNGs with 1388227535
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[False] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve_end_points PASSED
@@ -1119,7 +1082,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve_with_probablity_estimates[42] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve_deprecation_warning PASSED
 
-======================= 215 passed, 3 warnings in 1.05s ========================
+======================= 215 passed, 3 warnings in 1.11s ========================
 
 
 Initial Result:
@@ -1131,7 +1094,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 215 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[True] I: Seeding RNGs with 1890604623
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[True] I: Seeding RNGs with 1345206593
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[False] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve_end_points PASSED
@@ -1348,4 +1311,4 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve_with_probablity_estimates[42] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve_deprecation_warning PASSED
 
-======================= 215 passed, 3 warnings in 1.04s ========================
+======================= 215 passed, 3 warnings in 1.12s ========================

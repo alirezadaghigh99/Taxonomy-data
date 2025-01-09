@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'inductor', 'jit', 'openxla', 'tvm', 'onnxrt', 'cudagraphs', None}
+available optimizers: {'', 'cudagraphs', 'tvm', 'onnxrt', 'jit', 'openxla', 'inductor', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -60,7 +60,7 @@ collecting ... collected 16 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_synthetic_sampson[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_gradcheck[cpu] PASSED
 
-======================== 15 passed, 1 xpassed in 0.21s =========================
+======================== 15 passed, 1 xpassed in 0.20s =========================
 
 
 Final Test Result:
@@ -89,7 +89,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'openxla', 'inductor', 'cudagraphs', 'tvm', 'onnxrt', None}
+available optimizers: {'', 'onnxrt', 'cudagraphs', 'openxla', 'jit', 'tvm', 'inductor', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -143,7 +143,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'jit', 'inductor', 'tvm', 'cudagraphs', 'onnxrt', None}
+available optimizers: {'', 'onnxrt', 'tvm', 'jit', 'openxla', 'inductor', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -168,4 +168,4 @@ collecting ... collected 16 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_synthetic_sampson[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_gradcheck[cpu] PASSED
 
-======================== 15 passed, 1 xpassed in 0.21s =========================
+======================== 15 passed, 1 xpassed in 0.40s =========================

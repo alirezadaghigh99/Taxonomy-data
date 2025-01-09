@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-5] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-2]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-None]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-5]', '../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-2] FAILED', '../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-None] FAILED'}
+{'../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-None] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-None]', '../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-2]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-1]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-5]', '../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-2] FAILED', '../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-5] FAILED'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'inductor', 'onnxrt', 'jit', 'tvm', 'openxla', None}
+available optimizers: {'', 'jit', 'inductor', 'onnxrt', 'openxla', 'tvm', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -44,14 +44,14 @@ plugins: timeout-2.3.1
 collecting ... collected 4 items
 
 ../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-None] FAILED
-../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-1] PASSED
+../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-1] FAILED
 ../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-2] FAILED
 ../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-5] FAILED
 
 =================================== FAILURES ===================================
 _________________ TestSo3.test_left_jacobian[cpu-float32-None] _________________
 
-self = <test_so3.TestSo3 object at 0x73f922d47640>, device = device(type='cpu')
+self = <test_so3.TestSo3 object at 0x7ce00713f6d0>, device = device(type='cpu')
 dtype = torch.float32, batch_size = None
 
     @pytest.mark.parametrize("batch_size", (None, 1, 2, 5))
@@ -63,11 +63,13 @@ dtype = torch.float32, batch_size = None
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 ../publishablew/kornia/kornia/kornia/geometry/liegroup/so3.py:350: in left_jacobian
     return left_jacobian(vec)
-../publishablew/kornia/kornia/kornia/geometry/liegroup/temp.py:22: in left_jacobian
-    theta = torch.norm(vec, dim=1, keepdim=True)
+../publishablew/kornia/kornia/kornia/geometry/liegroup/temp.py:38: in left_jacobian
+    theta = vec.norm(dim=1, keepdim=True)
+../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/_tensor.py:827: in norm
+    return torch.norm(self, p, dim, keepdim, dtype=dtype)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-input = tensor([0.8629, 0.3405, 0.2358]), p = 'fro', dim = 1, keepdim = True
+input = tensor([0.0383, 0.4359, 0.1411]), p = 'fro', dim = 1, keepdim = True
 out = None, dtype = None
 
     def norm(  # noqa: F811
@@ -205,9 +207,54 @@ out = None, dtype = None
 E                       IndexError: Dimension out of range (expected to be in range of [-1, 0], but got 1)
 
 ../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/functional.py:1800: IndexError
+__________________ TestSo3.test_left_jacobian[cpu-float32-1] ___________________
+
+self = <test_so3.TestSo3 object at 0x7ce00713f610>, device = device(type='cpu')
+dtype = torch.float32, batch_size = 1
+
+    @pytest.mark.parametrize("batch_size", (None, 1, 2, 5))
+    def test_left_jacobian(self, device, dtype, batch_size):
+        vec = self._make_rand_data(device, dtype, batch_size, dims=3)
+>       Jl = So3.left_jacobian(vec)
+
+../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py:259: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/geometry/liegroup/so3.py:350: in left_jacobian
+    return left_jacobian(vec)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+vec = tensor([[0.8955, 0.1945, 0.3457]])
+
+    def left_jacobian(vec):
+        """
+        Compute the left Jacobian of SO(3) for a batch of rotation vectors.
+    
+        Args:
+            vec: A tensor of shape (B, 3) where B is the batch size.
+    
+        Returns:
+            A tensor of shape (B, 3, 3) representing the left Jacobian matrices.
+        """
+        B = vec.shape[0]
+        theta = vec.norm(dim=1, keepdim=True)
+        theta_sq = theta ** 2
+        theta_cub = theta ** 3
+        small_angle = theta < 1e-06
+        large_angle = ~small_angle
+        I = torch.eye(3, device=vec.device, dtype=vec.dtype).unsqueeze(0).repeat(B, 1, 1)
+        phi_hat = skew_symmetric(vec)
+        phi_hat_sq = torch.bmm(phi_hat, phi_hat)
+        J_l = I.clone()
+        if large_angle.any():
+            cos_theta = torch.cos(theta[large_angle])
+            sin_theta = torch.sin(theta[large_angle])
+>           J_l[large_angle] += (1 - cos_theta) / theta_sq[large_angle] * phi_hat[large_angle]
+E           IndexError: The shape of the mask [1, 1] at index 1 does not match the shape of the indexed tensor [1, 3, 3] at index 1
+
+../publishablew/kornia/kornia/kornia/geometry/liegroup/temp.py:50: IndexError
 __________________ TestSo3.test_left_jacobian[cpu-float32-2] ___________________
 
-self = <test_so3.TestSo3 object at 0x73f922d478e0>, device = device(type='cpu')
+self = <test_so3.TestSo3 object at 0x7ce00713f970>, device = device(type='cpu')
 dtype = torch.float32, batch_size = 2
 
     @pytest.mark.parametrize("batch_size", (None, 1, 2, 5))
@@ -221,37 +268,39 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return left_jacobian(vec)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-vec = tensor([[0.9927, 0.8773, 0.5673],
-        [0.8956, 0.8435, 0.0172]])
+vec = tensor([[0.7296, 0.9009, 0.7896],
+        [0.4014, 0.4991, 0.1517]])
 
     def left_jacobian(vec):
         """
-        Compute the left Jacobian of SO(3) for a batch of vectors.
+        Compute the left Jacobian of SO(3) for a batch of rotation vectors.
     
         Args:
-            vec (torch.Tensor): A tensor of shape (B, 3) where B is the batch size.
+            vec: A tensor of shape (B, 3) where B is the batch size.
     
         Returns:
-            torch.Tensor: A tensor of shape (B, 3, 3) representing the left Jacobian matrices.
+            A tensor of shape (B, 3, 3) representing the left Jacobian matrices.
         """
         B = vec.shape[0]
-        theta = torch.norm(vec, dim=1, keepdim=True)
+        theta = vec.norm(dim=1, keepdim=True)
         theta_sq = theta ** 2
-        theta_cube = theta ** 3
+        theta_cub = theta ** 3
         small_angle = theta < 1e-06
-    
-        def skew_symmetric(v):
-            zero = torch.zeros_like(v[:, 0])
-            return torch.stack([torch.stack([zero, -v[:, 2], v[:, 1]], dim=1), torch.stack([v[:, 2], zero, -v[:, 0]], dim=1), torch.stack([-v[:, 1], v[:, 0], zero], dim=1)], dim=1)
-        K = skew_symmetric(vec)
-        I = torch.eye(3, device=vec.device).unsqueeze(0).repeat(B, 1, 1)
->       A = I + (1 - torch.cos(theta)) / theta_sq * K + (theta - torch.sin(theta)) / theta_cube * torch.bmm(K, K)
-E       RuntimeError: The size of tensor a (2) must match the size of tensor b (3) at non-singleton dimension 1
+        large_angle = ~small_angle
+        I = torch.eye(3, device=vec.device, dtype=vec.dtype).unsqueeze(0).repeat(B, 1, 1)
+        phi_hat = skew_symmetric(vec)
+        phi_hat_sq = torch.bmm(phi_hat, phi_hat)
+        J_l = I.clone()
+        if large_angle.any():
+            cos_theta = torch.cos(theta[large_angle])
+            sin_theta = torch.sin(theta[large_angle])
+>           J_l[large_angle] += (1 - cos_theta) / theta_sq[large_angle] * phi_hat[large_angle]
+E           IndexError: The shape of the mask [2, 1] at index 1 does not match the shape of the indexed tensor [2, 3, 3] at index 1
 
-../publishablew/kornia/kornia/kornia/geometry/liegroup/temp.py:32: RuntimeError
+../publishablew/kornia/kornia/kornia/geometry/liegroup/temp.py:50: IndexError
 __________________ TestSo3.test_left_jacobian[cpu-float32-5] ___________________
 
-self = <test_so3.TestSo3 object at 0x73f922d479a0>, device = device(type='cpu')
+self = <test_so3.TestSo3 object at 0x7ce00713fa30>, device = device(type='cpu')
 dtype = torch.float32, batch_size = 5
 
     @pytest.mark.parametrize("batch_size", (None, 1, 2, 5))
@@ -265,42 +314,45 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return left_jacobian(vec)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-vec = tensor([[0.4233, 0.6793, 0.0212],
-        [0.4635, 0.8233, 0.0615],
-        [0.7483, 0.2134, 0.9034],
-        [0.7976, 0.7150, 0.6663],
-        [0.3710, 0.6408, 0.8868]])
+vec = tensor([[0.3092, 0.0911, 0.0237],
+        [0.4437, 0.4214, 0.1812],
+        [0.8767, 0.3148, 0.4013],
+        [0.4297, 0.1557, 0.0996],
+        [0.0122, 0.7580, 0.2849]])
 
     def left_jacobian(vec):
         """
-        Compute the left Jacobian of SO(3) for a batch of vectors.
+        Compute the left Jacobian of SO(3) for a batch of rotation vectors.
     
         Args:
-            vec (torch.Tensor): A tensor of shape (B, 3) where B is the batch size.
+            vec: A tensor of shape (B, 3) where B is the batch size.
     
         Returns:
-            torch.Tensor: A tensor of shape (B, 3, 3) representing the left Jacobian matrices.
+            A tensor of shape (B, 3, 3) representing the left Jacobian matrices.
         """
         B = vec.shape[0]
-        theta = torch.norm(vec, dim=1, keepdim=True)
+        theta = vec.norm(dim=1, keepdim=True)
         theta_sq = theta ** 2
-        theta_cube = theta ** 3
+        theta_cub = theta ** 3
         small_angle = theta < 1e-06
-    
-        def skew_symmetric(v):
-            zero = torch.zeros_like(v[:, 0])
-            return torch.stack([torch.stack([zero, -v[:, 2], v[:, 1]], dim=1), torch.stack([v[:, 2], zero, -v[:, 0]], dim=1), torch.stack([-v[:, 1], v[:, 0], zero], dim=1)], dim=1)
-        K = skew_symmetric(vec)
-        I = torch.eye(3, device=vec.device).unsqueeze(0).repeat(B, 1, 1)
->       A = I + (1 - torch.cos(theta)) / theta_sq * K + (theta - torch.sin(theta)) / theta_cube * torch.bmm(K, K)
-E       RuntimeError: The size of tensor a (5) must match the size of tensor b (3) at non-singleton dimension 1
+        large_angle = ~small_angle
+        I = torch.eye(3, device=vec.device, dtype=vec.dtype).unsqueeze(0).repeat(B, 1, 1)
+        phi_hat = skew_symmetric(vec)
+        phi_hat_sq = torch.bmm(phi_hat, phi_hat)
+        J_l = I.clone()
+        if large_angle.any():
+            cos_theta = torch.cos(theta[large_angle])
+            sin_theta = torch.sin(theta[large_angle])
+>           J_l[large_angle] += (1 - cos_theta) / theta_sq[large_angle] * phi_hat[large_angle]
+E           IndexError: The shape of the mask [5, 1] at index 1 does not match the shape of the indexed tensor [5, 3, 3] at index 1
 
-../publishablew/kornia/kornia/kornia/geometry/liegroup/temp.py:32: RuntimeError
+../publishablew/kornia/kornia/kornia/geometry/liegroup/temp.py:50: IndexError
 =========================== short test summary info ============================
 FAILED ../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-None]
+FAILED ../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-1]
 FAILED ../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-2]
 FAILED ../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-5]
-========================= 3 failed, 1 passed in 0.38s ==========================
+============================== 4 failed in 0.38s ===============================
 
 
 Final Test Result:
@@ -329,7 +381,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'onnxrt', 'tvm', 'openxla', 'inductor', 'cudagraphs', None}
+available optimizers: {'', 'inductor', 'jit', 'openxla', 'onnxrt', 'tvm', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -342,7 +394,7 @@ collecting ... collected 4 items
 ../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-2] PASSED
 ../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-5] PASSED
 
-============================== 4 passed in 0.18s ===============================
+============================== 4 passed in 0.19s ===============================
 
 
 Initial Result:
@@ -371,7 +423,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'openxla', 'inductor', 'jit', 'cudagraphs', None, 'tvm'}
+available optimizers: {'', 'inductor', 'jit', 'openxla', 'onnxrt', 'tvm', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -384,4 +436,4 @@ collecting ... collected 4 items
 ../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-2] PASSED
 ../publishablew/kornia/kornia/tests/geometry/liegroup/test_so3.py::TestSo3::test_left_jacobian[cpu-float32-5] PASSED
 
-============================== 4 passed in 0.18s ===============================
+============================== 4 passed in 0.21s ===============================

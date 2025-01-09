@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_multilabel_classification_return_indicator_sparse FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_multilabel_classification_return_indicator FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_multilabel_classification_return_sequences', '../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_multilabel_classification_return_sequences FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_multilabel_classification_return_indicator_sparse', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_multilabel_classification_return_indicator'}
+{'../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_multilabel_classification_return_indicator FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_multilabel_classification_return_indicator_sparse', '../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_multilabel_classification_return_sequences FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_multilabel_classification_return_indicator', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_multilabel_classification_return_sequences', '../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_multilabel_classification_return_indicator_sparse FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 55 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 496187603
+../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 1977598826
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_informative_features PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_weights_type[weights0-ValueError-Weights specified but incompatible with number of classes.] PASSED
@@ -132,7 +132,7 @@ E           AssertionError: Y shape mismatch
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_multilabel_classification_return_sequences
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_multilabel_classification_return_indicator
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_multilabel_classification_return_indicator_sparse
-========================= 3 failed, 52 passed in 0.32s =========================
+========================= 3 failed, 52 passed in 0.30s =========================
 
 
 Final Test Result:
@@ -144,7 +144,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 55 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 2046818984
+../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 1810029449
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_informative_features PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_weights_type[weights0-ValueError-Weights specified but incompatible with number of classes.] PASSED
@@ -201,7 +201,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles_unbalanced PASSED
 
-============================== 55 passed in 0.17s ==============================
+============================== 55 passed in 0.18s ==============================
 
 
 Initial Result:
@@ -213,7 +213,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 55 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 1477490331
+../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 1125703802
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_informative_features PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_weights_type[weights0-ValueError-Weights specified but incompatible with number of classes.] PASSED
@@ -270,4 +270,4 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles_unbalanced PASSED
 
-============================== 55 passed in 0.17s ==============================
+============================== 55 passed in 0.18s ==============================

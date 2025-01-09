@@ -19,7 +19,7 @@ plugins: cov-6.0.0
 collecting ... collected 811 items
 
 ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_affinity_propagation.py::test_affinity_propagation[float32-42] SKIPPED
-../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_affinity_propagation.py::test_affinity_propagation[float64-42] I: Seeding RNGs with 468027608
+../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_affinity_propagation.py::test_affinity_propagation[float64-42] I: Seeding RNGs with 1430673310
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_affinity_propagation.py::test_affinity_propagation_precomputed Converged after 58 iterations.
 PASSED
@@ -2439,7 +2439,7 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spec
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_discretize[150-coo_array]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_discretize[500-coo_matrix]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_discretize[500-coo_array]
-=========== 37 failed, 681 passed, 93 skipped, 23 warnings in 14.42s ===========
+=========== 37 failed, 681 passed, 93 skipped, 21 warnings in 14.85s ===========
 
 
 Final Test Result:
@@ -2452,7 +2452,7 @@ plugins: cov-6.0.0
 collecting ... collected 811 items
 
 ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_affinity_propagation.py::test_affinity_propagation[float32-42] SKIPPED
-../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_affinity_propagation.py::test_affinity_propagation[float64-42] I: Seeding RNGs with 213252537
+../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_affinity_propagation.py::test_affinity_propagation[float64-42] I: Seeding RNGs with 1539134906
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_affinity_propagation.py::test_affinity_propagation_precomputed Converged after 58 iterations.
 PASSED
@@ -4855,7 +4855,7 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spec
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_discretize[150-coo_array]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_discretize[500-coo_matrix]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_discretize[500-coo_array]
-=========== 36 failed, 682 passed, 93 skipped, 21 warnings in 14.59s ===========
+=========== 36 failed, 682 passed, 93 skipped, 19 warnings in 14.50s ===========
 
 
 Initial Result:
@@ -4868,7 +4868,7 @@ plugins: cov-6.0.0
 collecting ... collected 811 items
 
 ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_affinity_propagation.py::test_affinity_propagation[float32-42] SKIPPED
-../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_affinity_propagation.py::test_affinity_propagation[float64-42] I: Seeding RNGs with 4531438
+../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_affinity_propagation.py::test_affinity_propagation[float64-42] I: Seeding RNGs with 1513237363
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_affinity_propagation.py::test_affinity_propagation_precomputed Converged after 58 iterations.
 PASSED
@@ -7271,4 +7271,4 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spec
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_discretize[150-coo_array]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_discretize[500-coo_matrix]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_spectral.py::test_discretize[500-coo_array]
-=========== 36 failed, 682 passed, 93 skipped, 21 warnings in 14.48s ===========
+=========== 36 failed, 682 passed, 93 skipped, 21 warnings in 15.44s ===========

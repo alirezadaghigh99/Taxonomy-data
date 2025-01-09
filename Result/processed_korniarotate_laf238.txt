@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestSetLAFOri::test_shape_tensor[cpu]', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestSetLAFOri::test_ori[cpu]', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestSetLAFOri::test_shape_tensor[cpu] FAILED', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestSetLAFOri::test_ori[cpu] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestSetLAFOri::test_gradcheck[cpu]', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestSetLAFOri::test_gradcheck[cpu] FAILED'}
+{'../publishablew/kornia/kornia/tests/feature/test_laf.py::TestSetLAFOri::test_ori[cpu] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestSetLAFOri::test_ori[cpu]', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestSetLAFOri::test_shape_tensor[cpu]', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestSetLAFOri::test_gradcheck[cpu] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestSetLAFOri::test_gradcheck[cpu]', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestSetLAFOri::test_shape_tensor[cpu] FAILED'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'openxla', 'tvm', 'onnxrt', 'jit', 'inductor', None}
+available optimizers: {'', 'onnxrt', 'tvm', 'jit', 'openxla', 'inductor', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -136,7 +136,7 @@ collecting ... collected 89 items
 =================================== FAILURES ===================================
 _____________________ TestSetLAFOri.test_shape_tensor[cpu] _____________________
 
-self = <test_laf.TestSetLAFOri object at 0x75867cd14730>
+self = <test_laf.TestSetLAFOri object at 0x732d000186d0>
 device = device(type='cpu')
 
     def test_shape_tensor(self, device):
@@ -190,16 +190,16 @@ angles_degrees = tensor([[[[-44.]],
          [[-44.]]]])
 
     def rotate_laf(LAF, angles_degrees):
-        if LAF.ndimension() != 4 or LAF.shape[2:] != (2, 3):
-            raise ValueError('LAF must be of shape (B, N, 2, 3)')
-        if angles_degrees.ndimension() != 3 or angles_degrees.shape[2] != 1:
->           raise ValueError('angles_degrees must be of shape (B, N, 1)')
-E           ValueError: angles_degrees must be of shape (B, N, 1)
+        if LAF.ndim != 4 or LAF.shape[2:] != (2, 3):
+            raise ValueError('Input LAF must have shape (B, N, 2, 3)')
+        if angles_degrees.ndim != 3 or angles_degrees.shape[2] != 1:
+>           raise ValueError('angles_degrees must have shape (B, N, 1)')
+E           ValueError: angles_degrees must have shape (B, N, 1)
 
 ../publishablew/kornia/kornia/kornia/feature/temp.py:16: ValueError
 _________________________ TestSetLAFOri.test_ori[cpu] __________________________
 
-self = <test_laf.TestSetLAFOri object at 0x75867cd16c80>
+self = <test_laf.TestSetLAFOri object at 0x732d0001ac20>
 device = device(type='cpu')
 
     def test_ori(self, device):
@@ -221,16 +221,16 @@ LAF = tensor([[[[ 0.0000,  5.0000,  0.8000],
 angles_degrees = tensor([[[[-90.]]]])
 
     def rotate_laf(LAF, angles_degrees):
-        if LAF.ndimension() != 4 or LAF.shape[2:] != (2, 3):
-            raise ValueError('LAF must be of shape (B, N, 2, 3)')
-        if angles_degrees.ndimension() != 3 or angles_degrees.shape[2] != 1:
->           raise ValueError('angles_degrees must be of shape (B, N, 1)')
-E           ValueError: angles_degrees must be of shape (B, N, 1)
+        if LAF.ndim != 4 or LAF.shape[2:] != (2, 3):
+            raise ValueError('Input LAF must have shape (B, N, 2, 3)')
+        if angles_degrees.ndim != 3 or angles_degrees.shape[2] != 1:
+>           raise ValueError('angles_degrees must have shape (B, N, 1)')
+E           ValueError: angles_degrees must have shape (B, N, 1)
 
 ../publishablew/kornia/kornia/kornia/feature/temp.py:16: ValueError
 ______________________ TestSetLAFOri.test_gradcheck[cpu] _______________________
 
-self = <test_laf.TestSetLAFOri object at 0x75867cd16f50>
+self = <test_laf.TestSetLAFOri object at 0x732d0001aef0>
 device = device(type='cpu')
 
     def test_gradcheck(self, device):
@@ -253,28 +253,28 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return rotate_laf(LAF, angles_degrees)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-LAF = tensor([[[[0.2691, 0.5786, 0.3706],
-          [0.0026, 0.8836, 0.7356]],
+LAF = tensor([[[[0.9698, 0.3273, 0.1499],
+          [0.2494, 0.0183, 0.9086]],
 
-         [[0.3403, 0.7567, 0.2318],
-          [0.4665, 0.0165, 0.3935]]]], dtype=torch.float64, requires_grad=True)
-angles_degrees = tensor([[[[-64.1463]],
+         [[0.4020, 0.2300, 0.4869],
+          [0.0321, 0.6363, 0.3784]]]], dtype=torch.float64, requires_grad=True)
+angles_degrees = tensor([[[[-18.4465]],
 
-         [[-65.7361]]]], dtype=torch.float64, grad_fn=<SubBackward0>)
+         [[-29.4314]]]], dtype=torch.float64, grad_fn=<SubBackward0>)
 
     def rotate_laf(LAF, angles_degrees):
-        if LAF.ndimension() != 4 or LAF.shape[2:] != (2, 3):
-            raise ValueError('LAF must be of shape (B, N, 2, 3)')
-        if angles_degrees.ndimension() != 3 or angles_degrees.shape[2] != 1:
->           raise ValueError('angles_degrees must be of shape (B, N, 1)')
-E           ValueError: angles_degrees must be of shape (B, N, 1)
+        if LAF.ndim != 4 or LAF.shape[2:] != (2, 3):
+            raise ValueError('Input LAF must have shape (B, N, 2, 3)')
+        if angles_degrees.ndim != 3 or angles_degrees.shape[2] != 1:
+>           raise ValueError('angles_degrees must have shape (B, N, 1)')
+E           ValueError: angles_degrees must have shape (B, N, 1)
 
 ../publishablew/kornia/kornia/kornia/feature/temp.py:16: ValueError
 =========================== short test summary info ============================
 FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestSetLAFOri::test_shape_tensor[cpu]
 FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestSetLAFOri::test_ori[cpu]
 FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestSetLAFOri::test_gradcheck[cpu]
-=================== 3 failed, 80 passed, 6 skipped in 1.68s ====================
+=================== 3 failed, 80 passed, 6 skipped in 1.64s ====================
 
 
 Final Test Result:
@@ -303,7 +303,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'inductor', 'openxla', 'cudagraphs', 'jit', 'onnxrt', None}
+available optimizers: {'', 'jit', 'tvm', 'inductor', 'openxla', 'onnxrt', None, 'cudagraphs'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -401,7 +401,7 @@ collecting ... collected 89 items
 ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-5] PASSED
 ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_gradcheck[cpu] PASSED
 
-======================== 83 passed, 6 skipped in 1.48s =========================
+======================== 83 passed, 6 skipped in 1.52s =========================
 
 
 Initial Result:
@@ -430,7 +430,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'openxla', 'tvm', 'jit', 'inductor', None, 'onnxrt'}
+available optimizers: {'', 'onnxrt', 'inductor', 'openxla', 'tvm', 'jit', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -528,4 +528,4 @@ collecting ... collected 89 items
 ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-5] PASSED
 ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_gradcheck[cpu] PASSED
 
-======================== 83 passed, 6 skipped in 1.48s =========================
+======================== 83 passed, 6 skipped in 1.54s =========================

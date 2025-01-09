@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X4-y4-expected_f_statistic4-expected_p_values4-False]', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X3-y3-expected_f_statistic3-expected_p_values3-True] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X2-y2-expected_f_statistic2-expected_p_values2-True]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X3-y3-expected_f_statistic3-expected_p_values3-True]', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X2-y2-expected_f_statistic2-expected_p_values2-True] FAILED', 'FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X1-y1-expected_f_statistic1-expected_p_values1-True]', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X5-y5-expected_f_statistic5-expected_p_values5-False] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X6-y6-expected_f_statistic6-expected_p_values6-False] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X6-y6-expected_f_statistic6-expected_p_values6-False]', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X4-y4-expected_f_statistic4-expected_p_values4-False] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X1-y1-expected_f_statistic1-expected_p_values1-True] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X0-y0-expected_f_statistic0-expected_p_values0-True]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X7-y7-expected_f_statistic7-expected_p_values7-False]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X5-y5-expected_f_statistic5-expected_p_values5-False]', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X7-y7-expected_f_statistic7-expected_p_values7-False] FAILED'}
+{'FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X4-y4-expected_f_statistic4-expected_p_values4-False] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X0-y0-expected_f_statistic0-expected_p_values0-True]', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X6-y6-expected_f_statistic6-expected_p_values6-False] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X3-y3-expected_f_statistic3-expected_p_values3-True]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X1-y1-expected_f_statistic1-expected_p_values1-True]', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X3-y3-expected_f_statistic3-expected_p_values3-True] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X7-y7-expected_f_statistic7-expected_p_values7-False]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X2-y2-expected_f_statistic2-expected_p_values2-True]', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X5-y5-expected_f_statistic5-expected_p_values5-False] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X5-y5-expected_f_statistic5-expected_p_values5-False]', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X7-y7-expected_f_statistic7-expected_p_values7-False] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X2-y2-expected_f_statistic2-expected_p_values2-True] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X6-y6-expected_f_statistic6-expected_p_values6-False]', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X1-y1-expected_f_statistic1-expected_p_values1-True] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X4-y4-expected_f_statistic4-expected_p_values4-False]'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 8 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X0-y0-expected_f_statistic0-expected_p_values0-True] I: Seeding RNGs with 523073658
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X0-y0-expected_f_statistic0-expected_p_values0-True] I: Seeding RNGs with 405794574
 FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X1-y1-expected_f_statistic1-expected_p_values1-True] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X2-y2-expected_f_statistic2-expected_p_values2-True] FAILED
@@ -125,7 +125,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return func(*args, **kwargs)
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/_univariate_selection.py:322: in f_regression
     return f_regression(X, y)
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:33: in f_regression
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:30: in f_regression
     corr = r_regression(X, y, center=center)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
@@ -136,16 +136,16 @@ X = array([[ 0.  , -2.75],
 y = array([-0.5,  0.5,  0.5, -0.5]), center = True
 
     def r_regression(X, y, center=True):
-        """Compute the correlation between each feature in X and the target y."""
-        X = check_array(X, accept_sparse=['csr', 'csc', 'coo'])
+        """Calculate the Pearson correlation coefficient between each feature in X and the target y."""
+        X = np.asarray(X)
         y = np.asarray(y)
         if center:
-            X = X - X.mean(axis=0)
-            y = y - y.mean()
->       corr = safe_sparse_dot(X.T, y) / np.sqrt(safe_sparse_dot(X.T, X).diagonal() * np.dot(y, y))
+            X = X - np.mean(X, axis=0)
+            y = y - np.mean(y)
+>       corr = np.dot(X.T, y) / (np.sqrt(np.sum(X ** 2, axis=0)) * np.sqrt(np.sum(y ** 2)))
 E       RuntimeWarning: invalid value encountered in divide
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:25: RuntimeWarning
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:23: RuntimeWarning
 _ test_f_regression_corner_case[X1-y1-expected_f_statistic1-expected_p_values1-True] _
 
 X = array([[ 5,  1],
@@ -242,7 +242,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return func(*args, **kwargs)
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/_univariate_selection.py:322: in f_regression
     return f_regression(X, y)
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:33: in f_regression
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:30: in f_regression
     corr = r_regression(X, y, center=center)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
@@ -253,16 +253,16 @@ X = array([[ 0.5 , -2.75],
 y = array([0., 0., 0., 0.]), center = True
 
     def r_regression(X, y, center=True):
-        """Compute the correlation between each feature in X and the target y."""
-        X = check_array(X, accept_sparse=['csr', 'csc', 'coo'])
+        """Calculate the Pearson correlation coefficient between each feature in X and the target y."""
+        X = np.asarray(X)
         y = np.asarray(y)
         if center:
-            X = X - X.mean(axis=0)
-            y = y - y.mean()
->       corr = safe_sparse_dot(X.T, y) / np.sqrt(safe_sparse_dot(X.T, X).diagonal() * np.dot(y, y))
+            X = X - np.mean(X, axis=0)
+            y = y - np.mean(y)
+>       corr = np.dot(X.T, y) / (np.sqrt(np.sum(X ** 2, axis=0)) * np.sqrt(np.sum(y ** 2)))
 E       RuntimeWarning: invalid value encountered in divide
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:25: RuntimeWarning
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:23: RuntimeWarning
 _ test_f_regression_corner_case[X2-y2-expected_f_statistic2-expected_p_values2-True] _
 
 X = array([[ 0,  1],
@@ -352,33 +352,34 @@ expected_p_values = array([0.      , 0.454913]), force_finite = True
         """
         with warnings.catch_warnings():
             warnings.simplefilter("error", RuntimeWarning)
->           f_statistic, p_values = f_regression(X, y, force_finite=force_finite)
+            f_statistic, p_values = f_regression(X, y, force_finite=force_finite)
+>       np.testing.assert_array_almost_equal(f_statistic, expected_f_statistic)
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py:301: 
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py:302: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:216: in wrapper
-    return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/_univariate_selection.py:322: in f_regression
-    return f_regression(X, y)
+/usr/local/lib/python3.9/contextlib.py:79: in inner
+    return func(*args, **kwds)
+../publishablew/scikit-learn/scikit-learn/venv/lib/python3.9/site-packages/numpy/_utils/__init__.py:85: in wrapper
+    return fun(*args, **kwargs)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-X = array([[ 0,  1],
-       [ 1,  0],
-       [ 2, 10],
-       [ 3,  4]])
-y = array([0, 1, 2, 3]), center = True, force_finite = True
+args = (<function assert_array_almost_equal.<locals>.compare at 0x7fcce591aca0>, array([4.50359963e+15, 8.45433255e-01]), array([1.79769313e+308, 8.45433000e-001]))
+kwds = {'err_msg': '', 'header': 'Arrays are not almost equal to 6 decimals', 'precision': 6, 'verbose': True}
 
-    def f_regression(X, y, center=True, force_finite=True):
-        """Perform univariate linear regression tests and return F-statistic and p-values."""
-        X = check_array(X, accept_sparse=['csr', 'csc', 'coo'])
-        y = np.asarray(y)
-        n_samples, n_features = X.shape
-        corr = r_regression(X, y, center=center)
-        corr_squared = corr ** 2
->       f_statistic = corr_squared * (n_samples - 2) / (1 - corr_squared)
-E       RuntimeWarning: divide by zero encountered in divide
+    @wraps(func)
+    def inner(*args, **kwds):
+        with self._recreate_cm():
+>           return func(*args, **kwds)
+E           AssertionError: 
+E           Arrays are not almost equal to 6 decimals
+E           
+E           Mismatched elements: 1 / 2 (50%)
+E           Max absolute difference among violations: 1.79769313e+308
+E           Max relative difference among violations: 1.
+E            ACTUAL: array([4.503600e+15, 8.454333e-01])
+E            DESIRED: array([1.797693e+308, 8.454330e-001])
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:35: RuntimeWarning
+/usr/local/lib/python3.9/contextlib.py:79: AssertionError
 _ test_f_regression_corner_case[X3-y3-expected_f_statistic3-expected_p_values3-True] _
 
 X = array([[ 3,  1],
@@ -468,33 +469,34 @@ expected_p_values = array([0.      , 0.454913]), force_finite = True
         """
         with warnings.catch_warnings():
             warnings.simplefilter("error", RuntimeWarning)
->           f_statistic, p_values = f_regression(X, y, force_finite=force_finite)
+            f_statistic, p_values = f_regression(X, y, force_finite=force_finite)
+>       np.testing.assert_array_almost_equal(f_statistic, expected_f_statistic)
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py:301: 
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py:302: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:216: in wrapper
-    return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/_univariate_selection.py:322: in f_regression
-    return f_regression(X, y)
+/usr/local/lib/python3.9/contextlib.py:79: in inner
+    return func(*args, **kwds)
+../publishablew/scikit-learn/scikit-learn/venv/lib/python3.9/site-packages/numpy/_utils/__init__.py:85: in wrapper
+    return fun(*args, **kwargs)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-X = array([[ 3,  1],
-       [ 2,  0],
-       [ 1, 10],
-       [ 0,  4]])
-y = array([0, 1, 2, 3]), center = True, force_finite = True
+args = (<function assert_array_almost_equal.<locals>.compare at 0x7fcce58c4790>, array([4.50359963e+15, 8.45433255e-01]), array([1.79769313e+308, 8.45433000e-001]))
+kwds = {'err_msg': '', 'header': 'Arrays are not almost equal to 6 decimals', 'precision': 6, 'verbose': True}
 
-    def f_regression(X, y, center=True, force_finite=True):
-        """Perform univariate linear regression tests and return F-statistic and p-values."""
-        X = check_array(X, accept_sparse=['csr', 'csc', 'coo'])
-        y = np.asarray(y)
-        n_samples, n_features = X.shape
-        corr = r_regression(X, y, center=center)
-        corr_squared = corr ** 2
->       f_statistic = corr_squared * (n_samples - 2) / (1 - corr_squared)
-E       RuntimeWarning: divide by zero encountered in divide
+    @wraps(func)
+    def inner(*args, **kwds):
+        with self._recreate_cm():
+>           return func(*args, **kwds)
+E           AssertionError: 
+E           Arrays are not almost equal to 6 decimals
+E           
+E           Mismatched elements: 1 / 2 (50%)
+E           Max absolute difference among violations: 1.79769313e+308
+E           Max relative difference among violations: 1.
+E            ACTUAL: array([4.503600e+15, 8.454333e-01])
+E            DESIRED: array([1.797693e+308, 8.454330e-001])
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:35: RuntimeWarning
+/usr/local/lib/python3.9/contextlib.py:79: AssertionError
 _ test_f_regression_corner_case[X4-y4-expected_f_statistic4-expected_p_values4-False] _
 
 X = array([[ 2,  1],
@@ -591,7 +593,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return func(*args, **kwargs)
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/_univariate_selection.py:322: in f_regression
     return f_regression(X, y)
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:33: in f_regression
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:30: in f_regression
     corr = r_regression(X, y, center=center)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
@@ -602,16 +604,16 @@ X = array([[ 0.  , -2.75],
 y = array([-0.5,  0.5,  0.5, -0.5]), center = True
 
     def r_regression(X, y, center=True):
-        """Compute the correlation between each feature in X and the target y."""
-        X = check_array(X, accept_sparse=['csr', 'csc', 'coo'])
+        """Calculate the Pearson correlation coefficient between each feature in X and the target y."""
+        X = np.asarray(X)
         y = np.asarray(y)
         if center:
-            X = X - X.mean(axis=0)
-            y = y - y.mean()
->       corr = safe_sparse_dot(X.T, y) / np.sqrt(safe_sparse_dot(X.T, X).diagonal() * np.dot(y, y))
+            X = X - np.mean(X, axis=0)
+            y = y - np.mean(y)
+>       corr = np.dot(X.T, y) / (np.sqrt(np.sum(X ** 2, axis=0)) * np.sqrt(np.sum(y ** 2)))
 E       RuntimeWarning: invalid value encountered in divide
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:25: RuntimeWarning
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:23: RuntimeWarning
 _ test_f_regression_corner_case[X5-y5-expected_f_statistic5-expected_p_values5-False] _
 
 X = array([[ 5,  1],
@@ -708,7 +710,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return func(*args, **kwargs)
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/_univariate_selection.py:322: in f_regression
     return f_regression(X, y)
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:33: in f_regression
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:30: in f_regression
     corr = r_regression(X, y, center=center)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
@@ -719,16 +721,16 @@ X = array([[ 0.5 , -2.75],
 y = array([0., 0., 0., 0.]), center = True
 
     def r_regression(X, y, center=True):
-        """Compute the correlation between each feature in X and the target y."""
-        X = check_array(X, accept_sparse=['csr', 'csc', 'coo'])
+        """Calculate the Pearson correlation coefficient between each feature in X and the target y."""
+        X = np.asarray(X)
         y = np.asarray(y)
         if center:
-            X = X - X.mean(axis=0)
-            y = y - y.mean()
->       corr = safe_sparse_dot(X.T, y) / np.sqrt(safe_sparse_dot(X.T, X).diagonal() * np.dot(y, y))
+            X = X - np.mean(X, axis=0)
+            y = y - np.mean(y)
+>       corr = np.dot(X.T, y) / (np.sqrt(np.sum(X ** 2, axis=0)) * np.sqrt(np.sum(y ** 2)))
 E       RuntimeWarning: invalid value encountered in divide
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:25: RuntimeWarning
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:23: RuntimeWarning
 _ test_f_regression_corner_case[X6-y6-expected_f_statistic6-expected_p_values6-False] _
 
 X = array([[ 0,  1],
@@ -817,33 +819,32 @@ expected_p_values = array([0.      , 0.454913]), force_finite = False
         """
         with warnings.catch_warnings():
             warnings.simplefilter("error", RuntimeWarning)
->           f_statistic, p_values = f_regression(X, y, force_finite=force_finite)
+            f_statistic, p_values = f_regression(X, y, force_finite=force_finite)
+>       np.testing.assert_array_almost_equal(f_statistic, expected_f_statistic)
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py:301: 
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py:302: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:216: in wrapper
-    return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/_univariate_selection.py:322: in f_regression
-    return f_regression(X, y)
+/usr/local/lib/python3.9/contextlib.py:79: in inner
+    return func(*args, **kwds)
+../publishablew/scikit-learn/scikit-learn/venv/lib/python3.9/site-packages/numpy/_utils/__init__.py:85: in wrapper
+    return fun(*args, **kwargs)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-X = array([[ 0,  1],
-       [ 1,  0],
-       [ 2, 10],
-       [ 3,  4]])
-y = array([0, 1, 2, 3]), center = True, force_finite = True
+args = (<function assert_array_almost_equal.<locals>.compare at 0x7fcce591ac10>, array([4.50359963e+15, 8.45433255e-01]), array([     inf, 0.845433]))
+kwds = {'err_msg': '', 'header': 'Arrays are not almost equal to 6 decimals', 'precision': 6, 'verbose': True}
 
-    def f_regression(X, y, center=True, force_finite=True):
-        """Perform univariate linear regression tests and return F-statistic and p-values."""
-        X = check_array(X, accept_sparse=['csr', 'csc', 'coo'])
-        y = np.asarray(y)
-        n_samples, n_features = X.shape
-        corr = r_regression(X, y, center=center)
-        corr_squared = corr ** 2
->       f_statistic = corr_squared * (n_samples - 2) / (1 - corr_squared)
-E       RuntimeWarning: divide by zero encountered in divide
+    @wraps(func)
+    def inner(*args, **kwds):
+        with self._recreate_cm():
+>           return func(*args, **kwds)
+E           AssertionError: 
+E           Arrays are not almost equal to 6 decimals
+E           
+E           +inf location mismatch:
+E            ACTUAL: array([4.503600e+15, 8.454333e-01])
+E            DESIRED: array([     inf, 0.845433])
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:35: RuntimeWarning
+/usr/local/lib/python3.9/contextlib.py:79: AssertionError
 _ test_f_regression_corner_case[X7-y7-expected_f_statistic7-expected_p_values7-False] _
 
 X = array([[ 3,  1],
@@ -932,33 +933,32 @@ expected_p_values = array([0.      , 0.454913]), force_finite = False
         """
         with warnings.catch_warnings():
             warnings.simplefilter("error", RuntimeWarning)
->           f_statistic, p_values = f_regression(X, y, force_finite=force_finite)
+            f_statistic, p_values = f_regression(X, y, force_finite=force_finite)
+>       np.testing.assert_array_almost_equal(f_statistic, expected_f_statistic)
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py:301: 
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py:302: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:216: in wrapper
-    return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/_univariate_selection.py:322: in f_regression
-    return f_regression(X, y)
+/usr/local/lib/python3.9/contextlib.py:79: in inner
+    return func(*args, **kwds)
+../publishablew/scikit-learn/scikit-learn/venv/lib/python3.9/site-packages/numpy/_utils/__init__.py:85: in wrapper
+    return fun(*args, **kwargs)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-X = array([[ 3,  1],
-       [ 2,  0],
-       [ 1, 10],
-       [ 0,  4]])
-y = array([0, 1, 2, 3]), center = True, force_finite = True
+args = (<function assert_array_almost_equal.<locals>.compare at 0x7fcce5b0b940>, array([4.50359963e+15, 8.45433255e-01]), array([     inf, 0.845433]))
+kwds = {'err_msg': '', 'header': 'Arrays are not almost equal to 6 decimals', 'precision': 6, 'verbose': True}
 
-    def f_regression(X, y, center=True, force_finite=True):
-        """Perform univariate linear regression tests and return F-statistic and p-values."""
-        X = check_array(X, accept_sparse=['csr', 'csc', 'coo'])
-        y = np.asarray(y)
-        n_samples, n_features = X.shape
-        corr = r_regression(X, y, center=center)
-        corr_squared = corr ** 2
->       f_statistic = corr_squared * (n_samples - 2) / (1 - corr_squared)
-E       RuntimeWarning: divide by zero encountered in divide
+    @wraps(func)
+    def inner(*args, **kwds):
+        with self._recreate_cm():
+>           return func(*args, **kwds)
+E           AssertionError: 
+E           Arrays are not almost equal to 6 decimals
+E           
+E           +inf location mismatch:
+E            ACTUAL: array([4.503600e+15, 8.454333e-01])
+E            DESIRED: array([     inf, 0.845433])
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/temp.py:35: RuntimeWarning
+/usr/local/lib/python3.9/contextlib.py:79: AssertionError
 =========================== short test summary info ============================
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X0-y0-expected_f_statistic0-expected_p_values0-True]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X1-y1-expected_f_statistic1-expected_p_values1-True]
@@ -968,7 +968,7 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X5-y5-expected_f_statistic5-expected_p_values5-False]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X6-y6-expected_f_statistic6-expected_p_values6-False]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X7-y7-expected_f_statistic7-expected_p_values7-False]
-============================== 8 failed in 0.55s ===============================
+============================== 8 failed in 0.57s ===============================
 
 
 Final Test Result:
@@ -980,7 +980,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 8 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X0-y0-expected_f_statistic0-expected_p_values0-True] I: Seeding RNGs with 812234773
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X0-y0-expected_f_statistic0-expected_p_values0-True] I: Seeding RNGs with 1088612604
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X1-y1-expected_f_statistic1-expected_p_values1-True] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X2-y2-expected_f_statistic2-expected_p_values2-True] PASSED
@@ -990,7 +990,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X6-y6-expected_f_statistic6-expected_p_values6-False] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X7-y7-expected_f_statistic7-expected_p_values7-False] PASSED
 
-============================== 8 passed in 0.28s ===============================
+============================== 8 passed in 0.31s ===============================
 
 
 Initial Result:
@@ -1002,7 +1002,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 8 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X0-y0-expected_f_statistic0-expected_p_values0-True] I: Seeding RNGs with 157361272
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X0-y0-expected_f_statistic0-expected_p_values0-True] I: Seeding RNGs with 2136511325
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X1-y1-expected_f_statistic1-expected_p_values1-True] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X2-y2-expected_f_statistic2-expected_p_values2-True] PASSED
@@ -1012,4 +1012,4 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X6-y6-expected_f_statistic6-expected_p_values6-False] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py::test_f_regression_corner_case[X7-y7-expected_f_statistic7-expected_p_values7-False] PASSED
 
-============================== 8 passed in 0.29s ===============================
+============================== 8 passed in 0.28s ===============================

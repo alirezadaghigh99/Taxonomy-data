@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/geometry/test_depth.py::TestDepthToNormals::test_simple_normalized[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_depth.py::TestDepthToNormals::test_simple[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_depth.py::TestDepthToNormals::test_simple_normalized[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_depth.py::TestDepthToNormals::test_simple[cpu-float32]'}
+{'../publishablew/kornia/kornia/tests/geometry/test_depth.py::TestDepthToNormals::test_simple_normalized[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_depth.py::TestDepthToNormals::test_simple_normalized[cpu-float32]'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'inductor', 'tvm', 'onnxrt', 'cudagraphs', 'jit', None}
+available optimizers: {'', 'tvm', 'jit', 'cudagraphs', 'openxla', 'inductor', None, 'onnxrt'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -50,100 +50,14 @@ collecting ... collected 10 items
 ../publishablew/kornia/kornia/tests/geometry/test_depth.py::TestDepthToNormals::test_shapes_broadcast[cpu-float32-2] PASSED
 ../publishablew/kornia/kornia/tests/geometry/test_depth.py::TestDepthToNormals::test_shapes_broadcast[cpu-float32-4] PASSED
 ../publishablew/kornia/kornia/tests/geometry/test_depth.py::TestDepthToNormals::test_shapes_broadcast[cpu-float32-5] PASSED
-../publishablew/kornia/kornia/tests/geometry/test_depth.py::TestDepthToNormals::test_simple[cpu-float32] FAILED
+../publishablew/kornia/kornia/tests/geometry/test_depth.py::TestDepthToNormals::test_simple[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/test_depth.py::TestDepthToNormals::test_simple_normalized[cpu-float32] FAILED
 ../publishablew/kornia/kornia/tests/geometry/test_depth.py::TestDepthToNormals::test_gradcheck[cpu] PASSED
 
 =================================== FAILURES ===================================
-_________________ TestDepthToNormals.test_simple[cpu-float32] __________________
-
-self = <tests.geometry.test_depth.TestDepthToNormals object at 0x7b14519f6560>
-device = device(type='cpu'), dtype = torch.float32
-
-    def test_simple(self, device, dtype):
-        # this is for default normalize_points=False
-        depth = 2 * torch.tensor(
-            [[[[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]]]], device=device, dtype=dtype
-        )
-    
-        camera_matrix = torch.tensor([[[1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, 1.0]]], device=device, dtype=dtype)
-    
-        normals_expected = torch.tensor(
-            [
-                [
-                    [[0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0]],
-                    [[0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0]],
-                    [[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]],
-                ]
-            ],
-            device=device,
-            dtype=dtype,
-        )
-    
-        normals = kornia.geometry.depth.depth_to_normals(depth, camera_matrix)  # default is normalize_points=False
->       self.assert_close(normals, normals_expected, rtol=1e-3, atol=1e-3)
-
-../publishablew/kornia/kornia/tests/geometry/test_depth.py:179: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/testing/base.py:106: in assert_close
-    return assert_close(actual, expected, rtol=rtol, atol=atol)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-actual = tensor([[[[0., 0., 0.],
-          [0., 0., 0.],
-          [0., 0., 0.],
-          [0., 0., 0.]],
-
-         [[0., 0., 0...     [0., 0., 0.]],
-
-         [[0., 0., 0.],
-          [0., 0., 0.],
-          [0., 0., 0.],
-          [0., 0., 0.]]]])
-expected = tensor([[[[0., 0., 0.],
-          [0., 0., 0.],
-          [0., 0., 0.],
-          [0., 0., 0.]],
-
-         [[0., 0., 0...     [0., 0., 0.]],
-
-         [[1., 1., 1.],
-          [1., 1., 1.],
-          [1., 1., 1.],
-          [1., 1., 1.]]]])
-rtol = 0.001, atol = 0.001, kwargs = {}
-
-    def assert_close(
-        actual: Tensor, expected: Tensor, *, rtol: Optional[float] = None, atol: Optional[float] = None, **kwargs: Any
-    ) -> None:
-        if rtol is None and atol is None:
-            # `torch.testing.assert_close` used different default tolerances than `torch.testing.assert_allclose`.
-            # TODO: remove this special handling as soon as https://github.com/kornia/kornia/issues/1134 is resolved
-            #  Basically, this whole wrapper function can be removed and `torch.testing.assert_close` can be used
-            #  directly.
-            rtol, atol = _default_tolerances(actual, expected)
-    
->       return _assert_close(
-            actual,
-            expected,
-            rtol=rtol,
-            atol=atol,
-            # this is the default value for torch>=1.10, but not for torch==1.9
-            # TODO: remove this if kornia relies on torch>=1.10
-            check_stride=False,
-            equal_nan=False,
-            **kwargs,
-        )
-E       AssertionError: Tensor-likes are not close!
-E       
-E       Mismatched elements: 12 / 36 (33.3%)
-E       Greatest absolute difference: 1.0 at index (0, 2, 0, 0) (up to 0.001 allowed)
-E       Greatest relative difference: 1.0 at index (0, 2, 0, 0) (up to 0.001 allowed)
-
-../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ____________ TestDepthToNormals.test_simple_normalized[cpu-float32] ____________
 
-self = <tests.geometry.test_depth.TestDepthToNormals object at 0x7b14519f6890>
+self = <tests.geometry.test_depth.TestDepthToNormals object at 0x7b56a4b02a10>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_simple_normalized(self, device, dtype):
@@ -197,10 +111,10 @@ actual = tensor([[[[0., 0., 0.],
 
          [[0., 0., 0...     [0., 0., 0.]],
 
-         [[0., 0., 0.],
-          [0., 0., 0.],
-          [0., 0., 0.],
-          [0., 0., 0.]]]])
+         [[1., 1., 1.],
+          [1., 1., 1.],
+          [1., 1., 1.],
+          [1., 1., 1.]]]])
 expected = tensor([[[[0.3432, 0.4861, 0.7628],
           [0.2873, 0.4260, 0.6672],
           [0.2284, 0.3683, 0.5596],
@@ -235,7 +149,7 @@ E       AssertionError: Tensor-likes are not close!
 E       
 E       Mismatched elements: 36 / 36 (100.0%)
 E       Greatest absolute difference: 0.8948000073432922 at index (0, 1, 3, 0) (up to 0.001 allowed)
-E       Greatest relative difference: 1.0 at index (0, 0, 0, 0) (up to 0.001 allowed)
+E       Greatest relative difference: 1.4218939542770386 at index (0, 2, 3, 0) (up to 0.001 allowed)
 
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 =============================== warnings summary ===============================
@@ -245,9 +159,8 @@ tests/geometry/test_depth.py::TestDepthToNormals::test_smoke[cpu-float32]
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
 =========================== short test summary info ============================
-FAILED ../publishablew/kornia/kornia/tests/geometry/test_depth.py::TestDepthToNormals::test_simple[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/geometry/test_depth.py::TestDepthToNormals::test_simple_normalized[cpu-float32]
-==================== 2 failed, 8 passed, 1 warning in 0.33s ====================
+==================== 1 failed, 9 passed, 1 warning in 0.23s ====================
 
 
 Final Test Result:
@@ -276,7 +189,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'tvm', 'cudagraphs', 'openxla', 'inductor', 'onnxrt', None}
+available optimizers: {'', 'openxla', 'cudagraphs', 'inductor', 'jit', 'onnxrt', 'tvm', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -301,7 +214,7 @@ tests/geometry/test_depth.py: 15 warnings
     xyz: Tensor = depth_to_3d(depth, camera_matrix, normalize_points)  # Bx3xHxW
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-======================= 10 passed, 15 warnings in 0.19s ========================
+======================= 10 passed, 15 warnings in 0.17s ========================
 
 
 Initial Result:
@@ -330,7 +243,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'openxla', 'onnxrt', 'cudagraphs', None, 'inductor', 'jit'}
+available optimizers: {'', 'openxla', 'onnxrt', 'tvm', 'cudagraphs', 'jit', 'inductor', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -355,4 +268,4 @@ tests/geometry/test_depth.py: 15 warnings
     xyz: Tensor = depth_to_3d(depth, camera_matrix, normalize_points)  # Bx3xHxW
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-======================= 10 passed, 15 warnings in 0.18s ========================
+======================= 10 passed, 15 warnings in 0.21s ========================

@@ -2,49 +2,48 @@ import torch
 
 def vector_to_skew_symmetric_matrix(vec):
     """
-    Converts a vector of shape (B, 3) to its corresponding skew-symmetric matrix.
-    
-    Args:
-        vec (torch.Tensor): A tensor of shape (B, 3).
-        
-    Returns:
-        torch.Tensor: A tensor of shape (B, 3, 3) representing the skew-symmetric matrices.
+    Convert a vector of shape (B, 3) to a skew-symmetric matrix of shape (B, 3, 3).
     """
     B = vec.shape[0]
-    skew_sym = torch.zeros((B, 3, 3), dtype=vec.dtype, device=vec.device)
-    skew_sym[:, 0, 1] = -vec[:, 2]
-    skew_sym[:, 0, 2] = vec[:, 1]
-    skew_sym[:, 1, 0] = vec[:, 2]
-    skew_sym[:, 1, 2] = -vec[:, 0]
-    skew_sym[:, 2, 0] = -vec[:, 1]
-    skew_sym[:, 2, 1] = vec[:, 0]
-    return skew_sym
+    skew_matrices = torch.zeros((B, 3, 3), dtype=vec.dtype, device=vec.device)
+    skew_matrices[:, 0, 1] = -vec[:, 2]
+    skew_matrices[:, 0, 2] = vec[:, 1]
+    skew_matrices[:, 1, 0] = vec[:, 2]
+    skew_matrices[:, 1, 2] = -vec[:, 0]
+    skew_matrices[:, 2, 0] = -vec[:, 1]
+    skew_matrices[:, 2, 1] = vec[:, 0]
+    return skew_matrices
 
 def right_jacobian(vec):
     """
-    Computes the right Jacobian of SO(3) for a given tensor of shape (B, 3).
+    Compute the right Jacobian of SO(3) for a batch of vectors.
     
-    Args:
-        vec (torch.Tensor): A tensor of shape (B, 3).
-        
+    Parameters:
+    vec (torch.Tensor): A tensor of shape (B, 3) representing the input vectors.
+    
     Returns:
-        torch.Tensor: A tensor of shape (B, 3, 3) representing the right Jacobian matrices.
+    torch.Tensor: A tensor of shape (B, 3, 3) representing the right Jacobian matrices.
     """
     B = vec.shape[0]
-    norm_vec = torch.norm(vec, dim=1, keepdim=True)
-    norm_vec = norm_vec + 1e-8  # To avoid division by zero
-    
-    skew_sym = vector_to_skew_symmetric_matrix(vec)
-    
-    eye = torch.eye(3, dtype=vec.dtype, device=vec.device).unsqueeze(0).repeat(B, 1, 1)
-    
-    term1 = (1 - torch.cos(norm_vec)) / (norm_vec ** 2)
-    term2 = (norm_vec - torch.sin(norm_vec)) / (norm_vec ** 3)
-    
-    term1 = term1.view(B, 1, 1)
-    term2 = term2.view(B, 1, 1)
-    
-    right_jacobian = eye + term1 * skew_sym + term2 * torch.bmm(skew_sym, skew_sym)
-    
-    return right_jacobian
+    norm_vec = torch.norm(vec, dim=1, keepdim=True)  # Shape: (B, 1)
+    norm_vec = norm_vec.clamp(min=1e-8)  # Avoid division by zero
+
+    # Identity matrix of shape (3, 3)
+    I = torch.eye(3, dtype=vec.dtype, device=vec.device).unsqueeze(0).repeat(B, 1, 1)  # Shape: (B, 3, 3)
+
+    # Skew-symmetric matrix of the input vector
+    skew_vec = vector_to_skew_symmetric_matrix(vec)  # Shape: (B, 3, 3)
+
+    # Compute the right Jacobian
+    theta = norm_vec.squeeze(-1)  # Shape: (B,)
+    theta2 = theta ** 2
+    theta3 = theta ** 3
+
+    # Use the series expansion for small angles
+    term1 = (1 - torch.cos(theta)) / theta2.unsqueeze(-1).unsqueeze(-1)  # Shape: (B, 1, 1)
+    term2 = (theta - torch.sin(theta)) / theta3.unsqueeze(-1).unsqueeze(-1)  # Shape: (B, 1, 1)
+
+    J_right = I - term1 * skew_vec + term2 * torch.bmm(skew_vec, skew_vec)  # Shape: (B, 3, 3)
+
+    return J_right
 

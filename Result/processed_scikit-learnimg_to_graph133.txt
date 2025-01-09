@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph_sparse FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph_sparse', 'FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph'}
+{'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph_sparse', '../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph_sparse FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,8 +18,8 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 22 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph I: Seeding RNGs with 328084212
-FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph I: Seeding RNGs with 593414457
+PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph_sparse FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_grid_to_graph PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_connect_regions SKIPPED
@@ -43,43 +43,6 @@ FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_patch_extractor_wrong_input SKIPPED
 
 =================================== FAILURES ===================================
-______________________________ test_img_to_graph _______________________________
-
-    def test_img_to_graph():
-        x, y = np.mgrid[:4, :4] - 10
-        grad_x = img_to_graph(x)
-        grad_y = img_to_graph(y)
-        assert grad_x.nnz == grad_y.nnz
-        # Negative elements are the diagonal: the elements of the original
-        # image. Positive elements are the values of the gradient, they
-        # should all be equal on grad_x and grad_y
->       np.testing.assert_array_equal(
-            grad_x.data[grad_x.data > 0], grad_y.data[grad_y.data > 0]
-        )
-
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py:27: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/venv/lib/python3.9/site-packages/numpy/_utils/__init__.py:85: in wrapper
-    return fun(*args, **kwargs)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-args = (<built-in function eq>, array([1., 1., 1., 1., 1., 1.]), array([1., 1., 1., 1., 1., 1., 3., 3., 1., 1., 1., 1., 1., 1., 3., 3., 1.,
-       1., 1., 1., 1., 1., 3., 3., 1., 1., 1., 1., 1., 1.]))
-kwds = {'err_msg': '', 'header': 'Arrays are not equal', 'strict': False, 'verbose': True}
-
-    @wraps(func)
-    def inner(*args, **kwds):
-        with self._recreate_cm():
->           return func(*args, **kwds)
-E           AssertionError: 
-E           Arrays are not equal
-E           
-E           (shapes (6,), (30,) mismatch)
-E            ACTUAL: array([1., 1., 1., 1., 1., 1.])
-E            DESIRED: array([1., 1., 1., 1., 1., 1., 3., 3., 1., 1., 1., 1., 1., 1., 3., 3., 1.,
-E                  1., 1., 1., 1., 1., 3., 3., 1., 1., 1., 1., 1., 1.])
-
-/usr/local/lib/python3.9/contextlib.py:79: AssertionError
 ___________________________ test_img_to_graph_sparse ___________________________
 
     def test_img_to_graph_sparse():
@@ -102,10 +65,10 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return fun(*args, **kwargs)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<built-in function eq>, matrix([[ 1.,  1.,  0.,  0.,  0.,  0.],
+args = (<built-in function eq>, matrix([[ 1.,  1.,  0.,  1.,  0.,  0.],
         [ 1.,  0.,  1.,  0.,  0.,  0.],
         [ 0.,...,  0.,  2.],
-        [ 0.,  0.,  0.,  0.,  2., -2.]]), array([[ 1,  0,  0],
+        [ 0.,  0.,  1.,  0.,  2., -2.]]), array([[ 1,  0,  0],
        [ 0, -1,  1],
        [ 0,  1, -2]]))
 kwds = {'err_msg': '', 'header': 'Arrays are not equal', 'strict': False, 'verbose': True}
@@ -118,18 +81,17 @@ E           AssertionError:
 E           Arrays are not equal
 E           
 E           (shapes (6, 6), (3, 3) mismatch)
-E            ACTUAL: matrix([[ 1.,  1.,  0.,  0.,  0.,  0.],
+E            ACTUAL: matrix([[ 1.,  1.,  0.,  1.,  0.,  0.],
 E                   [ 1.,  0.,  1.,  0.,  0.,  0.],
-E                   [ 0.,  1., -1.,  1.,  0.,  0.],...
+E                   [ 0.,  1., -1.,  0.,  0.,  1.],...
 E            DESIRED: array([[ 1,  0,  0],
 E                  [ 0, -1,  1],
 E                  [ 0,  1, -2]])
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
 =========================== short test summary info ============================
-FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph_sparse
-=================== 2 failed, 3 passed, 17 skipped in 0.18s ====================
+=================== 1 failed, 4 passed, 17 skipped in 0.15s ====================
 
 
 Final Test Result:
@@ -141,7 +103,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 22 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph I: Seeding RNGs with 1574675845
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph I: Seeding RNGs with 441073835
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph_sparse PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_grid_to_graph PASSED
@@ -177,7 +139,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 22 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph I: Seeding RNGs with 820243299
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph I: Seeding RNGs with 476383474
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph_sparse PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_grid_to_graph PASSED

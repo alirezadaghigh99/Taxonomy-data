@@ -4,10 +4,10 @@ function:
 convert_bounding_box_format
 Error Cases:
 
-Pass or Failed: 1
+Pass or Failed: 0
 
 Related Failed Test Cases:
-set()
+{'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.CXCYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYWH]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.CXCYWH] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYXY] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.CXCYWH] FAILED', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYXY] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYXY]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.CXCYWH]', 'FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYXY]', '../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYXY] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,320 +18,862 @@ configfile: pytest.ini
 plugins: mock-3.14.0
 collecting ... collected 72 items
 
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.CXCYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.CXCYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.CXCYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.CXCYWH] FAILED
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size4-BoundingBoxFormat.XYXY] PASSED
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size4-BoundingBoxFormat.XYWH] PASSED
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size4-BoundingBoxFormat.CXCYWH] PASSED
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size5-BoundingBoxFormat.XYXY] PASSED
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size5-BoundingBoxFormat.XYWH] PASSED
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size5-BoundingBoxFormat.CXCYWH] PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.CXCYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.CXCYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.CXCYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.CXCYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.CXCYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.CXCYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.CXCYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.CXCYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.CXCYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.CXCYWH] FAILED
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size4-BoundingBoxFormat.XYXY] PASSED
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size4-BoundingBoxFormat.XYWH] PASSED
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size4-BoundingBoxFormat.CXCYWH] PASSED
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size5-BoundingBoxFormat.XYXY] PASSED
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size5-BoundingBoxFormat.XYWH] PASSED
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size5-BoundingBoxFormat.CXCYWH] PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYXY] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
-../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.CXCYWH] API usage logged
-API usage logged
-API usage logged
-API usage logged
-PASSED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.CXCYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.CXCYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.CXCYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.CXCYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.CXCYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYXY] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYWH] FAILED
+../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.CXCYWH] FAILED
 
-============================== 72 passed in 0.32s ==============================
+=================================== FAILURES ===================================
+_ TestResize.test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYXY] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+_ TestResize.test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.CXCYWH] _
+../publishablew/vision/vision/test/test_transforms_v2.py:771: in test_bounding_boxes_correctness
+    expected = self._reference_resize_bounding_boxes(bounding_boxes, size=size, **max_size_kwarg)
+../publishablew/vision/vision/test/test_transforms_v2.py:754: in _reference_resize_bounding_boxes
+    return reference_affine_bounding_boxes_helper(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in reference_affine_bounding_boxes_helper
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:546: in <listcomp>
+    torch.cat([affine_bounding_boxes(b) for b in bounding_boxes.reshape(-1, 4).unbind()], dim=0).reshape(
+../publishablew/vision/vision/test/test_transforms_v2.py:506: in affine_bounding_boxes
+    x1, y1, x2, y2 = input_xyxy.squeeze(0).tolist()
+E   AttributeError: 'NoneType' object has no attribute 'squeeze'
+=========================== short test summary info ============================
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-17-BoundingBoxFormat.CXCYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size1-BoundingBoxFormat.CXCYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-size2-BoundingBoxFormat.CXCYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-True-None-BoundingBoxFormat.CXCYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-17-BoundingBoxFormat.CXCYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size1-BoundingBoxFormat.CXCYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size2-BoundingBoxFormat.CXCYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-None-BoundingBoxFormat.CXCYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size4-BoundingBoxFormat.CXCYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[resize-False-size5-BoundingBoxFormat.CXCYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-17-BoundingBoxFormat.CXCYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size1-BoundingBoxFormat.CXCYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-size2-BoundingBoxFormat.CXCYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-True-None-BoundingBoxFormat.CXCYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-17-BoundingBoxFormat.CXCYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size1-BoundingBoxFormat.CXCYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size2-BoundingBoxFormat.CXCYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-None-BoundingBoxFormat.CXCYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size4-BoundingBoxFormat.CXCYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYXY]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYWH]
+FAILED ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.CXCYWH]
+======================== 60 failed, 12 passed in 13.53s ========================
 
 
 Final Test Result:
@@ -416,7 +958,7 @@ collecting ... collected 72 items
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYWH] PASSED
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.CXCYWH] PASSED
 
-============================== 72 passed in 0.28s ==============================
+============================== 72 passed in 0.22s ==============================
 
 
 Initial Result:
@@ -501,4 +1043,4 @@ collecting ... collected 72 items
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.XYWH] PASSED
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestResize::test_bounding_boxes_correctness[Resize-False-size5-BoundingBoxFormat.CXCYWH] PASSED
 
-============================== 72 passed in 0.32s ==============================
+============================== 72 passed in 0.18s ==============================

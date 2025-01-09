@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_function[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_module[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_function[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_module[cpu-float32]'}
+{'../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_function[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_module[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_module[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_function[cpu-float32]'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'openxla', 'jit', 'cudagraphs', 'tvm', 'inductor', None}
+available optimizers: {'', 'tvm', 'jit', 'onnxrt', 'openxla', 'cudagraphs', None, 'inductor'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -52,7 +52,7 @@ collecting ... collected 5 items
 =================================== FAILURES ===================================
 ______________________ TestSTE.test_function[cpu-float32] ______________________
 
-self = <test_ste.TestSTE object at 0x72cd6d6a7850>, device = device(type='cpu')
+self = <test_ste.TestSTE object at 0x75a5958a39d0>, device = device(type='cpu')
 dtype = torch.float32
 
     def test_function(self, device, dtype):
@@ -70,7 +70,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().apply(*args, **kwargs)  # type: ignore[misc]
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<torch.autograd.function.STEFunctionBackward object at 0x72cd6d81bbc0>, tensor([ 0.2343, -0.2854,  0.2871,  1.1868], requires_grad=True), tensor([ 1., -1.,  1.,  1.], grad_fn=<SignBackward0>), <function hardtanh at 0x72ce5a9b9f30>)
+args = (<torch.autograd.function.STEFunctionBackward object at 0x75a595a1fbc0>, tensor([-0.4026,  1.5807,  1.5166, -1.0202], requires_grad=True), tensor([-1.,  1.,  1., -1.], grad_fn=<SignBackward0>), <function hardtanh at 0x75a67abb9f30>)
 kwargs = {}
 
     @staticmethod
@@ -123,7 +123,7 @@ E       NotImplementedError: You must implement the forward function for custom 
 ../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/function.py:387: NotImplementedError
 _______________________ TestSTE.test_module[cpu-float32] _______________________
 
-self = <test_ste.TestSTE object at 0x72cd6d6a7eb0>, device = device(type='cpu')
+self = <test_ste.TestSTE object at 0x75a5958ec070>, device = device(type='cpu')
 dtype = torch.float32
 
     def test_module(self, device, dtype):
@@ -139,11 +139,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return forward_call(*args, **kwargs)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = StraightThroughEstimator(target_fn=RandomPosterize(bits=3, p=1.0, p_batch=1.0, same_on_batch=False), grad_fn=<function hardtanh at 0x72ce5a9b9f30>)
-input = tensor([[[[ 0.1641,  0.5890,  0.3041, -0.8456],
-          [ 1.2836,  0.4206, -0.6258, -1.0724],
-          [-1.9616, -2.0545,  1.0077, -0.8950],
-          [ 0.1957,  0.7025, -0.6029,  0.6567]]]], requires_grad=True)
+self = StraightThroughEstimator(target_fn=RandomPosterize(bits=3, p=1.0, p_batch=1.0, same_on_batch=False), grad_fn=<function hardtanh at 0x75a67abb9f30>)
+input = tensor([[[[-1.3941,  0.6563, -1.8108,  0.6569],
+          [ 0.3600, -0.9035,  0.2961,  0.4105],
+          [-0.5124, -0.4419,  0.6445,  0.2955],
+          [-0.2894, -0.0142, -0.2408,  0.1035]]]], requires_grad=True)
 
     def forward(self, input: Tensor) -> Tensor:
 >       from .temp import forward
@@ -153,7 +153,7 @@ E       ImportError: cannot import name 'forward' from 'kornia.grad_estimator.te
 =========================== short test summary info ============================
 FAILED ../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_function[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_module[cpu-float32]
-==================== 2 failed, 1 passed, 2 skipped in 0.33s ====================
+==================== 2 failed, 1 passed, 2 skipped in 0.37s ====================
 
 
 Final Test Result:
@@ -182,7 +182,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'inductor', 'jit', 'openxla', 'cudagraphs', 'onnxrt', None, 'tvm'}
+available optimizers: {'', 'inductor', 'onnxrt', 'jit', 'tvm', 'cudagraphs', 'openxla', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -196,7 +196,7 @@ collecting ... collected 5 items
 ../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_jit[cpu-float32] SKIPPED
 ../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_onnx[cpu-float32] SKIPPED
 
-========================= 3 passed, 2 skipped in 0.17s =========================
+========================= 3 passed, 2 skipped in 0.14s =========================
 
 
 Initial Result:
@@ -225,7 +225,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'inductor', 'jit', 'cudagraphs', 'openxla', 'tvm', None}
+available optimizers: {'', 'jit', 'cudagraphs', 'tvm', 'inductor', 'openxla', 'onnxrt', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -239,4 +239,4 @@ collecting ... collected 5 items
 ../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_jit[cpu-float32] SKIPPED
 ../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_onnx[cpu-float32] SKIPPED
 
-========================= 3 passed, 2 skipped in 0.17s =========================
+========================= 3 passed, 2 skipped in 0.15s =========================

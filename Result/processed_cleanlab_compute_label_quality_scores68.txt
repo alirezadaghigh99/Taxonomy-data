@@ -5,72 +5,72 @@ _compute_label_quality_scores
 Error Cases:
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 559240.53it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 567276.96it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 843076.18it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 839910.69it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1051863.07it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1055170.82it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 888.04it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 886.80it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 823.46it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 822.40it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 260it [00:00, 1157663.52it/s]          
+number of examples processed for estimating thresholds: 260it [00:00, 1092704.45it/s]          
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 260it [00:00, 7870.15it/s]             
+number of examples processed for checking labels: 260it [00:00, 7585.69it/s]             
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 26624.16it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 25609.18it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 36784.07it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 34719.26it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1564309.18it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1549858.29it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 2371337.95it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 2354696.98it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
 number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1864135.11it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 2532409.96it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 2494753.31it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 657930.04it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 633102.49it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 416049.99it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 406720.39it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1103764.21it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1091201.04it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 849.13it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 848.14it/s]
+number of examples processed for checking labels:  50%|█████     | 80/160 [00:00<00:00, 798.71it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 813.74it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 260it [00:00, 1516716.33it/s]          
+number of examples processed for estimating thresholds: 260it [00:00, 1431127.35it/s]          
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 260it [00:00, 8121.23it/s]             
+number of examples processed for checking labels: 260it [00:00, 7084.28it/s]             
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 863691.94it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 899582.63it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 911805.22it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 905652.69it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 483841.85it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 496000.47it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 712408.32it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 675139.48it/s]
 
 Pass or Failed: 1
 
@@ -278,7 +278,7 @@ tests/test_filter_count.py::test_find_label_issues_match_multiprocessing
     warnings.warn(
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-====================== 135 passed, 66 warnings in 32.81s =======================
+====================== 135 passed, 66 warnings in 34.67s =======================
 
 
 Final Test Result:
@@ -482,7 +482,7 @@ tests/test_filter_count.py::test_find_label_issues_match_multiprocessing
     warnings.warn(
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-====================== 135 passed, 66 warnings in 32.36s =======================
+====================== 135 passed, 66 warnings in 34.85s =======================
 
 
 Initial Result:
@@ -686,4 +686,4 @@ tests/test_filter_count.py::test_find_label_issues_match_multiprocessing
     warnings.warn(
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-====================== 135 passed, 66 warnings in 33.99s =======================
+====================== 135 passed, 66 warnings in 36.07s =======================

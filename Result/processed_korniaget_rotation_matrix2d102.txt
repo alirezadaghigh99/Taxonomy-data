@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_90deg_rotation[cpu-float32-1]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_45deg[cpu-float32-2]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_45deg[cpu-float32-1]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_90deg_rotation[cpu-float32-2]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_gradcheck[cpu-1]', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_90deg_and_scale[cpu-float32-2] FAILED', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_gradcheck[cpu-1] FAILED', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_45deg[cpu-float32-2] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_90deg_and_scale[cpu-float32-5]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_45deg[cpu-float32-5]', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_90deg_rotation[cpu-float32-1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_90deg_and_scale[cpu-float32-2]', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_45deg[cpu-float32-5] FAILED', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_90deg_and_scale[cpu-float32-5] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_90deg_rotation[cpu-float32-5]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_90deg_and_scale[cpu-float32-1]', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_90deg_and_scale[cpu-float32-1] FAILED', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_90deg_rotation[cpu-float32-5] FAILED', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_90deg_rotation[cpu-float32-2] FAILED', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_45deg[cpu-float32-1] FAILED'}
+{'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_45deg[cpu-float32-5]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_90deg_rotation[cpu-float32-2]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_90deg_rotation[cpu-float32-1]', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_90deg_rotation[cpu-float32-5] FAILED', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_90deg_and_scale[cpu-float32-5] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_45deg[cpu-float32-1]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_90deg_and_scale[cpu-float32-1]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_90deg_rotation[cpu-float32-5]', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_90deg_and_scale[cpu-float32-2] FAILED', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_90deg_rotation[cpu-float32-2] FAILED', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_45deg[cpu-float32-1] FAILED', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_45deg[cpu-float32-2] FAILED', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_90deg_rotation[cpu-float32-1] FAILED', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_gradcheck[cpu-1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_gradcheck[cpu-1]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_90deg_and_scale[cpu-float32-2]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_90deg_and_scale[cpu-float32-5]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_45deg[cpu-float32-2]', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_90deg_and_scale[cpu-float32-1] FAILED', '../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_45deg[cpu-float32-5] FAILED'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'cudagraphs', 'tvm', 'onnxrt', 'inductor', 'openxla', None}
+available optimizers: {'', 'onnxrt', 'cudagraphs', 'inductor', 'tvm', 'jit', 'openxla', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -57,7 +57,7 @@ collecting ... collected 10 items
 =================================== FAILURES ===================================
 ___________ TestRotationMatrix2d.test_90deg_rotation[cpu-float32-1] ____________
 
-self = <test_imgwarp.TestRotationMatrix2d object at 0x7fc820cf68f0>
+self = <test_imgwarp.TestRotationMatrix2d object at 0x7ac830706980>
 batch_size = 1, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 5])
@@ -115,7 +115,7 @@ E       Relative difference: 2.0 (up to 0.0001 allowed)
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ___________ TestRotationMatrix2d.test_90deg_rotation[cpu-float32-2] ____________
 
-self = <test_imgwarp.TestRotationMatrix2d object at 0x7fc820cf6860>
+self = <test_imgwarp.TestRotationMatrix2d object at 0x7ac8307068f0>
 batch_size = 2, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 5])
@@ -173,7 +173,7 @@ E       Relative difference: 2.0 (up to 0.0001 allowed)
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ___________ TestRotationMatrix2d.test_90deg_rotation[cpu-float32-5] ____________
 
-self = <test_imgwarp.TestRotationMatrix2d object at 0x7fc820cf6b00>
+self = <test_imgwarp.TestRotationMatrix2d object at 0x7ac830706b90>
 batch_size = 5, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 5])
@@ -231,7 +231,7 @@ E       Relative difference: 2.0 (up to 0.0001 allowed)
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ______ TestRotationMatrix2d.test_rotation_90deg_and_scale[cpu-float32-1] _______
 
-self = <test_imgwarp.TestRotationMatrix2d object at 0x7fc820cf6e90>
+self = <test_imgwarp.TestRotationMatrix2d object at 0x7ac830706f20>
 batch_size = 1, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 5])
@@ -289,7 +289,7 @@ E       Relative difference: 2.0 (up to 0.0001 allowed)
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ______ TestRotationMatrix2d.test_rotation_90deg_and_scale[cpu-float32-2] _______
 
-self = <test_imgwarp.TestRotationMatrix2d object at 0x7fc820cf6dd0>
+self = <test_imgwarp.TestRotationMatrix2d object at 0x7ac830706e60>
 batch_size = 2, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 5])
@@ -347,7 +347,7 @@ E       Relative difference: 2.0 (up to 0.0001 allowed)
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ______ TestRotationMatrix2d.test_rotation_90deg_and_scale[cpu-float32-5] _______
 
-self = <test_imgwarp.TestRotationMatrix2d object at 0x7fc820cf70d0>
+self = <test_imgwarp.TestRotationMatrix2d object at 0x7ac830707160>
 batch_size = 5, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 5])
@@ -405,7 +405,7 @@ E       Relative difference: 2.0 (up to 0.0001 allowed)
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ___________ TestRotationMatrix2d.test_rotation_45deg[cpu-float32-1] ____________
 
-self = <test_imgwarp.TestRotationMatrix2d object at 0x7fc820cf7460>
+self = <test_imgwarp.TestRotationMatrix2d object at 0x7ac8307074f0>
 batch_size = 1, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 5])
@@ -465,7 +465,7 @@ E       Relative difference: 2.0000095730235192 (up to 0.0001 allowed)
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ___________ TestRotationMatrix2d.test_rotation_45deg[cpu-float32-2] ____________
 
-self = <test_imgwarp.TestRotationMatrix2d object at 0x7fc820cf73a0>
+self = <test_imgwarp.TestRotationMatrix2d object at 0x7ac830707430>
 batch_size = 2, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 5])
@@ -525,7 +525,7 @@ E       Relative difference: 2.0000095730235192 (up to 0.0001 allowed)
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ___________ TestRotationMatrix2d.test_rotation_45deg[cpu-float32-5] ____________
 
-self = <test_imgwarp.TestRotationMatrix2d object at 0x7fc820cf76a0>
+self = <test_imgwarp.TestRotationMatrix2d object at 0x7ac830707730>
 batch_size = 5, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 5])
@@ -585,7 +585,7 @@ E       Relative difference: 2.0000095730235192 (up to 0.0001 allowed)
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 __________________ TestRotationMatrix2d.test_gradcheck[cpu-1] __________________
 
-self = <test_imgwarp.TestRotationMatrix2d object at 0x7fc820cf79a0>
+self = <test_imgwarp.TestRotationMatrix2d object at 0x7ac830707a30>
 batch_size = 1, device = device(type='cpu')
 
     @pytest.mark.parametrize("batch_size", [1])
@@ -661,7 +661,7 @@ FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::T
 FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_45deg[cpu-float32-2]
 FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_45deg[cpu-float32-5]
 FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_gradcheck[cpu-1]
-============================== 10 failed in 0.49s ==============================
+============================== 10 failed in 0.48s ==============================
 
 
 Final Test Result:
@@ -690,7 +690,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'jit', 'onnxrt', 'tvm', 'openxla', 'inductor', None}
+available optimizers: {'', 'tvm', 'cudagraphs', 'inductor', 'openxla', 'onnxrt', 'jit', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -709,7 +709,7 @@ collecting ... collected 10 items
 ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_45deg[cpu-float32-5] PASSED
 ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_gradcheck[cpu-1] PASSED
 
-============================== 10 passed in 0.16s ==============================
+============================== 10 passed in 0.17s ==============================
 
 
 Initial Result:
@@ -738,7 +738,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'tvm', 'jit', 'onnxrt', 'cudagraphs', None, 'inductor'}
+available optimizers: {'', 'tvm', 'inductor', 'cudagraphs', 'openxla', 'jit', 'onnxrt', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -757,4 +757,4 @@ collecting ... collected 10 items
 ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_rotation_45deg[cpu-float32-5] PASSED
 ../publishablew/kornia/kornia/tests/geometry/transform/test_imgwarp.py::TestRotationMatrix2d::test_gradcheck[cpu-1] PASSED
 
-============================== 10 passed in 0.17s ==============================
+============================== 10 passed in 0.21s ==============================

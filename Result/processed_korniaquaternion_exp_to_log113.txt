@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'onnxrt', 'cudagraphs', 'inductor', 'tvm', 'jit', None}
+available optimizers: {'', 'jit', 'openxla', 'inductor', 'onnxrt', 'cudagraphs', 'tvm', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -60,7 +60,7 @@ collecting ... collected 69 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestEssentialFromFundamental::test_shape[cpu-float32-2] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestEssentialFromFundamental::test_shape[cpu-float32-4] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestEssentialFromFundamental::test_shape[cpu-float32-7] PASSED
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestEssentialFromFundamental::test_from_to_fundamental[cpu-float32] XFAIL
+../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestEssentialFromFundamental::test_from_to_fundamental[cpu-float32] XPASS
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestEssentialFromFundamental::test_shape_large[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestEssentialFromFundamental::test_from_fundamental[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestEssentialFromFundamental::test_gradcheck[cpu] PASSED
@@ -121,7 +121,7 @@ tests/geometry/epipolar/test_essential.py::TestDecomposeEssentialMatrixNoSVD::te
     cross_products = torch.stack([torch.cross(e1, e2), torch.cross(e2, e3), torch.cross(e3, e1)], dim=1)
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-============= 66 passed, 1 xfailed, 2 xpassed, 1 warning in 0.78s ==============
+=================== 66 passed, 3 xpassed, 1 warning in 0.64s ===================
 
 
 Final Test Result:
@@ -150,7 +150,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'openxla', 'jit', 'inductor', 'cudagraphs', 'tvm', None}
+available optimizers: {'', 'jit', 'onnxrt', 'openxla', 'cudagraphs', 'inductor', 'tvm', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -236,7 +236,7 @@ tests/geometry/epipolar/test_essential.py::TestDecomposeEssentialMatrixNoSVD::te
     cross_products = torch.stack([torch.cross(e1, e2), torch.cross(e2, e3), torch.cross(e3, e1)], dim=1)
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-=================== 66 passed, 3 xpassed, 1 warning in 0.69s ===================
+=================== 66 passed, 3 xpassed, 1 warning in 0.60s ===================
 
 
 Initial Result:
@@ -265,7 +265,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'openxla', 'inductor', 'jit', 'tvm', 'cudagraphs', None}
+available optimizers: {'', 'inductor', 'onnxrt', 'tvm', 'jit', 'cudagraphs', None, 'openxla'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -307,7 +307,7 @@ collecting ... collected 69 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestEssentalFromRt::test_shape[cpu-float32-3] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestEssentalFromRt::test_shape[cpu-float32-5] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestEssentalFromRt::test_shape[cpu-float32-8] PASSED
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestEssentalFromRt::test_from_fundamental_Rt[cpu-float32] XPASS
+../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestEssentalFromRt::test_from_fundamental_Rt[cpu-float32] XFAIL
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestEssentalFromRt::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestDecomposeEssentialMatrix::test_smoke[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestDecomposeEssentialMatrix::test_shape[cpu-float32-batch_shape0] PASSED
@@ -323,7 +323,7 @@ collecting ... collected 69 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestDecomposeEssentialMatrixNoSVD::test_shape[cpu-float32-batch_shape4] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestDecomposeEssentialMatrixNoSVD::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestDecomposeEssentialMatrixNoSVD::test_correct_decompose PASSED
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestDecomposeEssentialMatrixNoSVD::test_consistency[cpu-float32] XFAIL
+../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestDecomposeEssentialMatrixNoSVD::test_consistency[cpu-float32] XPASS
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_smoke[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape0] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape1] PASSED
@@ -351,4 +351,4 @@ tests/geometry/epipolar/test_essential.py::TestDecomposeEssentialMatrixNoSVD::te
     cross_products = torch.stack([torch.cross(e1, e2), torch.cross(e2, e3), torch.cross(e3, e1)], dim=1)
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-============= 66 passed, 1 xfailed, 2 xpassed, 1 warning in 0.73s ==============
+============= 66 passed, 1 xfailed, 2 xpassed, 1 warning in 0.85s ==============

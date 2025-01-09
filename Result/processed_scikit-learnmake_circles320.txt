@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles_unbalanced', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles', '../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles_unbalanced FAILED'}
+{'../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 55 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 176511999
+../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 859092991
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_informative_features PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_weights_type[weights0-ValueError-Weights specified but incompatible with number of classes.] PASSED
@@ -73,7 +73,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_moons PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_moons_unbalanced PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles FAILED
-../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles_unbalanced FAILED
+../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles_unbalanced PASSED
 
 =================================== FAILURES ===================================
 ______________________________ test_make_circles _______________________________
@@ -112,69 +112,9 @@ E            ACTUAL: np.float64(0.6400000000000001)
 E            DESIRED: 0.09
 
 /usr/local/lib/python3.9/contextlib.py:79: AssertionError
-_________________________ test_make_circles_unbalanced _________________________
-
-    def test_make_circles_unbalanced():
-        X, y = make_circles(n_samples=(2, 8))
-    
-        assert np.sum(y == 0) == 2, "Number of samples in inner circle is wrong"
-        assert np.sum(y == 1) == 8, "Number of samples in outer circle is wrong"
-        assert X.shape == (10, 2), "X shape mismatch"
-        assert y.shape == (10,), "y shape mismatch"
-    
-        with pytest.raises(
-            ValueError,
-            match="When a tuple, n_samples must have exactly two elements.",
-        ):
->           make_circles(n_samples=(10,))
-
-../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py:686: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:216: in wrapper
-    return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/datasets/_samples_generator.py:528: in make_circles
-    return make_circles(n_samples)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-n_samples = (10,), shuffle = True, noise = None, random_state = None
-factor = 0.8
-
-    def make_circles(n_samples=100, shuffle=True, noise=None, random_state=None, factor=0.8):
-        if isinstance(n_samples, int):
-            n_samples_out = n_samples // 2
-            n_samples_in = n_samples - n_samples_out
-        elif isinstance(n_samples, tuple) and len(n_samples) == 2:
-            n_samples_out, n_samples_in = n_samples
-        else:
->           raise ValueError('n_samples must be an integer or a tuple of two integers.')
-E           ValueError: n_samples must be an integer or a tuple of two integers.
-
-../publishablew/scikit-learn/scikit-learn/sklearn/datasets/temp.py:22: ValueError
-
-During handling of the above exception, another exception occurred:
-
-    def test_make_circles_unbalanced():
-        X, y = make_circles(n_samples=(2, 8))
-    
-        assert np.sum(y == 0) == 2, "Number of samples in inner circle is wrong"
-        assert np.sum(y == 1) == 8, "Number of samples in outer circle is wrong"
-        assert X.shape == (10, 2), "X shape mismatch"
-        assert y.shape == (10,), "y shape mismatch"
-    
-        with pytest.raises(
-            ValueError,
-            match="When a tuple, n_samples must have exactly two elements.",
-        ):
->           make_circles(n_samples=(10,))
-E           AssertionError: Regex pattern did not match.
-E            Regex: 'When a tuple, n_samples must have exactly two elements.'
-E            Input: 'n_samples must be an integer or a tuple of two integers.'
-
-../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py:686: AssertionError
 =========================== short test summary info ============================
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles
-FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles_unbalanced
-========================= 2 failed, 53 passed in 0.31s =========================
+========================= 1 failed, 54 passed in 0.29s =========================
 
 
 Final Test Result:
@@ -186,7 +126,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 55 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 1398489919
+../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 8149243
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_informative_features PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_weights_type[weights0-ValueError-Weights specified but incompatible with number of classes.] PASSED
@@ -243,7 +183,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles_unbalanced PASSED
 
-============================== 55 passed in 0.17s ==============================
+============================== 55 passed in 0.18s ==============================
 
 
 Initial Result:
@@ -255,7 +195,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 55 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 956588202
+../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 380337109
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_informative_features PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_weights_type[weights0-ValueError-Weights specified but incompatible with number of classes.] PASSED

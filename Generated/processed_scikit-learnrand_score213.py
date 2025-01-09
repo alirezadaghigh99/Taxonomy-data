@@ -1,18 +1,21 @@
+from sklearn.metrics import pair_confusion_matrix
 import numpy as np
-from sklearn.metrics.cluster import pair_confusion_matrix
 
 def rand_score(labels_true, labels_pred):
     """
     Calculate the Rand Index (RI) between two clusterings.
-    
+
     Parameters:
-    labels_true (array-like): Ground truth class labels.
-    labels_pred (array-like): Cluster labels to evaluate.
-    
+    labels_true : array-like of shape (n_samples,)
+        Ground truth class labels.
+    labels_pred : array-like of shape (n_samples,)
+        Cluster labels to evaluate.
+
     Returns:
-    float: Rand Index score between 0.0 and 1.0.
+    float
+        The Rand Index, a similarity measure between 0.0 and 1.0.
     """
-    # Compute the pair confusion matrix
+    # Calculate the pair confusion matrix
     contingency = pair_confusion_matrix(labels_true, labels_pred)
     
     # Extract the elements of the pair confusion matrix
@@ -23,11 +26,12 @@ def rand_score(labels_true, labels_pred):
     denominator = tp + tn + fp + fn
     
     # Handle special cases
-    if numerator == denominator or denominator == 0:
+    if denominator == 0:
+        return 1.0
+    if numerator == denominator:
         return 1.0
     
     # Calculate the Rand Index
-    ri_score = numerator / denominator
-    
-    return ri_score
+    ri = numerator / denominator
+    return ri
 

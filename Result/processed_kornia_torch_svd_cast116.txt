@@ -35,40 +35,41 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'inductor', 'onnxrt', 'openxla', 'cudagraphs', 'jit', None}
+available optimizers: {'', 'openxla', 'inductor', 'tvm', 'jit', 'onnxrt', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
 configfile: pyproject.toml
 plugins: timeout-2.3.1
-collecting ... collected 24 items
+collecting ... collected 19 items
 
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list0-out_device0-out_dtype0-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list1-out_device1-out_dtype1-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list2-out_device2-out_dtype2-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list3-out_device3-out_dtype3-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list4-out_device4-out_dtype4-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list5-out_device5-out_dtype5-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list6-out_device6-out_dtype6-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list7-out_device7-out_dtype7-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list8-None-None-True] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list9-None-None-True] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list10-None-None-True] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_smoke[cpu-float32-input_shape0] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_smoke[cpu-float32-input_shape1] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_smoke[cpu-float32-input_shape2] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_values[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_jit[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_not_invertible[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestHistcCast::test_smoke[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSvdCast::test_smoke[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveCast::test_smoke[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_smoke[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_all_bad[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseWithMask::test_smoke[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseWithMask::test_all_bad[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_smoke[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_smoke2[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_nocrash[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_shape[cpu-float32-1-4] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_shape[cpu-float32-2-5] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_shape[cpu-float32-3-6] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_shape_noweights[cpu-float32-1-4] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_shape_noweights[cpu-float32-2-5] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_shape_noweights[cpu-float32-3-6] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_points_noweights[cpu-float32-1-4] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_points_noweights[cpu-float32-2-5] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_points_noweights[cpu-float32-3-6] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_clean_points[cpu-float32-1] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_clean_points[cpu-float32-2] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_clean_points[cpu-float32-5] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_clean_points_iter[cpu-float32-1] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_clean_points_iter[cpu-float32-2] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_clean_points_iter[cpu-float32-5] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_gradcheck[cpu] PASSED
 
-============================== 24 passed in 0.22s ==============================
+=============================== warnings summary ===============================
+tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_nocrash[cpu-float32]
+  /local/data0/moved_data/publishablew/kornia/kornia/kornia/geometry/homography.py:309: RuntimeWarning: SVD did not converge
+    warnings.warn("SVD did not converge", RuntimeWarning)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 19 passed, 1 warning in 0.23s =========================
 
 
 Final Test Result:
@@ -97,40 +98,41 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'tvm', 'jit', 'inductor', 'cudagraphs', 'onnxrt', None}
+available optimizers: {'', 'jit', 'openxla', 'cudagraphs', 'onnxrt', 'inductor', None, 'tvm'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
 configfile: pyproject.toml
 plugins: timeout-2.3.1
-collecting ... collected 24 items
+collecting ... collected 19 items
 
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list0-out_device0-out_dtype0-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list1-out_device1-out_dtype1-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list2-out_device2-out_dtype2-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list3-out_device3-out_dtype3-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list4-out_device4-out_dtype4-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list5-out_device5-out_dtype5-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list6-out_device6-out_dtype6-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list7-out_device7-out_dtype7-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list8-None-None-True] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list9-None-None-True] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list10-None-None-True] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_smoke[cpu-float32-input_shape0] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_smoke[cpu-float32-input_shape1] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_smoke[cpu-float32-input_shape2] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_values[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_jit[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_not_invertible[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestHistcCast::test_smoke[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSvdCast::test_smoke[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveCast::test_smoke[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_smoke[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_all_bad[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseWithMask::test_smoke[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseWithMask::test_all_bad[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_smoke[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_smoke2[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_nocrash[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_shape[cpu-float32-1-4] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_shape[cpu-float32-2-5] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_shape[cpu-float32-3-6] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_shape_noweights[cpu-float32-1-4] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_shape_noweights[cpu-float32-2-5] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_shape_noweights[cpu-float32-3-6] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_points_noweights[cpu-float32-1-4] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_points_noweights[cpu-float32-2-5] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_points_noweights[cpu-float32-3-6] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_clean_points[cpu-float32-1] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_clean_points[cpu-float32-2] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_clean_points[cpu-float32-5] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_clean_points_iter[cpu-float32-1] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_clean_points_iter[cpu-float32-2] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_clean_points_iter[cpu-float32-5] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_gradcheck[cpu] PASSED
 
-============================== 24 passed in 0.21s ==============================
+=============================== warnings summary ===============================
+tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_nocrash[cpu-float32]
+  /local/data0/moved_data/publishablew/kornia/kornia/kornia/geometry/homography.py:309: RuntimeWarning: SVD did not converge
+    warnings.warn("SVD did not converge", RuntimeWarning)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 19 passed, 1 warning in 0.22s =========================
 
 
 Initial Result:
@@ -159,37 +161,38 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'onnxrt', 'openxla', 'inductor', 'tvm', None, 'jit'}
+available optimizers: {'', 'cudagraphs', 'jit', 'onnxrt', 'tvm', 'openxla', 'inductor', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
 configfile: pyproject.toml
 plugins: timeout-2.3.1
-collecting ... collected 24 items
+collecting ... collected 19 items
 
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list0-out_device0-out_dtype0-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list1-out_device1-out_dtype1-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list2-out_device2-out_dtype2-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list3-out_device3-out_dtype3-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list4-out_device4-out_dtype4-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list5-out_device5-out_dtype5-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list6-out_device6-out_dtype6-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list7-out_device7-out_dtype7-False] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list8-None-None-True] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list9-None-None-True] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::test_extract_device_dtype[tensor_list10-None-None-True] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_smoke[cpu-float32-input_shape0] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_smoke[cpu-float32-input_shape1] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_smoke[cpu-float32-input_shape2] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_values[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_jit[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseCast::test_not_invertible[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestHistcCast::test_smoke[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSvdCast::test_smoke[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveCast::test_smoke[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_smoke[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestSolveWithMask::test_all_bad[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseWithMask::test_smoke[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/utils/test_helpers.py::TestInverseWithMask::test_all_bad[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_smoke[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_smoke2[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_nocrash[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_shape[cpu-float32-1-4] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_shape[cpu-float32-2-5] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_shape[cpu-float32-3-6] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_shape_noweights[cpu-float32-1-4] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_shape_noweights[cpu-float32-2-5] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_shape_noweights[cpu-float32-3-6] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_points_noweights[cpu-float32-1-4] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_points_noweights[cpu-float32-2-5] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_points_noweights[cpu-float32-3-6] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_clean_points[cpu-float32-1] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_clean_points[cpu-float32-2] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_clean_points[cpu-float32-5] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_clean_points_iter[cpu-float32-1] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_clean_points_iter[cpu-float32-2] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_clean_points_iter[cpu-float32-5] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_gradcheck[cpu] PASSED
 
-============================== 24 passed in 0.22s ==============================
+=============================== warnings summary ===============================
+tests/geometry/test_homography.py::TestFindHomographyFromLinesDLT::test_nocrash[cpu-float32]
+  /local/data0/moved_data/publishablew/kornia/kornia/kornia/geometry/homography.py:309: RuntimeWarning: SVD did not converge
+    warnings.warn("SVD did not converge", RuntimeWarning)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 19 passed, 1 warning in 0.26s =========================

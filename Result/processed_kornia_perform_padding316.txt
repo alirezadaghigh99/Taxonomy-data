@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'inductor', 'jit', 'onnxrt', 'openxla', 'cudagraphs', 'tvm', None}
+available optimizers: {'', 'openxla', 'jit', 'tvm', 'inductor', 'cudagraphs', 'onnxrt', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -90,7 +90,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'inductor', 'openxla', 'cudagraphs', 'tvm', 'jit', None, 'onnxrt'}
+available optimizers: {'', 'inductor', 'jit', 'openxla', 'tvm', 'cudagraphs', 'onnxrt', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -145,7 +145,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'inductor', 'tvm', 'cudagraphs', 'onnxrt', None, 'jit'}
+available optimizers: {'', 'jit', 'cudagraphs', 'tvm', 'openxla', 'onnxrt', 'inductor', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia

@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-circular]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-reflect]', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-reflect] FAILED', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-circular] FAILED', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-constant] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-reflect]', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-constant] FAILED', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-circular] FAILED', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-constant] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-reflect]', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-replicate] FAILED', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-constant] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-replicate]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-constant]', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-circular] FAILED', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-replicate] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-circular]', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-circular] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-constant]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-replicate]', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-reflect] FAILED', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-reflect] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-constant]', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-replicate] FAILED', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-replicate] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-reflect]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-replicate]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-circular]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-replicate]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-circular]', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-reflect] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-constant]'}
+{'../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-reflect] FAILED', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-replicate] FAILED', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-replicate] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-replicate]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-constant]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-replicate]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-circular]', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-constant] FAILED', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-constant] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-circular]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-constant]', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-reflect] FAILED', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-circular] FAILED', '../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-circular] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-reflect]', 'FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-reflect]'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'inductor', 'onnxrt', 'cudagraphs', 'jit', None, 'openxla'}
+available optimizers: {'', 'tvm', 'openxla', 'onnxrt', 'jit', 'cudagraphs', 'inductor', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -43,14 +43,14 @@ configfile: pyproject.toml
 plugins: timeout-2.3.1
 collecting ... collected 16 items
 
-../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-constant] FAILED
-../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-reflect] FAILED
-../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-replicate] FAILED
-../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-circular] FAILED
-../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-constant] FAILED
-../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-reflect] FAILED
-../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-replicate] FAILED
-../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-circular] FAILED
+../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-constant] PASSED
+../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-reflect] PASSED
+../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-replicate] PASSED
+../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-circular] PASSED
+../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-constant] PASSED
+../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-reflect] PASSED
+../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-replicate] PASSED
+../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-circular] PASSED
 ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-constant] FAILED
 ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-reflect] FAILED
 ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-replicate] FAILED
@@ -61,616 +61,9 @@ collecting ... collected 16 items
 ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-circular] FAILED
 
 =================================== FAILURES ===================================
-___________ TestFilter2D.test_smoke[cpu-float32-same-True-constant] ____________
-
-self = <test_filters.TestFilter2D object at 0x7412bc8edf00>
-border_type = 'constant', normalized = True, padding = 'same'
-device = device(type='cpu'), dtype = torch.float32
-
-    @pytest.mark.parametrize("border_type", ["constant", "reflect", "replicate", "circular"])
-    @pytest.mark.parametrize("normalized", [True, False])
-    @pytest.mark.parametrize("padding", ["same", "valid"])
-    def test_smoke(self, border_type, normalized, padding, device, dtype):
-        kernel = torch.rand(1, 3, 3, device=device, dtype=dtype)
-        _, height, width = kernel.shape
-        sample = torch.ones(1, 1, 7, 8, device=device, dtype=dtype)
-        b, c, h, w = sample.shape
-    
->       actual = filter2d(sample, kernel, border_type, normalized, padding)
-
-../publishablew/kornia/kornia/tests/filters/test_filters.py:20: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/filters/filter.py:26: in filter2d
-    return filter2d(input, kernel, border_type, normalized, padding, behaviour)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-input = tensor([[[[0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
-          [0., 1., 1., 1., 1., 1., 1., 1., 1., 0.],
-          [0.,...1., 1., 0.],
-          [0., 1., 1., 1., 1., 1., 1., 1., 1., 0.],
-          [0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]]]])
-kernel = tensor([[[[0.1303, 0.1268, 0.1394],
-          [0.2295, 0.0855, 0.1835],
-          [0.0323, 0.0705, 0.0023]]]])
-border_type = 'constant', normalized = True, padding = 'same'
-behaviour = 'corr'
-
-    def filter2d(input, kernel, border_type='constant', normalized=False, padding='same', behaviour='corr'):
-        """
-        Convolve a tensor with a 2d kernel.
-    
-        Args:
-            input (torch.Tensor): the input tensor with shape of (B, C, H, W).
-            kernel (torch.Tensor): the kernel to be convolved with the input tensor.
-                                   The kernel shape must be (1, kH, kW) or (B, kH, kW).
-            border_type (str): the padding mode to be applied before convolving.
-                               The expected modes are: 'constant', 'reflect', 'replicate' or 'circular'.
-            normalized (bool): If True, kernel will be L1 normalized.
-            padding (str): This defines the type of padding. 2 modes available 'same' or 'valid'.
-            behaviour (str): defines the convolution mode -- correlation (default), using pytorch conv2d,
-                             or true convolution (kernel is flipped). 2 modes available 'corr' or 'conv'.
-    
-        Returns:
-            torch.Tensor: the convolved tensor of same size and numbers of channels as the input with shape (B, C, H, W).
-        """
-        B, C, H, W = input.shape
-        if kernel.dim() == 3:
-            kernel = kernel.unsqueeze(1)
-        elif kernel.dim() == 2:
-            kernel = kernel.unsqueeze(0).unsqueeze(0)
-        else:
-            raise ValueError('Kernel must be of shape (1, kH, kW) or (B, kH, kW)')
-        if normalized:
-            kernel = kernel / kernel.sum(dim=(-2, -1), keepdim=True)
-        if behaviour == 'conv':
-            kernel = torch.flip(kernel, dims=(-2, -1))
-        if padding == 'same':
-            pad_h = (kernel.shape[-2] - 1) // 2
-            pad_w = (kernel.shape[-1] - 1) // 2
-            input = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode=border_type)
-        elif padding != 'valid':
-            raise ValueError("Padding must be 'same' or 'valid'")
-        output = torch.zeros_like(input)
-        for b in range(B):
-            for c in range(C):
->               output[b, c] = F.conv2d(input[b, c].unsqueeze(0).unsqueeze(0), kernel[b % kernel.shape[0]], padding=0).squeeze(0).squeeze(0)
-E               RuntimeError: expected stride to be a single integer value or a list of 1 values to match the convolution dimensions, but got stride=[1, 1]
-
-../publishablew/kornia/kornia/kornia/filters/temp.py:47: RuntimeError
-____________ TestFilter2D.test_smoke[cpu-float32-same-True-reflect] ____________
-
-self = <test_filters.TestFilter2D object at 0x7412bc8ede10>
-border_type = 'reflect', normalized = True, padding = 'same'
-device = device(type='cpu'), dtype = torch.float32
-
-    @pytest.mark.parametrize("border_type", ["constant", "reflect", "replicate", "circular"])
-    @pytest.mark.parametrize("normalized", [True, False])
-    @pytest.mark.parametrize("padding", ["same", "valid"])
-    def test_smoke(self, border_type, normalized, padding, device, dtype):
-        kernel = torch.rand(1, 3, 3, device=device, dtype=dtype)
-        _, height, width = kernel.shape
-        sample = torch.ones(1, 1, 7, 8, device=device, dtype=dtype)
-        b, c, h, w = sample.shape
-    
->       actual = filter2d(sample, kernel, border_type, normalized, padding)
-
-../publishablew/kornia/kornia/tests/filters/test_filters.py:20: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/filters/filter.py:26: in filter2d
-    return filter2d(input, kernel, border_type, normalized, padding, behaviour)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-input = tensor([[[[1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
-          [1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
-          [1.,...1., 1., 1.],
-          [1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
-          [1., 1., 1., 1., 1., 1., 1., 1., 1., 1.]]]])
-kernel = tensor([[[[0.0705, 0.1646, 0.1700],
-          [0.0638, 0.0510, 0.1543],
-          [0.0129, 0.1894, 0.1236]]]])
-border_type = 'reflect', normalized = True, padding = 'same', behaviour = 'corr'
-
-    def filter2d(input, kernel, border_type='constant', normalized=False, padding='same', behaviour='corr'):
-        """
-        Convolve a tensor with a 2d kernel.
-    
-        Args:
-            input (torch.Tensor): the input tensor with shape of (B, C, H, W).
-            kernel (torch.Tensor): the kernel to be convolved with the input tensor.
-                                   The kernel shape must be (1, kH, kW) or (B, kH, kW).
-            border_type (str): the padding mode to be applied before convolving.
-                               The expected modes are: 'constant', 'reflect', 'replicate' or 'circular'.
-            normalized (bool): If True, kernel will be L1 normalized.
-            padding (str): This defines the type of padding. 2 modes available 'same' or 'valid'.
-            behaviour (str): defines the convolution mode -- correlation (default), using pytorch conv2d,
-                             or true convolution (kernel is flipped). 2 modes available 'corr' or 'conv'.
-    
-        Returns:
-            torch.Tensor: the convolved tensor of same size and numbers of channels as the input with shape (B, C, H, W).
-        """
-        B, C, H, W = input.shape
-        if kernel.dim() == 3:
-            kernel = kernel.unsqueeze(1)
-        elif kernel.dim() == 2:
-            kernel = kernel.unsqueeze(0).unsqueeze(0)
-        else:
-            raise ValueError('Kernel must be of shape (1, kH, kW) or (B, kH, kW)')
-        if normalized:
-            kernel = kernel / kernel.sum(dim=(-2, -1), keepdim=True)
-        if behaviour == 'conv':
-            kernel = torch.flip(kernel, dims=(-2, -1))
-        if padding == 'same':
-            pad_h = (kernel.shape[-2] - 1) // 2
-            pad_w = (kernel.shape[-1] - 1) // 2
-            input = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode=border_type)
-        elif padding != 'valid':
-            raise ValueError("Padding must be 'same' or 'valid'")
-        output = torch.zeros_like(input)
-        for b in range(B):
-            for c in range(C):
->               output[b, c] = F.conv2d(input[b, c].unsqueeze(0).unsqueeze(0), kernel[b % kernel.shape[0]], padding=0).squeeze(0).squeeze(0)
-E               RuntimeError: expected stride to be a single integer value or a list of 1 values to match the convolution dimensions, but got stride=[1, 1]
-
-../publishablew/kornia/kornia/kornia/filters/temp.py:47: RuntimeError
-___________ TestFilter2D.test_smoke[cpu-float32-same-True-replicate] ___________
-
-self = <test_filters.TestFilter2D object at 0x7412bc8edcf0>
-border_type = 'replicate', normalized = True, padding = 'same'
-device = device(type='cpu'), dtype = torch.float32
-
-    @pytest.mark.parametrize("border_type", ["constant", "reflect", "replicate", "circular"])
-    @pytest.mark.parametrize("normalized", [True, False])
-    @pytest.mark.parametrize("padding", ["same", "valid"])
-    def test_smoke(self, border_type, normalized, padding, device, dtype):
-        kernel = torch.rand(1, 3, 3, device=device, dtype=dtype)
-        _, height, width = kernel.shape
-        sample = torch.ones(1, 1, 7, 8, device=device, dtype=dtype)
-        b, c, h, w = sample.shape
-    
->       actual = filter2d(sample, kernel, border_type, normalized, padding)
-
-../publishablew/kornia/kornia/tests/filters/test_filters.py:20: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/filters/filter.py:26: in filter2d
-    return filter2d(input, kernel, border_type, normalized, padding, behaviour)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-input = tensor([[[[1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
-          [1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
-          [1.,...1., 1., 1.],
-          [1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
-          [1., 1., 1., 1., 1., 1., 1., 1., 1., 1.]]]])
-kernel = tensor([[[[0.1462, 0.1126, 0.0151],
-          [0.1770, 0.0450, 0.1683],
-          [0.0522, 0.1191, 0.1645]]]])
-border_type = 'replicate', normalized = True, padding = 'same'
-behaviour = 'corr'
-
-    def filter2d(input, kernel, border_type='constant', normalized=False, padding='same', behaviour='corr'):
-        """
-        Convolve a tensor with a 2d kernel.
-    
-        Args:
-            input (torch.Tensor): the input tensor with shape of (B, C, H, W).
-            kernel (torch.Tensor): the kernel to be convolved with the input tensor.
-                                   The kernel shape must be (1, kH, kW) or (B, kH, kW).
-            border_type (str): the padding mode to be applied before convolving.
-                               The expected modes are: 'constant', 'reflect', 'replicate' or 'circular'.
-            normalized (bool): If True, kernel will be L1 normalized.
-            padding (str): This defines the type of padding. 2 modes available 'same' or 'valid'.
-            behaviour (str): defines the convolution mode -- correlation (default), using pytorch conv2d,
-                             or true convolution (kernel is flipped). 2 modes available 'corr' or 'conv'.
-    
-        Returns:
-            torch.Tensor: the convolved tensor of same size and numbers of channels as the input with shape (B, C, H, W).
-        """
-        B, C, H, W = input.shape
-        if kernel.dim() == 3:
-            kernel = kernel.unsqueeze(1)
-        elif kernel.dim() == 2:
-            kernel = kernel.unsqueeze(0).unsqueeze(0)
-        else:
-            raise ValueError('Kernel must be of shape (1, kH, kW) or (B, kH, kW)')
-        if normalized:
-            kernel = kernel / kernel.sum(dim=(-2, -1), keepdim=True)
-        if behaviour == 'conv':
-            kernel = torch.flip(kernel, dims=(-2, -1))
-        if padding == 'same':
-            pad_h = (kernel.shape[-2] - 1) // 2
-            pad_w = (kernel.shape[-1] - 1) // 2
-            input = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode=border_type)
-        elif padding != 'valid':
-            raise ValueError("Padding must be 'same' or 'valid'")
-        output = torch.zeros_like(input)
-        for b in range(B):
-            for c in range(C):
->               output[b, c] = F.conv2d(input[b, c].unsqueeze(0).unsqueeze(0), kernel[b % kernel.shape[0]], padding=0).squeeze(0).squeeze(0)
-E               RuntimeError: expected stride to be a single integer value or a list of 1 values to match the convolution dimensions, but got stride=[1, 1]
-
-../publishablew/kornia/kornia/kornia/filters/temp.py:47: RuntimeError
-___________ TestFilter2D.test_smoke[cpu-float32-same-True-circular] ____________
-
-self = <test_filters.TestFilter2D object at 0x7412bc8ee530>
-border_type = 'circular', normalized = True, padding = 'same'
-device = device(type='cpu'), dtype = torch.float32
-
-    @pytest.mark.parametrize("border_type", ["constant", "reflect", "replicate", "circular"])
-    @pytest.mark.parametrize("normalized", [True, False])
-    @pytest.mark.parametrize("padding", ["same", "valid"])
-    def test_smoke(self, border_type, normalized, padding, device, dtype):
-        kernel = torch.rand(1, 3, 3, device=device, dtype=dtype)
-        _, height, width = kernel.shape
-        sample = torch.ones(1, 1, 7, 8, device=device, dtype=dtype)
-        b, c, h, w = sample.shape
-    
->       actual = filter2d(sample, kernel, border_type, normalized, padding)
-
-../publishablew/kornia/kornia/tests/filters/test_filters.py:20: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/filters/filter.py:26: in filter2d
-    return filter2d(input, kernel, border_type, normalized, padding, behaviour)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-input = tensor([[[[1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
-          [1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
-          [1.,...1., 1., 1.],
-          [1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
-          [1., 1., 1., 1., 1., 1., 1., 1., 1., 1.]]]])
-kernel = tensor([[[[0.1304, 0.0258, 0.1040],
-          [0.1441, 0.1353, 0.1912],
-          [0.1636, 0.0635, 0.0422]]]])
-border_type = 'circular', normalized = True, padding = 'same'
-behaviour = 'corr'
-
-    def filter2d(input, kernel, border_type='constant', normalized=False, padding='same', behaviour='corr'):
-        """
-        Convolve a tensor with a 2d kernel.
-    
-        Args:
-            input (torch.Tensor): the input tensor with shape of (B, C, H, W).
-            kernel (torch.Tensor): the kernel to be convolved with the input tensor.
-                                   The kernel shape must be (1, kH, kW) or (B, kH, kW).
-            border_type (str): the padding mode to be applied before convolving.
-                               The expected modes are: 'constant', 'reflect', 'replicate' or 'circular'.
-            normalized (bool): If True, kernel will be L1 normalized.
-            padding (str): This defines the type of padding. 2 modes available 'same' or 'valid'.
-            behaviour (str): defines the convolution mode -- correlation (default), using pytorch conv2d,
-                             or true convolution (kernel is flipped). 2 modes available 'corr' or 'conv'.
-    
-        Returns:
-            torch.Tensor: the convolved tensor of same size and numbers of channels as the input with shape (B, C, H, W).
-        """
-        B, C, H, W = input.shape
-        if kernel.dim() == 3:
-            kernel = kernel.unsqueeze(1)
-        elif kernel.dim() == 2:
-            kernel = kernel.unsqueeze(0).unsqueeze(0)
-        else:
-            raise ValueError('Kernel must be of shape (1, kH, kW) or (B, kH, kW)')
-        if normalized:
-            kernel = kernel / kernel.sum(dim=(-2, -1), keepdim=True)
-        if behaviour == 'conv':
-            kernel = torch.flip(kernel, dims=(-2, -1))
-        if padding == 'same':
-            pad_h = (kernel.shape[-2] - 1) // 2
-            pad_w = (kernel.shape[-1] - 1) // 2
-            input = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode=border_type)
-        elif padding != 'valid':
-            raise ValueError("Padding must be 'same' or 'valid'")
-        output = torch.zeros_like(input)
-        for b in range(B):
-            for c in range(C):
->               output[b, c] = F.conv2d(input[b, c].unsqueeze(0).unsqueeze(0), kernel[b % kernel.shape[0]], padding=0).squeeze(0).squeeze(0)
-E               RuntimeError: expected stride to be a single integer value or a list of 1 values to match the convolution dimensions, but got stride=[1, 1]
-
-../publishablew/kornia/kornia/kornia/filters/temp.py:47: RuntimeError
-___________ TestFilter2D.test_smoke[cpu-float32-same-False-constant] ___________
-
-self = <test_filters.TestFilter2D object at 0x7412bc8ee5f0>
-border_type = 'constant', normalized = False, padding = 'same'
-device = device(type='cpu'), dtype = torch.float32
-
-    @pytest.mark.parametrize("border_type", ["constant", "reflect", "replicate", "circular"])
-    @pytest.mark.parametrize("normalized", [True, False])
-    @pytest.mark.parametrize("padding", ["same", "valid"])
-    def test_smoke(self, border_type, normalized, padding, device, dtype):
-        kernel = torch.rand(1, 3, 3, device=device, dtype=dtype)
-        _, height, width = kernel.shape
-        sample = torch.ones(1, 1, 7, 8, device=device, dtype=dtype)
-        b, c, h, w = sample.shape
-    
->       actual = filter2d(sample, kernel, border_type, normalized, padding)
-
-../publishablew/kornia/kornia/tests/filters/test_filters.py:20: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/filters/filter.py:26: in filter2d
-    return filter2d(input, kernel, border_type, normalized, padding, behaviour)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-input = tensor([[[[0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
-          [0., 1., 1., 1., 1., 1., 1., 1., 1., 0.],
-          [0.,...1., 1., 0.],
-          [0., 1., 1., 1., 1., 1., 1., 1., 1., 0.],
-          [0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]]]])
-kernel = tensor([[[[0.5804, 0.4721, 0.0096],
-          [0.3948, 0.9777, 0.4315],
-          [0.7166, 0.4101, 0.1796]]]])
-border_type = 'constant', normalized = False, padding = 'same'
-behaviour = 'corr'
-
-    def filter2d(input, kernel, border_type='constant', normalized=False, padding='same', behaviour='corr'):
-        """
-        Convolve a tensor with a 2d kernel.
-    
-        Args:
-            input (torch.Tensor): the input tensor with shape of (B, C, H, W).
-            kernel (torch.Tensor): the kernel to be convolved with the input tensor.
-                                   The kernel shape must be (1, kH, kW) or (B, kH, kW).
-            border_type (str): the padding mode to be applied before convolving.
-                               The expected modes are: 'constant', 'reflect', 'replicate' or 'circular'.
-            normalized (bool): If True, kernel will be L1 normalized.
-            padding (str): This defines the type of padding. 2 modes available 'same' or 'valid'.
-            behaviour (str): defines the convolution mode -- correlation (default), using pytorch conv2d,
-                             or true convolution (kernel is flipped). 2 modes available 'corr' or 'conv'.
-    
-        Returns:
-            torch.Tensor: the convolved tensor of same size and numbers of channels as the input with shape (B, C, H, W).
-        """
-        B, C, H, W = input.shape
-        if kernel.dim() == 3:
-            kernel = kernel.unsqueeze(1)
-        elif kernel.dim() == 2:
-            kernel = kernel.unsqueeze(0).unsqueeze(0)
-        else:
-            raise ValueError('Kernel must be of shape (1, kH, kW) or (B, kH, kW)')
-        if normalized:
-            kernel = kernel / kernel.sum(dim=(-2, -1), keepdim=True)
-        if behaviour == 'conv':
-            kernel = torch.flip(kernel, dims=(-2, -1))
-        if padding == 'same':
-            pad_h = (kernel.shape[-2] - 1) // 2
-            pad_w = (kernel.shape[-1] - 1) // 2
-            input = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode=border_type)
-        elif padding != 'valid':
-            raise ValueError("Padding must be 'same' or 'valid'")
-        output = torch.zeros_like(input)
-        for b in range(B):
-            for c in range(C):
->               output[b, c] = F.conv2d(input[b, c].unsqueeze(0).unsqueeze(0), kernel[b % kernel.shape[0]], padding=0).squeeze(0).squeeze(0)
-E               RuntimeError: expected stride to be a single integer value or a list of 1 values to match the convolution dimensions, but got stride=[1, 1]
-
-../publishablew/kornia/kornia/kornia/filters/temp.py:47: RuntimeError
-___________ TestFilter2D.test_smoke[cpu-float32-same-False-reflect] ____________
-
-self = <test_filters.TestFilter2D object at 0x7412bc8ee6b0>
-border_type = 'reflect', normalized = False, padding = 'same'
-device = device(type='cpu'), dtype = torch.float32
-
-    @pytest.mark.parametrize("border_type", ["constant", "reflect", "replicate", "circular"])
-    @pytest.mark.parametrize("normalized", [True, False])
-    @pytest.mark.parametrize("padding", ["same", "valid"])
-    def test_smoke(self, border_type, normalized, padding, device, dtype):
-        kernel = torch.rand(1, 3, 3, device=device, dtype=dtype)
-        _, height, width = kernel.shape
-        sample = torch.ones(1, 1, 7, 8, device=device, dtype=dtype)
-        b, c, h, w = sample.shape
-    
->       actual = filter2d(sample, kernel, border_type, normalized, padding)
-
-../publishablew/kornia/kornia/tests/filters/test_filters.py:20: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/filters/filter.py:26: in filter2d
-    return filter2d(input, kernel, border_type, normalized, padding, behaviour)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-input = tensor([[[[1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
-          [1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
-          [1.,...1., 1., 1.],
-          [1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
-          [1., 1., 1., 1., 1., 1., 1., 1., 1., 1.]]]])
-kernel = tensor([[[[0.6018, 0.6430, 0.7554],
-          [0.9481, 0.3549, 0.3228],
-          [0.0810, 0.3789, 0.4978]]]])
-border_type = 'reflect', normalized = False, padding = 'same'
-behaviour = 'corr'
-
-    def filter2d(input, kernel, border_type='constant', normalized=False, padding='same', behaviour='corr'):
-        """
-        Convolve a tensor with a 2d kernel.
-    
-        Args:
-            input (torch.Tensor): the input tensor with shape of (B, C, H, W).
-            kernel (torch.Tensor): the kernel to be convolved with the input tensor.
-                                   The kernel shape must be (1, kH, kW) or (B, kH, kW).
-            border_type (str): the padding mode to be applied before convolving.
-                               The expected modes are: 'constant', 'reflect', 'replicate' or 'circular'.
-            normalized (bool): If True, kernel will be L1 normalized.
-            padding (str): This defines the type of padding. 2 modes available 'same' or 'valid'.
-            behaviour (str): defines the convolution mode -- correlation (default), using pytorch conv2d,
-                             or true convolution (kernel is flipped). 2 modes available 'corr' or 'conv'.
-    
-        Returns:
-            torch.Tensor: the convolved tensor of same size and numbers of channels as the input with shape (B, C, H, W).
-        """
-        B, C, H, W = input.shape
-        if kernel.dim() == 3:
-            kernel = kernel.unsqueeze(1)
-        elif kernel.dim() == 2:
-            kernel = kernel.unsqueeze(0).unsqueeze(0)
-        else:
-            raise ValueError('Kernel must be of shape (1, kH, kW) or (B, kH, kW)')
-        if normalized:
-            kernel = kernel / kernel.sum(dim=(-2, -1), keepdim=True)
-        if behaviour == 'conv':
-            kernel = torch.flip(kernel, dims=(-2, -1))
-        if padding == 'same':
-            pad_h = (kernel.shape[-2] - 1) // 2
-            pad_w = (kernel.shape[-1] - 1) // 2
-            input = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode=border_type)
-        elif padding != 'valid':
-            raise ValueError("Padding must be 'same' or 'valid'")
-        output = torch.zeros_like(input)
-        for b in range(B):
-            for c in range(C):
->               output[b, c] = F.conv2d(input[b, c].unsqueeze(0).unsqueeze(0), kernel[b % kernel.shape[0]], padding=0).squeeze(0).squeeze(0)
-E               RuntimeError: expected stride to be a single integer value or a list of 1 values to match the convolution dimensions, but got stride=[1, 1]
-
-../publishablew/kornia/kornia/kornia/filters/temp.py:47: RuntimeError
-__________ TestFilter2D.test_smoke[cpu-float32-same-False-replicate] ___________
-
-self = <test_filters.TestFilter2D object at 0x7412bc8ee770>
-border_type = 'replicate', normalized = False, padding = 'same'
-device = device(type='cpu'), dtype = torch.float32
-
-    @pytest.mark.parametrize("border_type", ["constant", "reflect", "replicate", "circular"])
-    @pytest.mark.parametrize("normalized", [True, False])
-    @pytest.mark.parametrize("padding", ["same", "valid"])
-    def test_smoke(self, border_type, normalized, padding, device, dtype):
-        kernel = torch.rand(1, 3, 3, device=device, dtype=dtype)
-        _, height, width = kernel.shape
-        sample = torch.ones(1, 1, 7, 8, device=device, dtype=dtype)
-        b, c, h, w = sample.shape
-    
->       actual = filter2d(sample, kernel, border_type, normalized, padding)
-
-../publishablew/kornia/kornia/tests/filters/test_filters.py:20: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/filters/filter.py:26: in filter2d
-    return filter2d(input, kernel, border_type, normalized, padding, behaviour)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-input = tensor([[[[1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
-          [1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
-          [1.,...1., 1., 1.],
-          [1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
-          [1., 1., 1., 1., 1., 1., 1., 1., 1., 1.]]]])
-kernel = tensor([[[[0.3807, 0.2024, 0.7237],
-          [0.8030, 0.8413, 0.4998],
-          [0.6584, 0.9040, 0.7121]]]])
-border_type = 'replicate', normalized = False, padding = 'same'
-behaviour = 'corr'
-
-    def filter2d(input, kernel, border_type='constant', normalized=False, padding='same', behaviour='corr'):
-        """
-        Convolve a tensor with a 2d kernel.
-    
-        Args:
-            input (torch.Tensor): the input tensor with shape of (B, C, H, W).
-            kernel (torch.Tensor): the kernel to be convolved with the input tensor.
-                                   The kernel shape must be (1, kH, kW) or (B, kH, kW).
-            border_type (str): the padding mode to be applied before convolving.
-                               The expected modes are: 'constant', 'reflect', 'replicate' or 'circular'.
-            normalized (bool): If True, kernel will be L1 normalized.
-            padding (str): This defines the type of padding. 2 modes available 'same' or 'valid'.
-            behaviour (str): defines the convolution mode -- correlation (default), using pytorch conv2d,
-                             or true convolution (kernel is flipped). 2 modes available 'corr' or 'conv'.
-    
-        Returns:
-            torch.Tensor: the convolved tensor of same size and numbers of channels as the input with shape (B, C, H, W).
-        """
-        B, C, H, W = input.shape
-        if kernel.dim() == 3:
-            kernel = kernel.unsqueeze(1)
-        elif kernel.dim() == 2:
-            kernel = kernel.unsqueeze(0).unsqueeze(0)
-        else:
-            raise ValueError('Kernel must be of shape (1, kH, kW) or (B, kH, kW)')
-        if normalized:
-            kernel = kernel / kernel.sum(dim=(-2, -1), keepdim=True)
-        if behaviour == 'conv':
-            kernel = torch.flip(kernel, dims=(-2, -1))
-        if padding == 'same':
-            pad_h = (kernel.shape[-2] - 1) // 2
-            pad_w = (kernel.shape[-1] - 1) // 2
-            input = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode=border_type)
-        elif padding != 'valid':
-            raise ValueError("Padding must be 'same' or 'valid'")
-        output = torch.zeros_like(input)
-        for b in range(B):
-            for c in range(C):
->               output[b, c] = F.conv2d(input[b, c].unsqueeze(0).unsqueeze(0), kernel[b % kernel.shape[0]], padding=0).squeeze(0).squeeze(0)
-E               RuntimeError: expected stride to be a single integer value or a list of 1 values to match the convolution dimensions, but got stride=[1, 1]
-
-../publishablew/kornia/kornia/kornia/filters/temp.py:47: RuntimeError
-___________ TestFilter2D.test_smoke[cpu-float32-same-False-circular] ___________
-
-self = <test_filters.TestFilter2D object at 0x7412bc8ee830>
-border_type = 'circular', normalized = False, padding = 'same'
-device = device(type='cpu'), dtype = torch.float32
-
-    @pytest.mark.parametrize("border_type", ["constant", "reflect", "replicate", "circular"])
-    @pytest.mark.parametrize("normalized", [True, False])
-    @pytest.mark.parametrize("padding", ["same", "valid"])
-    def test_smoke(self, border_type, normalized, padding, device, dtype):
-        kernel = torch.rand(1, 3, 3, device=device, dtype=dtype)
-        _, height, width = kernel.shape
-        sample = torch.ones(1, 1, 7, 8, device=device, dtype=dtype)
-        b, c, h, w = sample.shape
-    
->       actual = filter2d(sample, kernel, border_type, normalized, padding)
-
-../publishablew/kornia/kornia/tests/filters/test_filters.py:20: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/filters/filter.py:26: in filter2d
-    return filter2d(input, kernel, border_type, normalized, padding, behaviour)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-input = tensor([[[[1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
-          [1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
-          [1.,...1., 1., 1.],
-          [1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
-          [1., 1., 1., 1., 1., 1., 1., 1., 1., 1.]]]])
-kernel = tensor([[[[0.5148, 0.6279, 0.0575],
-          [0.1501, 0.3078, 0.5011],
-          [0.9479, 0.4707, 0.1254]]]])
-border_type = 'circular', normalized = False, padding = 'same'
-behaviour = 'corr'
-
-    def filter2d(input, kernel, border_type='constant', normalized=False, padding='same', behaviour='corr'):
-        """
-        Convolve a tensor with a 2d kernel.
-    
-        Args:
-            input (torch.Tensor): the input tensor with shape of (B, C, H, W).
-            kernel (torch.Tensor): the kernel to be convolved with the input tensor.
-                                   The kernel shape must be (1, kH, kW) or (B, kH, kW).
-            border_type (str): the padding mode to be applied before convolving.
-                               The expected modes are: 'constant', 'reflect', 'replicate' or 'circular'.
-            normalized (bool): If True, kernel will be L1 normalized.
-            padding (str): This defines the type of padding. 2 modes available 'same' or 'valid'.
-            behaviour (str): defines the convolution mode -- correlation (default), using pytorch conv2d,
-                             or true convolution (kernel is flipped). 2 modes available 'corr' or 'conv'.
-    
-        Returns:
-            torch.Tensor: the convolved tensor of same size and numbers of channels as the input with shape (B, C, H, W).
-        """
-        B, C, H, W = input.shape
-        if kernel.dim() == 3:
-            kernel = kernel.unsqueeze(1)
-        elif kernel.dim() == 2:
-            kernel = kernel.unsqueeze(0).unsqueeze(0)
-        else:
-            raise ValueError('Kernel must be of shape (1, kH, kW) or (B, kH, kW)')
-        if normalized:
-            kernel = kernel / kernel.sum(dim=(-2, -1), keepdim=True)
-        if behaviour == 'conv':
-            kernel = torch.flip(kernel, dims=(-2, -1))
-        if padding == 'same':
-            pad_h = (kernel.shape[-2] - 1) // 2
-            pad_w = (kernel.shape[-1] - 1) // 2
-            input = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode=border_type)
-        elif padding != 'valid':
-            raise ValueError("Padding must be 'same' or 'valid'")
-        output = torch.zeros_like(input)
-        for b in range(B):
-            for c in range(C):
->               output[b, c] = F.conv2d(input[b, c].unsqueeze(0).unsqueeze(0), kernel[b % kernel.shape[0]], padding=0).squeeze(0).squeeze(0)
-E               RuntimeError: expected stride to be a single integer value or a list of 1 values to match the convolution dimensions, but got stride=[1, 1]
-
-../publishablew/kornia/kornia/kornia/filters/temp.py:47: RuntimeError
 ___________ TestFilter2D.test_smoke[cpu-float32-valid-True-constant] ___________
 
-self = <test_filters.TestFilter2D object at 0x7412bc8ee8f0>
+self = <test_filters.TestFilter2D object at 0x7a82a72ee9e0>
 border_type = 'constant', normalized = True, padding = 'valid'
 device = device(type='cpu'), dtype = torch.float32
 
@@ -696,57 +89,52 @@ input = tensor([[[[1., 1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1.,...1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1., 1., 1., 1.]]]])
-kernel = tensor([[[[0.1585, 0.1514, 0.1648],
-          [0.1356, 0.0552, 0.1697],
-          [0.0261, 0.0243, 0.1143]]]])
+kernel = tensor([[[[0.1474, 0.0621, 0.0009],
+          [0.1327, 0.0984, 0.1885],
+          [0.1110, 0.0715, 0.1875]]]])
 border_type = 'constant', normalized = True, padding = 'valid'
 behaviour = 'corr'
 
     def filter2d(input, kernel, border_type='constant', normalized=False, padding='same', behaviour='corr'):
-        """
-        Convolve a tensor with a 2d kernel.
-    
-        Args:
-            input (torch.Tensor): the input tensor with shape of (B, C, H, W).
-            kernel (torch.Tensor): the kernel to be convolved with the input tensor.
-                                   The kernel shape must be (1, kH, kW) or (B, kH, kW).
-            border_type (str): the padding mode to be applied before convolving.
-                               The expected modes are: 'constant', 'reflect', 'replicate' or 'circular'.
-            normalized (bool): If True, kernel will be L1 normalized.
-            padding (str): This defines the type of padding. 2 modes available 'same' or 'valid'.
-            behaviour (str): defines the convolution mode -- correlation (default), using pytorch conv2d,
-                             or true convolution (kernel is flipped). 2 modes available 'corr' or 'conv'.
-    
-        Returns:
-            torch.Tensor: the convolved tensor of same size and numbers of channels as the input with shape (B, C, H, W).
-        """
+        if len(input.shape) != 4:
+            raise ValueError('Input tensor must have shape (B, C, H, W)')
+        if len(kernel.shape) not in [3]:
+            raise ValueError('Kernel must have shape (1, kH, kW) or (B, kH, kW)')
         B, C, H, W = input.shape
-        if kernel.dim() == 3:
-            kernel = kernel.unsqueeze(1)
-        elif kernel.dim() == 2:
-            kernel = kernel.unsqueeze(0).unsqueeze(0)
-        else:
-            raise ValueError('Kernel must be of shape (1, kH, kW) or (B, kH, kW)')
+        kB, kH, kW = kernel.shape
         if normalized:
             kernel = kernel / kernel.sum(dim=(-2, -1), keepdim=True)
+        if padding == 'same':
+            pad_h = (kH - 1) // 2
+            pad_w = (kW - 1) // 2
+        elif padding == 'valid':
+            pad_h = 0
+            pad_w = 0
+        else:
+            raise ValueError("Padding must be 'same' or 'valid'")
+        if border_type == 'constant':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='constant', value=0)
+        elif border_type == 'reflect':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='reflect')
+        elif border_type == 'replicate':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='replicate')
+        elif border_type == 'circular':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='circular')
+        else:
+            raise ValueError("Invalid border_type. Expected 'constant', 'reflect', 'replicate', or 'circular'.")
         if behaviour == 'conv':
             kernel = torch.flip(kernel, dims=(-2, -1))
-        if padding == 'same':
-            pad_h = (kernel.shape[-2] - 1) // 2
-            pad_w = (kernel.shape[-1] - 1) // 2
-            input = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode=border_type)
-        elif padding != 'valid':
-            raise ValueError("Padding must be 'same' or 'valid'")
+        kernel = kernel.expand(B, C, kH, kW)
         output = torch.zeros_like(input)
         for b in range(B):
             for c in range(C):
->               output[b, c] = F.conv2d(input[b, c].unsqueeze(0).unsqueeze(0), kernel[b % kernel.shape[0]], padding=0).squeeze(0).squeeze(0)
-E               RuntimeError: expected stride to be a single integer value or a list of 1 values to match the convolution dimensions, but got stride=[1, 1]
+>               output[b, c] = F.conv2d(input_padded[b, c].unsqueeze(0).unsqueeze(0), kernel[b, c].unsqueeze(0).unsqueeze(0), padding=0).squeeze()
+E               RuntimeError: The expanded size of the tensor (8) must match the existing size (6) at non-singleton dimension 1.  Target sizes: [7, 8].  Tensor sizes: [5, 6]
 
-../publishablew/kornia/kornia/kornia/filters/temp.py:47: RuntimeError
+../publishablew/kornia/kornia/kornia/filters/temp.py:42: RuntimeError
 ___________ TestFilter2D.test_smoke[cpu-float32-valid-True-reflect] ____________
 
-self = <test_filters.TestFilter2D object at 0x7412bc8ee9b0>
+self = <test_filters.TestFilter2D object at 0x7a82a72eeaa0>
 border_type = 'reflect', normalized = True, padding = 'valid'
 device = device(type='cpu'), dtype = torch.float32
 
@@ -772,57 +160,52 @@ input = tensor([[[[1., 1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1.,...1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1., 1., 1., 1.]]]])
-kernel = tensor([[[[0.0481, 0.0681, 0.1809],
-          [0.1132, 0.0834, 0.0782],
-          [0.1877, 0.1812, 0.0592]]]])
+kernel = tensor([[[[0.0328, 0.0885, 0.0378],
+          [0.0725, 0.1922, 0.0363],
+          [0.1901, 0.2331, 0.1167]]]])
 border_type = 'reflect', normalized = True, padding = 'valid'
 behaviour = 'corr'
 
     def filter2d(input, kernel, border_type='constant', normalized=False, padding='same', behaviour='corr'):
-        """
-        Convolve a tensor with a 2d kernel.
-    
-        Args:
-            input (torch.Tensor): the input tensor with shape of (B, C, H, W).
-            kernel (torch.Tensor): the kernel to be convolved with the input tensor.
-                                   The kernel shape must be (1, kH, kW) or (B, kH, kW).
-            border_type (str): the padding mode to be applied before convolving.
-                               The expected modes are: 'constant', 'reflect', 'replicate' or 'circular'.
-            normalized (bool): If True, kernel will be L1 normalized.
-            padding (str): This defines the type of padding. 2 modes available 'same' or 'valid'.
-            behaviour (str): defines the convolution mode -- correlation (default), using pytorch conv2d,
-                             or true convolution (kernel is flipped). 2 modes available 'corr' or 'conv'.
-    
-        Returns:
-            torch.Tensor: the convolved tensor of same size and numbers of channels as the input with shape (B, C, H, W).
-        """
+        if len(input.shape) != 4:
+            raise ValueError('Input tensor must have shape (B, C, H, W)')
+        if len(kernel.shape) not in [3]:
+            raise ValueError('Kernel must have shape (1, kH, kW) or (B, kH, kW)')
         B, C, H, W = input.shape
-        if kernel.dim() == 3:
-            kernel = kernel.unsqueeze(1)
-        elif kernel.dim() == 2:
-            kernel = kernel.unsqueeze(0).unsqueeze(0)
-        else:
-            raise ValueError('Kernel must be of shape (1, kH, kW) or (B, kH, kW)')
+        kB, kH, kW = kernel.shape
         if normalized:
             kernel = kernel / kernel.sum(dim=(-2, -1), keepdim=True)
+        if padding == 'same':
+            pad_h = (kH - 1) // 2
+            pad_w = (kW - 1) // 2
+        elif padding == 'valid':
+            pad_h = 0
+            pad_w = 0
+        else:
+            raise ValueError("Padding must be 'same' or 'valid'")
+        if border_type == 'constant':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='constant', value=0)
+        elif border_type == 'reflect':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='reflect')
+        elif border_type == 'replicate':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='replicate')
+        elif border_type == 'circular':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='circular')
+        else:
+            raise ValueError("Invalid border_type. Expected 'constant', 'reflect', 'replicate', or 'circular'.")
         if behaviour == 'conv':
             kernel = torch.flip(kernel, dims=(-2, -1))
-        if padding == 'same':
-            pad_h = (kernel.shape[-2] - 1) // 2
-            pad_w = (kernel.shape[-1] - 1) // 2
-            input = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode=border_type)
-        elif padding != 'valid':
-            raise ValueError("Padding must be 'same' or 'valid'")
+        kernel = kernel.expand(B, C, kH, kW)
         output = torch.zeros_like(input)
         for b in range(B):
             for c in range(C):
->               output[b, c] = F.conv2d(input[b, c].unsqueeze(0).unsqueeze(0), kernel[b % kernel.shape[0]], padding=0).squeeze(0).squeeze(0)
-E               RuntimeError: expected stride to be a single integer value or a list of 1 values to match the convolution dimensions, but got stride=[1, 1]
+>               output[b, c] = F.conv2d(input_padded[b, c].unsqueeze(0).unsqueeze(0), kernel[b, c].unsqueeze(0).unsqueeze(0), padding=0).squeeze()
+E               RuntimeError: The expanded size of the tensor (8) must match the existing size (6) at non-singleton dimension 1.  Target sizes: [7, 8].  Tensor sizes: [5, 6]
 
-../publishablew/kornia/kornia/kornia/filters/temp.py:47: RuntimeError
+../publishablew/kornia/kornia/kornia/filters/temp.py:42: RuntimeError
 __________ TestFilter2D.test_smoke[cpu-float32-valid-True-replicate] ___________
 
-self = <test_filters.TestFilter2D object at 0x7412bc8eea70>
+self = <test_filters.TestFilter2D object at 0x7a82a72eeb60>
 border_type = 'replicate', normalized = True, padding = 'valid'
 device = device(type='cpu'), dtype = torch.float32
 
@@ -848,57 +231,52 @@ input = tensor([[[[1., 1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1.,...1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1., 1., 1., 1.]]]])
-kernel = tensor([[[[0.0773, 0.0051, 0.0888],
-          [0.1273, 0.1681, 0.0947],
-          [0.2587, 0.1568, 0.0232]]]])
+kernel = tensor([[[[0.0276, 0.1346, 0.0794],
+          [0.1690, 0.1225, 0.0564],
+          [0.1122, 0.1518, 0.1464]]]])
 border_type = 'replicate', normalized = True, padding = 'valid'
 behaviour = 'corr'
 
     def filter2d(input, kernel, border_type='constant', normalized=False, padding='same', behaviour='corr'):
-        """
-        Convolve a tensor with a 2d kernel.
-    
-        Args:
-            input (torch.Tensor): the input tensor with shape of (B, C, H, W).
-            kernel (torch.Tensor): the kernel to be convolved with the input tensor.
-                                   The kernel shape must be (1, kH, kW) or (B, kH, kW).
-            border_type (str): the padding mode to be applied before convolving.
-                               The expected modes are: 'constant', 'reflect', 'replicate' or 'circular'.
-            normalized (bool): If True, kernel will be L1 normalized.
-            padding (str): This defines the type of padding. 2 modes available 'same' or 'valid'.
-            behaviour (str): defines the convolution mode -- correlation (default), using pytorch conv2d,
-                             or true convolution (kernel is flipped). 2 modes available 'corr' or 'conv'.
-    
-        Returns:
-            torch.Tensor: the convolved tensor of same size and numbers of channels as the input with shape (B, C, H, W).
-        """
+        if len(input.shape) != 4:
+            raise ValueError('Input tensor must have shape (B, C, H, W)')
+        if len(kernel.shape) not in [3]:
+            raise ValueError('Kernel must have shape (1, kH, kW) or (B, kH, kW)')
         B, C, H, W = input.shape
-        if kernel.dim() == 3:
-            kernel = kernel.unsqueeze(1)
-        elif kernel.dim() == 2:
-            kernel = kernel.unsqueeze(0).unsqueeze(0)
-        else:
-            raise ValueError('Kernel must be of shape (1, kH, kW) or (B, kH, kW)')
+        kB, kH, kW = kernel.shape
         if normalized:
             kernel = kernel / kernel.sum(dim=(-2, -1), keepdim=True)
+        if padding == 'same':
+            pad_h = (kH - 1) // 2
+            pad_w = (kW - 1) // 2
+        elif padding == 'valid':
+            pad_h = 0
+            pad_w = 0
+        else:
+            raise ValueError("Padding must be 'same' or 'valid'")
+        if border_type == 'constant':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='constant', value=0)
+        elif border_type == 'reflect':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='reflect')
+        elif border_type == 'replicate':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='replicate')
+        elif border_type == 'circular':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='circular')
+        else:
+            raise ValueError("Invalid border_type. Expected 'constant', 'reflect', 'replicate', or 'circular'.")
         if behaviour == 'conv':
             kernel = torch.flip(kernel, dims=(-2, -1))
-        if padding == 'same':
-            pad_h = (kernel.shape[-2] - 1) // 2
-            pad_w = (kernel.shape[-1] - 1) // 2
-            input = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode=border_type)
-        elif padding != 'valid':
-            raise ValueError("Padding must be 'same' or 'valid'")
+        kernel = kernel.expand(B, C, kH, kW)
         output = torch.zeros_like(input)
         for b in range(B):
             for c in range(C):
->               output[b, c] = F.conv2d(input[b, c].unsqueeze(0).unsqueeze(0), kernel[b % kernel.shape[0]], padding=0).squeeze(0).squeeze(0)
-E               RuntimeError: expected stride to be a single integer value or a list of 1 values to match the convolution dimensions, but got stride=[1, 1]
+>               output[b, c] = F.conv2d(input_padded[b, c].unsqueeze(0).unsqueeze(0), kernel[b, c].unsqueeze(0).unsqueeze(0), padding=0).squeeze()
+E               RuntimeError: The expanded size of the tensor (8) must match the existing size (6) at non-singleton dimension 1.  Target sizes: [7, 8].  Tensor sizes: [5, 6]
 
-../publishablew/kornia/kornia/kornia/filters/temp.py:47: RuntimeError
+../publishablew/kornia/kornia/kornia/filters/temp.py:42: RuntimeError
 ___________ TestFilter2D.test_smoke[cpu-float32-valid-True-circular] ___________
 
-self = <test_filters.TestFilter2D object at 0x7412bc8eeb30>
+self = <test_filters.TestFilter2D object at 0x7a82a72eec20>
 border_type = 'circular', normalized = True, padding = 'valid'
 device = device(type='cpu'), dtype = torch.float32
 
@@ -924,57 +302,52 @@ input = tensor([[[[1., 1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1.,...1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1., 1., 1., 1.]]]])
-kernel = tensor([[[[0.0169, 0.1403, 0.1526],
-          [0.0952, 0.1540, 0.0567],
-          [0.1143, 0.1051, 0.1649]]]])
+kernel = tensor([[[[0.0694, 0.0416, 0.1388],
+          [0.1675, 0.1590, 0.1543],
+          [0.0474, 0.0840, 0.1380]]]])
 border_type = 'circular', normalized = True, padding = 'valid'
 behaviour = 'corr'
 
     def filter2d(input, kernel, border_type='constant', normalized=False, padding='same', behaviour='corr'):
-        """
-        Convolve a tensor with a 2d kernel.
-    
-        Args:
-            input (torch.Tensor): the input tensor with shape of (B, C, H, W).
-            kernel (torch.Tensor): the kernel to be convolved with the input tensor.
-                                   The kernel shape must be (1, kH, kW) or (B, kH, kW).
-            border_type (str): the padding mode to be applied before convolving.
-                               The expected modes are: 'constant', 'reflect', 'replicate' or 'circular'.
-            normalized (bool): If True, kernel will be L1 normalized.
-            padding (str): This defines the type of padding. 2 modes available 'same' or 'valid'.
-            behaviour (str): defines the convolution mode -- correlation (default), using pytorch conv2d,
-                             or true convolution (kernel is flipped). 2 modes available 'corr' or 'conv'.
-    
-        Returns:
-            torch.Tensor: the convolved tensor of same size and numbers of channels as the input with shape (B, C, H, W).
-        """
+        if len(input.shape) != 4:
+            raise ValueError('Input tensor must have shape (B, C, H, W)')
+        if len(kernel.shape) not in [3]:
+            raise ValueError('Kernel must have shape (1, kH, kW) or (B, kH, kW)')
         B, C, H, W = input.shape
-        if kernel.dim() == 3:
-            kernel = kernel.unsqueeze(1)
-        elif kernel.dim() == 2:
-            kernel = kernel.unsqueeze(0).unsqueeze(0)
-        else:
-            raise ValueError('Kernel must be of shape (1, kH, kW) or (B, kH, kW)')
+        kB, kH, kW = kernel.shape
         if normalized:
             kernel = kernel / kernel.sum(dim=(-2, -1), keepdim=True)
+        if padding == 'same':
+            pad_h = (kH - 1) // 2
+            pad_w = (kW - 1) // 2
+        elif padding == 'valid':
+            pad_h = 0
+            pad_w = 0
+        else:
+            raise ValueError("Padding must be 'same' or 'valid'")
+        if border_type == 'constant':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='constant', value=0)
+        elif border_type == 'reflect':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='reflect')
+        elif border_type == 'replicate':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='replicate')
+        elif border_type == 'circular':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='circular')
+        else:
+            raise ValueError("Invalid border_type. Expected 'constant', 'reflect', 'replicate', or 'circular'.")
         if behaviour == 'conv':
             kernel = torch.flip(kernel, dims=(-2, -1))
-        if padding == 'same':
-            pad_h = (kernel.shape[-2] - 1) // 2
-            pad_w = (kernel.shape[-1] - 1) // 2
-            input = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode=border_type)
-        elif padding != 'valid':
-            raise ValueError("Padding must be 'same' or 'valid'")
+        kernel = kernel.expand(B, C, kH, kW)
         output = torch.zeros_like(input)
         for b in range(B):
             for c in range(C):
->               output[b, c] = F.conv2d(input[b, c].unsqueeze(0).unsqueeze(0), kernel[b % kernel.shape[0]], padding=0).squeeze(0).squeeze(0)
-E               RuntimeError: expected stride to be a single integer value or a list of 1 values to match the convolution dimensions, but got stride=[1, 1]
+>               output[b, c] = F.conv2d(input_padded[b, c].unsqueeze(0).unsqueeze(0), kernel[b, c].unsqueeze(0).unsqueeze(0), padding=0).squeeze()
+E               RuntimeError: The expanded size of the tensor (8) must match the existing size (6) at non-singleton dimension 1.  Target sizes: [7, 8].  Tensor sizes: [5, 6]
 
-../publishablew/kornia/kornia/kornia/filters/temp.py:47: RuntimeError
+../publishablew/kornia/kornia/kornia/filters/temp.py:42: RuntimeError
 __________ TestFilter2D.test_smoke[cpu-float32-valid-False-constant] ___________
 
-self = <test_filters.TestFilter2D object at 0x7412bc8eebf0>
+self = <test_filters.TestFilter2D object at 0x7a82a72eece0>
 border_type = 'constant', normalized = False, padding = 'valid'
 device = device(type='cpu'), dtype = torch.float32
 
@@ -1000,57 +373,52 @@ input = tensor([[[[1., 1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1.,...1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1., 1., 1., 1.]]]])
-kernel = tensor([[[[0.0154, 0.2119, 0.5659],
-          [0.3018, 0.3889, 0.5845],
-          [0.9097, 0.2875, 0.1573]]]])
+kernel = tensor([[[[0.4668, 0.7130, 0.7505],
+          [0.8414, 0.2864, 0.2690],
+          [0.2542, 0.5517, 0.6886]]]])
 border_type = 'constant', normalized = False, padding = 'valid'
 behaviour = 'corr'
 
     def filter2d(input, kernel, border_type='constant', normalized=False, padding='same', behaviour='corr'):
-        """
-        Convolve a tensor with a 2d kernel.
-    
-        Args:
-            input (torch.Tensor): the input tensor with shape of (B, C, H, W).
-            kernel (torch.Tensor): the kernel to be convolved with the input tensor.
-                                   The kernel shape must be (1, kH, kW) or (B, kH, kW).
-            border_type (str): the padding mode to be applied before convolving.
-                               The expected modes are: 'constant', 'reflect', 'replicate' or 'circular'.
-            normalized (bool): If True, kernel will be L1 normalized.
-            padding (str): This defines the type of padding. 2 modes available 'same' or 'valid'.
-            behaviour (str): defines the convolution mode -- correlation (default), using pytorch conv2d,
-                             or true convolution (kernel is flipped). 2 modes available 'corr' or 'conv'.
-    
-        Returns:
-            torch.Tensor: the convolved tensor of same size and numbers of channels as the input with shape (B, C, H, W).
-        """
+        if len(input.shape) != 4:
+            raise ValueError('Input tensor must have shape (B, C, H, W)')
+        if len(kernel.shape) not in [3]:
+            raise ValueError('Kernel must have shape (1, kH, kW) or (B, kH, kW)')
         B, C, H, W = input.shape
-        if kernel.dim() == 3:
-            kernel = kernel.unsqueeze(1)
-        elif kernel.dim() == 2:
-            kernel = kernel.unsqueeze(0).unsqueeze(0)
-        else:
-            raise ValueError('Kernel must be of shape (1, kH, kW) or (B, kH, kW)')
+        kB, kH, kW = kernel.shape
         if normalized:
             kernel = kernel / kernel.sum(dim=(-2, -1), keepdim=True)
+        if padding == 'same':
+            pad_h = (kH - 1) // 2
+            pad_w = (kW - 1) // 2
+        elif padding == 'valid':
+            pad_h = 0
+            pad_w = 0
+        else:
+            raise ValueError("Padding must be 'same' or 'valid'")
+        if border_type == 'constant':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='constant', value=0)
+        elif border_type == 'reflect':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='reflect')
+        elif border_type == 'replicate':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='replicate')
+        elif border_type == 'circular':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='circular')
+        else:
+            raise ValueError("Invalid border_type. Expected 'constant', 'reflect', 'replicate', or 'circular'.")
         if behaviour == 'conv':
             kernel = torch.flip(kernel, dims=(-2, -1))
-        if padding == 'same':
-            pad_h = (kernel.shape[-2] - 1) // 2
-            pad_w = (kernel.shape[-1] - 1) // 2
-            input = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode=border_type)
-        elif padding != 'valid':
-            raise ValueError("Padding must be 'same' or 'valid'")
+        kernel = kernel.expand(B, C, kH, kW)
         output = torch.zeros_like(input)
         for b in range(B):
             for c in range(C):
->               output[b, c] = F.conv2d(input[b, c].unsqueeze(0).unsqueeze(0), kernel[b % kernel.shape[0]], padding=0).squeeze(0).squeeze(0)
-E               RuntimeError: expected stride to be a single integer value or a list of 1 values to match the convolution dimensions, but got stride=[1, 1]
+>               output[b, c] = F.conv2d(input_padded[b, c].unsqueeze(0).unsqueeze(0), kernel[b, c].unsqueeze(0).unsqueeze(0), padding=0).squeeze()
+E               RuntimeError: The expanded size of the tensor (8) must match the existing size (6) at non-singleton dimension 1.  Target sizes: [7, 8].  Tensor sizes: [5, 6]
 
-../publishablew/kornia/kornia/kornia/filters/temp.py:47: RuntimeError
+../publishablew/kornia/kornia/kornia/filters/temp.py:42: RuntimeError
 ___________ TestFilter2D.test_smoke[cpu-float32-valid-False-reflect] ___________
 
-self = <test_filters.TestFilter2D object at 0x7412bc8eecb0>
+self = <test_filters.TestFilter2D object at 0x7a82a72eeda0>
 border_type = 'reflect', normalized = False, padding = 'valid'
 device = device(type='cpu'), dtype = torch.float32
 
@@ -1076,57 +444,52 @@ input = tensor([[[[1., 1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1.,...1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1., 1., 1., 1.]]]])
-kernel = tensor([[[[0.4972, 0.9678, 0.9424],
-          [0.0455, 0.6052, 0.8608],
-          [0.8527, 0.5576, 0.5589]]]])
+kernel = tensor([[[[0.0293, 0.9311, 0.0912],
+          [0.7263, 0.9419, 0.4678],
+          [0.5323, 0.5952, 0.4695]]]])
 border_type = 'reflect', normalized = False, padding = 'valid'
 behaviour = 'corr'
 
     def filter2d(input, kernel, border_type='constant', normalized=False, padding='same', behaviour='corr'):
-        """
-        Convolve a tensor with a 2d kernel.
-    
-        Args:
-            input (torch.Tensor): the input tensor with shape of (B, C, H, W).
-            kernel (torch.Tensor): the kernel to be convolved with the input tensor.
-                                   The kernel shape must be (1, kH, kW) or (B, kH, kW).
-            border_type (str): the padding mode to be applied before convolving.
-                               The expected modes are: 'constant', 'reflect', 'replicate' or 'circular'.
-            normalized (bool): If True, kernel will be L1 normalized.
-            padding (str): This defines the type of padding. 2 modes available 'same' or 'valid'.
-            behaviour (str): defines the convolution mode -- correlation (default), using pytorch conv2d,
-                             or true convolution (kernel is flipped). 2 modes available 'corr' or 'conv'.
-    
-        Returns:
-            torch.Tensor: the convolved tensor of same size and numbers of channels as the input with shape (B, C, H, W).
-        """
+        if len(input.shape) != 4:
+            raise ValueError('Input tensor must have shape (B, C, H, W)')
+        if len(kernel.shape) not in [3]:
+            raise ValueError('Kernel must have shape (1, kH, kW) or (B, kH, kW)')
         B, C, H, W = input.shape
-        if kernel.dim() == 3:
-            kernel = kernel.unsqueeze(1)
-        elif kernel.dim() == 2:
-            kernel = kernel.unsqueeze(0).unsqueeze(0)
-        else:
-            raise ValueError('Kernel must be of shape (1, kH, kW) or (B, kH, kW)')
+        kB, kH, kW = kernel.shape
         if normalized:
             kernel = kernel / kernel.sum(dim=(-2, -1), keepdim=True)
+        if padding == 'same':
+            pad_h = (kH - 1) // 2
+            pad_w = (kW - 1) // 2
+        elif padding == 'valid':
+            pad_h = 0
+            pad_w = 0
+        else:
+            raise ValueError("Padding must be 'same' or 'valid'")
+        if border_type == 'constant':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='constant', value=0)
+        elif border_type == 'reflect':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='reflect')
+        elif border_type == 'replicate':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='replicate')
+        elif border_type == 'circular':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='circular')
+        else:
+            raise ValueError("Invalid border_type. Expected 'constant', 'reflect', 'replicate', or 'circular'.")
         if behaviour == 'conv':
             kernel = torch.flip(kernel, dims=(-2, -1))
-        if padding == 'same':
-            pad_h = (kernel.shape[-2] - 1) // 2
-            pad_w = (kernel.shape[-1] - 1) // 2
-            input = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode=border_type)
-        elif padding != 'valid':
-            raise ValueError("Padding must be 'same' or 'valid'")
+        kernel = kernel.expand(B, C, kH, kW)
         output = torch.zeros_like(input)
         for b in range(B):
             for c in range(C):
->               output[b, c] = F.conv2d(input[b, c].unsqueeze(0).unsqueeze(0), kernel[b % kernel.shape[0]], padding=0).squeeze(0).squeeze(0)
-E               RuntimeError: expected stride to be a single integer value or a list of 1 values to match the convolution dimensions, but got stride=[1, 1]
+>               output[b, c] = F.conv2d(input_padded[b, c].unsqueeze(0).unsqueeze(0), kernel[b, c].unsqueeze(0).unsqueeze(0), padding=0).squeeze()
+E               RuntimeError: The expanded size of the tensor (8) must match the existing size (6) at non-singleton dimension 1.  Target sizes: [7, 8].  Tensor sizes: [5, 6]
 
-../publishablew/kornia/kornia/kornia/filters/temp.py:47: RuntimeError
+../publishablew/kornia/kornia/kornia/filters/temp.py:42: RuntimeError
 __________ TestFilter2D.test_smoke[cpu-float32-valid-False-replicate] __________
 
-self = <test_filters.TestFilter2D object at 0x7412bc8eed70>
+self = <test_filters.TestFilter2D object at 0x7a82a72eee60>
 border_type = 'replicate', normalized = False, padding = 'valid'
 device = device(type='cpu'), dtype = torch.float32
 
@@ -1152,57 +515,52 @@ input = tensor([[[[1., 1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1.,...1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1., 1., 1., 1.]]]])
-kernel = tensor([[[[0.7913, 0.1076, 0.3527],
-          [0.7095, 0.3550, 0.0621],
-          [0.5921, 0.9190, 0.1783]]]])
+kernel = tensor([[[[0.3034, 0.3474, 0.0082],
+          [0.0544, 0.4129, 0.6993],
+          [0.5699, 0.8091, 0.1945]]]])
 border_type = 'replicate', normalized = False, padding = 'valid'
 behaviour = 'corr'
 
     def filter2d(input, kernel, border_type='constant', normalized=False, padding='same', behaviour='corr'):
-        """
-        Convolve a tensor with a 2d kernel.
-    
-        Args:
-            input (torch.Tensor): the input tensor with shape of (B, C, H, W).
-            kernel (torch.Tensor): the kernel to be convolved with the input tensor.
-                                   The kernel shape must be (1, kH, kW) or (B, kH, kW).
-            border_type (str): the padding mode to be applied before convolving.
-                               The expected modes are: 'constant', 'reflect', 'replicate' or 'circular'.
-            normalized (bool): If True, kernel will be L1 normalized.
-            padding (str): This defines the type of padding. 2 modes available 'same' or 'valid'.
-            behaviour (str): defines the convolution mode -- correlation (default), using pytorch conv2d,
-                             or true convolution (kernel is flipped). 2 modes available 'corr' or 'conv'.
-    
-        Returns:
-            torch.Tensor: the convolved tensor of same size and numbers of channels as the input with shape (B, C, H, W).
-        """
+        if len(input.shape) != 4:
+            raise ValueError('Input tensor must have shape (B, C, H, W)')
+        if len(kernel.shape) not in [3]:
+            raise ValueError('Kernel must have shape (1, kH, kW) or (B, kH, kW)')
         B, C, H, W = input.shape
-        if kernel.dim() == 3:
-            kernel = kernel.unsqueeze(1)
-        elif kernel.dim() == 2:
-            kernel = kernel.unsqueeze(0).unsqueeze(0)
-        else:
-            raise ValueError('Kernel must be of shape (1, kH, kW) or (B, kH, kW)')
+        kB, kH, kW = kernel.shape
         if normalized:
             kernel = kernel / kernel.sum(dim=(-2, -1), keepdim=True)
+        if padding == 'same':
+            pad_h = (kH - 1) // 2
+            pad_w = (kW - 1) // 2
+        elif padding == 'valid':
+            pad_h = 0
+            pad_w = 0
+        else:
+            raise ValueError("Padding must be 'same' or 'valid'")
+        if border_type == 'constant':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='constant', value=0)
+        elif border_type == 'reflect':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='reflect')
+        elif border_type == 'replicate':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='replicate')
+        elif border_type == 'circular':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='circular')
+        else:
+            raise ValueError("Invalid border_type. Expected 'constant', 'reflect', 'replicate', or 'circular'.")
         if behaviour == 'conv':
             kernel = torch.flip(kernel, dims=(-2, -1))
-        if padding == 'same':
-            pad_h = (kernel.shape[-2] - 1) // 2
-            pad_w = (kernel.shape[-1] - 1) // 2
-            input = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode=border_type)
-        elif padding != 'valid':
-            raise ValueError("Padding must be 'same' or 'valid'")
+        kernel = kernel.expand(B, C, kH, kW)
         output = torch.zeros_like(input)
         for b in range(B):
             for c in range(C):
->               output[b, c] = F.conv2d(input[b, c].unsqueeze(0).unsqueeze(0), kernel[b % kernel.shape[0]], padding=0).squeeze(0).squeeze(0)
-E               RuntimeError: expected stride to be a single integer value or a list of 1 values to match the convolution dimensions, but got stride=[1, 1]
+>               output[b, c] = F.conv2d(input_padded[b, c].unsqueeze(0).unsqueeze(0), kernel[b, c].unsqueeze(0).unsqueeze(0), padding=0).squeeze()
+E               RuntimeError: The expanded size of the tensor (8) must match the existing size (6) at non-singleton dimension 1.  Target sizes: [7, 8].  Tensor sizes: [5, 6]
 
-../publishablew/kornia/kornia/kornia/filters/temp.py:47: RuntimeError
+../publishablew/kornia/kornia/kornia/filters/temp.py:42: RuntimeError
 __________ TestFilter2D.test_smoke[cpu-float32-valid-False-circular] ___________
 
-self = <test_filters.TestFilter2D object at 0x7412bc8eee30>
+self = <test_filters.TestFilter2D object at 0x7a82a72eef20>
 border_type = 'circular', normalized = False, padding = 'valid'
 device = device(type='cpu'), dtype = torch.float32
 
@@ -1228,63 +586,50 @@ input = tensor([[[[1., 1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1.,...1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1., 1., 1., 1.],
           [1., 1., 1., 1., 1., 1., 1., 1.]]]])
-kernel = tensor([[[[0.0239, 0.5262, 0.8766],
-          [0.1182, 0.4745, 0.9700],
-          [0.6823, 0.3174, 0.3924]]]])
+kernel = tensor([[[[0.0552, 0.4897, 0.9836],
+          [0.5019, 0.7322, 0.8463],
+          [0.6758, 0.1277, 0.6115]]]])
 border_type = 'circular', normalized = False, padding = 'valid'
 behaviour = 'corr'
 
     def filter2d(input, kernel, border_type='constant', normalized=False, padding='same', behaviour='corr'):
-        """
-        Convolve a tensor with a 2d kernel.
-    
-        Args:
-            input (torch.Tensor): the input tensor with shape of (B, C, H, W).
-            kernel (torch.Tensor): the kernel to be convolved with the input tensor.
-                                   The kernel shape must be (1, kH, kW) or (B, kH, kW).
-            border_type (str): the padding mode to be applied before convolving.
-                               The expected modes are: 'constant', 'reflect', 'replicate' or 'circular'.
-            normalized (bool): If True, kernel will be L1 normalized.
-            padding (str): This defines the type of padding. 2 modes available 'same' or 'valid'.
-            behaviour (str): defines the convolution mode -- correlation (default), using pytorch conv2d,
-                             or true convolution (kernel is flipped). 2 modes available 'corr' or 'conv'.
-    
-        Returns:
-            torch.Tensor: the convolved tensor of same size and numbers of channels as the input with shape (B, C, H, W).
-        """
+        if len(input.shape) != 4:
+            raise ValueError('Input tensor must have shape (B, C, H, W)')
+        if len(kernel.shape) not in [3]:
+            raise ValueError('Kernel must have shape (1, kH, kW) or (B, kH, kW)')
         B, C, H, W = input.shape
-        if kernel.dim() == 3:
-            kernel = kernel.unsqueeze(1)
-        elif kernel.dim() == 2:
-            kernel = kernel.unsqueeze(0).unsqueeze(0)
-        else:
-            raise ValueError('Kernel must be of shape (1, kH, kW) or (B, kH, kW)')
+        kB, kH, kW = kernel.shape
         if normalized:
             kernel = kernel / kernel.sum(dim=(-2, -1), keepdim=True)
+        if padding == 'same':
+            pad_h = (kH - 1) // 2
+            pad_w = (kW - 1) // 2
+        elif padding == 'valid':
+            pad_h = 0
+            pad_w = 0
+        else:
+            raise ValueError("Padding must be 'same' or 'valid'")
+        if border_type == 'constant':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='constant', value=0)
+        elif border_type == 'reflect':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='reflect')
+        elif border_type == 'replicate':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='replicate')
+        elif border_type == 'circular':
+            input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='circular')
+        else:
+            raise ValueError("Invalid border_type. Expected 'constant', 'reflect', 'replicate', or 'circular'.")
         if behaviour == 'conv':
             kernel = torch.flip(kernel, dims=(-2, -1))
-        if padding == 'same':
-            pad_h = (kernel.shape[-2] - 1) // 2
-            pad_w = (kernel.shape[-1] - 1) // 2
-            input = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode=border_type)
-        elif padding != 'valid':
-            raise ValueError("Padding must be 'same' or 'valid'")
+        kernel = kernel.expand(B, C, kH, kW)
         output = torch.zeros_like(input)
         for b in range(B):
             for c in range(C):
->               output[b, c] = F.conv2d(input[b, c].unsqueeze(0).unsqueeze(0), kernel[b % kernel.shape[0]], padding=0).squeeze(0).squeeze(0)
-E               RuntimeError: expected stride to be a single integer value or a list of 1 values to match the convolution dimensions, but got stride=[1, 1]
+>               output[b, c] = F.conv2d(input_padded[b, c].unsqueeze(0).unsqueeze(0), kernel[b, c].unsqueeze(0).unsqueeze(0), padding=0).squeeze()
+E               RuntimeError: The expanded size of the tensor (8) must match the existing size (6) at non-singleton dimension 1.  Target sizes: [7, 8].  Tensor sizes: [5, 6]
 
-../publishablew/kornia/kornia/kornia/filters/temp.py:47: RuntimeError
+../publishablew/kornia/kornia/kornia/filters/temp.py:42: RuntimeError
 =========================== short test summary info ============================
-FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-constant]
-FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-reflect]
-FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-replicate]
-FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-True-circular]
-FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-constant]
-FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-reflect]
-FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-replicate]
-FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-same-False-circular]
 FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-constant]
 FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-reflect]
 FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-True-replicate]
@@ -1293,7 +638,7 @@ FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D
 FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-reflect]
 FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-replicate]
 FAILED ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-circular]
-============================== 16 failed in 0.47s ==============================
+========================= 8 failed, 8 passed in 0.38s ==========================
 
 
 Final Test Result:
@@ -1322,7 +667,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', None, 'cudagraphs', 'onnxrt', 'openxla', 'tvm', 'inductor'}
+available optimizers: {'', 'tvm', 'jit', 'inductor', 'onnxrt', 'openxla', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -1376,7 +721,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'tvm', 'inductor', 'cudagraphs', 'onnxrt', 'jit', None}
+available optimizers: {'', 'openxla', 'onnxrt', 'inductor', 'cudagraphs', 'jit', 'tvm', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -1401,4 +746,4 @@ collecting ... collected 16 items
 ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-replicate] PASSED
 ../publishablew/kornia/kornia/tests/filters/test_filters.py::TestFilter2D::test_smoke[cpu-float32-valid-False-circular] PASSED
 
-============================== 16 passed in 0.17s ==============================
+============================== 16 passed in 0.21s ==============================

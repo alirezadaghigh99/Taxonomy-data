@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[False-False]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[True-True]', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[True-False] FAILED', 'FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[False-True]', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[False-True] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[True-False]', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[True-True] FAILED'}
+{'FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[True-False]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[True-True]', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[True-True] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[True-False] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[False-True] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[False-False]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[False-True]'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 4 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[False-False] I: Seeding RNGs with 1429132516
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[False-False] I: Seeding RNGs with 793049419
 FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[False-True] FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[True-False] FAILED
@@ -60,25 +60,23 @@ X = array([[ 1.76405235,  0.40015721,  0.97873798,  2.2408932 ,  1.86755799,
 n_components = 8, alpha = 1, max_iter = 100, return_code = True
 dict_init = None, callback = None, batch_size = 256, verbose = False
 shuffle = True, n_jobs = None, method = 'lars'
-random_state = RandomState(MT19937) at 0x706CB1B90340, positive_dict = False
+random_state = RandomState(MT19937) at 0x7976C8C13040, positive_dict = False
 positive_code = False, method_max_iter = 1000, tol = 0.001
 max_no_improvement = 10
 
     def dict_learning_online(X, n_components=2, alpha=1, max_iter=100, return_code=True, dict_init=None, callback=None, batch_size=256, verbose=False, shuffle=True, n_jobs=None, method='lars', random_state=None, positive_dict=False, positive_code=False, method_max_iter=1000, tol=0.001, max_no_improvement=10):
         n_samples, n_features = X.shape
         random_state = check_random_state(random_state)
-        if n_components is None:
-            n_components = n_features
         if dict_init is None:
-            U, S, V = randomized_svd(X, n_components)
-            V = V * S[:, np.newaxis]
+            _, S, Vt = randomized_svd(X, n_components)
+            dictionary = Vt
         else:
-            V = dict_init
+            dictionary = dict_init
         if shuffle:
 >           X = shuffle(X, random_state=random_state)
 E           TypeError: 'bool' object is not callable
 
-../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/temp.py:32: TypeError
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/temp.py:30: TypeError
 _______________ test_dict_learning_online_positivity[False-True] _______________
 
 positive_code = True, positive_dict = False
@@ -114,25 +112,23 @@ X = array([[ 1.76405235,  0.40015721,  0.97873798,  2.2408932 ,  1.86755799,
 n_components = 8, alpha = 1, max_iter = 100, return_code = True
 dict_init = None, callback = None, batch_size = 256, verbose = False
 shuffle = True, n_jobs = None, method = 'lars'
-random_state = RandomState(MT19937) at 0x706CB1B90340, positive_dict = False
+random_state = RandomState(MT19937) at 0x7976C8C13040, positive_dict = False
 positive_code = False, method_max_iter = 1000, tol = 0.001
 max_no_improvement = 10
 
     def dict_learning_online(X, n_components=2, alpha=1, max_iter=100, return_code=True, dict_init=None, callback=None, batch_size=256, verbose=False, shuffle=True, n_jobs=None, method='lars', random_state=None, positive_dict=False, positive_code=False, method_max_iter=1000, tol=0.001, max_no_improvement=10):
         n_samples, n_features = X.shape
         random_state = check_random_state(random_state)
-        if n_components is None:
-            n_components = n_features
         if dict_init is None:
-            U, S, V = randomized_svd(X, n_components)
-            V = V * S[:, np.newaxis]
+            _, S, Vt = randomized_svd(X, n_components)
+            dictionary = Vt
         else:
-            V = dict_init
+            dictionary = dict_init
         if shuffle:
 >           X = shuffle(X, random_state=random_state)
 E           TypeError: 'bool' object is not callable
 
-../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/temp.py:32: TypeError
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/temp.py:30: TypeError
 _______________ test_dict_learning_online_positivity[True-False] _______________
 
 positive_code = False, positive_dict = True
@@ -168,25 +164,23 @@ X = array([[ 1.76405235,  0.40015721,  0.97873798,  2.2408932 ,  1.86755799,
 n_components = 8, alpha = 1, max_iter = 100, return_code = True
 dict_init = None, callback = None, batch_size = 256, verbose = False
 shuffle = True, n_jobs = None, method = 'lars'
-random_state = RandomState(MT19937) at 0x706CB1B90340, positive_dict = False
+random_state = RandomState(MT19937) at 0x7976C8C13040, positive_dict = False
 positive_code = False, method_max_iter = 1000, tol = 0.001
 max_no_improvement = 10
 
     def dict_learning_online(X, n_components=2, alpha=1, max_iter=100, return_code=True, dict_init=None, callback=None, batch_size=256, verbose=False, shuffle=True, n_jobs=None, method='lars', random_state=None, positive_dict=False, positive_code=False, method_max_iter=1000, tol=0.001, max_no_improvement=10):
         n_samples, n_features = X.shape
         random_state = check_random_state(random_state)
-        if n_components is None:
-            n_components = n_features
         if dict_init is None:
-            U, S, V = randomized_svd(X, n_components)
-            V = V * S[:, np.newaxis]
+            _, S, Vt = randomized_svd(X, n_components)
+            dictionary = Vt
         else:
-            V = dict_init
+            dictionary = dict_init
         if shuffle:
 >           X = shuffle(X, random_state=random_state)
 E           TypeError: 'bool' object is not callable
 
-../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/temp.py:32: TypeError
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/temp.py:30: TypeError
 _______________ test_dict_learning_online_positivity[True-True] ________________
 
 positive_code = True, positive_dict = True
@@ -222,31 +216,29 @@ X = array([[ 1.76405235,  0.40015721,  0.97873798,  2.2408932 ,  1.86755799,
 n_components = 8, alpha = 1, max_iter = 100, return_code = True
 dict_init = None, callback = None, batch_size = 256, verbose = False
 shuffle = True, n_jobs = None, method = 'lars'
-random_state = RandomState(MT19937) at 0x706CB1B90340, positive_dict = False
+random_state = RandomState(MT19937) at 0x7976C8C13040, positive_dict = False
 positive_code = False, method_max_iter = 1000, tol = 0.001
 max_no_improvement = 10
 
     def dict_learning_online(X, n_components=2, alpha=1, max_iter=100, return_code=True, dict_init=None, callback=None, batch_size=256, verbose=False, shuffle=True, n_jobs=None, method='lars', random_state=None, positive_dict=False, positive_code=False, method_max_iter=1000, tol=0.001, max_no_improvement=10):
         n_samples, n_features = X.shape
         random_state = check_random_state(random_state)
-        if n_components is None:
-            n_components = n_features
         if dict_init is None:
-            U, S, V = randomized_svd(X, n_components)
-            V = V * S[:, np.newaxis]
+            _, S, Vt = randomized_svd(X, n_components)
+            dictionary = Vt
         else:
-            V = dict_init
+            dictionary = dict_init
         if shuffle:
 >           X = shuffle(X, random_state=random_state)
 E           TypeError: 'bool' object is not callable
 
-../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/temp.py:32: TypeError
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/temp.py:30: TypeError
 =========================== short test summary info ============================
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[False-False]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[False-True]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[True-False]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[True-True]
-============================== 4 failed in 0.61s ===============================
+============================== 4 failed in 0.68s ===============================
 
 
 Final Test Result:
@@ -258,13 +250,13 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 4 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[False-False] I: Seeding RNGs with 1594934230
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[False-False] I: Seeding RNGs with 1248549503
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[False-True] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[True-False] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[True-True] PASSED
 
-============================== 4 passed in 0.44s ===============================
+============================== 4 passed in 0.47s ===============================
 
 
 Initial Result:
@@ -276,10 +268,10 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 4 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[False-False] I: Seeding RNGs with 649645190
+../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[False-False] I: Seeding RNGs with 1593049671
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[False-True] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[True-False] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py::test_dict_learning_online_positivity[True-True] PASSED
 
-============================== 4 passed in 0.44s ===============================
+============================== 4 passed in 0.90s ===============================

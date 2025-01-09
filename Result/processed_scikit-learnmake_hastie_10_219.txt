@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 55 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 417317041
+../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 1480179640
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_informative_features PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_weights_type[weights0-ValueError-Weights specified but incompatible with number of classes.] PASSED
@@ -75,7 +75,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles_unbalanced PASSED
 
-============================== 55 passed in 0.17s ==============================
+============================== 55 passed in 0.18s ==============================
 
 
 Final Test Result:
@@ -87,7 +87,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 55 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 1440948200
+../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 1338839191
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_informative_features PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_weights_type[weights0-ValueError-Weights specified but incompatible with number of classes.] PASSED
@@ -156,7 +156,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 55 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 1361485436
+../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 735514771
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_informative_features PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_weights_type[weights0-ValueError-Weights specified but incompatible with number of classes.] PASSED
@@ -213,4 +213,4 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles_unbalanced PASSED
 
-============================== 55 passed in 0.17s ==============================
+============================== 55 passed in 0.20s ==============================

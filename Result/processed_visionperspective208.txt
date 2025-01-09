@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-6] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-7]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-1]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-8]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-2]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-8] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-2] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-0] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-3] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-9] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-1]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-4]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-3]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-0] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-6] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-4] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-1] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-4] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-6]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-5]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-8]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-4] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-2] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-2]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-8]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-4]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-8] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-6] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-5] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-1]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-3]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-0]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-9]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-4]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-3]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-8] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-7]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-7] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-5] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-9]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-0]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-5]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-3] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-9] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-7] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-1] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-5]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-2]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-0] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-3] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-9]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-6]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-1] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-9] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-2] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-0]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-5] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-7] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-7]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-6]'}
+{'../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-7] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-8] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-5] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-4]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-7]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-2] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-5] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-6] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-4] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-3]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-6]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-9] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-5]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-1]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-2]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-7] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-3] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-6] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-2]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-4]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-9]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-4]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-1]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-6]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-1] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-0] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-3] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-2]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-3] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-0]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-5] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-9]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-1]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-8]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-7] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-5]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-5]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-6]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-0]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-6] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-4] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-8] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-2] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-7]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-3]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-2] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-4] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-0]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-8]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-9]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-8]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-7]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-9] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-1] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-3]', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-0] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-9] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-8] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-0] FAILED', '../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[RGB-1] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -61,15 +61,9 @@ _______________________ test_randomperspective_fill[L-0] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 _______________________ test_randomperspective_fill[L-1] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -81,15 +75,9 @@ _______________________ test_randomperspective_fill[L-1] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 _______________________ test_randomperspective_fill[L-2] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -101,15 +89,9 @@ _______________________ test_randomperspective_fill[L-2] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 _______________________ test_randomperspective_fill[L-3] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -121,15 +103,9 @@ _______________________ test_randomperspective_fill[L-3] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 _______________________ test_randomperspective_fill[L-4] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -141,15 +117,9 @@ _______________________ test_randomperspective_fill[L-4] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 _______________________ test_randomperspective_fill[L-5] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -161,15 +131,9 @@ _______________________ test_randomperspective_fill[L-5] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 _______________________ test_randomperspective_fill[L-6] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -181,15 +145,9 @@ _______________________ test_randomperspective_fill[L-6] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 _______________________ test_randomperspective_fill[L-7] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -201,15 +159,9 @@ _______________________ test_randomperspective_fill[L-7] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 _______________________ test_randomperspective_fill[L-8] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -221,15 +173,9 @@ _______________________ test_randomperspective_fill[L-8] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 _______________________ test_randomperspective_fill[L-9] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -241,15 +187,9 @@ _______________________ test_randomperspective_fill[L-9] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 ______________________ test_randomperspective_fill[RGB-0] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -261,15 +201,9 @@ ______________________ test_randomperspective_fill[RGB-0] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 ______________________ test_randomperspective_fill[RGB-1] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -281,15 +215,9 @@ ______________________ test_randomperspective_fill[RGB-1] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 ______________________ test_randomperspective_fill[RGB-2] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -301,15 +229,9 @@ ______________________ test_randomperspective_fill[RGB-2] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 ______________________ test_randomperspective_fill[RGB-3] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -321,15 +243,9 @@ ______________________ test_randomperspective_fill[RGB-3] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 ______________________ test_randomperspective_fill[RGB-4] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -341,15 +257,9 @@ ______________________ test_randomperspective_fill[RGB-4] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 ______________________ test_randomperspective_fill[RGB-5] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -361,15 +271,9 @@ ______________________ test_randomperspective_fill[RGB-5] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 ______________________ test_randomperspective_fill[RGB-6] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -381,15 +285,9 @@ ______________________ test_randomperspective_fill[RGB-6] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 ______________________ test_randomperspective_fill[RGB-7] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -401,15 +299,9 @@ ______________________ test_randomperspective_fill[RGB-7] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 ______________________ test_randomperspective_fill[RGB-8] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -421,15 +313,9 @@ ______________________ test_randomperspective_fill[RGB-8] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 ______________________ test_randomperspective_fill[RGB-9] ______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -441,15 +327,9 @@ ______________________ test_randomperspective_fill[RGB-9] ______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 _______________________ test_randomperspective_fill[F-0] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -461,15 +341,9 @@ _______________________ test_randomperspective_fill[F-0] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 _______________________ test_randomperspective_fill[F-1] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -481,15 +355,9 @@ _______________________ test_randomperspective_fill[F-1] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 _______________________ test_randomperspective_fill[F-2] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -501,15 +369,9 @@ _______________________ test_randomperspective_fill[F-2] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 _______________________ test_randomperspective_fill[F-3] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -521,15 +383,9 @@ _______________________ test_randomperspective_fill[F-3] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 _______________________ test_randomperspective_fill[F-4] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -541,15 +397,9 @@ _______________________ test_randomperspective_fill[F-4] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 _______________________ test_randomperspective_fill[F-5] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -561,15 +411,9 @@ _______________________ test_randomperspective_fill[F-5] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 _______________________ test_randomperspective_fill[F-6] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -581,15 +425,9 @@ _______________________ test_randomperspective_fill[F-6] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 _______________________ test_randomperspective_fill[F-7] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -601,15 +439,9 @@ _______________________ test_randomperspective_fill[F-7] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 _______________________ test_randomperspective_fill[F-8] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -621,15 +453,9 @@ _______________________ test_randomperspective_fill[F-8] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 _______________________ test_randomperspective_fill[F-9] _______________________
 ../publishablew/vision/vision/test/test_transforms.py:1911: in test_randomperspective_fill
     tr_img = perspective(img_conv)
@@ -641,25 +467,9 @@ _______________________ test_randomperspective_fill[F-9] _______________________
     return F.perspective(img, startpoints, endpoints, self.interpolation, fill)
 ../publishablew/vision/vision/torchvision/transforms/functional.py:573: in perspective
     return perspective(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:22: in perspective
-    return _perspective_pil(img, startpoints, endpoints, interpolation, fill)
-../publishablew/vision/vision/torchvision/transforms/temp.py:31: in _perspective_pil
-    return img.transform((width, height), Image.PERSPECTIVE, coeffs, interpolation, fillcolor=fill)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2890: in transform
-    im.__transformer(
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:2971: in __transformer
-    raise ValueError(msg)
-E   ValueError: Unknown resampling filter (InterpolationMode.BILINEAR). Use Image.Resampling.NEAREST (0), Image.Resampling.BILINEAR (2) or Image.Resampling.BICUBIC (3)
-=============================== warnings summary ===============================
-test/test_transforms.py: 30 warnings
-  /local/data0/moved_data/publishablew/vision/vision/torchvision/transforms/temp.py:56: PendingDeprecationWarning: the matrix subclass is not the recommended way to represent matrices or deal with linear algebra (see https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html). Please adjust your code to use regular ndarray.
-    A = np.matrix(matrix, dtype=np.float32)
-
-test/test_transforms.py: 30 warnings
-  /local/data0/moved_data/publishablew/vision/vision/venv/lib/python3.11/site-packages/numpy/matrixlib/defmatrix.py:69: PendingDeprecationWarning: the matrix subclass is not the recommended way to represent matrices or deal with linear algebra (see https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html). Please adjust your code to use regular ndarray.
-    return matrix(data, dtype=dtype, copy=False)
-
--- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+../publishablew/vision/vision/torchvision/transforms/temp.py:24: in perspective
+    matrix = Image.transform.getperspective(startpoints, endpoints)
+E   AttributeError: module 'PIL.Image' has no attribute 'transform'
 =========================== short test summary info ============================
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-0]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[L-1]
@@ -691,7 +501,7 @@ FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspec
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-7]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-8]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-9]
-======================= 30 failed, 60 warnings in 5.67s ========================
+============================== 30 failed in 3.91s ==============================
 
 
 Final Test Result:
@@ -734,7 +544,7 @@ collecting ... collected 30 items
 ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-8] PASSED
 ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-9] PASSED
 
-============================== 30 passed in 0.43s ==============================
+============================== 30 passed in 0.34s ==============================
 
 
 Initial Result:
@@ -777,4 +587,4 @@ collecting ... collected 30 items
 ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-8] PASSED
 ../publishablew/vision/vision/test/test_transforms.py::test_randomperspective_fill[F-9] PASSED
 
-============================== 30 passed in 0.39s ==============================
+============================== 30 passed in 0.38s ==============================

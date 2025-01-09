@@ -1,41 +1,34 @@
 import torch
 
 def match_snn(desc1, desc2, th=0.8, dm=None):
-    """
-    Matches descriptors from desc1 to desc2 using the second nearest neighbor ratio test.
-
-    Args:
-        desc1 (torch.Tensor): Tensor of shape (B1, D) representing descriptors from the first set.
-        desc2 (torch.Tensor): Tensor of shape (B2, D) representing descriptors from the second set.
-        th (float): Threshold for the ratio test. Default is 0.8.
-        dm (torch.Tensor, optional): Precomputed distance matrix of shape (B1, B2). If None, it will be computed.
-
-    Returns:
-        tuple: (distances, indices) where:
-            - distances (torch.Tensor): Tensor of shape (B3, 1) with distances of matching descriptors.
-            - indices (torch.Tensor): Long tensor of shape (B3, 2) with indices of matching descriptors in desc1 and desc2.
-    """
+    # Validate input shapes
+    if desc1.ndim != 2 or desc2.ndim != 2:
+        raise ValueError("desc1 and desc2 must be 2D tensors.")
+    
     if desc2.size(0) < 2:
-        return torch.empty((0, 1)), torch.empty((0, 2), dtype=torch.long)
-
+        # If desc2 has fewer than two descriptors, return empty results
+        return torch.empty(0, 1), torch.empty(0, 2, dtype=torch.long)
+    
+    # Calculate the distance matrix if not provided
     if dm is None:
-        dm = torch.cdist(desc1, desc2, p=2)  # Compute the distance matrix if not provided
-
-    # Get the two smallest distances and their indices
-    top2_distances, top2_indices = torch.topk(dm, k=2, largest=False, dim=1)
-
-    # Compute the ratio of the smallest distance to the second smallest distance
-    ratio = top2_distances[:, 0] / top2_distances[:, 1]
-
-    # Find the matches that satisfy the ratio test
+        # Compute pairwise L2 distances
+        dm = torch.cdist(desc1, desc2, p=2)
+    
+    # Find the nearest and second nearest neighbors
+    sorted_distances, sorted_indices = torch.sort(dm, dim=1)
+    
+    # Nearest and second nearest distances and indices
+    nearest_distances = sorted_distances[:, 0]
+    second_nearest_distances = sorted_distances[:, 1]
+    nearest_indices = sorted_indices[:, 0]
+    
+    # Apply the ratio test
+    ratio = nearest_distances / second_nearest_distances
     valid_matches = ratio <= th
-
-    if not valid_matches.any():
-        return torch.empty((0, 1)), torch.empty((0, 2), dtype=torch.long)
-
-    # Get the distances and indices of the valid matches
-    distances = top2_distances[valid_matches, 0].unsqueeze(1)
-    indices = torch.stack((torch.arange(desc1.size(0))[valid_matches], top2_indices[valid_matches, 0]), dim=1)
-
-    return distances, indices
+    
+    # Filter valid matches
+    matched_distances = nearest_distances[valid_matches].unsqueeze(1)
+    matched_indices = torch.stack((torch.arange(desc1.size(0))[valid_matches], nearest_indices[valid_matches]), dim=1)
+    
+    return matched_distances, matched_indices
 

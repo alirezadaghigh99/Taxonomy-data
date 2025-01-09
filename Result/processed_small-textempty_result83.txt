@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_empty_result_single_label_prediction', 'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_empty_result_single_label_proba', 'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_empty_result_single_label_both', '../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_empty_result_single_label_prediction FAILED', '../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_empty_result_single_label_both FAILED', '../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_empty_result_single_label_proba FAILED'}
+{'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_empty_result_single_label_prediction', '../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_empty_result_single_label_both FAILED', '../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_empty_result_single_label_prediction FAILED', 'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_empty_result_single_label_both'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -21,7 +21,7 @@ collecting ... collected 8 items
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_empty_result_invalid_call PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_empty_result_single_label_both FAILED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_empty_result_single_label_prediction FAILED
-../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_empty_result_single_label_proba FAILED
+../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_empty_result_single_label_proba PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_multilabel PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_multilabel_with_proba PASSED
@@ -36,10 +36,21 @@ self = <tests.unit.small_text.utils.test_classification.ClassificationUtilsTest 
         num_labels = 3
         prediction, proba = empty_result(False, num_labels)
     
->       self.assertTrue(isinstance(prediction, np.ndarray))
-E       AssertionError: False is not true
+        self.assertTrue(isinstance(prediction, np.ndarray))
+        self.assertEqual(np.int64, prediction.dtype)
+>       self.assertEqual((0, 3), prediction.shape)
+E       AssertionError: Tuples differ: (0, 3) != (0,)
+E       
+E       First tuple contains 1 additional elements.
+E       First extra element 1:
+E       3
+E       
+E       - (0, 3)
+E       ?    --
+E       
+E       + (0,)
 
-../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py:97: AssertionError
+../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py:99: AssertionError
 ______ ClassificationUtilsTest.test_empty_result_single_label_prediction _______
 
 self = <tests.unit.small_text.utils.test_classification.ClassificationUtilsTest testMethod=test_empty_result_single_label_prediction>
@@ -48,27 +59,25 @@ self = <tests.unit.small_text.utils.test_classification.ClassificationUtilsTest 
         num_labels = 3
         prediction = empty_result(False, num_labels, return_proba=False)
     
->       self.assertTrue(isinstance(prediction, np.ndarray))
-E       AssertionError: False is not true
+        self.assertTrue(isinstance(prediction, np.ndarray))
+        self.assertEqual(np.int64, prediction.dtype)
+>       self.assertEqual((0, 3), prediction.shape)
+E       AssertionError: Tuples differ: (0, 3) != (0,)
+E       
+E       First tuple contains 1 additional elements.
+E       First extra element 1:
+E       3
+E       
+E       - (0, 3)
+E       ?    --
+E       
+E       + (0,)
 
-../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py:81: AssertionError
-_________ ClassificationUtilsTest.test_empty_result_single_label_proba _________
-
-self = <tests.unit.small_text.utils.test_classification.ClassificationUtilsTest testMethod=test_empty_result_single_label_proba>
-
-    def test_empty_result_single_label_proba(self):
-        num_labels = 3
-        proba = empty_result(False, num_labels, return_prediction=False)
-    
->       self.assertTrue(isinstance(proba, np.ndarray))
-E       AssertionError: False is not true
-
-../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py:89: AssertionError
+../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py:83: AssertionError
 =========================== short test summary info ============================
 FAILED ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_empty_result_single_label_both
 FAILED ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_empty_result_single_label_prediction
-FAILED ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_empty_result_single_label_proba
-========================= 3 failed, 5 passed in 1.69s ==========================
+========================= 2 failed, 6 passed in 1.68s ==========================
 
 
 Final Test Result:
@@ -89,7 +98,7 @@ collecting ... collected 8 items
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_multilabel_with_proba PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_with_proba PASSED
 
-============================== 8 passed in 1.53s ===============================
+============================== 8 passed in 1.66s ===============================
 
 
 Initial Result:
@@ -110,4 +119,4 @@ collecting ... collected 8 items
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_multilabel_with_proba PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_classification.py::ClassificationUtilsTest::test_prediction_result_with_proba PASSED
 
-============================== 8 passed in 1.60s ===============================
+============================== 8 passed in 1.63s ===============================

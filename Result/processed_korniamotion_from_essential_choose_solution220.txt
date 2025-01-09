@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_unbatched[cpu-float32-15]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_shape[cpu-float32-3-2] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_masking[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_masking[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_shape[cpu-float32-2-3] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_two_view[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_unbatched[cpu-float32-20] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_unbatched[cpu-float32-10]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_unbatched[cpu-float32-15] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_smoke[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_two_view[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_shape[cpu-float32-3-2]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_gradcheck[cpu] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_smoke[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_unbatched[cpu-float32-20]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_shape[cpu-float32-2-3]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_shape[cpu-float32-1-3] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_gradcheck[cpu]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_shape[cpu-float32-1-3]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_shape[cpu-float32-2-8]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_shape[cpu-float32-2-8] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_unbatched[cpu-float32-10] FAILED'}
+{'../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_smoke[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_shape[cpu-float32-2-8] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_shape[cpu-float32-2-8]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_shape[cpu-float32-3-2] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_shape[cpu-float32-1-3] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_two_view[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_shape[cpu-float32-2-3] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_shape[cpu-float32-3-2]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_smoke[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_masking[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_masking[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_unbatched[cpu-float32-15] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_unbatched[cpu-float32-10]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_unbatched[cpu-float32-20] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_shape[cpu-float32-2-3]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_gradcheck[cpu]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_two_view[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_gradcheck[cpu] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_unbatched[cpu-float32-15]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_unbatched[cpu-float32-20]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_shape[cpu-float32-1-3]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_unbatched[cpu-float32-10] FAILED'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'onnxrt', 'tvm', 'cudagraphs', 'jit', 'inductor', None}
+available optimizers: {'', 'openxla', 'jit', 'tvm', 'onnxrt', 'cudagraphs', None, 'inductor'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -58,7 +58,7 @@ collecting ... collected 11 items
 =================================== FAILURES ===================================
 ________ TestMotionFromEssentialChooseSolution.test_smoke[cpu-float32] _________
 
-self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x7d8d080da170>
+self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x70c7282fa650>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_smoke(self, device, dtype):
@@ -92,7 +92,7 @@ E   ModuleNotFoundError: No module named 'cv2'
 ../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:12: ModuleNotFoundError
 ______ TestMotionFromEssentialChooseSolution.test_shape[cpu-float32-1-3] _______
 
-self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x7d8d080da620>
+self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x70c7282fab00>
 batch_size = 1, num_points = 3, device = device(type='cpu')
 dtype = torch.float32
 
@@ -129,7 +129,7 @@ E   ModuleNotFoundError: No module named 'cv2'
 ../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:12: ModuleNotFoundError
 ______ TestMotionFromEssentialChooseSolution.test_shape[cpu-float32-2-3] _______
 
-self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x7d8d080da560>
+self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x70c7282faa40>
 batch_size = 2, num_points = 3, device = device(type='cpu')
 dtype = torch.float32
 
@@ -166,7 +166,7 @@ E   ModuleNotFoundError: No module named 'cv2'
 ../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:12: ModuleNotFoundError
 ______ TestMotionFromEssentialChooseSolution.test_shape[cpu-float32-2-8] _______
 
-self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x7d8d080da920>
+self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x70c7282fae00>
 batch_size = 2, num_points = 8, device = device(type='cpu')
 dtype = torch.float32
 
@@ -203,7 +203,7 @@ E   ModuleNotFoundError: No module named 'cv2'
 ../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:12: ModuleNotFoundError
 ______ TestMotionFromEssentialChooseSolution.test_shape[cpu-float32-3-2] _______
 
-self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x7d8d080da9e0>
+self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x70c7282faec0>
 batch_size = 3, num_points = 2, device = device(type='cpu')
 dtype = torch.float32
 
@@ -240,7 +240,7 @@ E   ModuleNotFoundError: No module named 'cv2'
 ../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:12: ModuleNotFoundError
 _______ TestMotionFromEssentialChooseSolution.test_masking[cpu-float32] ________
 
-self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x7d8d080dacb0>
+self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x70c7282fb190>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_masking(self, device, dtype):
@@ -275,7 +275,7 @@ E   ModuleNotFoundError: No module named 'cv2'
 ../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:12: ModuleNotFoundError
 _____ TestMotionFromEssentialChooseSolution.test_unbatched[cpu-float32-10] _____
 
-self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x7d8d080db0a0>
+self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x70c7282fb580>
 num_points = 10, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("num_points", [10, 15, 20])
@@ -312,7 +312,7 @@ E   ModuleNotFoundError: No module named 'cv2'
 ../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:12: ModuleNotFoundError
 _____ TestMotionFromEssentialChooseSolution.test_unbatched[cpu-float32-15] _____
 
-self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x7d8d080dafe0>
+self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x70c7282fb4c0>
 num_points = 15, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("num_points", [10, 15, 20])
@@ -349,7 +349,7 @@ E   ModuleNotFoundError: No module named 'cv2'
 ../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:12: ModuleNotFoundError
 _____ TestMotionFromEssentialChooseSolution.test_unbatched[cpu-float32-20] _____
 
-self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x7d8d080db2e0>
+self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x70c7282fb7c0>
 num_points = 20, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("num_points", [10, 15, 20])
@@ -386,7 +386,7 @@ E   ModuleNotFoundError: No module named 'cv2'
 ../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:12: ModuleNotFoundError
 _______ TestMotionFromEssentialChooseSolution.test_two_view[cpu-float32] _______
 
-self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x7d8d080db5b0>
+self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x70c7282fba90>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_two_view(self, device, dtype):
@@ -424,7 +424,7 @@ E   ModuleNotFoundError: No module named 'cv2'
 ../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:12: ModuleNotFoundError
 __________ TestMotionFromEssentialChooseSolution.test_gradcheck[cpu] ___________
 
-self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x7d8d080db880>
+self = <test_essential.TestMotionFromEssentialChooseSolution object at 0x70c7282fbd60>
 device = device(type='cpu')
 
     def test_gradcheck(self, device):
@@ -479,7 +479,7 @@ FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::
 FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_unbatched[cpu-float32-20]
 FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_two_view[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_gradcheck[cpu]
-============================== 11 failed in 0.64s ==============================
+============================== 11 failed in 0.58s ==============================
 
 
 Final Test Result:
@@ -508,7 +508,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'onnxrt', 'inductor', 'openxla', 'jit', 'tvm', None}
+available optimizers: {'', 'inductor', 'onnxrt', 'tvm', 'cudagraphs', 'openxla', None, 'jit'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -557,7 +557,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'jit', 'onnxrt', 'openxla', 'inductor', 'tvm', None}
+available optimizers: {'', 'openxla', 'inductor', 'tvm', 'jit', 'cudagraphs', 'onnxrt', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -577,4 +577,4 @@ collecting ... collected 11 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_two_view[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssentialChooseSolution::test_gradcheck[cpu] PASSED
 
-============================== 11 passed in 0.30s ==============================
+============================== 11 passed in 0.24s ==============================

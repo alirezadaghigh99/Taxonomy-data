@@ -3,36 +3,39 @@ import torch.nn.functional as F
 import numpy as np
 
 def canny(input, low_threshold, high_threshold, kernel_size, sigma, hysteresis=True, eps=1e-6):
-    assert len(input.shape) == 4, "Input tensor must have shape (B, C, H, W)"
+    # Check input tensor
+    if not isinstance(input, torch.Tensor):
+        raise TypeError("Input must be a torch.Tensor")
+    if input.dim() != 4:
+        raise ValueError("Input tensor must have shape (B, C, H, W)")
+    
     B, C, H, W = input.shape
     
     # Convert to grayscale if input has 3 channels
     if C == 3:
         input = 0.299 * input[:, 0, :, :] + 0.587 * input[:, 1, :, :] + 0.114 * input[:, 2, :, :]
-        input = input.unsqueeze(1)
-    elif C == 1:
-        input = input
-    else:
+        input = input.unsqueeze(1)  # Add channel dimension back
+    elif C != 1:
         raise ValueError("Input tensor must have 1 or 3 channels")
     
     # Apply Gaussian blur
     def gaussian_kernel(kernel_size, sigma):
-        kernel = np.fromfunction(
-            lambda x, y: (1/ (2 * np.pi * sigma**2)) * np.exp(- ((x - (kernel_size - 1) / 2)**2 + (y - (kernel_size - 1) / 2)**2) / (2 * sigma**2)),
-            (kernel_size, kernel_size)
-        )
-        return torch.tensor(kernel / np.sum(kernel), dtype=torch.float32)
+        ax = torch.arange(-kernel_size // 2 + 1., kernel_size // 2 + 1.)
+        xx, yy = torch.meshgrid(ax, ax)
+        kernel = torch.exp(-(xx**2 + yy**2) / (2. * sigma**2))
+        kernel = kernel / torch.sum(kernel)
+        return kernel
     
-    kernel = gaussian_kernel(kernel_size, sigma).unsqueeze(0).unsqueeze(0)
-    kernel = kernel.repeat(C, 1, 1, 1)
-    input = F.conv2d(input, kernel, padding=kernel_size//2, groups=C)
+    kernel = gaussian_kernel(kernel_size, sigma).to(input.device)
+    kernel = kernel.expand(C, 1, kernel_size, kernel_size)
+    blurred = F.conv2d(input, kernel, padding=kernel_size//2, groups=C)
     
     # Compute gradients
-    sobel_x = torch.tensor([[-1, 0, 1], [-2, 0, 2], [-1, 0, 1]], dtype=torch.float32).unsqueeze(0).unsqueeze(0)
-    sobel_y = torch.tensor([[-1, -2, -1], [0, 0, 0], [1, 2, 1]], dtype=torch.float32).unsqueeze(0).unsqueeze(0)
+    sobel_x = torch.tensor([[-1, 0, 1], [-2, 0, 2], [-1, 0, 1]], dtype=torch.float32, device=input.device).expand(C, 1, 3, 3)
+    sobel_y = torch.tensor([[-1, -2, -1], [0, 0, 0], [1, 2, 1]], dtype=torch.float32, device=input.device).expand(C, 1, 3, 3)
     
-    grad_x = F.conv2d(input, sobel_x, padding=1)
-    grad_y = F.conv2d(input, sobel_y, padding=1)
+    grad_x = F.conv2d(blurred, sobel_x, padding=1, groups=C)
+    grad_y = F.conv2d(blurred, sobel_y, padding=1, groups=C)
     
     # Compute gradient magnitude and angle
     grad_magnitude = torch.sqrt(grad_x**2 + grad_y**2 + eps)
@@ -45,32 +48,31 @@ def canny(input, low_threshold, high_threshold, kernel_size, sigma, hysteresis=T
         angle = angle * 180.0 / np.pi
         angle[angle < 0] += 180
         
-        for b in range(B):
-            for i in range(1, H-1):
-                for j in range(1, W-1):
-                    q = 255
-                    r = 255
-                    # Angle 0
-                    if (0 <= angle[b, 0, i, j] < 22.5) or (157.5 <= angle[b, 0, i, j] <= 180):
-                        q = magnitude[b, 0, i, j+1]
-                        r = magnitude[b, 0, i, j-1]
-                    # Angle 45
-                    elif 22.5 <= angle[b, 0, i, j] < 67.5:
-                        q = magnitude[b, 0, i+1, j-1]
-                        r = magnitude[b, 0, i-1, j+1]
-                    # Angle 90
-                    elif 67.5 <= angle[b, 0, i, j] < 112.5:
-                        q = magnitude[b, 0, i+1, j]
-                        r = magnitude[b, 0, i-1, j]
-                    # Angle 135
-                    elif 112.5 <= angle[b, 0, i, j] < 157.5:
-                        q = magnitude[b, 0, i-1, j-1]
-                        r = magnitude[b, 0, i+1, j+1]
-                    
-                    if (magnitude[b, 0, i, j] >= q) and (magnitude[b, 0, i, j] >= r):
-                        output[b, 0, i, j] = magnitude[b, 0, i, j]
-                    else:
-                        output[b, 0, i, j] = 0
+        for i in range(1, H-1):
+            for j in range(1, W-1):
+                q = 255
+                r = 255
+                # Angle 0
+                if (0 <= angle[:, :, i, j] < 22.5) or (157.5 <= angle[:, :, i, j] <= 180):
+                    q = magnitude[:, :, i, j+1]
+                    r = magnitude[:, :, i, j-1]
+                # Angle 45
+                elif 22.5 <= angle[:, :, i, j] < 67.5:
+                    q = magnitude[:, :, i+1, j-1]
+                    r = magnitude[:, :, i-1, j+1]
+                # Angle 90
+                elif 67.5 <= angle[:, :, i, j] < 112.5:
+                    q = magnitude[:, :, i+1, j]
+                    r = magnitude[:, :, i-1, j]
+                # Angle 135
+                elif 112.5 <= angle[:, :, i, j] < 157.5:
+                    q = magnitude[:, :, i-1, j-1]
+                    r = magnitude[:, :, i+1, j+1]
+                
+                if (magnitude[:, :, i, j] >= q) and (magnitude[:, :, i, j] >= r):
+                    output[:, :, i, j] = magnitude[:, :, i, j]
+                else:
+                    output[:, :, i, j] = 0
         return output
     
     suppressed = non_max_suppression(grad_magnitude, grad_angle)
@@ -79,24 +81,23 @@ def canny(input, low_threshold, high_threshold, kernel_size, sigma, hysteresis=T
     strong_edges = (suppressed >= high_threshold).float()
     weak_edges = ((suppressed >= low_threshold) & (suppressed < high_threshold)).float()
     
+    # Hysteresis
     if hysteresis:
-        # Hysteresis edge tracking
         def hysteresis_tracking(strong, weak):
             B, C, H, W = strong.shape
-            output = strong.clone()
-            for b in range(B):
-                for i in range(1, H-1):
-                    for j in range(1, W-1):
-                        if weak[b, 0, i, j] == 1:
-                            if ((strong[b, 0, i+1, j-1:j+2] == 1).any() or
-                                (strong[b, 0, i-1, j-1:j+2] == 1).any() or
-                                (strong[b, 0, i, [j-1, j+1]] == 1).any()):
-                                output[b, 0, i, j] = 1
-            return output
+            edges = strong.clone()
+            for i in range(1, H-1):
+                for j in range(1, W-1):
+                    if weak[:, :, i, j] == 1:
+                        if ((strong[:, :, i+1, j-1:j+2] == 1).any() or
+                            (strong[:, :, i-1, j-1:j+2] == 1).any() or
+                            (strong[:, :, i, [j-1, j+1]] == 1).any()):
+                            edges[:, :, i, j] = 1
+            return edges
         
         edges = hysteresis_tracking(strong_edges, weak_edges)
     else:
         edges = strong_edges
     
-    return grad_magnitude, edges
+    return grad_magnitude.unsqueeze(1), edges.unsqueeze(1)
 

@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_eps[float32] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_eps[float64] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_perfect_predictions[y_true0-y_pred0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_not_probabilities_warning[float64] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score_raises FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score_raises', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_eps[float16] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_not_probabilities_warning[float32] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_not_probabilities_warning[float16] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_pandas_input FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_not_probabilities_warning[float64]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_not_probabilities_warning[float32]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_eps[float16]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_perfect_predictions[y_true0-y_pred0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_eps[float64]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_eps[float32]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_not_probabilities_warning[float16]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_pandas_input'}
+{'../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_pandas_input FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score_raises FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_eps[float32] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_eps[float64]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_not_probabilities_warning[float32] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_eps[float16] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_not_probabilities_warning[float16] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_pandas_input', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_not_probabilities_warning[float64] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_not_probabilities_warning[float32]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score_raises', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_not_probabilities_warning[float64]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_perfect_predictions[y_true0-y_pred0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_eps[float32]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_not_probabilities_warning[float16]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_eps[float64] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_eps[float16]', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_perfect_predictions[y_true0-y_pred0] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 208 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 48544477
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 1124043912
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_output_dict_empty_input PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_zero_division_warning[warn] PASSED
@@ -258,28 +258,27 @@ normalize = True, sample_weight = array([1., 1., 1., 1., 1., 1.]), labels = None
 
     def log_loss(y_true, y_pred, normalize=True, sample_weight=None, labels=None):
         """
-        Calculate the log loss (logistic loss or cross-entropy loss).
+        Calculate the log loss, also known as logistic loss or cross-entropy loss.
     
         Parameters:
-        - y_true: array-like of shape (n_samples,) - Ground truth labels for n_samples samples.
-        - y_pred: array-like of shape (n_samples, n_classes) - Predicted probabilities from a classifier's predict_proba method.
-        - normalize: bool, default=True - Whether to return the mean loss per sample or the sum of per-sample losses.
+        - y_true: array-like of shape (n_samples,) - Ground truth labels.
+        - y_pred: array-like of shape (n_samples, n_classes) - Predicted probabilities.
+        - normalize: bool, default=True - If True, return the mean loss per sample. Otherwise, return the sum of per-sample losses.
         - sample_weight: array-like of shape (n_samples,), default=None - Optional sample weights.
-        - labels: array-like of shape (n_classes,), default=None - Optional labels for the classes.
+        - labels: array-like, default=None - Optional labels for the classes.
     
         Returns:
-        - log_loss: float - The calculated log loss.
+        - float - The calculated log loss.
     
         Examples:
-        >>> y_true = [0, 1, 1, 0]
-        >>> y_pred = [[0.9, 0.1], [0.2, 0.8], [0.3, 0.7], [0.8, 0.2]]
+        >>> y_true = [0, 1, 1]
+        >>> y_pred = [[0.9, 0.1], [0.2, 0.8], [0.3, 0.7]]
         >>> log_loss(y_true, y_pred)
-        0.21616187468057912
+        0.1738073366910675
     
         Notes:
-        - Log loss is a performance metric for evaluating the predictions of a classifier.
-        - It is commonly used in binary and multi-class classification problems.
-        - The log loss is calculated as the negative log-likelihood of the true labels given the predicted probabilities.
+        - Log loss is a measure of the performance of a classification model where the prediction is a probability value between 0 and 1.
+        - The function assumes that y_pred contains probabilities for each class and that the sum of probabilities for each sample is 1.
     
         References:
         - https://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html
@@ -289,21 +288,18 @@ normalize = True, sample_weight = array([1., 1., 1., 1., 1., 1.]), labels = None
         y_pred = np.array(y_pred)
         if labels is not None:
             labels = np.array(labels)
-            n_classes = len(labels)
             y_true = np.searchsorted(labels, y_true)
-        else:
-            n_classes = y_pred.shape[1]
         if sample_weight is None:
-            sample_weight = np.ones_like(y_true, dtype=float)
-        else:
-            sample_weight = np.array(sample_weight)
+            sample_weight = np.ones(y_true.shape[0])
         eps = np.finfo(float).eps
         y_pred = np.clip(y_pred, eps, 1 - eps)
-        y_true_one_hot = np.zeros_like(y_pred)
->       y_true_one_hot[np.arange(len(y_true)), y_true] = 1
+        n_samples = y_true.shape[0]
+        n_classes = y_pred.shape[1]
+        y_true_one_hot = np.zeros((n_samples, n_classes))
+>       y_true_one_hot[np.arange(n_samples), y_true] = 1
 E       IndexError: arrays used as indices must be of integer (or boolean) type
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:62: IndexError
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:58: IndexError
 __________________________ test_log_loss_eps[float64] __________________________
 
 dtype = <class 'numpy.float64'>
@@ -328,33 +324,32 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return log_loss(y_true, y_pred)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-y_true = array([0., 1.]), y_pred = array([1., 0.]), normalize = True
-sample_weight = None, labels = None
+y_true = array([0., 1.]), y_pred = array([1.00000000e+00, 2.22044605e-16])
+normalize = True, sample_weight = array([1., 1.]), labels = None
 
     def log_loss(y_true, y_pred, normalize=True, sample_weight=None, labels=None):
         """
-        Calculate the log loss (logistic loss or cross-entropy loss).
+        Calculate the log loss, also known as logistic loss or cross-entropy loss.
     
         Parameters:
-        - y_true: array-like of shape (n_samples,) - Ground truth labels for n_samples samples.
-        - y_pred: array-like of shape (n_samples, n_classes) - Predicted probabilities from a classifier's predict_proba method.
-        - normalize: bool, default=True - Whether to return the mean loss per sample or the sum of per-sample losses.
+        - y_true: array-like of shape (n_samples,) - Ground truth labels.
+        - y_pred: array-like of shape (n_samples, n_classes) - Predicted probabilities.
+        - normalize: bool, default=True - If True, return the mean loss per sample. Otherwise, return the sum of per-sample losses.
         - sample_weight: array-like of shape (n_samples,), default=None - Optional sample weights.
-        - labels: array-like of shape (n_classes,), default=None - Optional labels for the classes.
+        - labels: array-like, default=None - Optional labels for the classes.
     
         Returns:
-        - log_loss: float - The calculated log loss.
+        - float - The calculated log loss.
     
         Examples:
-        >>> y_true = [0, 1, 1, 0]
-        >>> y_pred = [[0.9, 0.1], [0.2, 0.8], [0.3, 0.7], [0.8, 0.2]]
+        >>> y_true = [0, 1, 1]
+        >>> y_pred = [[0.9, 0.1], [0.2, 0.8], [0.3, 0.7]]
         >>> log_loss(y_true, y_pred)
-        0.21616187468057912
+        0.1738073366910675
     
         Notes:
-        - Log loss is a performance metric for evaluating the predictions of a classifier.
-        - It is commonly used in binary and multi-class classification problems.
-        - The log loss is calculated as the negative log-likelihood of the true labels given the predicted probabilities.
+        - Log loss is a measure of the performance of a classification model where the prediction is a probability value between 0 and 1.
+        - The function assumes that y_pred contains probabilities for each class and that the sum of probabilities for each sample is 1.
     
         References:
         - https://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html
@@ -364,13 +359,16 @@ sample_weight = None, labels = None
         y_pred = np.array(y_pred)
         if labels is not None:
             labels = np.array(labels)
-            n_classes = len(labels)
             y_true = np.searchsorted(labels, y_true)
-        else:
->           n_classes = y_pred.shape[1]
-E           IndexError: tuple index out of range
+        if sample_weight is None:
+            sample_weight = np.ones(y_true.shape[0])
+        eps = np.finfo(float).eps
+        y_pred = np.clip(y_pred, eps, 1 - eps)
+        n_samples = y_true.shape[0]
+>       n_classes = y_pred.shape[1]
+E       IndexError: tuple index out of range
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:54: IndexError
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:56: IndexError
 __________________________ test_log_loss_eps[float32] __________________________
 
 dtype = <class 'numpy.float32'>
@@ -395,33 +393,33 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return log_loss(y_true, y_pred)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-y_true = array([0., 1.], dtype=float32), y_pred = array([1., 0.], dtype=float32)
-normalize = True, sample_weight = None, labels = None
+y_true = array([0., 1.], dtype=float32)
+y_pred = array([1.00000000e+00, 2.22044605e-16]), normalize = True
+sample_weight = array([1., 1.]), labels = None
 
     def log_loss(y_true, y_pred, normalize=True, sample_weight=None, labels=None):
         """
-        Calculate the log loss (logistic loss or cross-entropy loss).
+        Calculate the log loss, also known as logistic loss or cross-entropy loss.
     
         Parameters:
-        - y_true: array-like of shape (n_samples,) - Ground truth labels for n_samples samples.
-        - y_pred: array-like of shape (n_samples, n_classes) - Predicted probabilities from a classifier's predict_proba method.
-        - normalize: bool, default=True - Whether to return the mean loss per sample or the sum of per-sample losses.
+        - y_true: array-like of shape (n_samples,) - Ground truth labels.
+        - y_pred: array-like of shape (n_samples, n_classes) - Predicted probabilities.
+        - normalize: bool, default=True - If True, return the mean loss per sample. Otherwise, return the sum of per-sample losses.
         - sample_weight: array-like of shape (n_samples,), default=None - Optional sample weights.
-        - labels: array-like of shape (n_classes,), default=None - Optional labels for the classes.
+        - labels: array-like, default=None - Optional labels for the classes.
     
         Returns:
-        - log_loss: float - The calculated log loss.
+        - float - The calculated log loss.
     
         Examples:
-        >>> y_true = [0, 1, 1, 0]
-        >>> y_pred = [[0.9, 0.1], [0.2, 0.8], [0.3, 0.7], [0.8, 0.2]]
+        >>> y_true = [0, 1, 1]
+        >>> y_pred = [[0.9, 0.1], [0.2, 0.8], [0.3, 0.7]]
         >>> log_loss(y_true, y_pred)
-        0.21616187468057912
+        0.1738073366910675
     
         Notes:
-        - Log loss is a performance metric for evaluating the predictions of a classifier.
-        - It is commonly used in binary and multi-class classification problems.
-        - The log loss is calculated as the negative log-likelihood of the true labels given the predicted probabilities.
+        - Log loss is a measure of the performance of a classification model where the prediction is a probability value between 0 and 1.
+        - The function assumes that y_pred contains probabilities for each class and that the sum of probabilities for each sample is 1.
     
         References:
         - https://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html
@@ -431,13 +429,16 @@ normalize = True, sample_weight = None, labels = None
         y_pred = np.array(y_pred)
         if labels is not None:
             labels = np.array(labels)
-            n_classes = len(labels)
             y_true = np.searchsorted(labels, y_true)
-        else:
->           n_classes = y_pred.shape[1]
-E           IndexError: tuple index out of range
+        if sample_weight is None:
+            sample_weight = np.ones(y_true.shape[0])
+        eps = np.finfo(float).eps
+        y_pred = np.clip(y_pred, eps, 1 - eps)
+        n_samples = y_true.shape[0]
+>       n_classes = y_pred.shape[1]
+E       IndexError: tuple index out of range
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:54: IndexError
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:56: IndexError
 __________________________ test_log_loss_eps[float16] __________________________
 
 dtype = <class 'numpy.float16'>
@@ -462,33 +463,33 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return log_loss(y_true, y_pred)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-y_true = array([0., 1.], dtype=float16), y_pred = array([1., 0.], dtype=float16)
-normalize = True, sample_weight = None, labels = None
+y_true = array([0., 1.], dtype=float16)
+y_pred = array([1.00000000e+00, 2.22044605e-16]), normalize = True
+sample_weight = array([1., 1.]), labels = None
 
     def log_loss(y_true, y_pred, normalize=True, sample_weight=None, labels=None):
         """
-        Calculate the log loss (logistic loss or cross-entropy loss).
+        Calculate the log loss, also known as logistic loss or cross-entropy loss.
     
         Parameters:
-        - y_true: array-like of shape (n_samples,) - Ground truth labels for n_samples samples.
-        - y_pred: array-like of shape (n_samples, n_classes) - Predicted probabilities from a classifier's predict_proba method.
-        - normalize: bool, default=True - Whether to return the mean loss per sample or the sum of per-sample losses.
+        - y_true: array-like of shape (n_samples,) - Ground truth labels.
+        - y_pred: array-like of shape (n_samples, n_classes) - Predicted probabilities.
+        - normalize: bool, default=True - If True, return the mean loss per sample. Otherwise, return the sum of per-sample losses.
         - sample_weight: array-like of shape (n_samples,), default=None - Optional sample weights.
-        - labels: array-like of shape (n_classes,), default=None - Optional labels for the classes.
+        - labels: array-like, default=None - Optional labels for the classes.
     
         Returns:
-        - log_loss: float - The calculated log loss.
+        - float - The calculated log loss.
     
         Examples:
-        >>> y_true = [0, 1, 1, 0]
-        >>> y_pred = [[0.9, 0.1], [0.2, 0.8], [0.3, 0.7], [0.8, 0.2]]
+        >>> y_true = [0, 1, 1]
+        >>> y_pred = [[0.9, 0.1], [0.2, 0.8], [0.3, 0.7]]
         >>> log_loss(y_true, y_pred)
-        0.21616187468057912
+        0.1738073366910675
     
         Notes:
-        - Log loss is a performance metric for evaluating the predictions of a classifier.
-        - It is commonly used in binary and multi-class classification problems.
-        - The log loss is calculated as the negative log-likelihood of the true labels given the predicted probabilities.
+        - Log loss is a measure of the performance of a classification model where the prediction is a probability value between 0 and 1.
+        - The function assumes that y_pred contains probabilities for each class and that the sum of probabilities for each sample is 1.
     
         References:
         - https://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html
@@ -498,13 +499,16 @@ normalize = True, sample_weight = None, labels = None
         y_pred = np.array(y_pred)
         if labels is not None:
             labels = np.array(labels)
-            n_classes = len(labels)
             y_true = np.searchsorted(labels, y_true)
-        else:
->           n_classes = y_pred.shape[1]
-E           IndexError: tuple index out of range
+        if sample_weight is None:
+            sample_weight = np.ones(y_true.shape[0])
+        eps = np.finfo(float).eps
+        y_pred = np.clip(y_pred, eps, 1 - eps)
+        n_samples = y_true.shape[0]
+>       n_classes = y_pred.shape[1]
+E       IndexError: tuple index out of range
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:54: IndexError
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:56: IndexError
 _______________ test_log_loss_not_probabilities_warning[float64] _______________
 
 dtype = <class 'numpy.float64'>
@@ -578,33 +582,33 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return log_loss(y_true, y_pred)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-y_true = array([0, 1, 0]), y_pred = array([0, 1, 0]), normalize = True
-sample_weight = None, labels = None
+y_true = array([0, 1, 0])
+y_pred = array([2.22044605e-16, 1.00000000e+00, 2.22044605e-16])
+normalize = True, sample_weight = array([1., 1., 1.]), labels = None
 
     def log_loss(y_true, y_pred, normalize=True, sample_weight=None, labels=None):
         """
-        Calculate the log loss (logistic loss or cross-entropy loss).
+        Calculate the log loss, also known as logistic loss or cross-entropy loss.
     
         Parameters:
-        - y_true: array-like of shape (n_samples,) - Ground truth labels for n_samples samples.
-        - y_pred: array-like of shape (n_samples, n_classes) - Predicted probabilities from a classifier's predict_proba method.
-        - normalize: bool, default=True - Whether to return the mean loss per sample or the sum of per-sample losses.
+        - y_true: array-like of shape (n_samples,) - Ground truth labels.
+        - y_pred: array-like of shape (n_samples, n_classes) - Predicted probabilities.
+        - normalize: bool, default=True - If True, return the mean loss per sample. Otherwise, return the sum of per-sample losses.
         - sample_weight: array-like of shape (n_samples,), default=None - Optional sample weights.
-        - labels: array-like of shape (n_classes,), default=None - Optional labels for the classes.
+        - labels: array-like, default=None - Optional labels for the classes.
     
         Returns:
-        - log_loss: float - The calculated log loss.
+        - float - The calculated log loss.
     
         Examples:
-        >>> y_true = [0, 1, 1, 0]
-        >>> y_pred = [[0.9, 0.1], [0.2, 0.8], [0.3, 0.7], [0.8, 0.2]]
+        >>> y_true = [0, 1, 1]
+        >>> y_pred = [[0.9, 0.1], [0.2, 0.8], [0.3, 0.7]]
         >>> log_loss(y_true, y_pred)
-        0.21616187468057912
+        0.1738073366910675
     
         Notes:
-        - Log loss is a performance metric for evaluating the predictions of a classifier.
-        - It is commonly used in binary and multi-class classification problems.
-        - The log loss is calculated as the negative log-likelihood of the true labels given the predicted probabilities.
+        - Log loss is a measure of the performance of a classification model where the prediction is a probability value between 0 and 1.
+        - The function assumes that y_pred contains probabilities for each class and that the sum of probabilities for each sample is 1.
     
         References:
         - https://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html
@@ -614,13 +618,16 @@ sample_weight = None, labels = None
         y_pred = np.array(y_pred)
         if labels is not None:
             labels = np.array(labels)
-            n_classes = len(labels)
             y_true = np.searchsorted(labels, y_true)
-        else:
->           n_classes = y_pred.shape[1]
-E           IndexError: tuple index out of range
+        if sample_weight is None:
+            sample_weight = np.ones(y_true.shape[0])
+        eps = np.finfo(float).eps
+        y_pred = np.clip(y_pred, eps, 1 - eps)
+        n_samples = y_true.shape[0]
+>       n_classes = y_pred.shape[1]
+E       IndexError: tuple index out of range
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:54: IndexError
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:56: IndexError
 __________________________ test_log_loss_pandas_input __________________________
 
     def test_log_loss_pandas_input():
@@ -656,28 +663,27 @@ normalize = True, sample_weight = array([1., 1., 1., 1.]), labels = None
 
     def log_loss(y_true, y_pred, normalize=True, sample_weight=None, labels=None):
         """
-        Calculate the log loss (logistic loss or cross-entropy loss).
+        Calculate the log loss, also known as logistic loss or cross-entropy loss.
     
         Parameters:
-        - y_true: array-like of shape (n_samples,) - Ground truth labels for n_samples samples.
-        - y_pred: array-like of shape (n_samples, n_classes) - Predicted probabilities from a classifier's predict_proba method.
-        - normalize: bool, default=True - Whether to return the mean loss per sample or the sum of per-sample losses.
+        - y_true: array-like of shape (n_samples,) - Ground truth labels.
+        - y_pred: array-like of shape (n_samples, n_classes) - Predicted probabilities.
+        - normalize: bool, default=True - If True, return the mean loss per sample. Otherwise, return the sum of per-sample losses.
         - sample_weight: array-like of shape (n_samples,), default=None - Optional sample weights.
-        - labels: array-like of shape (n_classes,), default=None - Optional labels for the classes.
+        - labels: array-like, default=None - Optional labels for the classes.
     
         Returns:
-        - log_loss: float - The calculated log loss.
+        - float - The calculated log loss.
     
         Examples:
-        >>> y_true = [0, 1, 1, 0]
-        >>> y_pred = [[0.9, 0.1], [0.2, 0.8], [0.3, 0.7], [0.8, 0.2]]
+        >>> y_true = [0, 1, 1]
+        >>> y_pred = [[0.9, 0.1], [0.2, 0.8], [0.3, 0.7]]
         >>> log_loss(y_true, y_pred)
-        0.21616187468057912
+        0.1738073366910675
     
         Notes:
-        - Log loss is a performance metric for evaluating the predictions of a classifier.
-        - It is commonly used in binary and multi-class classification problems.
-        - The log loss is calculated as the negative log-likelihood of the true labels given the predicted probabilities.
+        - Log loss is a measure of the performance of a classification model where the prediction is a probability value between 0 and 1.
+        - The function assumes that y_pred contains probabilities for each class and that the sum of probabilities for each sample is 1.
     
         References:
         - https://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html
@@ -687,21 +693,18 @@ normalize = True, sample_weight = array([1., 1., 1., 1.]), labels = None
         y_pred = np.array(y_pred)
         if labels is not None:
             labels = np.array(labels)
-            n_classes = len(labels)
             y_true = np.searchsorted(labels, y_true)
-        else:
-            n_classes = y_pred.shape[1]
         if sample_weight is None:
-            sample_weight = np.ones_like(y_true, dtype=float)
-        else:
-            sample_weight = np.array(sample_weight)
+            sample_weight = np.ones(y_true.shape[0])
         eps = np.finfo(float).eps
         y_pred = np.clip(y_pred, eps, 1 - eps)
-        y_true_one_hot = np.zeros_like(y_pred)
->       y_true_one_hot[np.arange(len(y_true)), y_true] = 1
+        n_samples = y_true.shape[0]
+        n_classes = y_pred.shape[1]
+        y_true_one_hot = np.zeros((n_samples, n_classes))
+>       y_true_one_hot[np.arange(n_samples), y_true] = 1
 E       IndexError: arrays used as indices must be of integer (or boolean) type
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:62: IndexError
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:58: IndexError
 ____________________________ test_d2_log_loss_score ____________________________
 
     def test_d2_log_loss_score():
@@ -794,28 +797,27 @@ normalize = True, sample_weight = array([1., 1., 1., 1., 1., 1.]), labels = None
 
     def log_loss(y_true, y_pred, normalize=True, sample_weight=None, labels=None):
         """
-        Calculate the log loss (logistic loss or cross-entropy loss).
+        Calculate the log loss, also known as logistic loss or cross-entropy loss.
     
         Parameters:
-        - y_true: array-like of shape (n_samples,) - Ground truth labels for n_samples samples.
-        - y_pred: array-like of shape (n_samples, n_classes) - Predicted probabilities from a classifier's predict_proba method.
-        - normalize: bool, default=True - Whether to return the mean loss per sample or the sum of per-sample losses.
+        - y_true: array-like of shape (n_samples,) - Ground truth labels.
+        - y_pred: array-like of shape (n_samples, n_classes) - Predicted probabilities.
+        - normalize: bool, default=True - If True, return the mean loss per sample. Otherwise, return the sum of per-sample losses.
         - sample_weight: array-like of shape (n_samples,), default=None - Optional sample weights.
-        - labels: array-like of shape (n_classes,), default=None - Optional labels for the classes.
+        - labels: array-like, default=None - Optional labels for the classes.
     
         Returns:
-        - log_loss: float - The calculated log loss.
+        - float - The calculated log loss.
     
         Examples:
-        >>> y_true = [0, 1, 1, 0]
-        >>> y_pred = [[0.9, 0.1], [0.2, 0.8], [0.3, 0.7], [0.8, 0.2]]
+        >>> y_true = [0, 1, 1]
+        >>> y_pred = [[0.9, 0.1], [0.2, 0.8], [0.3, 0.7]]
         >>> log_loss(y_true, y_pred)
-        0.21616187468057912
+        0.1738073366910675
     
         Notes:
-        - Log loss is a performance metric for evaluating the predictions of a classifier.
-        - It is commonly used in binary and multi-class classification problems.
-        - The log loss is calculated as the negative log-likelihood of the true labels given the predicted probabilities.
+        - Log loss is a measure of the performance of a classification model where the prediction is a probability value between 0 and 1.
+        - The function assumes that y_pred contains probabilities for each class and that the sum of probabilities for each sample is 1.
     
         References:
         - https://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html
@@ -825,21 +827,18 @@ normalize = True, sample_weight = array([1., 1., 1., 1., 1., 1.]), labels = None
         y_pred = np.array(y_pred)
         if labels is not None:
             labels = np.array(labels)
-            n_classes = len(labels)
             y_true = np.searchsorted(labels, y_true)
-        else:
-            n_classes = y_pred.shape[1]
         if sample_weight is None:
-            sample_weight = np.ones_like(y_true, dtype=float)
-        else:
-            sample_weight = np.array(sample_weight)
+            sample_weight = np.ones(y_true.shape[0])
         eps = np.finfo(float).eps
         y_pred = np.clip(y_pred, eps, 1 - eps)
-        y_true_one_hot = np.zeros_like(y_pred)
->       y_true_one_hot[np.arange(len(y_true)), y_true] = 1
+        n_samples = y_true.shape[0]
+        n_classes = y_pred.shape[1]
+        y_true_one_hot = np.zeros((n_samples, n_classes))
+>       y_true_one_hot[np.arange(n_samples), y_true] = 1
 E       IndexError: arrays used as indices must be of integer (or boolean) type
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:62: IndexError
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:58: IndexError
 ________________________ test_d2_log_loss_score_raises _________________________
 
     def test_d2_log_loss_score_raises():
@@ -871,28 +870,27 @@ normalize = True, sample_weight = array([1., 1., 1.]), labels = None
 
     def log_loss(y_true, y_pred, normalize=True, sample_weight=None, labels=None):
         """
-        Calculate the log loss (logistic loss or cross-entropy loss).
+        Calculate the log loss, also known as logistic loss or cross-entropy loss.
     
         Parameters:
-        - y_true: array-like of shape (n_samples,) - Ground truth labels for n_samples samples.
-        - y_pred: array-like of shape (n_samples, n_classes) - Predicted probabilities from a classifier's predict_proba method.
-        - normalize: bool, default=True - Whether to return the mean loss per sample or the sum of per-sample losses.
+        - y_true: array-like of shape (n_samples,) - Ground truth labels.
+        - y_pred: array-like of shape (n_samples, n_classes) - Predicted probabilities.
+        - normalize: bool, default=True - If True, return the mean loss per sample. Otherwise, return the sum of per-sample losses.
         - sample_weight: array-like of shape (n_samples,), default=None - Optional sample weights.
-        - labels: array-like of shape (n_classes,), default=None - Optional labels for the classes.
+        - labels: array-like, default=None - Optional labels for the classes.
     
         Returns:
-        - log_loss: float - The calculated log loss.
+        - float - The calculated log loss.
     
         Examples:
-        >>> y_true = [0, 1, 1, 0]
-        >>> y_pred = [[0.9, 0.1], [0.2, 0.8], [0.3, 0.7], [0.8, 0.2]]
+        >>> y_true = [0, 1, 1]
+        >>> y_pred = [[0.9, 0.1], [0.2, 0.8], [0.3, 0.7]]
         >>> log_loss(y_true, y_pred)
-        0.21616187468057912
+        0.1738073366910675
     
         Notes:
-        - Log loss is a performance metric for evaluating the predictions of a classifier.
-        - It is commonly used in binary and multi-class classification problems.
-        - The log loss is calculated as the negative log-likelihood of the true labels given the predicted probabilities.
+        - Log loss is a measure of the performance of a classification model where the prediction is a probability value between 0 and 1.
+        - The function assumes that y_pred contains probabilities for each class and that the sum of probabilities for each sample is 1.
     
         References:
         - https://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html
@@ -902,21 +900,18 @@ normalize = True, sample_weight = array([1., 1., 1.]), labels = None
         y_pred = np.array(y_pred)
         if labels is not None:
             labels = np.array(labels)
-            n_classes = len(labels)
             y_true = np.searchsorted(labels, y_true)
-        else:
-            n_classes = y_pred.shape[1]
         if sample_weight is None:
-            sample_weight = np.ones_like(y_true, dtype=float)
-        else:
-            sample_weight = np.array(sample_weight)
+            sample_weight = np.ones(y_true.shape[0])
         eps = np.finfo(float).eps
         y_pred = np.clip(y_pred, eps, 1 - eps)
-        y_true_one_hot = np.zeros_like(y_pred)
->       y_true_one_hot[np.arange(len(y_true)), y_true] = 1
+        n_samples = y_true.shape[0]
+        n_classes = y_pred.shape[1]
+        y_true_one_hot = np.zeros((n_samples, n_classes))
+>       y_true_one_hot[np.arange(n_samples), y_true] = 1
 E       IndexError: index 2 is out of bounds for axis 1 with size 2
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:62: IndexError
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:58: IndexError
 =========================== short test summary info ============================
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_eps[float64]
@@ -929,7 +924,7 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_clas
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_log_loss_pandas_input
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score_raises
-============ 11 failed, 194 passed, 3 skipped, 19 warnings in 2.95s ============
+============ 11 failed, 194 passed, 3 skipped, 19 warnings in 3.14s ============
 
 
 Final Test Result:
@@ -941,7 +936,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 208 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 1092294112
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 892972150
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_output_dict_empty_input PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_zero_division_warning[warn] PASSED
@@ -1163,7 +1158,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 208 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 1631484384
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 593473226
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_output_dict_empty_input PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_zero_division_warning[warn] PASSED
@@ -1373,4 +1368,4 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score_raises PASSED
 
-================= 205 passed, 3 skipped, 19 warnings in 2.41s ==================
+================= 205 passed, 3 skipped, 19 warnings in 2.36s ==================

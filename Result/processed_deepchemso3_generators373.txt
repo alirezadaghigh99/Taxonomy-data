@@ -3,17 +3,17 @@ processed_deepchemso3_generators373.json
 function:
 so3_generators
 Error Cases:
-2024-12-03 21:02:20.557620: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-12-26 19:19:58.776255: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
-E0000 00:00:1733277740.568810  376997 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-E0000 00:00:1733277740.572219  376997 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2024-12-03 21:02:20.584677: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+E0000 00:00:1735258798.788024  890629 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1735258798.791542  890629 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-12-26 19:19:58.804367: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
 To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
 
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_so3_commutation FAILED', 'FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_so3_commutation', 'FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_so3_j1', '../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_orthogonality FAILED', '../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_so3_j0 FAILED', '../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_unitary_property FAILED', '../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_so3_generators_shape FAILED', 'FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_so3_j0', 'FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_unitary_property', 'FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_orthogonality', 'FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_so3_generators_shape', '../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_so3_j1 FAILED'}
+{'FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_so3_j1', '../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_so3_commutation FAILED', 'FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_so3_generators_shape', 'FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_orthogonality', 'FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_so3_commutation', '../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_so3_j0 FAILED', '../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_unitary_property FAILED', '../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_so3_generators_shape FAILED', 'FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_so3_j0', 'FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_unitary_property', '../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_so3_j1 FAILED', '../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_orthogonality FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -93,17 +93,15 @@ k = 2
         """
         if k < 1:
             raise ValueError('The representation index k must be a positive integer.')
-        dim = 2 * k + 1
-        J_x = torch.zeros((dim, dim), dtype=torch.float64)
-        J_y = torch.zeros((dim, dim), dtype=torch.float64)
-        J_z = torch.zeros((dim, dim), dtype=torch.float64)
-        for m in range(-k, k):
-            idx = m + k
-            if idx + 1 < dim:
->               J_x[idx, idx + 1] = 0.5 * torch.sqrt((k - m) * (k + m + 1))
+        J_x = torch.zeros((2 * k + 1, 2 * k + 1), dtype=torch.float32)
+        J_y = torch.zeros((2 * k + 1, 2 * k + 1), dtype=torch.float32)
+        J_z = torch.zeros((2 * k + 1, 2 * k + 1), dtype=torch.float32)
+        for m in range(-k, k + 1):
+            if m < k:
+>               J_x[k + m, k + m + 1] = 0.5 * torch.sqrt((k - m) * (k + m + 1))
 E               TypeError: sqrt(): argument 'input' (position 1) must be Tensor, not int
 
-../publishablew/deepchem/deepchem/deepchem/utils/temp.py:29: TypeError
+../publishablew/deepchem/deepchem/deepchem/utils/temp.py:27: TypeError
 __________________ TestEquivarianceUtils.test_so3_commutation __________________
 
 self = <deepchem.utils.test.test_equivariance_utils.TestEquivarianceUtils testMethod=test_so3_commutation>
@@ -178,17 +176,15 @@ k = 1
         """
         if k < 1:
             raise ValueError('The representation index k must be a positive integer.')
-        dim = 2 * k + 1
-        J_x = torch.zeros((dim, dim), dtype=torch.float64)
-        J_y = torch.zeros((dim, dim), dtype=torch.float64)
-        J_z = torch.zeros((dim, dim), dtype=torch.float64)
-        for m in range(-k, k):
-            idx = m + k
-            if idx + 1 < dim:
->               J_x[idx, idx + 1] = 0.5 * torch.sqrt((k - m) * (k + m + 1))
+        J_x = torch.zeros((2 * k + 1, 2 * k + 1), dtype=torch.float32)
+        J_y = torch.zeros((2 * k + 1, 2 * k + 1), dtype=torch.float32)
+        J_z = torch.zeros((2 * k + 1, 2 * k + 1), dtype=torch.float32)
+        for m in range(-k, k + 1):
+            if m < k:
+>               J_x[k + m, k + m + 1] = 0.5 * torch.sqrt((k - m) * (k + m + 1))
 E               TypeError: sqrt(): argument 'input' (position 1) must be Tensor, not int
 
-../publishablew/deepchem/deepchem/deepchem/utils/temp.py:29: TypeError
+../publishablew/deepchem/deepchem/deepchem/utils/temp.py:27: TypeError
 ______________________ TestEquivarianceUtils.test_so3_j0 _______________________
 
 self = <deepchem.utils.test.test_equivariance_utils.TestEquivarianceUtils testMethod=test_so3_j0>
@@ -258,17 +254,15 @@ k = 1
         """
         if k < 1:
             raise ValueError('The representation index k must be a positive integer.')
-        dim = 2 * k + 1
-        J_x = torch.zeros((dim, dim), dtype=torch.float64)
-        J_y = torch.zeros((dim, dim), dtype=torch.float64)
-        J_z = torch.zeros((dim, dim), dtype=torch.float64)
-        for m in range(-k, k):
-            idx = m + k
-            if idx + 1 < dim:
->               J_x[idx, idx + 1] = 0.5 * torch.sqrt((k - m) * (k + m + 1))
+        J_x = torch.zeros((2 * k + 1, 2 * k + 1), dtype=torch.float32)
+        J_y = torch.zeros((2 * k + 1, 2 * k + 1), dtype=torch.float32)
+        J_z = torch.zeros((2 * k + 1, 2 * k + 1), dtype=torch.float32)
+        for m in range(-k, k + 1):
+            if m < k:
+>               J_x[k + m, k + m + 1] = 0.5 * torch.sqrt((k - m) * (k + m + 1))
 E               TypeError: sqrt(): argument 'input' (position 1) must be Tensor, not int
 
-../publishablew/deepchem/deepchem/deepchem/utils/temp.py:29: TypeError
+../publishablew/deepchem/deepchem/deepchem/utils/temp.py:27: TypeError
 _________________ TestEquivarianceUtils.test_unitary_property __________________
 
 self = <deepchem.utils.test.test_equivariance_utils.TestEquivarianceUtils testMethod=test_unitary_property>
@@ -308,17 +302,15 @@ k = 2
         """
         if k < 1:
             raise ValueError('The representation index k must be a positive integer.')
-        dim = 2 * k + 1
-        J_x = torch.zeros((dim, dim), dtype=torch.float64)
-        J_y = torch.zeros((dim, dim), dtype=torch.float64)
-        J_z = torch.zeros((dim, dim), dtype=torch.float64)
-        for m in range(-k, k):
-            idx = m + k
-            if idx + 1 < dim:
->               J_x[idx, idx + 1] = 0.5 * torch.sqrt((k - m) * (k + m + 1))
+        J_x = torch.zeros((2 * k + 1, 2 * k + 1), dtype=torch.float32)
+        J_y = torch.zeros((2 * k + 1, 2 * k + 1), dtype=torch.float32)
+        J_z = torch.zeros((2 * k + 1, 2 * k + 1), dtype=torch.float32)
+        for m in range(-k, k + 1):
+            if m < k:
+>               J_x[k + m, k + m + 1] = 0.5 * torch.sqrt((k - m) * (k + m + 1))
 E               TypeError: sqrt(): argument 'input' (position 1) must be Tensor, not int
 
-../publishablew/deepchem/deepchem/deepchem/utils/temp.py:29: TypeError
+../publishablew/deepchem/deepchem/deepchem/utils/temp.py:27: TypeError
 =========================== short test summary info ============================
 FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_change_basis_real_to_complex_device
 FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_orthogonality
@@ -327,7 +319,7 @@ FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_u
 FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_so3_j0
 FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_so3_j1
 FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_unitary_property
-========================= 7 failed, 7 passed in 4.19s ==========================
+========================= 7 failed, 7 passed in 4.33s ==========================
 
 
 Final Test Result:
@@ -371,7 +363,7 @@ E       AssertionError: device(type='cuda', index=0) != device(type='cuda')
 ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py:111: AssertionError
 =========================== short test summary info ============================
 FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_change_basis_real_to_complex_device
-========================= 1 failed, 13 passed in 4.14s =========================
+========================= 1 failed, 13 passed in 4.25s =========================
 
 
 Initial Result:
@@ -415,4 +407,4 @@ E       AssertionError: device(type='cuda', index=0) != device(type='cuda')
 ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py:111: AssertionError
 =========================== short test summary info ============================
 FAILED ../publishablew/deepchem/deepchem/deepchem/utils/test/test_equivariance_utils.py::TestEquivarianceUtils::test_change_basis_real_to_complex_device
-========================= 1 failed, 13 passed in 5.33s =========================
+========================= 1 failed, 13 passed in 4.74s =========================

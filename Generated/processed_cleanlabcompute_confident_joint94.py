@@ -1,40 +1,57 @@
 import numpy as np
-from sklearn.calibration import CalibratedClassifierCV
 
-def compute_confident_joint(labels, pred_probs, thresholds=None, calibrate=False, multi_label=False, return_indices_of_off_diagonals=False):
+def compute_confident_joint(labels, pred_probs, thresholds=None, calibrate=False, 
+                            multi_label=False, return_indices_of_off_diagonals=False):
+    """
+    Estimates the confident counts of latent true vs observed noisy labels.
+
+    Parameters:
+    - labels: An array or list of class labels for each example in the dataset.
+    - pred_probs: An array of model-predicted class probabilities for each example in the dataset.
+    - thresholds: An optional array of per-class threshold probabilities.
+    - calibrate: A boolean flag indicating whether to calibrate the confident joint estimate.
+    - multi_label: An optional boolean flag indicating if the dataset is multi-label classification.
+    - return_indices_of_off_diagonals: An optional boolean flag indicating whether to return indices of examples counted in off-diagonals of the confident joint.
+
+    Returns:
+    - A numpy array representing counts of examples for which we are confident about their given and true label.
+    """
     labels = np.array(labels)
     pred_probs = np.array(pred_probs)
     
     num_classes = pred_probs.shape[1]
     
     if thresholds is None:
-        thresholds = np.ones(num_classes) * 0.5
+        thresholds = np.full(num_classes, 0.5)
+    else:
+        thresholds = np.array(thresholds)
+    
+    if multi_label:
+        confident_joint = np.zeros((num_classes, 2, 2), dtype=int)
+    else:
+        confident_joint = np.zeros((num_classes, num_classes), dtype=int)
+    
+    if return_indices_of_off_diagonals:
+        off_diagonal_indices = []
+
+    for i, (label, probs) in enumerate(zip(labels, pred_probs)):
+        if multi_label:
+            for class_idx in range(num_classes):
+                if probs[class_idx] >= thresholds[class_idx]:
+                    confident_joint[class_idx, int(label[class_idx]), 1] += 1
+                else:
+                    confident_joint[class_idx, int(label[class_idx]), 0] += 1
+        else:
+            predicted_label = np.argmax(probs)
+            if probs[predicted_label] >= thresholds[predicted_label]:
+                confident_joint[label, predicted_label] += 1
+                if return_indices_of_off_diagonals and label != predicted_label:
+                    off_diagonal_indices.append(i)
     
     if calibrate:
-        # Assuming pred_probs are from a model that can be calibrated
-        calibrated_model = CalibratedClassifierCV()
-        pred_probs = calibrated_model.fit(pred_probs, labels).predict_proba(pred_probs)
-    
-    confident_joint = np.zeros((num_classes, num_classes), dtype=int)
-    off_diagonal_indices = []
-
-    if multi_label:
-        for i in range(len(labels)):
-            for j in range(num_classes):
-                if pred_probs[i, j] >= thresholds[j]:
-                    for k in range(num_classes):
-                        if labels[i, k] == 1:
-                            confident_joint[k, j] += 1
-                            if k != j and return_indices_of_off_diagonals:
-                                off_diagonal_indices.append(i)
-    else:
-        for i in range(len(labels)):
-            predicted_label = np.argmax(pred_probs[i])
-            if pred_probs[i, predicted_label] >= thresholds[predicted_label]:
-                true_label = labels[i]
-                confident_joint[true_label, predicted_label] += 1
-                if true_label != predicted_label and return_indices_of_off_diagonals:
-                    off_diagonal_indices.append(i)
+        # Placeholder for calibration logic
+        # Implement calibration logic if needed
+        pass
     
     if return_indices_of_off_diagonals:
         return confident_joint, off_diagonal_indices

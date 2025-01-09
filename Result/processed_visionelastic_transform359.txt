@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill3-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill9-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-1-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill8-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill5-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-1-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill5-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-1.0-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill4-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill8-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill3-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-1.0-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill5-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill2-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill9-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill4-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill5-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill3-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill7-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill3-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill3-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill5-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill5-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill2-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill4-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill6-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-1-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-1-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill7-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-1.0-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill2-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill4-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill9-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill7-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill8-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-1-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill3-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill8-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill4-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-1.0-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill3-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-1-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-1.0-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill5-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-1.0-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-1-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill6-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill6-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-1.0-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill9-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-1-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill7-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill4-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill2-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill2-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill3-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill4-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill6-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill2-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill2-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-1.0-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill4-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill5-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill2-cpu]'}
+{'../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill6-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill7-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-1-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-1.0-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill4-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill3-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill3-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill8-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-1-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill2-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill3-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill5-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill5-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill6-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-1-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-1-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill4-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill3-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-1-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill4-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-1.0-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill4-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-1-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill4-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill3-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill4-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill5-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill5-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill5-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill2-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill7-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill9-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-1-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill9-cpu]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill5-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill9-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill6-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill6-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill9-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill2-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill2-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill8-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill8-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-1.0-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill7-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill8-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-1.0-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-1.0-cuda]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill2-cuda] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill2-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill3-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill3-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill4-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-1.0-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill5-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-1.0-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill3-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill7-cpu] FAILED', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill5-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill4-cpu]', '../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-1-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-fill2-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-1.0-cuda]', 'FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill2-cuda]'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -112,7 +112,7 @@ _______________________ test_elastic_transform[1-1-cuda] _______________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 ______________________ test_elastic_transform[1-1.0-cpu] _______________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -128,7 +128,7 @@ ______________________ test_elastic_transform[1-1.0-cpu] _______________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 ______________________ test_elastic_transform[1-1.0-cuda] ______________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -144,7 +144,7 @@ ______________________ test_elastic_transform[1-1.0-cuda] ______________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[1-fill2-cpu] ______________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -160,7 +160,7 @@ _____________________ test_elastic_transform[1-fill2-cpu] ______________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[1-fill2-cuda] _____________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -176,7 +176,7 @@ _____________________ test_elastic_transform[1-fill2-cuda] _____________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[1-fill3-cpu] ______________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -192,7 +192,7 @@ _____________________ test_elastic_transform[1-fill3-cpu] ______________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[1-fill3-cuda] _____________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -208,7 +208,7 @@ _____________________ test_elastic_transform[1-fill3-cuda] _____________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[1-fill4-cpu] ______________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -224,7 +224,7 @@ _____________________ test_elastic_transform[1-fill4-cpu] ______________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[1-fill4-cuda] _____________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -240,7 +240,7 @@ _____________________ test_elastic_transform[1-fill4-cuda] _____________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[1-fill5-cpu] ______________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -256,7 +256,7 @@ _____________________ test_elastic_transform[1-fill5-cpu] ______________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[1-fill5-cuda] _____________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -272,7 +272,7 @@ _____________________ test_elastic_transform[1-fill5-cuda] _____________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _______________________ test_elastic_transform[3-1-cpu] ________________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -288,7 +288,7 @@ _______________________ test_elastic_transform[3-1-cpu] ________________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _______________________ test_elastic_transform[3-1-cuda] _______________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -304,7 +304,7 @@ _______________________ test_elastic_transform[3-1-cuda] _______________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 ______________________ test_elastic_transform[3-1.0-cpu] _______________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -320,7 +320,7 @@ ______________________ test_elastic_transform[3-1.0-cpu] _______________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 ______________________ test_elastic_transform[3-1.0-cuda] ______________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -336,7 +336,7 @@ ______________________ test_elastic_transform[3-1.0-cuda] ______________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[3-fill2-cpu] ______________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -352,7 +352,7 @@ _____________________ test_elastic_transform[3-fill2-cpu] ______________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[3-fill2-cuda] _____________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -368,7 +368,7 @@ _____________________ test_elastic_transform[3-fill2-cuda] _____________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[3-fill3-cpu] ______________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -384,7 +384,7 @@ _____________________ test_elastic_transform[3-fill3-cpu] ______________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[3-fill3-cuda] _____________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -400,7 +400,7 @@ _____________________ test_elastic_transform[3-fill3-cuda] _____________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[3-fill4-cpu] ______________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -416,7 +416,7 @@ _____________________ test_elastic_transform[3-fill4-cpu] ______________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[3-fill4-cuda] _____________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -432,7 +432,7 @@ _____________________ test_elastic_transform[3-fill4-cuda] _____________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[3-fill5-cpu] ______________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -448,7 +448,7 @@ _____________________ test_elastic_transform[3-fill5-cpu] ______________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[3-fill5-cuda] _____________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -464,7 +464,7 @@ _____________________ test_elastic_transform[3-fill5-cuda] _____________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[3-fill6-cpu] ______________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -480,7 +480,7 @@ _____________________ test_elastic_transform[3-fill6-cpu] ______________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[3-fill6-cuda] _____________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -496,7 +496,7 @@ _____________________ test_elastic_transform[3-fill6-cuda] _____________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[3-fill7-cpu] ______________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -512,7 +512,7 @@ _____________________ test_elastic_transform[3-fill7-cpu] ______________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[3-fill7-cuda] _____________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -528,7 +528,7 @@ _____________________ test_elastic_transform[3-fill7-cuda] _____________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[3-fill8-cpu] ______________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -544,7 +544,7 @@ _____________________ test_elastic_transform[3-fill8-cpu] ______________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[3-fill8-cuda] _____________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -560,7 +560,7 @@ _____________________ test_elastic_transform[3-fill8-cuda] _____________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[3-fill9-cpu] ______________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -576,7 +576,7 @@ _____________________ test_elastic_transform[3-fill9-cpu] ______________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 _____________________ test_elastic_transform[3-fill9-cuda] _____________________
 ../publishablew/vision/vision/test/test_transforms_tensor.py:887: in test_elastic_transform
     _test_class_op(
@@ -592,7 +592,7 @@ _____________________ test_elastic_transform[3-fill9-cuda] _____________________
     create_methods_and_properties_from_stubs(
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/jit/_recursive.py:466: in create_methods_and_properties_from_stubs
     concrete_type._create_methods_and_properties(
-E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x576c4f0)
+E   RuntimeError: Can't redefine method: forward on class: __torch__.torchvision.transforms.transforms.ElasticTransform (of Python compilation unit at: 0x71035e0)
 =========================== short test summary info ============================
 FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-1-cpu]
 FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[1-1-cuda]
@@ -626,7 +626,7 @@ FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elasti
 FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill8-cuda]
 FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill9-cpu]
 FAILED ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill9-cuda]
-========================= 32 failed, 8 passed in 1.96s =========================
+========================= 32 failed, 8 passed in 2.09s =========================
 
 
 Final Test Result:
@@ -679,7 +679,7 @@ collecting ... collected 40 items
 ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill9-cpu] PASSED
 ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill9-cuda] PASSED
 
-============================== 40 passed in 1.07s ==============================
+============================== 40 passed in 1.03s ==============================
 
 
 Initial Result:
@@ -732,4 +732,4 @@ collecting ... collected 40 items
 ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill9-cpu] PASSED
 ../publishablew/vision/vision/test/test_transforms_tensor.py::test_elastic_transform[3-fill9-cuda] PASSED
 
-============================== 40 passed in 1.12s ==============================
+============================== 40 passed in 1.13s ==============================

@@ -2,44 +2,61 @@ import numpy as np
 
 def rotation_matrix_to_quaternion(rotation_matrix, eps=1e-6):
     """
-    Converts a 3x3 rotation matrix to a 4D quaternion vector.
-    
+    Convert a 3x3 rotation matrix to a quaternion (w, x, y, z).
+
     Parameters:
-    rotation_matrix (np.ndarray): A tensor of shape (*, 3, 3) representing the rotation matrix.
-    eps (float): A small value to avoid zero division.
-    
+    - rotation_matrix: A numpy array of shape (..., 3, 3) representing the rotation matrix.
+    - eps: A small value to avoid division by zero.
+
     Returns:
-    np.ndarray: A tensor of shape (*, 4) representing the quaternion in (w, x, y, z) format.
+    - A numpy array of shape (..., 4) representing the quaternion in (w, x, y, z) format.
     """
+    # Validate input
     if not isinstance(rotation_matrix, np.ndarray):
-        raise TypeError("Input rotation_matrix must be a numpy ndarray.")
+        raise TypeError("Input rotation_matrix must be a numpy array.")
     
-    if rotation_matrix.ndim < 2 or rotation_matrix.shape[-2:] != (3, 3):
-        raise ValueError("Input rotation_matrix must have shape (*, 3, 3).")
+    if rotation_matrix.shape[-2:] != (3, 3):
+        raise ValueError("Input rotation_matrix must have shape (..., 3, 3).")
     
-    # Initialize the output quaternion tensor
+    # Prepare output array
     quaternions = np.zeros(rotation_matrix.shape[:-2] + (4,))
     
-    # Extract the elements of the rotation matrix
-    R = rotation_matrix
-    trace = np.trace(R, axis1=-2, axis2=-1)
-    
-    # Compute the quaternion components
-    w = np.sqrt(1.0 + trace + eps) / 2.0
-    x = np.sqrt(1.0 + R[..., 0, 0] - R[..., 1, 1] - R[..., 2, 2] + eps) / 2.0
-    y = np.sqrt(1.0 + R[..., 1, 1] - R[..., 0, 0] - R[..., 2, 2] + eps) / 2.0
-    z = np.sqrt(1.0 + R[..., 2, 2] - R[..., 0, 0] - R[..., 1, 1] + eps) / 2.0
-    
-    # Determine the signs of the quaternion components
-    x = np.copysign(x, R[..., 2, 1] - R[..., 1, 2])
-    y = np.copysign(y, R[..., 0, 2] - R[..., 2, 0])
-    z = np.copysign(z, R[..., 1, 0] - R[..., 0, 1])
-    
-    # Assign the components to the output tensor
-    quaternions[..., 0] = w
-    quaternions[..., 1] = x
-    quaternions[..., 2] = y
-    quaternions[..., 3] = z
+    # Iterate over the input array if it has more than 2 dimensions
+    it = np.nditer(rotation_matrix[..., 0, 0], flags=['multi_index'])
+    for _ in it:
+        idx = it.multi_index
+        R = rotation_matrix[idx]
+        
+        # Calculate the trace of the matrix
+        trace = np.trace(R)
+        
+        if trace > eps:
+            s = 2.0 * np.sqrt(trace + 1.0)
+            w = 0.25 * s
+            x = (R[2, 1] - R[1, 2]) / s
+            y = (R[0, 2] - R[2, 0]) / s
+            z = (R[1, 0] - R[0, 1]) / s
+        else:
+            if R[0, 0] > R[1, 1] and R[0, 0] > R[2, 2]:
+                s = 2.0 * np.sqrt(1.0 + R[0, 0] - R[1, 1] - R[2, 2])
+                w = (R[2, 1] - R[1, 2]) / s
+                x = 0.25 * s
+                y = (R[0, 1] + R[1, 0]) / s
+                z = (R[0, 2] + R[2, 0]) / s
+            elif R[1, 1] > R[2, 2]:
+                s = 2.0 * np.sqrt(1.0 + R[1, 1] - R[0, 0] - R[2, 2])
+                w = (R[0, 2] - R[2, 0]) / s
+                x = (R[0, 1] + R[1, 0]) / s
+                y = 0.25 * s
+                z = (R[1, 2] + R[2, 1]) / s
+            else:
+                s = 2.0 * np.sqrt(1.0 + R[2, 2] - R[0, 0] - R[1, 1])
+                w = (R[1, 0] - R[0, 1]) / s
+                x = (R[0, 2] + R[2, 0]) / s
+                y = (R[1, 2] + R[2, 1]) / s
+                z = 0.25 * s
+        
+        quaternions[idx] = np.array([w, x, y, z])
     
     return quaternions
 

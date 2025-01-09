@@ -1,65 +1,54 @@
 import torch
 
 def draw_line(image, p1, p2, color):
-    """
-    Draws a single line into an image.
-
-    Parameters:
-    - image (torch.Tensor): The input image with shape (C, H, W).
-    - p1 (torch.Tensor): The start point [x, y] of the line with shape (2,) or (B, 2).
-    - p2 (torch.Tensor): The end point [x, y] of the line with shape (2,) or (B, 2).
-    - color (torch.Tensor): The color of the line with shape (C).
-
-    Returns:
-    - torch.Tensor: The image with the drawn line.
-    """
-    assert image.dim() == 3, "Image must have 3 dimensions (C, H, W)"
+    # Check input dimensions
+    assert image.ndim == 3, "Image must have 3 dimensions (C, H, W)"
     C, H, W = image.shape
     assert color.shape == (C,), "Color must have the same number of channels as the image"
     
-    if p1.dim() == 1:
-        p1 = p1.unsqueeze(0)
-    if p2.dim() == 1:
-        p2 = p2.unsqueeze(0)
+    # Ensure p1 and p2 are tensors
+    p1 = torch.tensor(p1, dtype=torch.int32)
+    p2 = torch.tensor(p2, dtype=torch.int32)
+    
+    # Check if p1 and p2 are batched
+    if p1.ndim == 1:
+        p1 = p1.unsqueeze(0)  # Convert to (1, 2)
+    if p2.ndim == 1:
+        p2 = p2.unsqueeze(0)  # Convert to (1, 2)
     
     assert p1.shape == p2.shape, "p1 and p2 must have the same shape"
-    assert p1.shape[1] == 2, "p1 and p2 must have shape (2,) or (B, 2)"
+    assert p1.shape[1] == 2, "Points must have shape (2,) or (B, 2)"
     
-    def bresenham(x0, y0, x1, y1):
-        """Bresenham's line algorithm to get the coordinates of the line."""
-        points = []
-        dx = abs(x1 - x0)
-        dy = abs(y1 - y0)
-        sx = 1 if x0 < x1 else -1
-        sy = 1 if y0 < y1 else -1
+    # Iterate over each pair of points
+    for start, end in zip(p1, p2):
+        x1, y1 = start
+        x2, y2 = end
+        
+        # Check if points are within bounds
+        if not (0 <= x1 < W and 0 <= y1 < H and 0 <= x2 < W and 0 <= y2 < H):
+            raise ValueError("Points must be within the bounds of the image")
+        
+        # Bresenham's line algorithm
+        dx = abs(x2 - x1)
+        dy = abs(y2 - y1)
+        sx = 1 if x1 < x2 else -1
+        sy = 1 if y1 < y2 else -1
         err = dx - dy
-
+        
         while True:
-            points.append((x0, y0))
-            if x0 == x1 and y0 == y1:
+            if 0 <= x1 < W and 0 <= y1 < H:
+                image[:, y1, x1] = color  # Set the color at the current point
+            
+            if x1 == x2 and y1 == y2:
                 break
+            
             e2 = 2 * err
             if e2 > -dy:
                 err -= dy
-                x0 += sx
+                x1 += sx
             if e2 < dx:
                 err += dx
-                y0 += sy
-        return points
-
-    for i in range(p1.shape[0]):
-        x0, y0 = p1[i].tolist()
-        x1, y1 = p2[i].tolist()
-        
-        # Ensure points are within bounds
-        x0, y0 = max(0, min(W-1, x0)), max(0, min(H-1, y0))
-        x1, y1 = max(0, min(W-1, x1)), max(0, min(H-1, y1))
-        
-        line_points = bresenham(x0, y0, x1, y1)
-        
-        for x, y in line_points:
-            if 0 <= x < W and 0 <= y < H:
-                image[:, y, x] = color
-
+                y1 += sy
+    
     return image
 

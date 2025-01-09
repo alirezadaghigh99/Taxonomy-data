@@ -4,10 +4,10 @@ function:
 fundamental_from_projections
 Error Cases:
 
-Pass or Failed: 0
+Pass or Failed: 1
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFundamentalFromProjections::test_from_to_projections[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFundamentalFromProjections::test_from_to_projections[cpu-float32]'}
+set()
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'jit', 'onnxrt', 'cudagraphs', 'inductor', 'openxla', None}
+available optimizers: {'', 'tvm', 'inductor', 'jit', 'onnxrt', 'openxla', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -49,78 +49,11 @@ collecting ... collected 9 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFundamentalFromProjections::test_shape[cpu-float32-4] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFundamentalFromProjections::test_shape[cpu-float32-7] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFundamentalFromProjections::test_shape_large[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFundamentalFromProjections::test_from_to_projections[cpu-float32] FAILED
+../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFundamentalFromProjections::test_from_to_projections[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFundamentalFromProjections::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFundamentalFromProjections::test_batch_support_check[cpu-float32] PASSED
 
-=================================== FAILURES ===================================
-_____ TestFundamentalFromProjections.test_from_to_projections[cpu-float32] _____
-
-self = <test_fundamental.TestFundamentalFromProjections object at 0x7c20bdcf7040>
-device = device(type='cpu'), dtype = torch.float32
-
-    def test_from_to_projections(self, device, dtype):
-        P1 = torch.tensor(
-            [[[1.0, 0.0, 0.0, 0.0], [0.0, 1.0, 0.0, 0.0], [1.0, 0.0, 1.0, 0.0]]], device=device, dtype=dtype
-        )
-    
-        P2 = torch.tensor(
-            [[[1.0, 1.0, 1.0, 3.0], [0.0, 2.0, 0.0, 3.0], [0.0, 1.0, 1.0, 0.0]]], device=device, dtype=dtype
-        )
-    
-        F_mat = epi.fundamental_from_projections(P1, P2)
-        P_mat = epi.projections_from_fundamental(F_mat)
-        F_hat = epi.fundamental_from_projections(P_mat[..., 0], P_mat[..., 1])
-    
-        F_mat_norm = epi.normalize_transformation(F_mat)
-        F_hat_norm = epi.normalize_transformation(F_hat)
->       self.assert_close(F_mat_norm, F_hat_norm, atol=1e-4, rtol=1e-4)
-
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py:420: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/testing/base.py:106: in assert_close
-    return assert_close(actual, expected, rtol=rtol, atol=atol)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-actual = tensor([[[3., 3., 3.],
-         [3., 3., 3.],
-         [0., 0., 0.]]])
-expected = tensor([[[0., 0., 0.],
-         [0., 0., 0.],
-         [1., 1., 1.]]])
-rtol = 0.0001, atol = 0.0001, kwargs = {}
-
-    def assert_close(
-        actual: Tensor, expected: Tensor, *, rtol: Optional[float] = None, atol: Optional[float] = None, **kwargs: Any
-    ) -> None:
-        if rtol is None and atol is None:
-            # `torch.testing.assert_close` used different default tolerances than `torch.testing.assert_allclose`.
-            # TODO: remove this special handling as soon as https://github.com/kornia/kornia/issues/1134 is resolved
-            #  Basically, this whole wrapper function can be removed and `torch.testing.assert_close` can be used
-            #  directly.
-            rtol, atol = _default_tolerances(actual, expected)
-    
->       return _assert_close(
-            actual,
-            expected,
-            rtol=rtol,
-            atol=atol,
-            # this is the default value for torch>=1.10, but not for torch==1.9
-            # TODO: remove this if kornia relies on torch>=1.10
-            check_stride=False,
-            equal_nan=False,
-            **kwargs,
-        )
-E       AssertionError: Tensor-likes are not close!
-E       
-E       Mismatched elements: 9 / 9 (100.0%)
-E       Greatest absolute difference: 3.0 at index (0, 0, 0) (up to 0.0001 allowed)
-E       Greatest relative difference: inf at index (0, 0, 0) (up to 0.0001 allowed)
-
-../publishablew/kornia/kornia/testing/base.py:37: AssertionError
-=========================== short test summary info ============================
-FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFundamentalFromProjections::test_from_to_projections[cpu-float32]
-========================= 1 failed, 8 passed in 0.19s ==========================
+============================== 9 passed in 0.17s ===============================
 
 
 Final Test Result:
@@ -149,7 +82,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'tvm', 'openxla', 'inductor', 'onnxrt', None, 'cudagraphs'}
+available optimizers: {'', 'tvm', 'cudagraphs', 'inductor', 'onnxrt', 'jit', 'openxla', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -167,7 +100,7 @@ collecting ... collected 9 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFundamentalFromProjections::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFundamentalFromProjections::test_batch_support_check[cpu-float32] PASSED
 
-============================== 9 passed in 0.18s ===============================
+============================== 9 passed in 0.17s ===============================
 
 
 Initial Result:
@@ -196,7 +129,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'inductor', 'openxla', 'tvm', 'onnxrt', None, 'jit'}
+available optimizers: {'', 'openxla', 'onnxrt', 'tvm', 'cudagraphs', 'jit', 'inductor', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -214,4 +147,4 @@ collecting ... collected 9 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFundamentalFromProjections::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFundamentalFromProjections::test_batch_support_check[cpu-float32] PASSED
 
-============================== 9 passed in 0.25s ===============================
+============================== 9 passed in 0.16s ===============================

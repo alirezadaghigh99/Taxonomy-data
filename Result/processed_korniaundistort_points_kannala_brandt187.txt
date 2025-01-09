@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_cardinality[cpu-float32-1]', '../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_cardinality[cpu-float32-3] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_cardinality[cpu-float32-3]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_distort_points_roundtrip[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_jit[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_jit[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_gradcheck[cpu]', '../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_gradcheck[cpu] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_cardinality[cpu-float32-2]', '../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_distort_points_roundtrip[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_cardinality[cpu-float32-2] FAILED', '../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_cardinality[cpu-float32-1] FAILED'}
+{'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_distort_points_roundtrip[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_jit[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_jit[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_distort_points_roundtrip[cpu-float32] FAILED'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'openxla', 'tvm', 'inductor', 'cudagraphs', 'onnxrt', None}
+available optimizers: {'', 'cudagraphs', 'inductor', 'onnxrt', 'tvm', 'jit', 'openxla', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -45,106 +45,19 @@ collecting ... collected 10 items
 
 ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_smoke[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_cardinality[cpu-float32-None] PASSED
-../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_cardinality[cpu-float32-1] FAILED
-../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_cardinality[cpu-float32-2] FAILED
-../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_cardinality[cpu-float32-3] FAILED
+../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_cardinality[cpu-float32-1] PASSED
+../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_cardinality[cpu-float32-2] PASSED
+../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_cardinality[cpu-float32-3] PASSED
 ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_distort_points_roundtrip[cpu-float32] FAILED
 ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_dx_distort_points_kannala_brandt[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_exception[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_gradcheck[cpu] FAILED
+../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_jit[cpu-float32] FAILED
 
 =================================== FAILURES ===================================
-_________ TestDistortionKannalaBrandt.test_cardinality[cpu-float32-1] __________
-
-self = <test_distortion.TestDistortionKannalaBrandt object at 0x74614c501ab0>
-device = device(type='cpu'), dtype = torch.float32, batch_size = 1
-
-    @pytest.mark.parametrize("batch_size", [None, 1, 2, 3])
-    def test_cardinality(self, device, dtype, batch_size):
-        self._test_cardinality_distort_batch(device, dtype, batch_size)
->       self._test_cardinality_undistort_batch(device, dtype, batch_size)
-
-../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py:140: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py:135: in _test_cardinality_undistort_batch
-    assert undistort_points_kannala_brandt(points, params).shape == batch_tuple + (2,)
-../publishablew/kornia/kornia/kornia/geometry/camera/distortion_kannala_brandt.py:56: in undistort_points_kannala_brandt
-    return undistort_points_kannala_brandt(distorted_points_in_camera, params)
-../publishablew/kornia/kornia/kornia/geometry/camera/temp.py:56: in undistort_points_kannala_brandt
-    u, v = kannala_brandt_model(x, y, params)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-x = tensor([0.5526]), y = tensor([0.1961])
-params = tensor([[0.7044, 0.8775, 0.5262, 0.0744, 0.4460, 0.1219, 0.2900, 0.8437]])
-
-    def kannala_brandt_model(x, y, params):
->       k1, k2, k3, k4, g1, g2, g3, g4 = params
-E       ValueError: not enough values to unpack (expected 8, got 1)
-
-../publishablew/kornia/kornia/kornia/geometry/camera/temp.py:22: ValueError
-_________ TestDistortionKannalaBrandt.test_cardinality[cpu-float32-2] __________
-
-self = <test_distortion.TestDistortionKannalaBrandt object at 0x74614c501e10>
-device = device(type='cpu'), dtype = torch.float32, batch_size = 2
-
-    @pytest.mark.parametrize("batch_size", [None, 1, 2, 3])
-    def test_cardinality(self, device, dtype, batch_size):
-        self._test_cardinality_distort_batch(device, dtype, batch_size)
->       self._test_cardinality_undistort_batch(device, dtype, batch_size)
-
-../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py:140: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py:135: in _test_cardinality_undistort_batch
-    assert undistort_points_kannala_brandt(points, params).shape == batch_tuple + (2,)
-../publishablew/kornia/kornia/kornia/geometry/camera/distortion_kannala_brandt.py:56: in undistort_points_kannala_brandt
-    return undistort_points_kannala_brandt(distorted_points_in_camera, params)
-../publishablew/kornia/kornia/kornia/geometry/camera/temp.py:56: in undistort_points_kannala_brandt
-    u, v = kannala_brandt_model(x, y, params)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-x = tensor([0.5886, 0.6670]), y = tensor([0.9180, 0.1623])
-params = tensor([[0.4980, 0.9703, 0.1098, 0.8330, 0.9766, 0.8262, 0.9550, 0.2399],
-        [0.3872, 0.6714, 0.1298, 0.4604, 0.1823, 0.7174, 0.8159, 0.1800]])
-
-    def kannala_brandt_model(x, y, params):
->       k1, k2, k3, k4, g1, g2, g3, g4 = params
-E       ValueError: not enough values to unpack (expected 8, got 2)
-
-../publishablew/kornia/kornia/kornia/geometry/camera/temp.py:22: ValueError
-_________ TestDistortionKannalaBrandt.test_cardinality[cpu-float32-3] __________
-
-self = <test_distortion.TestDistortionKannalaBrandt object at 0x74614c501ed0>
-device = device(type='cpu'), dtype = torch.float32, batch_size = 3
-
-    @pytest.mark.parametrize("batch_size", [None, 1, 2, 3])
-    def test_cardinality(self, device, dtype, batch_size):
-        self._test_cardinality_distort_batch(device, dtype, batch_size)
->       self._test_cardinality_undistort_batch(device, dtype, batch_size)
-
-../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py:140: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py:135: in _test_cardinality_undistort_batch
-    assert undistort_points_kannala_brandt(points, params).shape == batch_tuple + (2,)
-../publishablew/kornia/kornia/kornia/geometry/camera/distortion_kannala_brandt.py:56: in undistort_points_kannala_brandt
-    return undistort_points_kannala_brandt(distorted_points_in_camera, params)
-../publishablew/kornia/kornia/kornia/geometry/camera/temp.py:56: in undistort_points_kannala_brandt
-    u, v = kannala_brandt_model(x, y, params)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-x = tensor([0.2910, 0.6263, 0.1275]), y = tensor([0.5112, 0.5400, 0.2828])
-params = tensor([[0.6567, 0.7304, 0.9384, 0.9009, 0.2861, 0.6417, 0.5662, 0.9024],
-        [0.1045, 0.1213, 0.3410, 0.0283, 0.3029, 0.2218, 0.2872, 0.0131],
-        [0.1931, 0.1249, 0.4780, 0.6454, 0.3394, 0.6978, 0.4267, 0.1675]])
-
-    def kannala_brandt_model(x, y, params):
->       k1, k2, k3, k4, g1, g2, g3, g4 = params
-E       ValueError: not enough values to unpack (expected 8, got 3)
-
-../publishablew/kornia/kornia/kornia/geometry/camera/temp.py:22: ValueError
 ____ TestDistortionKannalaBrandt.test_distort_points_roundtrip[cpu-float32] ____
 
-self = <test_distortion.TestDistortionKannalaBrandt object at 0x74614c5021a0>
+self = <test_distortion.TestDistortionKannalaBrandt object at 0x77ad01cda230>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_distort_points_roundtrip(self, device, dtype) -> None:
@@ -183,80 +96,55 @@ device = device(type='cpu'), dtype = torch.float32
 
 ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py:175: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/geometry/camera/distortion_kannala_brandt.py:56: in undistort_points_kannala_brandt
-    return undistort_points_kannala_brandt(distorted_points_in_camera, params)
-../publishablew/kornia/kornia/kornia/geometry/camera/temp.py:56: in undistort_points_kannala_brandt
-    u, v = kannala_brandt_model(x, y, params)
+../publishablew/kornia/kornia/testing/base.py:106: in assert_close
+    return assert_close(actual, expected, rtol=rtol, atol=atol)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-x = tensor([ 320.0000,  325.1949, 1982.3785, 1982.6832, 2235.6821, 1984.8662])
-y = tensor([ 280.0000, 2357.9668, 1526.7839, 1526.3619, 1046.2729, 1527.9983])
-params = tensor([[1.0000e+03, 1.0000e+03, 3.2000e+02, 2.8000e+02, 1.0000e-01, 1.0000e-02,
-         1.0000e-03, 1.0000e-04]])
+actual = tensor([[  0.0000,   0.0000],
+        [  1.0000, 400.0000],
+        [320.0000, 240.0000],
+        [319.5000, 239.5000],
+        [100.0000,  40.0000],
+        [639.0000, 479.0000]])
+expected = tensor([[ 312.8179,  273.7158],
+        [   6.0037, 2401.4773],
+        [2001.8883, 1501.4161],
+        [2002.2526, 1500.9060],
+        [2295.4360,  918.1744],
+        [2004.4456, 1502.5500]])
+rtol = 0.0001, atol = 1e-05, kwargs = {}
 
-    def kannala_brandt_model(x, y, params):
->       k1, k2, k3, k4, g1, g2, g3, g4 = params
-E       ValueError: not enough values to unpack (expected 8, got 1)
+    def assert_close(
+        actual: Tensor, expected: Tensor, *, rtol: Optional[float] = None, atol: Optional[float] = None, **kwargs: Any
+    ) -> None:
+        if rtol is None and atol is None:
+            # `torch.testing.assert_close` used different default tolerances than `torch.testing.assert_allclose`.
+            # TODO: remove this special handling as soon as https://github.com/kornia/kornia/issues/1134 is resolved
+            #  Basically, this whole wrapper function can be removed and `torch.testing.assert_close` can be used
+            #  directly.
+            rtol, atol = _default_tolerances(actual, expected)
+    
+>       return _assert_close(
+            actual,
+            expected,
+            rtol=rtol,
+            atol=atol,
+            # this is the default value for torch>=1.10, but not for torch==1.9
+            # TODO: remove this if kornia relies on torch>=1.10
+            check_stride=False,
+            equal_nan=False,
+            **kwargs,
+        )
+E       AssertionError: Tensor-likes are not close!
+E       
+E       Mismatched elements: 12 / 12 (100.0%)
+E       Greatest absolute difference: 2195.43603515625 at index (4, 0) (up to 1e-05 allowed)
+E       Greatest relative difference: 1.0 at index (0, 0) (up to 0.0001 allowed)
 
-../publishablew/kornia/kornia/kornia/geometry/camera/temp.py:22: ValueError
-_______________ TestDistortionKannalaBrandt.test_gradcheck[cpu] ________________
-
-self = <test_distortion.TestDistortionKannalaBrandt object at 0x74614c502920>
-device = device(type='cpu')
-
-    def test_gradcheck(self, device) -> None:
-        self._test_gradcheck_distort(device)
->       self._test_gradcheck_undistort(device)
-
-../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py:216: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py:212: in _test_gradcheck_undistort
-    self.gradcheck(undistort_points_kannala_brandt, (points, params))
-../publishablew/kornia/kornia/testing/base.py:143: in gradcheck
-    return gradcheck(func, inputs, raise_exception=raise_exception, fast_mode=fast_mode, **kwargs)
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:2052: in gradcheck
-    return _gradcheck_helper(**args)
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:2081: in _gradcheck_helper
-    _gradcheck_real_imag(
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:1491: in _gradcheck_real_imag
-    gradcheck_fn(
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:1921: in _fast_gradcheck
-    analytical_vJu = _get_analytical_vJu_backward_mode(
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:804: in _get_analytical_vJu_backward_mode
-    all_vJ = _check_analytical_jacobian_attributes(
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:772: in _check_analytical_jacobian_attributes
-    vjps1 = _get_analytical_vjps_wrt_specific_output(vjp_fn, output.clone(), v)
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:907: in _get_analytical_vjps_wrt_specific_output
-    grad_inputs = vjp_fn(v.reshape(sample_output.shape))
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:766: in vjp_fn
-    return torch.autograd.grad(
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/__init__.py:496: in grad
-    result = _engine_run_backward(
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-t_outputs = (tensor([-7.2382e+20, -1.1332e+21], dtype=torch.float64, grad_fn=<SubBackward0>),)
-args = ((tensor([0.1699, 0.9855], dtype=torch.float64),), True, False, (tensor([ 919.5000, 1439.5000], dtype=torch.float64, r..., 2.3950e+02, 1.0000e-01, 2.0000e-01,
-        3.0000e-01, 4.0000e-01], dtype=torch.float64, requires_grad=True)), True)
-kwargs = {'accumulate_grad': False}, attach_logging_hooks = False
-
-    def _engine_run_backward(
-        t_outputs: Sequence[Union[torch.Tensor, GradientEdge]],
-        *args: Any,
-        **kwargs: Any,
-    ) -> Tuple[torch.Tensor, ...]:
-        attach_logging_hooks = log.getEffectiveLevel() <= logging.DEBUG
-        if attach_logging_hooks:
-            unregister_hooks = _register_logging_hooks_on_whole_graph(t_outputs)
-        try:
->           return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
-                t_outputs, *args, **kwargs
-            )  # Calls into the C++ engine to run the backward pass
-E           RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.DoubleTensor []], which is output 0 of AsStridedBackward0, is at version 10; expected version 9 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True).
-
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/graph.py:825: RuntimeError
+../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ______________ TestDistortionKannalaBrandt.test_jit[cpu-float32] _______________
 
-self = <test_distortion.TestDistortionKannalaBrandt object at 0x74614c502c20>
+self = <test_distortion.TestDistortionKannalaBrandt object at 0x77ad01cdacb0>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_jit(self, device, dtype) -> None:
@@ -281,9 +169,9 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     stmts = [build_stmt(ctx, s) for s in stmts]
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.jit.frontend.StmtBuilder object at 0x7462271abc40>
-ctx = <torch._sources.SourceContext object at 0x74614c5f92b0>
-node = <ast.ImportFrom object at 0x74614c48dc60>
+self = <torch.jit.frontend.StmtBuilder object at 0x77addc78bd30>
+ctx = <torch._sources.SourceContext object at 0x77ad01b8d530>
+node = <ast.ImportFrom object at 0x77ad01cdb670>
 
     def __call__(self, ctx, node):
         method = getattr(self, "build_" + node.__class__.__name__, None)
@@ -298,13 +186,9 @@ E               return undistort_points_kannala_brandt(distorted_points_in_camer
 
 ../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/jit/frontend.py:416: UnsupportedNodeError
 =========================== short test summary info ============================
-FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_cardinality[cpu-float32-1]
-FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_cardinality[cpu-float32-2]
-FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_cardinality[cpu-float32-3]
 FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_distort_points_roundtrip[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_gradcheck[cpu]
 FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_jit[cpu-float32]
-========================= 6 failed, 4 passed in 0.51s ==========================
+========================= 2 failed, 8 passed in 0.48s ==========================
 
 
 Final Test Result:
@@ -333,7 +217,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'jit', 'cudagraphs', 'openxla', 'tvm', 'inductor', None}
+available optimizers: {'', 'jit', 'tvm', 'onnxrt', 'cudagraphs', 'inductor', 'openxla', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -352,7 +236,7 @@ collecting ... collected 10 items
 ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_jit[cpu-float32] PASSED
 
-============================== 10 passed in 0.25s ==============================
+============================== 10 passed in 0.24s ==============================
 
 
 Initial Result:
@@ -381,7 +265,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'jit', 'inductor', 'tvm', 'openxla', None, 'onnxrt'}
+available optimizers: {'', 'openxla', 'cudagraphs', 'jit', 'onnxrt', 'inductor', 'tvm', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -400,4 +284,4 @@ collecting ... collected 10 items
 ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/camera/test_distortion.py::TestDistortionKannalaBrandt::test_jit[cpu-float32] PASSED
 
-============================== 10 passed in 0.27s ==============================
+============================== 10 passed in 0.30s ==============================

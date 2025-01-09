@@ -1,72 +1,75 @@
 import torch
 import torch.nn.functional as F
-from torch.nn.modules.utils import _pair
+from torch import nn
 
 def deform_conv2d(input, offset, weight, bias=None, stride=1, padding=0, dilation=1, mask=None):
     """
-    Perform Deformable Convolution v2.
+    Perform deformable convolution v2.
 
     Parameters:
-    - input (Tensor): Input feature map of shape (N, C_in, H_in, W_in)
-    - offset (Tensor): Offset tensor of shape (N, 2*kernel_h*kernel_w, H_out, W_out)
-    - weight (Tensor): Convolution weight of shape (C_out, C_in, kernel_h, kernel_w)
-    - bias (Tensor, optional): Bias tensor of shape (C_out,)
-    - stride (int or tuple): Stride of the convolution
-    - padding (int or tuple): Zero-padding added to both sides of the input
-    - dilation (int or tuple): Spacing between kernel elements
-    - mask (Tensor, optional): Modulation mask of shape (N, kernel_h*kernel_w, H_out, W_out)
+    - input: Input tensor of shape (N, C_in, H_in, W_in)
+    - offset: Offset tensor of shape (N, 2*kernel_h*kernel_w, H_out, W_out)
+    - weight: Weight tensor of shape (C_out, C_in, kernel_h, kernel_w)
+    - bias: Optional bias tensor of shape (C_out,)
+    - stride: Stride of the convolution
+    - padding: Zero-padding added to both sides of the input
+    - dilation: Spacing between kernel elements
+    - mask: Optional mask tensor of shape (N, kernel_h*kernel_w, H_out, W_out)
 
     Returns:
-    - output (Tensor): Output feature map of shape (N, C_out, H_out, W_out)
+    - Output tensor of the deformable convolution
     """
-    stride = _pair(stride)
-    padding = _pair(padding)
-    dilation = _pair(dilation)
-    
     N, C_in, H_in, W_in = input.shape
     C_out, _, kernel_h, kernel_w = weight.shape
-    
-    H_out = (H_in + 2 * padding[0] - dilation[0] * (kernel_h - 1) - 1) // stride[0] + 1
-    W_out = (W_in + 2 * padding[1] - dilation[1] * (kernel_w - 1) - 1) // stride[1] + 1
-    
-    # Apply padding
-    input_padded = F.pad(input, (padding[1], padding[1], padding[0], padding[0]))
-    
-    # Generate grid for sampling
-    grid_y, grid_x = torch.meshgrid(torch.arange(H_out, device=input.device), torch.arange(W_out, device=input.device))
-    grid_y = grid_y * stride[0]
-    grid_x = grid_x * stride[1]
-    grid = torch.stack((grid_x, grid_y), dim=-1).float()  # Shape: (H_out, W_out, 2)
-    
-    # Add offset
-    offset = offset.permute(0, 2, 3, 1).contiguous()  # Shape: (N, H_out, W_out, 2*kernel_h*kernel_w)
-    offset = offset.view(N, H_out, W_out, kernel_h, kernel_w, 2)
-    grid = grid.unsqueeze(0).unsqueeze(3).unsqueeze(4)  # Shape: (1, H_out, W_out, 1, 1, 2)
-    grid = grid + offset  # Shape: (N, H_out, W_out, kernel_h, kernel_w, 2)
-    
-    # Normalize grid to [-1, 1]
-    grid[..., 0] = 2.0 * grid[..., 0] / (W_in - 1) - 1.0
-    grid[..., 1] = 2.0 * grid[..., 1] / (H_in - 1) - 1.0
-    
-    # Sample input at offset locations
-    input_padded = input_padded.unsqueeze(1)  # Shape: (N, 1, C_in, H_in + 2*padding[0], W_in + 2*padding[1])
-    grid = grid.view(N, H_out, W_out, kernel_h * kernel_w, 2)  # Shape: (N, H_out, W_out, kernel_h*kernel_w, 2)
-    sampled_input = F.grid_sample(input_padded, grid, mode='bilinear', padding_mode='zeros', align_corners=True)
-    sampled_input = sampled_input.view(N, C_in, H_out, W_out, kernel_h, kernel_w)  # Shape: (N, C_in, H_out, W_out, kernel_h, kernel_w)
-    
+
+    # Calculate output dimensions
+    H_out = (H_in + 2 * padding - dilation * (kernel_h - 1) - 1) // stride + 1
+    W_out = (W_in + 2 * padding - dilation * (kernel_w - 1) - 1) // stride + 1
+
+    # Ensure offset and mask dimensions are correct
+    assert offset.shape == (N, 2 * kernel_h * kernel_w, H_out, W_out)
+    if mask is not None:
+        assert mask.shape == (N, kernel_h * kernel_w, H_out, W_out)
+
+    # Create a grid for sampling
+    grid_y, grid_x = torch.meshgrid(torch.arange(H_out), torch.arange(W_out))
+    grid = torch.stack((grid_x, grid_y), 2).float().to(input.device)  # Shape: (H_out, W_out, 2)
+
+    # Add offset to the grid
+    grid = grid.unsqueeze(0).unsqueeze(0)  # Shape: (1, 1, H_out, W_out, 2)
+    grid = grid.repeat(N, kernel_h * kernel_w, 1, 1, 1)  # Shape: (N, kernel_h*kernel_w, H_out, W_out, 2)
+    offset = offset.view(N, kernel_h * kernel_w, 2, H_out, W_out).permute(0, 1, 3, 4, 2)
+    grid = grid + offset
+
+    # Normalize grid to [-1, 1] for F.grid_sample
+    grid[..., 0] = 2.0 * grid[..., 0] / max(W_out - 1, 1) - 1.0
+    grid[..., 1] = 2.0 * grid[..., 1] / max(H_out - 1, 1) - 1.0
+
+    # Sample input using the grid
+    input_padded = F.pad(input, (padding, padding, padding, padding))
+    sampled = F.grid_sample(input_padded, grid, mode='bilinear', padding_mode='zeros', align_corners=True)
+
     # Apply mask if provided
     if mask is not None:
-        mask = mask.view(N, 1, H_out, W_out, kernel_h, kernel_w)
-        sampled_input = sampled_input * mask
-    
+        mask = mask.unsqueeze(2)  # Shape: (N, kernel_h*kernel_w, 1, H_out, W_out)
+        sampled = sampled * mask
+
+    # Reshape sampled input for convolution
+    sampled = sampled.view(N, C_in, kernel_h, kernel_w, H_out, W_out)
+    sampled = sampled.permute(0, 4, 5, 1, 2, 3).contiguous()
+    sampled = sampled.view(N * H_out * W_out, C_in * kernel_h * kernel_w)
+
+    # Reshape weight for convolution
+    weight = weight.view(C_out, C_in * kernel_h * kernel_w)
+
     # Perform convolution
-    sampled_input = sampled_input.permute(0, 2, 3, 4, 5, 1).contiguous()  # Shape: (N, H_out, W_out, kernel_h, kernel_w, C_in)
-    sampled_input = sampled_input.view(N, H_out, W_out, -1)  # Shape: (N, H_out, W_out, C_in*kernel_h*kernel_w)
-    weight = weight.view(C_out, -1)  # Shape: (C_out, C_in*kernel_h*kernel_w)
-    output = torch.einsum('nhwc,oc->nhwo', sampled_input, weight)  # Shape: (N, H_out, W_out, C_out)
-    
+    output = torch.mm(sampled, weight.t())
+    output = output.view(N, H_out, W_out, C_out)
+    output = output.permute(0, 3, 1, 2).contiguous()
+
+    # Add bias if provided
     if bias is not None:
-        output += bias.view(1, 1, 1, -1)
-    
-    return output.permute(0, 3, 1, 2).contiguous()  # Shape: (N, C_out, H_out, W_out)
+        output += bias.view(1, -1, 1, 1)
+
+    return output
 

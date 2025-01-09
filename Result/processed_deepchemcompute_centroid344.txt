@@ -3,11 +3,11 @@ processed_deepchemcompute_centroid344.json
 function:
 compute_centroid
 Error Cases:
-2024-12-03 21:03:24.306552: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-12-26 19:21:03.842990: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
-E0000 00:00:1733277804.317478  377837 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-E0000 00:00:1733277804.320826  377837 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2024-12-03 21:03:24.333202: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+E0000 00:00:1735258863.854835  891305 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1735258863.858218  891305 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-12-26 19:21:03.870677: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
 To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
 
 Pass or Failed: 1
@@ -39,7 +39,7 @@ deepchem/utils/test/test_geometry_utils.py::TestGeometryUtils::test_angle_betwee
     angle = np.arccos(np.dot(vector_i_u, vector_j_u))
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-========================= 8 passed, 1 warning in 3.94s =========================
+========================= 8 passed, 1 warning in 4.07s =========================
 
 
 Final Test Result:
@@ -66,7 +66,7 @@ deepchem/utils/test/test_geometry_utils.py::TestGeometryUtils::test_angle_betwee
     angle = np.arccos(np.dot(vector_i_u, vector_j_u))
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-========================= 8 passed, 1 warning in 3.92s =========================
+========================= 8 passed, 1 warning in 4.09s =========================
 
 
 Initial Result:
@@ -93,4 +93,4 @@ deepchem/utils/test/test_geometry_utils.py::TestGeometryUtils::test_angle_betwee
     angle = np.arccos(np.dot(vector_i_u, vector_j_u))
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-========================= 8 passed, 1 warning in 4.37s =========================
+========================= 8 passed, 1 warning in 4.35s =========================

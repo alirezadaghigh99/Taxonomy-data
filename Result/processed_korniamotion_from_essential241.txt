@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape1]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape2]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape1] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_two_view[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape3]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape3] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape2] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_two_view[cpu-float32]'}
+{'../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape1]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape3] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape2] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape3]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape2]'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'onnxrt', 'cudagraphs', 'jit', 'inductor', 'openxla', None}
+available optimizers: {'', 'jit', 'onnxrt', 'cudagraphs', 'tvm', 'inductor', 'openxla', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -48,13 +48,13 @@ collecting ... collected 7 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape1] FAILED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape2] FAILED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape3] FAILED
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_two_view[cpu-float32] FAILED
+../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_two_view[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_gradcheck[cpu] PASSED
 
 =================================== FAILURES ===================================
 _________ TestMotionFromEssential.test_shape[cpu-float32-batch_shape1] _________
 
-self = <test_essential.TestMotionFromEssential object at 0x7422c00fa8c0>
+self = <test_essential.TestMotionFromEssential object at 0x72170f302830>
 batch_shape = (2, 3, 3), device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_shape", [(1, 3, 3), (2, 3, 3), (2, 1, 3, 3), (3, 2, 1, 3, 3)])
@@ -68,36 +68,26 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return motion_from_essential(E_mat)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-E_mat = tensor([[[0.0087, 0.9608, 0.2093],
-         [0.8279, 0.1046, 0.8488],
-         [0.9997, 0.8024, 0.5458]],
+E_mat = tensor([[[0.3042, 0.2693, 0.5934],
+         [0.1138, 0.7819, 0.2688],
+         [0.7396, 0.5367, 0.8466]],
 
-        [[0.1076, 0.5669, 0.2222],
-         [0.7183, 0.0322, 0.4684],
-         [0.6779, 0.0091, 0.8354]]])
+        [[0.4811, 0.6935, 0.4186],
+         [0.4904, 0.1459, 0.8400],
+         [0.9253, 0.6876, 0.4158]]])
 
-    def motion_from_essential(E_mat):
-        """
-        Decomposes an essential matrix into the four possible poses.
-    
-        Args:
-        - E_mat (torch.Tensor): Essential matrix of shape (*, 3, 3)
-    
-        Returns:
-        - Rs (torch.Tensor): Rotation matrices of shape (*, 4, 3, 3)
-        - Ts (torch.Tensor): Translation vectors of shape (*, 4, 3, 1)
-        """
+    def motion_from_essential(E_mat: torch.Tensor):
         assert E_mat.shape[-2:] == (3, 3), 'E_mat must have shape (*, 3, 3)'
         W = torch.tensor([[0, -1, 0], [1, 0, 0], [0, 0, 1]], dtype=E_mat.dtype, device=E_mat.device)
         Z = torch.tensor([[0, 1, 0], [-1, 0, 0], [0, 0, 0]], dtype=E_mat.dtype, device=E_mat.device)
-        U, _, Vt = torch.svd(E_mat)
->       if torch.det(U) < 0:
+        U, _, Vt = torch.linalg.svd(E_mat)
+>       if torch.det(U @ Vt) < 0:
 E       RuntimeError: Boolean value of Tensor with more than one value is ambiguous
 
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:28: RuntimeError
+../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:18: RuntimeError
 _________ TestMotionFromEssential.test_shape[cpu-float32-batch_shape2] _________
 
-self = <test_essential.TestMotionFromEssential object at 0x7422c00fac20>
+self = <test_essential.TestMotionFromEssential object at 0x72170f302b90>
 batch_shape = (2, 1, 3, 3), device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_shape", [(1, 3, 3), (2, 3, 3), (2, 1, 3, 3), (3, 2, 1, 3, 3)])
@@ -111,37 +101,24 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return motion_from_essential(E_mat)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-E_mat = tensor([[[[0.3464, 0.1836, 0.3637],
-          [0.9367, 0.4408, 0.8179],
-          [0.8904, 0.1860, 0.9410]]],
+E_mat = tensor([[[[7.5054e-01, 4.4948e-01, 3.5394e-01],
+          [3.1578e-01, 7.9011e-01, 3.1141e-01],
+          [4.7851e-04,...19e-05, 8.7990e-01],
+          [3.4244e-02, 8.5784e-01, 3.9649e-02],
+          [1.2727e-01, 6.4423e-01, 8.6870e-01]]]])
 
-
-        [[[0.5358, 0.4219, 0.0368],
-          [0.5330, 0.6231, 0.2113],
-          [0.8271, 0.4092, 0.6618]]]])
-
-    def motion_from_essential(E_mat):
-        """
-        Decomposes an essential matrix into the four possible poses.
-    
-        Args:
-        - E_mat (torch.Tensor): Essential matrix of shape (*, 3, 3)
-    
-        Returns:
-        - Rs (torch.Tensor): Rotation matrices of shape (*, 4, 3, 3)
-        - Ts (torch.Tensor): Translation vectors of shape (*, 4, 3, 1)
-        """
+    def motion_from_essential(E_mat: torch.Tensor):
         assert E_mat.shape[-2:] == (3, 3), 'E_mat must have shape (*, 3, 3)'
         W = torch.tensor([[0, -1, 0], [1, 0, 0], [0, 0, 1]], dtype=E_mat.dtype, device=E_mat.device)
         Z = torch.tensor([[0, 1, 0], [-1, 0, 0], [0, 0, 0]], dtype=E_mat.dtype, device=E_mat.device)
-        U, _, Vt = torch.svd(E_mat)
->       if torch.det(U) < 0:
+        U, _, Vt = torch.linalg.svd(E_mat)
+>       if torch.det(U @ Vt) < 0:
 E       RuntimeError: Boolean value of Tensor with more than one value is ambiguous
 
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:28: RuntimeError
+../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:18: RuntimeError
 _________ TestMotionFromEssential.test_shape[cpu-float32-batch_shape3] _________
 
-self = <test_essential.TestMotionFromEssential object at 0x7422c00face0>
+self = <test_essential.TestMotionFromEssential object at 0x72170f302c50>
 batch_shape = (3, 2, 1, 3, 3), device = device(type='cpu')
 dtype = torch.float32
 
@@ -156,73 +133,32 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return motion_from_essential(E_mat)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-E_mat = tensor([[[[[0.7167, 0.3712, 0.8430],
-           [0.7822, 0.4083, 0.7625],
-           [0.7063, 0.0398, 0.3651]]],
+E_mat = tensor([[[[[0.6381, 0.1611, 0.5227],
+           [0.3463, 0.7738, 0.5693],
+           [0.3373, 0.8244, 0.2166]]],
 
 
    ...],
 
 
-         [[[0.1799, 0.1335, 0.5746],
-           [0.3762, 0.2576, 0.8120],
-           [0.5355, 0.8105, 0.0441]]]]])
+         [[[0.4691, 0.9585, 0.7856],
+           [0.3692, 0.7367, 0.6734],
+           [0.2133, 0.0207, 0.2696]]]]])
 
-    def motion_from_essential(E_mat):
-        """
-        Decomposes an essential matrix into the four possible poses.
-    
-        Args:
-        - E_mat (torch.Tensor): Essential matrix of shape (*, 3, 3)
-    
-        Returns:
-        - Rs (torch.Tensor): Rotation matrices of shape (*, 4, 3, 3)
-        - Ts (torch.Tensor): Translation vectors of shape (*, 4, 3, 1)
-        """
+    def motion_from_essential(E_mat: torch.Tensor):
         assert E_mat.shape[-2:] == (3, 3), 'E_mat must have shape (*, 3, 3)'
         W = torch.tensor([[0, -1, 0], [1, 0, 0], [0, 0, 1]], dtype=E_mat.dtype, device=E_mat.device)
         Z = torch.tensor([[0, 1, 0], [-1, 0, 0], [0, 0, 0]], dtype=E_mat.dtype, device=E_mat.device)
-        U, _, Vt = torch.svd(E_mat)
->       if torch.det(U) < 0:
+        U, _, Vt = torch.linalg.svd(E_mat)
+>       if torch.det(U @ Vt) < 0:
 E       RuntimeError: Boolean value of Tensor with more than one value is ambiguous
 
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:28: RuntimeError
-______________ TestMotionFromEssential.test_two_view[cpu-float32] ______________
-
-self = <test_essential.TestMotionFromEssential object at 0x7422c00fafb0>
-device = device(type='cpu'), dtype = torch.float32
-
-    def test_two_view(self, device, dtype):
-        scene = generate_two_view_random_scene(device, dtype)
-    
-        R1, t1 = scene["R1"], scene["t1"]
-        R2, t2 = scene["R2"], scene["t2"]
-    
-        E_mat = epi.essential_from_Rt(R1, t1, R2, t2)
-    
-        R, t = epi.relative_camera_motion(R1, t1, R2, t2)
-        t = torch.nn.functional.normalize(t, dim=1)
-    
-        Rs, ts = epi.motion_from_essential(E_mat)
-    
-        rot_error = (Rs - R).abs().sum((-2, -1))
-        vec_error = (ts - t).abs().sum(-1)
-    
-        rtol: float = 1e-4
->       assert (rot_error < rtol).any() & (vec_error < rtol).any()
-E       assert (tensor(False) & tensor(True))
-E        +  where tensor(False) = <built-in method any of Tensor object at 0x7422af915080>()
-E        +    where <built-in method any of Tensor object at 0x7422af915080> = tensor([[3.7230, 3.7230, 6.1092, 6.1092]]) < 0.0001.any
-E        +  and   tensor(True) = <built-in method any of Tensor object at 0x7422af914ae0>()
-E        +    where <built-in method any of Tensor object at 0x7422af914ae0> = tensor([[[8.5526e-01, 1.8072e+00, 5.0401e-02],\n         [2.9802e-08, 0.0000e+00, 2.6077e-08],\n         [8.5526e-01, 1.8072e+00, 5.0401e-02],\n         [2.9802e-08, 0.0000e+00, 2.6077e-08]]]) < 0.0001.any
-
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py:395: AssertionError
+../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:18: RuntimeError
 =========================== short test summary info ============================
 FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape1]
 FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape2]
 FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_shape[cpu-float32-batch_shape3]
-FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_two_view[cpu-float32]
-========================= 4 failed, 3 passed in 0.34s ==========================
+========================= 3 failed, 4 passed in 0.42s ==========================
 
 
 Final Test Result:
@@ -251,7 +187,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'inductor', 'onnxrt', 'openxla', 'jit', 'tvm', None}
+available optimizers: {'', 'tvm', 'inductor', None, 'openxla', 'onnxrt', 'jit', 'cudagraphs'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -267,7 +203,7 @@ collecting ... collected 7 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_two_view[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_gradcheck[cpu] PASSED
 
-============================== 7 passed in 0.16s ===============================
+============================== 7 passed in 0.18s ===============================
 
 
 Initial Result:
@@ -296,7 +232,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'openxla', 'tvm', 'onnxrt', 'jit', 'inductor', None}
+available optimizers: {'', 'jit', 'inductor', 'tvm', 'openxla', 'onnxrt', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -312,4 +248,4 @@ collecting ... collected 7 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_two_view[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_essential.py::TestMotionFromEssential::test_gradcheck[cpu] PASSED
 
-============================== 7 passed in 0.18s ===============================
+============================== 7 passed in 0.23s ===============================

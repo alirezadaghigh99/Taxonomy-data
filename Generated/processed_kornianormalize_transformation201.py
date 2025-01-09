@@ -1,24 +1,28 @@
 import numpy as np
 
 def normalize_transformation(M, eps=1e-8):
-    # Ensure M has at least 2 dimensions
-    assert M.ndim >= 2, "Input matrix M must have at least 2 dimensions"
+    # Ensure the input is a numpy array for easier manipulation
+    M = np.array(M)
     
-    # Get the shape of the input matrix
-    shape = M.shape
+    # Check that the input matrix has at least 2 dimensions
+    assert M.ndim >= 2, "Input matrix must have at least 2 dimensions"
     
-    # Extract the value at the last row and column
+    # Get the shape of the matrix
+    rows, cols = M.shape
+    
+    # Check that the matrix is at least 2x2
+    assert rows >= 2 and cols >= 2, "Input matrix must be at least 2x2 in size"
+    
+    # Get the value at the last row and column
     last_value = M[-1, -1]
     
-    # Avoid division by zero by adding a small epsilon value
+    # Avoid division by zero by ensuring last_value is not too close to zero
     if abs(last_value) < eps:
-        last_value = eps
+        raise ValueError("The value at the last row and column is too close to zero, cannot normalize.")
     
-    # Normalize the matrix
+    # Normalize the matrix by dividing all elements by the last element
     normalized_M = M / last_value
     
-    # Set the last element to exactly 1
-    normalized_M[-1, -1] = 1.0
-    
+    # Return the normalized matrix
     return normalized_M
 

@@ -9,7 +9,7 @@ Corrupt JPEG data: bad Huffman code
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-rgb_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cpu] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-grace_hopper_517x606.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cuda]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg[True-grace_hopper_517x606.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda_device_param FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-gray_pytorch.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-cmyk_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-grace_hopper_517x606.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_batch_encode_jpegs_cuda_errors', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-gray_pytorch.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-False-cuda] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-grace_hopper_517x606.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-rgb_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-rgb_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cpu]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-grace_hopper_517x606.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg[True-grace_hopper_517x606.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda_device_param', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_write_jpeg[True-grace_hopper_517x606.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-False-cuda]', '../publishablew/vision/vision/test/test_image.py::test_write_jpeg[True-grace_hopper_517x606.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-cmyk_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-False-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-False-cuda]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-gray_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_single_encode_jpeg_cuda_errors', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-cmyk_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_errors FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-rgb_pytorch.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-rgb_pytorch.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_errors', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-gray_pytorch.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cpu]', '../publishablew/vision/vision/test/test_image.py::test_batch_encode_jpegs_cuda_errors FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-rgb_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-rgb_pytorch.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-grace_hopper_517x606.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cuda]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-cmyk_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-rgb_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_single_encode_jpeg_cuda_errors FAILED'}
+{'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-gray_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-rgb_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cpu]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-gray_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-False-cuda]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cpu] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-False-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-False-cuda]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cuda]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-grace_hopper_517x606.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-gray_pytorch.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cuda] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-grace_hopper_517x606.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_batch_encode_jpegs_cuda_errors', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-rgb_pytorch.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-gray_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-False-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-cmyk_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-cmyk_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-False-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-False-cpu]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg[True-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg[False-grace_hopper_517x606.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-grace_hopper_517x606.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_single_encode_jpeg_cuda_errors', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-rgb_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cuda]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_batch_encode_jpegs_cuda_errors FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-cmyk_pytorch.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-rgb_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-grace_hopper_517x606.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-grace_hopper_517x606.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_write_jpeg[True-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-rgb_pytorch.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda_device_param FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg[True-grace_hopper_517x606.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda_device_param', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg[False-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_errors FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-rgb_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_write_jpeg[False-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_single_encode_jpeg_cuda_errors FAILED', '../publishablew/vision/vision/test/test_image.py::test_write_jpeg[True-grace_hopper_517x606.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-False-cpu]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-rgb_pytorch.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_errors', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cpu]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-rgb_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_write_jpeg[False-grace_hopper_517x606.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-False-cpu] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-cmyk_pytorch.jpg] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -535,7 +535,7 @@ collecting ... collected 604 items
 ../publishablew/vision/vision/test/test_image.py::test_decode_jpeg_cuda_errors PASSED
 ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_errors FAILED
 ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg[True-grace_hopper_517x606.jpg] FAILED
-../publishablew/vision/vision/test/test_image.py::test_encode_jpeg[False-grace_hopper_517x606.jpg] PASSED
+../publishablew/vision/vision/test/test_image.py::test_encode_jpeg[False-grace_hopper_517x606.jpg] FAILED
 ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda_device_param FAILED
 ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-grace_hopper_517x606.jpg] FAILED
 ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-cmyk_pytorch.jpg] XFAIL
@@ -555,16 +555,16 @@ collecting ... collected 604 items
 ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-rgb_pytorch.jpg] FAILED
 ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cpu] FAILED
 ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cuda] FAILED
-../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-False-cpu] PASSED
+../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-False-cpu] FAILED
 ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-False-cuda] FAILED
 ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cpu] FAILED
 ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cuda] FAILED
-../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-False-cpu] PASSED
+../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-False-cpu] FAILED
 ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-False-cuda] FAILED
 ../publishablew/vision/vision/test/test_image.py::test_single_encode_jpeg_cuda_errors FAILED
 ../publishablew/vision/vision/test/test_image.py::test_batch_encode_jpegs_cuda_errors FAILED
 ../publishablew/vision/vision/test/test_image.py::test_write_jpeg[True-grace_hopper_517x606.jpg] FAILED
-../publishablew/vision/vision/test/test_image.py::test_write_jpeg[False-grace_hopper_517x606.jpg] PASSED
+../publishablew/vision/vision/test/test_image.py::test_write_jpeg[False-grace_hopper_517x606.jpg] FAILED
 ../publishablew/vision/vision/test/test_image.py::test_pathlib_support PASSED
 ../publishablew/vision/vision/test/test_image.py::test_decode_gif[True-gifgrid] PASSED
 ../publishablew/vision/vision/test/test_image.py::test_decode_gif[True-fire] PASSED
@@ -653,35 +653,33 @@ E   def encode_jpeg(input: Union[torch.Tensor, List[torch.Tensor]], quality: int
 E       from .temp import encode_jpeg
 E       ~~~~ <--- HERE
 E       return encode_jpeg(input, quality)
+_______________ test_encode_jpeg[False-grace_hopper_517x606.jpg] _______________
+../publishablew/vision/vision/test/test_image.py:587: in test_encode_jpeg
+    assert_equal(encoded_jpeg_torch, encoded_jpeg_pil)
+E   AssertionError: The values for attribute 'shape' do not match: torch.Size([22532]) != torch.Size([59718]).
 ______________________ test_encode_jpeg_cuda_device_param ______________________
 ../publishablew/vision/vision/test/test_image.py:602: in test_encode_jpeg_cuda_device_param
     results.append(encode_jpeg(data.to(device=device)))
 ../publishablew/vision/vision/torchvision/io/image.py:200: in encode_jpeg
     return encode_jpeg(input, quality)
-../publishablew/vision/vision/torchvision/io/temp.py:44: in encode_jpeg
-    return encode_single_image(images)
-../publishablew/vision/vision/torchvision/io/temp.py:36: in encode_single_image
-    image_np = image.numpy()
+../publishablew/vision/vision/torchvision/io/temp.py:36: in encode_jpeg
+    img = img.byte().numpy()
 E   TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
 _________ test_encode_jpeg_cuda[False-False-grace_hopper_517x606.jpg] __________
 ../publishablew/vision/vision/test/test_image.py:630: in test_encode_jpeg_cuda
     encoded_jpeg_cuda_tv = encode_fn(decoded_image_tv.cuda(), quality=75)
 ../publishablew/vision/vision/torchvision/io/image.py:200: in encode_jpeg
     return encode_jpeg(input, quality)
-../publishablew/vision/vision/torchvision/io/temp.py:44: in encode_jpeg
-    return encode_single_image(images)
-../publishablew/vision/vision/torchvision/io/temp.py:36: in encode_single_image
-    image_np = image.numpy()
+../publishablew/vision/vision/torchvision/io/temp.py:36: in encode_jpeg
+    img = img.byte().numpy()
 E   TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
 ______________ test_encode_jpeg_cuda[False-False-rgb_pytorch.jpg] ______________
 ../publishablew/vision/vision/test/test_image.py:630: in test_encode_jpeg_cuda
     encoded_jpeg_cuda_tv = encode_fn(decoded_image_tv.cuda(), quality=75)
 ../publishablew/vision/vision/torchvision/io/image.py:200: in encode_jpeg
     return encode_jpeg(input, quality)
-../publishablew/vision/vision/torchvision/io/temp.py:44: in encode_jpeg
-    return encode_single_image(images)
-../publishablew/vision/vision/torchvision/io/temp.py:36: in encode_single_image
-    image_np = image.numpy()
+../publishablew/vision/vision/torchvision/io/temp.py:36: in encode_jpeg
+    img = img.byte().numpy()
 E   TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
 __________ test_encode_jpeg_cuda[False-True-grace_hopper_517x606.jpg] __________
 ../publishablew/vision/vision/test/test_image.py:619: in test_encode_jpeg_cuda
@@ -780,20 +778,16 @@ __________ test_encode_jpeg_cuda[True-False-grace_hopper_517x606.jpg] __________
     encoded_jpeg_cuda_tv = encode_fn(decoded_image_tv.cuda(), quality=75)
 ../publishablew/vision/vision/torchvision/io/image.py:200: in encode_jpeg
     return encode_jpeg(input, quality)
-../publishablew/vision/vision/torchvision/io/temp.py:44: in encode_jpeg
-    return encode_single_image(images)
-../publishablew/vision/vision/torchvision/io/temp.py:36: in encode_single_image
-    image_np = image.numpy()
+../publishablew/vision/vision/torchvision/io/temp.py:36: in encode_jpeg
+    img = img.byte().numpy()
 E   TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
 ______________ test_encode_jpeg_cuda[True-False-rgb_pytorch.jpg] _______________
 ../publishablew/vision/vision/test/test_image.py:630: in test_encode_jpeg_cuda
     encoded_jpeg_cuda_tv = encode_fn(decoded_image_tv.cuda(), quality=75)
 ../publishablew/vision/vision/torchvision/io/image.py:200: in encode_jpeg
     return encode_jpeg(input, quality)
-../publishablew/vision/vision/torchvision/io/temp.py:44: in encode_jpeg
-    return encode_single_image(images)
-../publishablew/vision/vision/torchvision/io/temp.py:36: in encode_single_image
-    image_np = image.numpy()
+../publishablew/vision/vision/torchvision/io/temp.py:36: in encode_jpeg
+    img = img.byte().numpy()
 E   TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
 __________ test_encode_jpeg_cuda[True-True-grace_hopper_517x606.jpg] ___________
 ../publishablew/vision/vision/test/test_image.py:619: in test_encode_jpeg_cuda
@@ -933,17 +927,17 @@ E   def encode_jpeg(input: Union[torch.Tensor, List[torch.Tensor]], quality: int
 E       from .temp import encode_jpeg
 E       ~~~~ <--- HERE
 E       return encode_jpeg(input, quality)
+___________________ test_encode_jpegs_batch[True-False-cpu] ____________________
+../publishablew/vision/vision/test/test_image.py:667: in test_encode_jpegs_batch
+    assert abs_mean_diff < 3
+E   assert 172.88050842285156 < 3
 ___________________ test_encode_jpegs_batch[True-False-cuda] ___________________
 ../publishablew/vision/vision/test/test_image.py:661: in test_encode_jpegs_batch
     encoded_jpegs_tv_device = encode_fn(decoded_images_tv_device, quality=75)
 ../publishablew/vision/vision/torchvision/io/image.py:200: in encode_jpeg
     return encode_jpeg(input, quality)
-../publishablew/vision/vision/torchvision/io/temp.py:46: in encode_jpeg
-    return [encode_single_image(image) for image in images]
-../publishablew/vision/vision/torchvision/io/temp.py:46: in <listcomp>
-    return [encode_single_image(image) for image in images]
-../publishablew/vision/vision/torchvision/io/temp.py:36: in encode_single_image
-    image_np = image.numpy()
+../publishablew/vision/vision/torchvision/io/temp.py:36: in encode_jpeg
+    img = img.byte().numpy()
 E   TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
 ___________________ test_encode_jpegs_batch[False-True-cpu] ____________________
 ../publishablew/vision/vision/test/test_image.py:658: in test_encode_jpegs_batch
@@ -991,39 +985,33 @@ E   def encode_jpeg(input: Union[torch.Tensor, List[torch.Tensor]], quality: int
 E       from .temp import encode_jpeg
 E       ~~~~ <--- HERE
 E       return encode_jpeg(input, quality)
+___________________ test_encode_jpegs_batch[False-False-cpu] ___________________
+../publishablew/vision/vision/test/test_image.py:667: in test_encode_jpegs_batch
+    assert abs_mean_diff < 3
+E   assert 172.8804931640625 < 3
 __________________ test_encode_jpegs_batch[False-False-cuda] ___________________
 ../publishablew/vision/vision/test/test_image.py:661: in test_encode_jpegs_batch
     encoded_jpegs_tv_device = encode_fn(decoded_images_tv_device, quality=75)
 ../publishablew/vision/vision/torchvision/io/image.py:200: in encode_jpeg
     return encode_jpeg(input, quality)
-../publishablew/vision/vision/torchvision/io/temp.py:46: in encode_jpeg
-    return [encode_single_image(image) for image in images]
-../publishablew/vision/vision/torchvision/io/temp.py:46: in <listcomp>
-    return [encode_single_image(image) for image in images]
-../publishablew/vision/vision/torchvision/io/temp.py:36: in encode_single_image
-    image_np = image.numpy()
+../publishablew/vision/vision/torchvision/io/temp.py:36: in encode_jpeg
+    img = img.byte().numpy()
 E   TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
 _____________________ test_single_encode_jpeg_cuda_errors ______________________
 ../publishablew/vision/vision/test/test_image.py:692: in test_single_encode_jpeg_cuda_errors
     encode_jpeg(torch.empty((3, 100, 100), dtype=torch.float32, device="cuda"))
 ../publishablew/vision/vision/torchvision/io/image.py:200: in encode_jpeg
     return encode_jpeg(input, quality)
-../publishablew/vision/vision/torchvision/io/temp.py:44: in encode_jpeg
-    return encode_single_image(images)
-../publishablew/vision/vision/torchvision/io/temp.py:36: in encode_single_image
-    image_np = image.numpy()
+../publishablew/vision/vision/torchvision/io/temp.py:36: in encode_jpeg
+    img = img.byte().numpy()
 E   TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
 _____________________ test_batch_encode_jpegs_cuda_errors ______________________
 ../publishablew/vision/vision/test/test_image.py:710: in test_batch_encode_jpegs_cuda_errors
     encode_jpeg(
 ../publishablew/vision/vision/torchvision/io/image.py:200: in encode_jpeg
     return encode_jpeg(input, quality)
-../publishablew/vision/vision/torchvision/io/temp.py:46: in encode_jpeg
-    return [encode_single_image(image) for image in images]
-../publishablew/vision/vision/torchvision/io/temp.py:46: in <listcomp>
-    return [encode_single_image(image) for image in images]
-../publishablew/vision/vision/torchvision/io/temp.py:36: in encode_single_image
-    image_np = image.numpy()
+../publishablew/vision/vision/torchvision/io/temp.py:36: in encode_jpeg
+    img = img.byte().numpy()
 E   TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
 ________________ test_write_jpeg[True-grace_hopper_517x606.jpg] ________________
 ../publishablew/vision/vision/test/test_image.py:796: in test_write_jpeg
@@ -1054,6 +1042,10 @@ E   def encode_jpeg(input: Union[torch.Tensor, List[torch.Tensor]], quality: int
 E       from .temp import encode_jpeg
 E       ~~~~ <--- HERE
 E       return encode_jpeg(input, quality)
+_______________ test_write_jpeg[False-grace_hopper_517x606.jpg] ________________
+../publishablew/vision/vision/test/test_image.py:806: in test_write_jpeg
+    assert_equal(torch_bytes, pil_bytes)
+E   AssertionError: The length of the sequences mismatch: 22532 != 59718
 ______ test_decode_bad_encoded_data[decode_webp-WebPGetFeatures failed.] _______
 ../publishablew/vision/vision/test/test_image.py:885: in test_decode_bad_encoded_data
     decode_fun(encoded_data[None])
@@ -1128,6 +1120,7 @@ test/test_image.py::test_encode_jpeg[True-grace_hopper_517x606.jpg]
 =========================== short test summary info ============================
 FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_errors
 FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg[True-grace_hopper_517x606.jpg]
+FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg[False-grace_hopper_517x606.jpg]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda_device_param
 FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-grace_hopper_517x606.jpg]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-rgb_pytorch.jpg]
@@ -1143,19 +1136,22 @@ FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[T
 FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-rgb_pytorch.jpg]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cpu]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cuda]
+FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-False-cpu]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-False-cuda]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cpu]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cuda]
+FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-False-cpu]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-False-cuda]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_single_encode_jpeg_cuda_errors
 FAILED ../publishablew/vision/vision/test/test_image.py::test_batch_encode_jpegs_cuda_errors
 FAILED ../publishablew/vision/vision/test/test_image.py::test_write_jpeg[True-grace_hopper_517x606.jpg]
+FAILED ../publishablew/vision/vision/test/test_image.py::test_write_jpeg[False-grace_hopper_517x606.jpg]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_bad_encoded_data[decode_webp-WebPGetFeatures failed.]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[False-decode_webp]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[False-decode_image]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[True-decode_webp]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[True-decode_image]
-====== 29 failed, 544 passed, 26 skipped, 5 xfailed, 9 warnings in 8.73s =======
+====== 33 failed, 540 passed, 26 skipped, 5 xfailed, 9 warnings in 7.76s =======
 
 
 Final Test Result:
@@ -1850,7 +1846,7 @@ FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[False-
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[False-decode_image]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[True-decode_webp]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[True-decode_image]
-======= 5 failed, 564 passed, 26 skipped, 9 xfailed, 9 warnings in 8.84s =======
+======= 5 failed, 564 passed, 26 skipped, 9 xfailed, 9 warnings in 8.27s =======
 
 
 Initial Result:
@@ -2545,4 +2541,4 @@ FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[False-
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[False-decode_image]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[True-decode_webp]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[True-decode_image]
-======= 5 failed, 564 passed, 26 skipped, 9 xfailed, 9 warnings in 8.53s =======
+======= 5 failed, 564 passed, 26 skipped, 9 xfailed, 9 warnings in 8.58s =======

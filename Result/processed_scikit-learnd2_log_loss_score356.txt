@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score_raises FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score_raises', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score FAILED'}
+{'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score_raises', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score_raises FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 208 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 789721849
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 1517459004
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_output_dict_empty_input PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_zero_division_warning[warn] PASSED
@@ -258,10 +258,32 @@ ____________________________ test_d2_log_loss_score ____________________________
         log_likelihood = log_loss(y_true=y_true, y_pred=y_pred, normalize=False)
         log_likelihood_null = log_loss(y_true=y_true, y_pred=y_pred_null, normalize=False)
         d2_score_true = 1 - log_likelihood / log_likelihood_null
+        assert d2_score == pytest.approx(d2_score_true)
+    
+        # check that using sample weight also gives the correct d2 score
+        sample_weight = np.array([2, 1, 3, 4, 3, 1])
+        y_pred_null[:, 0] = sample_weight[:3].sum() / sample_weight.sum()
+        y_pred_null[:, 1] = sample_weight[3:].sum() / sample_weight.sum()
+        d2_score = d2_log_loss_score(
+            y_true=y_true, y_pred=y_pred, sample_weight=sample_weight
+        )
+        log_likelihood = log_loss(
+            y_true=y_true,
+            y_pred=y_pred,
+            sample_weight=sample_weight,
+            normalize=False,
+        )
+        log_likelihood_null = log_loss(
+            y_true=y_true,
+            y_pred=y_pred_null,
+            sample_weight=sample_weight,
+            normalize=False,
+        )
+        d2_score_true = 1 - log_likelihood / log_likelihood_null
 >       assert d2_score == pytest.approx(d2_score_true)
 E       AssertionError
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py:2928: AssertionError
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py:2950: AssertionError
 ________________________ test_d2_log_loss_score_raises _________________________
 
     def test_d2_log_loss_score_raises():
@@ -411,7 +433,7 @@ E            Input: 'The number of classes in labels is different from that in y
 =========================== short test summary info ============================
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score_raises
-============ 2 failed, 203 passed, 3 skipped, 19 warnings in 2.45s =============
+============ 2 failed, 203 passed, 3 skipped, 19 warnings in 2.52s =============
 
 
 Final Test Result:
@@ -423,7 +445,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 208 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 1923783825
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 1361028983
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_output_dict_empty_input PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_zero_division_warning[warn] PASSED
@@ -633,7 +655,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score_raises PASSED
 
-================= 205 passed, 3 skipped, 19 warnings in 2.18s ==================
+================= 205 passed, 3 skipped, 19 warnings in 2.24s ==================
 
 
 Initial Result:
@@ -645,7 +667,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 208 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 694715090
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 1120419450
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_output_dict_empty_input PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_zero_division_warning[warn] PASSED
@@ -855,4 +877,4 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score_raises PASSED
 
-================= 205 passed, 3 skipped, 19 warnings in 2.29s ==================
+================= 205 passed, 3 skipped, 19 warnings in 2.41s ==================

@@ -60,7 +60,7 @@ E       ~~~~ <--- HERE
 E       return _box_xyxy_to_xywh(boxes)
 =========================== short test summary info ============================
 FAILED ../publishablew/vision/vision/test/test_ops.py::TestBoxConvert::test_bbox_convert_jit
-========================= 1 failed, 8 passed in 0.31s ==========================
+========================= 1 failed, 8 passed in 0.20s ==========================
 
 
 Final Test Result:
@@ -82,7 +82,7 @@ collecting ... collected 9 items
 ../publishablew/vision/vision/test/test_ops.py::TestBoxConvert::test_bbox_invalid[xhwcy-cxwyh] PASSED
 ../publishablew/vision/vision/test/test_ops.py::TestBoxConvert::test_bbox_convert_jit PASSED
 
-============================== 9 passed in 0.26s ===============================
+============================== 9 passed in 0.13s ===============================
 
 
 Initial Result:
@@ -104,4 +104,4 @@ collecting ... collected 9 items
 ../publishablew/vision/vision/test/test_ops.py::TestBoxConvert::test_bbox_invalid[xhwcy-cxwyh] PASSED
 ../publishablew/vision/vision/test/test_ops.py::TestBoxConvert::test_bbox_convert_jit PASSED
 
-============================== 9 passed in 0.20s ===============================
+============================== 9 passed in 0.12s ===============================

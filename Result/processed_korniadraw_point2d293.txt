@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawPoint::test_draw_point2d_with_mismatched_dims[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawPoint::test_draw_point2d_with_mismatched_dims[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawPoint::test_draw_point2d_with_singleton_color_dims[cpu-float32]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawPoint::test_draw_point2d_with_singleton_color_dims[cpu-float32] FAILED'}
+{'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawPoint::test_draw_point2d_with_singleton_color_dims[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawPoint::test_draw_point2d_with_mismatched_dims[cpu-float32]', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawPoint::test_draw_point2d_with_mismatched_dims[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawPoint::test_draw_point2d_with_singleton_color_dims[cpu-float32] FAILED'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'tvm', 'jit', 'onnxrt', 'inductor', None, 'cudagraphs'}
+available optimizers: {'', 'openxla', 'jit', 'inductor', 'tvm', 'onnxrt', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -53,7 +53,7 @@ collecting ... collected 6 items
 =================================== FAILURES ===================================
 ______ TestDrawPoint.test_draw_point2d_with_mismatched_dims[cpu-float32] _______
 
-self = <test_draw.TestDrawPoint object at 0x723de33f9ba0>, dtype = torch.float32
+self = <test_draw.TestDrawPoint object at 0x7495dd2f1c90>, dtype = torch.float32
 device = device(type='cpu')
 
     def test_draw_point2d_with_mismatched_dims(self, dtype, device):
@@ -67,7 +67,7 @@ E       Failed: DID NOT RAISE <class 'Exception'>
 ../publishablew/kornia/kornia/tests/utils/test_draw.py:47: Failed
 ____ TestDrawPoint.test_draw_point2d_with_singleton_color_dims[cpu-float32] ____
 
-self = <test_draw.TestDrawPoint object at 0x723de33f9f30>, dtype = torch.float32
+self = <test_draw.TestDrawPoint object at 0x7495dd2f2020>, dtype = torch.float32
 device = device(type='cpu')
 
     def test_draw_point2d_with_singleton_color_dims(self, dtype, device):
@@ -101,22 +101,22 @@ color = tensor([[ 5.],
 
     def draw_point2d(image, points, color):
         """
-        Draw points on a 2D image tensor.
+        Draws points on an image tensor with the specified color.
     
         Parameters:
-        - image: numpy array of shape (H, W) for grayscale or (C, H, W) for multi-channel.
-        - points: list of tuples [(x1, y1), (x2, y2), ...] specifying the coordinates to color.
-        - color: numpy array of shape (C,) for multi-channel or a scalar for grayscale.
+        - image: numpy.ndarray, the image tensor, either (H, W) for grayscale or (C, H, W) for multi-channel.
+        - points: list of tuples, each tuple is (x, y) representing the coordinates to be colored.
+        - color: numpy.ndarray or scalar, the color to set at the specified points. Should match the image's channels.
     
         Returns:
-        - Modified image with points colored.
+        - numpy.ndarray, the modified image with points colored.
         """
-        if len(image.shape) == 2:
+        if image.ndim == 2:
             H, W = image.shape
             for x, y in points:
                 if 0 <= x < W and 0 <= y < H:
                     image[y, x] = color
-        elif len(image.shape) == 3:
+        elif image.ndim == 3:
             C, H, W = image.shape
             for x, y in points:
                 if 0 <= x < W and 0 <= y < H:
@@ -127,7 +127,7 @@ E                   RuntimeError: expand(torch.FloatTensor{[3, 1]}, size=[3]): t
 =========================== short test summary info ============================
 FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawPoint::test_draw_point2d_with_mismatched_dims[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawPoint::test_draw_point2d_with_singleton_color_dims[cpu-float32]
-========================= 2 failed, 4 passed in 0.32s ==========================
+========================= 2 failed, 4 passed in 0.33s ==========================
 
 
 Final Test Result:
@@ -156,7 +156,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'tvm', 'openxla', 'onnxrt', 'cudagraphs', 'inductor', None}
+available optimizers: {'', 'jit', 'openxla', 'inductor', 'cudagraphs', 'onnxrt', 'tvm', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -171,7 +171,7 @@ collecting ... collected 6 items
 ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawPoint::test_draw_point2d_with_mismatched_dtype[cpu] PASSED
 ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawPoint::test_draw_point2d_with_singleton_color_dims[cpu-float32] PASSED
 
-============================== 6 passed in 0.16s ===============================
+============================== 6 passed in 0.17s ===============================
 
 
 Initial Result:
@@ -200,7 +200,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'cudagraphs', 'openxla', 'tvm', 'jit', 'inductor', None}
+available optimizers: {'', 'inductor', 'jit', 'tvm', 'cudagraphs', 'onnxrt', None, 'openxla'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -215,4 +215,4 @@ collecting ... collected 6 items
 ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawPoint::test_draw_point2d_with_mismatched_dtype[cpu] PASSED
 ../publishablew/kornia/kornia/tests/utils/test_draw.py::TestDrawPoint::test_draw_point2d_with_singleton_color_dims[cpu-float32] PASSED
 
-============================== 6 passed in 0.16s ===============================
+============================== 6 passed in 0.14s ===============================

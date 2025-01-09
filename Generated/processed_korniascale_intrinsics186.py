@@ -1,4 +1,3 @@
-import numpy as np
 import torch
 
 def scale_intrinsics(camera_matrix, scale_factor):
@@ -6,42 +5,22 @@ def scale_intrinsics(camera_matrix, scale_factor):
     Scales the focal length and center of projection in the camera matrix by the given scale factor.
 
     Parameters:
-    camera_matrix (torch.Tensor or np.ndarray): The camera matrix with shape (B, 3, 3).
-    scale_factor (float or torch.Tensor or np.ndarray): The scale factor to apply.
+    - camera_matrix: A tensor of shape (B, 3, 3) containing the intrinsic parameters.
+    - scale_factor: A float or a tensor that represents the scale factor.
 
     Returns:
-    torch.Tensor or np.ndarray: The scaled camera matrix with the same shape as the input (B, 3, 3).
+    - A tensor of shape (B, 3, 3) with the scaled intrinsic parameters.
     """
-    if isinstance(camera_matrix, np.ndarray):
-        if isinstance(scale_factor, (float, int)):
-            scale_factor = np.array(scale_factor)
-        elif isinstance(scale_factor, np.ndarray):
-            scale_factor = scale_factor.reshape(-1, 1, 1)
-        else:
-            raise TypeError("Scale factor must be a float, int, or np.ndarray when camera_matrix is an np.ndarray.")
-        
-        scaled_matrix = camera_matrix.copy()
-        scaled_matrix[:, 0, 0] *= scale_factor
-        scaled_matrix[:, 1, 1] *= scale_factor
-        scaled_matrix[:, 0, 2] *= scale_factor
-        scaled_matrix[:, 1, 2] *= scale_factor
+    # Ensure the scale factor is a tensor if it's a float
+    if isinstance(scale_factor, float):
+        scale_factor = torch.tensor(scale_factor, dtype=camera_matrix.dtype, device=camera_matrix.device)
 
-    elif isinstance(camera_matrix, torch.Tensor):
-        if isinstance(scale_factor, (float, int)):
-            scale_factor = torch.tensor(scale_factor, dtype=camera_matrix.dtype, device=camera_matrix.device)
-        elif isinstance(scale_factor, torch.Tensor):
-            scale_factor = scale_factor.view(-1, 1, 1)
-        else:
-            raise TypeError("Scale factor must be a float, int, or torch.Tensor when camera_matrix is a torch.Tensor.")
-        
-        scaled_matrix = camera_matrix.clone()
-        scaled_matrix[:, 0, 0] *= scale_factor
-        scaled_matrix[:, 1, 1] *= scale_factor
-        scaled_matrix[:, 0, 2] *= scale_factor
-        scaled_matrix[:, 1, 2] *= scale_factor
+    # Scale the focal lengths and center of projection
+    scaled_camera_matrix = camera_matrix.clone()
+    scaled_camera_matrix[:, 0, 0] *= scale_factor  # Scale fx
+    scaled_camera_matrix[:, 1, 1] *= scale_factor  # Scale fy
+    scaled_camera_matrix[:, 0, 2] *= scale_factor  # Scale cx
+    scaled_camera_matrix[:, 1, 2] *= scale_factor  # Scale cy
 
-    else:
-        raise TypeError("camera_matrix must be either a numpy.ndarray or a torch.Tensor.")
-
-    return scaled_matrix
+    return scaled_camera_matrix
 

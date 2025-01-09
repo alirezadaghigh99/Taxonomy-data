@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-#FF00FF]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-#FF00FF] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-colors3] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-colors3] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-None] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-colors5] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-#FF00FF]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-blue]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-blue]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-#FF00FF] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-#FF00FF] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-None]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-blue]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-colors5]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-None] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-#FF00FF]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-blue] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-None]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-colors3] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-blue] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-colors3] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-#FF00FF] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-blue] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-colors5]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-None]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-blue]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-None] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-blue] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-colors4]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors4] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-None]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-None]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-colors4] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-colors5] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-colors5] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-colors4] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-colors5]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-colors4] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-#FF00FF]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-colors5] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-colors4]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-None]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-colors4]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-colors3] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-#FF00FF]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors4]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-colors3]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-None]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-None]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-colors3]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-colors5] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-#FF00FF] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-colors5]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-blue]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-colors3]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-blue]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-colors3]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-blue] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-colors3] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-#FF00FF] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-None] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors5] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-colors5]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-blue] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors5]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-colors5] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-colors4]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-colors4]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-#FF00FF] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-colors4]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-colors3]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-blue] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-#FF00FF]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-blue]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-#FF00FF]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-blue] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-None] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-colors5] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-None] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-#FF00FF]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-blue]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-colors3]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-colors5]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-colors4] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-colors3] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-colors5]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors3]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-colors4] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-None] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-colors4] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors3] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-colors4] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-#FF00FF] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-colors3]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-colors4]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-None] FAILED'}
+{'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-colors4]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-#FF00FF] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-colors3] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-colors4]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-colors5]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-#FF00FF] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-colors4]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-None]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-colors5]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-#FF00FF] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-#FF00FF]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-#FF00FF]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-colors5] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-colors5] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-#FF00FF]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-colors5]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-colors3]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-blue] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-colors3]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-colors5] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-None] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-colors4]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors3]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-#FF00FF] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-colors5]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-None]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-#FF00FF] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-colors3] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-colors4] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-colors4] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-blue] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-None] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-colors5] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-None]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-colors4]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors5] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-blue] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-None]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-blue] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-blue]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-#FF00FF]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-colors3]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-blue] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-colors4]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-colors5]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-#FF00FF]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-colors3]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-#FF00FF] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors4]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-None]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-colors3] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-colors4] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-None] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-colors4]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-#FF00FF]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-#FF00FF]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-blue]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-colors5] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-#FF00FF] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-None] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-colors5] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-#FF00FF]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-blue]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-colors5]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-None] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-colors4] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-colors3]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors3] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-colors3] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.7-blue] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-blue]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors5]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-blue]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-colors4] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-blue]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-colors5] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-colors4] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-#FF00FF] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-colors5]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-colors3] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-None]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-blue]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-None] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.7-colors4] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-blue] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-blue]', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-blue] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors4] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,10 +18,10 @@ configfile: pytest.ini
 plugins: mock-3.14.0
 collecting ... collected 48 items
 
-../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-None] FAILED
+../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-None] PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-blue] FAILED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-#FF00FF] FAILED
-../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-colors3] FAILED
+../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-colors3] PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-colors4] FAILED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-colors5] FAILED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-None] FAILED
@@ -42,10 +42,10 @@ collecting ... collected 48 items
 ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-colors3] FAILED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-colors4] FAILED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-colors5] FAILED
-../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-None] FAILED
+../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-None] PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-blue] FAILED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-#FF00FF] FAILED
-../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-colors3] FAILED
+../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-colors3] PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-colors4] FAILED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-colors5] FAILED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-None] FAILED
@@ -68,11 +68,6 @@ collecting ... collected 48 items
 ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors5] FAILED
 
 =================================== FAILURES ===================================
-___________________ test_draw_segmentation_masks[cpu-0-None] ___________________
-../publishablew/vision/vision/test/test_utils.py:249: in test_draw_segmentation_masks
-    assert out.dtype == dtype
-E   assert torch.float32 == torch.uint8
-E    +  where torch.float32 = tensor([[[0.8863, 0.1529, 0.2941,  ..., 0.3255, 0.9451, 0.2039],\n         [0.6902, 0.0471, 0.5647,  ..., 0.4392, 0.6941, 0.9333],\n         [0.7725, 0.8431, 0.2863,  ..., 0.6510, 0.0039, 0.7451],\n         ...,\n         [0.4980, 0.8471, 0.3647,  ..., 0.7451, 0.6627, 0.7255],\n         [0.5765, 0.5255, 0.4039,  ..., 0.1451, 0.1412, 0.9804],\n         [0.8118, 0.4510, 0.2157,  ..., 0.0824, 0.5882, 0.8118]],\n\n        [[0.4196, 0.7529, 0.1804,  ..., 0.8235, 0.4667, 0.1961],\n         [0.1608, 0.3255, 0.6627,  ..., 0.0275, 0.4627, 0.2314],\n         [0.8235, 0.9686, 0.3255,  ..., 0.3882, 0.8196, 0.5922],\n         ...,\n         [0.5490, 0.3490, 0.8157,  ..., 0.1804, 0.5412, 0.9843],\n         [0.9569, 0.3255, 0.6353,  ..., 0.3961, 0.0392, 0.3176],\n         [0.9961, 0.0745, 0.7412,  ..., 0.7216, 0.7686, 0.1137]],\n\n        [[0.6353, 0.6118, 0.2431,  ..., 0.4588, 0.9412, 0.7882],\n         [0.5765, 0.0863, 0.2314,  ..., 0.2510, 0.9059, 0.8941],\n         [0.7961, 0.4510, 0.4353,  ..., 0.2275, 0.7647, 0.6941],\n         ...,\n         [0.8118, 0.9843, 0.9020,  ..., 0.0745, 0.4275, 0.0392],\n         [0.9961, 0.1804, 0.8000,  ..., 0.1647, 0.4941, 0.4627],\n         [0.2902, 0.7725, 0.1608,  ..., 0.1961, 0.6941, 0.9961]]]).dtype
 ___________________ test_draw_segmentation_masks[cpu-0-blue] ___________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -80,9 +75,11 @@ ___________________ test_draw_segmentation_masks[cpu-0-blue] ___________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   TypeError: new(): invalid data type 'str'
 _________________ test_draw_segmentation_masks[cpu-0-#FF00FF] __________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -90,19 +87,11 @@ _________________ test_draw_segmentation_masks[cpu-0-#FF00FF] __________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
-_________________ test_draw_segmentation_masks[cpu-0-colors3] __________________
-../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
-    out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
-    return func(*args, **kwargs)
-../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
-    return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   TypeError: new(): invalid data type 'str'
 _________________ test_draw_segmentation_masks[cpu-0-colors4] __________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -110,9 +99,11 @@ _________________ test_draw_segmentation_masks[cpu-0-colors4] __________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   ValueError: too many dimensions 'str'
 _________________ test_draw_segmentation_masks[cpu-0-colors5] __________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -120,14 +111,16 @@ _________________ test_draw_segmentation_masks[cpu-0-colors5] __________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   ValueError: too many dimensions 'str'
 __________________ test_draw_segmentation_masks[cpu-0.5-None] __________________
 ../publishablew/vision/vision/test/test_utils.py:249: in test_draw_segmentation_masks
     assert out.dtype == dtype
 E   assert torch.float32 == torch.uint8
-E    +  where torch.float32 = tensor([[[0.8863, 0.1529, 0.2941,  ..., 0.3255, 0.9451, 0.2039],\n         [0.6902, 0.0471, 0.5647,  ..., 0.4392, 0.6941, 0.9333],\n         [0.7725, 0.8431, 0.2863,  ..., 0.6510, 0.0039, 0.7451],\n         ...,\n         [0.4980, 0.8471, 0.3647,  ..., 0.7451, 0.6627, 0.7255],\n         [0.5765, 0.5255, 0.4039,  ..., 0.1451, 0.1412, 0.9804],\n         [0.8118, 0.4510, 0.2157,  ..., 0.0824, 0.5882, 0.8118]],\n\n        [[0.4196, 0.7529, 0.1804,  ..., 0.8235, 0.4667, 0.1961],\n         [0.1608, 0.3255, 0.6627,  ..., 0.0275, 0.4627, 0.2314],\n         [0.8235, 0.9686, 0.3255,  ..., 0.3882, 0.8196, 0.5922],\n         ...,\n         [0.5490, 0.3490, 0.8157,  ..., 0.1804, 0.5412, 0.9843],\n         [0.9569, 0.3255, 0.6353,  ..., 0.3961, 0.0392, 0.3176],\n         [0.9961, 0.0745, 0.7412,  ..., 0.7216, 0.7686, 0.1137]],\n\n        [[0.6353, 0.6118, 0.2431,  ..., 0.4588, 0.9412, 0.7882],\n         [0.5765, 0.0863, 0.2314,  ..., 0.2510, 0.9059, 0.8941],\n         [0.7961, 0.4510, 0.4353,  ..., 0.2275, 0.7647, 0.6941],\n         ...,\n         [0.8118, 0.9843, 0.9020,  ..., 0.0745, 0.4275, 0.0392],\n         [0.9961, 0.1804, 0.8000,  ..., 0.1647, 0.4941, 0.4627],\n         [0.2902, 0.7725, 0.1608,  ..., 0.1961, 0.6941, 0.9961]]]).dtype
+E    +  where torch.float32 = tensor([[[232., 114., 203.,  ..., 168., 227., 239.],\n         [193.,  18., 162.,  ..., 165., 164., 100.],\n         [  1.,  74.,  38.,  ...,   7.,  11., 218.],\n         ...,\n         [179., 157., 175.,  ..., 248.,  38., 117.],\n         [  5., 128., 161.,  ..., 236., 247.,  12.],\n         [ 64., 137., 113.,  ...,  32., 149., 205.]],\n\n        [[ 42., 203., 250.,  ..., 183., 198., 235.],\n         [179., 240., 171.,  ...,  93.,  34.,  49.],\n         [155.,  88., 199.,  ..., 237., 151., 242.],\n         ...,\n         [ 92.,  53.,  39.,  ...,  95.,  99., 185.],\n         [138., 113.,  54.,  ..., 120., 141., 133.],\n         [ 70., 231., 148.,  ...,  79.,  99., 105.]],\n\n        [[ 33., 139.,   1.,  ..., 149., 217., 202.],\n         [254., 105., 233.,  ...,  49., 144., 148.],\n         [139., 207.,  54.,  ...,  87., 146.,  90.],\n         ...,\n         [170.,  99.,  62.,  ..., 143., 117., 167.],\n         [148., 233., 181.,  ..., 108.,  11., 225.],\n         [208., 120., 213.,  ...,  79., 107., 238.]]]).dtype
 __________________ test_draw_segmentation_masks[cpu-0.5-blue] __________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -135,9 +128,11 @@ __________________ test_draw_segmentation_masks[cpu-0.5-blue] __________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   TypeError: new(): invalid data type 'str'
 ________________ test_draw_segmentation_masks[cpu-0.5-#FF00FF] _________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -145,19 +140,16 @@ ________________ test_draw_segmentation_masks[cpu-0.5-#FF00FF] _________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   TypeError: new(): invalid data type 'str'
 ________________ test_draw_segmentation_masks[cpu-0.5-colors3] _________________
-../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
-    out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
-    return func(*args, **kwargs)
-../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
-    return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/test/test_utils.py:249: in test_draw_segmentation_masks
+    assert out.dtype == dtype
+E   assert torch.float32 == torch.uint8
+E    +  where torch.float32 = tensor([[[232., 114., 203.,  ..., 168., 227., 239.],\n         [193.,  18., 162.,  ..., 165., 164., 100.],\n         [  1.,  74.,  38.,  ...,   7.,  11., 218.],\n         ...,\n         [179., 157., 175.,  ..., 248.,  38., 117.],\n         [  5., 128., 161.,  ..., 236., 247.,  12.],\n         [ 64., 137., 113.,  ...,  32., 149., 205.]],\n\n        [[ 42., 203., 250.,  ..., 183., 198., 235.],\n         [179., 240., 171.,  ...,  93.,  34.,  49.],\n         [155.,  88., 199.,  ..., 237., 151., 242.],\n         ...,\n         [ 92.,  53.,  39.,  ...,  95.,  99., 185.],\n         [138., 113.,  54.,  ..., 120., 141., 133.],\n         [ 70., 231., 148.,  ...,  79.,  99., 105.]],\n\n        [[ 33., 139.,   1.,  ..., 149., 217., 202.],\n         [254., 105., 233.,  ...,  49., 144., 148.],\n         [139., 207.,  54.,  ...,  87., 146.,  90.],\n         ...,\n         [170.,  99.,  62.,  ..., 143., 117., 167.],\n         [148., 233., 181.,  ..., 108.,  11., 225.],\n         [208., 120., 213.,  ...,  79., 107., 238.]]]).dtype
 ________________ test_draw_segmentation_masks[cpu-0.5-colors4] _________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -165,9 +157,11 @@ ________________ test_draw_segmentation_masks[cpu-0.5-colors4] _________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   ValueError: too many dimensions 'str'
 ________________ test_draw_segmentation_masks[cpu-0.5-colors5] _________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -175,14 +169,16 @@ ________________ test_draw_segmentation_masks[cpu-0.5-colors5] _________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   ValueError: too many dimensions 'str'
 __________________ test_draw_segmentation_masks[cpu-0.7-None] __________________
 ../publishablew/vision/vision/test/test_utils.py:249: in test_draw_segmentation_masks
     assert out.dtype == dtype
 E   assert torch.float32 == torch.uint8
-E    +  where torch.float32 = tensor([[[0.8863, 0.1529, 0.2941,  ..., 0.3255, 0.9451, 0.2039],\n         [0.6902, 0.0471, 0.5647,  ..., 0.4392, 0.6941, 0.9333],\n         [0.7725, 0.8431, 0.2863,  ..., 0.6510, 0.0039, 0.7451],\n         ...,\n         [0.4980, 0.8471, 0.3647,  ..., 0.7451, 0.6627, 0.7255],\n         [0.5765, 0.5255, 0.4039,  ..., 0.1451, 0.1412, 0.9804],\n         [0.8118, 0.4510, 0.2157,  ..., 0.0824, 0.5882, 0.8118]],\n\n        [[0.4196, 0.7529, 0.1804,  ..., 0.8235, 0.4667, 0.1961],\n         [0.1608, 0.3255, 0.6627,  ..., 0.0275, 0.4627, 0.2314],\n         [0.8235, 0.9686, 0.3255,  ..., 0.3882, 0.8196, 0.5922],\n         ...,\n         [0.5490, 0.3490, 0.8157,  ..., 0.1804, 0.5412, 0.9843],\n         [0.9569, 0.3255, 0.6353,  ..., 0.3961, 0.0392, 0.3176],\n         [0.9961, 0.0745, 0.7412,  ..., 0.7216, 0.7686, 0.1137]],\n\n        [[0.6353, 0.6118, 0.2431,  ..., 0.4588, 0.9412, 0.7882],\n         [0.5765, 0.0863, 0.2314,  ..., 0.2510, 0.9059, 0.8941],\n         [0.7961, 0.4510, 0.4353,  ..., 0.2275, 0.7647, 0.6941],\n         ...,\n         [0.8118, 0.9843, 0.9020,  ..., 0.0745, 0.4275, 0.0392],\n         [0.9961, 0.1804, 0.8000,  ..., 0.1647, 0.4941, 0.4627],\n         [0.2902, 0.7725, 0.1608,  ..., 0.1961, 0.6941, 0.9961]]]).dtype
+E    +  where torch.float32 = tensor([[[232., 114., 203.,  ..., 168., 227., 239.],\n         [193.,  18., 162.,  ..., 165., 164., 100.],\n         [  1.,  74.,  38.,  ...,   7.,  11., 218.],\n         ...,\n         [179., 157., 175.,  ..., 248.,  38., 117.],\n         [  5., 128., 161.,  ..., 236., 247.,  12.],\n         [ 64., 137., 113.,  ...,  32., 149., 205.]],\n\n        [[ 42., 203., 250.,  ..., 183., 198., 235.],\n         [179., 240., 171.,  ...,  93.,  34.,  49.],\n         [155.,  88., 199.,  ..., 237., 151., 242.],\n         ...,\n         [ 92.,  53.,  39.,  ...,  95.,  99., 185.],\n         [138., 113.,  54.,  ..., 120., 141., 133.],\n         [ 70., 231., 148.,  ...,  79.,  99., 105.]],\n\n        [[ 33., 139.,   1.,  ..., 149., 217., 202.],\n         [254., 105., 233.,  ...,  49., 144., 148.],\n         [139., 207.,  54.,  ...,  87., 146.,  90.],\n         ...,\n         [170.,  99.,  62.,  ..., 143., 117., 167.],\n         [148., 233., 181.,  ..., 108.,  11., 225.],\n         [208., 120., 213.,  ...,  79., 107., 238.]]]).dtype
 __________________ test_draw_segmentation_masks[cpu-0.7-blue] __________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -190,9 +186,11 @@ __________________ test_draw_segmentation_masks[cpu-0.7-blue] __________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   TypeError: new(): invalid data type 'str'
 ________________ test_draw_segmentation_masks[cpu-0.7-#FF00FF] _________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -200,19 +198,16 @@ ________________ test_draw_segmentation_masks[cpu-0.7-#FF00FF] _________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   TypeError: new(): invalid data type 'str'
 ________________ test_draw_segmentation_masks[cpu-0.7-colors3] _________________
-../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
-    out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
-    return func(*args, **kwargs)
-../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
-    return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/test/test_utils.py:249: in test_draw_segmentation_masks
+    assert out.dtype == dtype
+E   assert torch.float32 == torch.uint8
+E    +  where torch.float32 = tensor([[[232., 114., 203.,  ..., 168., 227., 239.],\n         [193.,  18., 162.,  ..., 165., 164., 100.],\n         [  1.,  74.,  38.,  ...,   7.,  11., 218.],\n         ...,\n         [179., 157., 175.,  ..., 248.,  38., 117.],\n         [  5., 128., 161.,  ..., 236., 247.,  12.],\n         [ 64., 137., 113.,  ...,  32., 149., 205.]],\n\n        [[ 42., 203., 250.,  ..., 183., 198., 235.],\n         [179., 240., 171.,  ...,  93.,  34.,  49.],\n         [155.,  88., 199.,  ..., 237., 151., 242.],\n         ...,\n         [ 92.,  53.,  39.,  ...,  95.,  99., 185.],\n         [138., 113.,  54.,  ..., 120., 141., 133.],\n         [ 70., 231., 148.,  ...,  79.,  99., 105.]],\n\n        [[ 33., 139.,   1.,  ..., 149., 217., 202.],\n         [254., 105., 233.,  ...,  49., 144., 148.],\n         [139., 207.,  54.,  ...,  87., 146.,  90.],\n         ...,\n         [170.,  99.,  62.,  ..., 143., 117., 167.],\n         [148., 233., 181.,  ..., 108.,  11., 225.],\n         [208., 120., 213.,  ...,  79., 107., 238.]]]).dtype
 ________________ test_draw_segmentation_masks[cpu-0.7-colors4] _________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -220,9 +215,11 @@ ________________ test_draw_segmentation_masks[cpu-0.7-colors4] _________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   ValueError: too many dimensions 'str'
 ________________ test_draw_segmentation_masks[cpu-0.7-colors5] _________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -230,14 +227,26 @@ ________________ test_draw_segmentation_masks[cpu-0.7-colors5] _________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   ValueError: too many dimensions 'str'
 ___________________ test_draw_segmentation_masks[cpu-1-None] ___________________
-../publishablew/vision/vision/test/test_utils.py:249: in test_draw_segmentation_masks
-    assert out.dtype == dtype
-E   assert torch.float32 == torch.uint8
-E    +  where torch.float32 = tensor([[[0.8863, 0.1529, 0.2941,  ..., 0.3255, 0.9451, 0.2039],\n         [0.6902, 0.0471, 0.5647,  ..., 0.4392, 0.6941, 0.9333],\n         [0.7725, 0.8431, 0.2863,  ..., 0.6510, 0.0039, 0.7451],\n         ...,\n         [0.4980, 0.8471, 0.3647,  ..., 0.7451, 0.6627, 0.7255],\n         [0.5765, 0.5255, 0.4039,  ..., 0.1451, 0.1412, 0.9804],\n         [0.8118, 0.4510, 0.2157,  ..., 0.0824, 0.5882, 0.8118]],\n\n        [[0.4196, 0.7529, 0.1804,  ..., 0.8235, 0.4667, 0.1961],\n         [0.1608, 0.3255, 0.6627,  ..., 0.0275, 0.4627, 0.2314],\n         [0.8235, 0.9686, 0.3255,  ..., 0.3882, 0.8196, 0.5922],\n         ...,\n         [0.5490, 0.3490, 0.8157,  ..., 0.1804, 0.5412, 0.9843],\n         [0.9569, 0.3255, 0.6353,  ..., 0.3961, 0.0392, 0.3176],\n         [0.9961, 0.0745, 0.7412,  ..., 0.7216, 0.7686, 0.1137]],\n\n        [[0.6353, 0.6118, 0.2431,  ..., 0.4588, 0.9412, 0.7882],\n         [0.5765, 0.0863, 0.2314,  ..., 0.2510, 0.9059, 0.8941],\n         [0.7961, 0.4510, 0.4353,  ..., 0.2275, 0.7647, 0.6941],\n         ...,\n         [0.8118, 0.9843, 0.9020,  ..., 0.0745, 0.4275, 0.0392],\n         [0.9961, 0.1804, 0.8000,  ..., 0.1647, 0.4941, 0.4627],\n         [0.2902, 0.7725, 0.1608,  ..., 0.1961, 0.6941, 0.9961]]]).dtype
+../publishablew/vision/vision/test/test_utils.py:268: in test_draw_segmentation_masks
+    assert (out[:, mask & ~overlap] == color[:, None]).all()
+E   AssertionError: assert tensor(False)
+E    +  where tensor(False) = <built-in method all of Tensor object at 0x747fb3145190>()
+E    +    where <built-in method all of Tensor object at 0x747fb3145190> = tensor([[235,...e=torch.uint8) == tensor([[0],\n...e=torch.uint8)
+E         
+E         Full diff:
+E         - tensor([[0],
+E         -         [0],
+E         -         [0]], dtype=torch.uint8)
+E         + tensor([[235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235,
+E         +          235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235,...
+E         
+E         ...Full output truncated (16 lines hidden), use '-vv' to show.all
 ___________________ test_draw_segmentation_masks[cpu-1-blue] ___________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -245,9 +254,11 @@ ___________________ test_draw_segmentation_masks[cpu-1-blue] ___________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   TypeError: new(): invalid data type 'str'
 _________________ test_draw_segmentation_masks[cpu-1-#FF00FF] __________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -255,19 +266,19 @@ _________________ test_draw_segmentation_masks[cpu-1-#FF00FF] __________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   TypeError: new(): invalid data type 'str'
 _________________ test_draw_segmentation_masks[cpu-1-colors3] __________________
-../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
-    out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
-    return func(*args, **kwargs)
-../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
-    return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/test/test_utils.py:276: in test_draw_segmentation_masks
+    torch.testing.assert_close(out[:, overlap], interpolated_overlap, rtol=0.0, atol=1.0)
+E   AssertionError: Tensor-likes are not close!
+E   
+E   Mismatched elements: 50 / 75 (66.7%)
+E   Greatest absolute difference: 122 at index (2, 0) (up to 1.0 allowed)
+E   Greatest relative difference: inf at index (1, 0) (up to 0.0 allowed)
 _________________ test_draw_segmentation_masks[cpu-1-colors4] __________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -275,9 +286,11 @@ _________________ test_draw_segmentation_masks[cpu-1-colors4] __________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   ValueError: too many dimensions 'str'
 _________________ test_draw_segmentation_masks[cpu-1-colors5] __________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -285,14 +298,11 @@ _________________ test_draw_segmentation_masks[cpu-1-colors5] __________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
-__________________ test_draw_segmentation_masks[cuda-0-None] ___________________
-../publishablew/vision/vision/test/test_utils.py:249: in test_draw_segmentation_masks
-    assert out.dtype == dtype
-E   AssertionError: assert torch.float32 == torch.uint8
-E    +  where torch.float32 = tensor([[[0.4314, 0.3804, 0.5059,  ..., 0.5647, 0.1059, 0.5961],\n         [0.9882, 0.5490, 0.6667,  ..., 0.8353, 0.8000, 0.2667],\n         [0.6902, 0.6745, 0.2353,  ..., 0.0588, 0.2235, 0.9647],\n         ...,\n         [0.2510, 0.5020, 0.7608,  ..., 0.0510, 0.9451, 0.1059],\n         [0.3216, 0.2157, 0.4627,  ..., 0.1882, 0.1255, 0.1843],\n         [0.7804, 0.7216, 0.9647,  ..., 0.2078, 0.0118, 0.9765]],\n\n        [[0.5882, 0.5922, 0.1255,  ..., 0.7373, 0.0392, 0.0314],\n         [0.0745, 0.3843, 0.7529,  ..., 0.8824, 0.9137, 0.8000],\n         [0.1176, 0.5686, 0.7804,  ..., 0.3922, 0.2039, 0.7647],\n         ...,\n         [0.8196, 0.7333, 0.6275,  ..., 0.9961, 0.5333, 0.5098],\n         [0.5373, 0.8118, 0.5373,  ..., 0.9373, 0.4627, 0.3647],\n         [0.7882, 0.6471, 0.8745,  ..., 0.2196, 0.1804, 0.9529]],\n\n        [[0.5882, 0.3255, 0.1137,  ..., 0.9020, 0.6314, 0.9843],\n         [0.5020, 0.2314, 0.3765,  ..., 0.3804, 0.5176, 0.4706],\n         [0.5843, 0.2235, 0.0000,  ..., 0.7020, 0.6980, 0.0706],\n         ...,\n         [0.1216, 0.7098, 0.9608,  ..., 0.2314, 0.2824, 0.5765],\n         [0.2510, 0.6549, 0.6784,  ..., 0.8431, 0.7843, 0.6392],\n         [0.3765, 0.6667, 0.9490,  ..., 0.5137, 0.9529, 0.7490]]],\n       device='cuda:0').dtype
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   ValueError: too many dimensions 'str'
 __________________ test_draw_segmentation_masks[cuda-0-blue] ___________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -300,9 +310,11 @@ __________________ test_draw_segmentation_masks[cuda-0-blue] ___________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   TypeError: new(): invalid data type 'str'
 _________________ test_draw_segmentation_masks[cuda-0-#FF00FF] _________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -310,19 +322,11 @@ _________________ test_draw_segmentation_masks[cuda-0-#FF00FF] _________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
-_________________ test_draw_segmentation_masks[cuda-0-colors3] _________________
-../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
-    out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
-    return func(*args, **kwargs)
-../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
-    return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   TypeError: new(): invalid data type 'str'
 _________________ test_draw_segmentation_masks[cuda-0-colors4] _________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -330,9 +334,11 @@ _________________ test_draw_segmentation_masks[cuda-0-colors4] _________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   ValueError: too many dimensions 'str'
 _________________ test_draw_segmentation_masks[cuda-0-colors5] _________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -340,14 +346,16 @@ _________________ test_draw_segmentation_masks[cuda-0-colors5] _________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   ValueError: too many dimensions 'str'
 _________________ test_draw_segmentation_masks[cuda-0.5-None] __________________
 ../publishablew/vision/vision/test/test_utils.py:249: in test_draw_segmentation_masks
     assert out.dtype == dtype
 E   AssertionError: assert torch.float32 == torch.uint8
-E    +  where torch.float32 = tensor([[[0.4314, 0.3804, 0.5059,  ..., 0.5647, 0.1059, 0.5961],\n         [0.9882, 0.5490, 0.6667,  ..., 0.8353, 0.8000, 0.2667],\n         [0.6902, 0.6745, 0.2353,  ..., 0.0588, 0.2235, 0.9647],\n         ...,\n         [0.2510, 0.5020, 0.7608,  ..., 0.0510, 0.9451, 0.1059],\n         [0.3216, 0.2157, 0.4627,  ..., 0.1882, 0.1255, 0.1843],\n         [0.7804, 0.7216, 0.9647,  ..., 0.2078, 0.0118, 0.9765]],\n\n        [[0.5882, 0.5922, 0.1255,  ..., 0.7373, 0.0392, 0.0314],\n         [0.0745, 0.3843, 0.7529,  ..., 0.8824, 0.9137, 0.8000],\n         [0.1176, 0.5686, 0.7804,  ..., 0.3922, 0.2039, 0.7647],\n         ...,\n         [0.8196, 0.7333, 0.6275,  ..., 0.9961, 0.5333, 0.5098],\n         [0.5373, 0.8118, 0.5373,  ..., 0.9373, 0.4627, 0.3647],\n         [0.7882, 0.6471, 0.8745,  ..., 0.2196, 0.1804, 0.9529]],\n\n        [[0.5882, 0.3255, 0.1137,  ..., 0.9020, 0.6314, 0.9843],\n         [0.5020, 0.2314, 0.3765,  ..., 0.3804, 0.5176, 0.4706],\n         [0.5843, 0.2235, 0.0000,  ..., 0.7020, 0.6980, 0.0706],\n         ...,\n         [0.1216, 0.7098, 0.9608,  ..., 0.2314, 0.2824, 0.5765],\n         [0.2510, 0.6549, 0.6784,  ..., 0.8431, 0.7843, 0.6392],\n         [0.3765, 0.6667, 0.9490,  ..., 0.5137, 0.9529, 0.7490]]],\n       device='cuda:0').dtype
+E    +  where torch.float32 = tensor([[[119., 134.,  50.,  ..., 100., 146., 107.],\n         [ 93.,  20.,  76.,  ..., 170.,  17., 124.],\n         [160., 253., 180.,  ..., 107., 179.,  80.],\n         ...,\n         [ 91., 113., 224.,  ...,  90., 168.,  31.],\n         [237., 139.,   2.,  ...,  23.,  52.,  89.],\n         [252., 250.,  68.,  ...,  80., 106., 217.]],\n\n        [[ 20.,  25.,  54.,  ..., 245., 216.,  74.],\n         [234., 119., 158.,  ...,  82., 250., 196.],\n         [220.,  86.,  27.,  ..., 211., 167., 187.],\n         ...,\n         [146.,  91., 231.,  ..., 162.,  27., 146.],\n         [ 42., 199., 199.,  ..., 114., 233., 159.],\n         [157., 100., 175.,  ...,  79., 149., 246.]],\n\n        [[ 76., 253., 143.,  ..., 203., 101., 195.],\n         [196.,  27.,  38.,  ...,  26., 128., 113.],\n         [209., 251.,  27.,  ..., 161., 253.,  44.],\n         ...,\n         [146., 249.,  62.,  ...,  76.,  96., 200.],\n         [ 74.,  75.,   3.,  ..., 163., 105., 242.],\n         [213., 242.,  24.,  ..., 131.,  51., 204.]]], device='cuda:0').dtype
 _________________ test_draw_segmentation_masks[cuda-0.5-blue] __________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -355,9 +363,11 @@ _________________ test_draw_segmentation_masks[cuda-0.5-blue] __________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   TypeError: new(): invalid data type 'str'
 ________________ test_draw_segmentation_masks[cuda-0.5-#FF00FF] ________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -365,19 +375,16 @@ ________________ test_draw_segmentation_masks[cuda-0.5-#FF00FF] ________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   TypeError: new(): invalid data type 'str'
 ________________ test_draw_segmentation_masks[cuda-0.5-colors3] ________________
-../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
-    out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
-    return func(*args, **kwargs)
-../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
-    return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/test/test_utils.py:249: in test_draw_segmentation_masks
+    assert out.dtype == dtype
+E   AssertionError: assert torch.float32 == torch.uint8
+E    +  where torch.float32 = tensor([[[119., 134.,  50.,  ..., 100., 146., 107.],\n         [ 93.,  20.,  76.,  ..., 170.,  17., 124.],\n         [160., 253., 180.,  ..., 107., 179.,  80.],\n         ...,\n         [ 91., 113., 224.,  ...,  90., 168.,  31.],\n         [237., 139.,   2.,  ...,  23.,  52.,  89.],\n         [252., 250.,  68.,  ...,  80., 106., 217.]],\n\n        [[ 20.,  25.,  54.,  ..., 245., 216.,  74.],\n         [234., 119., 158.,  ...,  82., 250., 196.],\n         [220.,  86.,  27.,  ..., 211., 167., 187.],\n         ...,\n         [146.,  91., 231.,  ..., 162.,  27., 146.],\n         [ 42., 199., 199.,  ..., 114., 233., 159.],\n         [157., 100., 175.,  ...,  79., 149., 246.]],\n\n        [[ 76., 253., 143.,  ..., 203., 101., 195.],\n         [196.,  27.,  38.,  ...,  26., 128., 113.],\n         [209., 251.,  27.,  ..., 161., 253.,  44.],\n         ...,\n         [146., 249.,  62.,  ...,  76.,  96., 200.],\n         [ 74.,  75.,   3.,  ..., 163., 105., 242.],\n         [213., 242.,  24.,  ..., 131.,  51., 204.]]], device='cuda:0').dtype
 ________________ test_draw_segmentation_masks[cuda-0.5-colors4] ________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -385,9 +392,11 @@ ________________ test_draw_segmentation_masks[cuda-0.5-colors4] ________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   ValueError: too many dimensions 'str'
 ________________ test_draw_segmentation_masks[cuda-0.5-colors5] ________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -395,14 +404,16 @@ ________________ test_draw_segmentation_masks[cuda-0.5-colors5] ________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   ValueError: too many dimensions 'str'
 _________________ test_draw_segmentation_masks[cuda-0.7-None] __________________
 ../publishablew/vision/vision/test/test_utils.py:249: in test_draw_segmentation_masks
     assert out.dtype == dtype
 E   AssertionError: assert torch.float32 == torch.uint8
-E    +  where torch.float32 = tensor([[[0.4314, 0.3804, 0.5059,  ..., 0.5647, 0.1059, 0.5961],\n         [0.9882, 0.5490, 0.6667,  ..., 0.8353, 0.8000, 0.2667],\n         [0.6902, 0.6745, 0.2353,  ..., 0.0588, 0.2235, 0.9647],\n         ...,\n         [0.2510, 0.5020, 0.7608,  ..., 0.0510, 0.9451, 0.1059],\n         [0.3216, 0.2157, 0.4627,  ..., 0.1882, 0.1255, 0.1843],\n         [0.7804, 0.7216, 0.9647,  ..., 0.2078, 0.0118, 0.9765]],\n\n        [[0.5882, 0.5922, 0.1255,  ..., 0.7373, 0.0392, 0.0314],\n         [0.0745, 0.3843, 0.7529,  ..., 0.8824, 0.9137, 0.8000],\n         [0.1176, 0.5686, 0.7804,  ..., 0.3922, 0.2039, 0.7647],\n         ...,\n         [0.8196, 0.7333, 0.6275,  ..., 0.9961, 0.5333, 0.5098],\n         [0.5373, 0.8118, 0.5373,  ..., 0.9373, 0.4627, 0.3647],\n         [0.7882, 0.6471, 0.8745,  ..., 0.2196, 0.1804, 0.9529]],\n\n        [[0.5882, 0.3255, 0.1137,  ..., 0.9020, 0.6314, 0.9843],\n         [0.5020, 0.2314, 0.3765,  ..., 0.3804, 0.5176, 0.4706],\n         [0.5843, 0.2235, 0.0000,  ..., 0.7020, 0.6980, 0.0706],\n         ...,\n         [0.1216, 0.7098, 0.9608,  ..., 0.2314, 0.2824, 0.5765],\n         [0.2510, 0.6549, 0.6784,  ..., 0.8431, 0.7843, 0.6392],\n         [0.3765, 0.6667, 0.9490,  ..., 0.5137, 0.9529, 0.7490]]],\n       device='cuda:0').dtype
+E    +  where torch.float32 = tensor([[[119., 134.,  50.,  ..., 100., 146., 107.],\n         [ 93.,  20.,  76.,  ..., 170.,  17., 124.],\n         [160., 253., 180.,  ..., 107., 179.,  80.],\n         ...,\n         [ 91., 113., 224.,  ...,  90., 168.,  31.],\n         [237., 139.,   2.,  ...,  23.,  52.,  89.],\n         [252., 250.,  68.,  ...,  80., 106., 217.]],\n\n        [[ 20.,  25.,  54.,  ..., 245., 216.,  74.],\n         [234., 119., 158.,  ...,  82., 250., 196.],\n         [220.,  86.,  27.,  ..., 211., 167., 187.],\n         ...,\n         [146.,  91., 231.,  ..., 162.,  27., 146.],\n         [ 42., 199., 199.,  ..., 114., 233., 159.],\n         [157., 100., 175.,  ...,  79., 149., 246.]],\n\n        [[ 76., 253., 143.,  ..., 203., 101., 195.],\n         [196.,  27.,  38.,  ...,  26., 128., 113.],\n         [209., 251.,  27.,  ..., 161., 253.,  44.],\n         ...,\n         [146., 249.,  62.,  ...,  76.,  96., 200.],\n         [ 74.,  75.,   3.,  ..., 163., 105., 242.],\n         [213., 242.,  24.,  ..., 131.,  51., 204.]]], device='cuda:0').dtype
 _________________ test_draw_segmentation_masks[cuda-0.7-blue] __________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -410,9 +421,11 @@ _________________ test_draw_segmentation_masks[cuda-0.7-blue] __________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   TypeError: new(): invalid data type 'str'
 ________________ test_draw_segmentation_masks[cuda-0.7-#FF00FF] ________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -420,19 +433,16 @@ ________________ test_draw_segmentation_masks[cuda-0.7-#FF00FF] ________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   TypeError: new(): invalid data type 'str'
 ________________ test_draw_segmentation_masks[cuda-0.7-colors3] ________________
-../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
-    out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
-    return func(*args, **kwargs)
-../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
-    return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/test/test_utils.py:249: in test_draw_segmentation_masks
+    assert out.dtype == dtype
+E   AssertionError: assert torch.float32 == torch.uint8
+E    +  where torch.float32 = tensor([[[119., 134.,  50.,  ..., 100., 146., 107.],\n         [ 93.,  20.,  76.,  ..., 170.,  17., 124.],\n         [160., 253., 180.,  ..., 107., 179.,  80.],\n         ...,\n         [ 91., 113., 224.,  ...,  90., 168.,  31.],\n         [237., 139.,   2.,  ...,  23.,  52.,  89.],\n         [252., 250.,  68.,  ...,  80., 106., 217.]],\n\n        [[ 20.,  25.,  54.,  ..., 245., 216.,  74.],\n         [234., 119., 158.,  ...,  82., 250., 196.],\n         [220.,  86.,  27.,  ..., 211., 167., 187.],\n         ...,\n         [146.,  91., 231.,  ..., 162.,  27., 146.],\n         [ 42., 199., 199.,  ..., 114., 233., 159.],\n         [157., 100., 175.,  ...,  79., 149., 246.]],\n\n        [[ 76., 253., 143.,  ..., 203., 101., 195.],\n         [196.,  27.,  38.,  ...,  26., 128., 113.],\n         [209., 251.,  27.,  ..., 161., 253.,  44.],\n         ...,\n         [146., 249.,  62.,  ...,  76.,  96., 200.],\n         [ 74.,  75.,   3.,  ..., 163., 105., 242.],\n         [213., 242.,  24.,  ..., 131.,  51., 204.]]], device='cuda:0').dtype
 ________________ test_draw_segmentation_masks[cuda-0.7-colors4] ________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -440,9 +450,11 @@ ________________ test_draw_segmentation_masks[cuda-0.7-colors4] ________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   ValueError: too many dimensions 'str'
 ________________ test_draw_segmentation_masks[cuda-0.7-colors5] ________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -450,14 +462,26 @@ ________________ test_draw_segmentation_masks[cuda-0.7-colors5] ________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   ValueError: too many dimensions 'str'
 __________________ test_draw_segmentation_masks[cuda-1-None] ___________________
-../publishablew/vision/vision/test/test_utils.py:249: in test_draw_segmentation_masks
-    assert out.dtype == dtype
-E   AssertionError: assert torch.float32 == torch.uint8
-E    +  where torch.float32 = tensor([[[0.4314, 0.3804, 0.5059,  ..., 0.5647, 0.1059, 0.5961],\n         [0.9882, 0.5490, 0.6667,  ..., 0.8353, 0.8000, 0.2667],\n         [0.6902, 0.6745, 0.2353,  ..., 0.0588, 0.2235, 0.9647],\n         ...,\n         [0.2510, 0.5020, 0.7608,  ..., 0.0510, 0.9451, 0.1059],\n         [0.3216, 0.2157, 0.4627,  ..., 0.1882, 0.1255, 0.1843],\n         [0.7804, 0.7216, 0.9647,  ..., 0.2078, 0.0118, 0.9765]],\n\n        [[0.5882, 0.5922, 0.1255,  ..., 0.7373, 0.0392, 0.0314],\n         [0.0745, 0.3843, 0.7529,  ..., 0.8824, 0.9137, 0.8000],\n         [0.1176, 0.5686, 0.7804,  ..., 0.3922, 0.2039, 0.7647],\n         ...,\n         [0.8196, 0.7333, 0.6275,  ..., 0.9961, 0.5333, 0.5098],\n         [0.5373, 0.8118, 0.5373,  ..., 0.9373, 0.4627, 0.3647],\n         [0.7882, 0.6471, 0.8745,  ..., 0.2196, 0.1804, 0.9529]],\n\n        [[0.5882, 0.3255, 0.1137,  ..., 0.9020, 0.6314, 0.9843],\n         [0.5020, 0.2314, 0.3765,  ..., 0.3804, 0.5176, 0.4706],\n         [0.5843, 0.2235, 0.0000,  ..., 0.7020, 0.6980, 0.0706],\n         ...,\n         [0.1216, 0.7098, 0.9608,  ..., 0.2314, 0.2824, 0.5765],\n         [0.2510, 0.6549, 0.6784,  ..., 0.8431, 0.7843, 0.6392],\n         [0.3765, 0.6667, 0.9490,  ..., 0.5137, 0.9529, 0.7490]]],\n       device='cuda:0').dtype
+../publishablew/vision/vision/test/test_utils.py:268: in test_draw_segmentation_masks
+    assert (out[:, mask & ~overlap] == color[:, None]).all()
+E   AssertionError: assert tensor(False, device='cuda:0')
+E    +  where tensor(False, device='cuda:0') = <built-in method all of Tensor object at 0x747fb31642f0>()
+E    +    where <built-in method all of Tensor object at 0x747fb31642f0> = tensor([[235,...e=torch.uint8) == tensor([[0],\n...e=torch.uint8)
+E         
+E         Full diff:
+E         - tensor([[0],
+E         -         [0],
+E         + tensor([[235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235,
+E         +          235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235,
+E         +          235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235, 235,...
+E         
+E         ...Full output truncated (18 lines hidden), use '-vv' to show.all
 __________________ test_draw_segmentation_masks[cuda-1-blue] ___________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -465,9 +489,11 @@ __________________ test_draw_segmentation_masks[cuda-1-blue] ___________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   TypeError: new(): invalid data type 'str'
 _________________ test_draw_segmentation_masks[cuda-1-#FF00FF] _________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -475,19 +501,19 @@ _________________ test_draw_segmentation_masks[cuda-1-#FF00FF] _________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   TypeError: new(): invalid data type 'str'
 _________________ test_draw_segmentation_masks[cuda-1-colors3] _________________
-../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
-    out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
-../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
-    return func(*args, **kwargs)
-../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
-    return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/test/test_utils.py:276: in test_draw_segmentation_masks
+    torch.testing.assert_close(out[:, overlap], interpolated_overlap, rtol=0.0, atol=1.0)
+E   AssertionError: Tensor-likes are not close!
+E   
+E   Mismatched elements: 50 / 75 (66.7%)
+E   Greatest absolute difference: 122 at index (2, 0) (up to 1.0 allowed)
+E   Greatest relative difference: inf at index (1, 0) (up to 0.0 allowed)
 _________________ test_draw_segmentation_masks[cuda-1-colors4] _________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -495,9 +521,11 @@ _________________ test_draw_segmentation_masks[cuda-1-colors4] _________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   ValueError: too many dimensions 'str'
 _________________ test_draw_segmentation_masks[cuda-1-colors5] _________________
 ../publishablew/vision/vision/test/test_utils.py:248: in test_draw_segmentation_masks
     out = utils.draw_segmentation_masks(img, masks, colors=colors, alpha=alpha)
@@ -505,14 +533,14 @@ _________________ test_draw_segmentation_masks[cuda-1-colors5] _________________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:203: in draw_segmentation_masks
     return draw_segmentation_masks(image, masks, alpha, colors)
-../publishablew/vision/vision/torchvision/temp.py:37: in draw_segmentation_masks
-    raise ValueError('Colors must be a list of RGB tuples or None.')
-E   ValueError: Colors must be a list of RGB tuples or None.
+../publishablew/vision/vision/torchvision/temp.py:38: in draw_segmentation_masks
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+../publishablew/vision/vision/torchvision/temp.py:38: in <listcomp>
+    colors = [torch.tensor(c, dtype=image.dtype, device=image.device) for c in colors]
+E   ValueError: too many dimensions 'str'
 =========================== short test summary info ============================
-FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-None]
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-blue]
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-#FF00FF]
-FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-colors3]
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-colors4]
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0-colors5]
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-0.5-None]
@@ -533,10 +561,8 @@ FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-colors3]
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-colors4]
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cpu-1-colors5]
-FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-None]
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-blue]
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-#FF00FF]
-FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-colors3]
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-colors4]
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0-colors5]
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-0.5-None]
@@ -557,7 +583,7 @@ FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors3]
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors4]
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors5]
-============================== 48 failed in 1.37s ==============================
+========================= 44 failed, 4 passed in 1.41s =========================
 
 
 Final Test Result:
@@ -618,7 +644,7 @@ collecting ... collected 48 items
 ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors4] PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors5] PASSED
 
-============================== 48 passed in 0.52s ==============================
+============================== 48 passed in 0.37s ==============================
 
 
 Initial Result:
@@ -679,4 +705,4 @@ collecting ... collected 48 items
 ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors4] PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_segmentation_masks[cuda-1-colors5] PASSED
 
-============================== 48 passed in 0.40s ==============================
+============================== 48 passed in 0.41s ==============================

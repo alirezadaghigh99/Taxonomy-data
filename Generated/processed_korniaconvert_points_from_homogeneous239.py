@@ -9,14 +9,17 @@ def convert_points_from_homogeneous(points, eps=1e-10):
     if points.dim() < 2:
         raise ValueError("Input tensor must have at least two dimensions.")
     
-    # Extract the last dimension (homogeneous coordinate)
-    homogeneous_coord = points[..., -1:]
+    # Get the shape of the input tensor
+    B, N, D = points.shape
     
-    # Avoid division by zero by adding eps to the homogeneous coordinate
-    homogeneous_coord = homogeneous_coord + eps
+    # Extract the last coordinate for each point
+    last_coord = points[..., -1:]
     
-    # Divide the other coordinates by the homogeneous coordinate
-    euclidean_points = points[..., :-1] / homogeneous_coord
+    # Avoid division by zero by adding eps to the last coordinate
+    last_coord = last_coord.clamp(min=eps)
+    
+    # Divide each point by its last coordinate to convert to Euclidean space
+    euclidean_points = points[..., :-1] / last_coord
     
     return euclidean_points
 

@@ -2,58 +2,76 @@ import numpy as np
 
 def _find_predicted_neq_given_multilabel(labels, pred_probs):
     """
-    Helper function to handle multi-label classification.
+    Helper function to identify label issues in a multi-label setting.
+    
+    Parameters:
+    - labels: np.ndarray or list of shape (n_samples, n_classes)
+    - pred_probs: np.ndarray of shape (n_samples, n_classes)
+    
+    Returns:
+    - np.ndarray: Boolean mask where True indicates a label issue.
     """
-    # Convert labels to a numpy array if they are not already
+    # Convert labels to a numpy array if it's a list
     labels = np.array(labels)
     
     # Threshold to determine predicted labels from probabilities
     threshold = 0.5
-    predicted_labels = (pred_probs >= threshold).astype(int)
     
-    # Identify label issues where predicted labels do not match given labels
-    label_issues = np.any(predicted_labels != labels, axis=1)
+    # Predicted labels based on threshold
+    predicted_labels = (pred_probs >= threshold)
     
-    return label_issues
+    # Compare predicted labels with actual labels
+    label_issues = (predicted_labels != labels)
+    
+    # Any mismatch in the multi-label setting is considered a label issue
+    return np.any(label_issues, axis=1)
 
 def find_predicted_neq_given(labels, pred_probs, multi_label=False):
     """
-    Identify label issues in the dataset.
+    Identify label issues in a dataset using a simple baseline approach.
     
     Parameters:
-    - labels (np.ndarray or list): True labels of the dataset.
-    - pred_probs (np.ndarray): Predicted probabilities from the model.
-    - multi_label (bool, optional): Whether the task is multi-label classification.
+    - labels: np.ndarray or list of shape (n_samples,) or (n_samples, n_classes)
+    - pred_probs: np.ndarray of shape (n_samples, n_classes) for multi-label
+                  or (n_samples, n_classes) for single-label
+    - multi_label: bool, optional, default=False. If True, handles multi-label classification.
     
     Returns:
-    - np.ndarray: Boolean mask where True represents a label issue.
+    - np.ndarray: Boolean mask where True indicates a label issue.
     """
     # Input validation
     if not isinstance(labels, (np.ndarray, list)):
-        raise ValueError("labels should be a numpy array or a list.")
-    if not isinstance(pred_probs, np.ndarray):
-        raise ValueError("pred_probs should be a numpy array.")
-    if not isinstance(multi_label, bool):
-        raise ValueError("multi_label should be a boolean.")
+        raise ValueError("Labels must be a numpy array or a list.")
     
-    # Convert labels to a numpy array if they are not already
+    if not isinstance(pred_probs, np.ndarray):
+        raise ValueError("Predicted probabilities must be a numpy array.")
+    
     labels = np.array(labels)
     
     if multi_label:
+        if labels.ndim != 2 or pred_probs.ndim != 2:
+            raise ValueError("For multi-label, both labels and pred_probs must be 2D arrays.")
+        if labels.shape != pred_probs.shape:
+            raise ValueError("Labels and pred_probs must have the same shape for multi-label.")
         return _find_predicted_neq_given_multilabel(labels, pred_probs)
-    
-    # For single-label classification
-    # Get the predicted class with the highest probability
-    predicted_labels = np.argmax(pred_probs, axis=1)
-    
-    # Identify label issues where predicted labels do not match given labels
-    label_issues = predicted_labels != labels
-    
-    # High confidence threshold (e.g., 0.9)
-    high_confidence = np.max(pred_probs, axis=1) >= 0.9
-    
-    # Combine label issues with high confidence
-    label_issues = label_issues & high_confidence
-    
-    return label_issues
+    else:
+        if labels.ndim != 1 or pred_probs.ndim != 2:
+            raise ValueError("For single-label, labels must be 1D and pred_probs must be 2D.")
+        if labels.shape[0] != pred_probs.shape[0]:
+            raise ValueError("Number of samples in labels and pred_probs must match for single-label.")
+        
+        # Predicted class is the one with the highest probability
+        predicted_labels = np.argmax(pred_probs, axis=1)
+        
+        # High confidence threshold
+        high_confidence_threshold = 0.9
+        
+        # High confidence predictions
+        high_confidence = np.max(pred_probs, axis=1) >= high_confidence_threshold
+        
+        # Label issues are where predicted labels do not match given labels
+        label_issues = (predicted_labels != labels)
+        
+        # Return mask where True indicates a label issue with high confidence
+        return label_issues & high_confidence
 

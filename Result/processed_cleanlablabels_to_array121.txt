@@ -24,7 +24,7 @@ collecting ... collected 6 items
 ../publishablew/cleanlab/cleanlab/tests/test_validation.py::test_labels_to_array_return_values[Series-y_list0] PASSED
 ../publishablew/cleanlab/cleanlab/tests/test_validation.py::test_labels_to_array_return_values[Series-y_list1] PASSED
 
-============================== 6 passed in 0.55s ===============================
+============================== 6 passed in 0.59s ===============================
 
 
 Final Test Result:
@@ -42,7 +42,7 @@ collecting ... collected 6 items
 ../publishablew/cleanlab/cleanlab/tests/test_validation.py::test_labels_to_array_return_values[Series-y_list0] PASSED
 ../publishablew/cleanlab/cleanlab/tests/test_validation.py::test_labels_to_array_return_values[Series-y_list1] PASSED
 
-============================== 6 passed in 0.56s ===============================
+============================== 6 passed in 0.60s ===============================
 
 
 Initial Result:
@@ -60,4 +60,4 @@ collecting ... collected 6 items
 ../publishablew/cleanlab/cleanlab/tests/test_validation.py::test_labels_to_array_return_values[Series-y_list0] PASSED
 ../publishablew/cleanlab/cleanlab/tests/test_validation.py::test_labels_to_array_return_values[Series-y_list1] PASSED
 
-============================== 6 passed in 0.61s ===============================
+============================== 6 passed in 0.53s ===============================

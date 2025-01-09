@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_gradcheck[cpu] FAILED', '../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_jit[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_jit[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_gradcheck[cpu]'}
+{'../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_jit[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_jit[cpu-float32]'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'openxla', 'tvm', 'cudagraphs', 'jit', 'inductor', None}
+available optimizers: {'', 'cudagraphs', 'inductor', 'onnxrt', 'openxla', 'jit', 'tvm', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -55,59 +55,13 @@ collecting ... collected 14 items
 ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_project_unproject[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_dx_proj_x[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_exception[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_gradcheck[cpu] FAILED
+../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_jit[cpu-float32] FAILED
 
 =================================== FAILURES ===================================
-________________ TestProjectionOrthographic.test_gradcheck[cpu] ________________
-
-self = <test_projections.TestProjectionOrthographic object at 0x7ebef3eeb580>
-device = device(type='cpu')
-
-    def test_gradcheck(self, device) -> None:
->       self._test_gradcheck_project(device)
-
-../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py:206: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py:198: in _test_gradcheck_project
-    self.gradcheck(project_points_orthographic, (points,))
-../publishablew/kornia/kornia/testing/base.py:143: in gradcheck
-    return gradcheck(func, inputs, raise_exception=raise_exception, fast_mode=fast_mode, **kwargs)
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:2052: in gradcheck
-    return _gradcheck_helper(**args)
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:2081: in _gradcheck_helper
-    _gradcheck_real_imag(
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:1491: in _gradcheck_real_imag
-    gradcheck_fn(
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:1917: in _fast_gradcheck
-    _check_no_differentiable_outputs_fast(
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-func = <function project_points_orthographic at 0x7ebf6b19e440>
-func_out = tensor([1., 2.])
-all_inputs = (tensor([1., 2., 3.], dtype=torch.float64, requires_grad=True),)
-inputs_indices = [0]
-all_u = [tensor([0.2749, 0.8975, 0.3449], dtype=torch.float64)], eps = 1e-06
-nondet_tol = 0.0
-
-    def _check_no_differentiable_outputs_fast(
-        func, func_out, all_inputs, inputs_indices, all_u, eps, nondet_tol
-    ):
-        for inp_idx, u in zip(inputs_indices, all_u):
-            jvps = _get_numerical_jvp_wrt_specific_input(func, inp_idx, all_inputs, u, eps)
-            for jvp in jvps:
-                if jvp.numel() == 0:
-                    continue
-                if (jvp - torch.zeros_like(jvp)).abs().max() > nondet_tol:
->                   raise GradcheckError(
-                        "Numerical gradient for function expected to be zero"
-                    )
-E                   torch.autograd.gradcheck.GradcheckError: Numerical gradient for function expected to be zero
-
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:995: GradcheckError
 _______________ TestProjectionOrthographic.test_jit[cpu-float32] _______________
 
-self = <test_projections.TestProjectionOrthographic object at 0x7ebef3eeb880>
+self = <test_projections.TestProjectionOrthographic object at 0x7b5f280ff700>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_jit(self, device, dtype) -> None:
@@ -131,9 +85,9 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     stmts = [build_stmt(ctx, s) for s in stmts]
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.jit.frontend.StmtBuilder object at 0x7ebfce99fc40>
-ctx = <torch._sources.SourceContext object at 0x7ebef3db44a0>
-node = <ast.ImportFrom object at 0x7ebef3eb6f80>
+self = <torch.jit.frontend.StmtBuilder object at 0x7b5ff8ba7d30>
+ctx = <torch._sources.SourceContext object at 0x7b5f1df32b60>
+node = <ast.ImportFrom object at 0x7b5f1df49c90>
 
     def __call__(self, ctx, node):
         method = getattr(self, "build_" + node.__class__.__name__, None)
@@ -147,24 +101,9 @@ E               ~~~~ <--- HERE
 E               return project_points_orthographic(points_in_camera)
 
 ../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/jit/frontend.py:416: UnsupportedNodeError
-=============================== warnings summary ===============================
-tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_smoke[cpu-float32]
-tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_cardinality[cpu-float32-None]
-tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_cardinality[cpu-float32-1]
-tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_cardinality[cpu-float32-2]
-tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_cardinality[cpu-float32-3]
-tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_project_points_orthographic[cpu-float32]
-tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_project_points_orthographic_batch[cpu-float32]
-tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_project_unproject[cpu-float32]
-tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_gradcheck[cpu]
-  /local/data0/moved_data/publishablew/kornia/kornia/kornia/geometry/camera/temp.py:16: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
-    points_in_camera = torch.tensor(points_in_camera, dtype=torch.float32)
-
--- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
 =========================== short test summary info ============================
-FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_gradcheck[cpu]
 FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_jit[cpu-float32]
-=================== 2 failed, 12 passed, 9 warnings in 0.45s ===================
+========================= 1 failed, 13 passed in 0.37s =========================
 
 
 Final Test Result:
@@ -193,7 +132,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'inductor', 'openxla', 'tvm', 'cudagraphs', 'onnxrt', None}
+available optimizers: {'', 'inductor', 'cudagraphs', 'jit', 'tvm', 'openxla', None, 'onnxrt'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -216,7 +155,7 @@ collecting ... collected 14 items
 ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_jit[cpu-float32] PASSED
 
-============================== 14 passed in 0.28s ==============================
+============================== 14 passed in 0.22s ==============================
 
 
 Initial Result:
@@ -245,7 +184,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'tvm', 'onnxrt', 'cudagraphs', 'jit', 'inductor', None}
+available optimizers: {'', 'onnxrt', 'openxla', 'tvm', 'cudagraphs', 'inductor', 'jit', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -268,4 +207,4 @@ collecting ... collected 14 items
 ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionOrthographic::test_jit[cpu-float32] PASSED
 
-============================== 14 passed in 0.18s ==============================
+============================== 14 passed in 0.23s ==============================

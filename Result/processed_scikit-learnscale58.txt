@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-csc_matrix-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-csr_array-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csr_array-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-csc_matrix-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-csr_matrix-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csc_matrix-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-csr_matrix-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-csr_array-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-csr_array-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float64-False-csr_matrix-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-csr_array-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-csc_matrix-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-csc_array-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-csc_array-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float64-False-csc_array-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-None-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-csc_matrix-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-csc_array-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-csc_matrix-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-None-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float64-False-csc_array-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-csc_matrix-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-csc_array-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-csr_matrix-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-csr_array-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-None-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-None-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-csc_matrix-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-csc_array-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float64-False-csc_matrix-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-csr_matrix-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-csr_array-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-csc_array-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float64-False-csr_array-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csr_matrix-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-csr_matrix-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csc_matrix-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-None-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csr_array-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-None-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-None-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csc_array-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float64-False-csr_matrix-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float64-False-csc_matrix-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-csr_matrix-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-csr_matrix-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float64-False-csr_array-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-None-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-csc_array-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-csc_array-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-csc_matrix-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-csr_matrix-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-csr_array-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csr_matrix-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csc_array-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-csr_array-scaler0] FAILED'}
+{'../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-csc_array-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float64-False-csr_array-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float64-False-csc_array-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csc_matrix-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csc_array-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-None-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-csr_matrix-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-csc_array-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-csr_matrix-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-csc_matrix-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-csr_array-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-None-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-None-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-None-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-csr_matrix-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-None-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-csr_matrix-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-csr_matrix-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float64-False-csr_array-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-csc_array-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csr_array-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-csr_matrix-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-csc_array-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-csc_matrix-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-csc_array-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-csc_matrix-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csr_array-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-csc_array-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-csr_array-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-csc_matrix-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-csc_matrix-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-None-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float64-False-csc_matrix-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-csr_matrix-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-None-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csr_matrix-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-csc_matrix-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-csr_array-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-csr_matrix-scaler0]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-csc_matrix-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float64-False-csr_matrix-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float32-False-csr_array-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-csc_array-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float64-False-csc_array-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-csr_array-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float64-False-csc_matrix-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-None-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-csc_matrix-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csr_matrix-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float64-False-csr_matrix-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csc_array-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csc_matrix-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float32-False-csr_array-scaler0] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[1.0-float64-False-csr_array-scaler0] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-csr_array-scaler0]', '../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-csc_array-scaler0] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 120 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-None-scaler0] I: Seeding RNGs with 338830546
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-None-scaler0] I: Seeding RNGs with 942391805
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-None-scaler1] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csc_matrix-scaler0] FAILED
@@ -205,8 +205,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -226,23 +224,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 __ test_standard_scaler_constant_features[0-float32-False-csc_array-scaler0] ___
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -307,8 +299,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -328,23 +318,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 __ test_standard_scaler_constant_features[0-float32-False-csr_matrix-scaler0] __
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -409,8 +393,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -430,23 +412,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 __ test_standard_scaler_constant_features[0-float32-False-csr_array-scaler0] ___
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -511,8 +487,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -532,23 +506,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 __ test_standard_scaler_constant_features[0-float64-False-csc_matrix-scaler0] __
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -613,8 +581,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -634,23 +600,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 __ test_standard_scaler_constant_features[0-float64-False-csc_array-scaler0] ___
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -715,8 +675,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -736,23 +694,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 __ test_standard_scaler_constant_features[0-float64-False-csr_matrix-scaler0] __
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -817,8 +769,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -838,23 +788,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 __ test_standard_scaler_constant_features[0-float64-False-csr_array-scaler0] ___
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -919,8 +863,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -940,23 +882,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 ____ test_standard_scaler_constant_features[1.0-float32-False-None-scaler0] ____
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -1014,7 +950,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x77d628366b80>, array([[0.],
+args = (<function assert_allclose.<locals>.compare at 0x7072645c6c10>, array([[0.],
        [0.],
        [0.],
        [0.],
@@ -1110,8 +1046,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -1131,23 +1065,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 _ test_standard_scaler_constant_features[1.0-float32-False-csc_array-scaler0] __
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -1212,8 +1140,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -1233,23 +1159,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 _ test_standard_scaler_constant_features[1.0-float32-False-csr_matrix-scaler0] _
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -1314,8 +1234,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -1335,23 +1253,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 _ test_standard_scaler_constant_features[1.0-float32-False-csr_array-scaler0] __
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -1416,8 +1328,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -1437,23 +1347,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 ____ test_standard_scaler_constant_features[1.0-float64-False-None-scaler0] ____
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -1511,7 +1415,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x77d6285c5b80>, array([[0.],
+args = (<function assert_allclose.<locals>.compare at 0x707266dab700>, array([[0.],
        [0.],
        [0.],
        [0.],
@@ -1609,8 +1513,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -1630,23 +1532,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 _ test_standard_scaler_constant_features[1.0-float64-False-csc_array-scaler0] __
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -1711,8 +1607,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -1732,23 +1626,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 _ test_standard_scaler_constant_features[1.0-float64-False-csr_matrix-scaler0] _
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -1813,8 +1701,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -1834,23 +1720,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 _ test_standard_scaler_constant_features[1.0-float64-False-csr_array-scaler0] __
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -1915,8 +1795,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -1936,23 +1814,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 ___ test_standard_scaler_constant_features[100.0-float32-False-None-scaler0] ___
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -2010,7 +1882,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x77d628479310>, array([[0.],
+args = (<function assert_allclose.<locals>.compare at 0x70726c864430>, array([[0.],
        [0.],
        [0.],
        [0.],
@@ -2105,8 +1977,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -2126,23 +1996,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 _ test_standard_scaler_constant_features[100.0-float32-False-csc_array-scaler0] _
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -2207,8 +2071,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -2228,23 +2090,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 _ test_standard_scaler_constant_features[100.0-float32-False-csr_matrix-scaler0] _
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -2309,8 +2165,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -2330,23 +2184,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 _ test_standard_scaler_constant_features[100.0-float32-False-csr_array-scaler0] _
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -2411,8 +2259,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -2432,23 +2278,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 ___ test_standard_scaler_constant_features[100.0-float64-False-None-scaler0] ___
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -2506,7 +2346,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     np_assert_allclose(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-args = (<function assert_allclose.<locals>.compare at 0x77d628479310>, array([[0.],
+args = (<function assert_allclose.<locals>.compare at 0x707266dab700>, array([[0.],
        [0.],
        [0.],
        [0.],
@@ -2602,8 +2442,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -2623,23 +2461,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 _ test_standard_scaler_constant_features[100.0-float64-False-csc_array-scaler0] _
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -2704,8 +2536,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -2725,23 +2555,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 _ test_standard_scaler_constant_features[100.0-float64-False-csr_matrix-scaler0] _
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -2806,8 +2630,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -2827,23 +2649,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 _ test_standard_scaler_constant_features[100.0-float64-False-csr_array-scaler0] _
 
 scaler = StandardScaler(with_mean=False), add_sample_weight = False
@@ -2908,8 +2724,6 @@ axis = 0, with_mean = True, with_std = True, copy = True
         """
         Standardize a dataset along any axis.
     
-        Center to the mean and component wise scale to unit variance.
-    
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape (n_samples, n_features)
@@ -2929,23 +2743,17 @@ axis = 0, with_mean = True, with_std = True, copy = True
     
         copy : bool, default=True
             If False, try to avoid a copy and scale in place.
-            This is not guaranteed to always work in place; e.g. if the data is
-            a numpy array with an int dtype, a copy will be returned even with
-            copy=False.
     
         Returns
         -------
         X_tr : {ndarray, sparse matrix} of shape (n_samples, n_features)
             The transformed data.
         """
-        if copy:
-            X = X.copy()
-        if sp.issparse(X):
-            if with_mean:
->               raise ValueError('Cannot center sparse matrices: pass `with_mean=False` instead.')
-E               ValueError: Cannot center sparse matrices: pass `with_mean=False` instead.
+        if sparse.issparse(X):
+>           raise TypeError('Sparse matrices are not supported by this function.')
+E           TypeError: Sparse matrices are not supported by this function.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/temp.py:49: TypeError
 =========================== short test summary info ============================
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csc_matrix-scaler0]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csc_array-scaler0]
@@ -2975,7 +2783,7 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/tes
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-csc_array-scaler0]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-csr_matrix-scaler0]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-False-csr_array-scaler0]
-================== 28 failed, 62 passed, 30 skipped in 2.38s ===================
+================== 28 failed, 62 passed, 30 skipped in 2.70s ===================
 
 
 Final Test Result:
@@ -2987,7 +2795,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 120 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-None-scaler0] I: Seeding RNGs with 1753502600
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-None-scaler0] I: Seeding RNGs with 51123837
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-None-scaler1] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csc_matrix-scaler0] PASSED
@@ -3109,7 +2917,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-True-csr_array-scaler0] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-True-csr_array-scaler1] SKIPPED
 
-======================== 90 passed, 30 skipped in 0.61s ========================
+======================== 90 passed, 30 skipped in 0.62s ========================
 
 
 Initial Result:
@@ -3121,7 +2929,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 120 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-None-scaler0] I: Seeding RNGs with 1814185900
+../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-None-scaler0] I: Seeding RNGs with 1528078056
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-None-scaler1] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[0-float32-False-csc_matrix-scaler0] PASSED
@@ -3243,4 +3051,4 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-True-csr_array-scaler0] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/preprocessing/tests/test_data.py::test_standard_scaler_constant_features[100.0-float64-True-csr_array-scaler1] SKIPPED
 
-======================== 90 passed, 30 skipped in 0.60s ========================
+======================== 90 passed, 30 skipped in 0.66s ========================

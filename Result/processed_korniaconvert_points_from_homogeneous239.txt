@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_points_batch[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_points[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_points_batch[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_points[cpu-float32]'}
+{'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_cardinality[cpu-float32-batch_shape0]', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_points_batch[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_cardinality[cpu-float32-batch_shape0] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_points[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_points[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_points_batch[cpu-float32]'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'jit', 'tvm', 'openxla', 'inductor', 'onnxrt', None}
+available optimizers: {'', 'tvm', 'inductor', 'onnxrt', 'jit', 'openxla', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -43,7 +43,7 @@ configfile: pyproject.toml
 plugins: timeout-2.3.1
 collecting ... collected 9 items
 
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_cardinality[cpu-float32-batch_shape0] PASSED
+../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_cardinality[cpu-float32-batch_shape0] FAILED
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_cardinality[cpu-float32-batch_shape1] PASSED
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_cardinality[cpu-float32-batch_shape2] PASSED
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_cardinality[cpu-float32-batch_shape3] PASSED
@@ -54,9 +54,38 @@ collecting ... collected 9 items
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_dynamo[cpu-float32-inductor] PASSED
 
 =================================== FAILURES ===================================
+_ TestConvertPointsFromHomogeneous.test_cardinality[cpu-float32-batch_shape0] __
+
+self = <tests.geometry.test_conversions.TestConvertPointsFromHomogeneous object at 0x7e386432c3d0>
+device = device(type='cpu'), dtype = torch.float32, batch_shape = (2, 3)
+
+    @pytest.mark.parametrize("batch_shape", [(2, 3), (1, 2, 3), (2, 3, 3), (5, 5, 3)])
+    def test_cardinality(self, device, dtype, batch_shape):
+        points_h = torch.rand(batch_shape, device=device, dtype=dtype)
+>       points = kornia.geometry.conversions.convert_points_from_homogeneous(points_h)
+
+../publishablew/kornia/kornia/tests/geometry/test_conversions.py:687: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../publishablew/kornia/kornia/kornia/geometry/conversions.py:95: in convert_points_from_homogeneous
+    return convert_points_from_homogeneous(points, eps)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+points = tensor([[0.7096, 0.5303, 0.0989],
+        [0.5014, 0.9895, 0.5874]])
+eps = 1e-08
+
+    def convert_points_from_homogeneous(points, eps=1e-10):
+        if not isinstance(points, torch.Tensor):
+            raise TypeError('Input must be a tensor.')
+        if points.dim() < 2:
+            raise ValueError('Input tensor must have at least two dimensions.')
+>       B, N, D = points.shape
+E       ValueError: not enough values to unpack (expected 3, got 2)
+
+../publishablew/kornia/kornia/kornia/geometry/temp.py:17: ValueError
 __________ TestConvertPointsFromHomogeneous.test_points[cpu-float32] ___________
 
-self = <tests.geometry.test_conversions.TestConvertPointsFromHomogeneous object at 0x7a05247448b0>
+self = <tests.geometry.test_conversions.TestConvertPointsFromHomogeneous object at 0x7e386432ca00>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_points(self, device, dtype):
@@ -72,58 +101,33 @@ device = device(type='cpu'), dtype = torch.float32
         )
     
         # to euclidean
-        points = kornia.geometry.conversions.convert_points_from_homogeneous(points_h)
->       self.assert_close(points, expected, atol=1e-4, rtol=1e-4)
+>       points = kornia.geometry.conversions.convert_points_from_homogeneous(points_h)
 
-../publishablew/kornia/kornia/tests/geometry/test_conversions.py:704: 
+../publishablew/kornia/kornia/tests/geometry/test_conversions.py:703: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/testing/base.py:106: in assert_close
-    return assert_close(actual, expected, rtol=rtol, atol=atol)
+../publishablew/kornia/kornia/kornia/geometry/conversions.py:95: in convert_points_from_homogeneous
+    return convert_points_from_homogeneous(points, eps)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-actual = tensor([[ 1.0000e+00,  2.0000e+00],
-        [ 0.0000e+00,  5.0000e-01],
-        [ 2.0000e+08,  1.0000e+08],
-        [ 1.0000e+00,  2.0000e+00],
-        [-0.0000e+00, -5.0000e-01]])
-expected = tensor([[ 1.0000,  2.0000],
-        [ 0.0000,  0.5000],
-        [ 2.0000,  1.0000],
-        [ 1.0000,  2.0000],
-        [ 0.0000, -0.5000]])
-rtol = 0.0001, atol = 0.0001, kwargs = {}
+points = tensor([[ 1.,  2.,  1.],
+        [ 0.,  1.,  2.],
+        [ 2.,  1.,  0.],
+        [-1., -2., -1.],
+        [ 0.,  1., -2.]])
+eps = 1e-08
 
-    def assert_close(
-        actual: Tensor, expected: Tensor, *, rtol: Optional[float] = None, atol: Optional[float] = None, **kwargs: Any
-    ) -> None:
-        if rtol is None and atol is None:
-            # `torch.testing.assert_close` used different default tolerances than `torch.testing.assert_allclose`.
-            # TODO: remove this special handling as soon as https://github.com/kornia/kornia/issues/1134 is resolved
-            #  Basically, this whole wrapper function can be removed and `torch.testing.assert_close` can be used
-            #  directly.
-            rtol, atol = _default_tolerances(actual, expected)
-    
->       return _assert_close(
-            actual,
-            expected,
-            rtol=rtol,
-            atol=atol,
-            # this is the default value for torch>=1.10, but not for torch==1.9
-            # TODO: remove this if kornia relies on torch>=1.10
-            check_stride=False,
-            equal_nan=False,
-            **kwargs,
-        )
-E       AssertionError: Tensor-likes are not close!
-E       
-E       Mismatched elements: 2 / 10 (20.0%)
-E       Greatest absolute difference: 200000000.0 at index (2, 0) (up to 0.0001 allowed)
-E       Greatest relative difference: 100000000.0 at index (2, 0) (up to 0.0001 allowed)
+    def convert_points_from_homogeneous(points, eps=1e-10):
+        if not isinstance(points, torch.Tensor):
+            raise TypeError('Input must be a tensor.')
+        if points.dim() < 2:
+            raise ValueError('Input tensor must have at least two dimensions.')
+>       B, N, D = points.shape
+E       ValueError: not enough values to unpack (expected 3, got 2)
 
-../publishablew/kornia/kornia/testing/base.py:37: AssertionError
+../publishablew/kornia/kornia/kornia/geometry/temp.py:17: ValueError
 _______ TestConvertPointsFromHomogeneous.test_points_batch[cpu-float32] ________
 
-self = <tests.geometry.test_conversions.TestConvertPointsFromHomogeneous object at 0x7a0524744be0>
+self = <tests.geometry.test_conversions.TestConvertPointsFromHomogeneous object at 0x7e386432cd30>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_points_batch(self, device, dtype):
@@ -142,11 +146,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return assert_close(actual, expected, rtol=rtol, atol=atol)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-actual = tensor([[[ 2.0000e+08,  1.0000e+08]],
+actual = tensor([[[2.0000e+08, 1.0000e+08]],
 
-        [[ 0.0000e+00,  5.0000e-01]],
+        [[0.0000e+00, 5.0000e-01]],
 
-        [[-0.0000e+00, -5.0000e-01]]])
+        [[0.0000e+00, 1.0000e+08]]])
 expected = tensor([[[ 2.0000,  1.0000]],
 
         [[ 0.0000,  0.5000]],
@@ -177,15 +181,16 @@ rtol = 0.0001, atol = 0.0001, kwargs = {}
         )
 E       AssertionError: Tensor-likes are not close!
 E       
-E       Mismatched elements: 2 / 6 (33.3%)
+E       Mismatched elements: 3 / 6 (50.0%)
 E       Greatest absolute difference: 200000000.0 at index (0, 0, 0) (up to 0.0001 allowed)
-E       Greatest relative difference: 100000000.0 at index (0, 0, 0) (up to 0.0001 allowed)
+E       Greatest relative difference: 200000000.0 at index (2, 0, 1) (up to 0.0001 allowed)
 
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 =========================== short test summary info ============================
+FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_cardinality[cpu-float32-batch_shape0]
 FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_points[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_points_batch[cpu-float32]
-==================== 2 failed, 6 passed, 1 skipped in 2.05s ====================
+==================== 3 failed, 5 passed, 1 skipped in 3.03s ====================
 
 
 Final Test Result:
@@ -214,7 +219,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'openxla', 'jit', 'onnxrt', 'inductor', 'cudagraphs', None}
+available optimizers: {'', 'cudagraphs', 'onnxrt', 'tvm', 'jit', 'inductor', 'openxla', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -232,7 +237,7 @@ collecting ... collected 9 items
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_gradcheck_zvec_zeros[cpu] SKIPPED
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_dynamo[cpu-float32-inductor] PASSED
 
-========================= 8 passed, 1 skipped in 2.08s =========================
+========================= 8 passed, 1 skipped in 1.97s =========================
 
 
 Initial Result:
@@ -261,7 +266,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'jit', 'inductor', 'cudagraphs', 'openxla', 'tvm', None}
+available optimizers: {'', 'openxla', 'jit', 'onnxrt', 'cudagraphs', 'tvm', 'inductor', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -279,4 +284,4 @@ collecting ... collected 9 items
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_gradcheck_zvec_zeros[cpu] SKIPPED
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestConvertPointsFromHomogeneous::test_dynamo[cpu-float32-inductor] PASSED
 
-========================= 8 passed, 1 skipped in 2.03s =========================
+========================= 8 passed, 1 skipped in 2.12s =========================

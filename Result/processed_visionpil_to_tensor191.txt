@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[1] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[1]', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[3]', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[3] FAILED'}
+{'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[3]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[1]', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[3] FAILED', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[1] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4]', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -24,22 +24,40 @@ collecting ... collected 3 items
 
 =================================== FAILURES ===================================
 ______________________ TestToTensor.test_pil_to_tensor[1] ______________________
-../publishablew/vision/vision/test/test_transforms.py:276: in test_pil_to_tensor
-    torch.testing.assert_close(input_data, output)
-E   AssertionError: The values for attribute 'shape' do not match: torch.Size([1, 4, 4]) != torch.Size([4, 4]).
+../publishablew/vision/vision/test/test_transforms.py:275: in test_pil_to_tensor
+    output = trans(img)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:166: in __call__
+    return F.pil_to_tensor(pic)
+../publishablew/vision/vision/torchvision/transforms/functional.py:135: in pil_to_tensor
+    return pil_to_tensor(pic)
+../publishablew/vision/vision/torchvision/transforms/temp.py:23: in pil_to_tensor
+    if isinstance(pic, accimage.Image):
+E   NameError: name 'accimage' is not defined
 ______________________ TestToTensor.test_pil_to_tensor[3] ______________________
-../publishablew/vision/vision/test/test_transforms.py:294: in test_pil_to_tensor
-    torch.testing.assert_close(input_data, output)
-E   AssertionError: The values for attribute 'shape' do not match: torch.Size([1, 4, 4]) != torch.Size([4, 4]).
+../publishablew/vision/vision/test/test_transforms.py:275: in test_pil_to_tensor
+    output = trans(img)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:166: in __call__
+    return F.pil_to_tensor(pic)
+../publishablew/vision/vision/torchvision/transforms/functional.py:135: in pil_to_tensor
+    return pil_to_tensor(pic)
+../publishablew/vision/vision/torchvision/transforms/temp.py:23: in pil_to_tensor
+    if isinstance(pic, accimage.Image):
+E   NameError: name 'accimage' is not defined
 ______________________ TestToTensor.test_pil_to_tensor[4] ______________________
-../publishablew/vision/vision/test/test_transforms.py:294: in test_pil_to_tensor
-    torch.testing.assert_close(input_data, output)
-E   AssertionError: The values for attribute 'shape' do not match: torch.Size([1, 4, 4]) != torch.Size([4, 4]).
+../publishablew/vision/vision/test/test_transforms.py:275: in test_pil_to_tensor
+    output = trans(img)
+../publishablew/vision/vision/torchvision/transforms/transforms.py:166: in __call__
+    return F.pil_to_tensor(pic)
+../publishablew/vision/vision/torchvision/transforms/functional.py:135: in pil_to_tensor
+    return pil_to_tensor(pic)
+../publishablew/vision/vision/torchvision/transforms/temp.py:23: in pil_to_tensor
+    if isinstance(pic, accimage.Image):
+E   NameError: name 'accimage' is not defined
 =========================== short test summary info ============================
 FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[1]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[3]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4]
-============================== 3 failed in 0.61s ===============================
+============================== 3 failed in 0.75s ===============================
 
 
 Final Test Result:
@@ -55,7 +73,7 @@ collecting ... collected 3 items
 ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[3] PASSED
 ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4] PASSED
 
-============================== 3 passed in 0.43s ===============================
+============================== 3 passed in 0.30s ===============================
 
 
 Initial Result:
@@ -71,4 +89,4 @@ collecting ... collected 3 items
 ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[3] PASSED
 ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4] PASSED
 
-============================== 3 passed in 0.44s ===============================
+============================== 3 passed in 0.43s ===============================

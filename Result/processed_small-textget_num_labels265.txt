@@ -4,10 +4,10 @@ function:
 get_num_labels
 Error Cases:
 
-Pass or Failed: 0
+Pass or Failed: 1
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_get_num_labels_sparse', '../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_get_num_labels_sparse FAILED'}
+set()
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -24,7 +24,7 @@ collecting ... collected 14 items
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_get_ignored_labels_mask_dense PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_get_ignored_labels_mask_sparse PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_get_num_labels_dense PASSED
-../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_get_num_labels_sparse FAILED
+../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_get_num_labels_sparse PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_list_to_csr PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_list_to_csr_all_empty PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_list_to_csr_float PASSED
@@ -33,34 +33,7 @@ collecting ... collected 14 items
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_remove_by_index_list_sparse PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_remove_by_index_sparse PASSED
 
-=================================== FAILURES ===================================
-__________________ LabelUtilsTest.test_get_num_labels_sparse ___________________
-ValueError: zero-size array to reduction operation maximum which has no identity
-
-During handling of the above exception, another exception occurred:
-
-self = <tests.unit.small_text.utils.test_labels.LabelUtilsTest testMethod=test_get_num_labels_sparse>
-
-    def test_get_num_labels_sparse(self):
-        mat = csr_matrix(np.array([
-            [1, 1],
-            [0, 1],
-            [1, 0],
-            [0, 0]
-        ]))
-        self.assertEqual(2, get_num_labels(mat))
-        mat = csr_matrix(np.array([
-            [1, 1]
-        ]))
-        self.assertEqual(2, get_num_labels(mat))
-        mat = csr_matrix((0, 0), dtype=np.int64)
->       with self.assertRaisesRegex(ValueError, 'Invalid labeling'):
-E       AssertionError: "Invalid labeling" does not match "zero-size array to reduction operation maximum which has no identity"
-
-../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py:41: AssertionError
-=========================== short test summary info ============================
-FAILED ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_get_num_labels_sparse
-========================= 1 failed, 13 passed in 1.60s =========================
+============================== 14 passed in 1.59s ==============================
 
 
 Final Test Result:
@@ -87,7 +60,7 @@ collecting ... collected 14 items
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_remove_by_index_list_sparse PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/utils/test_labels.py::LabelUtilsTest::test_remove_by_index_sparse PASSED
 
-============================== 14 passed in 1.51s ==============================
+============================== 14 passed in 1.58s ==============================
 
 
 Initial Result:

@@ -1,16 +1,16 @@
 import numpy as np
 from sklearn.feature_extraction.image import img_to_graph as sklearn_img_to_graph
-from scipy.sparse import csr_matrix
+from scipy import sparse
 
-def img_to_graph(img, mask=None, return_as=csr_matrix, dtype=np.float64):
+def img_to_graph(img, mask=None, return_as=sparse.csr_matrix, dtype=np.float64):
     """
-    Generates a graph of pixel-to-pixel gradient connections from a 2D or 3D image.
+    Generate a graph of pixel-to-pixel gradient connections from a 2D or 3D image.
 
     Parameters:
     - img: array-like of shape (height, width) or (height, width, channel)
         The input image.
     - mask: array-like of shape (height, width), optional
-        An optional mask. If provided, only the pixels selected by the mask are connected.
+        An optional mask. If provided, only the pixels selected by the mask are used.
     - return_as: class, optional
         The class to build the adjacency matrix. Default is scipy.sparse.csr_matrix.
     - dtype: data type, optional
@@ -18,29 +18,17 @@ def img_to_graph(img, mask=None, return_as=csr_matrix, dtype=np.float64):
 
     Returns:
     - adjacency_matrix: ndarray or sparse matrix
-        The computed adjacency matrix.
+        The computed adjacency matrix as either an ndarray or a sparse matrix class.
     """
     # Ensure the image is a numpy array
     img = np.asarray(img)
-    
-    # If the image is 3D, we need to reshape it to 2D
+
+    # If the image is 3D, reshape it to 2D by combining the color channels
     if img.ndim == 3:
-        height, width, channels = img.shape
-        img = img.reshape((height * width, channels))
-    elif img.ndim == 2:
-        height, width = img.shape
-        img = img.reshape((height * width, 1))
-    else:
-        raise ValueError("img must be a 2D or 3D array")
+        img = img.reshape(-1, img.shape[-1])
 
-    # Generate the adjacency matrix using sklearn's img_to_graph
-    adjacency_matrix = sklearn_img_to_graph(img, mask=mask, dtype=dtype)
-
-    # Convert the adjacency matrix to the desired format
-    if return_as == np.ndarray:
-        adjacency_matrix = adjacency_matrix.toarray()
-    else:
-        adjacency_matrix = return_as(adjacency_matrix)
+    # Use sklearn's img_to_graph to generate the adjacency matrix
+    adjacency_matrix = sklearn_img_to_graph(img, mask=mask, return_as=return_as, dtype=dtype)
 
     return adjacency_matrix
 

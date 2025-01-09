@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/small-text/small-text/tests/unit/small_text/query_strategies/test_bayesian.py::BALDHelperTest::test_bald_with_only_zeros FAILED', 'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/query_strategies/test_bayesian.py::BALDHelperTest::test_bald_with_only_zeros'}
+{'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/query_strategies/test_bayesian.py::BALDHelperTest::test_bald_with_only_zeros', '../publishablew/small-text/small-text/tests/unit/small_text/query_strategies/test_bayesian.py::BALDHelperTest::test_bald_with_only_zeros FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -62,19 +62,19 @@ E                  [0., 0., 0.],...
 /usr/lib/python3.11/contextlib.py:81: AssertionError
 =============================== warnings summary ===============================
 tests/unit/small_text/query_strategies/test_bayesian.py::BALDHelperTest::test_bald_with_only_zeros_no_epsilon
-  /local/data0/moved_data/publishablew/small-text/small-text/small_text/query_strategies/temp.py:22: RuntimeWarning: divide by zero encountered in log
+  /local/data0/moved_data/publishablew/small-text/small-text/small_text/query_strategies/temp.py:23: RuntimeWarning: divide by zero encountered in log
     expected_entropy = -np.sum(p * np.log(p + eps), axis=1)
 
 tests/unit/small_text/query_strategies/test_bayesian.py::BALDHelperTest::test_bald_with_only_zeros_no_epsilon
-  /local/data0/moved_data/publishablew/small-text/small-text/small_text/query_strategies/temp.py:22: RuntimeWarning: invalid value encountered in multiply
+  /local/data0/moved_data/publishablew/small-text/small-text/small_text/query_strategies/temp.py:23: RuntimeWarning: invalid value encountered in multiply
     expected_entropy = -np.sum(p * np.log(p + eps), axis=1)
 
 tests/unit/small_text/query_strategies/test_bayesian.py::BALDHelperTest::test_bald_with_only_zeros_no_epsilon
-  /local/data0/moved_data/publishablew/small-text/small-text/small_text/query_strategies/temp.py:24: RuntimeWarning: divide by zero encountered in log
+  /local/data0/moved_data/publishablew/small-text/small-text/small_text/query_strategies/temp.py:25: RuntimeWarning: divide by zero encountered in log
     entropy_of_mean = -np.sum(mean_p * np.log(mean_p + eps))
 
 tests/unit/small_text/query_strategies/test_bayesian.py::BALDHelperTest::test_bald_with_only_zeros_no_epsilon
-  /local/data0/moved_data/publishablew/small-text/small-text/small_text/query_strategies/temp.py:24: RuntimeWarning: invalid value encountered in multiply
+  /local/data0/moved_data/publishablew/small-text/small-text/small_text/query_strategies/temp.py:25: RuntimeWarning: invalid value encountered in multiply
     entropy_of_mean = -np.sum(mean_p * np.log(mean_p + eps))
 
 tests/unit/small_text/query_strategies/test_bayesian.py::BALDTest::test_simple_query
@@ -84,7 +84,7 @@ tests/unit/small_text/query_strategies/test_bayesian.py::BALDTest::test_simple_q
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
 =========================== short test summary info ============================
 FAILED ../publishablew/small-text/small-text/tests/unit/small_text/query_strategies/test_bayesian.py::BALDHelperTest::test_bald_with_only_zeros
-=================== 1 failed, 3 passed, 5 warnings in 1.60s ====================
+=================== 1 failed, 3 passed, 5 warnings in 1.67s ====================
 
 
 Final Test Result:
@@ -123,7 +123,7 @@ tests/unit/small_text/query_strategies/test_bayesian.py::BALDTest::test_simple_q
     check_target_labels(target_labels)
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-======================== 4 passed, 5 warnings in 1.51s =========================
+======================== 4 passed, 5 warnings in 1.59s =========================
 
 
 Initial Result:
@@ -162,4 +162,4 @@ tests/unit/small_text/query_strategies/test_bayesian.py::BALDTest::test_simple_q
     check_target_labels(target_labels)
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-======================== 4 passed, 5 warnings in 1.94s =========================
+======================== 4 passed, 5 warnings in 1.86s =========================

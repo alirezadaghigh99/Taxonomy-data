@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-2-5] FAILED', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-5] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-3-1]', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-2]', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-3-5] FAILED', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-2] FAILED', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-2-2] FAILED', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-3-1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-2-2]', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-3-2] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-1]', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-2-5]', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-2-1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-3-2]', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-5]', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-2-1]', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-3-5]', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-1] FAILED'}
+{'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-2-2]', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-1] FAILED', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-3-2] FAILED', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-2-1] FAILED', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-2-5] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-3-2]', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-3-1] FAILED', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-2] FAILED', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-5] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-3-1]', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-3-5] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-2-1]', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-2]', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-1]', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-2-5]', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-3-5]', 'FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-5]', '../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-2-2] FAILED'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'tvm', 'cudagraphs', 'inductor', 'openxla', None, 'jit'}
+available optimizers: {'', 'jit', 'cudagraphs', 'inductor', 'onnxrt', 'openxla', 'tvm', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -56,7 +56,7 @@ collecting ... collected 9 items
 =================================== FAILURES ===================================
 ___________ TestTransformLAFs.test_transform_points[cpu-float32-2-1] ___________
 
-self = <test_laf.TestTransformLAFs object at 0x7aff4870f670>, batch_size = 1
+self = <test_laf.TestTransformLAFs object at 0x7b4fc2def880>, batch_size = 1
 num_points = 2, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 5])
@@ -83,16 +83,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return assert_close(actual, expected, rtol=rtol, atol=atol)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-actual = tensor([[[[0.3987, 0.0069, 0.2012],
-          [0.2964, 0.2541, 0.8659]],
+actual = tensor([[[[0.7627, 0.0694, 0.3899],
+          [0.2251, 0.0805, 0.4547]],
 
-         [[0.3409, 0.6335, 0.0432],
-          [0.5231, 0.4760, 0.9869]]]])
-expected = tensor([[[[ 0.2081, -0.5982, -0.9956],
-          [ 1.1200, -1.1616, -1.4568]],
+         [[0.8059, 0.5852, 0.3251],
+          [0.5618, 0.7643, 0.6125]]]])
+expected = tensor([[[[ 0.8364,  0.5481,  0.1736],
+          [-0.5481,  0.8364,  0.4755]],
 
-         [[ 0.6768, -0.3837, -0.7241],
-          [ 1.4630, -1.5101, -2.0316]]]])
+         [[ 0.0443,  0.9990,  0.3931],
+          [-0.9990,  0.0443,  1.8514]]]])
 rtol = 0.0001, atol = 1e-05, kwargs = {}
 
     def assert_close(
@@ -119,13 +119,13 @@ rtol = 0.0001, atol = 1e-05, kwargs = {}
 E       AssertionError: Tensor-likes are not close!
 E       
 E       Mismatched elements: 12 / 12 (100.0%)
-E       Greatest absolute difference: 3.0185303688049316 at index (0, 1, 1, 2) (up to 1e-05 allowed)
-E       Greatest relative difference: 2.6513473987579346 at index (0, 1, 0, 1) (up to 0.0001 allowed)
+E       Greatest absolute difference: 1.5608184337615967 at index (0, 1, 1, 0) (up to 1e-05 allowed)
+E       Greatest relative difference: 17.185592651367188 at index (0, 1, 0, 0) (up to 0.0001 allowed)
 
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ___________ TestTransformLAFs.test_transform_points[cpu-float32-2-2] ___________
 
-self = <test_laf.TestTransformLAFs object at 0x7aff4870f5e0>, batch_size = 2
+self = <test_laf.TestTransformLAFs object at 0x7b4fc2def7f0>, batch_size = 2
 num_points = 2, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 5])
@@ -152,22 +152,22 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return assert_close(actual, expected, rtol=rtol, atol=atol)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-actual = tensor([[[[0.5559, 0.5890, 0.8864],
-          [0.8850, 0.1863, 0.0709]],
+actual = tensor([[[[0.8700, 0.0130, 0.4712],
+          [0.8247, 0.5415, 0.6115]],
 
-         [[0.9798, 0.4438, 0.8398],
-        ...8403],
-          [0.1843, 0.2155, 0.8475]],
+         [[0.7811, 0.3889, 0.1891],
+        ...1870],
+          [0.9235, 0.0713, 0.8983]],
 
-         [[0.2443, 0.8784, 0.0064],
-          [0.0268, 0.8173, 0.2910]]]])
-expected = tensor([[[[ 1.4754, -1.4411, -1.9953],
-          [ 0.2572, -0.9551, -1.8378]],
+         [[0.1981, 0.3130, 0.1366],
+          [0.0672, 0.5711, 0.8310]]]])
+expected = tensor([[[[ 0.8936,  0.4488,  0.3891],
+          [-0.4488,  0.8936,  1.1216]],
 
-         [[ 1.2837, -1.8178, -2.7951],...        [ 1.0630, -1.0319, -1.2156]],
+         [[ 0.7109,  0.7033, -0.0321],...        [ 0.0087,  1.0000,  1.1080]],
 
-         [[ 0.8848, -0.2510, -0.4955],
-          [ 1.1083, -0.3185, -0.3454]]]])
+         [[-0.8460,  0.5331,  0.5573],
+          [-0.5331, -0.8460,  1.8744]]]])
 rtol = 0.0001, atol = 1e-05, kwargs = {}
 
     def assert_close(
@@ -194,13 +194,13 @@ rtol = 0.0001, atol = 1e-05, kwargs = {}
 E       AssertionError: Tensor-likes are not close!
 E       
 E       Mismatched elements: 24 / 24 (100.0%)
-E       Greatest absolute difference: 3.6349127292633057 at index (0, 1, 0, 2) (up to 1e-05 allowed)
-E       Greatest relative difference: 4.499894142150879 at index (1, 1, 0, 1) (up to 0.0001 allowed)
+E       Greatest absolute difference: 1.555633783340454 at index (0, 1, 1, 0) (up to 1e-05 allowed)
+E       Greatest relative difference: 105.73343658447266 at index (1, 0, 0, 1) (up to 0.0001 allowed)
 
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ___________ TestTransformLAFs.test_transform_points[cpu-float32-2-5] ___________
 
-self = <test_laf.TestTransformLAFs object at 0x7aff4870f490>, batch_size = 5
+self = <test_laf.TestTransformLAFs object at 0x7b4fc2def6a0>, batch_size = 5
 num_points = 2, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 5])
@@ -227,22 +227,20 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return assert_close(actual, expected, rtol=rtol, atol=atol)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-actual = tensor([[[[0.0469, 0.7608, 0.1647],
-          [0.8631, 0.6255, 0.5764]],
+actual = tensor([[[[1.0911e-01, 1.2891e-01, 4.3059e-02],
+          [4.9834e-01, 3.7620e-01, 7.5524e-01]],
 
-         [[0.1895, 0.8117, 0.3829],
-        ...1598],
-          [0.8478, 0.5867, 0.3472]],
+         [[2.2937e-0...e-01, 5.7662e-01]],
 
-         [[0.4142, 0.0503, 0.0606],
-          [0.5394, 0.9298, 0.8683]]]])
-expected = tensor([[[[ 0.9255, -0.2122, -0.2592],
-          [ 1.2019, -1.4381, -2.3007]],
+         [[1.1887e-01, 3.3783e-01, 6.7205e-01],
+          [2.1132e-01, 2.8363e-01, 4.6847e-01]]]])
+expected = tensor([[[[-0.8113,  0.5846,  0.3124],
+          [ 0.5846,  0.8113,  0.2653]],
 
-         [[ 1.1946, -0.5729, -0.7625],...        [ 0.9339, -1.1954, -2.0458]],
+         [[-0.9953, -0.0967,  1.3386],...        [-0.3154,  0.9490,  0.8980]],
 
-         [[ 0.1110, -0.4751, -0.8908],
-          [ 1.7981, -1.4067, -1.9478]]]])
+         [[-0.4486, -0.8937,  1.7383],
+          [-0.8937,  0.4486,  0.9926]]]])
 rtol = 0.0001, atol = 1e-05, kwargs = {}
 
     def assert_close(
@@ -269,13 +267,13 @@ rtol = 0.0001, atol = 1e-05, kwargs = {}
 E       AssertionError: Tensor-likes are not close!
 E       
 E       Mismatched elements: 60 / 60 (100.0%)
-E       Greatest absolute difference: 3.0365588665008545 at index (1, 1, 1, 2) (up to 1e-05 allowed)
-E       Greatest relative difference: 4.596428871154785 at index (2, 0, 0, 1) (up to 0.0001 allowed)
+E       Greatest absolute difference: 1.6753430366516113 at index (3, 0, 1, 1) (up to 1e-05 allowed)
+E       Greatest relative difference: 15.111486434936523 at index (3, 1, 1, 0) (up to 0.0001 allowed)
 
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ___________ TestTransformLAFs.test_transform_points[cpu-float32-3-1] ___________
 
-self = <test_laf.TestTransformLAFs object at 0x7aff4870fa90>, batch_size = 1
+self = <test_laf.TestTransformLAFs object at 0x7b4fc2defca0>, batch_size = 1
 num_points = 3, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 5])
@@ -302,22 +300,22 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return assert_close(actual, expected, rtol=rtol, atol=atol)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-actual = tensor([[[[0.6440, 0.9278, 0.6629],
-          [0.5117, 0.5288, 0.2010]],
+actual = tensor([[[[0.1526, 0.0245, 0.0584],
+          [0.2229, 0.8102, 0.0746]],
 
-         [[0.8260, 0.9462, 0.4994],
-          [0.5634, 0.0862, 0.0594]],
+         [[0.4464, 0.9854, 0.5390],
+          [0.8882, 0.2971, 0.0390]],
 
-         [[0.0522, 0.9547, 0.4798],
-          [0.5703, 0.1766, 0.3575]]]])
-expected = tensor([[[[ 1.5907, -1.3073, -1.9502],
-          [ 0.7299, -0.7133, -1.2242]],
+         [[0.9752, 0.1702, 0.6344],
+          [0.9673, 0.3278, 0.4236]]]])
+expected = tensor([[[[-0.5405,  0.8414, -0.0022],
+          [-0.8414, -0.5405,  1.2752]],
 
-         [[ 1.4456, -1.3254, -2.1497],
-          [ 0.1455, -0.6227, -1.1849]],
+         [[-0.9990,  0.0453,  1.6583],
+          [ 0.0453,  0.9990,  0.1892]],
 
-         [[ 1.4345, -0.5325, -0.5847],
-          [ 0.5341, -0.9285, -1.4987]]]])
+         [[ 0.9934,  0.1143,  0.8275],
+          [-0.1143,  0.9934,  0.7695]]]])
 rtol = 0.0001, atol = 1e-05, kwargs = {}
 
     def assert_close(
@@ -344,13 +342,13 @@ rtol = 0.0001, atol = 1e-05, kwargs = {}
 E       AssertionError: Tensor-likes are not close!
 E       
 E       Mismatched elements: 18 / 18 (100.0%)
-E       Greatest absolute difference: 2.649167537689209 at index (0, 1, 0, 2) (up to 1e-05 allowed)
-E       Greatest relative difference: 2.871170997619629 at index (0, 1, 1, 0) (up to 0.0001 allowed)
+E       Greatest absolute difference: 1.4454132318496704 at index (0, 1, 0, 0) (up to 1e-05 allowed)
+E       Greatest relative difference: 27.936132431030273 at index (0, 0, 0, 2) (up to 0.0001 allowed)
 
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ___________ TestTransformLAFs.test_transform_points[cpu-float32-3-2] ___________
 
-self = <test_laf.TestTransformLAFs object at 0x7aff4870fb50>, batch_size = 2
+self = <test_laf.TestTransformLAFs object at 0x7b4fc2defd60>, batch_size = 2
 num_points = 3, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 5])
@@ -377,22 +375,22 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return assert_close(actual, expected, rtol=rtol, atol=atol)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-actual = tensor([[[[0.8659, 0.0191, 0.0312],
-          [0.5157, 0.6604, 0.5381]],
+actual = tensor([[[[0.3982, 0.5803, 0.8263],
+          [0.4465, 0.1877, 0.4466]],
 
-         [[0.6268, 0.1687, 0.2426],
-        ...8196],
-          [0.3612, 0.7958, 0.6080]],
+         [[0.1444, 0.7331, 0.8879],
+        ...3787],
+          [0.7671, 0.2976, 0.1425]],
 
-         [[0.1298, 0.3549, 0.6436],
-          [0.4389, 0.5541, 0.1455]]]])
-expected = tensor([[[[ 0.0504, -0.8975, -1.7660],
-          [ 1.1985, -1.0548, -1.5719]],
+         [[0.3733, 0.6313, 0.1203],
+          [0.8149, 0.1518, 0.0450]]]])
+expected = tensor([[[[-0.9854,  0.1703,  1.7987],
+          [ 0.1703,  0.9854,  0.0770]],
 
-         [[ 0.4113, -0.8691, -1.4973],...        [ 1.4038, -0.9675, -1.3290]],
+         [[-0.3639, -0.9315,  1.9454],...        [ 0.6952,  0.7189, -0.0911]],
 
-         [[ 0.9984, -0.7732, -0.9032],
-          [ 0.6996, -0.5834, -1.0226]]]])
+         [[-0.9153,  0.4027,  0.8566],
+          [ 0.4027,  0.9153, -0.0729]]]])
 rtol = 0.0001, atol = 1e-05, kwargs = {}
 
     def assert_close(
@@ -419,13 +417,13 @@ rtol = 0.0001, atol = 1e-05, kwargs = {}
 E       AssertionError: Tensor-likes are not close!
 E       
 E       Mismatched elements: 36 / 36 (100.0%)
-E       Greatest absolute difference: 3.149756908416748 at index (1, 1, 0, 2) (up to 1e-05 allowed)
-E       Greatest relative difference: 16.1971378326416 at index (0, 0, 0, 0) (up to 0.0001 allowed)
+E       Greatest absolute difference: 1.6645724773406982 at index (0, 1, 0, 1) (up to 1e-05 allowed)
+E       Greatest relative difference: 5.62727165222168 at index (0, 2, 0, 1) (up to 0.0001 allowed)
 
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ___________ TestTransformLAFs.test_transform_points[cpu-float32-3-5] ___________
 
-self = <test_laf.TestTransformLAFs object at 0x7aff4870fc10>, batch_size = 5
+self = <test_laf.TestTransformLAFs object at 0x7b4fc2defe20>, batch_size = 5
 num_points = 3, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 5])
@@ -452,22 +450,22 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return assert_close(actual, expected, rtol=rtol, atol=atol)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-actual = tensor([[[[0.8621, 0.3778, 0.4713],
-          [0.5628, 0.3955, 0.2029]],
+actual = tensor([[[[0.2921, 0.2075, 0.8791],
+          [0.4680, 0.7717, 0.0905]],
 
-         [[0.6238, 0.2244, 0.9673],
-        ...9593],
-          [0.8141, 0.1030, 0.7341]],
+         [[0.4963, 0.1500, 0.9303],
+        ...3630],
+          [0.2178, 0.6826, 0.9640]],
 
-         [[0.3978, 0.9680, 0.9813],
-          [0.6831, 0.1942, 0.1172]]]])
-expected = tensor([[[[ 0.8491, -1.3321, -2.1925],
-          [ 0.5984, -0.7644, -1.3263]],
+         [[0.1249, 0.0436, 0.5236],
+          [0.6371, 0.9584, 0.6608]]]])
+expected = tensor([[[[-0.4931,  0.8700,  0.9032],
+          [-0.8700, -0.4931,  1.5205]],
 
-         [[ 1.1917, -1.5901, -2.2128],...        [ 0.8371, -1.5488, -2.3654]],
+         [[ 0.0423,  0.9991,  0.6889],...        [-0.1767, -0.9843,  2.0014]],
 
-         [[ 1.9494, -1.3799, -1.7784],
-          [ 0.3114, -0.7999, -1.4842]]]])
+         [[-0.5135,  0.8581,  0.4036],
+          [-0.8581, -0.5135,  2.2658]]]])
 rtol = 0.0001, atol = 1e-05, kwargs = {}
 
     def assert_close(
@@ -494,13 +492,13 @@ rtol = 0.0001, atol = 1e-05, kwargs = {}
 E       AssertionError: Tensor-likes are not close!
 E       
 E       Mismatched elements: 90 / 90 (100.0%)
-E       Greatest absolute difference: 3.884006977081299 at index (4, 0, 0, 2) (up to 1e-05 allowed)
-E       Greatest relative difference: 3.531599760055542 at index (1, 0, 0, 1) (up to 0.0001 allowed)
+E       Greatest absolute difference: 1.7414164543151855 at index (3, 2, 0, 1) (up to 1e-05 allowed)
+E       Greatest relative difference: 22.135190963745117 at index (0, 2, 0, 0) (up to 0.0001 allowed)
 
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ___________ TestTransformLAFs.test_transform_points[cpu-float32-5-1] ___________
 
-self = <test_laf.TestTransformLAFs object at 0x7aff4870fcd0>, batch_size = 1
+self = <test_laf.TestTransformLAFs object at 0x7b4fc2defee0>, batch_size = 1
 num_points = 5, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 5])
@@ -527,22 +525,22 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return assert_close(actual, expected, rtol=rtol, atol=atol)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-actual = tensor([[[[0.2471, 0.4691, 0.4815],
-          [0.8287, 0.8258, 0.3798]],
+actual = tensor([[[[0.6945, 0.8215, 0.2515],
+          [0.8505, 0.9190, 0.5094]],
 
-         [[0.5829, 0.7305, 0.4855],
-        ...5845],
-          [0.5874, 0.9930, 0.0078]],
+         [[0.7458, 0.9558, 0.7992],
+        ...1642],
+          [0.4114, 0.6472, 0.1644]],
 
-         [[0.3325, 0.8036, 0.7502],
-          [0.7359, 0.7138, 0.1268]]]])
-expected = tensor([[[[ 0.9505, -0.7283, -0.9750],
-          [ 1.2055, -1.2085, -2.0361]],
+         [[0.8382, 0.8469, 0.5100],
+          [0.3444, 0.0158, 0.4196]]]])
+expected = tensor([[[[-0.2870, -0.9579,  1.8249],
+          [-0.9579,  0.2870,  1.8336]],
 
-         [[ 1.2160, -1.0684, -1.6514],...        [ 1.0008, -0.5955, -1.1829]],
+         [[-0.9346,  0.3558,  1.9537],...        [-0.9492,  0.3147,  1.0244]],
 
-         [[ 1.5537, -1.0824, -1.4145],
-          [ 0.8405, -0.8627, -1.5980]]]])
+         [[-0.7254,  0.6883,  1.3747],
+          [ 0.6883,  0.7254, -0.2356]]]])
 rtol = 0.0001, atol = 1e-05, kwargs = {}
 
     def assert_close(
@@ -569,13 +567,13 @@ rtol = 0.0001, atol = 1e-05, kwargs = {}
 E       AssertionError: Tensor-likes are not close!
 E       
 E       Mismatched elements: 30 / 30 (100.0%)
-E       Greatest absolute difference: 2.415924310684204 at index (0, 0, 1, 2) (up to 1e-05 allowed)
-E       Greatest relative difference: 2.6675283908843994 at index (0, 3, 1, 1) (up to 0.0001 allowed)
+E       Greatest absolute difference: 1.8294672966003418 at index (0, 3, 0, 1) (up to 1e-05 allowed)
+E       Greatest relative difference: 3.4197843074798584 at index (0, 0, 0, 0) (up to 0.0001 allowed)
 
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ___________ TestTransformLAFs.test_transform_points[cpu-float32-5-2] ___________
 
-self = <test_laf.TestTransformLAFs object at 0x7aff4870fd90>, batch_size = 2
+self = <test_laf.TestTransformLAFs object at 0x7b4fc2deffa0>, batch_size = 2
 num_points = 5, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 5])
@@ -602,22 +600,20 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return assert_close(actual, expected, rtol=rtol, atol=atol)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-actual = tensor([[[[0.8308, 0.6013, 0.3943],
-          [0.7407, 0.0064, 0.8374]],
+actual = tensor([[[[5.1641e-01, 4.7631e-01, 9.9606e-01],
+          [8.6400e-01, 3.2671e-01, 9.3587e-01]],
 
-         [[0.1475, 0.1216, 0.6338],
-        ...3939],
-          [0.0806, 0.1269, 0.8875]],
+         [[3.8142e-0...e-01, 7.7350e-01]],
 
-         [[0.1335, 0.9996, 0.4824],
-          [0.4567, 0.2335, 0.2852]]]])
-expected = tensor([[[[ 0.9956, -1.2249, -2.0565],
-          [ 0.8438, -1.5791, -2.3205]],
+         [[5.4966e-01, 6.0362e-04, 8.9751e-01],
+          [9.3444e-01, 8.5649e-01, 3.5836e-01]]]])
+expected = tensor([[[[-0.6518,  0.7584,  1.4382],
+          [ 0.7584,  0.6518,  0.8040]],
 
-         [[ 0.7554, -0.7802, -0.9279],...        [ 1.0144, -0.9691, -1.0495]],
+         [[-0.9933, -0.1160,  1.8932],...        [-0.9499,  0.3124,  1.9959]],
 
-         [[ 1.4819, -0.6166, -0.7501],
-          [ 0.5187, -0.7427, -1.1989]]]])
+         [[ 0.7990,  0.6014,  0.4554],
+          [-0.6014,  0.7990,  1.1520]]]])
 rtol = 0.0001, atol = 1e-05, kwargs = {}
 
     def assert_close(
@@ -644,13 +640,13 @@ rtol = 0.0001, atol = 1e-05, kwargs = {}
 E       AssertionError: Tensor-likes are not close!
 E       
 E       Mismatched elements: 60 / 60 (100.0%)
-E       Greatest absolute difference: 3.2081310749053955 at index (1, 0, 0, 2) (up to 1e-05 allowed)
-E       Greatest relative difference: 2.7737042903900146 at index (1, 1, 0, 1) (up to 0.0001 allowed)
+E       Greatest absolute difference: 1.7214210033416748 at index (0, 3, 1, 1) (up to 1e-05 allowed)
+E       Greatest relative difference: 8.372251510620117 at index (0, 1, 0, 1) (up to 0.0001 allowed)
 
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ___________ TestTransformLAFs.test_transform_points[cpu-float32-5-5] ___________
 
-self = <test_laf.TestTransformLAFs object at 0x7aff4870fe50>, batch_size = 5
+self = <test_laf.TestTransformLAFs object at 0x7b4fc27200a0>, batch_size = 5
 num_points = 5, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 5])
@@ -677,22 +673,22 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return assert_close(actual, expected, rtol=rtol, atol=atol)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-actual = tensor([[[[0.8755, 0.7893, 0.8502],
-          [0.5099, 0.3334, 0.4460]],
+actual = tensor([[[[0.2138, 0.3504, 0.0453],
+          [0.7534, 0.7728, 0.2373]],
 
-         [[0.6272, 0.3921, 0.7256],
-        ...1195],
-          [0.9642, 0.6608, 0.8871]],
+         [[0.6620, 0.6514, 0.6581],
+        ...0780],
+          [0.5573, 0.1274, 0.0970]],
 
-         [[0.1669, 0.9146, 0.9950],
-          [0.2728, 0.1007, 0.5883]]]])
-expected = tensor([[[[ 1.6395, -1.7267, -2.6040],
-          [ 0.7794, -0.9564, -1.4674]],
+         [[0.0778, 0.1313, 0.2043],
+          [0.3044, 0.0045, 0.6568]]]])
+expected = tensor([[[[-0.6003, -0.7997,  1.2487],
+          [-0.7997,  0.6003,  1.1313]],
 
-         [[ 1.1177, -1.3530, -1.9810],...        [ 1.5480, -1.8522, -2.8180]],
+         [[-0.6813,  0.7320,  1.2833],...        [ 0.2532,  0.9674, -0.2084]],
 
-         [[ 1.9097, -1.1627, -1.3297],
-          [ 0.6889, -0.8616, -1.1347]]]])
+         [[-0.8200,  0.5724,  0.4576],
+          [ 0.5724,  0.8200, -0.0228]]]])
 rtol = 0.0001, atol = 1e-05, kwargs = {}
 
     def assert_close(
@@ -719,8 +715,8 @@ rtol = 0.0001, atol = 1e-05, kwargs = {}
 E       AssertionError: Tensor-likes are not close!
 E       
 E       Mismatched elements: 150 / 150 (100.0%)
-E       Greatest absolute difference: 3.7051734924316406 at index (4, 3, 1, 2) (up to 1e-05 allowed)
-E       Greatest relative difference: 3.889697551727295 at index (1, 2, 1, 1) (up to 0.0001 allowed)
+E       Greatest absolute difference: 1.7050797939300537 at index (2, 2, 0, 1) (up to 1e-05 allowed)
+E       Greatest relative difference: 29.826148986816406 at index (4, 4, 1, 2) (up to 0.0001 allowed)
 
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 =========================== short test summary info ============================
@@ -733,7 +729,7 @@ FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAF
 FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-1]
 FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-2]
 FAILED ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-5]
-============================== 9 failed in 0.42s ===============================
+============================== 9 failed in 0.43s ===============================
 
 
 Final Test Result:
@@ -762,7 +758,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'tvm', 'jit', 'cudagraphs', 'inductor', 'openxla', None}
+available optimizers: {'', 'onnxrt', 'tvm', 'cudagraphs', 'openxla', 'jit', 'inductor', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -780,7 +776,7 @@ collecting ... collected 9 items
 ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-2] PASSED
 ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-5] PASSED
 
-============================== 9 passed in 0.18s ===============================
+============================== 9 passed in 0.15s ===============================
 
 
 Initial Result:
@@ -809,7 +805,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'inductor', 'openxla', 'cudagraphs', 'tvm', 'onnxrt', None}
+available optimizers: {'', 'inductor', 'onnxrt', 'cudagraphs', 'jit', 'tvm', 'openxla', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -827,4 +823,4 @@ collecting ... collected 9 items
 ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-2] PASSED
 ../publishablew/kornia/kornia/tests/feature/test_laf.py::TestTransformLAFs::test_transform_points[cpu-float32-5-5] PASSED
 
-============================== 9 passed in 0.15s ===============================
+============================== 9 passed in 0.16s ===============================

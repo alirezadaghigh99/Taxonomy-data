@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/geometry/transform/test_affine.py::TestRescale::test_downscale_values_AA[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_affine.py::TestRescale::test_downscale_values_AA[cpu-float32]'}
+{'FAILED ../publishablew/kornia/kornia/tests/geometry/transform/test_affine.py::TestRescale::test_downscale_values_AA[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/transform/test_affine.py::TestRescale::test_downscale_values_AA[cpu-float32] FAILED'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'cudagraphs', 'tvm', 'onnxrt', 'jit', 'inductor', None}
+available optimizers: {'', 'tvm', 'onnxrt', 'jit', 'openxla', 'cudagraphs', 'inductor', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -97,7 +97,7 @@ collecting ... collected 50 items
 =================================== FAILURES ===================================
 ______________ TestRescale.test_downscale_values_AA[cpu-float32] _______________
 
-self = <test_affine.TestRescale object at 0x7047f3929120>
+self = <test_affine.TestRescale object at 0x7f93bc70d0c0>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_downscale_values_AA(self, device, dtype):
@@ -199,7 +199,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'tvm', 'inductor', 'jit', 'cudagraphs', 'openxla', None}
+available optimizers: {'', 'jit', 'tvm', 'inductor', 'openxla', 'cudagraphs', 'onnxrt', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -258,7 +258,7 @@ collecting ... collected 50 items
 ../publishablew/kornia/kornia/tests/geometry/transform/test_affine.py::TestGetAffineMatrix::test_smoke[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/transform/test_affine.py::TestGetShearMatrix::test_get_shear_matrix2d_with_controlled_values[cpu-float32] PASSED
 
-======================== 45 passed, 5 skipped in 2.18s =========================
+======================== 45 passed, 5 skipped in 2.19s =========================
 
 
 Initial Result:
@@ -287,7 +287,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'cudagraphs', 'onnxrt', 'inductor', 'openxla', None, 'tvm'}
+available optimizers: {'', 'jit', 'inductor', 'openxla', 'onnxrt', 'tvm', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -346,4 +346,4 @@ collecting ... collected 50 items
 ../publishablew/kornia/kornia/tests/geometry/transform/test_affine.py::TestGetAffineMatrix::test_smoke[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/transform/test_affine.py::TestGetShearMatrix::test_get_shear_matrix2d_with_controlled_values[cpu-float32] PASSED
 
-======================== 45 passed, 5 skipped in 2.20s =========================
+======================== 45 passed, 5 skipped in 2.43s =========================

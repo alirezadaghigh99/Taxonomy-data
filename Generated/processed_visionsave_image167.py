@@ -1,35 +1,38 @@
 import torch
-import numpy as np
-from PIL import Image
 from torchvision.utils import make_grid
-from pathlib import Path
+from PIL import Image
+import numpy as np
+import pathlib
 
 def save_image(tensor, fp, format=None, **kwargs):
     # Check if the input is a list of tensors
     if isinstance(tensor, list):
-        # Stack the list of tensors into a single tensor
-        tensor = torch.stack(tensor)
-    
-    # If the tensor is a mini-batch, arrange it into a grid
-    if tensor.ndimension() == 4:
+        # Use make_grid to arrange the list of tensors into a grid
         tensor = make_grid(tensor, **kwargs)
     
-    # Normalize and clamp the tensor to the [0, 255] range
-    tensor = tensor.clone()  # Avoid modifying the original tensor
-    tensor = tensor.mul(255).clamp(0, 255).byte()
+    # Ensure the tensor is on the CPU and detach it from the computation graph
+    tensor = tensor.cpu().detach()
+    
+    # Normalize and clamp the tensor to the range [0, 1]
+    tensor = tensor.clamp(0, 1)
     
     # Convert the tensor to a NumPy array
-    array = tensor.permute(1, 2, 0).cpu().numpy()
+    # If the tensor is in the shape (C, H, W), we need to permute it to (H, W, C)
+    if tensor.ndimension() == 3:
+        tensor = tensor.permute(1, 2, 0)
     
-    # Create a PIL image from the NumPy array
+    # Convert to a NumPy array and scale to [0, 255]
+    array = (tensor.numpy() * 255).astype(np.uint8)
+    
+    # Create a PIL Image from the NumPy array
     image = Image.fromarray(array)
     
-    # If no format is provided, infer it from the file path
+    # Determine the format if not provided
     if format is None:
-        if isinstance(fp, (str, Path)):
-            format = Path(fp).suffix[1:]  # Get the file extension without the dot
+        if isinstance(fp, (str, pathlib.Path)):
+            format = pathlib.Path(fp).suffix[1:]  # Get the file extension without the dot
         else:
-            raise ValueError("Format must be specified when using a file-like object")
+            raise ValueError("Format must be specified when using a file-like object.")
     
     # Save the image
     image.save(fp, format=format)

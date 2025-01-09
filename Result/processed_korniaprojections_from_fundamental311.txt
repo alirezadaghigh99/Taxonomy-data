@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'onnxrt', 'openxla', 'tvm', 'inductor', 'cudagraphs', None}
+available optimizers: {'', 'cudagraphs', 'tvm', None, 'jit', 'onnxrt', 'openxla', 'inductor'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -49,7 +49,7 @@ collecting ... collected 5 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionsFromFundamental::test_shape[cpu-float32-4] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionsFromFundamental::test_gradcheck[cpu] PASSED
 
-============================== 5 passed in 0.20s ===============================
+============================== 5 passed in 0.17s ===============================
 
 
 Final Test Result:
@@ -78,7 +78,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'inductor', 'openxla', 'jit', 'onnxrt', 'cudagraphs', None}
+available optimizers: {'', 'cudagraphs', 'tvm', 'onnxrt', 'inductor', 'openxla', 'jit', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -92,7 +92,7 @@ collecting ... collected 5 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionsFromFundamental::test_shape[cpu-float32-4] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionsFromFundamental::test_gradcheck[cpu] PASSED
 
-============================== 5 passed in 0.15s ===============================
+============================== 5 passed in 0.17s ===============================
 
 
 Initial Result:
@@ -121,7 +121,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'openxla', 'cudagraphs', 'onnxrt', 'tvm', 'inductor', None}
+available optimizers: {'', 'tvm', 'cudagraphs', 'inductor', 'jit', 'openxla', 'onnxrt', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -135,4 +135,4 @@ collecting ... collected 5 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionsFromFundamental::test_shape[cpu-float32-4] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionsFromFundamental::test_gradcheck[cpu] PASSED
 
-============================== 5 passed in 0.18s ===============================
+============================== 5 passed in 0.19s ===============================

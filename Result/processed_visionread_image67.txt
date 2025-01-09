@@ -9,7 +9,7 @@ Corrupt JPEG data: bad Huffman code
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cpu] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-grace_hopper_517x606.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-cmyk_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.GRAY-shape0]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png[shape0]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_interlaced_png', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-gray_pytorch.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-False-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-cmyk_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-grace_hopper_517x606.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png[shape2] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cpu]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-cmyk_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg[True-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_write_jpeg[False-grace_hopper_517x606.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_image - Ty...', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cuda] FAILED', '../publishablew/vision/vision/test/test_image.py::test_read_image FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg[False-grace_hopper_517x606.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-False-cuda]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.UNCHANGED-shape2]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-cmyk_pytorch.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-gray_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.UNCHANGED-shape0] FAILED', '../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.GRAY-shape0] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.GRAY-shape1]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-gray_pytorch.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.UNCHANGED-shape1] FAILED', '../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png[shape0] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-rgb_pytorch.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-rgb_pytorch.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-False-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cpu]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-rgb_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-rgb_pytorch.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-gray_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cuda]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-rgb_pytorch.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-rgb_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-False-cpu] FAILED', '../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.UNCHANGED-shape2] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cuda]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg[True-grace_hopper_517x606.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_write_jpeg[False-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg[False-grace_hopper_517x606.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.UNCHANGED-shape1]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda_device_param FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-gray_pytorch.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-cmyk_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-cmyk_pytorch.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-rgb_pytorch.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-False-cpu]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-rgb_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png[shape2]', '../publishablew/vision/vision/test/test_image.py::test_pathlib_support FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-gray_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.GRAY-shape2] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-grace_hopper_517x606.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.GRAY-shape1] FAILED', '../publishablew/vision/vision/test/test_image.py::test_read_interlaced_png FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-gray_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda_device_param', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_write_jpeg[True-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png[shape1] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-False-cpu]', '../publishablew/vision/vision/test/test_image.py::test_write_jpeg[True-grace_hopper_517x606.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.UNCHANGED-shape0]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png[shape1]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-False-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-False-cuda]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-cmyk_pytorch.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_pathlib_support', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cpu] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-gray_pytorch.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.GRAY-shape2]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-grace_hopper_517x606.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-cmyk_pytorch.jpg] FAILED'}
+{'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-gray_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-rgb_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cpu]', '../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png[shape2] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-gray_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.GRAY-shape1]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-False-cuda]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-cmyk_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cpu] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-cmyk_pytorch.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-False-cuda] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-False-cuda]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cuda]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-grace_hopper_517x606.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.GRAY-shape0] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-gray_pytorch.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-gray_pytorch.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cuda] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cuda] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-grace_hopper_517x606.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.GRAY-shape0]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-rgb_pytorch.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-gray_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png[shape1] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-False-cuda] FAILED', '../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.UNCHANGED-shape0] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_read_image FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-cmyk_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-cmyk_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-False-cpu] FAILED', '../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png[shape0] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-False-cpu]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.GRAY-shape2]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg[True-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-True-cpu] FAILED', '../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.UNCHANGED-shape1] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg[False-grace_hopper_517x606.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-grace_hopper_517x606.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.UNCHANGED-shape1]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png[shape0]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-rgb_pytorch.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.UNCHANGED-shape2] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cuda]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png[shape2]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-gray_pytorch.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_read_interlaced_png FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.UNCHANGED-shape0]', '../publishablew/vision/vision/test/test_image.py::test_pathlib_support FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-grace_hopper_517x606.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_interlaced_png', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-cmyk_pytorch.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-rgb_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-grace_hopper_517x606.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-grace_hopper_517x606.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_write_jpeg[True-grace_hopper_517x606.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.UNCHANGED-shape2]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-rgb_pytorch.jpg] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda_device_param FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg[True-grace_hopper_517x606.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda_device_param', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg[False-grace_hopper_517x606.jpg]', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-cmyk_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-gray_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.GRAY-shape1] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-rgb_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_write_jpeg[False-grace_hopper_517x606.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-False-cmyk_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_write_jpeg[True-grace_hopper_517x606.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_pathlib_support', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-False-cpu]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-True-rgb_pytorch.jpg]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png[shape1]', '../publishablew/vision/vision/test/test_image.py::test_read_1_bit_png_consistency[ImageReadMode.GRAY-shape2] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[True-True-cpu]', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-rgb_pytorch.jpg]', '../publishablew/vision/vision/test/test_image.py::test_write_jpeg[False-grace_hopper_517x606.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_read_image - Ty...', '../publishablew/vision/vision/test/test_image.py::test_encode_jpegs_batch[False-False-cpu] FAILED', '../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[True-True-cmyk_pytorch.jpg] FAILED', 'FAILED ../publishablew/vision/vision/test/test_image.py::test_encode_jpeg_cuda[False-False-gray_pytorch.jpg]'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -631,7 +631,7 @@ _______________________________ test_read_image ________________________________
     out = read_image(path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -641,7 +641,7 @@ _________________________ test_read_1_bit_png[shape0] __________________________
     img1 = read_image(image_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -651,7 +651,7 @@ _________________________ test_read_1_bit_png[shape1] __________________________
     img1 = read_image(image_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -661,7 +661,7 @@ _________________________ test_read_1_bit_png[shape2] __________________________
     img1 = read_image(image_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -671,7 +671,7 @@ _______ test_read_1_bit_png_consistency[ImageReadMode.UNCHANGED-shape0] ________
     img1 = read_image(image_path, mode)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -681,7 +681,7 @@ _______ test_read_1_bit_png_consistency[ImageReadMode.UNCHANGED-shape1] ________
     img1 = read_image(image_path, mode)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -691,7 +691,7 @@ _______ test_read_1_bit_png_consistency[ImageReadMode.UNCHANGED-shape2] ________
     img1 = read_image(image_path, mode)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -701,7 +701,7 @@ __________ test_read_1_bit_png_consistency[ImageReadMode.GRAY-shape0] __________
     img1 = read_image(image_path, mode)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -711,7 +711,7 @@ __________ test_read_1_bit_png_consistency[ImageReadMode.GRAY-shape1] __________
     img1 = read_image(image_path, mode)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -721,7 +721,7 @@ __________ test_read_1_bit_png_consistency[ImageReadMode.GRAY-shape2] __________
     img1 = read_image(image_path, mode)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -731,7 +731,7 @@ ___________________________ test_read_interlaced_png ___________________________
     img1 = read_image(imgs[0])
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -741,7 +741,7 @@ _______________ test_encode_jpeg[True-grace_hopper_517x606.jpg] ________________
     img = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -751,7 +751,7 @@ _______________ test_encode_jpeg[False-grace_hopper_517x606.jpg] _______________
     img = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -761,7 +761,7 @@ ______________________ test_encode_jpeg_cuda_device_param ______________________
     data = read_image(path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -771,7 +771,7 @@ _________ test_encode_jpeg_cuda[False-False-grace_hopper_517x606.jpg] __________
     decoded_image_tv = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -781,7 +781,7 @@ _____________ test_encode_jpeg_cuda[False-False-cmyk_pytorch.jpg] ______________
     decoded_image_tv = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -791,7 +791,7 @@ _____________ test_encode_jpeg_cuda[False-False-gray_pytorch.jpg] ______________
     decoded_image_tv = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -801,7 +801,7 @@ ______________ test_encode_jpeg_cuda[False-False-rgb_pytorch.jpg] ______________
     decoded_image_tv = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -811,7 +811,7 @@ __________ test_encode_jpeg_cuda[False-True-grace_hopper_517x606.jpg] __________
     decoded_image_tv = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -821,7 +821,7 @@ ______________ test_encode_jpeg_cuda[False-True-cmyk_pytorch.jpg] ______________
     decoded_image_tv = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -831,7 +831,7 @@ ______________ test_encode_jpeg_cuda[False-True-gray_pytorch.jpg] ______________
     decoded_image_tv = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -841,7 +841,7 @@ ______________ test_encode_jpeg_cuda[False-True-rgb_pytorch.jpg] _______________
     decoded_image_tv = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -851,7 +851,7 @@ __________ test_encode_jpeg_cuda[True-False-grace_hopper_517x606.jpg] __________
     decoded_image_tv = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -861,7 +861,7 @@ ______________ test_encode_jpeg_cuda[True-False-cmyk_pytorch.jpg] ______________
     decoded_image_tv = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -871,7 +871,7 @@ ______________ test_encode_jpeg_cuda[True-False-gray_pytorch.jpg] ______________
     decoded_image_tv = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -881,7 +881,7 @@ ______________ test_encode_jpeg_cuda[True-False-rgb_pytorch.jpg] _______________
     decoded_image_tv = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -891,7 +891,7 @@ __________ test_encode_jpeg_cuda[True-True-grace_hopper_517x606.jpg] ___________
     decoded_image_tv = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -901,7 +901,7 @@ ______________ test_encode_jpeg_cuda[True-True-cmyk_pytorch.jpg] _______________
     decoded_image_tv = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -911,7 +911,7 @@ ______________ test_encode_jpeg_cuda[True-True-gray_pytorch.jpg] _______________
     decoded_image_tv = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -921,7 +921,7 @@ _______________ test_encode_jpeg_cuda[True-True-rgb_pytorch.jpg] _______________
     decoded_image_tv = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -931,7 +931,7 @@ ____________________ test_encode_jpegs_batch[True-True-cpu] ____________________
     decoded_image = read_image(jpeg_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -941,7 +941,7 @@ ___________________ test_encode_jpegs_batch[True-True-cuda] ____________________
     decoded_image = read_image(jpeg_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -951,7 +951,7 @@ ___________________ test_encode_jpegs_batch[True-False-cpu] ____________________
     decoded_image = read_image(jpeg_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -961,7 +961,7 @@ ___________________ test_encode_jpegs_batch[True-False-cuda] ___________________
     decoded_image = read_image(jpeg_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -971,7 +971,7 @@ ___________________ test_encode_jpegs_batch[False-True-cpu] ____________________
     decoded_image = read_image(jpeg_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -981,7 +981,7 @@ ___________________ test_encode_jpegs_batch[False-True-cuda] ___________________
     decoded_image = read_image(jpeg_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -991,7 +991,7 @@ ___________________ test_encode_jpegs_batch[False-False-cpu] ___________________
     decoded_image = read_image(jpeg_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -1001,7 +1001,7 @@ __________________ test_encode_jpegs_batch[False-False-cuda] ___________________
     decoded_image = read_image(jpeg_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -1011,7 +1011,7 @@ ________________ test_write_jpeg[True-grace_hopper_517x606.jpg] ________________
     img = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -1021,7 +1021,7 @@ _______________ test_write_jpeg[False-grace_hopper_517x606.jpg] ________________
     img = read_image(img_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -1031,7 +1031,7 @@ _____________________________ test_pathlib_support _____________________________
     read_image(jpeg_path)
 ../publishablew/vision/vision/torchvision/io/image.py:285: in read_image
     return read_image(path, mode, apply_exif_orientation)
-../publishablew/vision/vision/torchvision/io/temp.py:47: in read_image
+../publishablew/vision/vision/torchvision/io/temp.py:48: in read_image
     img = img.convert(mode)
 ../publishablew/vision/vision/venv/lib/python3.11/site-packages/pillow-11.0.0-py3.11-linux-x86_64.egg/PIL/Image.py:1152: in convert
     im = self.im.convert(mode, dither)
@@ -1150,7 +1150,7 @@ FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[False-
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[False-decode_image]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[True-decode_webp]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[True-decode_image]
-====== 46 failed, 531 passed, 26 skipped, 1 xfailed, 8 warnings in 9.78s =======
+====== 46 failed, 531 passed, 26 skipped, 1 xfailed, 8 warnings in 9.30s =======
 
 
 Final Test Result:
@@ -1845,7 +1845,7 @@ FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[False-
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[False-decode_image]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[True-decode_webp]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[True-decode_image]
-======= 5 failed, 564 passed, 26 skipped, 9 xfailed, 9 warnings in 8.43s =======
+======= 5 failed, 564 passed, 26 skipped, 9 xfailed, 9 warnings in 8.27s =======
 
 
 Initial Result:
@@ -2540,4 +2540,4 @@ FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[False-
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[False-decode_image]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[True-decode_webp]
 FAILED ../publishablew/vision/vision/test/test_image.py::test_decode_webp[True-decode_image]
-====== 5 failed, 564 passed, 26 skipped, 9 xfailed, 9 warnings in 25.43s =======
+======= 5 failed, 564 passed, 26 skipped, 9 xfailed, 9 warnings in 8.66s =======

@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/vision/vision/test/test_utils.py::test_flow_to_image[False] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image[True]', '../publishablew/vision/vision/test/test_utils.py::test_flow_to_image[True] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image[False]'}
+{'../publishablew/vision/vision/test/test_utils.py::test_flow_to_image[True] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image[True]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image[False]', '../publishablew/vision/vision/test/test_utils.py::test_flow_to_image[False] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -23,17 +23,39 @@ collecting ... collected 2 items
 
 =================================== FAILURES ===================================
 ___________________________ test_flow_to_image[True] ___________________________
-../publishablew/vision/vision/test/test_utils.py:539: in test_flow_to_image
-    assert_equal(expected_img, img)
-E   AssertionError: The values for attribute 'dtype' do not match: torch.uint8 != torch.float32.
+../publishablew/vision/vision/test/test_utils.py:530: in test_flow_to_image
+    img = utils.flow_to_image(flow)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+../publishablew/vision/vision/torchvision/utils.py:339: in flow_to_image
+    return flow_to_image(flow)
+../publishablew/vision/vision/torchvision/temp.py:33: in flow_to_image
+    max_magnitude = torch.max(magnitude, dim=(1, 2), keepdim=True)[0]
+E   TypeError: max() received an invalid combination of arguments - got (Tensor, keepdim=bool, dim=tuple), but expected one of:
+E    * (Tensor input, *, Tensor out = None)
+E         didn't match because some of the keywords were incorrect: keepdim, dim
+E    * (Tensor input, Tensor other, *, Tensor out = None)
+E    * (Tensor input, int dim, bool keepdim = False, *, tuple of Tensors out = None)
+E    * (Tensor input, name dim, bool keepdim = False, *, tuple of Tensors out = None)
 __________________________ test_flow_to_image[False] ___________________________
-../publishablew/vision/vision/test/test_utils.py:539: in test_flow_to_image
-    assert_equal(expected_img, img)
-E   AssertionError: The values for attribute 'dtype' do not match: torch.uint8 != torch.float32.
+../publishablew/vision/vision/test/test_utils.py:530: in test_flow_to_image
+    img = utils.flow_to_image(flow)
+../publishablew/vision/vision/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+../publishablew/vision/vision/torchvision/utils.py:339: in flow_to_image
+    return flow_to_image(flow)
+../publishablew/vision/vision/torchvision/temp.py:33: in flow_to_image
+    max_magnitude = torch.max(magnitude, dim=(1, 2), keepdim=True)[0]
+E   TypeError: max() received an invalid combination of arguments - got (Tensor, keepdim=bool, dim=tuple), but expected one of:
+E    * (Tensor input, *, Tensor out = None)
+E         didn't match because some of the keywords were incorrect: keepdim, dim
+E    * (Tensor input, Tensor other, *, Tensor out = None)
+E    * (Tensor input, int dim, bool keepdim = False, *, tuple of Tensors out = None)
+E    * (Tensor input, name dim, bool keepdim = False, *, tuple of Tensors out = None)
 =========================== short test summary info ============================
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image[True]
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image[False]
-============================== 2 failed in 0.25s ===============================
+============================== 2 failed in 0.14s ===============================
 
 
 Final Test Result:
@@ -48,7 +70,7 @@ collecting ... collected 2 items
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image[True] PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image[False] PASSED
 
-============================== 2 passed in 0.21s ===============================
+============================== 2 passed in 0.08s ===============================
 
 
 Initial Result:
@@ -63,4 +85,4 @@ collecting ... collected 2 items
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image[True] PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image[False] PASSED
 
-============================== 2 passed in 0.21s ===============================
+============================== 2 passed in 0.10s ===============================

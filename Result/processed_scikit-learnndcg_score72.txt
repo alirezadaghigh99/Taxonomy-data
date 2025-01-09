@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ndcg_negative_ndarray_error FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ndcg_error_single_document', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ndcg_error_single_document FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ndcg_negative_ndarray_error'}
+{'../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ndcg_negative_ndarray_error FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ndcg_error_single_document', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ndcg_negative_ndarray_error', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ndcg_error_single_document FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 215 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[True] I: Seeding RNGs with 557153398
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[True] I: Seeding RNGs with 2053943882
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[False] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve_end_points PASSED
@@ -265,7 +265,7 @@ E           Failed: DID NOT RAISE <class 'ValueError'>
 =========================== short test summary info ============================
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ndcg_negative_ndarray_error
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_ndcg_error_single_document
-================== 2 failed, 213 passed, 3 warnings in 1.22s ===================
+================== 2 failed, 213 passed, 3 warnings in 1.26s ===================
 
 
 Final Test Result:
@@ -277,7 +277,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 215 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[True] I: Seeding RNGs with 1052583207
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[True] I: Seeding RNGs with 1611277587
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[False] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve_end_points PASSED
@@ -494,7 +494,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve_with_probablity_estimates[42] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve_deprecation_warning PASSED
 
-======================= 215 passed, 3 warnings in 1.13s ========================
+======================= 215 passed, 3 warnings in 1.12s ========================
 
 
 Initial Result:
@@ -506,7 +506,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 215 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[True] I: Seeding RNGs with 756320864
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[True] I: Seeding RNGs with 1301543828
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve[False] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve_end_points PASSED
@@ -723,4 +723,4 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_roc_curve_with_probablity_estimates[42] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_ranking.py::test_precision_recall_curve_deprecation_warning PASSED
 
-======================= 215 passed, 3 warnings in 1.11s ========================
+======================= 215 passed, 3 warnings in 1.09s ========================

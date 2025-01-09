@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/color/test_hls.py::TestRgbToHls::test_nan_rgb_to_hls[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/color/test_hls.py::TestRgbToHls::test_jit[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/color/test_hls.py::TestRgbToHls::test_jit[cpu-float32]', '../publishablew/kornia/kornia/tests/color/test_hls.py::TestRgbToHls::test_unit[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/color/test_hls.py::TestRgbToHls::test_nan_rgb_to_hls[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_hls.py::TestRgbToHls::test_unit[cpu-float32]'}
+{'../publishablew/kornia/kornia/tests/color/test_hls.py::TestRgbToHls::test_nan_rgb_to_hls[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/color/test_hls.py::TestRgbToHls::test_unit[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/color/test_hls.py::TestRgbToHls::test_unit[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_hls.py::TestRgbToHls::test_jit[cpu-float32]', '../publishablew/kornia/kornia/tests/color/test_hls.py::TestRgbToHls::test_jit[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/color/test_hls.py::TestRgbToHls::test_nan_rgb_to_hls[cpu-float32]'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'jit', 'onnxrt', 'openxla', 'inductor', None, 'tvm'}
+available optimizers: {'', 'cudagraphs', 'tvm', 'onnxrt', 'openxla', 'jit', 'inductor', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -59,7 +59,7 @@ collecting ... collected 12 items
 =================================== FAILURES ===================================
 _____________________ TestRgbToHls.test_unit[cpu-float32] ______________________
 
-self = <test_hls.TestRgbToHls object at 0x765a6cafdae0>
+self = <test_hls.TestRgbToHls object at 0x7d33694fd8d0>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_unit(self, device, dtype):
@@ -165,12 +165,12 @@ E       AssertionError: Tensor-likes are not close!
 E       
 E       Mismatched elements: 25 / 75 (33.3%)
 E       Greatest absolute difference: 4.935214996337891 at index (0, 2, 3) (up to 0.0031622776601683794 allowed)
-E       Greatest relative difference: 0.8408451080322266 at index (0, 0, 1) (up to 0.01 allowed)
+E       Greatest relative difference: 0.8408451676368713 at index (0, 3, 2) (up to 0.01 allowed)
 
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ________________ TestRgbToHls.test_nan_rgb_to_hls[cpu-float32] _________________
 
-self = <test_hls.TestRgbToHls object at 0x765a6cafde10>
+self = <test_hls.TestRgbToHls object at 0x7d33694fdc00>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_nan_rgb_to_hls(self, device, dtype):
@@ -243,13 +243,13 @@ rtol = 0.0001, atol = 1e-05, kwargs = {}
 E       AssertionError: Tensor-likes are not close!
 E       
 E       Mismatched elements: 50 / 150 (33.3%)
-E       Greatest absolute difference: 0.6666667461395264 at index (0, 0, 0, 0) (up to 1e-05 allowed)
+E       Greatest absolute difference: 0.6666666865348816 at index (0, 0, 0, 0) (up to 1e-05 allowed)
 E       Greatest relative difference: inf at index (0, 0, 0, 0) (up to 0.0001 allowed)
 
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ______________________ TestRgbToHls.test_jit[cpu-float32] ______________________
 
-self = <test_hls.TestRgbToHls object at 0x765a6cafe4d0>
+self = <test_hls.TestRgbToHls object at 0x7d33694fe2c0>
 device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.jit()
@@ -283,9 +283,9 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     stmts = [build_stmt(ctx, s) for s in stmts]
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.jit.frontend.StmtBuilder object at 0x765b475afc10>
-ctx = <torch._sources.SourceContext object at 0x765a6c9c1c60>
-node = <ast.ImportFrom object at 0x765a6c9ad0f0>
+self = <torch.jit.frontend.StmtBuilder object at 0x7d3443fb3d00>
+ctx = <torch._sources.SourceContext object at 0x7d33693c1c60>
+node = <ast.ImportFrom object at 0x7d33693ae620>
 
     def __call__(self, ctx, node):
         method = getattr(self, "build_" + node.__class__.__name__, None)
@@ -332,7 +332,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'tvm', 'inductor', 'cudagraphs', 'onnxrt', 'openxla', None}
+available optimizers: {'', None, 'jit', 'openxla', 'onnxrt', 'inductor', 'cudagraphs', 'tvm'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -353,7 +353,7 @@ collecting ... collected 12 items
 ../publishablew/kornia/kornia/tests/color/test_hls.py::TestRgbToHls::test_jit[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/color/test_hls.py::TestRgbToHls::test_module[cpu-float32] PASSED
 
-============================== 12 passed in 0.22s ==============================
+============================== 12 passed in 0.25s ==============================
 
 
 Initial Result:
@@ -382,7 +382,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'tvm', 'cudagraphs', 'openxla', 'onnxrt', 'inductor', None}
+available optimizers: {'', 'inductor', 'tvm', 'cudagraphs', 'onnxrt', 'jit', 'openxla', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia

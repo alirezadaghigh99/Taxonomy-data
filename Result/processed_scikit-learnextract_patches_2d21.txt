@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 22 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph I: Seeding RNGs with 545463621
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph I: Seeding RNGs with 506282283
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph_sparse PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_grid_to_graph PASSED
@@ -54,7 +54,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 22 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph I: Seeding RNGs with 900047130
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph I: Seeding RNGs with 1880404978
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph_sparse PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_grid_to_graph PASSED
@@ -90,7 +90,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 22 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph I: Seeding RNGs with 94802599
+../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph I: Seeding RNGs with 1463970139
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_img_to_graph_sparse PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/feature_extraction/tests/test_image.py::test_grid_to_graph PASSED

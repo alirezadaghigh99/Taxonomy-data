@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_function[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_module[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_function[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_module[cpu-float32]'}
+{'../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_function[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_module[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_module[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_function[cpu-float32]'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'openxla', 'inductor', 'onnxrt', 'cudagraphs', 'tvm', None}
+available optimizers: {'', 'cudagraphs', 'jit', 'tvm', 'inductor', 'onnxrt', 'openxla', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -52,7 +52,7 @@ collecting ... collected 5 items
 =================================== FAILURES ===================================
 ______________________ TestSTE.test_function[cpu-float32] ______________________
 
-self = <test_ste.TestSTE object at 0x72ebeecc7970>, device = device(type='cpu')
+self = <test_ste.TestSTE object at 0x78f1f0abfa00>, device = device(type='cpu')
 dtype = torch.float32
 
     def test_function(self, device, dtype):
@@ -78,7 +78,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return user_fn(self, *args)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-ctx = <torch.autograd.function.STEFunctionBackward object at 0x72ebeee3fbc0>
+ctx = <torch.autograd.function.STEFunctionBackward object at 0x78f1f0c3bbc0>
 grad_output = tensor([0.2500, 0.2500, 0.2500, 0.2500])
 
     @staticmethod
@@ -89,7 +89,7 @@ E       ImportError: cannot import name 'backward' from 'kornia.grad_estimator.t
 ../publishablew/kornia/kornia/kornia/grad_estimator/ste.py:43: ImportError
 _______________________ TestSTE.test_module[cpu-float32] _______________________
 
-self = <test_ste.TestSTE object at 0x72ebeecc7f10>, device = device(type='cpu')
+self = <test_ste.TestSTE object at 0x78f1f090c0a0>, device = device(type='cpu')
 dtype = torch.float32
 
     def test_module(self, device, dtype):
@@ -111,7 +111,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return user_fn(self, *args)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-ctx = <torch.autograd.function.STEFunctionBackward object at 0x72ebeee3fef0>
+ctx = <torch.autograd.function.STEFunctionBackward object at 0x78f1f0c3bef0>
 grad_output = tensor([[[[0.0625, 0.0625, 0.0625, 0.0625],
           [0.0625, 0.0625, 0.0625, 0.0625],
           [0.0625, 0.0625, 0.0625, 0.0625],
@@ -126,7 +126,7 @@ E       ImportError: cannot import name 'backward' from 'kornia.grad_estimator.t
 =========================== short test summary info ============================
 FAILED ../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_function[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_module[cpu-float32]
-==================== 2 failed, 1 passed, 2 skipped in 0.34s ====================
+==================== 2 failed, 1 passed, 2 skipped in 0.35s ====================
 
 
 Final Test Result:
@@ -155,7 +155,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'inductor', 'cudagraphs', 'jit', 'openxla', 'onnxrt', 'tvm', None}
+available optimizers: {'', 'cudagraphs', 'onnxrt', 'tvm', 'openxla', 'inductor', 'jit', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -198,7 +198,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'tvm', 'cudagraphs', 'jit', 'openxla', 'inductor', None}
+available optimizers: {'', 'cudagraphs', 'openxla', 'jit', 'inductor', 'tvm', 'onnxrt', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -212,4 +212,4 @@ collecting ... collected 5 items
 ../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_jit[cpu-float32] SKIPPED
 ../publishablew/kornia/kornia/tests/grad_estimator/test_ste.py::TestSTE::test_onnx[cpu-float32] SKIPPED
 
-========================= 3 passed, 2 skipped in 0.16s =========================
+========================= 3 passed, 2 skipped in 0.23s =========================

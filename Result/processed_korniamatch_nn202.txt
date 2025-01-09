@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'cudagraphs', 'tvm', 'inductor', 'jit', 'openxla', None}
+available optimizers: {'', 'inductor', 'tvm', 'openxla', 'onnxrt', 'cudagraphs', 'jit', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -51,7 +51,7 @@ collecting ... collected 7 items
 ../publishablew/kornia/kornia/tests/feature/test_matching.py::TestMatchSNN::test_matching2[cpu] PASSED
 ../publishablew/kornia/kornia/tests/feature/test_matching.py::TestMatchSNN::test_gradcheck[cpu] PASSED
 
-============================== 7 passed in 0.15s ===============================
+============================== 7 passed in 0.18s ===============================
 
 
 Final Test Result:
@@ -80,7 +80,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'inductor', 'cudagraphs', 'jit', 'tvm', 'onnxrt', None}
+available optimizers: {'', 'jit', 'tvm', 'openxla', 'onnxrt', 'cudagraphs', 'inductor', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -96,7 +96,7 @@ collecting ... collected 7 items
 ../publishablew/kornia/kornia/tests/feature/test_matching.py::TestMatchSNN::test_matching2[cpu] PASSED
 ../publishablew/kornia/kornia/tests/feature/test_matching.py::TestMatchSNN::test_gradcheck[cpu] PASSED
 
-============================== 7 passed in 0.12s ===============================
+============================== 7 passed in 0.18s ===============================
 
 
 Initial Result:
@@ -125,7 +125,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'jit', 'cudagraphs', 'inductor', 'openxla', 'onnxrt', None}
+available optimizers: {'', 'openxla', 'inductor', 'tvm', 'cudagraphs', 'onnxrt', 'jit', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -141,4 +141,4 @@ collecting ... collected 7 items
 ../publishablew/kornia/kornia/tests/feature/test_matching.py::TestMatchSNN::test_matching2[cpu] PASSED
 ../publishablew/kornia/kornia/tests/feature/test_matching.py::TestMatchSNN::test_gradcheck[cpu] PASSED
 
-============================== 7 passed in 0.16s ===============================
+============================== 7 passed in 0.21s ===============================

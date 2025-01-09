@@ -2,50 +2,56 @@ import torch
 import torch.nn.functional as F
 
 def filter2d(input, kernel, border_type='constant', normalized=False, padding='same', behaviour='corr'):
-    """
-    Convolve a tensor with a 2d kernel.
+    # Validate input dimensions
+    if len(input.shape) != 4:
+        raise ValueError("Input tensor must have shape (B, C, H, W)")
+    
+    if len(kernel.shape) not in [3]:
+        raise ValueError("Kernel must have shape (1, kH, kW) or (B, kH, kW)")
 
-    Args:
-        input (torch.Tensor): the input tensor with shape of (B, C, H, W).
-        kernel (torch.Tensor): the kernel to be convolved with the input tensor. 
-                               The kernel shape must be (1, kH, kW) or (B, kH, kW).
-        border_type (str): the padding mode to be applied before convolving. 
-                           The expected modes are: 'constant', 'reflect', 'replicate' or 'circular'.
-        normalized (bool): If True, kernel will be L1 normalized.
-        padding (str): This defines the type of padding. 2 modes available 'same' or 'valid'.
-        behaviour (str): defines the convolution mode -- correlation (default), using pytorch conv2d,
-                         or true convolution (kernel is flipped). 2 modes available 'corr' or 'conv'.
-
-    Returns:
-        torch.Tensor: the convolved tensor of same size and numbers of channels as the input with shape (B, C, H, W).
-    """
     B, C, H, W = input.shape
-    if kernel.dim() == 3:
-        kernel = kernel.unsqueeze(1)  # (B, 1, kH, kW)
-    elif kernel.dim() == 2:
-        kernel = kernel.unsqueeze(0).unsqueeze(0)  # (1, 1, kH, kW)
-    else:
-        raise ValueError("Kernel must be of shape (1, kH, kW) or (B, kH, kW)")
+    kB, kH, kW = kernel.shape
 
+    # Normalize the kernel if required
     if normalized:
         kernel = kernel / kernel.sum(dim=(-2, -1), keepdim=True)
 
+    # Handle padding
+    if padding == 'same':
+        pad_h = (kH - 1) // 2
+        pad_w = (kW - 1) // 2
+    elif padding == 'valid':
+        pad_h = 0
+        pad_w = 0
+    else:
+        raise ValueError("Padding must be 'same' or 'valid'")
+
+    # Apply padding
+    if border_type == 'constant':
+        input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='constant', value=0)
+    elif border_type == 'reflect':
+        input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='reflect')
+    elif border_type == 'replicate':
+        input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='replicate')
+    elif border_type == 'circular':
+        input_padded = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode='circular')
+    else:
+        raise ValueError("Invalid border_type. Expected 'constant', 'reflect', 'replicate', or 'circular'.")
+
+    # Flip the kernel for convolution if behaviour is 'conv'
     if behaviour == 'conv':
         kernel = torch.flip(kernel, dims=(-2, -1))
 
-    if padding == 'same':
-        pad_h = (kernel.shape[-2] - 1) // 2
-        pad_w = (kernel.shape[-1] - 1) // 2
-        input = F.pad(input, (pad_w, pad_w, pad_h, pad_h), mode=border_type)
-    elif padding != 'valid':
-        raise ValueError("Padding must be 'same' or 'valid'")
+    # Expand kernel to match input channels
+    kernel = kernel.expand(B, C, kH, kW)
 
+    # Perform convolution
     output = torch.zeros_like(input)
     for b in range(B):
         for c in range(C):
-            output[b, c] = F.conv2d(input[b, c].unsqueeze(0).unsqueeze(0), kernel[b % kernel.shape[0]], padding=0).squeeze(0).squeeze(0)
+            output[b, c] = F.conv2d(input_padded[b, c].unsqueeze(0).unsqueeze(0), 
+                                    kernel[b, c].unsqueeze(0).unsqueeze(0), 
+                                    padding=0).squeeze()
 
-    if padding == 'same':
-        return output[:, :, pad_h:H+pad_h, pad_w:W+pad_w]
     return output
 

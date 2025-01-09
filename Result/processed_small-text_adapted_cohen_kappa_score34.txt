@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_labels FAILED', '../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_sample_weights FAILED', 'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_sample_weights', '../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_sample_weight FAILED', 'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_sample_weight', 'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_weights', 'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_labels', '../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_weights FAILED'}
+{'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_labels', '../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_weights FAILED', 'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_sample_weights', '../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_sample_weight FAILED', 'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_weights', 'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement', 'FAILED ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_sample_weight', '../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_labels FAILED', '../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_sample_weights FAILED', '../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -19,13 +19,26 @@ plugins: srcpaths-1.2.1, cov-6.0.0, approvaltests-14.2.0, approvaltests-0.2.4
 collecting ... collected 6 items
 
 ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_with_perfect_agreement PASSED
-../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement PASSED
+../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement FAILED
 ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_labels FAILED
 ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_sample_weight FAILED
 ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_sample_weights FAILED
 ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_weights FAILED
 
 =================================== FAILURES ===================================
+___________ TestAdaptedCohenKappScore.test_without_perfect_agreement ___________
+
+self = <tests.unit.small_text.stopping_criteria.test_kappa.TestAdaptedCohenKappScore testMethod=test_without_perfect_agreement>
+
+    def test_without_perfect_agreement(self):
+        self.assertEqual(0.0, _adapted_cohen_kappa_score(np.array([0, 0, 0, 0, 0]), np.array([1, 1, 1, 1, 1])))
+        self.assertAlmostEqual(0.166,
+                               _adapted_cohen_kappa_score(np.array([0, 0, 0, 1, 1]), np.array([0, 1, 0, 1, 0])),
+                               places=2)
+>       self.assertEqual(-0.25, _adapted_cohen_kappa_score(np.array([0, 1, 1, 1, 1]), np.array([1, 1, 1, 1, 0])))
+E       AssertionError: -0.25 != -0.24999999999999983
+
+../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py:16: AssertionError
 _____ TestAdaptedCohenKappScore.test_without_perfect_agreement_and_labels ______
 
 self = <tests.unit.small_text.stopping_criteria.test_kappa.TestAdaptedCohenKappScore testMethod=test_without_perfect_agreement_and_labels>
@@ -42,7 +55,7 @@ self = <tests.unit.small_text.stopping_criteria.test_kappa.TestAdaptedCohenKappS
                                    labels=[1, 2]
                                ),
                                places=2)
-E       AssertionError: 0.399 != 0.4444444444444444 within 2 places (0.0454444444444444 difference)
+E       AssertionError: 0.399 != 0.4444444444444445 within 2 places (0.045444444444444454 difference)
 
 ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py:62: AssertionError
 __ TestAdaptedCohenKappScore.test_without_perfect_agreement_and_sample_weight __
@@ -61,7 +74,7 @@ self = <tests.unit.small_text.stopping_criteria.test_kappa.TestAdaptedCohenKappS
                                    sample_weight=[0.1, 1.0, 0.1, 1.0, 1.0]
                                ),
                                places=2)
-E       AssertionError: 0.932 != 0.6153846153846154 within 2 places (0.31661538461538463 difference)
+E       AssertionError: 0.932 != 0.6153846153846155 within 2 places (0.3166153846153845 difference)
 
 ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py:36: AssertionError
 _ TestAdaptedCohenKappScore.test_without_perfect_agreement_and_sample_weights __
@@ -80,7 +93,7 @@ self = <tests.unit.small_text.stopping_criteria.test_kappa.TestAdaptedCohenKappS
                                    sample_weight=[0.1, 1.0, 0.1, 1.0, 1.0]
                                ),
                                places=2)
-E       AssertionError: 0.932 != 0.6153846153846154 within 2 places (0.31661538461538463 difference)
+E       AssertionError: 0.932 != 0.6153846153846155 within 2 places (0.3166153846153845 difference)
 
 ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py:23: AssertionError
 _____ TestAdaptedCohenKappScore.test_without_perfect_agreement_and_weights _____
@@ -99,7 +112,7 @@ self = <tests.unit.small_text.stopping_criteria.test_kappa.TestAdaptedCohenKappS
                                    weights='quadratic'
                                ),
                                places=2)
-E       AssertionError: 0.666 != 0.4444444444444444 within 2 places (0.22155555555555562 difference)
+E       AssertionError: 0.666 != 0.4444444444444445 within 2 places (0.22155555555555556 difference)
 
 ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py:49: AssertionError
 =============================== warnings summary ===============================
@@ -109,11 +122,12 @@ tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
 =========================== short test summary info ============================
+FAILED ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement
 FAILED ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_labels
 FAILED ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_sample_weight
 FAILED ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_sample_weights
 FAILED ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_weights
-==================== 4 failed, 2 passed, 1 warning in 1.62s ====================
+==================== 5 failed, 1 passed, 1 warning in 1.69s ====================
 
 
 Final Test Result:
@@ -132,7 +146,7 @@ collecting ... collected 6 items
 ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_sample_weights PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_weights PASSED
 
-============================== 6 passed in 1.53s ===============================
+============================== 6 passed in 1.58s ===============================
 
 
 Initial Result:
@@ -151,4 +165,4 @@ collecting ... collected 6 items
 ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_sample_weights PASSED
 ../publishablew/small-text/small-text/tests/unit/small_text/stopping_criteria/test_kappa.py::TestAdaptedCohenKappScore::test_without_perfect_agreement_and_weights PASSED
 
-============================== 6 passed in 1.61s ===============================
+============================== 6 passed in 1.70s ===============================

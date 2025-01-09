@@ -1,42 +1,37 @@
 import torch
 
 def _assert_image_tensor(img):
+    """Check if the input is a valid image tensor."""
     if not isinstance(img, torch.Tensor):
-        raise TypeError("Input image must be a tensor.")
-    if img.dtype not in [torch.uint8, torch.float32, torch.float64]:
-        raise TypeError("Image tensor must have dtype uint8, float32, or float64.")
+        raise TypeError("Input must be a torch.Tensor.")
+    if img.ndim < 3:
+        raise TypeError("Image tensor must have at least 3 dimensions (C, H, W).")
 
 def _assert_channels(img):
-    if img.shape[-3] not in [1, 3]:
+    """Check if the image tensor has either 1 or 3 channels."""
+    if img.shape[0] not in (1, 3):
         raise TypeError("Image tensor must have 1 or 3 channels.")
 
 def invert(img):
-    if img.dtype == torch.uint8:
-        return 255 - img
-    else:
-        return 1.0 - img
+    """Invert the image tensor."""
+    max_val = torch.iinfo(img.dtype).max
+    return max_val - img
 
 def solarize(img, threshold):
-    # Validate the input image tensor
+    """Apply solarization effect to the image tensor."""
     _assert_image_tensor(img)
-    
-    # Ensure the image tensor has at least 3 dimensions
-    if img.ndim < 3:
-        raise TypeError("Image tensor must have at least 3 dimensions.")
-    
-    # Validate the number of channels
     _assert_channels(img)
-    
+
     # Check if the threshold is valid
-    max_value = 255 if img.dtype == torch.uint8 else 1.0
-    if threshold > max_value:
-        raise TypeError("Threshold value exceeds the maximum value of the image tensor's data type.")
-    
-    # Invert the image tensor
+    max_val = torch.iinfo(img.dtype).max
+    if threshold > max_val:
+        raise TypeError("Threshold value cannot be greater than the maximum value of the image tensor's data type.")
+
+    # Invert the image
     inverted_img = invert(img)
-    
-    # Apply the solarize effect
+
+    # Apply the solarization effect
     solarized_img = torch.where(img >= threshold, inverted_img, img)
-    
+
     return solarized_img
 

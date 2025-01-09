@@ -5,77 +5,77 @@ find_predicted_neq_given
 Error Cases:
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 566319.53it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 595993.46it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 855980.41it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 857073.61it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1061849.11it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1063531.92it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 822.75it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 821.69it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 873.39it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 872.20it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 260it [00:00, 1278451.40it/s]          
+number of examples processed for estimating thresholds: 260it [00:00, 1329901.27it/s]          
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 260it [00:00, 8403.22it/s]             
+number of examples processed for checking labels: 260it [00:00, 8125.04it/s]             
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 27039.31it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 27399.20it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 38130.04it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 38212.54it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1579032.09it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1597830.10it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 2379746.95it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 2396745.14it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1901100.96it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1906501.82it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 2532409.96it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 2494753.31it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 677867.31it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 676500.65it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 426358.73it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 410954.46it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1109237.42it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 1125987.65it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 845.20it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 844.24it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 864.78it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 863.71it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 260it [00:00, 1500026.19it/s]          
+number of examples processed for estimating thresholds: 260it [00:00, 1118481.07it/s]          
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 260it [00:00, 7936.99it/s]             
+number of examples processed for checking labels: 260it [00:00, 8008.51it/s]             
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 812455.98it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 924364.52it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 744826.46it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 934663.84it/s]
 
 number of examples processed for estimating thresholds:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 497840.24it/s]
+number of examples processed for estimating thresholds: 100%|██████████| 160/160 [00:00<00:00, 504957.59it/s]
 
 number of examples processed for checking labels:   0%|          | 0/160 [00:00<?, ?it/s]
-number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 661171.07it/s]
+number of examples processed for checking labels: 100%|██████████| 160/160 [00:00<00:00, 712408.32it/s]
 
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_prune_on_small_data[predicted_neq_given]', '../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_find_label_issue_filters_match_origin_functions FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_predicted_neq_given_filter_multilabel', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_predicted_neq_given_filter', '../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_predicted_neq_given_filter_multilabel FAILED', '../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_missing_classes FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_does_not_flag_correct_examples[predicted_neq_given]', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_find_label_issue_filters_match_origin_functions', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_missing_classes', '../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_prune_on_small_data[predicted_neq_given] FAILED', '../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_does_not_flag_correct_examples[predicted_neq_given] FAILED', '../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_predicted_neq_given_filter FAILED'}
+{'../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_predicted_neq_given_filter_multilabel FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_prune_on_small_data[predicted_neq_given]', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_predicted_neq_given_filter_multilabel', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_find_label_issue_filters_match_origin_functions', '../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_missing_classes FAILED', '../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_predicted_neq_given_filter FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_missing_classes', '../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_prune_on_small_data[predicted_neq_given] FAILED', '../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_does_not_flag_correct_examples[predicted_neq_given] FAILED', '../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_find_label_issue_filters_match_origin_functions FAILED', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_does_not_flag_correct_examples[predicted_neq_given]', 'FAILED ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_predicted_neq_given_filter'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -559,7 +559,7 @@ FAILED ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_predic
 FAILED ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_find_label_issue_filters_match_origin_functions
 FAILED ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_missing_classes
 FAILED ../publishablew/cleanlab/cleanlab/tests/test_filter_count.py::test_does_not_flag_correct_examples[predicted_neq_given]
-================= 6 failed, 129 passed, 65 warnings in 35.47s ==================
+================= 6 failed, 129 passed, 65 warnings in 31.94s ==================
 
 
 Final Test Result:
@@ -763,7 +763,7 @@ tests/test_filter_count.py::test_find_label_issues_match_multiprocessing
     warnings.warn(
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-====================== 135 passed, 66 warnings in 35.47s =======================
+====================== 135 passed, 66 warnings in 34.03s =======================
 
 
 Initial Result:
@@ -967,4 +967,4 @@ tests/test_filter_count.py::test_find_label_issues_match_multiprocessing
     warnings.warn(
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-====================== 135 passed, 66 warnings in 36.99s =======================
+====================== 135 passed, 66 warnings in 33.89s =======================

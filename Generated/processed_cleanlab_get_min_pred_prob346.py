@@ -8,10 +8,10 @@ def _get_min_pred_prob(predictions):
     for prediction in predictions:
         # Extract the last column of each class prediction
         last_column = prediction[:, -1]
-        # Append the extracted values to the pred_probs list
+        # Append the extracted values to pred_probs
         pred_probs.extend(last_column)
     
     # Calculate the minimum value in the pred_probs list
     min_pred_prob = np.min(pred_probs)
     
-    return float(min_pred_prob)
+    return min_pred_prob

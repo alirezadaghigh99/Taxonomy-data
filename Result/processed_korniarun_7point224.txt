@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_shape_7point[cpu-float32-3] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_synthetic_sampson_7point[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_shape_7point[cpu-float32-1]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_shape_7point[cpu-float32-3]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_shape_7point[cpu-float32-2]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_shape_7point[cpu-float32-2] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_shape_7point[cpu-float32-1] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_7point_opencv[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_synthetic_sampson_7point[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_7point_opencv[cpu-float32]'}
+{'../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_synthetic_sampson_7point[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_shape_7point[cpu-float32-1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_shape_7point[cpu-float32-1]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_shape_7point[cpu-float32-3]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_7point_opencv[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_7point_opencv[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_shape_7point[cpu-float32-2]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_shape_7point[cpu-float32-3] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_shape_7point[cpu-float32-2] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_synthetic_sampson_7point[cpu-float32]'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'onnxrt', 'openxla', 'tvm', 'jit', 'inductor', None}
+available optimizers: {'', 'openxla', 'inductor', 'tvm', 'onnxrt', 'jit', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -63,7 +63,7 @@ collecting ... collected 16 items
 =================================== FAILURES ===================================
 _____________ TestFindFundamental.test_shape_7point[cpu-float32-1] _____________
 
-self = <test_fundamental.TestFindFundamental object at 0x7ed01d6fb070>
+self = <test_fundamental.TestFindFundamental object at 0x7079608db520>
 batch_size = 1, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 3])
@@ -80,19 +80,19 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     result = run_7point(points1, points2)
 ../publishablew/kornia/kornia/kornia/geometry/epipolar/fundamental.py:62: in run_7point
     return run_7point(points1, points2)
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:70: in run_7point
-    points1, T1 = normalize_points(points1)
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:13: in normalize_points
+../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:82: in run_7point
+    norm_points1, T1 = normalize_points(points1)
+../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:14: in normalize_points
     mean = np.mean(points, axis=1, keepdims=True)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-a = tensor([[[0.8130, 0.3839],
-         [0.8441, 0.2260],
-         [0.6863, 0.4481],
-         [0.4610, 0.7625],
-         [0.8213, 0.0978],
-         [0.0214, 0.8030],
-         [0.4115, 0.5149]]])
+a = tensor([[[0.6321, 0.3003],
+         [0.3128, 0.7223],
+         [0.0354, 0.0013],
+         [0.4680, 0.0585],
+         [0.3108, 0.7781],
+         [0.5830, 0.9904],
+         [0.0319, 0.5835]]])
 axis = 1, dtype = None, out = None, keepdims = True
 
     @array_function_dispatch(_mean_dispatcher)
@@ -223,7 +223,7 @@ E                     didn't match because some of the keywords were incorrect: 
 ../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/numpy/core/fromnumeric.py:3502: TypeError
 _____________ TestFindFundamental.test_shape_7point[cpu-float32-2] _____________
 
-self = <test_fundamental.TestFindFundamental object at 0x7ed01d6fafb0>
+self = <test_fundamental.TestFindFundamental object at 0x7079608db460>
 batch_size = 2, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 3])
@@ -240,21 +240,21 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     result = run_7point(points1, points2)
 ../publishablew/kornia/kornia/kornia/geometry/epipolar/fundamental.py:62: in run_7point
     return run_7point(points1, points2)
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:70: in run_7point
-    points1, T1 = normalize_points(points1)
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:13: in normalize_points
+../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:82: in run_7point
+    norm_points1, T1 = normalize_points(points1)
+../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:14: in normalize_points
     mean = np.mean(points, axis=1, keepdims=True)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-a = tensor([[[0.2013, 0.2683],
-         [0.6619, 0.4818],
-         [0.4621, 0.7956],
-         [0.4782, 0.0485],
-         [... 0.7165],
-         [0.1348, 0.6198],
-         [0.4311, 0.2852],
-         [0.5213, 0.6050],
-         [0.0712, 0.3691]]])
+a = tensor([[[0.2860, 0.0354],
+         [0.9224, 0.7490],
+         [0.2230, 0.2645],
+         [0.7327, 0.9229],
+         [... 0.0822],
+         [0.3389, 0.2480],
+         [0.4583, 0.1480],
+         [0.2633, 0.4073],
+         [0.6997, 0.0176]]])
 axis = 1, dtype = None, out = None, keepdims = True
 
     @array_function_dispatch(_mean_dispatcher)
@@ -385,7 +385,7 @@ E                     didn't match because some of the keywords were incorrect: 
 ../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/numpy/core/fromnumeric.py:3502: TypeError
 _____________ TestFindFundamental.test_shape_7point[cpu-float32-3] _____________
 
-self = <test_fundamental.TestFindFundamental object at 0x7ed01d6fb2b0>
+self = <test_fundamental.TestFindFundamental object at 0x7079608db760>
 batch_size = 3, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 3])
@@ -402,21 +402,21 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     result = run_7point(points1, points2)
 ../publishablew/kornia/kornia/kornia/geometry/epipolar/fundamental.py:62: in run_7point
     return run_7point(points1, points2)
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:70: in run_7point
-    points1, T1 = normalize_points(points1)
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:13: in normalize_points
+../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:82: in run_7point
+    norm_points1, T1 = normalize_points(points1)
+../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:14: in normalize_points
     mean = np.mean(points, axis=1, keepdims=True)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-a = tensor([[[0.8708, 0.4046],
-         [0.5630, 0.5163],
-         [0.3739, 0.0369],
-         [0.4335, 0.9356],
-         [... 0.9139],
-         [0.5124, 0.8607],
-         [0.5539, 0.8224],
-         [0.0582, 0.6007],
-         [0.8445, 0.7306]]])
+a = tensor([[[0.4395, 0.8158],
+         [0.1003, 0.6534],
+         [0.0450, 0.7513],
+         [0.1763, 0.1152],
+         [... 0.8977],
+         [0.0238, 0.6087],
+         [0.6647, 0.1255],
+         [0.2097, 0.9332],
+         [0.6237, 0.7488]]])
 axis = 1, dtype = None, out = None, keepdims = True
 
     @array_function_dispatch(_mean_dispatcher)
@@ -547,7 +547,7 @@ E                     didn't match because some of the keywords were incorrect: 
 ../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/numpy/core/fromnumeric.py:3502: TypeError
 _____________ TestFindFundamental.test_7point_opencv[cpu-float32] ______________
 
-self = <test_fundamental.TestFindFundamental object at 0x7ed01d6fb8b0>
+self = <test_fundamental.TestFindFundamental object at 0x7079608dbd60>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_7point_opencv(self, device, dtype):
@@ -621,9 +621,9 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     result = run_7point(points1, points2)
 ../publishablew/kornia/kornia/kornia/geometry/epipolar/fundamental.py:62: in run_7point
     return run_7point(points1, points2)
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:70: in run_7point
-    points1, T1 = normalize_points(points1)
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:13: in normalize_points
+../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:82: in run_7point
+    norm_points1, T1 = normalize_points(points1)
+../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:14: in normalize_points
     mean = np.mean(points, axis=1, keepdims=True)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
@@ -764,7 +764,7 @@ E                     didn't match because some of the keywords were incorrect: 
 ../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/numpy/core/fromnumeric.py:3502: TypeError
 ________ TestFindFundamental.test_synthetic_sampson_7point[cpu-float32] ________
 
-self = <test_fundamental.TestFindFundamental object at 0x7ed01d6fbbe0>
+self = <test_fundamental.TestFindFundamental object at 0x7079607180d0>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_synthetic_sampson_7point(self, device, dtype):
@@ -779,19 +779,19 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     result = run_7point(points1, points2)
 ../publishablew/kornia/kornia/kornia/geometry/epipolar/fundamental.py:62: in run_7point
     return run_7point(points1, points2)
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:70: in run_7point
-    points1, T1 = normalize_points(points1)
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:13: in normalize_points
+../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:82: in run_7point
+    norm_points1, T1 = normalize_points(points1)
+../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:14: in normalize_points
     mean = np.mean(points, axis=1, keepdims=True)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-a = tensor([[[48.4912, 54.5165],
-         [53.7398, 68.2976],
-         [53.2289, 51.3044],
-         [42.4947, 56.0682],
-         [59.3167, 50.3062],
-         [58.9962, 50.3998],
-         [66.6975, 59.0406]]])
+a = tensor([[[ 52.7824,  98.7711],
+         [ 17.4335, 108.7369],
+         [ 27.8945, 106.6440],
+         [ 20.7673, 109.7621],
+         [ 33.5900,  92.3942],
+         [ 49.0769,  97.6406],
+         [ 28.9352,  95.5378]]])
 axis = 1, dtype = None, out = None, keepdims = True
 
     @array_function_dispatch(_mean_dispatcher)
@@ -926,7 +926,7 @@ FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py
 FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_shape_7point[cpu-float32-3]
 FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_7point_opencv[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_synthetic_sampson_7point[cpu-float32]
-=================== 5 failed, 10 passed, 1 xfailed in 0.46s ====================
+=================== 5 failed, 10 passed, 1 xfailed in 0.48s ====================
 
 
 Final Test Result:
@@ -955,7 +955,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'jit', 'openxla', 'onnxrt', 'tvm', None, 'inductor'}
+available optimizers: {'', 'tvm', 'cudagraphs', 'onnxrt', 'openxla', 'inductor', 'jit', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -980,7 +980,7 @@ collecting ... collected 16 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_synthetic_sampson[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_gradcheck[cpu] PASSED
 
-======================== 15 passed, 1 xpassed in 0.22s =========================
+======================== 15 passed, 1 xpassed in 0.20s =========================
 
 
 Initial Result:
@@ -1009,7 +1009,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'jit', 'inductor', 'onnxrt', 'tvm', 'cudagraphs', None}
+available optimizers: {'', 'onnxrt', 'openxla', 'inductor', 'jit', None, 'tvm', 'cudagraphs'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -1034,4 +1034,4 @@ collecting ... collected 16 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_synthetic_sampson[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_fundamental.py::TestFindFundamental::test_gradcheck[cpu] PASSED
 
-======================== 15 passed, 1 xpassed in 0.21s =========================
+======================== 15 passed, 1 xpassed in 0.25s =========================

@@ -4,10 +4,10 @@ function:
 KORNIA_CHECK_LAF
 Error Cases:
 
-Pass or Failed: 0
+Pass or Failed: 1
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/kornia/kornia/tests/core/test_check.py::TestCheckLaf::test_valid', '../publishablew/kornia/kornia/tests/core/test_check.py::TestCheckLaf::test_valid FAILED'}
+set()
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'inductor', 'tvm', 'jit', 'cudagraphs', 'openxla', 'onnxrt', None}
+available optimizers: {'', 'jit', 'onnxrt', 'openxla', 'inductor', 'tvm', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -43,57 +43,11 @@ configfile: pyproject.toml
 plugins: timeout-2.3.1
 collecting ... collected 3 items
 
-../publishablew/kornia/kornia/tests/core/test_check.py::TestCheckLaf::test_valid FAILED
+../publishablew/kornia/kornia/tests/core/test_check.py::TestCheckLaf::test_valid PASSED
 ../publishablew/kornia/kornia/tests/core/test_check.py::TestCheckLaf::test_invalid PASSED
 ../publishablew/kornia/kornia/tests/core/test_check.py::TestCheckLaf::test_invalid_raises_false PASSED
 
-=================================== FAILURES ===================================
-___________________________ TestCheckLaf.test_valid ____________________________
-
-self = <test_check.TestCheckLaf object at 0x725df02f51b0>
-
-    def test_valid(self):
->       assert KORNIA_CHECK_LAF(torch.rand(4, 2, 2, 3)) is True
-
-../publishablew/kornia/kornia/tests/core/test_check.py:253: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/core/check.py:361: in KORNIA_CHECK_LAF
-    return KORNIA_CHECK_LAF(laf, raises)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-laf = tensor([[[[0.3399, 0.2874, 0.3556],
-          [0.0932, 0.9839, 0.7461]],
-
-         [[0.3659, 0.3892, 0.5974],
-        ...9229],
-          [0.3219, 0.3232, 0.5103]],
-
-         [[0.0779, 0.0516, 0.4359],
-          [0.9969, 0.9659, 0.7969]]]])
-raises = True
-
-    def KORNIA_CHECK_LAF(laf: torch.Tensor, raises: bool=False) -> bool:
-        """
-        Check if the input tensor laf has the shape (B, N, 2, 3).
-    
-        Args:
-            laf (torch.Tensor): The input tensor to check.
-            raises (bool): If True, raise an exception if the shape is invalid.
-    
-        Returns:
-            bool: True if the shape is valid, False otherwise.
-        """
-        if laf.shape[-3:] == (2, 3) and len(laf.shape) == 4:
-            return True
-        else:
-            if raises:
->               raise ValueError(f'Invalid shape for LAF tensor: {laf.shape}. Expected shape (B, N, 2, 3).')
-E               ValueError: Invalid shape for LAF tensor: torch.Size([4, 2, 2, 3]). Expected shape (B, N, 2, 3).
-
-../publishablew/kornia/kornia/kornia/core/temp.py:23: ValueError
-=========================== short test summary info ============================
-FAILED ../publishablew/kornia/kornia/tests/core/test_check.py::TestCheckLaf::test_valid
-========================= 1 failed, 2 passed in 0.21s ==========================
+============================== 3 passed in 0.27s ===============================
 
 
 Final Test Result:
@@ -122,7 +76,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'cudagraphs', 'inductor', 'onnxrt', 'openxla', 'jit', None}
+available optimizers: {'', 'jit', 'tvm', 'onnxrt', 'cudagraphs', 'openxla', 'inductor', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -134,7 +88,7 @@ collecting ... collected 3 items
 ../publishablew/kornia/kornia/tests/core/test_check.py::TestCheckLaf::test_invalid PASSED
 ../publishablew/kornia/kornia/tests/core/test_check.py::TestCheckLaf::test_invalid_raises_false PASSED
 
-============================== 3 passed in 0.20s ===============================
+============================== 3 passed in 0.26s ===============================
 
 
 Initial Result:
@@ -163,7 +117,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'inductor', 'cudagraphs', 'onnxrt', 'jit', None, 'openxla'}
+available optimizers: {'', 'cudagraphs', 'openxla', 'tvm', 'onnxrt', 'jit', None, 'inductor'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -175,4 +129,4 @@ collecting ... collected 3 items
 ../publishablew/kornia/kornia/tests/core/test_check.py::TestCheckLaf::test_invalid PASSED
 ../publishablew/kornia/kornia/tests/core/test_check.py::TestCheckLaf::test_invalid_raises_false PASSED
 
-============================== 3 passed in 0.14s ===============================
+============================== 3 passed in 0.18s ===============================

@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_smoke[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_jit[cpu-float32]', '../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_red[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_gray[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_jit[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_smoke[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_black[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_forth_and_back[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_black[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_white[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_red[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_cardinality[cpu-float32-shape3]', '../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_cardinality[cpu-float32-shape4] FAILED', '../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_exception[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_gray[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_cardinality[cpu-float32-shape4]', '../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_cardinality[cpu-float32-shape3] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_blue[cpu-float32]', '../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_forth_and_back[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_white[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_blue[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_exception[cpu-float32]'}
+{'../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_red[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_exception[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_red[cpu-float32]', '../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_jit[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_jit[cpu-float32]', '../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_exception[cpu-float32] FAILED'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'tvm', 'jit', 'cudagraphs', 'openxla', 'inductor', None}
+available optimizers: {'', None, 'openxla', 'tvm', 'jit', 'onnxrt', 'inductor', 'cudagraphs'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -43,129 +43,27 @@ configfile: pyproject.toml
 plugins: timeout-2.3.1
 collecting ... collected 16 items
 
-../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_smoke[cpu-float32] FAILED
+../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_smoke[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_cardinality[cpu-float32-shape0] PASSED
 ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_cardinality[cpu-float32-shape1] PASSED
 ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_cardinality[cpu-float32-shape2] PASSED
-../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_cardinality[cpu-float32-shape3] FAILED
-../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_cardinality[cpu-float32-shape4] FAILED
+../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_cardinality[cpu-float32-shape3] PASSED
+../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_cardinality[cpu-float32-shape4] PASSED
 ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_exception[cpu-float32] FAILED
-../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_white[cpu-float32] FAILED
-../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_black[cpu-float32] FAILED
-../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_gray[cpu-float32] FAILED
+../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_white[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_black[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_gray[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_red[cpu-float32] FAILED
-../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_blue[cpu-float32] FAILED
-../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_forth_and_back[cpu-float32] FAILED
+../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_blue[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_forth_and_back[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_gradcheck[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_jit[cpu-float32] FAILED
 ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_module[cpu-float32] PASSED
 
 =================================== FAILURES ===================================
-___________________ TestRgbToYuv420.test_smoke[cpu-float32] ____________________
-
-self = <test_yuv.TestRgbToYuv420 object at 0x7ef2502f96c0>
-device = device(type='cpu'), dtype = torch.float32
-
-    def test_smoke(self, device, dtype):
-        C, H, W = 3, 4, 6
-        img = torch.rand(C, H, W, device=device, dtype=dtype)
->       assert isinstance(kornia.color.rgb_to_yuv420(img)[0], torch.Tensor)
-
-../publishablew/kornia/kornia/tests/color/test_yuv.py:73: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/color/yuv.py:45: in rgb_to_yuv420
-    return rgb_to_yuv420(image)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-image = tensor([[[0.0209, 0.8112, 0.1350, 0.6465, 0.2640, 0.6293],
-         [0.6890, 0.1235, 0.3085, 0.4399, 0.4769, 0.3667],
-...         [0.6518, 0.6167, 0.1019, 0.1706, 0.2126, 0.5782],
-         [0.6375, 0.0100, 0.6493, 0.7344, 0.9115, 0.9431]]])
-
-    def rgb_to_yuv420(image: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
-        if image.dim() != 4 or image.size(1) != 3:
->           raise ValueError('Input image must have shape (*, 3, H, W)')
-E           ValueError: Input image must have shape (*, 3, H, W)
-
-../publishablew/kornia/kornia/kornia/color/temp.py:11: ValueError
-_____________ TestRgbToYuv420.test_cardinality[cpu-float32-shape3] _____________
-
-self = <test_yuv.TestRgbToYuv420 object at 0x7ef2502f9f30>
-device = device(type='cpu'), dtype = torch.float32, shape = (3, 2, 2)
-
-    @pytest.mark.parametrize("shape", [(1, 3, 4, 4), (2, 3, 2, 4), (3, 3, 4, 2), (3, 2, 2), (3, 3, 3, 4, 4)])
-    def test_cardinality(self, device, dtype, shape):
-        img = torch.ones(shape, device=device, dtype=dtype)
-        shapey = list(shape)
-        shapey[-3] = 1
-        shapeuv = list(shape)
-        shapeuv[-3] = 2
-        shapeuv[-2] /= 2
-        shapeuv[-1] /= 2
->       assert kornia.color.rgb_to_yuv420(img)[0].shape == tuple(shapey)
-
-../publishablew/kornia/kornia/tests/color/test_yuv.py:85: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/color/yuv.py:45: in rgb_to_yuv420
-    return rgb_to_yuv420(image)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-image = tensor([[[1., 1.],
-         [1., 1.]],
-
-        [[1., 1.],
-         [1., 1.]],
-
-        [[1., 1.],
-         [1., 1.]]])
-
-    def rgb_to_yuv420(image: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
-        if image.dim() != 4 or image.size(1) != 3:
->           raise ValueError('Input image must have shape (*, 3, H, W)')
-E           ValueError: Input image must have shape (*, 3, H, W)
-
-../publishablew/kornia/kornia/kornia/color/temp.py:11: ValueError
-_____________ TestRgbToYuv420.test_cardinality[cpu-float32-shape4] _____________
-
-self = <test_yuv.TestRgbToYuv420 object at 0x7ef2502f9ff0>
-device = device(type='cpu'), dtype = torch.float32, shape = (3, 3, 3, 4, 4)
-
-    @pytest.mark.parametrize("shape", [(1, 3, 4, 4), (2, 3, 2, 4), (3, 3, 4, 2), (3, 2, 2), (3, 3, 3, 4, 4)])
-    def test_cardinality(self, device, dtype, shape):
-        img = torch.ones(shape, device=device, dtype=dtype)
-        shapey = list(shape)
-        shapey[-3] = 1
-        shapeuv = list(shape)
-        shapeuv[-3] = 2
-        shapeuv[-2] /= 2
-        shapeuv[-1] /= 2
->       assert kornia.color.rgb_to_yuv420(img)[0].shape == tuple(shapey)
-
-../publishablew/kornia/kornia/tests/color/test_yuv.py:85: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/color/yuv.py:45: in rgb_to_yuv420
-    return rgb_to_yuv420(image)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-image = tensor([[[[[1., 1., 1., 1.],
-           [1., 1., 1., 1.],
-           [1., 1., 1., 1.],
-           [1., 1., 1., 1.]],
-
-...          [[1., 1., 1., 1.],
-           [1., 1., 1., 1.],
-           [1., 1., 1., 1.],
-           [1., 1., 1., 1.]]]]])
-
-    def rgb_to_yuv420(image: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
-        if image.dim() != 4 or image.size(1) != 3:
->           raise ValueError('Input image must have shape (*, 3, H, W)')
-E           ValueError: Input image must have shape (*, 3, H, W)
-
-../publishablew/kornia/kornia/kornia/color/temp.py:11: ValueError
 _________________ TestRgbToYuv420.test_exception[cpu-float32] __________________
 
-self = <test_yuv.TestRgbToYuv420 object at 0x7ef2502fa1a0>
+self = <test_yuv.TestRgbToYuv420 object at 0x7190cd4fe290>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_exception(self, device, dtype):
@@ -181,131 +79,13 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 image = [0.0]
 
     def rgb_to_yuv420(image: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
->       if image.dim() != 4 or image.size(1) != 3:
+>       if image.dim() < 3 or image.size(-3) != 3:
 E       AttributeError: 'list' object has no attribute 'dim'
 
 ../publishablew/kornia/kornia/kornia/color/temp.py:10: AttributeError
-_________________ TestRgbToYuv420.test_unit_white[cpu-float32] _________________
-
-self = <test_yuv.TestRgbToYuv420 object at 0x7ef2502fa4d0>
-device = device(type='cpu'), dtype = torch.float32
-
-    def test_unit_white(self, device, dtype):  # skipcq: PYL-R0201
-        rgb = (
-            torch.tensor(
-                [[[255, 255], [255, 255]], [[255, 255], [255, 255]], [[255, 255], [255, 255]]],
-                device=device,
-                dtype=torch.uint8,
-            ).type(dtype)
-            / 255.0
-        )
-        refy = torch.tensor([[[255, 255], [255, 255]]], device=device, dtype=torch.uint8)
-        refuv = torch.tensor([[[0]], [[0]]], device=device, dtype=torch.int8)
-    
->       resy = (kornia.color.rgb_to_yuv420(rgb)[0] * 255.0).round().type(torch.uint8)
-
-../publishablew/kornia/kornia/tests/color/test_yuv.py:124: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/color/yuv.py:45: in rgb_to_yuv420
-    return rgb_to_yuv420(image)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-image = tensor([[[1., 1.],
-         [1., 1.]],
-
-        [[1., 1.],
-         [1., 1.]],
-
-        [[1., 1.],
-         [1., 1.]]])
-
-    def rgb_to_yuv420(image: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
-        if image.dim() != 4 or image.size(1) != 3:
->           raise ValueError('Input image must have shape (*, 3, H, W)')
-E           ValueError: Input image must have shape (*, 3, H, W)
-
-../publishablew/kornia/kornia/kornia/color/temp.py:11: ValueError
-_________________ TestRgbToYuv420.test_unit_black[cpu-float32] _________________
-
-self = <test_yuv.TestRgbToYuv420 object at 0x7ef2502fa800>
-device = device(type='cpu'), dtype = torch.float32
-
-    def test_unit_black(self, device, dtype):  # skipcq: PYL-R0201
-        rgb = (
-            torch.tensor([[[0, 0], [0, 0]], [[0, 0], [0, 0]], [[0, 0], [0, 0]]], device=device, dtype=torch.uint8).type(
-                dtype
-            )
-            / 255.0
-        )
-        refy = torch.tensor([[[0, 0], [0, 0]]], device=device, dtype=torch.uint8)
-        refuv = torch.tensor([[[0]], [[0]]], device=device, dtype=torch.int8)
-    
->       resy = (kornia.color.rgb_to_yuv420(rgb)[0] * 255.0).round().type(torch.uint8)
-
-../publishablew/kornia/kornia/tests/color/test_yuv.py:139: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/color/yuv.py:45: in rgb_to_yuv420
-    return rgb_to_yuv420(image)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-image = tensor([[[0., 0.],
-         [0., 0.]],
-
-        [[0., 0.],
-         [0., 0.]],
-
-        [[0., 0.],
-         [0., 0.]]])
-
-    def rgb_to_yuv420(image: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
-        if image.dim() != 4 or image.size(1) != 3:
->           raise ValueError('Input image must have shape (*, 3, H, W)')
-E           ValueError: Input image must have shape (*, 3, H, W)
-
-../publishablew/kornia/kornia/kornia/color/temp.py:11: ValueError
-_________________ TestRgbToYuv420.test_unit_gray[cpu-float32] __________________
-
-self = <test_yuv.TestRgbToYuv420 object at 0x7ef2502fab30>
-device = device(type='cpu'), dtype = torch.float32
-
-    def test_unit_gray(self, device, dtype):  # skipcq: PYL-R0201
-        rgb = (
-            torch.tensor(
-                [[[127, 127], [127, 127]], [[127, 127], [127, 127]], [[127, 127], [127, 127]]],
-                device=device,
-                dtype=torch.uint8,
-            ).type(dtype)
-            / 255.0
-        )
-        refy = torch.tensor([[[127, 127], [127, 127]]], device=device, dtype=torch.uint8)
-        refuv = torch.tensor([[[0]], [[0]]], device=device, dtype=torch.int8)
-    
->       resy = (kornia.color.rgb_to_yuv420(rgb)[0] * 255.0).round().type(torch.uint8)
-
-../publishablew/kornia/kornia/tests/color/test_yuv.py:156: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/color/yuv.py:45: in rgb_to_yuv420
-    return rgb_to_yuv420(image)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-image = tensor([[[0.4980, 0.4980],
-         [0.4980, 0.4980]],
-
-        [[0.4980, 0.4980],
-         [0.4980, 0.4980]],
-
-        [[0.4980, 0.4980],
-         [0.4980, 0.4980]]])
-
-    def rgb_to_yuv420(image: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
-        if image.dim() != 4 or image.size(1) != 3:
->           raise ValueError('Input image must have shape (*, 3, H, W)')
-E           ValueError: Input image must have shape (*, 3, H, W)
-
-../publishablew/kornia/kornia/kornia/color/temp.py:11: ValueError
 __________________ TestRgbToYuv420.test_unit_red[cpu-float32] __________________
 
-self = <test_yuv.TestRgbToYuv420 object at 0x7ef2502fae60>
+self = <test_yuv.TestRgbToYuv420 object at 0x7190cd4fef50>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_unit_red(self, device, dtype):  # skipcq: PYL-R0201
@@ -318,100 +98,56 @@ device = device(type='cpu'), dtype = torch.float32
         refy = torch.tensor([[[76, 76], [76, 76]]], device=device, dtype=torch.uint8)
         refuv = torch.tensor([[[-37]], [[127]]], device=device, dtype=torch.int8)
     
->       resy = (kornia.color.rgb_to_yuv420(rgb)[0] * 255.0).round().type(torch.uint8)
+        resy = (kornia.color.rgb_to_yuv420(rgb)[0] * 255.0).round().type(torch.uint8)
+        resuv = (kornia.color.rgb_to_yuv420(rgb)[1] * 255.0).round().clamp(-128, 127).type(torch.int8)
+        self.assert_close(refy, resy)
+>       self.assert_close(refuv, resuv)
 
-../publishablew/kornia/kornia/tests/color/test_yuv.py:171: 
+../publishablew/kornia/kornia/tests/color/test_yuv.py:174: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/color/yuv.py:45: in rgb_to_yuv420
-    return rgb_to_yuv420(image)
+../publishablew/kornia/kornia/testing/base.py:106: in assert_close
+    return assert_close(actual, expected, rtol=rtol, atol=atol)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-image = tensor([[[1., 1.],
-         [1., 1.]],
+actual = tensor([[[-37]],
 
-        [[0., 0.],
-         [0., 0.]],
+        [[127]]], dtype=torch.int8)
+expected = tensor([[[-38]],
 
-        [[0., 0.],
-         [0., 0.]]])
+        [[127]]], dtype=torch.int8), rtol = 0.0
+atol = 0.0, kwargs = {}
 
-    def rgb_to_yuv420(image: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
-        if image.dim() != 4 or image.size(1) != 3:
->           raise ValueError('Input image must have shape (*, 3, H, W)')
-E           ValueError: Input image must have shape (*, 3, H, W)
-
-../publishablew/kornia/kornia/kornia/color/temp.py:11: ValueError
-_________________ TestRgbToYuv420.test_unit_blue[cpu-float32] __________________
-
-self = <test_yuv.TestRgbToYuv420 object at 0x7ef2502fb190>
-device = device(type='cpu'), dtype = torch.float32
-
-    def test_unit_blue(self, device, dtype):  # skipcq: PYL-R0201
-        rgb = (
-            torch.tensor(
-                [[[0, 0], [0, 0]], [[0, 0], [0, 0]], [[255, 255], [255, 255]]], device=device, dtype=torch.uint8
-            ).type(dtype)
-            / 255.0
+    def assert_close(
+        actual: Tensor, expected: Tensor, *, rtol: Optional[float] = None, atol: Optional[float] = None, **kwargs: Any
+    ) -> None:
+        if rtol is None and atol is None:
+            # `torch.testing.assert_close` used different default tolerances than `torch.testing.assert_allclose`.
+            # TODO: remove this special handling as soon as https://github.com/kornia/kornia/issues/1134 is resolved
+            #  Basically, this whole wrapper function can be removed and `torch.testing.assert_close` can be used
+            #  directly.
+            rtol, atol = _default_tolerances(actual, expected)
+    
+>       return _assert_close(
+            actual,
+            expected,
+            rtol=rtol,
+            atol=atol,
+            # this is the default value for torch>=1.10, but not for torch==1.9
+            # TODO: remove this if kornia relies on torch>=1.10
+            check_stride=False,
+            equal_nan=False,
+            **kwargs,
         )
-        refy = torch.tensor([[[29, 29], [29, 29]]], device=device, dtype=torch.uint8)
-        refuv = torch.tensor([[[111]], [[-25]]], device=device, dtype=torch.int8)
-    
->       resy = (kornia.color.rgb_to_yuv420(rgb)[0] * 255.0).type(torch.uint8)
+E       AssertionError: Tensor-likes are not equal!
+E       
+E       Mismatched elements: 1 / 2 (50.0%)
+E       Greatest absolute difference: 1 at index (0, 0, 0)
+E       Greatest relative difference: 0.02631578966975212 at index (0, 0, 0)
 
-../publishablew/kornia/kornia/tests/color/test_yuv.py:186: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/color/yuv.py:45: in rgb_to_yuv420
-    return rgb_to_yuv420(image)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-image = tensor([[[0., 0.],
-         [0., 0.]],
-
-        [[0., 0.],
-         [0., 0.]],
-
-        [[1., 1.],
-         [1., 1.]]])
-
-    def rgb_to_yuv420(image: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
-        if image.dim() != 4 or image.size(1) != 3:
->           raise ValueError('Input image must have shape (*, 3, H, W)')
-E           ValueError: Input image must have shape (*, 3, H, W)
-
-../publishablew/kornia/kornia/kornia/color/temp.py:11: ValueError
-_______________ TestRgbToYuv420.test_forth_and_back[cpu-float32] _______________
-
-self = <test_yuv.TestRgbToYuv420 object at 0x7ef2502fb4c0>
-device = device(type='cpu'), dtype = torch.float32
-
-    def test_forth_and_back(self, device, dtype):  # skipcq: PYL-R0201
-        data = torch.rand(3, 4, 5, device=device, dtype=dtype).repeat_interleave(2, dim=2).repeat_interleave(2, dim=1)
-    
-        yuv = kornia.color.rgb_to_yuv420
-        rgb = kornia.color.yuv420_to_rgb
->       (a, b) = yuv(data)
-
-../publishablew/kornia/kornia/tests/color/test_yuv.py:198: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/color/yuv.py:45: in rgb_to_yuv420
-    return rgb_to_yuv420(image)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-image = tensor([[[0.4228, 0.4228, 0.2543, 0.2543, 0.5241, 0.5241, 0.2334, 0.2334,
-          0.0484, 0.0484],
-         [0.4228,...0.2052, 0.2052],
-         [0.0270, 0.0270, 0.6146, 0.6146, 0.9731, 0.9731, 0.1503, 0.1503,
-          0.2052, 0.2052]]])
-
-    def rgb_to_yuv420(image: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
-        if image.dim() != 4 or image.size(1) != 3:
->           raise ValueError('Input image must have shape (*, 3, H, W)')
-E           ValueError: Input image must have shape (*, 3, H, W)
-
-../publishablew/kornia/kornia/kornia/color/temp.py:11: ValueError
+../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ____________________ TestRgbToYuv420.test_jit[cpu-float32] _____________________
 
-self = <test_yuv.TestRgbToYuv420 object at 0x7ef2502fbb20>
+self = <test_yuv.TestRgbToYuv420 object at 0x7190cd4ffc10>
 device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.jit()
@@ -437,9 +173,9 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     stmts = [build_stmt(ctx, s) for s in stmts]
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.jit.frontend.StmtBuilder object at 0x7ef338dabc40>
-ctx = <torch._sources.SourceContext object at 0x7ef25003d300>
-node = <ast.ImportFrom object at 0x7ef25018f9a0>
+self = <torch.jit.frontend.StmtBuilder object at 0x7191a7fabd30>
+ctx = <torch._sources.SourceContext object at 0x7190ccd45990>
+node = <ast.ImportFrom object at 0x7190cd392e30>
 
     def __call__(self, ctx, node):
         method = getattr(self, "build_" + node.__class__.__name__, None)
@@ -454,18 +190,10 @@ E               return rgb_to_yuv420(image)
 
 ../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/jit/frontend.py:416: UnsupportedNodeError
 =========================== short test summary info ============================
-FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_smoke[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_cardinality[cpu-float32-shape3]
-FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_cardinality[cpu-float32-shape4]
 FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_exception[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_white[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_black[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_gray[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_red[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_unit_blue[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_forth_and_back[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_jit[cpu-float32]
-========================= 11 failed, 5 passed in 0.45s =========================
+========================= 3 failed, 13 passed in 0.39s =========================
 
 
 Final Test Result:
@@ -494,7 +222,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'tvm', 'openxla', 'inductor', 'jit', 'cudagraphs', None}
+available optimizers: {'', 'inductor', 'jit', 'cudagraphs', 'openxla', 'tvm', None, 'onnxrt'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -519,7 +247,7 @@ collecting ... collected 16 items
 ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_jit[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_module[cpu-float32] PASSED
 
-============================== 16 passed in 0.20s ==============================
+============================== 16 passed in 0.21s ==============================
 
 
 Initial Result:
@@ -548,7 +276,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'cudagraphs', 'jit', 'inductor', 'tvm', 'openxla', None}
+available optimizers: {'', 'tvm', 'jit', 'openxla', 'cudagraphs', 'inductor', 'onnxrt', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -573,4 +301,4 @@ collecting ... collected 16 items
 ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_jit[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/color/test_yuv.py::TestRgbToYuv420::test_module[cpu-float32] PASSED
 
-============================== 16 passed in 0.20s ==============================
+============================== 16 passed in 0.24s ==============================

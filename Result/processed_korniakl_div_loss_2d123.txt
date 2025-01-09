@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/kornia/kornia/tests/losses/test_divergence.py::TestDivergenceLoss::test_kl_div_loss_2d[cpu-float32-pred3-target3-inf]', '../publishablew/kornia/kornia/tests/losses/test_divergence.py::TestDivergenceLoss::test_kl_div_loss_2d[cpu-float32-pred3-target3-inf] FAILED'}
+{'../publishablew/kornia/kornia/tests/losses/test_divergence.py::TestDivergenceLoss::test_kl_div_loss_2d[cpu-float32-pred3-target3-inf] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/losses/test_divergence.py::TestDivergenceLoss::test_kl_div_loss_2d[cpu-float32-pred3-target3-inf]'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'tvm', 'jit', 'openxla', 'onnxrt', 'inductor', None}
+available optimizers: {'', 'tvm', 'openxla', 'jit', 'inductor', 'cudagraphs', 'onnxrt', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -51,7 +51,7 @@ collecting ... collected 4 items
 =================================== FAILURES ===================================
 ____ TestDivergenceLoss.test_kl_div_loss_2d[cpu-float32-pred3-target3-inf] _____
 
-self = <test_divergence.TestDivergenceLoss object at 0x7344d42fd990>
+self = <test_divergence.TestDivergenceLoss object at 0x7b7edf901ba0>
 device = device(type='cpu'), dtype = torch.float32
 pred = tensor([[[[0., 0., 0., 0.],
           [0., 0., 0., 0.]],
@@ -128,7 +128,7 @@ E       Relative difference: nan (up to 0.0001 allowed)
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 =========================== short test summary info ============================
 FAILED ../publishablew/kornia/kornia/tests/losses/test_divergence.py::TestDivergenceLoss::test_kl_div_loss_2d[cpu-float32-pred3-target3-inf]
-========================= 1 failed, 3 passed in 0.19s ==========================
+========================= 1 failed, 3 passed in 0.22s ==========================
 
 
 Final Test Result:
@@ -157,7 +157,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'inductor', 'jit', 'tvm', 'openxla', 'onnxrt', None, 'cudagraphs'}
+available optimizers: {'', 'jit', 'openxla', 'tvm', 'onnxrt', 'inductor', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -170,7 +170,7 @@ collecting ... collected 4 items
 ../publishablew/kornia/kornia/tests/losses/test_divergence.py::TestDivergenceLoss::test_kl_div_loss_2d[cpu-float32-pred2-target2-0.0] PASSED
 ../publishablew/kornia/kornia/tests/losses/test_divergence.py::TestDivergenceLoss::test_kl_div_loss_2d[cpu-float32-pred3-target3-inf] PASSED
 
-============================== 4 passed in 0.17s ===============================
+============================== 4 passed in 0.16s ===============================
 
 
 Initial Result:
@@ -199,7 +199,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'cudagraphs', 'inductor', 'onnxrt', 'tvm', 'openxla', None}
+available optimizers: {'', 'inductor', 'jit', 'tvm', 'cudagraphs', 'onnxrt', None, 'openxla'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -212,4 +212,4 @@ collecting ... collected 4 items
 ../publishablew/kornia/kornia/tests/losses/test_divergence.py::TestDivergenceLoss::test_kl_div_loss_2d[cpu-float32-pred2-target2-0.0] PASSED
 ../publishablew/kornia/kornia/tests/losses/test_divergence.py::TestDivergenceLoss::test_kl_div_loss_2d[cpu-float32-pred3-target3-inf] PASSED
 
-============================== 4 passed in 0.17s ===============================
+============================== 4 passed in 0.22s ===============================

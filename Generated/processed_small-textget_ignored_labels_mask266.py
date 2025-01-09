@@ -1,15 +1,18 @@
 import numpy as np
-from scipy.sparse import csr_matrix
+from scipy.sparse import csr_matrix, issparse
 
 def get_ignored_labels_mask(y, ignored_label_value):
-    if isinstance(y, csr_matrix):
-        # Convert the csr_matrix to a dense array for easier manipulation
-        dense_y = y.toarray()
-        # Check if any value in each row is equal to ignored_label_value
-        mask = np.any(dense_y == ignored_label_value, axis=1)
+    if issparse(y):
+        # Handle the case where y is a csr_matrix
+        mask = np.zeros(y.shape[0], dtype=bool)
+        for i in range(y.shape[0]):
+            # Check if any element in the row equals ignored_label_value
+            row = y.getrow(i).toarray().flatten()
+            if ignored_label_value in row:
+                mask[i] = True
+        return mask
     else:
-        # For non-csr_matrix, simply compare each element to ignored_label_value
-        mask = (y == ignored_label_value)
-    
-    return mask
+        # Handle the case where y is a regular array
+        y = np.asarray(y)  # Ensure y is a NumPy array
+        return y == ignored_label_value
 

@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_with_without_gram_tol', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_tol FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_gram_dtype_match[float32]', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_n_nonzero_coefs FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_gram_numerical_consistency', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_gram_dtype_match[float32] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_unreachable_accuracy', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_perfect_signal_recovery FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_path FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_gram_dtype_match[float64] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_with_without_gram_tol FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_orthogonal_mp_gram_readonly', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_gram_dtype_match[float64]', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_unreachable_accuracy FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes_gram', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_perfect_signal_recovery', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_path', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_reaches_least_squares', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_swapped_regressors', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes_gram FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_return_path_prop_with_gram', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_with_without_gram', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_return_path_prop_with_gram FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_orthogonal_mp_gram_readonly FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_reaches_least_squares FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_n_nonzero_coefs', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_swapped_regressors FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_with_without_gram FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_gram_numerical_consistency FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_tol'}
+{'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_return_path_prop_with_gram', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_n_nonzero_coefs', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_with_without_gram FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_orthogonal_mp_gram_readonly FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_path FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_perfect_signal_recovery FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_reaches_least_squares FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_gram_numerical_consistency FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes_gram FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_gram_dtype_match[float32]', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_n_nonzero_coefs FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_with_without_gram_tol FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_gram_dtype_match[float64] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_with_without_gram', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_unreachable_accuracy', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_path', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_swapped_regressors', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_tol FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_return_path_prop_with_gram FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_gram_dtype_match[float32] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_orthogonal_mp_gram_readonly', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_gram_dtype_match[float64]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_perfect_signal_recovery', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_swapped_regressors FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_unreachable_accuracy FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_gram_numerical_consistency', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_reaches_least_squares', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_tol', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_with_without_gram_tol', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes_gram'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 23 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes I: Seeding RNGs with 872000097
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes I: Seeding RNGs with 604104891
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes_gram FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_n_nonzero_coefs FAILED
@@ -605,7 +605,7 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_gram_dtype_match[float32]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_gram_dtype_match[float64]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_gram_numerical_consistency
-=================== 15 failed, 8 passed, 6 warnings in 0.67s ===================
+=================== 15 failed, 8 passed, 6 warnings in 0.66s ===================
 
 
 Final Test Result:
@@ -617,7 +617,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 23 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes I: Seeding RNGs with 368425549
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes I: Seeding RNGs with 1825197657
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes_gram PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_n_nonzero_coefs PASSED
@@ -642,7 +642,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_gram_dtype_match[float64] PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_omp_gram_numerical_consistency PASSED
 
-======================== 23 passed, 6 warnings in 0.24s ========================
+======================== 23 passed, 6 warnings in 0.25s ========================
 
 
 Initial Result:
@@ -654,7 +654,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 23 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes I: Seeding RNGs with 789392409
+../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes I: Seeding RNGs with 341945651
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_correct_shapes_gram PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/linear_model/tests/test_omp.py::test_n_nonzero_coefs PASSED

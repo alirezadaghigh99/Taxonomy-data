@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_jit[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_exception[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_unproject_points_z1_batch_extension[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_unproject_points_z1_extension[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_project_unproject[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_project_unproject[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_exception[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_unproject_points_z1_batch_extension[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_jit[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_unproject_points_z1_extension[cpu-float32] FAILED'}
+{'../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_project_unproject[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_exception[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_jit[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_unproject_points_z1_extension[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_unproject_points_z1_batch_extension[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_unproject_points_z1_batch_extension[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_jit[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_unproject_points_z1_extension[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_project_unproject[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_exception[cpu-float32] FAILED'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'onnxrt', 'inductor', 'cudagraphs', 'openxla', 'tvm', None}
+available optimizers: {'', 'cudagraphs', 'onnxrt', 'inductor', 'jit', 'openxla', 'tvm', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -64,7 +64,7 @@ collecting ... collected 17 items
 =================================== FAILURES ===================================
 _____________ TestProjectionZ1.test_project_unproject[cpu-float32] _____________
 
-self = <test_projections.TestProjectionZ1 object at 0x713b71aef010>
+self = <test_projections.TestProjectionZ1 object at 0x7381808fef80>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_project_unproject(self, device, dtype):
@@ -111,7 +111,7 @@ E       Greatest relative difference: 0.5 at index (0,) (up to 0.0001 allowed)
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 _______ TestProjectionZ1.test_unproject_points_z1_extension[cpu-float32] _______
 
-self = <test_projections.TestProjectionZ1 object at 0x713b71aef340>
+self = <test_projections.TestProjectionZ1 object at 0x7381808ff2b0>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_unproject_points_z1_extension(self, device, dtype):
@@ -159,7 +159,7 @@ E       Greatest relative difference: 0.5 at index (0,) (up to 0.0001 allowed)
 ../publishablew/kornia/kornia/testing/base.py:37: AssertionError
 ____ TestProjectionZ1.test_unproject_points_z1_batch_extension[cpu-float32] ____
 
-self = <test_projections.TestProjectionZ1 object at 0x713b71aef670>
+self = <test_projections.TestProjectionZ1 object at 0x7381808ff5e0>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_unproject_points_z1_batch_extension(self, device, dtype):
@@ -183,24 +183,29 @@ extension = tensor([2., 3.])
         Unprojects points from the canonical z=1 plane into the camera frame.
     
         Args:
-            points_in_cam_canonical (Tensor): Points to unproject with shape (..., 2).
-            extension (Tensor, optional): Extension (depth) of the points with shape (..., 1). Defaults to None.
+            points_in_cam_canonical (Tensor): A tensor of shape (..., 2) representing the points to unproject.
+            extension (Tensor, optional): A tensor of shape (..., 1) representing the extension (depth) of the points.
     
         Returns:
-            Tensor: Unprojected points with shape (..., 3).
+            Tensor: A tensor of shape (..., 3) representing the unprojected points.
         """
+        if not isinstance(points_in_cam_canonical, torch.Tensor):
+            raise TypeError('points_in_cam_canonical must be a torch.Tensor')
         if points_in_cam_canonical.shape[-1] != 2:
             raise ValueError('points_in_cam_canonical must have shape (..., 2)')
         if extension is None:
-            extension = torch.ones(points_in_cam_canonical.shape[:-1] + (1,), device=points_in_cam_canonical.device)
-        if extension.shape[-1] != 1:
->           raise ValueError('extension must have shape (..., 1)')
-E           ValueError: extension must have shape (..., 1)
+            z = torch.ones_like(points_in_cam_canonical[..., :1])
+        else:
+            if not isinstance(extension, torch.Tensor):
+                raise TypeError('extension must be a torch.Tensor')
+            if extension.shape != points_in_cam_canonical.shape[:-1] + (1,):
+>               raise ValueError('extension must have shape (..., 1) matching points_in_cam_canonical')
+E               ValueError: extension must have shape (..., 1) matching points_in_cam_canonical
 
-../publishablew/kornia/kornia/kornia/geometry/camera/temp.py:24: ValueError
+../publishablew/kornia/kornia/kornia/geometry/camera/temp.py:29: ValueError
 _________________ TestProjectionZ1.test_exception[cpu-float32] _________________
 
-self = <test_projections.TestProjectionZ1 object at 0x713b71aefcd0>
+self = <test_projections.TestProjectionZ1 object at 0x7381808ffc40>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_exception(self, device, dtype) -> None:
@@ -222,20 +227,22 @@ points_in_cam_canonical = tensor([1., 2., 3.]), extension = tensor([2.])
         Unprojects points from the canonical z=1 plane into the camera frame.
     
         Args:
-            points_in_cam_canonical (Tensor): Points to unproject with shape (..., 2).
-            extension (Tensor, optional): Extension (depth) of the points with shape (..., 1). Defaults to None.
+            points_in_cam_canonical (Tensor): A tensor of shape (..., 2) representing the points to unproject.
+            extension (Tensor, optional): A tensor of shape (..., 1) representing the extension (depth) of the points.
     
         Returns:
-            Tensor: Unprojected points with shape (..., 3).
+            Tensor: A tensor of shape (..., 3) representing the unprojected points.
         """
+        if not isinstance(points_in_cam_canonical, torch.Tensor):
+            raise TypeError('points_in_cam_canonical must be a torch.Tensor')
         if points_in_cam_canonical.shape[-1] != 2:
 >           raise ValueError('points_in_cam_canonical must have shape (..., 2)')
 E           ValueError: points_in_cam_canonical must have shape (..., 2)
 
-../publishablew/kornia/kornia/kornia/geometry/camera/temp.py:20: ValueError
+../publishablew/kornia/kornia/kornia/geometry/camera/temp.py:22: ValueError
 ____________________ TestProjectionZ1.test_jit[cpu-float32] ____________________
 
-self = <test_projections.TestProjectionZ1 object at 0x713b7191c2e0>
+self = <test_projections.TestProjectionZ1 object at 0x73818072c250>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_jit(self, device, dtype) -> None:
@@ -260,9 +267,9 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     stmts = [build_stmt(ctx, s) for s in stmts]
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.jit.frontend.StmtBuilder object at 0x713c5259fc40>
-ctx = <torch._sources.SourceContext object at 0x713b719b3f60>
-node = <ast.ImportFrom object at 0x713b7191d0c0>
+self = <torch.jit.frontend.StmtBuilder object at 0x73825b3abcd0>
+ctx = <torch._sources.SourceContext object at 0x7381807c2d40>
+node = <ast.ImportFrom object at 0x73818072d1e0>
 
     def __call__(self, ctx, node):
         method = getattr(self, "build_" + node.__class__.__name__, None)
@@ -282,7 +289,7 @@ FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::
 FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_unproject_points_z1_batch_extension[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_exception[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_jit[cpu-float32]
-========================= 5 failed, 12 passed in 0.43s =========================
+========================= 5 failed, 12 passed in 0.40s =========================
 
 
 Final Test Result:
@@ -311,7 +318,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'jit', 'inductor', 'tvm', 'cudagraphs', 'onnxrt', None}
+available optimizers: {'', None, 'onnxrt', 'tvm', 'openxla', 'jit', 'inductor', 'cudagraphs'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -337,7 +344,7 @@ collecting ... collected 17 items
 ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_jit[cpu-float32] PASSED
 
-============================== 17 passed in 0.21s ==============================
+============================== 17 passed in 0.22s ==============================
 
 
 Initial Result:
@@ -366,7 +373,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'cudagraphs', 'openxla', 'onnxrt', 'jit', 'inductor', None}
+available optimizers: {'', 'openxla', 'jit', 'tvm', 'inductor', 'onnxrt', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -392,4 +399,4 @@ collecting ... collected 17 items
 ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_jit[cpu-float32] PASSED
 
-============================== 17 passed in 0.21s ==============================
+============================== 17 passed in 0.25s ==============================

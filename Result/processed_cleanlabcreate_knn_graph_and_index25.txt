@@ -78,4 +78,4 @@ E   ModuleNotFoundError: No module named 'hypothesis'
 =========================== short test summary info ============================
 ERROR ../publishablew/cleanlab/cleanlab/tests/internal/neighbor/test_neighbor.py
 !!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
-=============================== 1 error in 0.35s ===============================
+=============================== 1 error in 0.10s ===============================

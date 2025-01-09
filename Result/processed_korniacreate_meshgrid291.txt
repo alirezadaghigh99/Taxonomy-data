@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'cudagraphs', 'tvm', 'onnxrt', 'inductor', 'jit', None}
+available optimizers: {'', 'jit', 'inductor', 'tvm', 'onnxrt', 'openxla', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -87,7 +87,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'cudagraphs', 'inductor', 'onnxrt', 'tvm', 'openxla', None}
+available optimizers: {'', 'onnxrt', 'tvm', 'cudagraphs', 'inductor', 'jit', 'openxla', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -139,7 +139,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'openxla', 'inductor', 'cudagraphs', 'onnxrt', None, 'jit'}
+available optimizers: {'', 'tvm', 'cudagraphs', 'jit', 'inductor', 'openxla', None, 'onnxrt'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -162,4 +162,4 @@ tests/geometry/transform/test_imgwarp.py::TestRemap::test_different_size[cpu-flo
     warnings.warn(
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-=================== 7 passed, 1 skipped, 1 warning in 0.18s ====================
+=================== 7 passed, 1 skipped, 1 warning in 0.16s ====================

@@ -3,25 +3,25 @@ processed_deepchemgenerate_global_features59.json
 function:
 generate_global_features
 Error Cases:
-2024-12-03 21:02:04.287920: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-12-26 19:19:42.483328: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
-E0000 00:00:1733277724.298908  376828 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-E0000 00:00:1733277724.302304  376828 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2024-12-03 21:02:04.314760: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+E0000 00:00:1735258782.495152  890474 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1735258782.498598  890474 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-12-26 19:19:42.511094: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
 To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-[21:02:06] WARNING: not removing hydrogen atom without neighbors
-[21:02:06] WARNING: not removing hydrogen atom without neighbors
-[21:02:06] WARNING: not removing hydrogen atom without neighbors
-[21:02:06] WARNING: not removing hydrogen atom without neighbors
-[21:02:06] WARNING: not removing hydrogen atom without neighbors
-[21:02:06] WARNING: not removing hydrogen atom without neighbors
-[21:02:06] WARNING: not removing hydrogen atom without neighbors
-[21:02:06] WARNING: not removing hydrogen atom without neighbors
+[19:19:44] WARNING: not removing hydrogen atom without neighbors
+[19:19:44] WARNING: not removing hydrogen atom without neighbors
+[19:19:44] WARNING: not removing hydrogen atom without neighbors
+[19:19:44] WARNING: not removing hydrogen atom without neighbors
+[19:19:44] WARNING: not removing hydrogen atom without neighbors
+[19:19:44] WARNING: not removing hydrogen atom without neighbors
+[19:19:44] WARNING: not removing hydrogen atom without neighbors
+[19:19:44] WARNING: not removing hydrogen atom without neighbors
 
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_rdkit_desc_normalized FAILED', '../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_invalid_name FAILED', '../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_morgan_count FAILED', 'FAILED ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_morgan_count', 'FAILED ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_rdkit_desc_normalized', '../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_morgan_twice FAILED', 'FAILED ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_hydrogen', 'FAILED ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_morgan_with_invalid_name', '../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_rdkit_desc FAILED', '../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_morgan_with_invalid_name FAILED', '../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_hydrogen FAILED', 'FAILED ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_invalid_name', 'FAILED ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_rdkit_desc', '../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_morgan FAILED', 'FAILED ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_morgan_twice', 'FAILED ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_morgan'}
+{'FAILED ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_hydrogen', '../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_morgan_count FAILED', 'FAILED ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_morgan_count', '../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_hydrogen FAILED', 'FAILED ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_invalid_name', 'FAILED ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_morgan_twice', '../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_rdkit_desc_normalized FAILED', '../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_morgan_with_invalid_name FAILED', 'FAILED ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_rdkit_desc', 'FAILED ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_morgan', '../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_morgan FAILED', 'FAILED ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_morgan_with_invalid_name', '../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_rdkit_desc FAILED', 'FAILED ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_rdkit_desc_normalized', '../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_invalid_name FAILED', '../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_morgan_twice FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -56,7 +56,7 @@ self = <deepchem.feat.tests.test_global_feature_generator_dmpnn.TestGlobalFeatur
 ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py:75: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-mol = <rdkit.Chem.rdchem.Mol object at 0x7ae65134b4c0>
+mol = <rdkit.Chem.rdchem.Mol object at 0x709235fc1c40>
 features_generators = ['morgan', '']
 
     def generate_global_features(mol: RDKitMol, features_generators: List[str]) -> np.ndarray:
@@ -78,7 +78,7 @@ self = <deepchem.feat.tests.test_global_feature_generator_dmpnn.TestGlobalFeatur
 ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py:26: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-mol = <rdkit.Chem.rdchem.Mol object at 0x7ae6513d9000>
+mol = <rdkit.Chem.rdchem.Mol object at 0x709234300f90>
 features_generators = ['']
 
     def generate_global_features(mol: RDKitMol, features_generators: List[str]) -> np.ndarray:
@@ -100,7 +100,7 @@ self = <deepchem.feat.tests.test_global_feature_generator_dmpnn.TestGlobalFeatur
 ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py:34: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-mol = <rdkit.Chem.rdchem.Mol object at 0x7ae6513d9310>
+mol = <rdkit.Chem.rdchem.Mol object at 0x7092343012a0>
 features_generators = ['morgan']
 
     def generate_global_features(mol: RDKitMol, features_generators: List[str]) -> np.ndarray:
@@ -122,7 +122,7 @@ self = <deepchem.feat.tests.test_global_feature_generator_dmpnn.TestGlobalFeatur
 ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py:83: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-mol = <rdkit.Chem.rdchem.Mol object at 0x7ae6513d95b0>
+mol = <rdkit.Chem.rdchem.Mol object at 0x7092343028f0>
 features_generators = ['morgan_count']
 
     def generate_global_features(mol: RDKitMol, features_generators: List[str]) -> np.ndarray:
@@ -144,7 +144,7 @@ self = <deepchem.feat.tests.test_global_feature_generator_dmpnn.TestGlobalFeatur
 ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py:60: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-mol = <rdkit.Chem.rdchem.Mol object at 0x7ae6513d9850>
+mol = <rdkit.Chem.rdchem.Mol object at 0x7092343017e0>
 features_generators = ['morgan', 'morgan']
 
     def generate_global_features(mol: RDKitMol, features_generators: List[str]) -> np.ndarray:
@@ -166,7 +166,7 @@ self = <deepchem.feat.tests.test_global_feature_generator_dmpnn.TestGlobalFeatur
 ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py:47: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-mol = <rdkit.Chem.rdchem.Mol object at 0x7ae6513daff0>
+mol = <rdkit.Chem.rdchem.Mol object at 0x709234302f80>
 features_generators = ['morgan', '']
 
     def generate_global_features(mol: RDKitMol, features_generators: List[str]) -> np.ndarray:
@@ -188,7 +188,7 @@ self = <deepchem.feat.tests.test_global_feature_generator_dmpnn.TestGlobalFeatur
 ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py:97: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-mol = <rdkit.Chem.rdchem.Mol object at 0x7ae6513d9e70>
+mol = <rdkit.Chem.rdchem.Mol object at 0x709234301e00>
 features_generators = ['rdkit_desc']
 
     def generate_global_features(mol: RDKitMol, features_generators: List[str]) -> np.ndarray:
@@ -210,7 +210,7 @@ self = <deepchem.feat.tests.test_global_feature_generator_dmpnn.TestGlobalFeatur
 ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py:105: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-mol = <rdkit.Chem.rdchem.Mol object at 0x7ae6513da6c0>
+mol = <rdkit.Chem.rdchem.Mol object at 0x7092343026c0>
 features_generators = ['rdkit_desc_normalized']
 
     def generate_global_features(mol: RDKitMol, features_generators: List[str]) -> np.ndarray:
@@ -248,7 +248,7 @@ collecting ... collected 8 items
 ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_rdkit_desc PASSED
 ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_rdkit_desc_normalized PASSED
 
-============================== 8 passed in 3.88s ===============================
+============================== 8 passed in 4.06s ===============================
 
 
 Initial Result:
@@ -269,4 +269,4 @@ collecting ... collected 8 items
 ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_rdkit_desc PASSED
 ../publishablew/deepchem/deepchem/deepchem/feat/tests/test_global_feature_generator_dmpnn.py::TestGlobalFeatureGenerator::test_generator_rdkit_desc_normalized PASSED
 
-========================= 8 passed in 76.66s (0:01:16) =========================
+============================== 8 passed in 4.47s ===============================

@@ -1,44 +1,61 @@
 import numpy as np
 
 def compute_py(ps, noise_matrix, inverse_noise_matrix, py_method, true_labels_class_counts):
-    # Validate input shapes and parameters
-    if ps is None or noise_matrix is None or inverse_noise_matrix is None or py_method is None or true_labels_class_counts is None:
-        raise ValueError("All parameters must be provided.")
+    """
+    Compute the prior probability of true class labels based on observed noisy labels,
+    noise matrices, and inverse noise matrices.
+
+    Parameters:
+    - ps: array-like, shape (K,) or (1, K), observed noisy label distribution.
+    - noise_matrix: array-like, shape (K, K), noise matrix.
+    - inverse_noise_matrix: array-like, shape (K, K), inverse of the noise matrix.
+    - py_method: str, method to compute prior probabilities ('cnt', 'eqn', 'marginal', 'marginal_ps').
+    - true_labels_class_counts: array-like, shape (K,), counts of true class labels.
+
+    Returns:
+    - py: array, shape (K,) or (1, K), prior probability of each true class label.
+    """
+    # Validate input shapes
+    if ps is None or noise_matrix is None or inverse_noise_matrix is None or true_labels_class_counts is None:
+        raise ValueError("All input parameters must be provided.")
     
-    if not isinstance(ps, np.ndarray) or not isinstance(noise_matrix, np.ndarray) or not isinstance(inverse_noise_matrix, np.ndarray) or not isinstance(true_labels_class_counts, np.ndarray):
-        raise TypeError("ps, noise_matrix, inverse_noise_matrix, and true_labels_class_counts must be numpy arrays.")
-    
-    if ps.ndim != 1:
-        raise ValueError("ps must be a 1-dimensional array.")
-    
-    if noise_matrix.shape != inverse_noise_matrix.shape:
-        raise ValueError("noise_matrix and inverse_noise_matrix must have the same shape.")
-    
+    ps = np.asarray(ps)
+    noise_matrix = np.asarray(noise_matrix)
+    inverse_noise_matrix = np.asarray(inverse_noise_matrix)
+    true_labels_class_counts = np.asarray(true_labels_class_counts)
+
     K = noise_matrix.shape[0]
-    if noise_matrix.shape[1] != K:
-        raise ValueError("noise_matrix and inverse_noise_matrix must be square matrices.")
-    
+
+    if ps.shape not in [(K,), (1, K)]:
+        raise ValueError(f"ps must have shape ({K},) or (1, {K}).")
+    if noise_matrix.shape != (K, K):
+        raise ValueError(f"noise_matrix must have shape ({K}, {K}).")
+    if inverse_noise_matrix.shape != (K, K):
+        raise ValueError(f"inverse_noise_matrix must have shape ({K}, {K}).")
     if true_labels_class_counts.shape != (K,):
-        raise ValueError("true_labels_class_counts must be a 1-dimensional array of shape (K,).")
-    
-    if py_method not in ['cnt', 'eqn', 'marginal', 'marginal_ps']:
-        raise ValueError("py_method must be one of 'cnt', 'eqn', 'marginal', or 'marginal_ps'.")
-    
+        raise ValueError(f"true_labels_class_counts must have shape ({K},).")
+
     # Compute py based on the specified method
     if py_method == 'cnt':
+        # Use true label counts to compute prior probabilities
         py = true_labels_class_counts / np.sum(true_labels_class_counts)
     elif py_method == 'eqn':
+        # Use the equation method: py = inverse_noise_matrix * ps
         py = np.dot(inverse_noise_matrix, ps)
     elif py_method == 'marginal':
-        py = np.dot(inverse_noise_matrix, np.dot(noise_matrix, true_labels_class_counts / np.sum(true_labels_class_counts)))
+        # Use marginal method: py = noise_matrix.T * ps
+        py = np.dot(noise_matrix.T, ps)
     elif py_method == 'marginal_ps':
-        py = np.dot(inverse_noise_matrix, np.dot(noise_matrix, ps))
-    
-    # Ensure py is a 1-dimensional array
+        # Use marginal_ps method: py = ps
+        py = ps
+    else:
+        raise ValueError(f"Invalid py_method: {py_method}. Choose from 'cnt', 'eqn', 'marginal', 'marginal_ps'.")
+
+    # Ensure py is a 1D array
     py = np.squeeze(py)
-    
+
     # Clip py to ensure values are between 0 and 1
     py = np.clip(py, 0, 1)
-    
+
     return py
 

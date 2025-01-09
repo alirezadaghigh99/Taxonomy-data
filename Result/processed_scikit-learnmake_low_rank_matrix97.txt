@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_low_rank_matrix FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_regression FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_low_rank_matrix', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_regression'}
+{'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_regression', '../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_low_rank_matrix FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_low_rank_matrix', '../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_regression FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 55 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 1009682300
+../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 1849256975
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_informative_features PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_weights_type[weights0-ValueError-Weights specified but incompatible with number of classes.] PASSED
@@ -138,7 +138,7 @@ E       TypeError: make_low_rank_matrix() missing 1 required positional argument
 =========================== short test summary info ============================
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_regression
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_low_rank_matrix
-========================= 2 failed, 53 passed in 0.31s =========================
+========================= 2 failed, 53 passed in 0.36s =========================
 
 
 Final Test Result:
@@ -150,7 +150,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 55 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 1648940446
+../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 2135170920
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_informative_features PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_weights_type[weights0-ValueError-Weights specified but incompatible with number of classes.] PASSED
@@ -219,7 +219,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 55 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 401988140
+../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification I: Seeding RNGs with 272227731
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_informative_features PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_classification_weights_type[weights0-ValueError-Weights specified but incompatible with number of classes.] PASSED
@@ -276,4 +276,4 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/datasets/tests/test_samples_generator.py::test_make_circles_unbalanced PASSED
 
-============================== 55 passed in 0.17s ==============================
+============================== 55 passed in 0.18s ==============================

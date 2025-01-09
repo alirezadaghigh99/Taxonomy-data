@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_binary', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_missing_labels_only_two_unq_in_y_true', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_with_missing_labels FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_no_consistent_pred_decision_shape FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_missing_labels_with_labels_none FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_missing_labels_only_two_unq_in_y_true FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_with_missing_labels', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_missing_labels_with_labels_none', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_binary FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_invariance_lists', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_no_consistent_pred_decision_shape', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_invariance_lists FAILED'}
+{'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_with_missing_labels', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_missing_labels_only_two_unq_in_y_true', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_missing_labels_with_labels_none', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_missing_labels_only_two_unq_in_y_true FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_invariance_lists', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_no_consistent_pred_decision_shape', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_missing_labels_with_labels_none FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_no_consistent_pred_decision_shape FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_binary', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_binary FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_invariance_lists FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_with_missing_labels FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 208 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 1529163993
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 919554910
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_output_dict_empty_input PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_zero_division_warning[warn] PASSED
@@ -239,53 +239,9 @@ ____________________________ test_hinge_loss_binary ____________________________
         y_true = np.array([0, 2, 2, 0])
         pred_decision = np.array([-8.5, 0.5, 1.5, -0.3])
 >       assert hinge_loss(y_true, pred_decision) == 1.2 / 4
+E       AssertionError
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py:2459: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:216: in wrapper
-    return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/_classification.py:2305: in hinge_loss
-    return hinge_loss(y_true, pred_decision)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-y_true = array([0, 2, 2, 0]), pred_decision = array([-8.5,  0.5,  1.5, -0.3])
-labels = None, sample_weight = None
-
-    def hinge_loss(y_true, pred_decision, labels=None, sample_weight=None):
-        """
-        Calculate the average hinge loss for binary or multiclass classification tasks.
-    
-        Parameters:
-        - y_true: array-like, shape (n_samples,)
-            True target values, encoded as integers (+1 and -1 for binary classification).
-        - pred_decision: array-like, shape (n_samples,) or (n_samples, n_classes)
-            Predicted decision values.
-        - labels: array-like, shape (n_classes,), optional
-            All the labels for multiclass hinge loss.
-        - sample_weight: array-like, shape (n_samples,), optional
-            Sample weights.
-    
-        Returns:
-        - float
-            The average hinge loss.
-        """
-        y_true = np.asarray(y_true)
-        pred_decision = np.asarray(pred_decision)
-        if sample_weight is not None:
-            sample_weight = np.asarray(sample_weight)
-            if sample_weight.shape[0] != y_true.shape[0]:
-                raise ValueError('sample_weight and y_true must have the same length.')
-        if labels is not None:
-            labels = np.asarray(labels)
-        n_samples = y_true.shape[0]
-        if y_true.ndim != 1:
-            raise ValueError('y_true must be a 1-dimensional array.')
-        if pred_decision.ndim == 1:
-            if not np.all(np.isin(y_true, [-1, 1])):
->               raise ValueError('For binary classification, y_true must contain only -1 and 1.')
-E               ValueError: For binary classification, y_true must contain only -1 and 1.
-
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:49: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py:2459: AssertionError
 __________________________ test_hinge_loss_multiclass __________________________
 
     def test_hinge_loss_multiclass():
@@ -350,48 +306,23 @@ pred_decision = array([[ 1.27 ,  0.034, -0.68 , -1.4  ],
 labels = array([0, 1, 2]), sample_weight = None
 
     def hinge_loss(y_true, pred_decision, labels=None, sample_weight=None):
-        """
-        Calculate the average hinge loss for binary or multiclass classification tasks.
-    
-        Parameters:
-        - y_true: array-like, shape (n_samples,)
-            True target values, encoded as integers (+1 and -1 for binary classification).
-        - pred_decision: array-like, shape (n_samples,) or (n_samples, n_classes)
-            Predicted decision values.
-        - labels: array-like, shape (n_classes,), optional
-            All the labels for multiclass hinge loss.
-        - sample_weight: array-like, shape (n_samples,), optional
-            Sample weights.
-    
-        Returns:
-        - float
-            The average hinge loss.
-        """
         y_true = np.asarray(y_true)
         pred_decision = np.asarray(pred_decision)
         if sample_weight is not None:
             sample_weight = np.asarray(sample_weight)
             if sample_weight.shape[0] != y_true.shape[0]:
                 raise ValueError('sample_weight and y_true must have the same length.')
+        unique_labels = np.unique(y_true)
         if labels is not None:
             labels = np.asarray(labels)
-        n_samples = y_true.shape[0]
-        if y_true.ndim != 1:
-            raise ValueError('y_true must be a 1-dimensional array.')
-        if pred_decision.ndim == 1:
-            if not np.all(np.isin(y_true, [-1, 1])):
-                raise ValueError('For binary classification, y_true must contain only -1 and 1.')
-            margin = y_true * pred_decision
-            losses = np.maximum(0, 1 - margin)
         else:
-            if labels is None:
-                labels = np.unique(y_true)
-            n_classes = len(labels)
-            if pred_decision.shape[1] != n_classes:
->               raise ValueError('pred_decision shape does not match the number of labels.')
-E               ValueError: pred_decision shape does not match the number of labels.
+            labels = unique_labels
+        if len(unique_labels) > 2:
+            if pred_decision.ndim != 2 or pred_decision.shape[1] != len(labels):
+>               raise ValueError('pred_decision must be a 2D array with shape (n_samples, n_classes).')
+E               ValueError: pred_decision must be a 2D array with shape (n_samples, n_classes).
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:32: ValueError
 
 During handling of the above exception, another exception occurred:
 
@@ -412,7 +343,7 @@ During handling of the above exception, another exception occurred:
 >           hinge_loss(y_true, pred_decision)
 E           AssertionError: Regex pattern did not match.
 E            Regex: 'Please include all labels in y_true or pass labels as third argument'
-E            Input: 'pred_decision shape does not match the number of labels.'
+E            Input: 'pred_decision must be a 2D array with shape (n_samples, n_classes).'
 
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py:2503: AssertionError
 _________ test_hinge_loss_multiclass_no_consistent_pred_decision_shape _________
@@ -440,44 +371,27 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 y_true = array([2, 1, 0, 1, 0, 1, 1])
-pred_decision = array([0, 1, 2, 1, 0, 2, 1]), labels = None
+pred_decision = array([0, 1, 2, 1, 0, 2, 1]), labels = array([0, 1, 2])
 sample_weight = None
 
     def hinge_loss(y_true, pred_decision, labels=None, sample_weight=None):
-        """
-        Calculate the average hinge loss for binary or multiclass classification tasks.
-    
-        Parameters:
-        - y_true: array-like, shape (n_samples,)
-            True target values, encoded as integers (+1 and -1 for binary classification).
-        - pred_decision: array-like, shape (n_samples,) or (n_samples, n_classes)
-            Predicted decision values.
-        - labels: array-like, shape (n_classes,), optional
-            All the labels for multiclass hinge loss.
-        - sample_weight: array-like, shape (n_samples,), optional
-            Sample weights.
-    
-        Returns:
-        - float
-            The average hinge loss.
-        """
         y_true = np.asarray(y_true)
         pred_decision = np.asarray(pred_decision)
         if sample_weight is not None:
             sample_weight = np.asarray(sample_weight)
             if sample_weight.shape[0] != y_true.shape[0]:
                 raise ValueError('sample_weight and y_true must have the same length.')
+        unique_labels = np.unique(y_true)
         if labels is not None:
             labels = np.asarray(labels)
-        n_samples = y_true.shape[0]
-        if y_true.ndim != 1:
-            raise ValueError('y_true must be a 1-dimensional array.')
-        if pred_decision.ndim == 1:
-            if not np.all(np.isin(y_true, [-1, 1])):
->               raise ValueError('For binary classification, y_true must contain only -1 and 1.')
-E               ValueError: For binary classification, y_true must contain only -1 and 1.
+        else:
+            labels = unique_labels
+        if len(unique_labels) > 2:
+            if pred_decision.ndim != 2 or pred_decision.shape[1] != len(labels):
+>               raise ValueError('pred_decision must be a 2D array with shape (n_samples, n_classes).')
+E               ValueError: pred_decision must be a 2D array with shape (n_samples, n_classes).
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:49: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:32: ValueError
 
 During handling of the above exception, another exception occurred:
 
@@ -496,7 +410,7 @@ During handling of the above exception, another exception occurred:
 >           hinge_loss(y_true=y_true, pred_decision=pred_decision)
 E           AssertionError: Regex pattern did not match.
 E            Regex: 'The\\ shape\\ of\\ pred_decision\\ cannot\\ be\\ 1d\\ arraywith\\ a\\ multiclass\\ target\\.\\ pred_decision\\ shape\\ must\\ be\\ \\(n_samples,\\ n_classes\\),\\ that\\ is\\ \\(7,\\ 3\\)\\.\\ Got:\\ \\(7,\\)'
-E            Input: 'For binary classification, y_true must contain only -1 and 1.'
+E            Input: 'pred_decision must be a 2D array with shape (n_samples, n_classes).'
 
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py:2518: AssertionError
 ________________ test_hinge_loss_multiclass_with_missing_labels ________________
@@ -543,48 +457,23 @@ pred_decision = array([[ 0.36, -0.17, -0.58, -0.99],
 labels = array([0, 1, 2]), sample_weight = None
 
     def hinge_loss(y_true, pred_decision, labels=None, sample_weight=None):
-        """
-        Calculate the average hinge loss for binary or multiclass classification tasks.
-    
-        Parameters:
-        - y_true: array-like, shape (n_samples,)
-            True target values, encoded as integers (+1 and -1 for binary classification).
-        - pred_decision: array-like, shape (n_samples,) or (n_samples, n_classes)
-            Predicted decision values.
-        - labels: array-like, shape (n_classes,), optional
-            All the labels for multiclass hinge loss.
-        - sample_weight: array-like, shape (n_samples,), optional
-            Sample weights.
-    
-        Returns:
-        - float
-            The average hinge loss.
-        """
         y_true = np.asarray(y_true)
         pred_decision = np.asarray(pred_decision)
         if sample_weight is not None:
             sample_weight = np.asarray(sample_weight)
             if sample_weight.shape[0] != y_true.shape[0]:
                 raise ValueError('sample_weight and y_true must have the same length.')
+        unique_labels = np.unique(y_true)
         if labels is not None:
             labels = np.asarray(labels)
-        n_samples = y_true.shape[0]
-        if y_true.ndim != 1:
-            raise ValueError('y_true must be a 1-dimensional array.')
-        if pred_decision.ndim == 1:
-            if not np.all(np.isin(y_true, [-1, 1])):
-                raise ValueError('For binary classification, y_true must contain only -1 and 1.')
-            margin = y_true * pred_decision
-            losses = np.maximum(0, 1 - margin)
         else:
-            if labels is None:
-                labels = np.unique(y_true)
-            n_classes = len(labels)
-            if pred_decision.shape[1] != n_classes:
->               raise ValueError('pred_decision shape does not match the number of labels.')
-E               ValueError: pred_decision shape does not match the number of labels.
+            labels = unique_labels
+        if len(unique_labels) > 2:
+            if pred_decision.ndim != 2 or pred_decision.shape[1] != len(labels):
+>               raise ValueError('pred_decision must be a 2D array with shape (n_samples, n_classes).')
+E               ValueError: pred_decision must be a 2D array with shape (n_samples, n_classes).
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:32: ValueError
 _______ test_hinge_loss_multiclass_missing_labels_only_two_unq_in_y_true _______
 
     def test_hinge_loss_multiclass_missing_labels_only_two_unq_in_y_true():
@@ -635,48 +524,30 @@ pred_decision = array([[ 0.36, -0.17, -0.58],
 labels = array([0, 2]), sample_weight = None
 
     def hinge_loss(y_true, pred_decision, labels=None, sample_weight=None):
-        """
-        Calculate the average hinge loss for binary or multiclass classification tasks.
-    
-        Parameters:
-        - y_true: array-like, shape (n_samples,)
-            True target values, encoded as integers (+1 and -1 for binary classification).
-        - pred_decision: array-like, shape (n_samples,) or (n_samples, n_classes)
-            Predicted decision values.
-        - labels: array-like, shape (n_classes,), optional
-            All the labels for multiclass hinge loss.
-        - sample_weight: array-like, shape (n_samples,), optional
-            Sample weights.
-    
-        Returns:
-        - float
-            The average hinge loss.
-        """
         y_true = np.asarray(y_true)
         pred_decision = np.asarray(pred_decision)
         if sample_weight is not None:
             sample_weight = np.asarray(sample_weight)
             if sample_weight.shape[0] != y_true.shape[0]:
                 raise ValueError('sample_weight and y_true must have the same length.')
+        unique_labels = np.unique(y_true)
         if labels is not None:
             labels = np.asarray(labels)
-        n_samples = y_true.shape[0]
-        if y_true.ndim != 1:
-            raise ValueError('y_true must be a 1-dimensional array.')
-        if pred_decision.ndim == 1:
-            if not np.all(np.isin(y_true, [-1, 1])):
-                raise ValueError('For binary classification, y_true must contain only -1 and 1.')
-            margin = y_true * pred_decision
-            losses = np.maximum(0, 1 - margin)
         else:
-            if labels is None:
-                labels = np.unique(y_true)
-            n_classes = len(labels)
-            if pred_decision.shape[1] != n_classes:
->               raise ValueError('pred_decision shape does not match the number of labels.')
-E               ValueError: pred_decision shape does not match the number of labels.
+            labels = unique_labels
+        if len(unique_labels) > 2:
+            if pred_decision.ndim != 2 or pred_decision.shape[1] != len(labels):
+                raise ValueError('pred_decision must be a 2D array with shape (n_samples, n_classes).')
+            correct_class_scores = pred_decision[np.arange(len(y_true)), y_true]
+            margins = np.maximum(0, 1 + pred_decision - correct_class_scores[:, np.newaxis])
+            margins[np.arange(len(y_true)), y_true] = 0
+            loss = np.sum(margins, axis=1)
+        else:
+            if pred_decision.ndim != 1:
+>               raise ValueError('pred_decision must be a 1D array for binary classification.')
+E               ValueError: pred_decision must be a 1D array for binary classification.
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:57: ValueError
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:39: ValueError
 _________________ test_hinge_loss_multiclass_invariance_lists __________________
 
     def test_hinge_loss_multiclass_invariance_lists():
@@ -725,49 +596,24 @@ labels = array(['blue', 'green', 'red', 'white'], dtype='<U5')
 sample_weight = None
 
     def hinge_loss(y_true, pred_decision, labels=None, sample_weight=None):
-        """
-        Calculate the average hinge loss for binary or multiclass classification tasks.
-    
-        Parameters:
-        - y_true: array-like, shape (n_samples,)
-            True target values, encoded as integers (+1 and -1 for binary classification).
-        - pred_decision: array-like, shape (n_samples,) or (n_samples, n_classes)
-            Predicted decision values.
-        - labels: array-like, shape (n_classes,), optional
-            All the labels for multiclass hinge loss.
-        - sample_weight: array-like, shape (n_samples,), optional
-            Sample weights.
-    
-        Returns:
-        - float
-            The average hinge loss.
-        """
         y_true = np.asarray(y_true)
         pred_decision = np.asarray(pred_decision)
         if sample_weight is not None:
             sample_weight = np.asarray(sample_weight)
             if sample_weight.shape[0] != y_true.shape[0]:
                 raise ValueError('sample_weight and y_true must have the same length.')
+        unique_labels = np.unique(y_true)
         if labels is not None:
             labels = np.asarray(labels)
-        n_samples = y_true.shape[0]
-        if y_true.ndim != 1:
-            raise ValueError('y_true must be a 1-dimensional array.')
-        if pred_decision.ndim == 1:
-            if not np.all(np.isin(y_true, [-1, 1])):
-                raise ValueError('For binary classification, y_true must contain only -1 and 1.')
-            margin = y_true * pred_decision
-            losses = np.maximum(0, 1 - margin)
         else:
-            if labels is None:
-                labels = np.unique(y_true)
-            n_classes = len(labels)
-            if pred_decision.shape[1] != n_classes:
-                raise ValueError('pred_decision shape does not match the number of labels.')
->           correct_class_scores = pred_decision[np.arange(n_samples), y_true]
+            labels = unique_labels
+        if len(unique_labels) > 2:
+            if pred_decision.ndim != 2 or pred_decision.shape[1] != len(labels):
+                raise ValueError('pred_decision must be a 2D array with shape (n_samples, n_classes).')
+>           correct_class_scores = pred_decision[np.arange(len(y_true)), y_true]
 E           IndexError: arrays used as indices must be of integer (or boolean) type
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:58: IndexError
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/temp.py:33: IndexError
 =========================== short test summary info ============================
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_binary
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass
@@ -776,7 +622,7 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_clas
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_with_missing_labels
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_missing_labels_only_two_unq_in_y_true
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_hinge_loss_multiclass_invariance_lists
-============ 7 failed, 198 passed, 3 skipped, 19 warnings in 3.17s =============
+============ 7 failed, 198 passed, 3 skipped, 19 warnings in 2.81s =============
 
 
 Final Test Result:
@@ -788,7 +634,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 208 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 941884166
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 249282852
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_output_dict_empty_input PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_zero_division_warning[warn] PASSED
@@ -998,7 +844,7 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score_raises PASSED
 
-================= 205 passed, 3 skipped, 19 warnings in 2.27s ==================
+================= 205 passed, 3 skipped, 19 warnings in 2.23s ==================
 
 
 Initial Result:
@@ -1010,7 +856,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 208 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 139856544
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_dictionary_output I: Seeding RNGs with 1769206530
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_output_dict_empty_input PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_classification_report_zero_division_warning[warn] PASSED
@@ -1220,4 +1066,4 @@ PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/metrics/tests/test_classification.py::test_d2_log_loss_score_raises PASSED
 
-================= 205 passed, 3 skipped, 19 warnings in 2.38s ==================
+================= 205 passed, 3 skipped, 19 warnings in 2.35s ==================

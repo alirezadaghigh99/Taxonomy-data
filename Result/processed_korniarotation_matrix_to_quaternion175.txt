@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_smoke_batch[cpu-float32-1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_smoke_batch[cpu-float32-1]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_back_and_forth[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_smoke_batch[cpu-float32-3]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_smoke_batch[cpu-float32-8]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_rot_x_45[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_corner_case[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_gradcheck[cpu]', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_corner_case[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_smoke_batch[cpu-float32-8] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_rot_x_45[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_gradcheck[cpu] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_back_and_forth[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_smoke_batch[cpu-float32-3] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_identity[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_identity[cpu-float32]'}
+{'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_gradcheck[cpu]', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_rot_x_45[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_smoke_batch[cpu-float32-1] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_smoke_batch[cpu-float32-3] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_rot_x_45[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_gradcheck[cpu] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_back_and_forth[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_identity[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_back_and_forth[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_smoke_batch[cpu-float32-3]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_corner_case[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_identity[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_smoke_batch[cpu-float32-1]', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_corner_case[cpu-float32] FAILED', '../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_smoke_batch[cpu-float32-8] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_smoke_batch[cpu-float32-8]'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'inductor', 'openxla', 'cudagraphs', 'jit', 'onnxrt', 'tvm', None}
+available optimizers: {'', 'openxla', 'inductor', 'jit', 'tvm', 'onnxrt', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -56,7 +56,7 @@ collecting ... collected 9 items
 =================================== FAILURES ===================================
 ________ TestRotationMatrixToQuaternion.test_smoke_batch[cpu-float32-1] ________
 
-self = <tests.geometry.test_conversions.TestRotationMatrixToQuaternion object at 0x7b3893d44250>
+self = <tests.geometry.test_conversions.TestRotationMatrixToQuaternion object at 0x7119a8d30220>
 batch_size = 1, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", (1, 3, 8))
@@ -77,23 +77,23 @@ eps = 1e-08
 
     def rotation_matrix_to_quaternion(rotation_matrix, eps=1e-06):
         """
-        Converts a 3x3 rotation matrix to a 4D quaternion vector.
+        Convert a 3x3 rotation matrix to a quaternion (w, x, y, z).
     
         Parameters:
-        rotation_matrix (np.ndarray): A tensor of shape (*, 3, 3) representing the rotation matrix.
-        eps (float): A small value to avoid zero division.
+        - rotation_matrix: A numpy array of shape (..., 3, 3) representing the rotation matrix.
+        - eps: A small value to avoid division by zero.
     
         Returns:
-        np.ndarray: A tensor of shape (*, 4) representing the quaternion in (w, x, y, z) format.
+        - A numpy array of shape (..., 4) representing the quaternion in (w, x, y, z) format.
         """
         if not isinstance(rotation_matrix, np.ndarray):
->           raise TypeError('Input rotation_matrix must be a numpy ndarray.')
-E           TypeError: Input rotation_matrix must be a numpy ndarray.
+>           raise TypeError('Input rotation_matrix must be a numpy array.')
+E           TypeError: Input rotation_matrix must be a numpy array.
 
 ../publishablew/kornia/kornia/kornia/geometry/temp.py:24: TypeError
 ________ TestRotationMatrixToQuaternion.test_smoke_batch[cpu-float32-3] ________
 
-self = <tests.geometry.test_conversions.TestRotationMatrixToQuaternion object at 0x7b3893d44190>
+self = <tests.geometry.test_conversions.TestRotationMatrixToQuaternion object at 0x7119a8d30160>
 batch_size = 3, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", (1, 3, 8))
@@ -122,23 +122,23 @@ eps = 1e-08
 
     def rotation_matrix_to_quaternion(rotation_matrix, eps=1e-06):
         """
-        Converts a 3x3 rotation matrix to a 4D quaternion vector.
+        Convert a 3x3 rotation matrix to a quaternion (w, x, y, z).
     
         Parameters:
-        rotation_matrix (np.ndarray): A tensor of shape (*, 3, 3) representing the rotation matrix.
-        eps (float): A small value to avoid zero division.
+        - rotation_matrix: A numpy array of shape (..., 3, 3) representing the rotation matrix.
+        - eps: A small value to avoid division by zero.
     
         Returns:
-        np.ndarray: A tensor of shape (*, 4) representing the quaternion in (w, x, y, z) format.
+        - A numpy array of shape (..., 4) representing the quaternion in (w, x, y, z) format.
         """
         if not isinstance(rotation_matrix, np.ndarray):
->           raise TypeError('Input rotation_matrix must be a numpy ndarray.')
-E           TypeError: Input rotation_matrix must be a numpy ndarray.
+>           raise TypeError('Input rotation_matrix must be a numpy array.')
+E           TypeError: Input rotation_matrix must be a numpy array.
 
 ../publishablew/kornia/kornia/kornia/geometry/temp.py:24: TypeError
 ________ TestRotationMatrixToQuaternion.test_smoke_batch[cpu-float32-8] ________
 
-self = <tests.geometry.test_conversions.TestRotationMatrixToQuaternion object at 0x7b3893d44490>
+self = <tests.geometry.test_conversions.TestRotationMatrixToQuaternion object at 0x7119a8d30460>
 batch_size = 8, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", (1, 3, 8))
@@ -169,23 +169,23 @@ eps = 1e-08
 
     def rotation_matrix_to_quaternion(rotation_matrix, eps=1e-06):
         """
-        Converts a 3x3 rotation matrix to a 4D quaternion vector.
+        Convert a 3x3 rotation matrix to a quaternion (w, x, y, z).
     
         Parameters:
-        rotation_matrix (np.ndarray): A tensor of shape (*, 3, 3) representing the rotation matrix.
-        eps (float): A small value to avoid zero division.
+        - rotation_matrix: A numpy array of shape (..., 3, 3) representing the rotation matrix.
+        - eps: A small value to avoid division by zero.
     
         Returns:
-        np.ndarray: A tensor of shape (*, 4) representing the quaternion in (w, x, y, z) format.
+        - A numpy array of shape (..., 4) representing the quaternion in (w, x, y, z) format.
         """
         if not isinstance(rotation_matrix, np.ndarray):
->           raise TypeError('Input rotation_matrix must be a numpy ndarray.')
-E           TypeError: Input rotation_matrix must be a numpy ndarray.
+>           raise TypeError('Input rotation_matrix must be a numpy array.')
+E           TypeError: Input rotation_matrix must be a numpy array.
 
 ../publishablew/kornia/kornia/kornia/geometry/temp.py:24: TypeError
 __________ TestRotationMatrixToQuaternion.test_identity[cpu-float32] ___________
 
-self = <tests.geometry.test_conversions.TestRotationMatrixToQuaternion object at 0x7b3893d447c0>
+self = <tests.geometry.test_conversions.TestRotationMatrixToQuaternion object at 0x7119a8d30790>
 device = device(type='cpu'), dtype = torch.float32, atol = 0.0001, rtol = 0.0001
 
     def test_identity(self, device, dtype, atol, rtol):
@@ -206,23 +206,23 @@ eps = 1e-08
 
     def rotation_matrix_to_quaternion(rotation_matrix, eps=1e-06):
         """
-        Converts a 3x3 rotation matrix to a 4D quaternion vector.
+        Convert a 3x3 rotation matrix to a quaternion (w, x, y, z).
     
         Parameters:
-        rotation_matrix (np.ndarray): A tensor of shape (*, 3, 3) representing the rotation matrix.
-        eps (float): A small value to avoid zero division.
+        - rotation_matrix: A numpy array of shape (..., 3, 3) representing the rotation matrix.
+        - eps: A small value to avoid division by zero.
     
         Returns:
-        np.ndarray: A tensor of shape (*, 4) representing the quaternion in (w, x, y, z) format.
+        - A numpy array of shape (..., 4) representing the quaternion in (w, x, y, z) format.
         """
         if not isinstance(rotation_matrix, np.ndarray):
->           raise TypeError('Input rotation_matrix must be a numpy ndarray.')
-E           TypeError: Input rotation_matrix must be a numpy ndarray.
+>           raise TypeError('Input rotation_matrix must be a numpy array.')
+E           TypeError: Input rotation_matrix must be a numpy array.
 
 ../publishablew/kornia/kornia/kornia/geometry/temp.py:24: TypeError
 __________ TestRotationMatrixToQuaternion.test_rot_x_45[cpu-float32] ___________
 
-self = <tests.geometry.test_conversions.TestRotationMatrixToQuaternion object at 0x7b3893d44b50>
+self = <tests.geometry.test_conversions.TestRotationMatrixToQuaternion object at 0x7119a8d30b20>
 device = device(type='cpu'), dtype = torch.float32, atol = 0.0001, rtol = 0.0001
 
     def test_rot_x_45(self, device, dtype, atol, rtol):
@@ -244,23 +244,23 @@ eps = 1e-08
 
     def rotation_matrix_to_quaternion(rotation_matrix, eps=1e-06):
         """
-        Converts a 3x3 rotation matrix to a 4D quaternion vector.
+        Convert a 3x3 rotation matrix to a quaternion (w, x, y, z).
     
         Parameters:
-        rotation_matrix (np.ndarray): A tensor of shape (*, 3, 3) representing the rotation matrix.
-        eps (float): A small value to avoid zero division.
+        - rotation_matrix: A numpy array of shape (..., 3, 3) representing the rotation matrix.
+        - eps: A small value to avoid division by zero.
     
         Returns:
-        np.ndarray: A tensor of shape (*, 4) representing the quaternion in (w, x, y, z) format.
+        - A numpy array of shape (..., 4) representing the quaternion in (w, x, y, z) format.
         """
         if not isinstance(rotation_matrix, np.ndarray):
->           raise TypeError('Input rotation_matrix must be a numpy ndarray.')
-E           TypeError: Input rotation_matrix must be a numpy ndarray.
+>           raise TypeError('Input rotation_matrix must be a numpy array.')
+E           TypeError: Input rotation_matrix must be a numpy array.
 
 ../publishablew/kornia/kornia/kornia/geometry/temp.py:24: TypeError
 _______ TestRotationMatrixToQuaternion.test_back_and_forth[cpu-float32] ________
 
-self = <tests.geometry.test_conversions.TestRotationMatrixToQuaternion object at 0x7b3893d44ee0>
+self = <tests.geometry.test_conversions.TestRotationMatrixToQuaternion object at 0x7119a8d30eb0>
 device = device(type='cpu'), dtype = torch.float32, atol = 0.0001, rtol = 0.0001
 
     def test_back_and_forth(self, device, dtype, atol, rtol):
@@ -281,23 +281,23 @@ eps = 1.1920928955078125e-07
 
     def rotation_matrix_to_quaternion(rotation_matrix, eps=1e-06):
         """
-        Converts a 3x3 rotation matrix to a 4D quaternion vector.
+        Convert a 3x3 rotation matrix to a quaternion (w, x, y, z).
     
         Parameters:
-        rotation_matrix (np.ndarray): A tensor of shape (*, 3, 3) representing the rotation matrix.
-        eps (float): A small value to avoid zero division.
+        - rotation_matrix: A numpy array of shape (..., 3, 3) representing the rotation matrix.
+        - eps: A small value to avoid division by zero.
     
         Returns:
-        np.ndarray: A tensor of shape (*, 4) representing the quaternion in (w, x, y, z) format.
+        - A numpy array of shape (..., 4) representing the quaternion in (w, x, y, z) format.
         """
         if not isinstance(rotation_matrix, np.ndarray):
->           raise TypeError('Input rotation_matrix must be a numpy ndarray.')
-E           TypeError: Input rotation_matrix must be a numpy ndarray.
+>           raise TypeError('Input rotation_matrix must be a numpy array.')
+E           TypeError: Input rotation_matrix must be a numpy array.
 
 ../publishablew/kornia/kornia/kornia/geometry/temp.py:24: TypeError
 _________ TestRotationMatrixToQuaternion.test_corner_case[cpu-float32] _________
 
-self = <tests.geometry.test_conversions.TestRotationMatrixToQuaternion object at 0x7b3893d45270>
+self = <tests.geometry.test_conversions.TestRotationMatrixToQuaternion object at 0x7119a8d31240>
 device = device(type='cpu'), dtype = torch.float32, atol = 0.0001, rtol = 0.0001
 
     def test_corner_case(self, device, dtype, atol, rtol):
@@ -329,23 +329,23 @@ eps = 1.1920928955078125e-07
 
     def rotation_matrix_to_quaternion(rotation_matrix, eps=1e-06):
         """
-        Converts a 3x3 rotation matrix to a 4D quaternion vector.
+        Convert a 3x3 rotation matrix to a quaternion (w, x, y, z).
     
         Parameters:
-        rotation_matrix (np.ndarray): A tensor of shape (*, 3, 3) representing the rotation matrix.
-        eps (float): A small value to avoid zero division.
+        - rotation_matrix: A numpy array of shape (..., 3, 3) representing the rotation matrix.
+        - eps: A small value to avoid division by zero.
     
         Returns:
-        np.ndarray: A tensor of shape (*, 4) representing the quaternion in (w, x, y, z) format.
+        - A numpy array of shape (..., 4) representing the quaternion in (w, x, y, z) format.
         """
         if not isinstance(rotation_matrix, np.ndarray):
->           raise TypeError('Input rotation_matrix must be a numpy ndarray.')
-E           TypeError: Input rotation_matrix must be a numpy ndarray.
+>           raise TypeError('Input rotation_matrix must be a numpy array.')
+E           TypeError: Input rotation_matrix must be a numpy array.
 
 ../publishablew/kornia/kornia/kornia/geometry/temp.py:24: TypeError
 ______________ TestRotationMatrixToQuaternion.test_gradcheck[cpu] ______________
 
-self = <tests.geometry.test_conversions.TestRotationMatrixToQuaternion object at 0x7b3893d45540>
+self = <tests.geometry.test_conversions.TestRotationMatrixToQuaternion object at 0x7119a8d31510>
 device = device(type='cpu')
 
     def test_gradcheck(self, device):
@@ -374,18 +374,18 @@ eps = 2.220446049250313e-16
 
     def rotation_matrix_to_quaternion(rotation_matrix, eps=1e-06):
         """
-        Converts a 3x3 rotation matrix to a 4D quaternion vector.
+        Convert a 3x3 rotation matrix to a quaternion (w, x, y, z).
     
         Parameters:
-        rotation_matrix (np.ndarray): A tensor of shape (*, 3, 3) representing the rotation matrix.
-        eps (float): A small value to avoid zero division.
+        - rotation_matrix: A numpy array of shape (..., 3, 3) representing the rotation matrix.
+        - eps: A small value to avoid division by zero.
     
         Returns:
-        np.ndarray: A tensor of shape (*, 4) representing the quaternion in (w, x, y, z) format.
+        - A numpy array of shape (..., 4) representing the quaternion in (w, x, y, z) format.
         """
         if not isinstance(rotation_matrix, np.ndarray):
->           raise TypeError('Input rotation_matrix must be a numpy ndarray.')
-E           TypeError: Input rotation_matrix must be a numpy ndarray.
+>           raise TypeError('Input rotation_matrix must be a numpy array.')
+E           TypeError: Input rotation_matrix must be a numpy array.
 
 ../publishablew/kornia/kornia/kornia/geometry/temp.py:24: TypeError
 =========================== short test summary info ============================
@@ -397,7 +397,7 @@ FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRot
 FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_back_and_forth[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_corner_case[cpu-float32]
 FAILED ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_gradcheck[cpu]
-========================= 8 failed, 1 passed in 2.38s ==========================
+========================= 8 failed, 1 passed in 2.40s ==========================
 
 
 Final Test Result:
@@ -426,7 +426,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'openxla', 'jit', 'tvm', 'onnxrt', 'inductor', None}
+available optimizers: {'', None, 'tvm', 'onnxrt', 'openxla', 'cudagraphs', 'inductor', 'jit'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -444,7 +444,7 @@ collecting ... collected 9 items
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_dynamo[cpu-float32-inductor] PASSED
 
-============================== 9 passed in 1.94s ===============================
+============================== 9 passed in 2.02s ===============================
 
 
 Initial Result:
@@ -473,7 +473,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'cudagraphs', 'inductor', 'jit', 'openxla', 'onnxrt', None}
+available optimizers: {'', 'openxla', 'inductor', 'onnxrt', 'tvm', 'cudagraphs', 'jit', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -491,4 +491,4 @@ collecting ... collected 9 items
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/test_conversions.py::TestRotationMatrixToQuaternion::test_dynamo[cpu-float32-inductor] PASSED
 
-============================== 9 passed in 1.94s ===============================
+============================== 9 passed in 2.08s ===============================

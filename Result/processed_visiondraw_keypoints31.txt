@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis0-connectivity1] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis1-connectivity0] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis0-connectivity1]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis0-connectivity0]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis1-connectivity1]', '../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis1-connectivity1] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis1-connectivity0]', '../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis0-connectivity0] FAILED'}
+{'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis1-connectivity1]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis0-connectivity0]', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis1-connectivity0]', '../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis0-connectivity1] FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis0-connectivity1]', '../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis1-connectivity0] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis1-connectivity1] FAILED', '../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis0-connectivity0] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -47,9 +47,9 @@ ______________ test_draw_keypoints_visibility[vis1-connectivity0] ______________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:254: in draw_keypoints
     return draw_keypoints(image, keypoints, connectivity, colors, radius, width, visibility)
-../publishablew/vision/vision/torchvision/temp.py:29: in draw_keypoints
-    raise ValueError('The visibility tensor must match the shape of the keypoints tensor.')
-E   ValueError: The visibility tensor must match the shape of the keypoints tensor.
+../publishablew/vision/vision/torchvision/temp.py:32: in draw_keypoints
+    raise ValueError('Visibility must be a tensor of shape (num_instances, K).')
+E   ValueError: Visibility must be a tensor of shape (num_instances, K).
 ______________ test_draw_keypoints_visibility[vis1-connectivity1] ______________
 ../publishablew/vision/vision/test/test_utils.py:417: in test_draw_keypoints_visibility
     result = utils.draw_keypoints(
@@ -57,15 +57,15 @@ ______________ test_draw_keypoints_visibility[vis1-connectivity1] ______________
     return func(*args, **kwargs)
 ../publishablew/vision/vision/torchvision/utils.py:254: in draw_keypoints
     return draw_keypoints(image, keypoints, connectivity, colors, radius, width, visibility)
-../publishablew/vision/vision/torchvision/temp.py:29: in draw_keypoints
-    raise ValueError('The visibility tensor must match the shape of the keypoints tensor.')
-E   ValueError: The visibility tensor must match the shape of the keypoints tensor.
+../publishablew/vision/vision/torchvision/temp.py:32: in draw_keypoints
+    raise ValueError('Visibility must be a tensor of shape (num_instances, K).')
+E   ValueError: Visibility must be a tensor of shape (num_instances, K).
 =========================== short test summary info ============================
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis0-connectivity0]
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis0-connectivity1]
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis1-connectivity0]
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis1-connectivity1]
-============================== 4 failed in 0.27s ===============================
+============================== 4 failed in 0.15s ===============================
 
 
 Final Test Result:
@@ -82,7 +82,7 @@ collecting ... collected 4 items
 ../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis1-connectivity0] PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis1-connectivity1] PASSED
 
-============================== 4 passed in 0.21s ===============================
+============================== 4 passed in 0.10s ===============================
 
 
 Initial Result:
@@ -99,4 +99,4 @@ collecting ... collected 4 items
 ../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis1-connectivity0] PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_draw_keypoints_visibility[vis1-connectivity1] PASSED
 
-============================== 4 passed in 0.17s ===============================
+============================== 4 passed in 0.12s ===============================

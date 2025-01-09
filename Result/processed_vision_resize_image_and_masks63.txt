@@ -29,7 +29,7 @@ collecting ... collected 10 items
 ../publishablew/vision/vision/test/test_models_detection_negative_samples.py::TestModelsDetectionNegativeSamples::test_forward_negative_sample_fcos PASSED
 ../publishablew/vision/vision/test/test_models_detection_negative_samples.py::TestModelsDetectionNegativeSamples::test_forward_negative_sample_ssd PASSED
 
-============================== 10 passed in 3.80s ==============================
+============================== 10 passed in 3.74s ==============================
 
 
 Final Test Result:
@@ -52,7 +52,7 @@ collecting ... collected 10 items
 ../publishablew/vision/vision/test/test_models_detection_negative_samples.py::TestModelsDetectionNegativeSamples::test_forward_negative_sample_fcos PASSED
 ../publishablew/vision/vision/test/test_models_detection_negative_samples.py::TestModelsDetectionNegativeSamples::test_forward_negative_sample_ssd PASSED
 
-============================== 10 passed in 3.83s ==============================
+============================== 10 passed in 3.69s ==============================
 
 
 Initial Result:
@@ -75,4 +75,4 @@ collecting ... collected 10 items
 ../publishablew/vision/vision/test/test_models_detection_negative_samples.py::TestModelsDetectionNegativeSamples::test_forward_negative_sample_fcos PASSED
 ../publishablew/vision/vision/test/test_models_detection_negative_samples.py::TestModelsDetectionNegativeSamples::test_forward_negative_sample_ssd PASSED
 
-============================== 10 passed in 3.86s ==============================
+============================== 10 passed in 3.92s ==============================

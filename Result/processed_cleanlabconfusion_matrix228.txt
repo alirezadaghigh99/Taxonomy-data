@@ -4,10 +4,10 @@ function:
 confusion_matrix
 Error Cases:
 
-Pass or Failed: 0
+Pass or Failed: 1
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_confusion_matrix_nonconsecutive', '../publishablew/cleanlab/cleanlab/tests/test_util.py::test_confusion_matrix_nonconsecutive FAILED'}
+set()
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -136,31 +136,17 @@ PASSED
 ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_missing_classes PASSED
 ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_round_preserving_row_totals PASSED
 ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_confusion_matrix PASSED
-../publishablew/cleanlab/cleanlab/tests/test_util.py::test_confusion_matrix_nonconsecutive FAILED
+../publishablew/cleanlab/cleanlab/tests/test_util.py::test_confusion_matrix_nonconsecutive PASSED
 ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_format_labels PASSED
 ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_normalized_entropy PASSED
 ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_force_two_dimensions PASSED
 
-=================================== FAILURES ===================================
-_____________________ test_confusion_matrix_nonconsecutive _____________________
-
-    def test_confusion_matrix_nonconsecutive():
-        true = [-1, -1, -1, 1]
-        pred = [1, 1, -1, 1]
-        cmat = util.confusion_matrix(true, pred)
-        assert np.shape(cmat) == (2, 2)
->       assert cmat[0][0] == 1
-E       assert 0 == 1
-
-../publishablew/cleanlab/cleanlab/tests/test_util.py:159: AssertionError
 =============================== warnings summary ===============================
 ../publishablew/cleanlab/cleanlab/tests/test_util.py:0
   /local/data0/moved_data/publishablew/cleanlab/cleanlab/tests/test_util.py:0: PytestCollectionWarning: cannot collect test class 'TestCase' because it has a __new__ constructor (from: tests/test_util.py)
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-=========================== short test summary info ============================
-FAILED ../publishablew/cleanlab/cleanlab/tests/test_util.py::test_confusion_matrix_nonconsecutive
-=================== 1 failed, 20 passed, 1 warning in 0.59s ====================
+======================== 21 passed, 1 warning in 0.56s =========================
 
 
 Final Test Result:
@@ -300,7 +286,7 @@ PASSED
   /local/data0/moved_data/publishablew/cleanlab/cleanlab/tests/test_util.py:0: PytestCollectionWarning: cannot collect test class 'TestCase' because it has a __new__ constructor (from: tests/test_util.py)
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-======================== 21 passed, 1 warning in 0.60s =========================
+======================== 21 passed, 1 warning in 0.54s =========================
 
 
 Initial Result:
@@ -440,4 +426,4 @@ PASSED
   /local/data0/moved_data/publishablew/cleanlab/cleanlab/tests/test_util.py:0: PytestCollectionWarning: cannot collect test class 'TestCase' because it has a __new__ constructor (from: tests/test_util.py)
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-======================== 21 passed, 1 warning in 0.58s =========================
+======================== 21 passed, 1 warning in 0.52s =========================

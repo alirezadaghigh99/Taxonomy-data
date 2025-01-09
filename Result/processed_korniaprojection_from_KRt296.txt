@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_simple[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_smoke[cpu-float32]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_shape[cpu-float32-1]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_shape[cpu-float32-1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_shape[cpu-float32-2]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_shape[cpu-float32-4] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_shape[cpu-float32-2] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_shape[cpu-float32-4]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_simple[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_smoke[cpu-float32] FAILED'}
+{'../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_shape[cpu-float32-1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_smoke[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_smoke[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_simple[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_shape[cpu-float32-4] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_shape[cpu-float32-2]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_shape[cpu-float32-1]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_shape[cpu-float32-2] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_simple[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_shape[cpu-float32-4]'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'inductor', 'jit', None, 'openxla', 'onnxrt', 'tvm', 'cudagraphs'}
+available optimizers: {'', 'jit', 'inductor', 'tvm', 'onnxrt', 'cudagraphs', 'openxla', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -54,7 +54,7 @@ collecting ... collected 7 items
 =================================== FAILURES ===================================
 ________________ TestProjectionFromKRt.test_smoke[cpu-float32] _________________
 
-self = <test_projection.TestProjectionFromKRt object at 0x7b89deefd870>
+self = <test_projection.TestProjectionFromKRt object at 0x7378c48fda20>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_smoke(self, device, dtype):
@@ -77,7 +77,7 @@ E         ...Full output truncated (3 lines hidden), use '-vv' to show
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py:74: AssertionError
 _______________ TestProjectionFromKRt.test_shape[cpu-float32-1] ________________
 
-self = <test_projection.TestProjectionFromKRt object at 0x7b89deefdd20>
+self = <test_projection.TestProjectionFromKRt object at 0x7378c48fded0>
 batch_size = 1, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 4])
@@ -102,7 +102,7 @@ E         ...Full output truncated (3 lines hidden), use '-vv' to show
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py:83: AssertionError
 _______________ TestProjectionFromKRt.test_shape[cpu-float32-2] ________________
 
-self = <test_projection.TestProjectionFromKRt object at 0x7b89deefdc60>
+self = <test_projection.TestProjectionFromKRt object at 0x7378c48fde10>
 batch_size = 2, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 4])
@@ -127,7 +127,7 @@ E         ...Full output truncated (3 lines hidden), use '-vv' to show
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py:83: AssertionError
 _______________ TestProjectionFromKRt.test_shape[cpu-float32-4] ________________
 
-self = <test_projection.TestProjectionFromKRt object at 0x7b89deefdf60>
+self = <test_projection.TestProjectionFromKRt object at 0x7378c48fe110>
 batch_size = 4, device = device(type='cpu'), dtype = torch.float32
 
     @pytest.mark.parametrize("batch_size", [1, 2, 4])
@@ -152,7 +152,7 @@ E         ...Full output truncated (3 lines hidden), use '-vv' to show
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py:83: AssertionError
 ________________ TestProjectionFromKRt.test_simple[cpu-float32] ________________
 
-self = <test_projection.TestProjectionFromKRt object at 0x7b89deefda50>
+self = <test_projection.TestProjectionFromKRt object at 0x7378c48fdc00>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_simple(self, device, dtype):
@@ -211,7 +211,7 @@ FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py:
 FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_shape[cpu-float32-2]
 FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_shape[cpu-float32-4]
 FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_simple[cpu-float32]
-========================= 5 failed, 2 passed in 0.20s ==========================
+========================= 5 failed, 2 passed in 0.24s ==========================
 
 
 Final Test Result:
@@ -240,7 +240,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'inductor', 'tvm', None, 'onnxrt', 'openxla', 'cudagraphs'}
+available optimizers: {'', 'onnxrt', 'inductor', 'jit', 'tvm', 'openxla', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -256,7 +256,7 @@ collecting ... collected 7 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_krt_from_projection[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_gradcheck[cpu] PASSED
 
-============================== 7 passed in 0.15s ===============================
+============================== 7 passed in 0.16s ===============================
 
 
 Initial Result:
@@ -285,7 +285,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'onnxrt', 'jit', 'tvm', 'inductor', 'openxla', 'cudagraphs', None}
+available optimizers: {'', 'inductor', 'tvm', 'openxla', 'onnxrt', 'cudagraphs', 'jit', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -301,4 +301,4 @@ collecting ... collected 7 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_krt_from_projection[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestProjectionFromKRt::test_gradcheck[cpu] PASSED
 
-============================== 7 passed in 0.14s ===============================
+============================== 7 passed in 0.16s ===============================

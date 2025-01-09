@@ -1,33 +1,41 @@
 import torch
 
 def KORNIA_CHECK_LAF(laf):
-    if laf.ndimension() != 4 or laf.size(2) != 2 or laf.size(3) != 3:
-        raise ValueError("Input LAF should be of shape (B, N, 2, 3)")
+    if laf.ndim != 4 or laf.shape[2:] != (2, 3):
+        raise ValueError("Input LAF should have shape (B, N, 2, 3)")
 
 def make_upright(laf, eps=1e-6):
-    # Validate the input affine matrix
+    """
+    Rectifies an affine matrix to make it upright.
+
+    Args:
+        laf (torch.Tensor): Input affine matrix of shape (B, N, 2, 3).
+        eps (float, optional): Small value for safe division. Default is 1e-6.
+
+    Returns:
+        torch.Tensor: Rectified affine matrix of the same shape (B, N, 2, 3).
+    """
     KORNIA_CHECK_LAF(laf)
     
-    # Extract the 2x2 affine part of the matrix
-    A = laf[:, :, :2, :2]
+    # Extract the 2x2 affine part
+    A = laf[..., :2, :2]  # Shape (B, N, 2, 2)
     
-    # Calculate the determinant of the affine matrix
-    det = torch.det(A)
+    # Compute the determinant
+    det = torch.det(A)  # Shape (B, N)
     
-    # Perform SVD on the 2x2 matrix
-    U, S, V = torch.svd(A)
+    # Perform SVD on the 2x2 matrices
+    U, S, Vt = torch.linalg.svd(A)
     
-    # Set the rotation matrix to an identity matrix
-    identity_matrix = torch.eye(2, device=laf.device).unsqueeze(0).unsqueeze(0)
-    identity_matrix = identity_matrix.expand_as(A)
+    # Create an identity matrix for the rotation part
+    identity = torch.eye(2, device=laf.device, dtype=laf.dtype).expand_as(A)
     
-    # Scale the rectified affine matrix using the original determinant
-    scale_factor = torch.sqrt(det).unsqueeze(-1).unsqueeze(-1)
-    rectified_A = identity_matrix * scale_factor
+    # Scale the identity matrix by the original determinant
+    scale = det.unsqueeze(-1).unsqueeze(-1) / (S.prod(dim=-1, keepdim=True) + eps)
+    upright_A = identity * scale
     
-    # Replace the original 2x2 affine part with the rectified one
+    # Replace the original affine part with the upright version
     rectified_laf = laf.clone()
-    rectified_laf[:, :, :2, :2] = rectified_A
+    rectified_laf[..., :2, :2] = upright_A
     
     return rectified_laf
 

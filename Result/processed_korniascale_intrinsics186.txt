@@ -4,10 +4,10 @@ function:
 scale_intrinsics
 Error Cases:
 
-Pass or Failed: 0
+Pass or Failed: 1
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-4]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-4] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_smoke_tensor[cpu-float32] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-1]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-2]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-9]', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_gradcheck[cpu]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-1] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_scale_double[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_gradcheck[cpu] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-9] FAILED', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-2] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_smoke_tensor[cpu-float32]', '../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_scale_double[cpu-float32] FAILED'}
+set()
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'tvm', 'inductor', 'jit', 'openxla', 'onnxrt', None}
+available optimizers: {'', 'onnxrt', 'cudagraphs', 'inductor', 'openxla', 'tvm', 'jit', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -44,475 +44,15 @@ plugins: timeout-2.3.1
 collecting ... collected 8 items
 
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_smoke_float[cpu-float32] PASSED
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_smoke_tensor[cpu-float32] FAILED
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-1] FAILED
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-2] FAILED
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-4] FAILED
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-9] FAILED
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_scale_double[cpu-float32] FAILED
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_gradcheck[cpu] FAILED
+../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_smoke_tensor[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-1] PASSED
+../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-2] PASSED
+../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-4] PASSED
+../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-9] PASSED
+../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_scale_double[cpu-float32] PASSED
+../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_gradcheck[cpu] PASSED
 
-=================================== FAILURES ===================================
-______________ TestScaleIntrinsics.test_smoke_tensor[cpu-float32] ______________
-
-self = <test_projection.TestScaleIntrinsics object at 0x7cc070ed9cc0>
-device = device(type='cpu'), dtype = torch.float32
-
-    def test_smoke_tensor(self, device, dtype):
-        scale_factor = torch.tensor(1.0)
-        camera_matrix = torch.rand(1, 3, 3, device=device, dtype=dtype)
->       camera_matrix_scale = epi.scale_intrinsics(camera_matrix, scale_factor)
-
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py:38: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/geometry/epipolar/projection.py:54: in scale_intrinsics
-    return scale_intrinsics(camera_matrix, scale_factor)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-camera_matrix = tensor([[[0.2143, 0.8987, 0.3645],
-         [0.4763, 0.7763, 0.0207],
-         [0.3730, 0.8248, 0.0090]]])
-scale_factor = tensor([[[1.]]])
-
-    def scale_intrinsics(camera_matrix, scale_factor):
-        """
-        Scales the focal length and center of projection in the camera matrix by the given scale factor.
-    
-        Parameters:
-        camera_matrix (torch.Tensor or np.ndarray): The camera matrix with shape (B, 3, 3).
-        scale_factor (float or torch.Tensor or np.ndarray): The scale factor to apply.
-    
-        Returns:
-        torch.Tensor or np.ndarray: The scaled camera matrix with the same shape as the input (B, 3, 3).
-        """
-        if isinstance(camera_matrix, np.ndarray):
-            if isinstance(scale_factor, (float, int)):
-                scale_factor = np.array(scale_factor)
-            elif isinstance(scale_factor, np.ndarray):
-                scale_factor = scale_factor.reshape(-1, 1, 1)
-            else:
-                raise TypeError('Scale factor must be a float, int, or np.ndarray when camera_matrix is an np.ndarray.')
-            scaled_matrix = camera_matrix.copy()
-            scaled_matrix[:, 0, 0] *= scale_factor
-            scaled_matrix[:, 1, 1] *= scale_factor
-            scaled_matrix[:, 0, 2] *= scale_factor
-            scaled_matrix[:, 1, 2] *= scale_factor
-        elif isinstance(camera_matrix, torch.Tensor):
-            if isinstance(scale_factor, (float, int)):
-                scale_factor = torch.tensor(scale_factor, dtype=camera_matrix.dtype, device=camera_matrix.device)
-            elif isinstance(scale_factor, torch.Tensor):
-                scale_factor = scale_factor.view(-1, 1, 1)
-            else:
-                raise TypeError('Scale factor must be a float, int, or torch.Tensor when camera_matrix is a torch.Tensor.')
-            scaled_matrix = camera_matrix.clone()
->           scaled_matrix[:, 0, 0] *= scale_factor
-E           RuntimeError: output with shape [1] doesn't match the broadcast shape [1, 1, 1]
-
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:43: RuntimeError
-________________ TestScaleIntrinsics.test_shape[cpu-float32-1] _________________
-
-self = <test_projection.TestScaleIntrinsics object at 0x7cc070eda0b0>
-batch_size = 1, device = device(type='cpu'), dtype = torch.float32
-
-    @pytest.mark.parametrize("batch_size", [1, 2, 4, 9])
-    def test_shape(self, batch_size, device, dtype):
-        B: int = batch_size
-        scale_factor = torch.rand(B, device=device, dtype=dtype)
-        camera_matrix = torch.rand(B, 3, 3, device=device, dtype=dtype)
->       camera_matrix_scale = epi.scale_intrinsics(camera_matrix, scale_factor)
-
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py:46: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/geometry/epipolar/projection.py:54: in scale_intrinsics
-    return scale_intrinsics(camera_matrix, scale_factor)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-camera_matrix = tensor([[[0.0680, 0.0712, 0.6145],
-         [0.7833, 0.7741, 0.7494],
-         [0.9539, 0.9409, 0.1772]]])
-scale_factor = tensor([[[0.4133]]])
-
-    def scale_intrinsics(camera_matrix, scale_factor):
-        """
-        Scales the focal length and center of projection in the camera matrix by the given scale factor.
-    
-        Parameters:
-        camera_matrix (torch.Tensor or np.ndarray): The camera matrix with shape (B, 3, 3).
-        scale_factor (float or torch.Tensor or np.ndarray): The scale factor to apply.
-    
-        Returns:
-        torch.Tensor or np.ndarray: The scaled camera matrix with the same shape as the input (B, 3, 3).
-        """
-        if isinstance(camera_matrix, np.ndarray):
-            if isinstance(scale_factor, (float, int)):
-                scale_factor = np.array(scale_factor)
-            elif isinstance(scale_factor, np.ndarray):
-                scale_factor = scale_factor.reshape(-1, 1, 1)
-            else:
-                raise TypeError('Scale factor must be a float, int, or np.ndarray when camera_matrix is an np.ndarray.')
-            scaled_matrix = camera_matrix.copy()
-            scaled_matrix[:, 0, 0] *= scale_factor
-            scaled_matrix[:, 1, 1] *= scale_factor
-            scaled_matrix[:, 0, 2] *= scale_factor
-            scaled_matrix[:, 1, 2] *= scale_factor
-        elif isinstance(camera_matrix, torch.Tensor):
-            if isinstance(scale_factor, (float, int)):
-                scale_factor = torch.tensor(scale_factor, dtype=camera_matrix.dtype, device=camera_matrix.device)
-            elif isinstance(scale_factor, torch.Tensor):
-                scale_factor = scale_factor.view(-1, 1, 1)
-            else:
-                raise TypeError('Scale factor must be a float, int, or torch.Tensor when camera_matrix is a torch.Tensor.')
-            scaled_matrix = camera_matrix.clone()
->           scaled_matrix[:, 0, 0] *= scale_factor
-E           RuntimeError: output with shape [1] doesn't match the broadcast shape [1, 1, 1]
-
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:43: RuntimeError
-________________ TestScaleIntrinsics.test_shape[cpu-float32-2] _________________
-
-self = <test_projection.TestScaleIntrinsics object at 0x7cc070ed9ff0>
-batch_size = 2, device = device(type='cpu'), dtype = torch.float32
-
-    @pytest.mark.parametrize("batch_size", [1, 2, 4, 9])
-    def test_shape(self, batch_size, device, dtype):
-        B: int = batch_size
-        scale_factor = torch.rand(B, device=device, dtype=dtype)
-        camera_matrix = torch.rand(B, 3, 3, device=device, dtype=dtype)
->       camera_matrix_scale = epi.scale_intrinsics(camera_matrix, scale_factor)
-
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py:46: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/geometry/epipolar/projection.py:54: in scale_intrinsics
-    return scale_intrinsics(camera_matrix, scale_factor)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-camera_matrix = tensor([[[0.0596, 0.4957, 0.8780],
-         [0.4148, 0.9408, 0.6859],
-         [0.7774, 0.1160, 0.8471]],
-
-        [[0.4571, 0.7024, 0.1066],
-         [0.9562, 0.6394, 0.8937],
-         [0.1526, 0.0856, 0.5516]]])
-scale_factor = tensor([[[0.6950]],
-
-        [[0.0538]]])
-
-    def scale_intrinsics(camera_matrix, scale_factor):
-        """
-        Scales the focal length and center of projection in the camera matrix by the given scale factor.
-    
-        Parameters:
-        camera_matrix (torch.Tensor or np.ndarray): The camera matrix with shape (B, 3, 3).
-        scale_factor (float or torch.Tensor or np.ndarray): The scale factor to apply.
-    
-        Returns:
-        torch.Tensor or np.ndarray: The scaled camera matrix with the same shape as the input (B, 3, 3).
-        """
-        if isinstance(camera_matrix, np.ndarray):
-            if isinstance(scale_factor, (float, int)):
-                scale_factor = np.array(scale_factor)
-            elif isinstance(scale_factor, np.ndarray):
-                scale_factor = scale_factor.reshape(-1, 1, 1)
-            else:
-                raise TypeError('Scale factor must be a float, int, or np.ndarray when camera_matrix is an np.ndarray.')
-            scaled_matrix = camera_matrix.copy()
-            scaled_matrix[:, 0, 0] *= scale_factor
-            scaled_matrix[:, 1, 1] *= scale_factor
-            scaled_matrix[:, 0, 2] *= scale_factor
-            scaled_matrix[:, 1, 2] *= scale_factor
-        elif isinstance(camera_matrix, torch.Tensor):
-            if isinstance(scale_factor, (float, int)):
-                scale_factor = torch.tensor(scale_factor, dtype=camera_matrix.dtype, device=camera_matrix.device)
-            elif isinstance(scale_factor, torch.Tensor):
-                scale_factor = scale_factor.view(-1, 1, 1)
-            else:
-                raise TypeError('Scale factor must be a float, int, or torch.Tensor when camera_matrix is a torch.Tensor.')
-            scaled_matrix = camera_matrix.clone()
->           scaled_matrix[:, 0, 0] *= scale_factor
-E           RuntimeError: output with shape [2] doesn't match the broadcast shape [2, 1, 2]
-
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:43: RuntimeError
-________________ TestScaleIntrinsics.test_shape[cpu-float32-4] _________________
-
-self = <test_projection.TestScaleIntrinsics object at 0x7cc070ed97e0>
-batch_size = 4, device = device(type='cpu'), dtype = torch.float32
-
-    @pytest.mark.parametrize("batch_size", [1, 2, 4, 9])
-    def test_shape(self, batch_size, device, dtype):
-        B: int = batch_size
-        scale_factor = torch.rand(B, device=device, dtype=dtype)
-        camera_matrix = torch.rand(B, 3, 3, device=device, dtype=dtype)
->       camera_matrix_scale = epi.scale_intrinsics(camera_matrix, scale_factor)
-
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py:46: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/geometry/epipolar/projection.py:54: in scale_intrinsics
-    return scale_intrinsics(camera_matrix, scale_factor)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-camera_matrix = tensor([[[0.3676, 0.6767, 0.1193],
-         [0.6148, 0.8750, 0.9057],
-         [0.4613, 0.6835, 0.1498]],
-
-        [[0..., 0.8851]],
-
-        [[0.5613, 0.3131, 0.7222],
-         [0.9530, 0.3967, 0.9353],
-         [0.0539, 0.3240, 0.0108]]])
-scale_factor = tensor([[[0.2551]],
-
-        [[0.0034]],
-
-        [[0.2952]],
-
-        [[0.3261]]])
-
-    def scale_intrinsics(camera_matrix, scale_factor):
-        """
-        Scales the focal length and center of projection in the camera matrix by the given scale factor.
-    
-        Parameters:
-        camera_matrix (torch.Tensor or np.ndarray): The camera matrix with shape (B, 3, 3).
-        scale_factor (float or torch.Tensor or np.ndarray): The scale factor to apply.
-    
-        Returns:
-        torch.Tensor or np.ndarray: The scaled camera matrix with the same shape as the input (B, 3, 3).
-        """
-        if isinstance(camera_matrix, np.ndarray):
-            if isinstance(scale_factor, (float, int)):
-                scale_factor = np.array(scale_factor)
-            elif isinstance(scale_factor, np.ndarray):
-                scale_factor = scale_factor.reshape(-1, 1, 1)
-            else:
-                raise TypeError('Scale factor must be a float, int, or np.ndarray when camera_matrix is an np.ndarray.')
-            scaled_matrix = camera_matrix.copy()
-            scaled_matrix[:, 0, 0] *= scale_factor
-            scaled_matrix[:, 1, 1] *= scale_factor
-            scaled_matrix[:, 0, 2] *= scale_factor
-            scaled_matrix[:, 1, 2] *= scale_factor
-        elif isinstance(camera_matrix, torch.Tensor):
-            if isinstance(scale_factor, (float, int)):
-                scale_factor = torch.tensor(scale_factor, dtype=camera_matrix.dtype, device=camera_matrix.device)
-            elif isinstance(scale_factor, torch.Tensor):
-                scale_factor = scale_factor.view(-1, 1, 1)
-            else:
-                raise TypeError('Scale factor must be a float, int, or torch.Tensor when camera_matrix is a torch.Tensor.')
-            scaled_matrix = camera_matrix.clone()
->           scaled_matrix[:, 0, 0] *= scale_factor
-E           RuntimeError: output with shape [4] doesn't match the broadcast shape [4, 1, 4]
-
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:43: RuntimeError
-________________ TestScaleIntrinsics.test_shape[cpu-float32-9] _________________
-
-self = <test_projection.TestScaleIntrinsics object at 0x7cc070eda2f0>
-batch_size = 9, device = device(type='cpu'), dtype = torch.float32
-
-    @pytest.mark.parametrize("batch_size", [1, 2, 4, 9])
-    def test_shape(self, batch_size, device, dtype):
-        B: int = batch_size
-        scale_factor = torch.rand(B, device=device, dtype=dtype)
-        camera_matrix = torch.rand(B, 3, 3, device=device, dtype=dtype)
->       camera_matrix_scale = epi.scale_intrinsics(camera_matrix, scale_factor)
-
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py:46: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/geometry/epipolar/projection.py:54: in scale_intrinsics
-    return scale_intrinsics(camera_matrix, scale_factor)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-camera_matrix = tensor([[[0.4200, 0.6122, 0.1442],
-         [0.1484, 0.7880, 0.7004],
-         [0.9912, 0.8643, 0.0102]],
-
-        [[0..., 0.8946]],
-
-        [[0.7002, 0.8627, 0.2187],
-         [0.1261, 0.4728, 0.7738],
-         [0.4428, 0.6728, 0.2720]]])
-scale_factor = tensor([[[0.0408]],
-
-        [[0.4786]],
-
-        [[0.4174]],
-
-        [[0.8420]],
-
-        [[0.9039]],
-
-        [[0.4867]],
-
-        [[0.2713]],
-
-        [[0.8829]],
-
-        [[0.3337]]])
-
-    def scale_intrinsics(camera_matrix, scale_factor):
-        """
-        Scales the focal length and center of projection in the camera matrix by the given scale factor.
-    
-        Parameters:
-        camera_matrix (torch.Tensor or np.ndarray): The camera matrix with shape (B, 3, 3).
-        scale_factor (float or torch.Tensor or np.ndarray): The scale factor to apply.
-    
-        Returns:
-        torch.Tensor or np.ndarray: The scaled camera matrix with the same shape as the input (B, 3, 3).
-        """
-        if isinstance(camera_matrix, np.ndarray):
-            if isinstance(scale_factor, (float, int)):
-                scale_factor = np.array(scale_factor)
-            elif isinstance(scale_factor, np.ndarray):
-                scale_factor = scale_factor.reshape(-1, 1, 1)
-            else:
-                raise TypeError('Scale factor must be a float, int, or np.ndarray when camera_matrix is an np.ndarray.')
-            scaled_matrix = camera_matrix.copy()
-            scaled_matrix[:, 0, 0] *= scale_factor
-            scaled_matrix[:, 1, 1] *= scale_factor
-            scaled_matrix[:, 0, 2] *= scale_factor
-            scaled_matrix[:, 1, 2] *= scale_factor
-        elif isinstance(camera_matrix, torch.Tensor):
-            if isinstance(scale_factor, (float, int)):
-                scale_factor = torch.tensor(scale_factor, dtype=camera_matrix.dtype, device=camera_matrix.device)
-            elif isinstance(scale_factor, torch.Tensor):
-                scale_factor = scale_factor.view(-1, 1, 1)
-            else:
-                raise TypeError('Scale factor must be a float, int, or torch.Tensor when camera_matrix is a torch.Tensor.')
-            scaled_matrix = camera_matrix.clone()
->           scaled_matrix[:, 0, 0] *= scale_factor
-E           RuntimeError: output with shape [9] doesn't match the broadcast shape [9, 1, 9]
-
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:43: RuntimeError
-______________ TestScaleIntrinsics.test_scale_double[cpu-float32] ______________
-
-self = <test_projection.TestScaleIntrinsics object at 0x7cc070eda5c0>
-device = device(type='cpu'), dtype = torch.float32
-
-    def test_scale_double(self, device, dtype):
-        scale_factor = torch.tensor(0.5)
-        camera_matrix = torch.tensor(
-            [[[100.0, 0.0, 50.0], [0.0, 100.0, 50.0], [0.0, 0.0, 1.0]]], device=device, dtype=dtype
-        )
-    
-        camera_matrix_expected = torch.tensor(
-            [[[50.0, 0.0, 25.0], [0.0, 50.0, 25.0], [0.0, 0.0, 1.0]]], device=device, dtype=dtype
-        )
-    
->       camera_matrix_scale = epi.scale_intrinsics(camera_matrix, scale_factor)
-
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py:59: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/geometry/epipolar/projection.py:54: in scale_intrinsics
-    return scale_intrinsics(camera_matrix, scale_factor)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-camera_matrix = tensor([[[100.,   0.,  50.],
-         [  0., 100.,  50.],
-         [  0.,   0.,   1.]]])
-scale_factor = tensor([[[0.5000]]])
-
-    def scale_intrinsics(camera_matrix, scale_factor):
-        """
-        Scales the focal length and center of projection in the camera matrix by the given scale factor.
-    
-        Parameters:
-        camera_matrix (torch.Tensor or np.ndarray): The camera matrix with shape (B, 3, 3).
-        scale_factor (float or torch.Tensor or np.ndarray): The scale factor to apply.
-    
-        Returns:
-        torch.Tensor or np.ndarray: The scaled camera matrix with the same shape as the input (B, 3, 3).
-        """
-        if isinstance(camera_matrix, np.ndarray):
-            if isinstance(scale_factor, (float, int)):
-                scale_factor = np.array(scale_factor)
-            elif isinstance(scale_factor, np.ndarray):
-                scale_factor = scale_factor.reshape(-1, 1, 1)
-            else:
-                raise TypeError('Scale factor must be a float, int, or np.ndarray when camera_matrix is an np.ndarray.')
-            scaled_matrix = camera_matrix.copy()
-            scaled_matrix[:, 0, 0] *= scale_factor
-            scaled_matrix[:, 1, 1] *= scale_factor
-            scaled_matrix[:, 0, 2] *= scale_factor
-            scaled_matrix[:, 1, 2] *= scale_factor
-        elif isinstance(camera_matrix, torch.Tensor):
-            if isinstance(scale_factor, (float, int)):
-                scale_factor = torch.tensor(scale_factor, dtype=camera_matrix.dtype, device=camera_matrix.device)
-            elif isinstance(scale_factor, torch.Tensor):
-                scale_factor = scale_factor.view(-1, 1, 1)
-            else:
-                raise TypeError('Scale factor must be a float, int, or torch.Tensor when camera_matrix is a torch.Tensor.')
-            scaled_matrix = camera_matrix.clone()
->           scaled_matrix[:, 0, 0] *= scale_factor
-E           RuntimeError: output with shape [1] doesn't match the broadcast shape [1, 1, 1]
-
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:43: RuntimeError
-___________________ TestScaleIntrinsics.test_gradcheck[cpu] ____________________
-
-self = <test_projection.TestScaleIntrinsics object at 0x7cc070eda890>
-device = device(type='cpu')
-
-    def test_gradcheck(self, device):
-        scale_factor = torch.ones(1, device=device, dtype=torch.float64, requires_grad=True)
-        camera_matrix = torch.ones(1, 3, 3, device=device, dtype=torch.float64)
->       assert gradcheck(epi.scale_intrinsics, (camera_matrix, scale_factor), raise_exception=True, fast_mode=True)
-
-../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py:65: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:2052: in gradcheck
-    return _gradcheck_helper(**args)
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/autograd/gradcheck.py:2074: in _gradcheck_helper
-    func_out = func(*tupled_inputs)
-../publishablew/kornia/kornia/kornia/geometry/epipolar/projection.py:54: in scale_intrinsics
-    return scale_intrinsics(camera_matrix, scale_factor)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-camera_matrix = tensor([[[1., 1., 1.],
-         [1., 1., 1.],
-         [1., 1., 1.]]], dtype=torch.float64)
-scale_factor = tensor([[[1.]]], dtype=torch.float64, grad_fn=<ViewBackward0>)
-
-    def scale_intrinsics(camera_matrix, scale_factor):
-        """
-        Scales the focal length and center of projection in the camera matrix by the given scale factor.
-    
-        Parameters:
-        camera_matrix (torch.Tensor or np.ndarray): The camera matrix with shape (B, 3, 3).
-        scale_factor (float or torch.Tensor or np.ndarray): The scale factor to apply.
-    
-        Returns:
-        torch.Tensor or np.ndarray: The scaled camera matrix with the same shape as the input (B, 3, 3).
-        """
-        if isinstance(camera_matrix, np.ndarray):
-            if isinstance(scale_factor, (float, int)):
-                scale_factor = np.array(scale_factor)
-            elif isinstance(scale_factor, np.ndarray):
-                scale_factor = scale_factor.reshape(-1, 1, 1)
-            else:
-                raise TypeError('Scale factor must be a float, int, or np.ndarray when camera_matrix is an np.ndarray.')
-            scaled_matrix = camera_matrix.copy()
-            scaled_matrix[:, 0, 0] *= scale_factor
-            scaled_matrix[:, 1, 1] *= scale_factor
-            scaled_matrix[:, 0, 2] *= scale_factor
-            scaled_matrix[:, 1, 2] *= scale_factor
-        elif isinstance(camera_matrix, torch.Tensor):
-            if isinstance(scale_factor, (float, int)):
-                scale_factor = torch.tensor(scale_factor, dtype=camera_matrix.dtype, device=camera_matrix.device)
-            elif isinstance(scale_factor, torch.Tensor):
-                scale_factor = scale_factor.view(-1, 1, 1)
-            else:
-                raise TypeError('Scale factor must be a float, int, or torch.Tensor when camera_matrix is a torch.Tensor.')
-            scaled_matrix = camera_matrix.clone()
->           scaled_matrix[:, 0, 0] *= scale_factor
-E           RuntimeError: output with shape [1] doesn't match the broadcast shape [1, 1, 1]
-
-../publishablew/kornia/kornia/kornia/geometry/epipolar/temp.py:43: RuntimeError
-=========================== short test summary info ============================
-FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_smoke_tensor[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-1]
-FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-2]
-FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-4]
-FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_shape[cpu-float32-9]
-FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_scale_double[cpu-float32]
-FAILED ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_gradcheck[cpu]
-========================= 7 failed, 1 passed in 0.37s ==========================
+============================== 8 passed in 0.19s ===============================
 
 
 Final Test Result:
@@ -541,7 +81,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'cudagraphs', None, 'jit', 'onnxrt', 'openxla', 'inductor'}
+available optimizers: {'', 'jit', 'cudagraphs', 'inductor', 'tvm', 'openxla', 'onnxrt', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -558,7 +98,7 @@ collecting ... collected 8 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_scale_double[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_gradcheck[cpu] PASSED
 
-============================== 8 passed in 0.19s ===============================
+============================== 8 passed in 0.15s ===============================
 
 
 Initial Result:
@@ -587,7 +127,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'openxla', 'inductor', 'tvm', 'onnxrt', 'cudagraphs', None}
+available optimizers: {'', 'jit', 'onnxrt', 'openxla', 'tvm', 'inductor', 'cudagraphs', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -604,4 +144,4 @@ collecting ... collected 8 items
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_scale_double[cpu-float32] PASSED
 ../publishablew/kornia/kornia/tests/geometry/epipolar/test_projection.py::TestScaleIntrinsics::test_gradcheck[cpu] PASSED
 
-============================== 8 passed in 0.17s ===============================
+============================== 8 passed in 0.16s ===============================

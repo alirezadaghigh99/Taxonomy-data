@@ -6,54 +6,49 @@ def _resize_image_and_masks(image, self_min_size, self_max_size, target=None, fi
     Resizes an image tensor and its corresponding masks, if provided.
 
     Parameters:
-    image (Tensor): A tensor representing the image to be resized, with shape (C, H, W).
-    self_min_size (int): The minimum size for the image's smaller dimension when resizing.
-    self_max_size (int): The maximum size for the image's larger dimension when resizing.
-    target (dict, optional): A dictionary containing additional data, such as masks, that should be resized alongside the image.
-                             The dictionary may contain a key "masks" with a tensor of shape (N, H, W).
-    fixed_size (tuple, optional): A tuple (height, width) specifying the fixed dimensions to which the image should be resized.
+    - image: A Tensor representing the image to be resized, with shape (C, H, W).
+    - self_min_size: An integer specifying the minimum size for the image's smaller dimension when resizing.
+    - self_max_size: An integer specifying the maximum size for the image's larger dimension when resizing.
+    - target: An optional dictionary containing additional data, such as masks, that should be resized alongside the image.
+    - fixed_size: An optional tuple (height, width) specifying the fixed dimensions to which the image should be resized.
 
     Returns:
-    tuple: A tuple containing:
-           - The resized image tensor.
-           - The resized target dictionary if it was provided, with resized masks if present.
+    - A tuple containing:
+      - The resized image tensor.
+      - The resized target dictionary if it was provided, with resized masks if present.
     """
-    def get_size_with_aspect_ratio(image_size, min_size, max_size):
-        h, w = image_size
-        min_original_size = float(min((h, w)))
-        max_original_size = float(max((h, w)))
-        
-        if max_original_size / min_original_size * min_size > max_size:
-            min_size = int(round(max_size * min_original_size / max_original_size))
-        
-        if (h <= w and h == min_size) or (w <= h and w == min_size):
-            return (h, w)
-        
-        if h < w:
-            ow = min_size
-            oh = int(min_size * h / w)
-        else:
-            oh = min_size
-            ow = int(min_size * w / h)
-        
-        return (oh, ow)
-
-    def resize_tensor(tensor, size):
-        return F.interpolate(tensor.unsqueeze(0), size=size, mode='bilinear', align_corners=False).squeeze(0)
+    # Determine the original size of the image
+    _, original_height, original_width = image.shape
 
     if fixed_size is not None:
-        size = fixed_size
+        # Resize to the fixed size
+        new_height, new_width = fixed_size
     else:
-        size = get_size_with_aspect_ratio(image.shape[-2:], self_min_size, self_max_size)
+        # Calculate the scaling factor
+        min_original_size = float(min(original_height, original_width))
+        max_original_size = float(max(original_height, original_width))
 
-    resized_image = resize_tensor(image, size)
+        # Compute the scaling factor based on the minimum size
+        scale_factor = self_min_size / min_original_size
 
-    if target is None:
-        return resized_image, target
+        # Ensure the maximum size constraint is not violated
+        if max_original_size * scale_factor > self_max_size:
+            scale_factor = self_max_size / max_original_size
 
-    if "masks" in target:
+        # Calculate the new dimensions
+        new_height = int(round(original_height * scale_factor))
+        new_width = int(round(original_width * scale_factor))
+
+    # Resize the image
+    resized_image = F.interpolate(image.unsqueeze(0), size=(new_height, new_width), mode='bilinear', align_corners=False).squeeze(0)
+
+    # Resize the masks if they are present in the target
+    if target is not None and "masks" in target:
         masks = target["masks"]
-        resized_masks = F.interpolate(masks.unsqueeze(1).float(), size=size, mode='nearest').squeeze(1)
-        target["masks"] = resized_masks
+        # Ensure masks are in the correct shape (N, H, W)
+        if masks.dim() == 3:
+            resized_masks = F.interpolate(masks.unsqueeze(1).float(), size=(new_height, new_width), mode='nearest').squeeze(1)
+            target["masks"] = resized_masks
 
     return resized_image, target
+

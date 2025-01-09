@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'inductor', 'onnxrt', 'openxla', 'cudagraphs', 'jit', 'tvm', None}
+available optimizers: {'', 'onnxrt', 'cudagraphs', 'inductor', 'openxla', 'jit', 'tvm', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -64,7 +64,7 @@ collecting ... collected 17 items
 =================================== FAILURES ===================================
 ____________________ TestProjectionZ1.test_jit[cpu-float32] ____________________
 
-self = <test_projections.TestProjectionZ1 object at 0x79f363508340>
+self = <test_projections.TestProjectionZ1 object at 0x71a456f28490>
 device = device(type='cpu'), dtype = torch.float32
 
     def test_jit(self, device, dtype) -> None:
@@ -88,9 +88,9 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     stmts = [build_stmt(ctx, s) for s in stmts]
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.jit.frontend.StmtBuilder object at 0x79f44218fc40>
-ctx = <torch._sources.SourceContext object at 0x79f363513240>
-node = <ast.ImportFrom object at 0x79f36350a920>
+self = <torch.jit.frontend.StmtBuilder object at 0x71a537babd30>
+ctx = <torch._sources.SourceContext object at 0x71a456f331f0>
+node = <ast.ImportFrom object at 0x71a456f29de0>
 
     def __call__(self, ctx, node):
         method = getattr(self, "build_" + node.__class__.__name__, None)
@@ -106,7 +106,7 @@ E               return project_points_z1(points_in_camera)
 ../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/torch/jit/frontend.py:416: UnsupportedNodeError
 =========================== short test summary info ============================
 FAILED ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_jit[cpu-float32]
-========================= 1 failed, 16 passed in 0.36s =========================
+========================= 1 failed, 16 passed in 0.35s =========================
 
 
 Final Test Result:
@@ -135,7 +135,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'jit', 'tvm', 'inductor', 'cudagraphs', 'openxla', 'onnxrt', None}
+available optimizers: {'', 'inductor', 'jit', 'openxla', 'cudagraphs', 'tvm', None, 'onnxrt'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -190,7 +190,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'openxla', 'tvm', 'jit', 'cudagraphs', 'onnxrt', 'inductor', None}
+available optimizers: {'', 'jit', 'onnxrt', 'tvm', 'cudagraphs', 'inductor', None, 'openxla'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -216,4 +216,4 @@ collecting ... collected 17 items
 ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_gradcheck[cpu] PASSED
 ../publishablew/kornia/kornia/tests/geometry/camera/test_projections.py::TestProjectionZ1::test_jit[cpu-float32] PASSED
 
-============================== 17 passed in 0.21s ==============================
+============================== 17 passed in 0.24s ==============================

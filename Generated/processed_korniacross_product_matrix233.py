@@ -1,13 +1,12 @@
 import torch
 
 def cross_product_matrix(x: torch.Tensor) -> torch.Tensor:
+    # Ensure the last dimension is 3
     if not x.shape[-1] == 3:
-        raise AssertionError(x.shape)
+        raise AssertionError(f"Expected last dimension to be 3, but got {x.shape[-1]}")
     
-    # Extract the components of the vector
-    a = x[..., 0]
-    b = x[..., 1]
-    c = x[..., 2]
+    # Extract components
+    a, b, c = x[..., 0], x[..., 1], x[..., 2]
     
     # Create the skew-symmetric matrix
     zero = torch.zeros_like(a)

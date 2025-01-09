@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape2-expected2]', '../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape4-expected4] FAILED', '../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape2-expected2] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape1-expected1]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape4-expected4]', '../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape1-expected1] FAILED'}
+{'../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape2-expected2] FAILED', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape1-expected1]', 'FAILED ../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape2-expected2]', '../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape1-expected1] FAILED'}
 
 All Test Cases On Generated code:
 Setting up torch compile...
@@ -35,7 +35,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'jit', 'onnxrt', 'openxla', 'inductor', 'cudagraphs', None}
+available optimizers: {'', 'openxla', 'cudagraphs', 'onnxrt', 'inductor', 'jit', None, 'tvm'}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -47,7 +47,7 @@ collecting ... collected 6 items
 ../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape1-expected1] FAILED
 ../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape2-expected2] FAILED
 ../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape3-expected3] PASSED
-../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape4-expected4] FAILED
+../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape4-expected4] PASSED
 ../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape5-expected5] PASSED
 
 =================================== FAILURES ===================================
@@ -113,123 +113,10 @@ E         +     1,
 E           )
 
 ../publishablew/kornia/kornia/tests/utils/test_image_utils.py:52: AssertionError
-_______________ test_tensor_to_image[cpu-input_shape4-expected4] _______________
-
-device = device(type='cpu'), input_shape = (2, 3, 4, 4), expected = (2, 4, 4, 3)
-
-    @pytest.mark.parametrize(
-        "input_shape, expected",
-        [
-            ((4, 4), (4, 4)),
-            ((1, 4, 4), (4, 4)),
-            ((1, 1, 4, 4), (4, 4)),
-            ((3, 4, 4), (4, 4, 3)),
-            ((2, 3, 4, 4), (2, 4, 4, 3)),
-            ((1, 3, 4, 4), (4, 4, 3)),
-        ],
-    )
-    def test_tensor_to_image(device, input_shape, expected):
-        tensor = torch.ones(input_shape).to(device)
->       image = kornia.utils.tensor_to_image(tensor)
-
-../publishablew/kornia/kornia/tests/utils/test_image_utils.py:51: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/kornia/kornia/kornia/utils/image.py:117: in tensor_to_image
-    return tensor_to_image(tensor, keepdim, force_contiguous)
-../publishablew/kornia/kornia/kornia/utils/temp.py:27: in tensor_to_image
-    np_array = np.squeeze(np_array, axis=0)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-a = array([[[[1., 1., 1.],
-         [1., 1., 1.],
-         [1., 1., 1.],
-         [1., 1., 1.]],
-
-        [[1., 1., 1.],
- ...., 1.]],
-
-        [[1., 1., 1.],
-         [1., 1., 1.],
-         [1., 1., 1.],
-         [1., 1., 1.]]]], dtype=float32)
-axis = 0
-
-    @array_function_dispatch(_squeeze_dispatcher)
-    def squeeze(a, axis=None):
-        """
-        Remove axes of length one from `a`.
-    
-        Parameters
-        ----------
-        a : array_like
-            Input data.
-        axis : None or int or tuple of ints, optional
-            .. versionadded:: 1.7.0
-    
-            Selects a subset of the entries of length one in the
-            shape. If an axis is selected with shape entry greater than
-            one, an error is raised.
-    
-        Returns
-        -------
-        squeezed : ndarray
-            The input array, but with all or a subset of the
-            dimensions of length 1 removed. This is always `a` itself
-            or a view into `a`. Note that if all axes are squeezed,
-            the result is a 0d array and not a scalar.
-    
-        Raises
-        ------
-        ValueError
-            If `axis` is not None, and an axis being squeezed is not of length 1
-    
-        See Also
-        --------
-        expand_dims : The inverse operation, adding entries of length one
-        reshape : Insert, remove, and combine dimensions, and resize existing ones
-    
-        Examples
-        --------
-        >>> x = np.array([[[0], [1], [2]]])
-        >>> x.shape
-        (1, 3, 1)
-        >>> np.squeeze(x).shape
-        (3,)
-        >>> np.squeeze(x, axis=0).shape
-        (3, 1)
-        >>> np.squeeze(x, axis=1).shape
-        Traceback (most recent call last):
-        ...
-        ValueError: cannot select an axis to squeeze out which has size not equal to one
-        >>> np.squeeze(x, axis=2).shape
-        (1, 3)
-        >>> x = np.array([[1234]])
-        >>> x.shape
-        (1, 1)
-        >>> np.squeeze(x)
-        array(1234)  # 0d array
-        >>> np.squeeze(x).shape
-        ()
-        >>> np.squeeze(x)[()]
-        1234
-    
-        """
-        try:
-            squeeze = a.squeeze
-        except AttributeError:
-            return _wrapit(a, 'squeeze', axis=axis)
-        if axis is None:
-            return squeeze()
-        else:
->           return squeeze(axis=axis)
-E           ValueError: cannot select an axis to squeeze out which has size not equal to one
-
-../publishablew/kornia/kornia/venv/lib/python3.10/site-packages/numpy/core/fromnumeric.py:1558: ValueError
 =========================== short test summary info ============================
 FAILED ../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape1-expected1]
 FAILED ../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape2-expected2]
-FAILED ../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape4-expected4]
-========================= 3 failed, 3 passed in 0.30s ==========================
+========================= 2 failed, 4 passed in 0.18s ==========================
 
 
 Final Test Result:
@@ -258,7 +145,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'tvm', 'openxla', 'cudagraphs', 'onnxrt', 'inductor', 'jit', None}
+available optimizers: {'', 'cudagraphs', 'tvm', 'jit', 'onnxrt', 'openxla', 'inductor', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -273,7 +160,7 @@ collecting ... collected 6 items
 ../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape4-expected4] PASSED
 ../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape5-expected5] PASSED
 
-============================== 6 passed in 0.19s ===============================
+============================== 6 passed in 0.13s ===============================
 
 
 Initial Result:
@@ -302,7 +189,7 @@ dev deps:
     - kornia_rs-0.1.7
     - onnx-1.17.0
 gcc info: (Ubuntu 10.5.0-1ubuntu1~22.04) 10.5.0
-available optimizers: {'', 'cudagraphs', 'tvm', 'onnxrt', 'openxla', 'inductor', None, 'jit'}
+available optimizers: {'', 'inductor', 'tvm', 'cudagraphs', 'onnxrt', 'jit', 'openxla', None}
 model weights cached: ['checkpoints']
 
 rootdir: /local/data0/moved_data/publishablew/kornia/kornia
@@ -317,4 +204,4 @@ collecting ... collected 6 items
 ../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape4-expected4] PASSED
 ../publishablew/kornia/kornia/tests/utils/test_image_utils.py::test_tensor_to_image[cpu-input_shape5-expected5] PASSED
 
-============================== 6 passed in 0.17s ===============================
+============================== 6 passed in 0.14s ===============================
