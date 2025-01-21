@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[average-True-None-0.5]', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[average-False-10-None] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[single-False-None-0.5]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[single-False-10-None]', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[ward-False-None-0.5] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[complete-False-None-0.5] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_ward_agglomeration[42] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold[42-average]', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_structured_linkage_tree FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[single-False-None-0.5] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold[42-average] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold[42-ward]', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_connectivity_fixing_non_lil FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[complete-False-None-0.5]', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[complete-True-None-0.5] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[single-True-None-0.5] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering[42-lil_matrix] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_affinity_passed_to_fix_connectivity FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold[42-complete]', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold[42-ward] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[single-False-10-None] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[ward-False-10-None] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering[42-lil_array]', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[complete-False-10-None] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[single-True-10-None] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[complete-True-None-0.5]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[complete-False-10-None]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_ward_agglomeration[42]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_structured_linkage_tree', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[average-False-10-None]', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[ward-True-None-0.5] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering[42-lil_matrix]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[single-True-10-None]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[ward-True-None-0.5]', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[average-True-None-0.5] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[average-False-None-0.5] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_height_linkage_tree', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[complete-True-10-None] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[ward-True-10-None] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_connectivity_fixing_non_lil', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_height_linkage_tree FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[average-True-10-None] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold[42-complete] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[ward-True-10-None]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[ward-False-None-0.5]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[complete-True-10-None]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[ward-False-10-None]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[average-True-10-None]', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering[42-lil_array] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[single-True-None-0.5]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_affinity_passed_to_fix_connectivity', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[average-False-None-0.5]'}
+{'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[ward-True-None-0.5]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[complete-False-10-None]', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[single-False-10-None] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[average-False-None-0.5]', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[single-True-None-0.5] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold[42-ward]', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering[42-lil_array] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold[42-complete] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering[42-lil_array]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[single-True-None-0.5]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering[42-lil_matrix]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[ward-False-10-None]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_height_linkage_tree', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_height_linkage_tree FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[ward-False-10-None] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[ward-False-None-0.5]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[average-True-None-0.5]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_structured_linkage_tree', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[complete-False-10-None] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_connectivity_fixing_non_lil FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[ward-True-10-None] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[ward-True-10-None]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold[42-average]', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[ward-False-None-0.5] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[single-False-None-0.5] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[ward-True-None-0.5] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[single-True-10-None] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[average-True-None-0.5] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[complete-True-None-0.5] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[average-False-10-None] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_affinity_passed_to_fix_connectivity FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold[42-average] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold[42-ward] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[average-True-10-None]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[complete-True-None-0.5]', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_ward_agglomeration[42] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[average-True-10-None] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[complete-True-10-None] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[complete-True-10-None]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold[42-complete]', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering[42-lil_matrix] FAILED', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_structured_linkage_tree FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_connectivity_fixing_non_lil', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[average-False-None-0.5] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[average-False-10-None]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[single-False-None-0.5]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_affinity_passed_to_fix_connectivity', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[complete-False-None-0.5]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[single-False-10-None]', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[single-True-10-None]', '../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_distances[complete-False-None-0.5] FAILED', 'FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_ward_agglomeration[42]'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -18,7 +18,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 66 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_linkage_misc I: Seeding RNGs with 1530013451
+../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_linkage_misc I: Seeding RNGs with 1800818989
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_structured_linkage_tree FAILED
 ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_unstructured_linkage_tree PASSED
@@ -907,12 +907,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [1, 0], labels_pred = array([1, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[0.5-y_true0-complete] _
 
 linkage = 'complete', threshold = 0.5, y_true = [1, 0]
@@ -940,12 +944,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [1, 0], labels_pred = array([1, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[0.5-y_true0-average] _
 
 linkage = 'average', threshold = 0.5, y_true = [1, 0]
@@ -973,12 +981,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [1, 0], labels_pred = array([1, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[1.0-y_true1-ward] _
 
 linkage = 'ward', threshold = 1.0, y_true = [1, 0]
@@ -1006,12 +1018,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [1, 0], labels_pred = array([1, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[1.0-y_true1-complete] _
 
 linkage = 'complete', threshold = 1.0, y_true = [1, 0]
@@ -1039,12 +1055,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [1, 0], labels_pred = array([1, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[1.0-y_true1-average] _
 
 linkage = 'average', threshold = 1.0, y_true = [1, 0]
@@ -1072,12 +1092,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [1, 0], labels_pred = array([1, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[1.5-y_true2-ward] _
 
 linkage = 'ward', threshold = 1.5, y_true = [0, 0]
@@ -1105,12 +1129,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [0, 0], labels_pred = array([0, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[1.5-y_true2-complete] _
 
 linkage = 'complete', threshold = 1.5, y_true = [0, 0]
@@ -1138,12 +1166,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [0, 0], labels_pred = array([0, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[1.5-y_true2-average] _
 
 linkage = 'average', threshold = 1.5, y_true = [0, 0]
@@ -1171,12 +1203,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [0, 0], labels_pred = array([0, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 =========================== short test summary info ============================
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_structured_linkage_tree
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_height_linkage_tree
@@ -1213,7 +1249,7 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hier
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold_edge_case[1.5-y_true2-ward]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold_edge_case[1.5-y_true2-complete]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold_edge_case[1.5-y_true2-average]
-======================== 35 failed, 31 passed in 1.66s =========================
+======================== 35 failed, 31 passed in 1.33s =========================
 
 
 Final Test Result:
@@ -1225,7 +1261,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 66 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_linkage_misc I: Seeding RNGs with 794613303
+../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_linkage_misc I: Seeding RNGs with 601796332
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_structured_linkage_tree PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_unstructured_linkage_tree PASSED
@@ -1321,12 +1357,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [1, 0], labels_pred = array([1, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[0.5-y_true0-complete] _
 
 linkage = 'complete', threshold = 0.5, y_true = [1, 0]
@@ -1354,12 +1394,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [1, 0], labels_pred = array([1, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[0.5-y_true0-average] _
 
 linkage = 'average', threshold = 0.5, y_true = [1, 0]
@@ -1387,12 +1431,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [1, 0], labels_pred = array([1, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[1.0-y_true1-ward] _
 
 linkage = 'ward', threshold = 1.0, y_true = [1, 0]
@@ -1420,12 +1468,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [1, 0], labels_pred = array([1, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[1.0-y_true1-complete] _
 
 linkage = 'complete', threshold = 1.0, y_true = [1, 0]
@@ -1453,12 +1505,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [1, 0], labels_pred = array([1, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[1.0-y_true1-average] _
 
 linkage = 'average', threshold = 1.0, y_true = [1, 0]
@@ -1486,12 +1542,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [1, 0], labels_pred = array([1, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[1.5-y_true2-ward] _
 
 linkage = 'ward', threshold = 1.5, y_true = [0, 0]
@@ -1519,12 +1579,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [0, 0], labels_pred = array([0, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[1.5-y_true2-complete] _
 
 linkage = 'complete', threshold = 1.5, y_true = [0, 0]
@@ -1552,12 +1616,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [0, 0], labels_pred = array([0, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[1.5-y_true2-average] _
 
 linkage = 'average', threshold = 1.5, y_true = [0, 0]
@@ -1585,12 +1653,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [0, 0], labels_pred = array([0, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 =========================== short test summary info ============================
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold_edge_case[0.5-y_true0-ward]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold_edge_case[0.5-y_true0-complete]
@@ -1601,7 +1673,7 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hier
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold_edge_case[1.5-y_true2-ward]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold_edge_case[1.5-y_true2-complete]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold_edge_case[1.5-y_true2-average]
-=================== 9 failed, 57 passed, 1 warning in 1.20s ====================
+=================== 9 failed, 57 passed, 1 warning in 1.12s ====================
 
 
 Initial Result:
@@ -1613,7 +1685,7 @@ configfile: setup.cfg
 plugins: cov-6.0.0
 collecting ... collected 66 items
 
-../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_linkage_misc I: Seeding RNGs with 554401975
+../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_linkage_misc I: Seeding RNGs with 1859396790
 PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_structured_linkage_tree PASSED
 ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_unstructured_linkage_tree PASSED
@@ -1709,12 +1781,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [1, 0], labels_pred = array([1, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[0.5-y_true0-complete] _
 
 linkage = 'complete', threshold = 0.5, y_true = [1, 0]
@@ -1742,12 +1818,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [1, 0], labels_pred = array([1, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[0.5-y_true0-average] _
 
 linkage = 'average', threshold = 0.5, y_true = [1, 0]
@@ -1775,12 +1855,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [1, 0], labels_pred = array([1, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[1.0-y_true1-ward] _
 
 linkage = 'ward', threshold = 1.0, y_true = [1, 0]
@@ -1808,12 +1892,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [1, 0], labels_pred = array([1, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[1.0-y_true1-complete] _
 
 linkage = 'complete', threshold = 1.0, y_true = [1, 0]
@@ -1841,12 +1929,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [1, 0], labels_pred = array([1, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[1.0-y_true1-average] _
 
 linkage = 'average', threshold = 1.0, y_true = [1, 0]
@@ -1874,12 +1966,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [1, 0], labels_pred = array([1, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[1.5-y_true2-ward] _
 
 linkage = 'ward', threshold = 1.5, y_true = [0, 0]
@@ -1907,12 +2003,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [0, 0], labels_pred = array([0, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[1.5-y_true2-complete] _
 
 linkage = 'complete', threshold = 1.5, y_true = [0, 0]
@@ -1940,12 +2040,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [0, 0], labels_pred = array([0, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 _ test_agglomerative_clustering_with_distance_threshold_edge_case[1.5-y_true2-average] _
 
 linkage = 'average', threshold = 1.5, y_true = [0, 0]
@@ -1973,12 +2077,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     ((tn, fp), (fn, tp)) = pair_confusion_matrix(labels_true, labels_pred)
 ../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
     return func(*args, **kwargs)
-../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:122: in pair_confusion_matrix
-    return pair_confusion_matrix(labels_true, labels_pred)
-../publishablew/scikit-learn/scikit-learn/sklearn/utils/_param_validation.py:189: in wrapper
-    return func(*args, **kwargs)
-E   RecursionError: maximum recursion depth exceeded while calling a Python object
-!!! Recursion detected (same locals & position)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+labels_true = [0, 0], labels_pred = array([0, 0])
+
+    @validate_params({'labels_true': ['array-like'], 'labels_pred': ['array-like']}, prefer_skip_nested_validation=True)
+    def pair_confusion_matrix(labels_true, labels_pred):
+>       from .temp import pair_confusion_matrix
+E       ImportError: cannot import name 'pair_confusion_matrix' from 'sklearn.metrics.cluster.temp' (/local/data0/moved_data/publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/temp.py)
+
+../publishablew/scikit-learn/scikit-learn/sklearn/metrics/cluster/_supervised.py:121: ImportError
 =========================== short test summary info ============================
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold_edge_case[0.5-y_true0-ward]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold_edge_case[0.5-y_true0-complete]
@@ -1989,4 +2097,4 @@ FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hier
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold_edge_case[1.5-y_true2-ward]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold_edge_case[1.5-y_true2-complete]
 FAILED ../publishablew/scikit-learn/scikit-learn/sklearn/cluster/tests/test_hierarchical.py::test_agglomerative_clustering_with_distance_threshold_edge_case[1.5-y_true2-average]
-=================== 9 failed, 57 passed, 1 warning in 1.34s ====================
+=================== 9 failed, 57 passed, 1 warning in 2.69s ====================

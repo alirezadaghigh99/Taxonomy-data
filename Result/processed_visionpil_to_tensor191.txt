@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[3]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[1]', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[3] FAILED', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[1] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4]', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4] FAILED'}
+{'../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[3] FAILED', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[1] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4]', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[3]', '../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4] FAILED', 'FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[1]'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -57,7 +57,7 @@ E   NameError: name 'accimage' is not defined
 FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[1]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[3]
 FAILED ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4]
-============================== 3 failed in 0.75s ===============================
+============================== 3 failed in 0.69s ===============================
 
 
 Final Test Result:
@@ -73,7 +73,7 @@ collecting ... collected 3 items
 ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[3] PASSED
 ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4] PASSED
 
-============================== 3 passed in 0.30s ===============================
+============================== 3 passed in 0.43s ===============================
 
 
 Initial Result:
@@ -89,4 +89,4 @@ collecting ... collected 3 items
 ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[3] PASSED
 ../publishablew/vision/vision/test/test_transforms.py::TestToTensor::test_pil_to_tensor[4] PASSED
 
-============================== 3 passed in 0.43s ===============================
+============================== 3 passed in 0.33s ===============================

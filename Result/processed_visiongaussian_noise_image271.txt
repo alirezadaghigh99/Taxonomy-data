@@ -18,7 +18,7 @@ ImportError while loading conftest '/local/data0/moved_data/publishablew/vision/
     @_register_kernel_internal(gaussian_noise, torch.Tensor)
 ../publishablew/vision/vision/torchvision/transforms/v2/functional/_utils.py:40: in _register_kernel_internal
     raise ValueError(f"Functional {functional} already has a kernel registered for type {input_type}.")
-E   ValueError: Functional <function gaussian_noise at 0x746436a04680> already has a kernel registered for type <class 'torch.Tensor'>.
+E   ValueError: Functional <function gaussian_noise at 0x7ddcccffc680> already has a kernel registered for type <class 'torch.Tensor'>.
 
 Pass or Failed: 1
 
@@ -52,7 +52,7 @@ collecting ... collected 14 items
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestGaussianNoise::test_bad_input PASSED
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestGaussianNoise::test_clip PASSED
 
-============================== 14 passed in 0.14s ==============================
+============================== 14 passed in 0.25s ==============================
 
 
 Initial Result:
@@ -79,4 +79,4 @@ collecting ... collected 14 items
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestGaussianNoise::test_bad_input PASSED
 ../publishablew/vision/vision/test/test_transforms_v2.py::TestGaussianNoise::test_clip PASSED
 
-============================== 14 passed in 0.23s ==============================
+============================== 14 passed in 0.27s ==============================

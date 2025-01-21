@@ -3,11 +3,11 @@ processed_visionbox_area269.json
 function:
 box_area
 Error Cases:
-W1226 18:58:43.358000 741680 venv/lib/python3.11/site-packages/torch/_dynamo/convert_frame.py:844] [0/8] torch._dynamo hit config.cache_size_limit (8)
-W1226 18:58:43.358000 741680 venv/lib/python3.11/site-packages/torch/_dynamo/convert_frame.py:844] [0/8]    function: '_roi_align' (/local/data0/moved_data/publishablew/vision/vision/torchvision/ops/roi_align.py:114)
-W1226 18:58:43.358000 741680 venv/lib/python3.11/site-packages/torch/_dynamo/convert_frame.py:844] [0/8]    last reason: 0/0: tensor 'L['rois']' dtype mismatch. expected Half, actual Float
-W1226 18:58:43.358000 741680 venv/lib/python3.11/site-packages/torch/_dynamo/convert_frame.py:844] [0/8] To log all recompilation reasons, use TORCH_LOGS="recompiles".
-W1226 18:58:43.358000 741680 venv/lib/python3.11/site-packages/torch/_dynamo/convert_frame.py:844] [0/8] To diagnose recompilation issues, see https://pytorch.org/docs/main/torch.compiler_troubleshooting.html.
+W0119 18:32:34.121000 161282 venv/lib/python3.11/site-packages/torch/_dynamo/convert_frame.py:844] [0/8] torch._dynamo hit config.cache_size_limit (8)
+W0119 18:32:34.121000 161282 venv/lib/python3.11/site-packages/torch/_dynamo/convert_frame.py:844] [0/8]    function: '_roi_align' (/local/data0/moved_data/publishablew/vision/vision/torchvision/ops/roi_align.py:114)
+W0119 18:32:34.121000 161282 venv/lib/python3.11/site-packages/torch/_dynamo/convert_frame.py:844] [0/8]    last reason: 0/0: tensor 'L['rois']' dtype mismatch. expected Half, actual Float
+W0119 18:32:34.121000 161282 venv/lib/python3.11/site-packages/torch/_dynamo/convert_frame.py:844] [0/8] To log all recompilation reasons, use TORCH_LOGS="recompiles".
+W0119 18:32:34.121000 161282 venv/lib/python3.11/site-packages/torch/_dynamo/convert_frame.py:844] [0/8] To diagnose recompilation issues, see https://pytorch.org/docs/main/torch.compiler_troubleshooting.html.
 
 Pass or Failed: 1
 
@@ -280,7 +280,7 @@ test/test_ops.py: 16 warnings
     with torch.cuda.amp.autocast():
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-=========== 137 passed, 113 skipped, 16 warnings in 79.18s (0:01:19) ===========
+=========== 137 passed, 113 skipped, 16 warnings in 80.01s (0:01:20) ===========
 
 
 Final Test Result:
@@ -549,7 +549,7 @@ test/test_ops.py: 16 warnings
     with torch.cuda.amp.autocast():
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-=========== 137 passed, 113 skipped, 16 warnings in 80.49s (0:01:20) ===========
+=========== 137 passed, 113 skipped, 16 warnings in 79.29s (0:01:19) ===========
 
 
 Initial Result:
@@ -818,4 +818,4 @@ test/test_ops.py: 16 warnings
     with torch.cuda.amp.autocast():
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-=========== 137 passed, 113 skipped, 16 warnings in 85.58s (0:01:25) ===========
+========== 137 passed, 113 skipped, 16 warnings in 105.70s (0:01:45) ===========

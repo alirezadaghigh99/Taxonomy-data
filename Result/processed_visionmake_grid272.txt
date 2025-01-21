@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/vision/vision/test/test_utils.py::test_save_image FAILED', '../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel_file_object FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_file_object', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_normalize_in_make_grid', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel', '../publishablew/vision/vision/test/test_utils.py::test_normalize_in_make_grid FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_make_grid_not_inplace', '../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel FAILED', '../publishablew/vision/vision/test/test_utils.py::test_make_grid_not_inplace FAILED', '../publishablew/vision/vision/test/test_utils.py::test_save_image_file_object FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image - Ty...', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel_file_object'}
+{'../publishablew/vision/vision/test/test_utils.py::test_make_grid_not_inplace FAILED', '../publishablew/vision/vision/test/test_utils.py::test_save_image FAILED', '../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel_file_object FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_normalize_in_make_grid', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_file_object', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel_file_object', '../publishablew/vision/vision/test/test_utils.py::test_normalize_in_make_grid FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_make_grid_not_inplace', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image - Ty...', '../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel FAILED', 'FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel', '../publishablew/vision/vision/test/test_utils.py::test_save_image_file_object FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -207,7 +207,7 @@ FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image - Ty...
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_file_object
 FAILED ../publishablew/vision/vision/test/test_utils.py::test_save_image_single_pixel_file_object
-========================= 6 failed, 86 passed in 0.70s =========================
+========================= 6 failed, 86 passed in 0.68s =========================
 
 
 Final Test Result:
@@ -312,7 +312,7 @@ collecting ... collected 92 items
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image_errors[input_flow3-Input flow should have shape] PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image_errors[input_flow4-Flow should be of dtype torch.float] PASSED
 
-============================== 92 passed in 0.50s ==============================
+============================== 92 passed in 0.53s ==============================
 
 
 Initial Result:
@@ -417,4 +417,4 @@ collecting ... collected 92 items
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image_errors[input_flow3-Input flow should have shape] PASSED
 ../publishablew/vision/vision/test/test_utils.py::test_flow_to_image_errors[input_flow4-Flow should be of dtype torch.float] PASSED
 
-============================== 92 passed in 0.75s ==============================
+============================== 92 passed in 1.20s ==============================
