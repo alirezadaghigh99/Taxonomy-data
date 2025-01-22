@@ -34,7 +34,7 @@ collecting ... collected 16 items
 ../publishablew/pyro/pyro/tests/ops/test_linalg.py::test_triangular_solve_transpose[lower] PASSED
 ../publishablew/pyro/pyro/tests/ops/test_linalg.py::test_triangular_solve_transpose[upper] PASSED
 
-============================== 16 passed in 0.16s ==============================
+============================== 16 passed in 0.19s ==============================
 
 
 Final Test Result:
@@ -62,7 +62,7 @@ collecting ... collected 16 items
 ../publishablew/pyro/pyro/tests/ops/test_linalg.py::test_triangular_solve_transpose[lower] PASSED
 ../publishablew/pyro/pyro/tests/ops/test_linalg.py::test_triangular_solve_transpose[upper] PASSED
 
-============================== 16 passed in 0.16s ==============================
+============================== 16 passed in 0.21s ==============================
 
 
 Initial Result:
@@ -90,4 +90,4 @@ collecting ... collected 16 items
 ../publishablew/pyro/pyro/tests/ops/test_linalg.py::test_triangular_solve_transpose[lower] PASSED
 ../publishablew/pyro/pyro/tests/ops/test_linalg.py::test_triangular_solve_transpose[upper] PASSED
 
-============================== 16 passed in 0.34s ==============================
+============================== 16 passed in 0.25s ==============================

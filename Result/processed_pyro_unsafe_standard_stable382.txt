@@ -116,8 +116,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb43166520>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eac156520>],
       dtype=object)
 args = (array(0.1), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -205,8 +205,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb43166b60>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eac156b60>],
       dtype=object)
 args = (array(0.1), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -294,8 +294,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb43166ac0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eac156ac0>],
       dtype=object)
 args = (array(0.1), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -383,8 +383,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb431649a0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eac1549a0>],
       dtype=object)
 args = (array(0.1), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -472,8 +472,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb41dfee80>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eaadf6e80>],
       dtype=object)
 args = (array(0.1), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -561,8 +561,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb43166b60>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eac156b60>],
       dtype=object)
 args = (array(0.4), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -650,8 +650,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb41dfe3e0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eaadf63e0>],
       dtype=object)
 args = (array(0.4), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -739,8 +739,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb41dfe020>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eaadf6020>],
       dtype=object)
 args = (array(0.4), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -828,8 +828,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb41dfd080>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eaadf5080>],
       dtype=object)
 args = (array(0.4), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -917,8 +917,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb41dfe840>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eaadf6840>],
       dtype=object)
 args = (array(0.4), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -1006,8 +1006,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb41dfea20>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eaadf6a20>],
       dtype=object)
 args = (array(0.8), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -1095,8 +1095,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb41dfdda0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eaadf5da0>],
       dtype=object)
 args = (array(0.8), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -1184,8 +1184,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb41dfd260>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eaadf5260>],
       dtype=object)
 args = (array(0.8), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -1273,8 +1273,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb41dfe340>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eaadf6340>],
       dtype=object)
 args = (array(0.8), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -1362,8 +1362,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb41dfec00>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eaadf6c00>],
       dtype=object)
 args = (array(0.8), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -1451,8 +1451,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb41dfe660>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eaadf6660>],
       dtype=object)
 args = (array(0.99), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -1540,8 +1540,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb41dffc40>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eaadf7c40>],
       dtype=object)
 args = (array(0.99), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -1629,8 +1629,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb41dfee80>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eaadf6e80>],
       dtype=object)
 args = (array(0.99), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -1718,8 +1718,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb41dfdd00>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eaadf5d00>],
       dtype=object)
 args = (array(0.99), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -1807,8 +1807,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb41dff7e0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eaadf77e0>],
       dtype=object)
 args = (array(0.99), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -4171,8 +4171,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb41dff100>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eaadf7100>],
       dtype=object)
 args = (array(1.01), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -4260,8 +4260,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb41dff600>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eaadf7600>],
       dtype=object)
 args = (array(1.01), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -4349,8 +4349,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb41dffec0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6eaadf7ec0>],
       dtype=object)
 args = (array(1.01), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -4438,8 +4438,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb3ffa19e0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6ea8f799e0>],
       dtype=object)
 args = (array(1.01), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -4527,8 +4527,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb3ffa1940>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6ea8f79940>],
       dtype=object)
 args = (array(1.01), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -4616,8 +4616,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb3ffa1580>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6ea8f79580>],
       dtype=object)
 args = (array(1.3), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -4705,8 +4705,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb3ffa0360>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6ea8f78360>],
       dtype=object)
 args = (array(1.3), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -4794,8 +4794,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb3ffa1440>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6ea8f79440>],
       dtype=object)
 args = (array(1.3), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -4883,8 +4883,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb3ffa00e0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6ea8f780e0>],
       dtype=object)
 args = (array(1.3), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -4972,8 +4972,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb3ffa1760>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6ea8f79760>],
       dtype=object)
 args = (array(1.3), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -5061,8 +5061,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb3ffa05e0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6ea8f785e0>],
       dtype=object)
 args = (array(1.7), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -5150,8 +5150,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb3ffa0b80>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6ea8f78b80>],
       dtype=object)
 args = (array(1.7), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -5239,8 +5239,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb3ffa13a0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6ea8f793a0>],
       dtype=object)
 args = (array(1.7), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -5328,8 +5328,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb3ffa1760>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6ea8f79760>],
       dtype=object)
 args = (array(1.7), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -5417,8 +5417,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb3ffa05e0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6ea8f785e0>],
       dtype=object)
 args = (array(1.7), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -5506,8 +5506,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb3ffa0b80>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6ea8f78b80>],
       dtype=object)
 args = (array(2.), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -5595,8 +5595,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb3ffa13a0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6ea8f793a0>],
       dtype=object)
 args = (array(2.), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -5684,8 +5684,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb3ffa28e0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6ea8f7a8e0>],
       dtype=object)
 args = (array(2.), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -5773,8 +5773,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb3ffa1800>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6ea8f79800>],
       dtype=object)
 args = (array(2.), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -5862,8 +5862,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x78cb699ca3d0>
-x = array([<function test_sample.<locals>.sampler at 0x78cb3ffa2200>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a6ed2d9b590>
+x = array([<function test_sample.<locals>.sampler at 0x7a6ea8f7a200>],
       dtype=object)
 args = (array(2.), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -5951,7 +5951,7 @@ FAILED ../publishablew/pyro/pyro/tests/distributions/test_stable.py::test_sample
 FAILED ../publishablew/pyro/pyro/tests/distributions/test_stable.py::test_sample[2.0-0.0]
 FAILED ../publishablew/pyro/pyro/tests/distributions/test_stable.py::test_sample[2.0-0.5]
 FAILED ../publishablew/pyro/pyro/tests/distributions/test_stable.py::test_sample[2.0-1.0]
-======================== 45 failed, 1 warning in 7.21s =========================
+======================== 45 failed, 1 warning in 6.64s =========================
 
 
 Final Test Result:
@@ -6061,8 +6061,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cfb5a480>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a4414372480>],
       dtype=object)
 args = (array(0.1), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -6150,8 +6150,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cfb5aac0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a4414372ac0>],
       dtype=object)
 args = (array(0.1), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -6239,8 +6239,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cfb5aa20>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a4414372a20>],
       dtype=object)
 args = (array(0.1), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -6328,8 +6328,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cfb58900>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a4414370900>],
       dtype=object)
 args = (array(0.1), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -6417,8 +6417,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1ce7f6de0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441250ede0>],
       dtype=object)
 args = (array(0.1), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -6506,8 +6506,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cfb5aac0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a4414372ac0>],
       dtype=object)
 args = (array(0.4), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -6595,8 +6595,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1ce7f6340>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441250e340>],
       dtype=object)
 args = (array(0.4), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -6684,8 +6684,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1ce7f5f80>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441250df80>],
       dtype=object)
 args = (array(0.4), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -6773,8 +6773,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1ce7f4fe0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441250cfe0>],
       dtype=object)
 args = (array(0.4), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -6862,8 +6862,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1ce7f67a0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441250e7a0>],
       dtype=object)
 args = (array(0.4), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -6951,8 +6951,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1ce7f6980>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441250e980>],
       dtype=object)
 args = (array(0.8), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -7040,8 +7040,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1ce7f5d00>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441250dd00>],
       dtype=object)
 args = (array(0.8), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -7129,8 +7129,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1ce7f51c0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441250d1c0>],
       dtype=object)
 args = (array(0.8), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -7218,8 +7218,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1ce7f62a0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441250e2a0>],
       dtype=object)
 args = (array(0.8), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -7307,8 +7307,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1ce7f6b60>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441250eb60>],
       dtype=object)
 args = (array(0.8), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -7396,8 +7396,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1ce7f76a0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441250f6a0>],
       dtype=object)
 args = (array(0.99), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -7485,8 +7485,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1ce7f7ba0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441250fba0>],
       dtype=object)
 args = (array(0.99), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -7574,8 +7574,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1ce7f7c40>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441250fc40>],
       dtype=object)
 args = (array(0.99), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -7663,8 +7663,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1ce7f6520>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441250e520>],
       dtype=object)
 args = (array(0.99), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -7752,8 +7752,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1ce7f76a0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441250f6a0>],
       dtype=object)
 args = (array(0.99), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -10116,8 +10116,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1ce7f6b60>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441250eb60>],
       dtype=object)
 args = (array(1.01), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -10205,8 +10205,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1ce7f71a0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441250f1a0>],
       dtype=object)
 args = (array(1.01), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -10294,8 +10294,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1ce7f5c60>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441250dc60>],
       dtype=object)
 args = (array(1.01), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -10383,8 +10383,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cc96d940>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441259d940>],
       dtype=object)
 args = (array(1.01), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -10472,8 +10472,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cc96d8a0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441259d8a0>],
       dtype=object)
 args = (array(1.01), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -10561,8 +10561,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cc96d4e0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441259d4e0>],
       dtype=object)
 args = (array(1.3), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -10650,8 +10650,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cc96cea0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441259cea0>],
       dtype=object)
 args = (array(1.3), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -10739,8 +10739,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cc96d3a0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441259d3a0>],
       dtype=object)
 args = (array(1.3), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -10828,8 +10828,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cc96c040>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441259c040>],
       dtype=object)
 args = (array(1.3), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -10917,8 +10917,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cc96d6c0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441259d6c0>],
       dtype=object)
 args = (array(1.3), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -11006,8 +11006,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cc96c180>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441259c180>],
       dtype=object)
 args = (array(1.7), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -11095,8 +11095,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cc96ce00>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441259ce00>],
       dtype=object)
 args = (array(1.7), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -11184,8 +11184,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cc96d300>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441259d300>],
       dtype=object)
 args = (array(1.7), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -11273,8 +11273,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cc96d6c0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441259d6c0>],
       dtype=object)
 args = (array(1.7), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -11362,8 +11362,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cc96c180>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441259c180>],
       dtype=object)
 args = (array(1.7), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -11451,8 +11451,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cc96ce00>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441259ce00>],
       dtype=object)
 args = (array(2.), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -11540,8 +11540,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cc96d300>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441259d300>],
       dtype=object)
 args = (array(2.), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -11629,8 +11629,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cc96e840>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441259e840>],
       dtype=object)
 args = (array(2.), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -11718,8 +11718,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cc96d760>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441259d760>],
       dtype=object)
 args = (array(2.), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -11807,8 +11807,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x79a21298f550>
-x = array([<function test_sample.<locals>.sampler at 0x79a1cc96e160>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a44551bdcd0>
+x = array([<function test_sample.<locals>.sampler at 0x7a441259e160>],
       dtype=object)
 args = (array(2.), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -11896,7 +11896,7 @@ FAILED ../publishablew/pyro/pyro/tests/distributions/test_stable.py::test_sample
 FAILED ../publishablew/pyro/pyro/tests/distributions/test_stable.py::test_sample[2.0-0.0]
 FAILED ../publishablew/pyro/pyro/tests/distributions/test_stable.py::test_sample[2.0-0.5]
 FAILED ../publishablew/pyro/pyro/tests/distributions/test_stable.py::test_sample[2.0-1.0]
-======================== 45 failed, 1 warning in 7.18s =========================
+======================== 45 failed, 1 warning in 6.79s =========================
 
 
 Initial Result:
@@ -12006,8 +12006,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff76297a660>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373db6a480>],
       dtype=object)
 args = (array(0.1), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -12095,8 +12095,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff76297aca0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373db6aac0>],
       dtype=object)
 args = (array(0.1), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -12184,8 +12184,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff76297ac00>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373db6aa20>],
       dtype=object)
 args = (array(0.1), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -12273,8 +12273,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff762978f40>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373db68900>],
       dtype=object)
 args = (array(0.1), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -12362,8 +12362,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761551e40>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373bd06de0>],
       dtype=object)
 args = (array(0.1), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -12451,8 +12451,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff7615531a0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373db6aac0>],
       dtype=object)
 args = (array(0.4), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -12540,8 +12540,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761552660>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373bd06340>],
       dtype=object)
 args = (array(0.4), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -12629,8 +12629,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761552200>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373bd05f80>],
       dtype=object)
 args = (array(0.4), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -12718,8 +12718,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761553100>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373bd04fe0>],
       dtype=object)
 args = (array(0.4), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -12807,8 +12807,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761552c00>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373bd067a0>],
       dtype=object)
 args = (array(0.4), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -12896,8 +12896,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761553060>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373bd06980>],
       dtype=object)
 args = (array(0.8), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -12985,8 +12985,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761552520>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373bd05d00>],
       dtype=object)
 args = (array(0.8), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -13074,8 +13074,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761553c40>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373bd051c0>],
       dtype=object)
 args = (array(0.8), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -13163,8 +13163,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff7615527a0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373bd062a0>],
       dtype=object)
 args = (array(0.8), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -13252,8 +13252,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761551f80>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373bd06b60>],
       dtype=object)
 args = (array(0.8), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -13341,8 +13341,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761551da0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373bd076a0>],
       dtype=object)
 args = (array(0.99), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -13430,8 +13430,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761552700>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373bd07ba0>],
       dtype=object)
 args = (array(0.99), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -13519,8 +13519,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761552160>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373bd07c40>],
       dtype=object)
 args = (array(0.99), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -13608,8 +13608,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761552980>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373bd06520>],
       dtype=object)
 args = (array(0.99), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -13697,8 +13697,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761553d80>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373bd076a0>],
       dtype=object)
 args = (array(0.99), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -16061,8 +16061,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761551da0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373bd06b60>],
       dtype=object)
 args = (array(1.01), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -16150,8 +16150,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761553560>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373bd071a0>],
       dtype=object)
 args = (array(1.01), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -16239,8 +16239,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761f489a0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373bd05c60>],
       dtype=object)
 args = (array(1.01), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -16328,8 +16328,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761f49940>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373b355940>],
       dtype=object)
 args = (array(1.01), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -16417,8 +16417,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761f482c0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373b3558a0>],
       dtype=object)
 args = (array(1.01), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -16506,8 +16506,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761f496c0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373b3554e0>],
       dtype=object)
 args = (array(1.3), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -16595,8 +16595,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761f491c0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373b354ea0>],
       dtype=object)
 args = (array(1.3), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -16684,8 +16684,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761f48f40>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373b3553a0>],
       dtype=object)
 args = (array(1.3), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -16773,8 +16773,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761f48540>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373b354040>],
       dtype=object)
 args = (array(1.3), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -16862,8 +16862,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761f49620>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373b3556c0>],
       dtype=object)
 args = (array(1.3), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -16951,8 +16951,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761f49800>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373b354180>],
       dtype=object)
 args = (array(1.7), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -17040,8 +17040,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761f480e0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373b354e00>],
       dtype=object)
 args = (array(1.7), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -17129,8 +17129,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761f48540>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373b355300>],
       dtype=object)
 args = (array(1.7), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -17218,8 +17218,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761f49620>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373b3556c0>],
       dtype=object)
 args = (array(1.7), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -17307,8 +17307,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761f49800>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373b354180>],
       dtype=object)
 args = (array(1.7), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -17396,8 +17396,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761f480e0>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373b354e00>],
       dtype=object)
 args = (array(2.), array(-1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -17485,8 +17485,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761f4a660>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373b355300>],
       dtype=object)
 args = (array(2.), array(-0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -17574,8 +17574,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761f48d60>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373b356840>],
       dtype=object)
 args = (array(2.), array(0.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -17663,8 +17663,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761f48540>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373b355760>],
       dtype=object)
 args = (array(2.), array(0.5)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -17752,8 +17752,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     return super().cdf(x, *args, **kwds)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7ff79e1aa310>
-x = array([<function test_sample.<locals>.sampler at 0x7ff761f4aa20>],
+self = <scipy.stats._levy_stable.levy_stable_gen object at 0x7a37647cb310>
+x = array([<function test_sample.<locals>.sampler at 0x7a373b356160>],
       dtype=object)
 args = (array(2.), array(1.)), kwds = {}, loc = array(0), scale = array(1)
 _a = -inf, _b = inf, dtyp = dtype('O')
@@ -17841,4 +17841,4 @@ FAILED ../publishablew/pyro/pyro/tests/distributions/test_stable.py::test_sample
 FAILED ../publishablew/pyro/pyro/tests/distributions/test_stable.py::test_sample[2.0-0.0]
 FAILED ../publishablew/pyro/pyro/tests/distributions/test_stable.py::test_sample[2.0-0.5]
 FAILED ../publishablew/pyro/pyro/tests/distributions/test_stable.py::test_sample[2.0-1.0]
-======================== 45 failed, 1 warning in 7.56s =========================
+======================== 45 failed, 1 warning in 6.69s =========================

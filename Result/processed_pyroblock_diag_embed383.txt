@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size1-1-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size0-2-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size2-3-batch_shape0]', '../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size2-3-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size2-3-batch_shape1]', 'FAILED ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size1-1-batch_shape1]', 'FAILED ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size1-1-batch_shape0]', '../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size2-3-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size0-2-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size0-2-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size0-2-batch_shape1]', '../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size1-1-batch_shape1] FAILED'}
+{'../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size2-3-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size2-3-batch_shape0]', '../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size0-2-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size1-1-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size2-3-batch_shape1] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size0-2-batch_shape1]', 'FAILED ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size1-1-batch_shape1]', 'FAILED ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size1-1-batch_shape0]', '../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size0-2-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size2-3-batch_shape1]', 'FAILED ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size0-2-batch_shape0]', '../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size1-1-batch_shape0] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -282,7 +282,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     block_diag = block_diag.reshape(*batch_dims, B * M, B * N)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x70dfcb906b10>
+self = <torch.utils._device.DeviceContext object at 0x7e37db301690>
 func = <method 'reshape' of 'torch._C.TensorBase' objects>, types = ()
 args = (tensor([[[[-0.1115],
           [ 0.1204],
@@ -326,7 +326,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     block_diag = block_diag.reshape(*batch_dims, B * M, B * N)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x70dfcb906b10>
+self = <torch.utils._device.DeviceContext object at 0x7e37db301690>
 func = <method 'reshape' of 'torch._C.TensorBase' objects>, types = ()
 args = (tensor([[[[[ 0.9098],
            [ 0.1538],
@@ -371,7 +371,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     block_diag = mat.unsqueeze(-3) * eye
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x70dfcb906b10>
+self = <torch.utils._device.DeviceContext object at 0x7e37db301690>
 func = <method 'mul' of 'torch._C.TensorBase' objects>, types = ()
 args = (tensor([[[[ 0.9098,  0.1538,  0.6344],
           [ 0.3665,  0.3767,  0.2252],
@@ -413,7 +413,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     block_diag = mat.unsqueeze(-3) * eye
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x70dfcb906b10>
+self = <torch.utils._device.DeviceContext object at 0x7e37db301690>
 func = <method 'mul' of 'torch._C.TensorBase' objects>, types = ()
 args = (tensor([[[[[ 9.0976e-01,  1.5376e-01,  6.3435e-01],
            [ 3.6655e-01,  3.7665e-01,  2.2516e-01],
@@ -440,7 +440,7 @@ FAILED ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag
 FAILED ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size1-1-batch_shape1]
 FAILED ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size2-3-batch_shape0]
 FAILED ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size2-3-batch_shape1]
-============================== 6 failed in 0.58s ===============================
+============================== 6 failed in 0.37s ===============================
 
 
 Final Test Result:
@@ -458,7 +458,7 @@ collecting ... collected 6 items
 ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size2-3-batch_shape0] PASSED
 ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size2-3-batch_shape1] PASSED
 
-============================== 6 passed in 0.27s ===============================
+============================== 6 passed in 0.29s ===============================
 
 
 Initial Result:
@@ -476,4 +476,4 @@ collecting ... collected 6 items
 ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size2-3-batch_shape0] PASSED
 ../publishablew/pyro/pyro/tests/ops/test_tensor_utils.py::test_block_diag[mat_size2-3-batch_shape1] PASSED
 
-============================== 6 passed in 0.39s ===============================
+============================== 6 passed in 0.32s ===============================

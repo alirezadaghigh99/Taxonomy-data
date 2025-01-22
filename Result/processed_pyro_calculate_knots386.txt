@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-3-batch_shape0]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-3-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-5-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-3-batch_shape2]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-3-batch_shape2] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-2-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-3-batch_shape2] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-2-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-5-batch_shape1] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-2-batch_shape2]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-3-batch_shape2] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-2-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-3-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-2-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-5-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-3-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-2-batch_shape2] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-2-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-2-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-5-batch_shape1]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-2-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-3-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-5-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-3-batch_shape1]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-3-batch_shape0]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-2-batch_shape2] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-2-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-2-batch_shape0]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-5-batch_shape2] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-2-batch_shape2] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-5-batch_shape2]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-3-batch_shape2] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-5-batch_shape1] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-3-batch_shape1]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-2-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-3-batch_shape2]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-2-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-2-batch_shape0] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-5-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-3-batch_shape2]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-2-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-3-batch_shape0] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-5-batch_shape2] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-3-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-3-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-3-batch_shape2] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-2-batch_shape1] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-3-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-5-batch_shape2]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-3-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-3-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-5-batch_shape0]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-5-batch_shape0] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-5-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-2-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-5-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-5-batch_shape0]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-3-batch_shape1] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-3-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-2-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-5-batch_shape0]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-5-batch_shape2] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-3-batch_shape0] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-5-batch_shape1] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-2-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-2-batch_shape1]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-3-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-5-batch_shape2]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-3-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-5-batch_shape2] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-2-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-3-batch_shape1] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-5-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-2-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-2-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-3-batch_shape2] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-5-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-5-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-5-batch_shape2] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-2-batch_shape2] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-3-batch_shape1]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-2-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-5-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-2-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-2-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-3-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-3-batch_shape0]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-2-batch_shape2] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-5-batch_shape0] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-3-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-5-batch_shape1]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-2-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-5-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-5-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-5-batch_shape1] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-3-batch_shape0]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-5-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-5-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-2-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-5-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-3-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-2-batch_shape2] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-5-batch_shape2] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-2-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-2-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-2-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-3-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-5-batch_shape1]'}
+{'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-2-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-5-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-5-batch_shape2]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-3-batch_shape1] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-5-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-3-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-3-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-3-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-3-batch_shape0] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-3-batch_shape2] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-5-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-3-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-5-batch_shape0]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-5-batch_shape1] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-2-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-5-batch_shape2] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-2-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-2-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-5-batch_shape1] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-5-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-3-batch_shape1]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-3-batch_shape2]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-2-batch_shape2] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-5-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-3-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-5-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-5-batch_shape0] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-2-batch_shape2] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-2-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-5-batch_shape0] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-2-batch_shape2] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-3-batch_shape0]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-2-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-5-batch_shape0] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-5-batch_shape2] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-5-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-3-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-3-batch_shape1] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-2-batch_shape1]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-2-batch_shape2]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-3-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-2-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-2-batch_shape0]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-3-batch_shape0] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-2-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-5-batch_shape2] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-5-batch_shape2]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-5-batch_shape2] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-2-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-3-batch_shape2]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-3-batch_shape2] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-3-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-2-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-3-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-3-batch_shape2]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-2-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-5-batch_shape0]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-2-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-3-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-3-batch_shape2] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-5-batch_shape0] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-2-batch_shape2] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-2-batch_shape0] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-3-batch_shape2] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-2-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-5-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-2-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-3-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-5-batch_shape1] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-5-batch_shape1]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-3-batch_shape0]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-3-batch_shape2] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-2-batch_shape2] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-5-batch_shape1] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-2-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-2-batch_shape0]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-2-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-3-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-3-batch_shape0]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-5-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-2-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-5-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-3-batch_shape1] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-2-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-3-batch_shape1]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-2-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-2-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-5-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-5-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-3-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-2-batch_shape2] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-2-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-2-batch_shape1] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-5-batch_shape1]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-2-batch_shape0] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-3-batch_shape0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-3-batch_shape2]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-5-batch_shape1]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-2-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-2-batch_shape1]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-5-batch_shape0]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-2-5-batch_shape2] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-5-batch_shape0] FAILED', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-3-3-batch_shape2] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-5-3-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-5-batch_shape0]', 'FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-3-3-batch_shape0]', '../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[0-2-5-batch_shape2] FAILED'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -125,8 +125,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 1.8673,  0.5217,  2.3036,  0.5586, -0.6322, -1.0159, -0.8111, -1.8162],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
        grad_fn=<AddBackward0>)),)
@@ -192,8 +192,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 1.8673,  0.5217,  2.3036,  0.5586, -0.6322, -1.0159, -0.8111, -1.8162],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
        grad_fn=<AddBackward0>)),)
@@ -259,8 +259,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 1.8673,  0.5217,  2.3036,  0.5586, -0.6322, -1.0159, -0.8111, -1.8162],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
        grad_fn=<AddBackward0>)),)
@@ -326,8 +326,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 0.2260, -1.5024, -1.9946,  0.3893, -1.4302,  0.2602,  1.2458, -1.7302],
         [ 0.6044,  ...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -394,8 +394,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 0.2260, -1.5024, -1.9946,  0.3893, -1.4302,  0.2602,  1.2458, -1.7302],
         [ 0.6044,  ...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -462,8 +462,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 0.2260, -1.5024, -1.9946,  0.3893, -1.4302,  0.2602,  1.2458, -1.7302],
         [ 0.6044,  ...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -530,8 +530,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[-0.7775, -1.9200, -2.0357, -1.2797, -1.5925, -2.2816, -1.5718, -2.5594],
         [-0.2603, -...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -598,8 +598,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[-0.7775, -1.9200, -2.0357, -1.2797, -1.5925, -2.2816, -1.5718, -2.5594],
         [-0.2603, -...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -666,8 +666,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[-0.7775, -1.9200, -2.0357, -1.2797, -1.5925, -2.2816, -1.5718, -2.5594],
         [-0.2603, -...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -734,8 +734,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 1.8673,  0.5217,  2.3036,  0.5586, -0.6322, -1.0159, -0.8111, -1.8162],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
        grad_fn=<AddBackward0>)),)
@@ -801,8 +801,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 1.8673,  0.5217,  2.3036,  0.5586, -0.6322, -1.0159, -0.8111, -1.8162],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
        grad_fn=<AddBackward0>)),)
@@ -868,8 +868,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 1.8673,  0.5217,  2.3036,  0.5586, -0.6322, -1.0159, -0.8111, -1.8162],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
        grad_fn=<AddBackward0>)),)
@@ -935,8 +935,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 0.2260, -1.5024, -1.9946,  0.3893, -1.4302,  0.2602,  1.2458, -1.7302],
         [ 0.6044,  ...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -1003,8 +1003,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 0.2260, -1.5024, -1.9946,  0.3893, -1.4302,  0.2602,  1.2458, -1.7302],
         [ 0.6044,  ...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -1071,8 +1071,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 0.2260, -1.5024, -1.9946,  0.3893, -1.4302,  0.2602,  1.2458, -1.7302],
         [ 0.6044,  ...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -1139,8 +1139,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[-0.7775, -1.9200, -2.0357, -1.2797, -1.5925, -2.2816, -1.5718, -2.5594],
         [-0.2603, -...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -1207,8 +1207,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[-0.7775, -1.9200, -2.0357, -1.2797, -1.5925, -2.2816, -1.5718, -2.5594],
         [-0.2603, -...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -1275,8 +1275,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[-0.7775, -1.9200, -2.0357, -1.2797, -1.5925, -2.2816, -1.5718, -2.5594],
         [-0.2603, -...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -1343,8 +1343,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 1.8673,  0.5217,  2.3036,  0.5586, -0.6322, -1.0159, -0.8111, -1.8162],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
        grad_fn=<AddBackward0>)),)
@@ -1410,8 +1410,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 1.8673,  0.5217,  2.3036,  0.5586, -0.6322, -1.0159, -0.8111, -1.8162],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
        grad_fn=<AddBackward0>)),)
@@ -1477,8 +1477,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 1.8673,  0.5217,  2.3036,  0.5586, -0.6322, -1.0159, -0.8111, -1.8162],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
        grad_fn=<AddBackward0>)),)
@@ -1544,8 +1544,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 0.2260, -1.5024, -1.9946,  0.3893, -1.4302,  0.2602,  1.2458, -1.7302],
         [ 0.6044,  ...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -1612,8 +1612,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 0.2260, -1.5024, -1.9946,  0.3893, -1.4302,  0.2602,  1.2458, -1.7302],
         [ 0.6044,  ...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -1680,8 +1680,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 0.2260, -1.5024, -1.9946,  0.3893, -1.4302,  0.2602,  1.2458, -1.7302],
         [ 0.6044,  ...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -1748,8 +1748,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[-0.7775, -1.9200, -2.0357, -1.2797, -1.5925, -2.2816, -1.5718, -2.5594],
         [-0.2603, -...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -1816,8 +1816,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[-0.7775, -1.9200, -2.0357, -1.2797, -1.5925, -2.2816, -1.5718, -2.5594],
         [-0.2603, -...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -1884,8 +1884,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[-0.7775, -1.9200, -2.0357, -1.2797, -1.5925, -2.2816, -1.5718, -2.5594],
         [-0.2603, -...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -1952,8 +1952,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 1.8673,  0.5217,  2.3036,  0.5586, -0.6322, -1.0159, -0.8111, -1.8162],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
        grad_fn=<AddBackward0>)),)
@@ -2019,8 +2019,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 1.8673,  0.5217,  2.3036,  0.5586, -0.6322, -1.0159, -0.8111, -1.8162],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
        grad_fn=<AddBackward0>)),)
@@ -2086,8 +2086,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 1.8673,  0.5217,  2.3036,  0.5586, -0.6322, -1.0159, -0.8111, -1.8162],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
        grad_fn=<AddBackward0>)),)
@@ -2153,8 +2153,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 0.2260, -1.5024, -1.9946,  0.3893, -1.4302,  0.2602,  1.2458, -1.7302],
         [ 0.6044,  ...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -2221,8 +2221,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 0.2260, -1.5024, -1.9946,  0.3893, -1.4302,  0.2602,  1.2458, -1.7302],
         [ 0.6044,  ...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -2289,8 +2289,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 0.2260, -1.5024, -1.9946,  0.3893, -1.4302,  0.2602,  1.2458, -1.7302],
         [ 0.6044,  ...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -2357,8 +2357,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[-0.7775, -1.9200, -2.0357, -1.2797, -1.5925, -2.2816, -1.5718, -2.5594],
         [-0.2603, -...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -2425,8 +2425,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[-0.7775, -1.9200, -2.0357, -1.2797, -1.5925, -2.2816, -1.5718, -2.5594],
         [-0.2603, -...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -2493,8 +2493,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[-0.7775, -1.9200, -2.0357, -1.2797, -1.5925, -2.2816, -1.5718, -2.5594],
         [-0.2603, -...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -2561,8 +2561,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 1.8673,  0.5217,  2.3036,  0.5586, -0.6322, -1.0159, -0.8111, -1.8162],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
        grad_fn=<AddBackward0>)),)
@@ -2628,8 +2628,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 1.8673,  0.5217,  2.3036,  0.5586, -0.6322, -1.0159, -0.8111, -1.8162],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
        grad_fn=<AddBackward0>)),)
@@ -2695,8 +2695,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 1.8673,  0.5217,  2.3036,  0.5586, -0.6322, -1.0159, -0.8111, -1.8162],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
        grad_fn=<AddBackward0>)),)
@@ -2762,8 +2762,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 0.2260, -1.5024, -1.9946,  0.3893, -1.4302,  0.2602,  1.2458, -1.7302],
         [ 0.6044,  ...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -2830,8 +2830,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 0.2260, -1.5024, -1.9946,  0.3893, -1.4302,  0.2602,  1.2458, -1.7302],
         [ 0.6044,  ...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -2898,8 +2898,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 0.2260, -1.5024, -1.9946,  0.3893, -1.4302,  0.2602,  1.2458, -1.7302],
         [ 0.6044,  ...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -2966,8 +2966,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[-0.7775, -1.9200, -2.0357, -1.2797, -1.5925, -2.2816, -1.5718, -2.5594],
         [-0.2603, -...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -3034,8 +3034,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[-0.7775, -1.9200, -2.0357, -1.2797, -1.5925, -2.2816, -1.5718, -2.5594],
         [-0.2603, -...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -3102,8 +3102,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[-0.7775, -1.9200, -2.0357, -1.2797, -1.5925, -2.2816, -1.5718, -2.5594],
         [-0.2603, -...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -3170,8 +3170,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 1.8673,  0.5217,  2.3036,  0.5586, -0.6322, -1.0159, -0.8111, -1.8162],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
        grad_fn=<AddBackward0>)),)
@@ -3237,8 +3237,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 1.8673,  0.5217,  2.3036,  0.5586, -0.6322, -1.0159, -0.8111, -1.8162],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
        grad_fn=<AddBackward0>)),)
@@ -3304,8 +3304,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 1.8673,  0.5217,  2.3036,  0.5586, -0.6322, -1.0159, -0.8111, -1.8162],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
        grad_fn=<AddBackward0>)),)
@@ -3371,8 +3371,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 0.2260, -1.5024, -1.9946,  0.3893, -1.4302,  0.2602,  1.2458, -1.7302],
         [ 0.6044,  ...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -3439,8 +3439,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 0.2260, -1.5024, -1.9946,  0.3893, -1.4302,  0.2602,  1.2458, -1.7302],
         [ 0.6044,  ...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -3507,8 +3507,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[ 0.2260, -1.5024, -1.9946,  0.3893, -1.4302,  0.2602,  1.2458, -1.7302],
         [ 0.6044,  ...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -3575,8 +3575,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[-0.7775, -1.9200, -2.0357, -1.2797, -1.5925, -2.2816, -1.5718, -2.5594],
         [-0.2603, -...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -3643,8 +3643,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[-0.7775, -1.9200, -2.0357, -1.2797, -1.5925, -2.2816, -1.5718, -2.5594],
         [-0.2603, -...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -3711,8 +3711,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     adjusted_lengths = torch.diff(torch.cat((torch.tensor([lower]), knot_positions)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <torch.utils._device.DeviceContext object at 0x7bd74e310e50>
-func = <built-in method cat of type object at 0x7bd80aed0240>, types = ()
+self = <torch.utils._device.DeviceContext object at 0x7f271f71fed0>
+func = <built-in method cat of type object at 0x7f27e44d0240>, types = ()
 args = ((tensor([-3.]), tensor([[-0.7775, -1.9200, -2.0357, -1.2797, -1.5925, -2.2816, -1.5718, -2.5594],
         [-0.2603, -...],
         [ 3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000,  3.0000]],
@@ -3782,7 +3782,7 @@ FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_co
 FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-5-batch_shape0]
 FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-5-batch_shape1]
 FAILED ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-5-batch_shape2]
-============================== 54 failed in 2.93s ==============================
+============================== 54 failed in 2.69s ==============================
 
 
 Final Test Result:
@@ -3848,7 +3848,7 @@ collecting ... collected 54 items
 ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-5-batch_shape1] PASSED
 ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-5-batch_shape2] PASSED
 
-============================== 54 passed in 1.66s ==============================
+============================== 54 passed in 1.65s ==============================
 
 
 Initial Result:
@@ -3914,4 +3914,4 @@ collecting ... collected 54 items
 ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-5-batch_shape1] PASSED
 ../publishablew/pyro/pyro/tests/distributions/test_transforms.py::test_conditional_compose_transform_module[1-5-5-batch_shape2] PASSED
 
-============================== 54 passed in 3.05s ==============================
+============================== 54 passed in 1.78s ==============================

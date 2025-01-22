@@ -7,7 +7,7 @@ Error Cases:
 Pass or Failed: 0
 
 Related Failed Test Cases:
-{'../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-10.0-1.0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-10.0-2.0]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[10.0-1.0-2.0]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_binomial[5.0-5.0]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_binomial_vs_poisson[1.0-10]', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[10.0-1.0-0.5] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-1.0-2.0]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-1.0-1.0]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_binomial_vs_poisson[1.0-1]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[5.0-5-0.5]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[5.0-5-1.0]', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-1.0-0.5] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_negative_binomial_vs_poisson[1.0-10.0]', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[10.0-1.0-2.0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_binomial_vs_poisson[10.0-1]', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-1.0-2.0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_binomial_vs_poisson[5.0-5]', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_binomial[10.0-1.0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-1.0-0.5]', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_binomial[1.0-10.0] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_binomial_vs_poisson[1.0-10] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_negative_binomial_vs_poisson[5.0-5.0] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_binomial_vs_poisson[10.0-1] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_binomial[1.0-1.0]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_negative_binomial_vs_poisson[5.0-5.0]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_negative_binomial_vs_poisson[1.0-1.0]', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_negative_binomial_vs_poisson[10.0-1.0] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_binomial_vs_poisson[5.0-5] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-10.0-1.0]', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-1.0-1.0] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[5.0-5-2.0] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[5.0-5-0.5] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-10.0-0.5] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_binomial[1.0-1.0] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_negative_binomial_vs_poisson[1.0-1.0] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[10.0-1.0-1.0] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-10.0-2.0] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[5.0-5-1.0] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_binomial[5.0-5.0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_binomial[10.0-1.0]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_negative_binomial_vs_poisson[10.0-1.0]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[10.0-1.0-0.5]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[10.0-1.0-1.0]', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_negative_binomial_vs_poisson[1.0-10.0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-10.0-0.5]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_binomial[1.0-10.0]', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_binomial_vs_poisson[1.0-1] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[5.0-5-2.0]'}
+{'../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[10.0-1.0-2.0] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_negative_binomial_vs_poisson[10.0-1.0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_negative_binomial_vs_poisson[1.0-1.0]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_negative_binomial_vs_poisson[1.0-10.0]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-10.0-1.0]', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-1.0-1.0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_binomial[1.0-10.0]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_binomial[10.0-1.0]', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-10.0-0.5] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_binomial[1.0-1.0] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_negative_binomial_vs_poisson[1.0-1.0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[10.0-1.0-1.0]', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-1.0-0.5] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[5.0-5-2.0] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-10.0-1.0] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_binomial[10.0-1.0] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[10.0-1.0-0.5] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[5.0-5-1.0] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_binomial[1.0-10.0] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_binomial[5.0-5.0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_negative_binomial_vs_poisson[5.0-5.0]', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_binomial_vs_poisson[5.0-5] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_binomial_vs_poisson[10.0-1] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_negative_binomial_vs_poisson[5.0-5.0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[10.0-1.0-2.0]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_negative_binomial_vs_poisson[10.0-1.0]', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-1.0-2.0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-10.0-2.0]', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_binomial_vs_poisson[1.0-1] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-10.0-0.5]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_binomial[5.0-5.0]', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-10.0-2.0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_binomial_vs_poisson[5.0-5]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[10.0-1.0-0.5]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_binomial_vs_poisson[1.0-1]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-1.0-1.0]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_binomial[1.0-1.0]', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_negative_binomial_vs_poisson[1.0-10.0] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[10.0-1.0-1.0] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_binomial_vs_poisson[10.0-1]', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_binomial_vs_poisson[1.0-10] FAILED', '../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[5.0-5-0.5] FAILED', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_binomial_vs_poisson[1.0-10]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[5.0-5-0.5]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-1.0-2.0]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[5.0-5-2.0]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[5.0-5-1.0]', 'FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_beta_binomial_vs_negative_binomial[1.0-1.0-0.5]'}
 
 All Test Cases On Generated code:
 ============================= test session starts ==============================
@@ -348,21 +348,13 @@ R0 = tensor(1.), I = tensor(1)
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:48: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 _______________________ test_binomial_vs_poisson[1.0-10] _______________________
 
 R0 = tensor(1.), I = tensor(10)
@@ -384,21 +376,13 @@ R0 = tensor(1.), I = tensor(10)
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:48: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 _______________________ test_binomial_vs_poisson[10.0-1] _______________________
 
 R0 = tensor(10.), I = tensor(1)
@@ -420,21 +404,13 @@ R0 = tensor(10.), I = tensor(1)
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:48: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 _______________________ test_binomial_vs_poisson[5.0-5] ________________________
 
 R0 = tensor(5.), I = tensor(5)
@@ -456,21 +432,13 @@ R0 = tensor(5.), I = tensor(5)
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:48: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 _____________ test_beta_binomial_vs_negative_binomial[1.0-1.0-0.5] _____________
 
 R0 = tensor(1.), I = tensor(1.), k = 0.5
@@ -500,21 +468,13 @@ R0 = tensor(1.), I = tensor(1.), k = 0.5
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:79: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 _____________ test_beta_binomial_vs_negative_binomial[1.0-1.0-1.0] _____________
 
 R0 = tensor(1.), I = tensor(1.), k = 1.0
@@ -544,21 +504,13 @@ R0 = tensor(1.), I = tensor(1.), k = 1.0
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:79: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 _____________ test_beta_binomial_vs_negative_binomial[1.0-1.0-2.0] _____________
 
 R0 = tensor(1.), I = tensor(1.), k = 2.0
@@ -588,21 +540,13 @@ R0 = tensor(1.), I = tensor(1.), k = 2.0
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:79: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 ____________ test_beta_binomial_vs_negative_binomial[1.0-10.0-0.5] _____________
 
 R0 = tensor(1.), I = tensor(10.), k = 0.5
@@ -632,21 +576,13 @@ R0 = tensor(1.), I = tensor(10.), k = 0.5
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:79: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 ____________ test_beta_binomial_vs_negative_binomial[1.0-10.0-1.0] _____________
 
 R0 = tensor(1.), I = tensor(10.), k = 1.0
@@ -676,21 +612,13 @@ R0 = tensor(1.), I = tensor(10.), k = 1.0
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:79: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 ____________ test_beta_binomial_vs_negative_binomial[1.0-10.0-2.0] _____________
 
 R0 = tensor(1.), I = tensor(10.), k = 2.0
@@ -720,21 +648,13 @@ R0 = tensor(1.), I = tensor(10.), k = 2.0
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:79: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 ____________ test_beta_binomial_vs_negative_binomial[10.0-1.0-0.5] _____________
 
 R0 = tensor(10.), I = tensor(1.), k = 0.5
@@ -764,21 +684,13 @@ R0 = tensor(10.), I = tensor(1.), k = 0.5
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:79: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 ____________ test_beta_binomial_vs_negative_binomial[10.0-1.0-1.0] _____________
 
 R0 = tensor(10.), I = tensor(1.), k = 1.0
@@ -808,21 +720,13 @@ R0 = tensor(10.), I = tensor(1.), k = 1.0
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:79: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 ____________ test_beta_binomial_vs_negative_binomial[10.0-1.0-2.0] _____________
 
 R0 = tensor(10.), I = tensor(1.), k = 2.0
@@ -852,21 +756,13 @@ R0 = tensor(10.), I = tensor(1.), k = 2.0
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:79: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 ______________ test_beta_binomial_vs_negative_binomial[5.0-5-0.5] ______________
 
 R0 = tensor(5.), I = tensor(5), k = 0.5
@@ -896,21 +792,13 @@ R0 = tensor(5.), I = tensor(5), k = 0.5
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:79: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 ______________ test_beta_binomial_vs_negative_binomial[5.0-5-1.0] ______________
 
 R0 = tensor(5.), I = tensor(5), k = 1.0
@@ -940,21 +828,13 @@ R0 = tensor(5.), I = tensor(5), k = 1.0
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:79: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 ______________ test_beta_binomial_vs_negative_binomial[5.0-5-2.0] ______________
 
 R0 = tensor(5.), I = tensor(5), k = 2.0
@@ -984,21 +864,13 @@ R0 = tensor(5.), I = tensor(5), k = 2.0
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:79: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 ___________________ test_beta_binomial_vs_binomial[1.0-1.0] ____________________
 
 R0 = tensor(1.), I = tensor(1.)
@@ -1022,21 +894,13 @@ R0 = tensor(1.), I = tensor(1.)
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:106: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 ___________________ test_beta_binomial_vs_binomial[1.0-10.0] ___________________
 
 R0 = tensor(1.), I = tensor(10.)
@@ -1060,21 +924,13 @@ R0 = tensor(1.), I = tensor(10.)
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:106: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 ___________________ test_beta_binomial_vs_binomial[10.0-1.0] ___________________
 
 R0 = tensor(10.), I = tensor(1.)
@@ -1098,21 +954,13 @@ R0 = tensor(10.), I = tensor(1.)
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:106: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 ___________________ test_beta_binomial_vs_binomial[5.0-5.0] ____________________
 
 R0 = tensor(5.), I = tensor(5.)
@@ -1136,21 +984,13 @@ R0 = tensor(5.), I = tensor(5.)
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:106: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 __________________ test_negative_binomial_vs_poisson[1.0-1.0] __________________
 
 R0 = tensor(1.), I = tensor(1.)
@@ -1172,21 +1012,13 @@ R0 = tensor(1.), I = tensor(1.)
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:135: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 _________________ test_negative_binomial_vs_poisson[1.0-10.0] __________________
 
 R0 = tensor(1.), I = tensor(10.)
@@ -1208,21 +1040,13 @@ R0 = tensor(1.), I = tensor(10.)
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:135: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 _________________ test_negative_binomial_vs_poisson[10.0-1.0] __________________
 
 R0 = tensor(10.), I = tensor(1.)
@@ -1244,21 +1068,13 @@ R0 = tensor(10.), I = tensor(1.)
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:135: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 __________________ test_negative_binomial_vs_poisson[5.0-5.0] __________________
 
 R0 = tensor(5.), I = tensor(5.)
@@ -1280,21 +1096,13 @@ R0 = tensor(5.), I = tensor(5.)
 
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py:135: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:211: in infection_dist
-    from .temp import infection_dist
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-    import math
-    from contextlib import contextmanager
-    import torch
-    from torch.distributions.utils import broadcast_all
-    import pyro.distributions as dist
-    from pyro.distributions.util import is_validation_enabled
-    import numpy as np
->   from scipy.stats import poisson, nbinom, binom, betabinom
-E   ModuleNotFoundError: No module named 'scipy'
+    def infection_dist(*, individual_rate, num_infectious, num_susceptible=math.inf, population=math.inf, concentration=math.inf, overdispersion=0.0):
+        from .temp import infection_dist
+>       return infection_dist()
+E       TypeError: infection_dist() missing 6 required positional arguments: 'individual_rate', 'num_infectious', 'num_susceptible', 'population', 'concentration', and 'overdispersion'
 
-../publishablew/pyro/pyro/pyro/contrib/epidemiology/temp.py:8: ModuleNotFoundError
+../publishablew/pyro/pyro/pyro/contrib/epidemiology/distributions.py:212: TypeError
 =========================== short test summary info ============================
 FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_binomial_vs_poisson[1.0-1]
 FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_binomial_vs_poisson[1.0-10]
@@ -1320,7 +1128,7 @@ FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.p
 FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_negative_binomial_vs_poisson[1.0-10.0]
 FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_negative_binomial_vs_poisson[10.0-1.0]
 FAILED ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_negative_binomial_vs_poisson[5.0-5.0]
-======================== 24 failed, 284 passed in 0.86s ========================
+======================== 24 failed, 284 passed in 1.13s ========================
 
 
 Final Test Result:
@@ -1640,7 +1448,7 @@ collecting ... collected 308 items
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_relaxed_overdispersed_beta_binomial[0.5] PASSED
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_relaxed_overdispersed_beta_binomial[1.0] PASSED
 
-============================= 308 passed in 0.62s ==============================
+============================= 308 passed in 0.72s ==============================
 
 
 Initial Result:
@@ -1960,4 +1768,4 @@ collecting ... collected 308 items
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_relaxed_overdispersed_beta_binomial[0.5] PASSED
 ../publishablew/pyro/pyro/tests/contrib/epidemiology/test_distributions.py::test_relaxed_overdispersed_beta_binomial[1.0] PASSED
 
-============================= 308 passed in 1.25s ==============================
+============================= 308 passed in 0.95s ==============================
